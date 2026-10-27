@@ -216,7 +216,7 @@ const COURSE_SYSTEM = `You are a professor at Artificial Intelligence University
 Rules:
 - Use Markdown: ## and ### headings, short paragraphs, lists, tables, and fenced code blocks or LaTeX-free plain math where useful. Do not start with an H1; the page already shows the week title.
 - Do not invent citations, URLs, quotations, or precise statistics. When referring to research, describe well-established findings in general terms.
-- Assessments must test understanding and application, not trivia. Multiple-choice distractors should be plausible. Vary which choice is correct.
+- Assessments must test understanding and application, not trivia. Question prompts may use Markdown; put any code in a fenced block. Multiple-choice distractors should be plausible. Vary which choice is correct.
 - Assignments must be completable as a written response (no file uploads, no external accounts).`;
 
 function courseContext(summary: CourseSummary, programTitles: string[]) {

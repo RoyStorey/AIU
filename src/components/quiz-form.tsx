@@ -1,4 +1,5 @@
 import type { Question } from "@/lib/content/schema";
+import { Markdown } from "./markdown";
 import { Button } from "./ui";
 
 type PublicQuestion = Pick<Question, "prompt" | "choices">;
@@ -23,10 +24,7 @@ export function QuizForm({
       {questions.map((q, i) => (
         <fieldset key={i} className="rounded-lg border border-navy-100 bg-white p-5">
           <legend className="sr-only">Question {i + 1}</legend>
-          <p className="font-medium text-navy-900">
-            <span className="mr-2 text-navy-400">{i + 1}.</span>
-            {q.prompt}
-          </p>
+          <Prompt n={i + 1} text={q.prompt} />
           <div className="mt-4 space-y-2">
             {q.choices.map((choice, j) => (
               <label key={j} className="flex cursor-pointer items-start gap-3 rounded-md px-3 py-2 text-sm text-navy-800 ring-1 ring-inset ring-navy-100 hover:bg-navy-50 has-[:checked]:bg-navy-50 has-[:checked]:ring-navy-400">
@@ -49,10 +47,7 @@ export function QuizReview({ questions, answers, revealAnswers }: { questions: Q
         const correct = answers[i] === q.answerIndex;
         return (
           <li key={i} className={`rounded-lg border p-5 ${correct ? "border-emerald-200 bg-emerald-50/50" : "border-red-200 bg-red-50/40"}`}>
-            <p className="font-medium text-navy-900">
-              <span className="mr-2 text-navy-400">{i + 1}.</span>
-              {q.prompt}
-            </p>
+            <Prompt n={i + 1} text={q.prompt} />
             <p className="mt-2 text-sm">
               <span className={correct ? "font-semibold text-emerald-700" : "font-semibold text-red-700"}>{correct ? "Correct" : "Incorrect"}</span>
               {answers[i] >= 0 && <span className="text-navy-600"> · Your answer: {q.choices[answers[i]]}</span>}
@@ -67,5 +62,14 @@ export function QuizReview({ questions, answers, revealAnswers }: { questions: Q
         );
       })}
     </ol>
+  );
+}
+
+function Prompt({ n, text }: { n: number; text: string }) {
+  return (
+    <div className="flex gap-2 font-medium text-navy-900">
+      <span className="text-navy-400">{n}.</span>
+      <Markdown className="prose-sm min-w-0 flex-1 text-navy-900 prose-p:my-0 prose-p:font-medium prose-pre:my-3">{text}</Markdown>
+    </div>
   );
 }
