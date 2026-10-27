@@ -20,17 +20,26 @@ export async function POST(req: Request) {
   const encoder = new TextEncoder();
   const body = new ReadableStream({
     async start(controller) {
+      let open = true;
+      const write = (s: string) => {
+        if (!open) return;
+        try {
+          controller.enqueue(encoder.encode(s));
+        } catch {
+          open = false; // client went away
+        }
+      };
       const send = (e: ForgeEvent | { type: "done"; course: unknown } | { type: "error"; message: string }) =>
-        controller.enqueue(encoder.encode(`data: ${JSON.stringify(e)}\n\n`));
-      const keepAlive = setInterval(() => controller.enqueue(encoder.encode(": ping\n\n")), 15000);
+        write(`data: ${JSON.stringify(e)}\n\n`);
+      const keepAlive = setInterval(() => write(": ping\n\n"), 15000);
       try {
-        const { data, ledger } = await forgeCourse(topicTitle, option, send);
+        const { data, ledger } = await forgeCourse(topicTitle, option, send, req.signal);
         send({ type: "done", course: normalizeCourse(data, ledger, { topicId, option }) });
       } catch (err) {
         send({ type: "error", message: describeError(err).message });
       } finally {
         clearInterval(keepAlive);
-        controller.close();
+        if (open) controller.close();
       }
     },
   });

@@ -28,7 +28,7 @@ Write with warmth, specificity, and wit. Prefer vivid concrete examples, named p
 
 /* ------------------------------------------------------------------ explore */
 
-export async function exploreTopic(query: string) {
+export async function exploreTopic(query: string, avoid: string[] = []) {
   const res = await getClient().beta.messages.parse({
     model: MODEL,
     max_tokens: 8000,
@@ -43,7 +43,9 @@ export async function exploreTopic(query: string) {
 Design a menu of exactly 6 distinct courses they could choose from. Make them genuinely different angles on the subject:
 mix eras, regions, methods, and formats (e.g. a survey, a deep dive on one figure or work, a hands-on practice course,
 a "history through objects" course, a contrarian or surprising angle, a beginner-friendly on-ramp).
-Use a spread of levels and colors. If the subject is a skill (like chess or watercolor), lean toward practice-heavy courses.`,
+Use a spread of levels and colors. If the subject is a skill (like chess or watercolor), lean toward practice-heavy courses.${
+          avoid.length ? `\n\nThey have already seen these courses, so offer fresh, different angles: ${avoid.join("; ")}` : ""
+        }`,
       },
     ],
   });
@@ -87,6 +89,7 @@ async function research(
   option: CourseOption,
   ledger: SourceLedger,
   emit: (e: ForgeEvent) => void,
+  signal?: AbortSignal,
 ): Promise<string> {
   const messages: Anthropic.Beta.BetaMessageParam[] = [
     {
@@ -120,7 +123,7 @@ Finish with a short outline of ${option.lessonCount} lesson ideas.`,
       output_config: { effort: "medium" },
       tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 10 }],
       messages,
-    });
+    }, { signal });
     stream.on("contentBlock", (block) => {
       if (block.type === "server_tool_use" && block.name === "web_search") {
         const query = (block.input as { query?: unknown }).query;
@@ -144,9 +147,14 @@ Finish with a short outline of ${option.lessonCount} lesson ideas.`,
   return finalText;
 }
 
-export async function forgeCourse(topicTitle: string, option: CourseOption, emit: (e: ForgeEvent) => void) {
+export async function forgeCourse(
+  topicTitle: string,
+  option: CourseOption,
+  emit: (e: ForgeEvent) => void,
+  signal?: AbortSignal,
+) {
   const ledger = new SourceLedger();
-  const dossier = await research(topicTitle, option, ledger, emit);
+  const dossier = await research(topicTitle, option, ledger, emit, signal);
 
   emit({ type: "status", phase: "write", message: "The faculty is writing your lessons…" });
   const stream = getClient().beta.messages.stream({
@@ -182,7 +190,7 @@ Guidance:
 - library: the best 6-10 resources overall, at least 3 books.`,
       },
     ],
-  });
+  }, { signal });
 
   let chars = 0;
   let buffer = "";

@@ -43,6 +43,7 @@ type State = {
 
   addTopic: (t: Topic) => void;
   removeTopic: (id: string) => void;
+  addOptions: (topicId: string, options: Topic["options"]) => void;
   addCourse: (c: Course) => void;
   completeLesson: (courseId: string, lessonId: string) => void;
   recordActivity: (courseId: string, activityId: string, result: Omit<ActivityResult, "at">, xp: number, kind: string) => void;
@@ -154,6 +155,11 @@ export const useStore = create<State>()(
             const topics = { ...s.topics };
             delete topics[id];
             return { topics };
+          }),
+        addOptions: (topicId, options) =>
+          setState((s) => {
+            const t = s.topics[topicId];
+            return t ? { topics: { ...s.topics, [topicId]: { ...t, options: [...t.options, ...options] } } } : {};
           }),
         addCourse: (c) => {
           setState((s) => {
