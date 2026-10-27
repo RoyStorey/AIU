@@ -4,9 +4,1097 @@
   "category": "foundation",
   "description": "A course in reading poems: imagery, figurative language, sound, rhythm and meter, line and stanza, and traditional and open forms, studied through poems from Shakespeare's sonnets to contemporary verse.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": [],
-  "resources": []
+  "status": "published",
+  "outcomes": [
+    "Read poems closely, identifying speaker, situation, and turn.",
+    "Analyze imagery and figurative language and explain their effects.",
+    "Identify and interpret sound, rhythm, and meter, including through scansion.",
+    "Analyze lines, stanzas, free verse, and fixed forms.",
+    "Interpret tone and voice and integrate formal elements into readings.",
+    "Write poetry explications with precise quotation and line citation."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "What Is a Poem?",
+      "overview": "How poems differ from prose, the speaker and situation of a poem, and a method for reading a poem slowly and well.",
+      "objectives": [
+        "Explain what distinguishes poetry from prose.",
+        "Distinguish the speaker of a poem from the poet and identify the poem's situation.",
+        "Apply a step-by-step method for reading a poem."
+      ],
+      "lesson": "## Language under pressure\n\nPoetry is the oldest form of literature. Long before writing, people sang and recited poems to remember histories, honor the dead, court lovers, and praise gods. What makes language poetry? No definition is perfect, but poems tend to:\n\n- **Compress** meaning, making every word count.\n- Use the **line** as a unit of meaning, so where a line breaks matters.\n- Exploit **sound and rhythm**.\n- Rely on **images** and **figurative language**.\n- Invite **rereading**: their meanings unfold over time.\n\nThe poet Samuel Taylor Coleridge defined poetry as \"the best words in the best order.\" Whatever else poetry is, it is language in which nothing is accidental, or in which everything rewards being read as if it weren't.\n\n## Kinds of poems\n\n- **Lyric** poems express a speaker's thoughts and feelings, usually briefly. Most poems you'll read are lyrics.\n- **Narrative** poems tell stories, from ancient epics to ballads.\n- **Dramatic** poems present a character speaking, as in a **dramatic monologue**.\n\n## The speaker\n\nThe **speaker** is the voice in the poem, and it is not necessarily the poet. Robert Browning's \"My Last Duchess\" (1842) begins:\n\n> That's my last Duchess painted on the wall,\n> Looking as if she were alive.\n\nThe speaker is a Renaissance duke showing a portrait of his late wife to a visitor, and, as he talks, he reveals a chilling possessiveness that strongly suggests he had her killed. Browning was not confessing; he invented the duke. Always ask: Who is speaking? To whom? In what situation?\n\n## The situation\n\nA poem's **situation**, sometimes called its occasion, is the dramatic context: what is happening, where, and why the speaker is speaking now. Even short lyrics usually imply a situation: a lover addressing a beloved, a mourner at a grave, a person looking at a landscape.\n\n## A method for reading a poem\n\n1. **Read it aloud**, at least twice. Poems are made of sound.\n2. **Paraphrase** it, sentence by sentence, to understand its literal sense. (Then remember that the paraphrase is not the poem.)\n3. **Identify the speaker, audience, and situation.**\n4. **Notice patterns:** repeated words, images, sounds, and shifts in tone.\n5. **Look for the turn**, the moment where the poem shifts in argument, tone, or perspective.\n6. **Ask what the form contributes:** line breaks, stanzas, rhyme, meter.\n7. **Interpret:** what does the poem suggest, and how does its form help it say that?\n\n### Worked example: \"Nothing Gold Can Stay\"\n\nRobert Frost's eight-line poem (1923):\n\n> Nature's first green is gold,\n> Her hardest hue to hold.\n> Her early leaf's a flower;\n> But only so an hour.\n> Then leaf subsides to leaf.\n> So Eden sank to grief,\n> So dawn goes down to day.\n> Nothing gold can stay.\n\n*Paraphrase:* The first growth of spring is golden but quickly fades; early leaves are like flowers only briefly; then they become ordinary leaves. In the same way Eden fell into grief, and dawn becomes ordinary day. Nothing precious lasts.\n\n*Patterns:* rhymed couplets (gold/hold, flower/hour); short lines, each with three stressed beats; the repeated \"So\" in lines 6–7, which widens the poem from nature to human history and myth.\n\n*The turn:* line 6. The poem moves from leaves to Eden, from a botanical observation to a statement about loss itself.\n\n*Form and meaning:* the poem is as brief as the golden moment it describes. Its compression enacts its theme: it, too, is over almost as soon as it begins.\n\n## Common misconceptions\n\n- **\"The speaker is always the poet.\"** Speakers are often invented personas.\n- **\"Poems have hidden meanings you need a code to unlock.\"** Meaning emerges from careful attention to the words, not secret keys.\n- **\"A paraphrase captures what a poem means.\"** It captures the literal sense, not the poem's full effect.\n\n## Summary\n\nPoetry compresses language, uses the line, and exploits sound, image, and figure. Poems may be lyric, narrative, or dramatic. The speaker is a voice in a situation, not necessarily the poet. Read poems aloud, paraphrase them, identify speaker and situation, look for patterns and turns, and ask how form creates meaning.\n",
+      "keyTerms": [
+        {
+          "term": "Lyric",
+          "definition": "A short poem expressing a speaker's thoughts and feelings."
+        },
+        {
+          "term": "Speaker",
+          "definition": "The voice in a poem, which is not necessarily the poet."
+        },
+        {
+          "term": "Dramatic monologue",
+          "definition": "A poem spoken by a character to a silent listener, revealing the speaker's character."
+        },
+        {
+          "term": "Situation",
+          "definition": "The dramatic context or occasion of a poem."
+        },
+        {
+          "term": "Turn",
+          "definition": "A shift in a poem's argument, tone, or perspective."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "In Browning's \"My Last Duchess,\" the speaker is:",
+          "choices": [
+            "The Duchess",
+            "The painter of the portrait",
+            "Robert Browning himself",
+            "A duke invented by the poet"
+          ],
+          "answerIndex": 3,
+          "explanation": "It is a dramatic monologue spoken by a persona."
+        },
+        {
+          "prompt": "Which kind of poem tells a story?",
+          "choices": [
+            "Narrative",
+            "Haiku",
+            "Lyric",
+            "Elegy only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Narrative poems recount events."
+        },
+        {
+          "prompt": "In \"Nothing Gold Can Stay,\" the turn occurs when the poem:",
+          "choices": [
+            "Ends with a question",
+            "Begins rhyming",
+            "Introduces a new speaker",
+            "Moves from leaves to Eden and loss in general"
+          ],
+          "answerIndex": 3,
+          "explanation": "Line 6 widens the poem's scope."
+        },
+        {
+          "prompt": "Why is it useful to read a poem aloud?",
+          "choices": [
+            "It is required by law",
+            "It replaces interpretation",
+            "It makes poems shorter",
+            "Poems are made of sound and rhythm that silent reading can miss"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sound is part of poetic meaning."
+        },
+        {
+          "prompt": "What is the main limitation of a paraphrase?",
+          "choices": [
+            "It requires knowing the poet's biography",
+            "It is always inaccurate",
+            "It conveys literal sense but loses the poem's form and effects",
+            "It is longer than the poem"
+          ],
+          "answerIndex": 2,
+          "explanation": "The paraphrase is not the poem."
+        }
+      ],
+      "assignment": {
+        "title": "Reading a Poem Slowly",
+        "prompt": "Choose a short poem (8–20 lines) written before 1929 by any poet; works by Emily Dickinson, Christina Rossetti, Paul Laurence Dunbar, or Thomas Hardy are good options.\n\nIn at least 200 words, apply the seven-step method: paraphrase the poem; identify its speaker, audience, and situation; describe at least two patterns; locate the turn; and explain how one formal feature contributes to its meaning. Quote the poem accurately and name your source. You can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Paraphrases accurately",
+          "Identifies speaker, audience, and situation",
+          "Identifies patterns and the turn",
+          "Connects form to meaning"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "How to Read a Poem: And Fall in Love with Poetry",
+          "creator": "Edward Hirsch",
+          "year": 1999,
+          "note": "A poet's passionate, wide-ranging guide to reading poetry closely.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Imagery",
+      "overview": "How poems make us see, hear, and feel: concrete images, the Imagist movement, and how images carry emotion and idea.",
+      "objectives": [
+        "Identify sensory imagery and explain its effects.",
+        "Describe the principles of Imagism.",
+        "Analyze how images can convey emotion and meaning without stating them."
+      ],
+      "lesson": "## Show the thing\n\nAn **image** in poetry is language that evokes a sensory experience. Images can appeal to:\n\n- **Sight** (visual)\n- **Sound** (auditory)\n- **Smell** (olfactory)\n- **Taste** (gustatory)\n- **Touch** (tactile)\n- **Movement** (kinesthetic)\n\nImages make poetry concrete. Abstract words, such as \"beauty,\" \"sadness,\" or \"time,\" tell readers what to think. Images let readers experience something and arrive at the feeling themselves.\n\nJohn Keats's ode \"To Autumn\" (1819) opens:\n\n> Season of mists and mellow fruitfulness,\n> Close bosom-friend of the maturing sun;\n\nThe mists are visual and tactile; \"mellow\" suggests ripeness in taste and touch; the sounds themselves (m, l, f) are soft and full. Over the poem, Keats piles up images of fruit, harvest, and gathering swallows, so that autumn's abundance and its quiet farewell are felt rather than explained.\n\n## Imagism\n\nIn the early twentieth century, a group of poets including Ezra Pound, H.D. (Hilda Doolittle), and Amy Lowell called themselves **Imagists**. They argued for:\n\n1. Direct treatment of the \"thing,\" whether subjective or objective.\n2. Using absolutely no word that doesn't contribute to the presentation.\n3. Composing in the rhythm of the musical phrase, not the metronome.\n\nPound's \"In a Station of the Metro\" (1913) is the movement's most famous poem:\n\n> The apparition of these faces in the crowd;\n> Petals on a wet, black bough.\n\nPound described how he saw beautiful faces in a Paris subway station and worked for a long time to find an equivalent. The result is two lines. The first gives the scene, faces appearing (\"apparition\") in a crowd. The second, with no \"like\" or \"as,\" sets beside it an image from nature. The faces become petals, pale and fleeting against darkness, and the subway becomes something almost ghostly and beautiful. Meaning arises from juxtaposition.\n\n## Concrete and abstract\n\nCompare:\n\n- *Abstract:* \"I was very sad after she left.\"\n- *Concrete:* \"Her coffee cup still sits on the windowsill, a brown ring dried inside.\"\n\nThe second never names the emotion, but readers feel it. This is the principle T. S. Eliot called the **objective correlative**: a set of objects, situations, or events that evoke a particular emotion, so the feeling is conveyed through things rather than stated.\n\n### Worked example: \"The Red Wheelbarrow\"\n\nWilliam Carlos Williams's short poem (1923):\n\n> so much depends\n> upon\n>\n> a red wheel\n> barrow\n>\n> glazed with rain\n> water\n>\n> beside the white\n> chickens.\n\nAlmost everything here is image: a red wheelbarrow, glistening with rain, near white chickens. The only abstract statement is the opening, \"so much depends / upon,\" which insists on the importance of these ordinary things without explaining it. The line breaks split \"wheel / barrow\" and \"rain / water,\" making us see each part freshly. The poem asks us to look at the ordinary world with full attention, which is itself a kind of meaning.\n\n## Images and meaning\n\nImages can:\n\n- **Establish setting** and atmosphere.\n- **Convey emotion** indirectly.\n- **Carry symbolic weight**, especially when they recur (see Week 3).\n- **Create contrast**, setting one image against another.\n\n## Common misconceptions\n\n- **\"Imagery means visual description.\"** Imagery appeals to all the senses.\n- **\"Good poems explain their feelings.\"** Many of the strongest poems convey feeling through images alone.\n- **\"Short poems are simple.\"** Compression can concentrate meaning.\n\n## Summary\n\nImagery appeals to the senses and makes poetry concrete. The Imagists championed direct, economical presentation, as in Pound's \"In a Station of the Metro.\" Images convey emotion and meaning through things rather than statements, and juxtaposed images can create meaning without explanation.\n",
+      "keyTerms": [
+        {
+          "term": "Image",
+          "definition": "Language that evokes a sensory experience."
+        },
+        {
+          "term": "Imagism",
+          "definition": "An early-twentieth-century movement favoring direct, economical presentation of images."
+        },
+        {
+          "term": "Juxtaposition",
+          "definition": "Placing two elements side by side to create meaning through contrast or comparison."
+        },
+        {
+          "term": "Objective correlative",
+          "definition": "T. S. Eliot's term for objects or events that evoke an emotion without stating it."
+        },
+        {
+          "term": "Concrete language",
+          "definition": "Specific, sensory language, as opposed to abstract statement."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "\"The bitter smell of burning leaves\" appeals primarily to which senses?",
+          "choices": [
+            "Touch only",
+            "Smell (and suggests taste)",
+            "Movement",
+            "Sound"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Smell' and 'bitter' evoke olfactory and gustatory experience."
+        },
+        {
+          "prompt": "Which principle did the Imagists champion?",
+          "choices": [
+            "Using no word that does not contribute to the presentation",
+            "Explaining every emotion directly",
+            "Always using strict rhyme and meter",
+            "Writing only long narrative poems"
+          ],
+          "answerIndex": 0,
+          "explanation": "Economy and direct presentation were central."
+        },
+        {
+          "prompt": "In \"In a Station of the Metro,\" meaning arises mainly from:",
+          "choices": [
+            "A long explanation of the scene",
+            "The juxtaposition of faces in a crowd with petals on a bough",
+            "A story with a plot",
+            "A rhyme scheme"
+          ],
+          "answerIndex": 1,
+          "explanation": "Two images are set side by side without comparison words."
+        },
+        {
+          "prompt": "Eliot's \"objective correlative\" refers to:",
+          "choices": [
+            "A type of meter",
+            "A poem's rhyme scheme",
+            "Objects or events that evoke an emotion without naming it",
+            "The poet's biography"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feeling is conveyed through things."
+        },
+        {
+          "prompt": "Why does Williams break \"wheel / barrow\" across lines?",
+          "choices": [
+            "To introduce a new speaker",
+            "Because he ran out of space",
+            "To make readers see the familiar object freshly, part by part",
+            "To create a rhyme"
+          ],
+          "answerIndex": 2,
+          "explanation": "Line breaks slow and refocus attention."
+        }
+      ],
+      "assignment": {
+        "title": "Write with Images",
+        "prompt": "This assignment has two parts.\n\n1. **Analysis (at least 150 words):** Choose a poem written before 1929 that relies heavily on imagery (Keats's \"To Autumn,\" a poem by H.D., or another). Identify images that appeal to at least three senses and explain how they convey emotion or meaning without stating it.\n2. **Practice (at least 50 words):** Write a short passage or poem of your own that conveys a strong emotion entirely through concrete images, without naming the emotion. Then explain in one or two sentences which emotion you intended and how your images create it.\n\nYou can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Identifies images across at least three senses",
+          "Explains how imagery conveys emotion or meaning",
+          "Creative passage uses concrete images effectively",
+          "Reflection connects technique to effect"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 3,
+      "title": "Figurative Language",
+      "overview": "Metaphor, simile, personification, metonymy, synecdoche, apostrophe, and symbol: how poems think by comparison.",
+      "objectives": [
+        "Identify and distinguish major figures of speech.",
+        "Analyze how extended metaphors structure poems.",
+        "Interpret symbols in poetry."
+      ],
+      "lesson": "## Saying one thing in terms of another\n\n**Figurative language** departs from literal meaning to make us see connections. It is not decoration; it is one of the main ways poems think.\n\n## The major figures\n\n- **Simile:** an explicit comparison using \"like\" or \"as.\" \"I wandered lonely as a cloud\" (Wordsworth).\n- **Metaphor:** an implied comparison, stating one thing *is* another. \"Hope is the thing with feathers\" (Dickinson).\n- **Personification:** giving human qualities to non-human things or ideas. In Dickinson's \"Because I could not stop for Death,\" Death is a courteous gentleman who \"kindly stopped for me.\"\n- **Apostrophe:** directly addressing an absent person, an object, or an idea. \"O Rose thou art sick\" (Blake).\n- **Metonymy:** referring to something by something closely associated with it. \"The crown\" for the monarchy; \"the pen is mightier than the sword\" (writing and warfare).\n- **Synecdoche:** a part standing for the whole (or vice versa). \"All hands on deck\" (hands for sailors).\n- **Hyperbole:** deliberate exaggeration. **Understatement** (litotes) does the reverse.\n- **Paradox:** a statement that seems contradictory but reveals a truth.\n\n## How a metaphor works\n\nA metaphor has two parts: the **tenor** (the subject being described) and the **vehicle** (the thing it is compared to). In \"Hope is the thing with feathers,\" hope is the tenor and a bird is the vehicle. The metaphor invites us to ask what hope and a bird share: lightness, song, persistence, fragility, a home \"in the soul.\" The richness of a metaphor lies in how many connections it opens.\n\n## Extended metaphor and conceit\n\nAn **extended metaphor** develops a comparison over several lines or a whole poem. A **conceit** is an especially elaborate or surprising one. Dickinson's \"Hope\" poem extends the bird metaphor through its three stanzas: the bird perches, sings without words, is heard in storms, and never asks for anything.\n\nThe metaphysical poets of the seventeenth century, such as John Donne, were famous for startling conceits. In \"A Valediction: Forbidding Mourning,\" Donne compares two lovers' souls to the legs of a drawing compass: when one travels, the other leans after it, and its firmness makes the circle complete.\n\n## Symbol\n\nA **symbol** is an image that suggests meanings beyond itself, without the explicit comparison of a metaphor. William Blake's \"The Sick Rose\" (1794):\n\n> O Rose thou art sick.\n> The invisible worm,\n> That flies in the night\n> In the howling storm:\n\nThe poem continues: the worm has found the rose's bed \"of crimson joy,\" and his \"dark secret love\" destroys its life. On the literal level, it's about a diseased flower. But the rose has long symbolized love and beauty, and the worm's secret, destructive \"love\" invites readers to think about corrupted desire, jealousy, or hidden forces that destroy what they touch. Blake never says what the rose and worm \"stand for,\" and the poem's power lies in that openness.\n\n### Worked example: Shakespeare's Sonnet 73\n\nThe sonnet opens:\n\n> That time of year thou mayst in me behold\n> When yellow leaves, or none, or few, do hang\n> Upon those boughs which shake against the cold,\n> Bare ruin'd choirs, where late the sweet birds sang.\n\nThe speaker compares his aging self to late autumn. Notice the hesitation in \"yellow leaves, or none, or few,\" as if he can't bear to say \"none\" and retreats. Then the metaphor deepens: the bare branches become \"ruin'd choirs,\" the ruined lofts of churches where choirs once sang, layering images of loss. Later quatrains compare him to twilight and to a dying fire. Each metaphor makes the time remaining shorter: a season, a day, the last moments of a fire.\n\n## Common misconceptions\n\n- **\"A symbol has one fixed meaning.\"** Symbols suggest; their meanings depend on context.\n- **\"Metaphors are just fancy ways of saying something plain.\"** Good metaphors create meanings that literal language can't.\n- **\"Personification and metaphor are unrelated.\"** Personification is a kind of metaphor.\n\n## Summary\n\nFigurative language, including simile, metaphor, personification, apostrophe, metonymy, and synecdoche, lets poems think by comparison. Metaphors pair a tenor and vehicle and may extend into conceits. Symbols suggest meanings without stating them, and their power often lies in their openness.\n",
+      "keyTerms": [
+        {
+          "term": "Simile",
+          "definition": "An explicit comparison using like or as."
+        },
+        {
+          "term": "Tenor and vehicle",
+          "definition": "The subject of a metaphor and the thing it is compared to."
+        },
+        {
+          "term": "Conceit",
+          "definition": "An elaborate or surprising extended metaphor."
+        },
+        {
+          "term": "Apostrophe",
+          "definition": "Directly addressing an absent person, object, or idea."
+        },
+        {
+          "term": "Metonymy",
+          "definition": "Referring to something by something closely associated with it."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "\"Hope is the thing with feathers\" is an example of:",
+          "choices": [
+            "Metaphor",
+            "Synecdoche",
+            "Onomatopoeia",
+            "Simile"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hope is described as a bird without like or as."
+        },
+        {
+          "prompt": "In \"Hope is the thing with feathers,\" what is the vehicle?",
+          "choices": [
+            "A bird (the thing with feathers)",
+            "Hope",
+            "The soul",
+            "The storm"
+          ],
+          "answerIndex": 0,
+          "explanation": "The vehicle is what the tenor is compared to."
+        },
+        {
+          "prompt": "\"The White House announced a new policy\" uses:",
+          "choices": [
+            "Metonymy",
+            "Simile",
+            "Apostrophe",
+            "Hyperbole"
+          ],
+          "answerIndex": 0,
+          "explanation": "The building stands for the administration associated with it."
+        },
+        {
+          "prompt": "\"O Rose thou art sick\" begins with:",
+          "choices": [
+            "Litotes",
+            "Apostrophe",
+            "Synecdoche",
+            "Simile"
+          ],
+          "answerIndex": 1,
+          "explanation": "The speaker directly addresses the rose."
+        },
+        {
+          "prompt": "In Sonnet 73, the progression from autumn to twilight to a dying fire suggests:",
+          "choices": [
+            "The speaker's time is growing ever shorter",
+            "There is no connection among the images",
+            "The speaker is getting younger",
+            "The poem is about the seasons only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Each metaphor represents a shorter span of time."
+        }
+      ],
+      "assignment": {
+        "title": "Unpacking a Metaphor",
+        "prompt": "Choose a poem written before 1929 that is built on an extended metaphor or a central symbol (for example, Dickinson's \"Hope is the thing with feathers,\" Donne's \"A Valediction: Forbidding Mourning,\" Shakespeare's Sonnet 73, or Blake's \"The Sick Rose\").\n\nIn at least 250 words: identify the tenor and vehicle (or the symbol); trace how the comparison develops across the poem, quoting at least three passages; explain what the figure allows the poem to say that literal language could not; and note any point where the comparison is strained, surprising, or open to multiple interpretations. You can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Identifies tenor and vehicle or symbol accurately",
+          "Traces development with quoted evidence",
+          "Explains what the figure contributes",
+          "Addresses ambiguity or surprise thoughtfully"
+        ],
+        "minWords": 250
+      },
+      "resources": []
+    },
+    {
+      "number": 4,
+      "title": "Sound",
+      "overview": "The music of poetry: rhyme, alliteration, assonance, consonance, onomatopoeia, and how sound reinforces sense.",
+      "objectives": [
+        "Identify kinds of rhyme and describe a rhyme scheme.",
+        "Identify alliteration, assonance, consonance, and onomatopoeia.",
+        "Analyze how sound effects reinforce meaning."
+      ],
+      "lesson": "## Hearing the poem\n\nPoems were spoken and sung long before they were read silently. Their sounds are part of their meaning. Read every poem in this course aloud.\n\n## Rhyme\n\n**Rhyme** is the repetition of similar sounds, usually at the ends of words.\n\n- **Perfect rhyme:** matching stressed vowels and following sounds (*day* / *way*, *night* / *bright*).\n- **Slant rhyme** (near rhyme): similar but not identical sounds (*soul* / *all*). Emily Dickinson used slant rhyme constantly, creating a slightly unsettled music.\n- **End rhyme** falls at the ends of lines; **internal rhyme** occurs within a line.\n- **Masculine rhyme** rhymes single stressed syllables (*stone* / *alone*); **feminine rhyme** rhymes a stressed syllable followed by unstressed ones (*waking* / *making*).\n\nA **rhyme scheme** labels end rhymes with letters. A Shakespearean sonnet rhymes ABAB CDCD EFEF GG.\n\nEdgar Allan Poe's \"The Raven\" (1845) is famous for internal rhyme:\n\n> Once upon a midnight dreary, while I pondered, weak and weary,\n\n\"Dreary\" and \"weary\" chime within the line, creating its hypnotic, insistent music.\n\n## Repetition of sounds\n\n- **Alliteration:** repetition of initial consonant sounds. \"Season of mists and mellow fruitfulness\" (Keats).\n- **Assonance:** repetition of vowel sounds. \"Hear the mellow wedding bells\" (Poe).\n- **Consonance:** repetition of consonant sounds, often at the ends or middles of words.\n- **Onomatopoeia:** words that imitate sounds: *buzz*, *hiss*, *murmur*.\n\n## Sound and sense\n\nSound effects work best when they reinforce meaning. Alfred, Lord Tennyson wrote in *The Princess* (1847):\n\n> The moan of doves in immemorial elms,\n> And murmuring of innumerable bees.\n\nThe repeated *m*, *n*, and long vowel sounds create a soft, humming drone, the sound of a summer afternoon. You hear the bees before you finish picturing them.\n\nSounds also carry associations, though they don't have fixed meanings. Harsh consonant clusters (*k*, *t*, *g*) can suggest conflict or effort; long open vowels and soft consonants (*m*, *l*, *n*) can suggest calm, mourning, or luxury. The effect always depends on context.\n\n### Worked example: Gerard Manley Hopkins\n\nHopkins, a Victorian poet whose work was published after his death, packed his lines with sound. \"Pied Beauty\" (1877, published 1918) begins:\n\n> Glory be to God for dappled things –\n\nand continues with lists of speckled, streaked, and mottled things: skies, trout, chestnuts, landscapes, tools. The thick alliteration and stressed syllables crowd together, making the poem sound as varied and abundant as the \"dappled\" world it praises. The sound is the argument: variety is glorious.\n\n## Euphony and cacophony\n\n**Euphony** is pleasing, harmonious sound; **cacophony** is harsh, discordant sound. Poets choose each for effect. A poem about war might use cacophony to make the reader feel its violence.\n\n## Common misconceptions\n\n- **\"Poems must rhyme.\"** Much great poetry, including free verse and blank verse, doesn't.\n- **\"Slant rhyme is a mistake.\"** It is often a deliberate choice that creates tension or subtlety.\n- **\"Sounds have fixed meanings.\"** Their effects depend on context and sense.\n\n## Summary\n\nRhyme may be perfect or slant, end or internal, and rhyme schemes map end rhymes. Alliteration, assonance, consonance, and onomatopoeia repeat and imitate sounds. The best sound effects reinforce meaning, creating euphony or cacophony as a poem's subject requires.\n",
+      "keyTerms": [
+        {
+          "term": "Slant rhyme",
+          "definition": "A near rhyme with similar but not identical sounds."
+        },
+        {
+          "term": "Rhyme scheme",
+          "definition": "The pattern of end rhymes in a poem, labeled with letters."
+        },
+        {
+          "term": "Alliteration",
+          "definition": "Repetition of initial consonant sounds."
+        },
+        {
+          "term": "Assonance",
+          "definition": "Repetition of vowel sounds."
+        },
+        {
+          "term": "Onomatopoeia",
+          "definition": "Words that imitate the sounds they describe."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "\"Soul\" and \"all\" are an example of:",
+          "choices": [
+            "Internal rhyme",
+            "Perfect rhyme",
+            "Onomatopoeia",
+            "Slant rhyme"
+          ],
+          "answerIndex": 3,
+          "explanation": "Their sounds are similar but not identical."
+        },
+        {
+          "prompt": "What is the rhyme scheme of a Shakespearean sonnet?",
+          "choices": [
+            "AABB CCDD",
+            "ABBA ABBA CDE CDE",
+            "ABAB CDCD EFEF GG",
+            "ABA BCB CDC"
+          ],
+          "answerIndex": 2,
+          "explanation": "Three quatrains and a couplet."
+        },
+        {
+          "prompt": "\"Peter Piper picked a peck of pickled peppers\" is a famous example of:",
+          "choices": [
+            "Assonance",
+            "Slant rhyme",
+            "Alliteration",
+            "Personification"
+          ],
+          "answerIndex": 2,
+          "explanation": "It repeats initial consonant sounds."
+        },
+        {
+          "prompt": "In Tennyson's \"murmuring of innumerable bees,\" the sound effects mainly:",
+          "choices": [
+            "Imitate the drowsy hum of bees on a summer day",
+            "Establish a rhyme scheme",
+            "Introduce a new speaker",
+            "Create harsh cacophony"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sound reinforces sense."
+        },
+        {
+          "prompt": "\"Once upon a midnight dreary, while I pondered, weak and weary\" contains:",
+          "choices": [
+            "Internal rhyme",
+            "Slant rhyme only",
+            "No rhyme",
+            "A couplet"
+          ],
+          "answerIndex": 0,
+          "explanation": "'Dreary' and 'weary' rhyme within the line."
+        }
+      ],
+      "assignment": {
+        "title": "Listening Closely",
+        "prompt": "Choose a poem written before 1929 in which sound is especially important (for example, Poe's \"The Raven\" or \"The Bells,\" Hopkins's \"Pied Beauty,\" Tennyson's \"The Lady of Shalott,\" or a poem by Dickinson). Read it aloud several times.\n\nIn at least 250 words: identify its rhyme scheme (or explain its use of slant or internal rhyme); identify at least three other sound effects, quoting examples; and analyze how sound reinforces the poem's meaning in at least two specific passages. You can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Identifies rhyme scheme or rhyme techniques accurately",
+          "Identifies and quotes at least three sound effects",
+          "Analyzes how sound reinforces meaning in specific passages",
+          "Writing is clear and well organized"
+        ],
+        "minWords": 250
+      },
+      "resources": []
+    },
+    {
+      "number": 5,
+      "title": "Rhythm and Meter",
+      "overview": "The beat of poetry: stress, feet, meter, iambic pentameter, scansion, and how poets vary rhythm for effect.",
+      "objectives": [
+        "Identify stressed and unstressed syllables and the common metrical feet.",
+        "Scan lines of iambic pentameter and other meters.",
+        "Explain how variations in meter create emphasis and meaning."
+      ],
+      "lesson": "## Stress and rhythm\n\nIn English, some syllables are spoken with more emphasis, or **stress**, than others. Say \"*po*-em,\" \"a-*bout*,\" \"*beau*-ti-ful.\" **Rhythm** is the pattern of stressed and unstressed syllables. **Meter** is a regular, repeating rhythmic pattern.\n\n## Feet\n\nA **foot** is a unit of meter, a combination of stressed (/) and unstressed (x) syllables. The most common:\n\n| Foot | Pattern | Example word |\n|---|---|---|\n| **Iamb** | x / | a-*bove* |\n| **Trochee** | / x | *gar*-den |\n| **Anapest** | x x / | in-ter-*vene* |\n| **Dactyl** | / x x | *beau*-ti-ful |\n| **Spondee** | / / | *heart*-*break* |\n\n## Line length\n\nMeter is named by the type of foot and the number of feet per line:\n\n| Feet per line | Name |\n|---|---|\n| 3 | trimeter |\n| 4 | tetrameter |\n| 5 | pentameter |\n| 6 | hexameter |\n\n## Iambic pentameter\n\nThe most important meter in English is **iambic pentameter**: five iambs per line, ten syllables, da-DUM da-DUM da-DUM da-DUM da-DUM. It is close to the natural rhythm of English speech, which is one reason Shakespeare, Milton, Wordsworth, and countless others used it.\n\nShakespeare's Sonnet 18:\n\n> Shall **I** | com**pare** | thee **to** | a **sum** | mer's **day**?\n\nUnrhymed iambic pentameter is called **blank verse**; it is the meter of most of Shakespeare's plays and Milton's *Paradise Lost*.\n\n## Other meters\n\n- **Trochaic:** \"**Ty**ger **Ty**ger, **burn**ing **bright**\" (Blake), with the final unstressed syllable dropped.\n- **Anapestic:** \"'Twas the **night** before **Christ**mas, when **all** through the **house**\" (Clement Clarke Moore), whose galloping rhythm suits comic or lively verse.\n- **Dactylic:** \"**This** is the **for**est pri**me**val\" (Longfellow, *Evangeline*).\n\n## Scansion\n\n**Scansion** is marking a line's stresses to identify its meter. To scan:\n\n1. Read the line aloud naturally.\n2. Mark syllables that receive stress.\n3. Divide the line into feet.\n4. Identify the dominant pattern.\n\nReal speech is not metronomic, and readers sometimes disagree about stresses. Scansion is a tool for hearing, not a mechanical exercise.\n\n## Variation and its effects\n\nPoets constantly vary meter, and variations create emphasis. A common one is **trochaic inversion**, starting an iambic line with a trochee to give the first word extra force.\n\nHamlet's famous line has eleven syllables, with an extra unstressed syllable at the end (a \"feminine ending\"):\n\n> To **be**, | or **not** | to **be**, | **that** is | the **ques** | tion\n\nThe extra syllable trails off, unresolved, like Hamlet's thought. And readers debate whether \"that\" or \"is\" should take the stress in the fourth foot, which changes the line's emphasis.\n\n### Worked example: meter and meaning\n\nJohn Milton's *Paradise Lost* (1667) describes Satan's fall in blank verse:\n\n> Him the Almighty Power\n> Hurl'd headlong flaming from th' Ethereal Sky\n\nThe stresses crowd together in \"**Hurl'd head**long **flam**ing,\" disrupting the regular iambic rhythm so that the line itself seems to plunge. Meter, broken at the right moment, enacts the fall.\n\n## Free verse\n\nNot all poems use meter. **Free verse**, developed by poets such as Walt Whitman in *Leaves of Grass* (1855), follows the rhythms of speech and breath rather than regular feet. Free verse isn't formless; its rhythms come from line length, repetition, and syntax (see next week).\n\n## Common misconceptions\n\n- **\"Meter is just counting syllables.\"** It is the pattern of stresses.\n- **\"Variations from the meter are mistakes.\"** They are usually deliberate sources of emphasis.\n- **\"Free verse has no rhythm.\"** It has rhythm, just not regular meter.\n\n## Summary\n\nMeter is a regular pattern of stresses, organized into feet (iambs, trochees, anapests, dactyls, spondees) and named by line length. Iambic pentameter is the central meter of English poetry, and blank verse is unrhymed iambic pentameter. Scansion reveals meter, and deliberate variations create emphasis. Free verse uses rhythm without regular meter.\n",
+      "keyTerms": [
+        {
+          "term": "Iamb",
+          "definition": "A metrical foot of one unstressed syllable followed by one stressed syllable."
+        },
+        {
+          "term": "Iambic pentameter",
+          "definition": "A line of five iambs, the most common meter in English poetry."
+        },
+        {
+          "term": "Blank verse",
+          "definition": "Unrhymed iambic pentameter."
+        },
+        {
+          "term": "Scansion",
+          "definition": "Marking a line's stresses to identify its meter."
+        },
+        {
+          "term": "Free verse",
+          "definition": "Poetry without regular meter or rhyme, following the rhythms of speech."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which word is an iamb?",
+          "choices": [
+            "Heartbreak (HEART-BREAK)",
+            "Beautiful (BEAU-ti-ful)",
+            "Garden (GAR-den)",
+            "Delight (de-LIGHT)"
+          ],
+          "answerIndex": 3,
+          "explanation": "An iamb is unstressed-stressed."
+        },
+        {
+          "prompt": "How many feet are in a line of iambic pentameter?",
+          "choices": [
+            "Ten",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "answerIndex": 2,
+          "explanation": "Penta means five; each iamb has two syllables."
+        },
+        {
+          "prompt": "Unrhymed iambic pentameter is called:",
+          "choices": [
+            "Common meter",
+            "Free verse",
+            "A couplet",
+            "Blank verse"
+          ],
+          "answerIndex": 3,
+          "explanation": "It is the meter of much of Shakespeare and Milton."
+        },
+        {
+          "prompt": "\"Tyger Tyger, burning bright\" is primarily in which meter?",
+          "choices": [
+            "Dactylic",
+            "Iambic",
+            "Trochaic",
+            "Anapestic"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its feet are stressed-unstressed."
+        },
+        {
+          "prompt": "Why might a poet break the regular meter in a particular line?",
+          "choices": [
+            "Meter cannot be broken",
+            "Because the poet made a mistake",
+            "To create emphasis or enact the line's meaning",
+            "To make the poem rhyme"
+          ],
+          "answerIndex": 2,
+          "explanation": "Variations are deliberate sources of emphasis."
+        }
+      ],
+      "assignment": {
+        "title": "Scanning Lines",
+        "prompt": "1. Scan the first four lines of Shakespeare's Sonnet 18 (\"Shall I compare thee to a summer's day?\"), marking stresses and dividing the lines into feet. Note any variations from iambic pentameter.\n2. Choose a passage of at least four lines from a poem written before 1929 in a different meter (for example, trochaic, anapestic, or dactylic) and scan it.\n3. In at least 200 words, analyze one place in either passage where a metrical variation creates emphasis or reinforces meaning.\n\nYou may type stresses in capital letters (for example, \"shall I com-PARE thee TO a SUM-mer's DAY\"). You can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Scans Sonnet 18 accurately",
+          "Scans a second meter accurately",
+          "Identifies a meaningful variation",
+          "Explains the effect of the variation"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Rhyme's Reason: A Guide to English Verse",
+          "creator": "John Hollander",
+          "year": 1981,
+          "note": "A witty guide to meter and form in which every example is written in the form it describes.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Line, Stanza, and Free Verse",
+      "overview": "How poems are shaped on the page: line breaks, enjambment, caesura, stanzas, and the craft of free verse.",
+      "objectives": [
+        "Analyze the effects of line breaks, enjambment, and caesura.",
+        "Identify common stanza forms.",
+        "Explain how free verse creates structure and rhythm."
+      ],
+      "lesson": "## The line\n\nWhat makes poetry look like poetry is the **line**. Unlike prose, which runs to the margin, poems break where the poet chooses, and those breaks shape meaning, rhythm, and emphasis.\n\n## End-stopped and enjambed lines\n\n- An **end-stopped** line pauses at its end, usually with punctuation, completing a unit of sense.\n- An **enjambed** line runs over into the next without pause, carrying the sentence across the break.\n\nEnjambment creates momentum and suspense: the line break makes us pause briefly on a word before the sentence continues, often giving that word double weight. In Williams's \"The Red Wheelbarrow,\" \"so much depends / upon\" makes us wait, uncertain what depends on what, before the image arrives.\n\n## Caesura\n\nA **caesura** is a pause within a line, often marked by punctuation. In Hamlet's \"To be, or not to be, that is the question,\" the commas create caesuras that make the line hesitate as Hamlet does.\n\n## The stanza\n\nA **stanza** is a group of lines set off by a space, a kind of poetic paragraph. Common stanza forms:\n\n| Lines | Name | Example |\n|---|---|---|\n| 2 | couplet | heroic couplets in Alexander Pope |\n| 3 | tercet | the terza rima of Dante's *Divine Comedy* |\n| 4 | quatrain | ballads, hymns, Dickinson |\n| 6 | sestet | the end of a Petrarchan sonnet |\n| 8 | octave | the start of a Petrarchan sonnet |\n\nThe **ballad stanza** (or common meter) alternates lines of iambic tetrameter and trimeter, rhyming ABCB or ABAB. Many hymns use it, and so does much of Emily Dickinson's poetry:\n\n> Because I could not stop for Death –\n> He kindly stopped for me –\n> The Carriage held but just Ourselves –\n> And Immortality.\n\nThe hymn-like meter, with its associations of piety and comfort, makes the poem's calm, courtly ride with Death all the more unsettling.\n\n## Free verse\n\n**Free verse** abandons regular meter and rhyme, but not structure. Free verse poets create form through:\n\n- **Line length:** long, flowing lines (Whitman) or short, clipped ones (Williams).\n- **Repetition:** of words, phrases, or syntactic patterns, called **anaphora** when lines begin the same way.\n- **Syntax and breath:** lines often follow units of speech or breath.\n- **White space** and visual arrangement.\n\nWalt Whitman's *Leaves of Grass* opens:\n\n> I celebrate myself, and sing myself,\n> And what I assume you shall assume,\n> For every atom belonging to me as good belongs to you.\n\nThe long, expansive lines and biblical cadences, with repeated \"and\" and parallel phrases, enact Whitman's democratic embrace of everything. His form is as open as his vision.\n\n### Worked example: how a line break changes meaning\n\nConsider a sentence: \"I want to leave this town forever and never come back.\" Broken differently:\n\n> I want to leave\n> this town forever and never\n> come back.\n\nThe first line, alone, states a desire. The second line ends on \"never,\" suspending us at the most absolute word. The final line, \"come back,\" now sounds almost like a plea, the opposite of the sentence's literal meaning. Line breaks can create double meanings, hesitation, and irony that prose can't.\n\n## Visual form\n\nSome poems use the page visually. **Concrete** or shape poems arrange words into images. George Herbert's seventeenth-century poem \"Easter Wings\" is printed in the shape of wings. Even in ordinary poems, white space shapes how readers move through a text.\n\n## Common misconceptions\n\n- **\"Line breaks are arbitrary in free verse.\"** Good free verse breaks lines deliberately.\n- **\"Enjambment is just a run-on.\"** It is a powerful tool for emphasis and double meaning.\n- **\"Stanza forms are only for old poems.\"** Contemporary poets use and reinvent them constantly.\n\n## Summary\n\nThe line is poetry's defining unit. End-stopped lines pause; enjambed lines run on, creating momentum and double meaning; caesuras pause within lines. Stanzas group lines into forms such as couplets, tercets, and quatrains. Free verse creates structure through line length, repetition, syntax, and white space.\n",
+      "keyTerms": [
+        {
+          "term": "Enjambment",
+          "definition": "The continuation of a sentence across a line break without a pause."
+        },
+        {
+          "term": "Caesura",
+          "definition": "A pause within a line of poetry."
+        },
+        {
+          "term": "Stanza",
+          "definition": "A group of lines set off as a unit in a poem."
+        },
+        {
+          "term": "Ballad stanza",
+          "definition": "A quatrain alternating tetrameter and trimeter lines, rhyming ABCB or ABAB."
+        },
+        {
+          "term": "Anaphora",
+          "definition": "Repetition of a word or phrase at the beginning of successive lines."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A line that runs into the next without punctuation or pause is:",
+          "choices": [
+            "A caesura",
+            "End-stopped",
+            "Enjambed",
+            "A couplet"
+          ],
+          "answerIndex": 2,
+          "explanation": "Enjambment carries the sentence across the break."
+        },
+        {
+          "prompt": "A pause within a line, often marked by punctuation, is called:",
+          "choices": [
+            "A caesura",
+            "A foot",
+            "A stanza",
+            "Enjambment"
+          ],
+          "answerIndex": 0,
+          "explanation": "Caesuras create pauses inside lines."
+        },
+        {
+          "prompt": "Dickinson's \"Because I could not stop for Death\" uses which stanza form?",
+          "choices": [
+            "Free verse",
+            "Heroic couplets",
+            "Terza rima",
+            "The ballad stanza (common meter)"
+          ],
+          "answerIndex": 3,
+          "explanation": "It alternates tetrameter and trimeter lines in quatrains."
+        },
+        {
+          "prompt": "Repeating \"I celebrate\" or \"And\" at the start of successive lines is:",
+          "choices": [
+            "Slant rhyme",
+            "Enjambment",
+            "Caesura",
+            "Anaphora"
+          ],
+          "answerIndex": 3,
+          "explanation": "Anaphora repeats words at line beginnings."
+        },
+        {
+          "prompt": "How does free verse create structure without regular meter?",
+          "choices": [
+            "Through line length, repetition, syntax, and white space",
+            "It has no structure",
+            "Only through rhyme",
+            "Only through stanza numbers"
+          ],
+          "answerIndex": 0,
+          "explanation": "Free verse has form, just not regular meter."
+        }
+      ],
+      "assignment": {
+        "title": "Breaking Lines",
+        "prompt": "1. **Analysis (at least 150 words):** Choose a free verse poem written before 1929 (for example, by Walt Whitman, Carl Sandburg, or William Carlos Williams). Analyze how it creates structure and rhythm, discussing line length, at least one significant line break or enjambment, and any repetition.\n2. **Experiment (at least 50 words):** Take a prose sentence of your own (20–40 words) and break it into lines in two different ways. Explain how each version changes the emphasis or meaning.\n\nYou can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Analyzes structure in free verse accurately",
+          "Interprets a line break or enjambment with insight",
+          "Experiment demonstrates two meaningfully different lineations",
+          "Explains the effects of each lineation"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 7,
+      "title": "Fixed Forms",
+      "overview": "The sonnet, villanelle, ballad, haiku, ode, and elegy: what traditional forms require and why poets keep using them.",
+      "objectives": [
+        "Describe the structure of Petrarchan and Shakespearean sonnets, including the volta.",
+        "Identify the requirements of the villanelle and other fixed forms.",
+        "Explain how constraint can generate meaning."
+      ],
+      "lesson": "## Why forms?\n\nA **fixed form** is a poetic structure with set rules: a number of lines, a rhyme scheme, a meter, a pattern of repetition. Why would poets choose such constraints? Because form creates expectations, and poets can fulfill, frustrate, or play against them. Constraint can also spark invention, forcing unexpected words and ideas. And every form carries a history: writing a sonnet means joining a conversation with every sonnet before it.\n\n## The sonnet\n\nThe **sonnet** is a fourteen-line poem, usually in iambic pentameter, and the most influential fixed form in Western poetry.\n\n### The Petrarchan (Italian) sonnet\n\nNamed for the fourteenth-century Italian poet Petrarch:\n\n- An **octave** (eight lines) rhyming ABBAABBA, which presents a situation or problem.\n- A **sestet** (six lines), often CDECDE or CDCDCD, which responds or resolves.\n- The shift between them is the **volta**, or turn.\n\n### The Shakespearean (English) sonnet\n\n- Three **quatrains** rhyming ABAB CDCD EFEF.\n- A closing **couplet** rhyming GG, which often sums up, reverses, or comments on what came before.\n\nSonnet 18 ends:\n\n> So long as men can breathe, or eyes can see,\n> So long lives this, and this gives life to thee.\n\nThe couplet turns from praising the beloved to praising the poem itself, which will preserve that beauty forever.\n\nShakespeare could also mock the form's conventions. Sonnet 130 begins, \"My mistress' eyes are nothing like the sun,\" refusing the exaggerated comparisons of conventional love poetry, before its couplet insists that his love is as rare as any falsely praised beauty.\n\n## The villanelle\n\nThe **villanelle** has nineteen lines: five tercets and a closing quatrain, using only two rhymes. Two **refrains**, the first and third lines of the first stanza, alternate as the last line of each tercet and come together as the final couplet. Its obsessive repetition suits subjects of grief and fixation. Dylan Thomas's \"Do not go gentle into that good night\" and Elizabeth Bishop's \"One Art\" are celebrated twentieth-century examples.\n\n## The ballad\n\nThe **ballad** tells a story, often of love, death, or the supernatural, typically in ballad stanzas, with refrains and dialogue. Folk ballads were passed down orally; literary ballads, such as Coleridge's \"The Rime of the Ancient Mariner,\" imitate them.\n\n## The haiku\n\nThe **haiku** comes from Japan, where it developed from earlier collaborative verse. In Japanese, it is measured in sound units, traditionally arranged 5–7–5, and includes a seasonal reference (*kigo*) and often a \"cutting\" moment that juxtaposes two images. The seventeenth-century master **Matsuo Bashō** wrote its most famous example, often translated as an old pond, a frog jumping in, and the sound of water. In English, poets often write haiku of about seventeen syllables, though many argue that the spirit of the form, a sharp, present moment of perception, matters more than syllable counts.\n\n## The ode and the elegy\n\nAn **ode** is a serious, elevated lyric often addressed to a person, object, or idea, such as Keats's \"Ode on a Grecian Urn,\" which ends with the urn's famous words, \"Beauty is truth, truth beauty.\" An **elegy** mourns the dead, typically moving from grief toward consolation, as in Tennyson's *In Memoriam A.H.H.*, written over many years after the death of his friend Arthur Hallam.\n\n### Worked example: form as meaning in the villanelle\n\nIn a villanelle about loss, the two refrains return again and again, as obsessive thoughts do in grief. Each return, however, comes in a new context, so the same words can mean something slightly different each time. When they finally meet in the closing couplet, the effect can be of a resolution reached, or of a mind that cannot escape its loss. The form doesn't just contain the subject; it performs it.\n\n## Common misconceptions\n\n- **\"Fixed forms are old-fashioned.\"** Poets continue to use and reinvent them.\n- **\"Following rules makes poetry mechanical.\"** Constraint often produces surprise.\n- **\"A haiku is any 5-7-5 poem.\"** The traditional form also involves seasonal reference and juxtaposition.\n\n## Summary\n\nFixed forms create expectations poets can fulfill or play against. The Petrarchan sonnet turns from octave to sestet at the volta; the Shakespearean sonnet builds through three quatrains to a couplet. The villanelle's refrains suit obsession and grief; ballads tell stories; haiku capture moments; odes praise; elegies mourn. In each, form helps create meaning.\n",
+      "keyTerms": [
+        {
+          "term": "Sonnet",
+          "definition": "A fourteen-line poem, usually in iambic pentameter, with a set rhyme scheme."
+        },
+        {
+          "term": "Volta",
+          "definition": "The turn in a sonnet, where its argument or tone shifts."
+        },
+        {
+          "term": "Villanelle",
+          "definition": "A nineteen-line form with two alternating refrains and only two rhymes."
+        },
+        {
+          "term": "Haiku",
+          "definition": "A short Japanese form capturing a moment of perception, traditionally 5-7-5 sound units with a seasonal reference."
+        },
+        {
+          "term": "Elegy",
+          "definition": "A poem mourning the dead."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "How many lines does a sonnet have?",
+          "choices": [
+            "Sixteen",
+            "Nineteen",
+            "Fourteen",
+            "Twelve"
+          ],
+          "answerIndex": 2,
+          "explanation": "Both Petrarchan and Shakespearean sonnets have fourteen lines."
+        },
+        {
+          "prompt": "In a Petrarchan sonnet, the volta typically comes:",
+          "choices": [
+            "Between the octave and the sestet",
+            "Between every quatrain",
+            "After the final couplet",
+            "In the first line"
+          ],
+          "answerIndex": 0,
+          "explanation": "The turn separates the eight-line and six-line sections."
+        },
+        {
+          "prompt": "Which form uses two alternating refrains and only two rhymes?",
+          "choices": [
+            "Villanelle",
+            "Shakespearean sonnet",
+            "Ballad",
+            "Haiku"
+          ],
+          "answerIndex": 0,
+          "explanation": "The villanelle's refrains return throughout."
+        },
+        {
+          "prompt": "What is unusual about Shakespeare's Sonnet 130 (\"My mistress' eyes are nothing like the sun\")?",
+          "choices": [
+            "It mocks the exaggerated comparisons of conventional love poetry",
+            "It does not rhyme",
+            "It has nineteen lines",
+            "It is a haiku"
+          ],
+          "answerIndex": 0,
+          "explanation": "It parodies conventional praise before affirming its love."
+        },
+        {
+          "prompt": "Why might poets choose fixed forms?",
+          "choices": [
+            "They are easier than free verse",
+            "They prevent poems from having meaning",
+            "Fixed forms are required by publishers",
+            "Constraints create expectations to play against and can spark invention"
+          ],
+          "answerIndex": 3,
+          "explanation": "Form can generate and shape meaning."
+        }
+      ],
+      "assignment": {
+        "title": "Write in Form",
+        "prompt": "1. **Analysis (at least 150 words):** Choose a Shakespearean or Petrarchan sonnet written before 1929. Identify its rhyme scheme and structure, locate its volta, and explain how the form shapes its argument.\n2. **Practice:** Write your own sonnet (fourteen lines, with a recognizable rhyme scheme and a volta) or haiku sequence (three haiku). Meter can be approximate. Then write two or three sentences reflecting on how the constraints shaped what you wrote.\n\nYou can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Identifies the sonnet's structure and volta accurately",
+          "Explains how form shapes the argument",
+          "Original poem follows the chosen form's requirements",
+          "Reflection insightfully discusses constraint"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Art of the Sonnet",
+          "creator": "Stephanie Burt and David Mikics",
+          "year": 2010,
+          "note": "One hundred sonnets from Petrarch to the present, each with a short, illuminating essay.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Voice, Tone, and Writing About Poetry",
+      "overview": "Bringing it together: tone and voice, putting the elements together in an interpretation, and writing an explication of a poem.",
+      "objectives": [
+        "Analyze tone and how it shifts within a poem.",
+        "Integrate analysis of image, figure, sound, meter, and form into an interpretation.",
+        "Write a poetry explication with accurate quotation and citation."
+      ],
+      "lesson": "## Tone and voice\n\n**Tone** is a poem's attitude toward its subject and audience: tender, ironic, angry, playful, elegiac, reverent. **Voice** is the distinctive personality the poem projects. Tone arises from every element we've studied: diction, imagery, figurative language, sound, meter, and form.\n\nTone often **shifts**. Dickinson's \"Because I could not stop for Death\" begins with a calm, almost courtly tone: Death \"kindly stopped\" for the speaker, and they ride together in a carriage. As the journey continues past a school, fields of grain, and the setting sun, a chill creeps in; the speaker's clothing is too thin, and they pause before a house that seems \"a Swelling of the Ground,\" a grave. The final stanza, set centuries later, reveals that the speaker has been dead all along. The poem's polite surface makes its subject more unsettling.\n\n## Irony\n\n**Verbal irony** says one thing and means another. **Situational irony** arises when outcomes contradict expectations. **Dramatic irony**, which you met in drama, occurs when readers know more than the speaker, as in Browning's \"My Last Duchess,\" where the duke reveals far more about himself than he intends.\n\n## Putting the elements together\n\nAn interpretation of a poem brings its elements together. Ask:\n\n1. **What is the poem's situation?** Who speaks, to whom, about what?\n2. **How do its images and figures develop?**\n3. **How do sound and meter contribute?**\n4. **What does the form do?** Where is the turn?\n5. **What is the tone, and does it shift?**\n6. **What, finally, does the poem suggest, and how does its form help it say that?**\n\nThe point is not to catalog devices but to show how they work together.\n\n## The explication\n\nAn **explication** is a close, line-by-line analysis of a poem that explains how its elements create meaning. A strong explication:\n\n- Opens with a **thesis** about the poem's meaning and how its form achieves it.\n- Moves through the poem in an organized way, often section by section, while keeping the thesis in view.\n- **Quotes precisely**, citing line numbers: (line 5) or (lines 5–6).\n- Uses a slash to show line breaks in short quotations: \"So Eden sank to grief, / So dawn goes down to day\" (lines 6–7).\n- Explains effects, not just devices: *why* the alliteration matters, not just *that* it's there.\n- Concludes by showing what the analysis reveals about the poem as a whole.\n\n### Worked example: explication paragraph\n\n> Frost's \"Nothing Gold Can Stay\" enacts its theme of inevitable loss through its brevity and its widening scope. The poem begins with a precise botanical observation, \"Nature's first green is gold\" (line 1), a paradox resolved by anyone who has seen the yellowish first buds of spring willows and maples. The rhymed couplets, each closing quickly, mimic the brevity they describe. In line 6, however, the poem turns: \"So Eden sank to grief.\" The repeated \"So\" (lines 6–7) links the fading of new leaves to humanity's fall and to the daily passage of dawn into ordinary day, transforming a small seasonal change into a law of existence. By the final line, \"Nothing gold can stay\" (line 8), the poem has itself nearly vanished; at eight short lines, it is as brief as the gold it mourns.\n\nNotice how the paragraph combines observation (paradox, couplets, repetition, line length) with interpretation (brevity enacts loss).\n\n## Reading poetry beyond the course\n\nPoetry rewards a lifelong habit. Read poems aloud, read them more than once, and read widely: across centuries, cultures, and styles, including contemporary poets. Organizations such as the Poetry Foundation and the Academy of American Poets publish thousands of poems online, and many offer a poem a day.\n\n## Common misconceptions\n\n- **\"An explication lists every device in order.\"** It argues how the elements create meaning.\n- **\"Tone is the same as the subject.\"** A poem about death can be playful; a poem about spring can be bitter.\n- **\"Writing about poetry means finding the one right answer.\"** Strong explications make well-supported arguments; others may argue differently.\n\n## Course synthesis\n\nYou've learned to read poems slowly; to analyze imagery, figurative language, sound, meter, lines, stanzas, and fixed forms; and to interpret tone and write explications. Poetry concentrates the skills of literary reading, and these tools will serve you in every literature course that follows.\n\n## Summary\n\nTone and voice emerge from all of a poem's elements and often shift. Interpretations integrate situation, imagery, figure, sound, meter, form, and tone. An explication argues a thesis through organized, precise, line-cited close reading that explains effects.\n",
+      "keyTerms": [
+        {
+          "term": "Tone",
+          "definition": "A poem's attitude toward its subject and audience."
+        },
+        {
+          "term": "Voice",
+          "definition": "The distinctive personality projected by a poem."
+        },
+        {
+          "term": "Verbal irony",
+          "definition": "Saying one thing while meaning another."
+        },
+        {
+          "term": "Explication",
+          "definition": "A close, line-by-line analysis explaining how a poem's elements create meaning."
+        },
+        {
+          "term": "Line citation",
+          "definition": "Identifying quoted lines by number, using a slash for line breaks in short quotations."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "In \"Because I could not stop for Death,\" the calm, courtly tone makes the poem:",
+          "choices": [
+            "A celebration of carriages",
+            "Purely comic",
+            "More unsettling, given its subject",
+            "Less concerned with death"
+          ],
+          "answerIndex": 2,
+          "explanation": "The polite surface contrasts with the subject of death."
+        },
+        {
+          "prompt": "In \"My Last Duchess,\" the duke reveals more about himself than he intends. This is:",
+          "choices": [
+            "Dramatic irony",
+            "Onomatopoeia",
+            "A volta",
+            "Free verse"
+          ],
+          "answerIndex": 0,
+          "explanation": "Readers understand more than the speaker."
+        },
+        {
+          "prompt": "How should a two-line quotation from a poem be presented within a sentence?",
+          "choices": [
+            "As one line with no indication of the break",
+            "In a separate paragraph always",
+            "With a slash marking the line break and line numbers cited",
+            "Without line numbers"
+          ],
+          "answerIndex": 2,
+          "explanation": "A slash shows the line break."
+        },
+        {
+          "prompt": "A strong explication primarily:",
+          "choices": [
+            "Lists every device in order",
+            "Summarizes the poet's life",
+            "Argues how a poem's elements work together to create meaning",
+            "Rewrites the poem in prose"
+          ],
+          "answerIndex": 2,
+          "explanation": "It analyzes effects in service of a thesis."
+        },
+        {
+          "prompt": "Which statement about tone is correct?",
+          "choices": [
+            "Tone is always the same as the subject",
+            "Only prose has tone",
+            "Tone never shifts within a poem",
+            "A poem's tone can differ from what its subject might lead us to expect"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tone is attitude, which can contrast with subject."
+        }
+      ],
+      "assignment": {
+        "title": "Poetry Explication",
+        "prompt": "Write an explication of at least 400 words of a poem written before 1929 that you have not analyzed in an earlier assignment. Choose a poem of 10–30 lines.\n\nYour explication should open with a thesis about the poem's meaning and how its form achieves it; analyze at least four elements studied in this course (such as imagery, figurative language, sound, meter, lineation, form, and tone); quote precisely with line citations; and conclude by explaining what your analysis reveals about the poem as a whole. You can find thousands of poems, including every poem named in this course, at the Poetry Foundation (poetryfoundation.org) and Poets.org.",
+        "rubric": [
+          "Opens with a clear, arguable thesis",
+          "Analyzes at least four elements with precise, cited quotations",
+          "Explains effects and integrates elements",
+          "Conclusion synthesizes the analysis"
+        ],
+        "minWords": 400
+      },
+      "resources": []
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "The speaker of a poem is:",
+      "choices": [
+        "The voice in the poem, which may be a persona rather than the poet",
+        "Always the poet",
+        "Always the reader",
+        "The person the poem is addressed to"
+      ],
+      "answerIndex": 0,
+      "explanation": "Speakers are often invented."
+    },
+    {
+      "prompt": "Pound's \"In a Station of the Metro\" creates meaning mainly through:",
+      "choices": [
+        "Juxtaposition of images",
+        "Iambic pentameter",
+        "A long narrative",
+        "Rhyme"
+      ],
+      "answerIndex": 0,
+      "explanation": "Two images are placed side by side."
+    },
+    {
+      "prompt": "T. S. Eliot's \"objective correlative\" describes:",
+      "choices": [
+        "Objects or events that evoke an emotion without naming it",
+        "A rhyme scheme",
+        "A type of foot",
+        "A stanza form"
+      ],
+      "answerIndex": 0,
+      "explanation": "Feelings are conveyed through things."
+    },
+    {
+      "prompt": "\"Life is a journey\" is an example of:",
+      "choices": [
+        "Metaphor",
+        "Simile",
+        "Caesura",
+        "Alliteration"
+      ],
+      "answerIndex": 0,
+      "explanation": "It states an implied comparison."
+    },
+    {
+      "prompt": "In the metaphor \"Hope is the thing with feathers,\" hope is the:",
+      "choices": [
+        "Refrain",
+        "Tenor",
+        "Volta",
+        "Vehicle"
+      ],
+      "answerIndex": 1,
+      "explanation": "The tenor is the subject being described."
+    },
+    {
+      "prompt": "Referring to a monarch as \"the crown\" is:",
+      "choices": [
+        "Onomatopoeia",
+        "Apostrophe",
+        "Metonymy",
+        "Synecdoche"
+      ],
+      "answerIndex": 2,
+      "explanation": "An associated object stands for the thing."
+    },
+    {
+      "prompt": "Repetition of vowel sounds, as in \"mellow wedding bells,\" is:",
+      "choices": [
+        "Slant rhyme",
+        "Alliteration",
+        "Consonance",
+        "Assonance"
+      ],
+      "answerIndex": 3,
+      "explanation": "Assonance repeats vowels."
+    },
+    {
+      "prompt": "Which word is a trochee?",
+      "choices": [
+        "Intervene",
+        "Delight",
+        "Garden",
+        "Beautiful"
+      ],
+      "answerIndex": 2,
+      "explanation": "A trochee is stressed-unstressed."
+    },
+    {
+      "prompt": "Unrhymed iambic pentameter is called:",
+      "choices": [
+        "Terza rima",
+        "Free verse",
+        "Common meter",
+        "Blank verse"
+      ],
+      "answerIndex": 3,
+      "explanation": "It is the meter of Shakespeare's plays and Paradise Lost."
+    },
+    {
+      "prompt": "Scansion is:",
+      "choices": [
+        "Counting stanzas",
+        "Marking stresses to identify a line's meter",
+        "Paraphrasing a poem",
+        "Identifying the speaker"
+      ],
+      "answerIndex": 1,
+      "explanation": "Scansion reveals meter."
+    },
+    {
+      "prompt": "A sentence that runs across a line break without pause is:",
+      "choices": [
+        "A refrain",
+        "End-stopped",
+        "Enjambed",
+        "A caesura"
+      ],
+      "answerIndex": 2,
+      "explanation": "Enjambment carries sense across lines."
+    },
+    {
+      "prompt": "A Shakespearean sonnet ends with:",
+      "choices": [
+        "A sestet",
+        "Two refrains",
+        "A haiku",
+        "A rhyming couplet"
+      ],
+      "answerIndex": 3,
+      "explanation": "ABAB CDCD EFEF GG ends in a couplet."
+    },
+    {
+      "prompt": "The volta is:",
+      "choices": [
+        "A type of rhyme",
+        "The title of a poem",
+        "The turn in a poem's argument or tone",
+        "A foot of three syllables"
+      ],
+      "answerIndex": 2,
+      "explanation": "It marks a shift, especially in sonnets."
+    },
+    {
+      "prompt": "Which form uses two alternating refrains and nineteen lines?",
+      "choices": [
+        "Sonnet",
+        "Ballad",
+        "Ode",
+        "Villanelle"
+      ],
+      "answerIndex": 3,
+      "explanation": "The villanelle's refrains meet in the final couplet."
+    },
+    {
+      "prompt": "A strong poetry explication:",
+      "choices": [
+        "Avoids quoting the poem",
+        "Summarizes the poet's biography",
+        "Argues how the poem's elements create meaning, with precise, line-cited quotations",
+        "Lists devices without interpretation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Explication is argument through close reading."
+    }
+  ],
+  "resources": [
+    {
+      "kind": "book",
+      "title": "A Poetry Handbook",
+      "creator": "Mary Oliver",
+      "year": 1994,
+      "note": "A Pulitzer Prize–winning poet's lucid, inspiring short guide to the craft of poetry.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Ode Less Travelled",
+      "creator": "Stephen Fry",
+      "year": 2005,
+      "note": "A funny, practical introduction to meter, rhyme, and form, full of exercises.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Making of a Poem: A Norton Anthology of Poetic Forms",
+      "creator": "Mark Strand and Eavan Boland",
+      "year": 2000,
+      "note": "An anthology organized by form, with clear explanations of each.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "podcast",
+      "title": "Poetry Unbound",
+      "creator": "Pádraig Ó Tuama",
+      "year": null,
+      "note": "Short episodes, each devoted to slowly reading and reflecting on a single poem.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "website",
+      "title": "Poetry Foundation",
+      "creator": "Poetry Foundation",
+      "year": null,
+      "note": "Thousands of poems, poet biographies, and essays, free online.",
+      "url": "https://www.poetryfoundation.org/",
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "website",
+      "title": "Poets.org",
+      "creator": "Academy of American Poets",
+      "year": null,
+      "note": "Poems, poet biographies, and glossaries of poetic forms and terms.",
+      "url": "https://poets.org/",
+      "isbn": null,
+      "verified": false
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }
