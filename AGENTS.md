@@ -12,5 +12,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - Curriculum lives in `content/` as JSON and is validated by the Zod schemas in `src/lib/content/schema.ts`. Run `npm run content:validate` after changing content or schemas.
 - New degrees and course materials come from `npm run degree:new` and `npm run courses:generate` (see README). Don't hand-edit generated course JSON unless fixing an error.
+- Programs are discipline-only certificates (no gen-ed, no credits): five 8-week terms per year, two courses per term, concentration slots `@1`…`@n` filled by the student's chosen concentration (`resolveTerms`).
+- Term dates come from `src/lib/calendar.ts`; every student in a cohort shares them. Use `today()` (honors `AIU_TODAY` outside production), never `new Date()`, for academic dates.
+- Public pages use `src/lib/visibility.ts` so admin-hidden programs disappear; admin pages use the unfiltered loaders.
+- Supplementary resources are stored as data and links are derived in `resourceLinks`; don't store store URLs for books.
 - Cache Components is intentionally off: student pages read the session cookie on every request.
 - Server actions that change coursework must `revalidatePath` the page they redirect back to (hash-only redirects don't refetch).
