@@ -4,9 +4,1119 @@
   "category": "foundation",
   "description": "How individuals and firms make decisions under scarcity. Topics include supply and demand, elasticity, consumer choice, costs of production, market structures, market failures, and the role of government.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": [],
-  "resources": []
+  "status": "published",
+  "outcomes": [
+    "Apply opportunity cost, marginal analysis, and incentives to economic decisions.",
+    "Explain the gains from specialization and trade using comparative advantage.",
+    "Use supply, demand, and elasticity to analyze markets and price changes.",
+    "Evaluate market efficiency and the effects of price controls and taxes.",
+    "Analyze firms' costs and behavior under different market structures.",
+    "Identify market failures and evaluate policy responses."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "Thinking Like an Economist",
+      "overview": "Scarcity, opportunity cost, marginal thinking, and incentives: the core ideas behind every economic decision, and the production possibilities frontier.",
+      "objectives": [
+        "Explain scarcity and opportunity cost and apply them to decisions.",
+        "Use marginal analysis to evaluate choices.",
+        "Interpret a production possibilities frontier."
+      ],
+      "lesson": "## Economics is about choices\n\n**Economics** is the study of how people, businesses, and societies use scarce resources to satisfy their wants. **Microeconomics**, the subject of this course, focuses on individual decision-makers, such as households and firms, and on how they interact in markets. (Macroeconomics, next term, studies the economy as a whole.)\n\nThe starting point is **scarcity**: resources such as time, money, labor, land, and materials are limited, while wants are not. Because of scarcity, every choice involves a trade-off.\n\n## Opportunity cost\n\nThe **opportunity cost** of a choice is the value of the next-best alternative you give up. It's the true cost of anything.\n\n- The opportunity cost of attending a concert isn't just the $80 ticket; it's also the evening shift you could have worked, worth, say, $120.\n- For a business, the opportunity cost of using its warehouse for storage is the rent it could have earned by leasing it out.\n\nOpportunity cost is often invisible, which is why people underweight it. Economists train themselves to ask: *compared to what?*\n\n## Thinking at the margin\n\nMost decisions aren't all-or-nothing. They're about a little more or a little less: one more hour of study, one more worker, one more unit produced. **Marginal analysis** compares the **marginal benefit** (the additional benefit) of an action with its **marginal cost** (the additional cost).\n\n**Rule:** keep doing more of something as long as its marginal benefit exceeds its marginal cost.\n\n### Worked example: how many hours to study\n\n| Hour | Marginal benefit (points gained) | Value per point | Marginal benefit | Marginal cost (wages forgone) |\n|---|---|---|---|---|\n| 1st | 10 | $3 | $30 | $15 |\n| 2nd | 7 | $3 | $21 | $15 |\n| 3rd | 4 | $3 | $12 | $15 |\n\nEach extra hour helps less (**diminishing marginal returns**). The student should study two hours: the third hour costs more than it's worth. Note that \"sunk\" costs, money or time already spent and unrecoverable, should not affect this decision. Only future, marginal costs and benefits matter.\n\n## Incentives\n\nPeople respond to **incentives**, the rewards and penalties that change the costs and benefits of choices. A tax on sugary drinks raises their price, and people buy fewer. A bonus for meeting a sales target increases effort toward that target, and sometimes encourages gaming the target. Predicting how people will respond to incentives, including unintended responses, is one of economics' central skills.\n\n## The production possibilities frontier\n\nA **production possibilities frontier (PPF)** shows the combinations of two goods an economy (or a person, or a firm) can produce with its available resources and technology.\n\nImagine a small island that can produce fish and coconuts:\n\n| Option | Fish | Coconuts |\n|---|---|---|\n| A | 0 | 100 |\n| B | 20 | 90 |\n| C | 40 | 70 |\n| D | 60 | 40 |\n| E | 80 | 0 |\n\nThe PPF teaches several lessons:\n\n- **Points on the frontier** are efficient: you can't produce more of one good without producing less of the other.\n- **Points inside** are inefficient: resources are idle or wasted.\n- **Points outside** are unattainable with current resources.\n- **Moving along** the frontier shows opportunity cost. Moving from B to C, 20 more fish cost 20 coconuts; from C to D, 20 more fish cost 30 coconuts. The opportunity cost rises because resources aren't equally suited to both tasks (the best fishers are switched first). That's why most PPFs bow outward.\n- **Economic growth**, from more resources or better technology, shifts the whole frontier outward.\n\n## Positive and normative economics\n\n**Positive** statements describe how the world is and can be tested: \"A higher minimum wage reduces employment among teenagers.\" **Normative** statements express values: \"The minimum wage should be raised.\" Economists disagree about both, but it helps to know which kind of disagreement you're having.\n\n## Common misconceptions\n\n- **\"Free things have no cost.\"** Your time always has an opportunity cost.\n- **\"Money already spent should influence the decision.\"** Sunk costs are irrelevant to future choices.\n- **\"Economics is only about money.\"** It's about choices under scarcity, including time and attention.\n\n## Summary\n\nScarcity forces trade-offs, and the real cost of anything is its opportunity cost. Rational decisions compare marginal benefits and marginal costs, ignoring sunk costs. People respond to incentives. The PPF illustrates efficiency, opportunity cost, and growth.\n",
+      "keyTerms": [
+        {
+          "term": "Scarcity",
+          "definition": "The condition of limited resources relative to unlimited wants."
+        },
+        {
+          "term": "Opportunity cost",
+          "definition": "The value of the next-best alternative given up when making a choice."
+        },
+        {
+          "term": "Marginal analysis",
+          "definition": "Comparing the additional benefits and costs of a little more of an activity."
+        },
+        {
+          "term": "Sunk cost",
+          "definition": "A cost that has already been incurred and cannot be recovered."
+        },
+        {
+          "term": "Production possibilities frontier",
+          "definition": "A curve showing the maximum combinations of two goods that can be produced with given resources."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "You skip a $50 shift to attend a free lecture. What is the opportunity cost of attending?",
+          "choices": [
+            "The cost of the lecture plus $50",
+            "$0, because the lecture is free",
+            "It cannot be determined",
+            "$50"
+          ],
+          "answerIndex": 3,
+          "explanation": "The value of the forgone alternative is the opportunity cost."
+        },
+        {
+          "prompt": "A company has spent $2 million developing a product that is now expected to lose money. When deciding whether to continue, the $2 million should be:",
+          "choices": [
+            "The main factor in the decision",
+            "Divided by the number of units sold",
+            "Ignored, because it is a sunk cost",
+            "Added to future costs"
+          ],
+          "answerIndex": 2,
+          "explanation": "Only future costs and benefits matter."
+        },
+        {
+          "prompt": "According to marginal analysis, you should keep doing an activity as long as:",
+          "choices": [
+            "Its marginal benefit exceeds its marginal cost",
+            "Its average cost is falling",
+            "You have already started it",
+            "Its total benefit is positive"
+          ],
+          "answerIndex": 0,
+          "explanation": "The marginal comparison determines the best amount."
+        },
+        {
+          "prompt": "A point inside a production possibilities frontier indicates:",
+          "choices": [
+            "Resources are not being used efficiently",
+            "Maximum efficiency",
+            "Economic growth",
+            "The combination is impossible"
+          ],
+          "answerIndex": 0,
+          "explanation": "More of both goods could be produced."
+        },
+        {
+          "prompt": "Which is a normative statement?",
+          "choices": [
+            "Cigarette sales fell last year",
+            "Higher cigarette taxes reduce smoking",
+            "Taxes raise prices",
+            "The government should raise taxes on cigarettes"
+          ],
+          "answerIndex": 3,
+          "explanation": "It expresses a value judgment about what ought to happen."
+        }
+      ],
+      "assignment": {
+        "title": "The Economics of Your Choices",
+        "prompt": "1. Describe a significant decision you made recently (such as enrolling at AIU, a purchase, or a job choice). Identify its full opportunity cost, including non-monetary costs, and any sunk costs that were tempting to consider.\n2. Analyze a smaller, ongoing decision using marginal thinking (for example, how many hours to work, exercise, or sleep). Build a simple table of marginal benefits and costs and identify the best choice.\n3. Describe one incentive in your workplace, school, or community, and predict one intended and one unintended response to it.",
+        "rubric": [
+          "Identifies opportunity costs, including non-monetary ones, and sunk costs",
+          "Applies marginal analysis correctly with a table",
+          "Analyzes incentives with intended and unintended effects",
+          "Writing is clear and specific"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Economics in One Lesson",
+          "creator": "Henry Hazlitt",
+          "year": 1946,
+          "note": "A short classic on looking beyond the immediate effects of a policy to its unseen costs.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Specialization, Trade, and Comparative Advantage",
+      "overview": "Why people and nations specialize and trade, the difference between absolute and comparative advantage, and how trade creates gains for both sides.",
+      "objectives": [
+        "Distinguish absolute advantage from comparative advantage.",
+        "Calculate opportunity costs to determine comparative advantage.",
+        "Explain how specialization and trade create mutual gains, and the costs trade can impose."
+      ],
+      "lesson": "## Why not do everything yourself?\n\nYou could, in principle, grow your own food, sew your own clothes, and build your own phone. You don't, because specializing in what you do well and trading for the rest makes you far better off. This insight, developed by Adam Smith and David Ricardo, is among the most important in economics.\n\n## Absolute advantage\n\nA producer has an **absolute advantage** in a good if it can produce more of it with the same resources, or the same amount with fewer resources.\n\n## Comparative advantage\n\nA producer has a **comparative advantage** in a good if it can produce it at a **lower opportunity cost** than others. Comparative advantage, not absolute advantage, determines who should specialize in what.\n\n### Worked example: Ana and Ben\n\nIn one day, Ana and Ben can each produce:\n\n| | Websites | Logos |\n|---|---|---|\n| Ana | 4 | 8 |\n| Ben | 1 | 4 |\n\nAna has an absolute advantage in both. Does that mean trade can't help? Compute opportunity costs:\n\n- **Ana:** 1 website costs 2 logos; 1 logo costs 0.5 websites.\n- **Ben:** 1 website costs 4 logos; 1 logo costs 0.25 websites.\n\nAna gives up fewer logos per website (2 vs. 4), so she has the comparative advantage in **websites**. Ben gives up fewer websites per logo (0.25 vs. 0.5), so he has the comparative advantage in **logos**.\n\nSuppose each currently splits the day evenly. Ana makes 2 websites and 4 logos; Ben makes 0.5 websites and 2 logos. Total: 2.5 websites, 6 logos.\n\nNow suppose Ana spends three-quarters of her day on websites and a quarter on logos (3 websites, 2 logos), while Ben makes only logos (4 logos). Total: 3 websites, 6 logos. Specializing according to comparative advantage produced half a website more with the same total effort. If they then trade, at a price between their opportunity costs (between 2 and 4 logos per website), both can end up with more than they could make alone.\n\n**Everyone has a comparative advantage in something**, because opportunity costs are relative. Even the most productive person benefits from trading with less productive people.\n\n## Terms of trade\n\nFor trade to benefit both sides, the price must fall between the two producers' opportunity costs. Here, if Ana sells websites to Ben for 3 logos each, Ana gains (a website costs her only 2 logos to make) and Ben gains (making one himself would cost 4 logos).\n\n## Nations and trade\n\nThe same logic applies to countries. Nations export goods in which they have a comparative advantage, which can come from natural resources, climate, skilled labor, capital, or accumulated expertise, and import others. Trade expands the total output available to consume, lets producers reach larger markets and achieve economies of scale, and gives consumers more choice and lower prices.\n\n## The costs of trade\n\nGains from trade are real, but they aren't evenly shared. When a country imports goods it once produced, workers and firms in those industries may lose jobs and income, often concentrated in particular regions. Economists widely agree that trade raises *total* income, but also that its costs to specific groups are serious, which is why policies such as retraining and adjustment assistance are debated. Understanding both sides is essential to evaluating trade policy.\n\n## Common misconceptions\n\n- **\"If one country is better at everything, trade can't help it.\"** Comparative advantage shows that it can.\n- **\"Trade is a zero-sum game: one side's gain is the other's loss.\"** Voluntary trade typically benefits both sides.\n- **\"Trade benefits everyone equally.\"** Total gains can coexist with real losses for some groups.\n\n## Summary\n\nAbsolute advantage is about productivity; comparative advantage is about opportunity cost. Specializing according to comparative advantage and trading at terms between the parties' opportunity costs creates mutual gains, for individuals and nations alike, even though those gains may be unevenly distributed.\n",
+      "keyTerms": [
+        {
+          "term": "Absolute advantage",
+          "definition": "The ability to produce more of a good than another producer with the same resources."
+        },
+        {
+          "term": "Comparative advantage",
+          "definition": "The ability to produce a good at a lower opportunity cost than another producer."
+        },
+        {
+          "term": "Specialization",
+          "definition": "Concentrating production on a narrower range of goods or tasks."
+        },
+        {
+          "term": "Terms of trade",
+          "definition": "The rate at which one good is exchanged for another."
+        },
+        {
+          "term": "Gains from trade",
+          "definition": "The increase in total output and consumption made possible by specialization and exchange."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Maria can bake 10 loaves or knit 5 scarves in a day; Joe can bake 6 loaves or knit 2 scarves. Who has the comparative advantage in scarves?",
+          "choices": [
+            "Both equally",
+            "Maria",
+            "Neither",
+            "Joe"
+          ],
+          "answerIndex": 1,
+          "explanation": "Maria's opportunity cost of a scarf is 2 loaves; Joe's is 3 loaves."
+        },
+        {
+          "prompt": "Comparative advantage is determined by:",
+          "choices": [
+            "Opportunity cost",
+            "The price of the good",
+            "Total output",
+            "Absolute productivity"
+          ],
+          "answerIndex": 0,
+          "explanation": "The producer with the lower opportunity cost has the comparative advantage."
+        },
+        {
+          "prompt": "If a country has an absolute advantage in producing every good, can it still benefit from trade?",
+          "choices": [
+            "Only if it has a trade deficit",
+            "No, it should produce everything itself",
+            "Only for luxury goods",
+            "Yes, by specializing in goods where its opportunity cost is lowest"
+          ],
+          "answerIndex": 3,
+          "explanation": "Gains depend on comparative, not absolute, advantage."
+        },
+        {
+          "prompt": "For both parties to gain from trade, the terms of trade must:",
+          "choices": [
+            "Equal the higher opportunity cost",
+            "Favor the more productive producer",
+            "Fall between the two producers' opportunity costs",
+            "Be set by the government"
+          ],
+          "answerIndex": 2,
+          "explanation": "Each side must pay less than its own cost of producing the good."
+        },
+        {
+          "prompt": "Which statement about trade is most consistent with the evidence economists cite?",
+          "choices": [
+            "Trade raises total income but can impose serious losses on particular workers and regions",
+            "Trade has no effect on jobs",
+            "Trade harms both countries",
+            "Trade benefits every individual equally"
+          ],
+          "answerIndex": 0,
+          "explanation": "Gains are real but unevenly distributed."
+        }
+      ],
+      "assignment": {
+        "title": "Comparative Advantage at Home or Work",
+        "prompt": "Think of two people (yourself and a roommate, partner, or coworker) who each perform two tasks, such as cooking and cleaning, or writing and data entry.\n\nIn at least 200 words: estimate how much of each task each person can do in an hour; compute each person's opportunity costs; identify who has the absolute and comparative advantage in each task; show with numbers how specialization could increase total output; and suggest terms of trade that would make both better off. End with one real-world reason the arrangement might not work as neatly as the model predicts.",
+        "rubric": [
+          "Provides realistic production data",
+          "Computes opportunity costs correctly",
+          "Identifies absolute and comparative advantage correctly",
+          "Demonstrates gains and proposes valid terms of trade"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Box",
+          "creator": "Marc Levinson",
+          "year": 2006,
+          "note": "How the humble shipping container transformed world trade and made globalization possible.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Supply, Demand, and Market Equilibrium",
+      "overview": "A deeper look at how markets work: demand and supply schedules, shifts versus movements, equilibrium, and analyzing changes in markets.",
+      "objectives": [
+        "Distinguish changes in quantity demanded or supplied from shifts in demand or supply.",
+        "Identify the determinants of demand and supply.",
+        "Predict how equilibrium price and quantity respond to shifts."
+      ],
+      "lesson": "## The workhorse model\n\nYou met supply and demand in Introduction to Business. This week we make the model precise, because it is the single most-used tool in economics.\n\n## Demand\n\n**Demand** is the relationship between price and the quantity buyers are willing and able to purchase, holding other factors constant. The **law of demand** says quantity demanded falls as price rises. Why?\n\n- **Substitution effect:** as a good gets pricier, buyers switch to alternatives.\n- **Income effect:** a higher price reduces buyers' purchasing power.\n- **Diminishing marginal utility:** each additional unit is worth a bit less to the buyer.\n\nA **demand schedule** lists quantities at each price; plotting it gives a downward-sloping **demand curve**.\n\n## Movements versus shifts\n\nThis distinction is the most common source of errors:\n\n- A change in the good's **own price** causes a **movement along** the curve: a change in **quantity demanded**.\n- A change in anything else causes the **whole curve to shift**: a change in **demand**.\n\n### Determinants that shift demand\n\n- **Income:** for **normal goods**, higher income increases demand; for **inferior goods** (such as some generic or budget products), higher income decreases demand.\n- **Prices of related goods:** a rise in the price of a **substitute** increases demand; a rise in the price of a **complement** decreases demand.\n- **Tastes and preferences.**\n- **Expectations** about future prices or income.\n- **Number of buyers.**\n\n## Supply\n\n**Supply** is the relationship between price and the quantity sellers are willing to offer. The **law of supply** says quantity supplied rises with price, because higher prices make production more profitable and draw in more production.\n\n### Determinants that shift supply\n\n- **Input prices** (wages, materials, energy): higher costs decrease supply.\n- **Technology:** better technology increases supply.\n- **Number of sellers.**\n- **Expectations** about future prices.\n- **Government policies:** taxes decrease supply; subsidies increase it.\n- **Natural conditions** such as weather.\n\n## Equilibrium\n\nThe **equilibrium** price is where quantity demanded equals quantity supplied. At any other price, market pressures push toward equilibrium:\n\n- **Above** equilibrium: a **surplus**; sellers cut prices to clear unsold goods.\n- **Below** equilibrium: a **shortage**; buyers bid prices up.\n\n### Worked example: a market for concert tickets\n\n| Price | Quantity demanded | Quantity supplied |\n|---|---|---|\n| $20 | 900 | 300 |\n| $40 | 700 | 500 |\n| $60 | 600 | 600 |\n| $80 | 400 | 700 |\n\nEquilibrium is $60, with 600 tickets sold. At $40 there's a shortage of 200 tickets; at $80, a surplus of 300.\n\n## Analyzing changes: a three-step method\n\n1. Decide whether the event shifts demand, supply, or both.\n2. Decide the direction of each shift.\n3. Find the new equilibrium and compare.\n\n| Change | Effect on price | Effect on quantity |\n|---|---|---|\n| Demand increases | rises | rises |\n| Demand decreases | falls | falls |\n| Supply increases | falls | rises |\n| Supply decreases | rises | falls |\n\nWhen both curves shift, one effect is certain and the other ambiguous. If demand and supply both increase, quantity rises, but price could rise or fall depending on which shift is larger.\n\n### Worked example: electric cars\n\nBattery technology improves (supply increases) while gasoline prices rise (gasoline is a complement to gas cars, which are substitutes for electric cars, so demand for electric cars increases). Quantity of electric cars sold definitely rises. Price is ambiguous: it falls if the supply shift dominates and rises if the demand shift dominates.\n\n## Common misconceptions\n\n- **\"A price increase reduces demand.\"** It reduces *quantity demanded*; demand (the curve) shifts only for other reasons.\n- **\"If price rises, supply increases, which lowers price.\"** Confusing movements and shifts produces circular reasoning like this.\n- **\"Shortages mean there isn't enough of a good.\"** In economics, a shortage means the price is below equilibrium.\n\n## Summary\n\nDemand slopes down and supply slopes up. A change in a good's own price moves along a curve; other factors shift curves. Equilibrium balances quantity demanded and supplied, and the three-step method predicts how events change price and quantity.\n",
+      "keyTerms": [
+        {
+          "term": "Quantity demanded",
+          "definition": "The amount buyers will purchase at a particular price."
+        },
+        {
+          "term": "Normal good",
+          "definition": "A good for which demand increases when income increases."
+        },
+        {
+          "term": "Complement",
+          "definition": "A good used together with another, so a rise in one's price reduces demand for the other."
+        },
+        {
+          "term": "Equilibrium",
+          "definition": "The price and quantity at which quantity demanded equals quantity supplied."
+        },
+        {
+          "term": "Shortage",
+          "definition": "A situation in which quantity demanded exceeds quantity supplied at the current price."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "The price of coffee rises, and consumers buy less coffee. This is:",
+          "choices": [
+            "A shift of the demand curve to the left",
+            "An increase in supply",
+            "A decrease in quantity demanded",
+            "A decrease in demand"
+          ],
+          "answerIndex": 2,
+          "explanation": "A change in a good's own price moves along the demand curve."
+        },
+        {
+          "prompt": "When incomes rise, demand for bus rides falls. Bus rides are therefore:",
+          "choices": [
+            "An inferior good",
+            "A good with no substitutes",
+            "A normal good",
+            "A complement to income"
+          ],
+          "answerIndex": 0,
+          "explanation": "Demand for inferior goods falls as income rises."
+        },
+        {
+          "prompt": "A new technology lowers the cost of producing solar panels. In the solar panel market:",
+          "choices": [
+            "Price and quantity both fall",
+            "Price rises and quantity falls",
+            "Price rises and quantity rises",
+            "Price falls and quantity rises"
+          ],
+          "answerIndex": 3,
+          "explanation": "Supply increases, lowering price and raising quantity."
+        },
+        {
+          "prompt": "At the current price, sellers have large amounts of unsold inventory. The price is:",
+          "choices": [
+            "At equilibrium",
+            "Below equilibrium",
+            "Above equilibrium",
+            "Set by the government"
+          ],
+          "answerIndex": 2,
+          "explanation": "A surplus means the price is above equilibrium."
+        },
+        {
+          "prompt": "If demand and supply both decrease, which is certain?",
+          "choices": [
+            "Equilibrium price falls",
+            "Equilibrium quantity falls",
+            "Equilibrium price rises",
+            "Equilibrium quantity rises"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both shifts reduce quantity; the price effect is ambiguous."
+        }
+      ],
+      "assignment": {
+        "title": "Explain a Price Change",
+        "prompt": "Choose a real market in which prices changed noticeably in recent years (for example, eggs, rent, airline tickets, used cars, or concert tickets).\n\nIn at least 200 words, use the three-step method to explain the change. Identify specific events that shifted demand and/or supply, state the direction of each shift, and describe the predicted change in equilibrium price and quantity. If both curves shifted, explain which effect is ambiguous. Finally, distinguish clearly between any movements along a curve and shifts of a curve in your explanation.",
+        "rubric": [
+          "Identifies a real market and specific events",
+          "Applies the three-step method correctly",
+          "Handles combined shifts and ambiguity correctly",
+          "Distinguishes movements from shifts precisely"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 4,
+      "title": "Elasticity",
+      "overview": "How strongly buyers and sellers respond to price changes: price elasticity of demand, its determinants, its link to total revenue, and other elasticities.",
+      "objectives": [
+        "Calculate and interpret the price elasticity of demand.",
+        "Explain the determinants of elasticity.",
+        "Predict how price changes affect total revenue, and interpret income and cross-price elasticities."
+      ],
+      "lesson": "## How much do people respond?\n\nThe law of demand tells us quantity falls when price rises. **Elasticity** tells us *how much*. A business considering a price increase, or a government considering a tax, needs that number.\n\n## Price elasticity of demand\n\nThe **price elasticity of demand** is the percentage change in quantity demanded divided by the percentage change in price:\n\nElasticity = (% change in quantity demanded) / (% change in price)\n\nBecause quantity and price move in opposite directions, the result is negative; economists usually report its absolute value.\n\nTo avoid getting different answers depending on direction, use the **midpoint method**, which computes percentage changes relative to the average of the starting and ending values:\n\n% change = (new − old) / ((new + old)/2)\n\n### Worked example\n\nA coffee shop raises the price of a latte from $4 to $5, and daily sales fall from 220 to 180.\n\n- % change in price = 1 / 4.5 ≈ 22.2%\n- % change in quantity = −40 / 200 = −20%\n- Elasticity ≈ 20 / 22.2 ≈ 0.90\n\n## Interpreting elasticity\n\n| Value | Term | Meaning |\n|---|---|---|\n| > 1 | **Elastic** | Quantity responds more than proportionally to price |\n| = 1 | **Unit elastic** | Proportional response |\n| < 1 | **Inelastic** | Quantity responds less than proportionally |\n| 0 | Perfectly inelastic | Quantity doesn't respond at all |\n\nThe latte's demand, at 0.90, is slightly inelastic.\n\n## Determinants of elasticity\n\nDemand tends to be more elastic when:\n\n- **Close substitutes** are available (one brand of bottled water vs. water in general).\n- The good is a **luxury** rather than a necessity (cruises vs. insulin).\n- The market is **narrowly defined** (Brand X cereal vs. food).\n- Buyers have **more time** to adjust (gasoline demand is more elastic over years than over weeks, as people change cars and commutes).\n- The good takes a **large share of the budget**.\n\n## Elasticity and total revenue\n\n**Total revenue** = price × quantity. Elasticity tells a seller how a price change affects it:\n\n- If demand is **inelastic**, raising price **increases** total revenue (quantity falls proportionally less).\n- If demand is **elastic**, raising price **decreases** total revenue.\n- If demand is unit elastic, total revenue doesn't change.\n\nThe latte shop's revenue went from $4 × 220 = $880 to $5 × 180 = $900: a small increase, as predicted for inelastic demand.\n\nThis explains why airlines charge business travelers (inelastic: they must travel on specific dates) more than leisure travelers (elastic: they can wait or not go), and why farmers can be hurt by a bumper crop: demand for staple foods is inelastic, so a big increase in supply drives prices down sharply and total revenue falls.\n\n## Other elasticities\n\n- **Price elasticity of supply** measures how much quantity supplied responds to price. Supply is more elastic when production can expand quickly; supply of beachfront land is nearly perfectly inelastic.\n- **Income elasticity of demand** = % change in quantity / % change in income. Positive for normal goods, negative for inferior goods; above 1 for luxuries.\n- **Cross-price elasticity of demand** = % change in quantity of good A / % change in price of good B. Positive for substitutes, negative for complements.\n\n## Elasticity and taxes\n\nWho bears a tax depends on elasticity. When demand is inelastic, as for cigarettes, much of a tax is passed on to buyers through higher prices, and quantity falls only modestly. That's one reason such goods are attractive to tax for revenue, and also why a tax may do less to reduce consumption than its supporters hope.\n\n## Common misconceptions\n\n- **\"Elasticity is the same as the slope of the demand curve.\"** Elasticity uses percentages, and it typically varies along a straight-line demand curve.\n- **\"Raising prices always increases revenue.\"** Only when demand is inelastic.\n- **\"Necessities have zero elasticity.\"** They're usually inelastic, but rarely perfectly so.\n\n## Summary\n\nPrice elasticity of demand measures how strongly quantity responds to price. Substitutes, luxuries, narrow markets, time, and budget share make demand more elastic. Elasticity determines whether price changes raise or lower total revenue and who bears a tax, and income and cross-price elasticities classify goods.\n",
+      "keyTerms": [
+        {
+          "term": "Price elasticity of demand",
+          "definition": "The percentage change in quantity demanded divided by the percentage change in price."
+        },
+        {
+          "term": "Elastic demand",
+          "definition": "Demand for which quantity responds more than proportionally to price changes (elasticity > 1)."
+        },
+        {
+          "term": "Inelastic demand",
+          "definition": "Demand for which quantity responds less than proportionally (elasticity < 1)."
+        },
+        {
+          "term": "Total revenue",
+          "definition": "Price multiplied by quantity sold."
+        },
+        {
+          "term": "Cross-price elasticity",
+          "definition": "The responsiveness of demand for one good to a change in the price of another."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Price rises by 10% and quantity demanded falls by 25%. Demand is:",
+          "choices": [
+            "Elastic",
+            "Perfectly inelastic",
+            "Unit elastic",
+            "Inelastic"
+          ],
+          "answerIndex": 0,
+          "explanation": "25 / 10 = 2.5, which is greater than 1."
+        },
+        {
+          "prompt": "If demand for a product is inelastic, a price increase will:",
+          "choices": [
+            "Increase total revenue",
+            "Leave total revenue unchanged",
+            "Increase quantity demanded",
+            "Decrease total revenue"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quantity falls proportionally less than price rises."
+        },
+        {
+          "prompt": "Which good is likely to have the most elastic demand?",
+          "choices": [
+            "Table salt",
+            "A specific brand of potato chips",
+            "Electricity",
+            "Insulin"
+          ],
+          "answerIndex": 1,
+          "explanation": "Close substitutes make demand for a single brand very elastic."
+        },
+        {
+          "prompt": "The cross-price elasticity between printers and ink cartridges is most likely:",
+          "choices": [
+            "Zero",
+            "Positive, because they are substitutes",
+            "Negative, because they are complements",
+            "Greater than 10"
+          ],
+          "answerIndex": 2,
+          "explanation": "A higher printer price reduces demand for ink."
+        },
+        {
+          "prompt": "Why can a bumper crop reduce farmers' total revenue?",
+          "choices": [
+            "The government sets a price floor",
+            "Farmers sell fewer crops",
+            "Demand for staple crops is inelastic, so the price falls proportionally more than quantity rises",
+            "Demand for crops is perfectly elastic"
+          ],
+          "answerIndex": 2,
+          "explanation": "With inelastic demand, a large supply increase causes a steep price drop."
+        }
+      ],
+      "assignment": {
+        "title": "Pricing with Elasticity",
+        "prompt": "Imagine you run a small business of your choice (a café, an online course, a gym, a food truck).\n\nIn at least 200 words: (1) estimate whether demand for your main product is elastic or inelastic, justifying your answer with at least three determinants from the lesson; (2) invent a plausible before-and-after price and quantity, compute the elasticity using the midpoint method, and show how total revenue changes; (3) recommend whether to raise or lower your price, and explain one way you could make demand for your product less elastic.",
+        "rubric": [
+          "Justifies elasticity with relevant determinants",
+          "Calculates elasticity correctly using the midpoint method",
+          "Correctly analyzes the change in total revenue",
+          "Gives a sound recommendation and strategy"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 5,
+      "title": "Consumer Choice, Surplus, and Market Efficiency",
+      "overview": "Consumer and producer surplus, why competitive markets can be efficient, and what happens when governments impose price controls or taxes.",
+      "objectives": [
+        "Calculate consumer and producer surplus.",
+        "Explain why competitive market equilibrium maximizes total surplus.",
+        "Analyze the effects of price ceilings, price floors, and taxes, including deadweight loss."
+      ],
+      "lesson": "## What is a market worth?\n\nWhen you buy something for less than you would have been willing to pay, you gain. When a seller sells for more than the minimum they'd accept, they gain. Economists measure these gains to judge whether markets serve people well.\n\n## Willingness to pay and consumer surplus\n\nEach buyer has a **willingness to pay**, the maximum they'd pay for a good. **Consumer surplus** is the difference between willingness to pay and the price actually paid.\n\nIf four buyers would pay $50, $40, $30, and $20 for a concert ticket and the price is $25, the first three buy, with consumer surplus of $25 + $15 + $5 = $45. On a graph, consumer surplus is the area below the demand curve and above the price.\n\n## Producer surplus\n\n**Producer surplus** is the difference between the price a seller receives and the seller's **cost** (the minimum they'd accept). On a graph, it is the area above the supply curve and below the price.\n\n## Total surplus and efficiency\n\n**Total surplus** = consumer surplus + producer surplus = the total value to buyers minus the total cost to sellers. An allocation is **efficient** if it maximizes total surplus.\n\nIn a competitive market, equilibrium does three things:\n\n1. Goods go to the buyers who value them most (those willing to pay at least the price).\n2. Goods are produced by the sellers with the lowest costs.\n3. The quantity produced maximizes total surplus: every unit whose value exceeds its cost is traded, and no unit whose cost exceeds its value is.\n\nThis is the modern version of Adam Smith's \"invisible hand\": self-interested buyers and sellers, guided by prices, can produce an efficient outcome. Efficiency isn't the same as fairness, though. A market can be efficient while leaving some people unable to afford necessities, which is a legitimate concern for policy.\n\n## Price ceilings\n\nA **price ceiling** is a legal maximum price. If set below equilibrium, it is **binding** and causes a **shortage**.\n\n### Worked example: rent control\n\nSuppose the equilibrium rent for apartments is $2,000 per month, and the city caps rent at $1,500. At $1,500, more people want apartments and landlords offer fewer (some convert units to condos or skip maintenance). The result: a shortage, waiting lists, and allocation by luck or connections rather than price. Tenants who get apartments gain; those who can't find one lose; and the reduction in quantity creates a **deadweight loss**, surplus that disappears because mutually beneficial trades no longer happen. Economists broadly agree on these short-run effects, while debating rent control's role in protecting tenants from displacement.\n\n## Price floors\n\nA **price floor** is a legal minimum price. If set above equilibrium, it causes a **surplus**. Agricultural price supports can create unsold crops. The **minimum wage** is a price floor in the labor market; how much it affects employment is one of economics' most studied and debated questions, with research finding effects that depend on how high the minimum is relative to local wages.\n\n## Taxes\n\nA tax drives a wedge between the price buyers pay and the price sellers receive. Quantity falls, government collects revenue, and some surplus is lost as deadweight loss.\n\nWho bears the tax, its **incidence**, depends on elasticity, not on who legally pays it. The side of the market that is *less elastic* bears more of the burden. Deadweight loss is larger when supply or demand is more elastic, because quantity responds more.\n\n## Common misconceptions\n\n- **\"Price ceilings help all buyers.\"** Buyers who can't find the good are worse off.\n- **\"The person who writes the check to the government bears the tax.\"** Incidence depends on elasticities.\n- **\"Efficient means fair.\"** Efficiency concerns the size of the pie, not how it's divided.\n\n## Summary\n\nConsumer and producer surplus measure the gains from trade, and competitive equilibrium maximizes their total. Binding price ceilings cause shortages and price floors cause surpluses, and both, like taxes, create deadweight loss. Tax burdens fall more heavily on the less elastic side of the market.\n",
+      "keyTerms": [
+        {
+          "term": "Consumer surplus",
+          "definition": "The difference between what buyers are willing to pay and what they actually pay."
+        },
+        {
+          "term": "Producer surplus",
+          "definition": "The difference between the price sellers receive and their cost of production."
+        },
+        {
+          "term": "Deadweight loss",
+          "definition": "The reduction in total surplus caused by a market distortion such as a tax or price control."
+        },
+        {
+          "term": "Price ceiling",
+          "definition": "A legal maximum price; when binding, it causes shortages."
+        },
+        {
+          "term": "Tax incidence",
+          "definition": "How the burden of a tax is divided between buyers and sellers."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A buyer is willing to pay $70 for a jacket and buys it for $45. Her consumer surplus is:",
+          "choices": [
+            "$25",
+            "$115",
+            "$45",
+            "$70"
+          ],
+          "answerIndex": 0,
+          "explanation": "Willingness to pay minus price: 70 − 45."
+        },
+        {
+          "prompt": "A binding price ceiling on gasoline would most likely cause:",
+          "choices": [
+            "A shortage",
+            "A surplus",
+            "Higher prices",
+            "Increased quantity supplied"
+          ],
+          "answerIndex": 0,
+          "explanation": "At a price below equilibrium, quantity demanded exceeds quantity supplied."
+        },
+        {
+          "prompt": "Which describes deadweight loss?",
+          "choices": [
+            "The profit firms earn",
+            "Total surplus lost because some mutually beneficial trades no longer occur",
+            "The revenue the government collects from a tax",
+            "The amount consumers pay"
+          ],
+          "answerIndex": 1,
+          "explanation": "Distortions reduce the quantity traded, destroying surplus."
+        },
+        {
+          "prompt": "Demand for a good is very inelastic and supply is elastic. A tax on the good will be borne mostly by:",
+          "choices": [
+            "Buyers",
+            "Sellers",
+            "Equally by both",
+            "The government"
+          ],
+          "answerIndex": 0,
+          "explanation": "The less elastic side bears more of the burden."
+        },
+        {
+          "prompt": "A competitive market in equilibrium is efficient because:",
+          "choices": [
+            "It maximizes the total of consumer and producer surplus",
+            "Everyone can afford the good",
+            "Producers earn the most profit possible",
+            "Prices are as low as possible"
+          ],
+          "answerIndex": 0,
+          "explanation": "All trades where value exceeds cost take place, and no others."
+        }
+      ],
+      "assignment": {
+        "title": "Evaluate a Price Policy",
+        "prompt": "Choose a real price control or tax that interests you: rent control, a minimum wage, a soda tax, a cap on prescription drug prices, or another.\n\nIn at least 200 words: describe the policy and whether it is a ceiling, floor, or tax; use supply-and-demand reasoning to predict its effects on price, quantity, consumer surplus, producer surplus, and deadweight loss; identify who gains and who loses; and discuss what the policy's supporters hope to achieve that efficiency analysis alone might miss.",
+        "rubric": [
+          "Correctly classifies and describes the policy",
+          "Predicts effects on price, quantity, and surplus accurately",
+          "Identifies winners and losers",
+          "Weighs efficiency against other goals thoughtfully"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Misbehaving: The Making of Behavioral Economics",
+          "creator": "Richard H. Thaler",
+          "year": 2015,
+          "note": "A Nobel laureate's lively account of how real people's choices depart from the textbook model.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The Costs of Production",
+      "overview": "How firms think about costs: fixed and variable costs, marginal and average costs, diminishing returns, and the long run.",
+      "objectives": [
+        "Distinguish fixed, variable, total, average, and marginal costs.",
+        "Explain diminishing marginal returns and the shape of cost curves.",
+        "Describe economies and diseconomies of scale in the long run."
+      ],
+      "lesson": "## Behind the supply curve\n\nThe supply curve reflects firms' costs. To understand how firms decide how much to produce, and why markets behave as they do, we need to understand costs carefully.\n\n## Economic versus accounting profit\n\n**Accounting profit** = revenue − explicit costs (money actually paid out). **Economic profit** = revenue − explicit costs − **implicit costs**, the opportunity costs of the owner's time and capital. A café owner who earns $40,000 in accounting profit but could earn $60,000 working elsewhere has an economic *loss* of $20,000. Economic profit is what matters for decisions about entering or leaving an industry.\n\n## The short run and diminishing returns\n\nIn the **short run**, at least one input, often the building or major equipment, is fixed. A firm can expand output only by adding variable inputs such as workers.\n\nThe **law of diminishing marginal returns** states that, as more of a variable input is added to a fixed input, the additional output from each new unit eventually falls. A small kitchen can use a second and third cook well; a ninth cook mostly gets in the way.\n\n## Types of cost\n\n- **Fixed costs (FC):** don't change with output in the short run (rent, insurance).\n- **Variable costs (VC):** change with output (ingredients, hourly wages).\n- **Total cost (TC)** = FC + VC.\n- **Average total cost (ATC)** = TC / Q, the cost per unit.\n- **Average variable cost (AVC)** = VC / Q.\n- **Marginal cost (MC)** = the change in total cost from producing one more unit.\n\n### Worked example: a bakery\n\nFixed costs are $100 per day.\n\n| Loaves (Q) | Variable cost | Total cost | Marginal cost | ATC |\n|---|---|---|---|---|\n| 0 | $0 | $100 | | |\n| 10 | $40 | $140 | $4.00 per loaf | $14.00 |\n| 20 | $70 | $170 | $3.00 | $8.50 |\n| 30 | $110 | $210 | $4.00 | $7.00 |\n| 40 | $170 | $270 | $6.00 | $6.75 |\n| 50 | $260 | $360 | $9.00 | $7.20 |\n\nMarginal cost first falls (specialization among workers) and then rises (diminishing returns). ATC falls as fixed costs are spread over more loaves, then rises once rising marginal costs dominate. ATC is lowest around 40 loaves.\n\n## The relationship between marginal and average\n\nA key rule: **when marginal cost is below average total cost, ATC falls; when MC is above ATC, ATC rises.** So the MC curve crosses ATC at ATC's minimum. It's like your grade average: a new grade below your average pulls it down; one above pulls it up.\n\nThis is why cost curves are U-shaped and why MC crosses ATC at the bottom of the U.\n\n## The long run\n\nIn the **long run**, all inputs are variable: a firm can build a bigger kitchen or open new locations. The **long-run average cost** curve shows the lowest cost per unit for each output level when the firm can choose its scale.\n\n- **Economies of scale:** long-run average cost falls as output increases, thanks to specialization, bulk purchasing, and spreading large fixed investments (such as software or factories) over more units.\n- **Constant returns to scale:** average cost stays the same.\n- **Diseconomies of scale:** average cost rises as the firm becomes too large to coordinate efficiently.\n\nIndustries with large economies of scale, such as electricity distribution or operating systems, tend toward a few large firms. Industries with small economies of scale, such as hair salons, support many small firms.\n\n## Common misconceptions\n\n- **\"Accounting profit tells you whether a business is worth running.\"** Economic profit, including opportunity costs, is the right measure.\n- **\"Average cost and marginal cost are the same.\"** Marginal cost is the cost of the next unit; average is cost per unit overall.\n- **\"Bigger is always cheaper.\"** Beyond some size, diseconomies of scale can set in.\n\n## Summary\n\nEconomic profit subtracts opportunity costs. In the short run, fixed inputs cause diminishing marginal returns, which make marginal cost eventually rise and give average cost its U shape, with MC crossing ATC at its minimum. In the long run, economies and diseconomies of scale shape how large firms in an industry tend to be.\n",
+      "keyTerms": [
+        {
+          "term": "Economic profit",
+          "definition": "Revenue minus both explicit and implicit (opportunity) costs."
+        },
+        {
+          "term": "Diminishing marginal returns",
+          "definition": "The decline in additional output from each extra unit of a variable input, holding others fixed."
+        },
+        {
+          "term": "Marginal cost",
+          "definition": "The additional cost of producing one more unit of output."
+        },
+        {
+          "term": "Average total cost",
+          "definition": "Total cost divided by the quantity of output."
+        },
+        {
+          "term": "Economies of scale",
+          "definition": "Falling long-run average cost as a firm's output increases."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which is a fixed cost for a restaurant in the short run?",
+          "choices": [
+            "Takeout containers",
+            "Monthly rent",
+            "Hourly wages for extra servers",
+            "Food ingredients"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rent doesn't change with the number of meals served."
+        },
+        {
+          "prompt": "A firm's total cost rises from $500 to $530 when output increases from 100 to 101 units. The marginal cost is:",
+          "choices": [
+            "$5",
+            "$530",
+            "$30",
+            "$5.30"
+          ],
+          "answerIndex": 2,
+          "explanation": "The change in total cost from one more unit."
+        },
+        {
+          "prompt": "When marginal cost is below average total cost, average total cost is:",
+          "choices": [
+            "Rising",
+            "Equal to marginal cost",
+            "Falling",
+            "At its maximum"
+          ],
+          "answerIndex": 2,
+          "explanation": "Adding units that cost less than the average pulls the average down."
+        },
+        {
+          "prompt": "An owner earns $50,000 in accounting profit but gave up a $70,000 salary to run the business. Economic profit is:",
+          "choices": [
+            "−$20,000",
+            "$20,000",
+            "$120,000",
+            "$50,000"
+          ],
+          "answerIndex": 0,
+          "explanation": "Economic profit subtracts the implicit opportunity cost."
+        },
+        {
+          "prompt": "Why do some industries have only a few very large firms?",
+          "choices": [
+            "Demand is always small",
+            "Diseconomies of scale set in immediately",
+            "Small firms are illegal",
+            "Large economies of scale mean bigger firms have much lower average costs"
+          ],
+          "answerIndex": 3,
+          "explanation": "When average cost falls with scale, large firms can undercut small ones."
+        }
+      ],
+      "assignment": {
+        "title": "Cost Analysis for a Small Business",
+        "prompt": "Design a cost table, like the bakery example, for a small business of your choice. Include at least six output levels, a realistic fixed cost, and variable costs that show diminishing returns.\n\nIn at least 200 words: compute total cost, marginal cost, and average total cost at each level; identify where marginal cost begins rising and where ATC is minimized; explain the relationship between MC and ATC in your table; and describe how your business could achieve economies of scale in the long run, and what might eventually cause diseconomies of scale.",
+        "rubric": [
+          "Cost table is realistic and shows diminishing returns",
+          "Calculations of TC, MC, and ATC are correct",
+          "Explains the MC–ATC relationship accurately",
+          "Discusses long-run scale effects insightfully"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 7,
+      "title": "Market Structures",
+      "overview": "How the number of firms shapes prices and output: perfect competition, monopoly, monopolistic competition, oligopoly, and game theory.",
+      "objectives": [
+        "Explain how perfectly competitive firms choose output and why long-run economic profit tends to zero.",
+        "Explain why a monopoly produces less and charges more than a competitive market.",
+        "Describe monopolistic competition and oligopoly, and analyze strategic behavior with the prisoner's dilemma."
+      ],
+      "lesson": "## Who sets the price?\n\nIn some markets, firms have no control over price; in others, a single firm sets it. Market structure, determined by the number of firms, how differentiated their products are, and how easily new firms can enter, shapes prices, output, and efficiency.\n\n## The profit-maximizing rule\n\nEvery firm, whatever its market, maximizes profit by producing where **marginal revenue (MR) = marginal cost (MC)**. Marginal revenue is the additional revenue from selling one more unit. If MR > MC, producing more adds to profit; if MR < MC, producing less does.\n\n## Perfect competition\n\n**Perfect competition** has many firms, identical products, and free entry and exit. Each firm is a **price taker**: it can sell as much as it wants at the market price but nothing above it. So for a competitive firm, MR = price, and it produces where **P = MC**.\n\nIn the long run, if firms earn economic profit, new firms enter, supply increases, and price falls until economic profit is zero. If firms lose money, some exit until price rises. Long-run equilibrium has price equal to minimum average total cost: firms earn normal returns, and goods are produced at the lowest possible cost. Agricultural commodities come close to this model.\n\n## Monopoly\n\nA **monopoly** is a single seller of a good with no close substitutes, protected by **barriers to entry** such as patents, control of a key resource, government licenses, or large economies of scale (a **natural monopoly**, such as a water utility).\n\nA monopolist faces the whole downward-sloping market demand curve. To sell one more unit, it must lower the price on *all* units, so **MR is less than price**. It produces where MR = MC and charges the highest price buyers will pay for that quantity.\n\n### Worked example\n\n| Price | Quantity | Total revenue | Marginal revenue |\n|---|---|---|---|\n| $10 | 1 | $10 | $10 |\n| $9 | 2 | $18 | $8 |\n| $8 | 3 | $24 | $6 |\n| $7 | 4 | $28 | $4 |\n| $6 | 5 | $30 | $2 |\n\nIf marginal cost is a constant $4, the monopolist produces 4 units (where MR = MC) and charges $7. A competitive market would produce where P = MC = $4, a larger quantity at a lower price. The monopoly's restricted output creates **deadweight loss**: units buyers value above their cost go unproduced. This is why governments use **antitrust** laws against monopolization and regulate natural monopolies.\n\nSome monopoly power has upsides: patents reward innovation by granting temporary monopolies, a deliberate trade-off.\n\n## Monopolistic competition\n\n**Monopolistic competition** has many firms selling **differentiated** products, with free entry: restaurants, clothing brands, hair salons. Each firm has a little pricing power because its product is distinctive, so it faces a downward-sloping demand curve. But entry erodes economic profit in the long run, as new competitors pull away customers. Firms compete through product quality, branding, location, and advertising.\n\n## Oligopoly and game theory\n\nAn **oligopoly** is dominated by a few large firms, such as airlines, wireless carriers, and cloud computing providers. Each firm's best choice depends on what its rivals do, so oligopoly is analyzed with **game theory**.\n\n### The prisoner's dilemma\n\nTwo airlines each choose to charge a high or low fare. Profits (in millions):\n\n| | Rival: High | Rival: Low |\n|---|---|---|\n| **You: High** | You 10, Rival 10 | You 2, Rival 14 |\n| **You: Low** | You 14, Rival 2 | You 5, Rival 5 |\n\nWhatever the rival does, you earn more by charging Low (14 > 10 and 5 > 2). The rival reasons the same way. Both charge Low and earn 5, though both would earn 10 if they cooperated. Each firm's individually rational choice leads to a worse joint outcome, a **Nash equilibrium** in which neither can gain by changing its strategy alone.\n\nThis explains why **cartels**, groups of firms that agree to restrict output and raise prices, are unstable (each member is tempted to cheat) and why explicit price-fixing is illegal under antitrust law in many countries. Repeated interaction, however, can sometimes sustain tacit cooperation.\n\n## Comparing structures\n\n| | Perfect competition | Monopolistic competition | Oligopoly | Monopoly |\n|---|---|---|---|---|\n| Firms | Many | Many | Few | One |\n| Product | Identical | Differentiated | Similar or differentiated | Unique |\n| Entry | Free | Free | Difficult | Blocked |\n| Pricing power | None | Some | Considerable, interdependent | Significant |\n| Long-run economic profit | Zero | Zero | Possible | Possible |\n\n## Common misconceptions\n\n- **\"A monopoly can charge any price it wants.\"** It's limited by demand; higher prices mean fewer sales.\n- **\"Competitive firms make no money.\"** They earn zero *economic* profit, which still covers the opportunity costs of their owners.\n- **\"Cooperation is always the stable outcome.\"** The prisoner's dilemma shows why it often isn't.\n\n## Summary\n\nAll firms maximize profit where MR = MC. Competitive firms are price takers and earn zero economic profit in the long run; monopolies restrict output and raise prices, creating deadweight loss; monopolistically competitive firms differentiate; and oligopolies behave strategically, as the prisoner's dilemma illustrates.\n",
+      "keyTerms": [
+        {
+          "term": "Price taker",
+          "definition": "A firm that cannot influence the market price and must accept it."
+        },
+        {
+          "term": "Marginal revenue",
+          "definition": "The additional revenue from selling one more unit."
+        },
+        {
+          "term": "Barrier to entry",
+          "definition": "Anything that prevents new firms from entering a market, such as patents or economies of scale."
+        },
+        {
+          "term": "Nash equilibrium",
+          "definition": "An outcome in which no player can gain by changing strategy while others keep theirs."
+        },
+        {
+          "term": "Cartel",
+          "definition": "A group of firms that coordinate to restrict output and raise prices."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Every profit-maximizing firm produces where:",
+          "choices": [
+            "Price equals average total cost",
+            "Total revenue is maximized",
+            "Marginal revenue equals marginal cost",
+            "Average cost is lowest"
+          ],
+          "answerIndex": 2,
+          "explanation": "Producing more or less than this quantity reduces profit."
+        },
+        {
+          "prompt": "In the long run in perfect competition, economic profits tend toward zero because:",
+          "choices": [
+            "Firms collude",
+            "Free entry increases supply and lowers price",
+            "The government taxes away profit",
+            "Demand always falls"
+          ],
+          "answerIndex": 1,
+          "explanation": "Profits attract entrants until price falls to minimum average cost."
+        },
+        {
+          "prompt": "Why is a monopolist's marginal revenue less than its price?",
+          "choices": [
+            "Its costs are higher",
+            "It pays higher taxes",
+            "It is a price taker",
+            "To sell more, it must lower the price on all units sold"
+          ],
+          "answerIndex": 3,
+          "explanation": "The price cut applies to every unit, not just the extra one."
+        },
+        {
+          "prompt": "Which market is the best example of monopolistic competition?",
+          "choices": [
+            "A local water utility",
+            "Wheat farming",
+            "Commercial aircraft manufacturing",
+            "Restaurants in a large city"
+          ],
+          "answerIndex": 3,
+          "explanation": "Many firms with differentiated products and easy entry."
+        },
+        {
+          "prompt": "In the prisoner's dilemma between two firms, why do both end up charging a low price?",
+          "choices": [
+            "Low prices maximize joint profit",
+            "Charging low is each firm's best response regardless of what the other does",
+            "The government requires it",
+            "They agree to charge low"
+          ],
+          "answerIndex": 1,
+          "explanation": "Each firm's dominant strategy leads to a worse joint outcome."
+        }
+      ],
+      "assignment": {
+        "title": "Analyze an Industry",
+        "prompt": "Choose an industry you know as a customer or worker (for example, streaming services, coffee shops, airlines, smartphones, grocery stores, or rideshare).\n\nIn at least 200 words: classify its market structure using the four characteristics in the comparison table, with evidence; explain how firms in it compete (price, product, advertising, strategy); identify any barriers to entry; and describe one strategic situation in the industry that resembles a prisoner's dilemma or other game, explaining the likely outcome.",
+        "rubric": [
+          "Classifies the market structure with evidence",
+          "Explains how firms compete",
+          "Identifies relevant barriers to entry",
+          "Applies game-theory reasoning correctly"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Thinking Strategically",
+          "creator": "Avinash K. Dixit and Barry J. Nalebuff",
+          "year": 1991,
+          "note": "An engaging introduction to game theory and strategic thinking in business and life.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Market Failures and the Role of Government",
+      "overview": "When markets fall short: externalities, public goods, common resources, and asymmetric information, and the tools governments use to respond.",
+      "objectives": [
+        "Analyze negative and positive externalities and policies that address them.",
+        "Classify goods by rivalry and excludability and explain the free-rider problem.",
+        "Explain asymmetric information and evaluate when government intervention improves outcomes."
+      ],
+      "lesson": "## When the invisible hand slips\n\nIn Week 5 we saw that competitive markets can maximize total surplus. That conclusion rests on assumptions: that the people buying and selling bear all the costs and benefits of their trades, that goods can be bought and sold individually, and that both sides are well informed. When these fail, markets can produce inefficient outcomes, or **market failures**.\n\n## Externalities\n\nAn **externality** is a cost or benefit that falls on people outside a transaction.\n\n### Negative externalities\n\nA factory's pollution harms nearby residents who are not party to the factory's sales. Because the factory doesn't pay that cost, the market price is too low and the quantity produced is too high relative to the efficient level, where all costs, private and external, are counted.\n\nOther examples: traffic congestion, noise, carbon emissions, and secondhand smoke.\n\n### Positive externalities\n\nVaccination protects not only the vaccinated person but others they might infect. Education and research benefit society beyond the individual. With positive externalities, markets produce **too little**.\n\n### Policy tools\n\n- **Corrective (Pigouvian) taxes** set equal to the external cost make producers \"internalize\" it. A carbon tax is the leading example; many economists favor it because it lets households and firms find the cheapest ways to cut emissions.\n- **Subsidies** encourage activities with positive externalities, such as vaccination or research.\n- **Regulation** sets direct limits, such as emissions standards.\n- **Tradable permits** (\"cap and trade\") cap total pollution and let firms buy and sell the right to emit, so reductions happen where they are cheapest.\n- **Private bargaining:** the **Coase theorem** shows that if property rights are clear and negotiation is cheap, the affected parties can bargain to an efficient outcome, though transaction costs often prevent this.\n\n## Public goods and common resources\n\nGoods can be classified by two properties:\n\n- **Excludable:** people can be prevented from using it.\n- **Rival:** one person's use reduces what's available to others.\n\n| | Rival | Non-rival |\n|---|---|---|\n| **Excludable** | Private goods (a sandwich) | Club goods (streaming service, toll road) |\n| **Non-excludable** | Common resources (ocean fish) | Public goods (national defense, lighthouses, basic research) |\n\n**Public goods** suffer from the **free-rider problem**: since people can benefit without paying, private markets underprovide them. That's why governments typically fund national defense and basic research through taxes.\n\n**Common resources** suffer from the **tragedy of the commons**: because no one owns them, each user has an incentive to overuse them, as with overfishing. Solutions include regulation, quotas, and property rights. The political economist Elinor Ostrom showed that many communities also successfully manage common resources through local rules and monitoring, work for which she shared the Nobel Prize in economics.\n\n## Asymmetric information\n\nWhen one side of a transaction knows more than the other, markets can fail.\n\n- **Adverse selection:** in the used-car \"market for lemons,\" sellers know a car's quality but buyers don't. Buyers offer an average price, owners of good cars withdraw, and quality falls. Warranties, inspections, reputations, and reviews help.\n- **Moral hazard:** once insured, people may take less care. Deductibles and co-payments keep some cost with the insured.\n\n## Government failure\n\nGovernment intervention can fix market failures, but it can also fail: through poor information, political pressure from interest groups, unintended consequences, or regulatory capture. The question in each case is not \"market or government?\" but which arrangement, in practice, produces better outcomes.\n\n## Course review\n\nMicroeconomics gives you a powerful toolkit: opportunity cost and marginal thinking for decisions; comparative advantage for trade; supply, demand, and elasticity for markets; surplus for judging efficiency; cost curves and market structures for firm behavior; and market failures for understanding when and how policy can help. Together they explain an enormous range of business and public decisions.\n\n## Common misconceptions\n\n- **\"Pollution should be reduced to zero.\"** The efficient level balances the benefits of reduction against its costs.\n- **\"Public goods are anything the government provides.\"** The term refers to non-rival, non-excludable goods, whoever provides them.\n- **\"Market failure always justifies government action.\"** Interventions must be weighed against the risk of government failure.\n\n## Summary\n\nExternalities make markets over- or under-produce, and corrective taxes, subsidies, regulation, and permits can help. Public goods face free riders and common resources face overuse. Asymmetric information causes adverse selection and moral hazard. Good policy weighs market failures against the possibility of government failure.\n",
+      "keyTerms": [
+        {
+          "term": "Externality",
+          "definition": "A cost or benefit of a transaction that falls on third parties."
+        },
+        {
+          "term": "Pigouvian tax",
+          "definition": "A tax set to equal an external cost, so producers internalize it."
+        },
+        {
+          "term": "Public good",
+          "definition": "A good that is non-rival and non-excludable, such as national defense."
+        },
+        {
+          "term": "Free-rider problem",
+          "definition": "The tendency to benefit from a good without paying for it, leading to underprovision."
+        },
+        {
+          "term": "Adverse selection",
+          "definition": "A market problem in which one side's hidden information leads to worse outcomes, as in the market for lemons."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A chemical plant's runoff harms downstream fisheries. Without intervention, the plant will likely produce:",
+          "choices": [
+            "Exactly the efficient quantity",
+            "Less than the efficient quantity",
+            "Nothing",
+            "More than the efficient quantity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ignoring external costs makes production look cheaper than it is."
+        },
+        {
+          "prompt": "Which policy directly makes polluters pay for the external cost of their emissions?",
+          "choices": [
+            "A tariff",
+            "A subsidy for production",
+            "A price ceiling",
+            "A Pigouvian tax"
+          ],
+          "answerIndex": 3,
+          "explanation": "A corrective tax internalizes the external cost."
+        },
+        {
+          "prompt": "National defense is a public good because it is:",
+          "choices": [
+            "Rival and non-excludable",
+            "Non-rival and non-excludable",
+            "Rival and excludable",
+            "Excludable but non-rival"
+          ],
+          "answerIndex": 1,
+          "explanation": "Everyone benefits, and no one can be excluded."
+        },
+        {
+          "prompt": "Overfishing in international waters is an example of:",
+          "choices": [
+            "Adverse selection",
+            "The tragedy of the commons",
+            "A positive externality",
+            "Perfect competition"
+          ],
+          "answerIndex": 1,
+          "explanation": "A rival, non-excludable resource tends to be overused."
+        },
+        {
+          "prompt": "After buying full insurance, a driver becomes less careful. This is:",
+          "choices": [
+            "Moral hazard",
+            "Adverse selection",
+            "A public good",
+            "A price floor"
+          ],
+          "answerIndex": 0,
+          "explanation": "Insurance changes behavior by reducing the cost of risk."
+        }
+      ],
+      "assignment": {
+        "title": "Fixing a Market Failure",
+        "prompt": "Choose a market failure that affects your community or the world (for example, traffic congestion, plastic waste, underfunded public parks, antibiotic resistance, or misleading product information).\n\nIn at least 250 words: identify the type of market failure using concepts from this lesson; explain why the market alone produces an inefficient outcome; compare at least two policy responses (for example, a tax versus a regulation), discussing the advantages and drawbacks of each; and explain one way government intervention could itself fail. Conclude with your recommendation.",
+        "rubric": [
+          "Correctly identifies and explains the market failure",
+          "Explains the source of inefficiency",
+          "Compares two policy responses thoughtfully",
+          "Considers government failure and gives a reasoned recommendation"
+        ],
+        "minWords": 250
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Governing the Commons",
+          "creator": "Elinor Ostrom",
+          "year": 1990,
+          "note": "The Nobel-winning study of how communities manage shared resources without either privatization or central control.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "You choose to spend Saturday studying instead of working a $100 shift or going hiking. If the shift was your next-best option, the opportunity cost of studying is:",
+      "choices": [
+        "$0",
+        "The value of hiking plus $100",
+        "The cost of textbooks",
+        "$100 of forgone wages"
+      ],
+      "answerIndex": 3,
+      "explanation": "Opportunity cost is the value of the single next-best alternative."
+    },
+    {
+      "prompt": "Which decision correctly ignores a sunk cost?",
+      "choices": [
+        "Leaving a boring movie because staying has no further benefit, even though you paid for the ticket",
+        "Keeping a stock because you paid a high price for it",
+        "Continuing a failing project because of money already spent",
+        "Finishing a meal you dislike because you paid for it"
+      ],
+      "answerIndex": 0,
+      "explanation": "Past, unrecoverable costs shouldn't affect future choices."
+    },
+    {
+      "prompt": "Country A can produce 20 cars or 40 computers; Country B can produce 10 cars or 30 computers. Country B has a comparative advantage in:",
+      "choices": [
+        "Computers",
+        "Both",
+        "Neither",
+        "Cars"
+      ],
+      "answerIndex": 0,
+      "explanation": "B's opportunity cost of a computer is 1/3 car; A's is 1/2 car."
+    },
+    {
+      "prompt": "A drought reduces the wheat harvest. In the bread market, we expect:",
+      "choices": [
+        "Higher prices and lower quantity",
+        "Higher prices and higher quantity",
+        "Lower prices and higher quantity",
+        "No change"
+      ],
+      "answerIndex": 0,
+      "explanation": "Higher input costs reduce bread supply."
+    },
+    {
+      "prompt": "Hot dogs and buns are complements. If the price of hot dogs rises, the demand for buns:",
+      "choices": [
+        "Stays the same",
+        "Increases",
+        "Becomes perfectly elastic",
+        "Decreases"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fewer hot dogs bought means fewer buns needed."
+    },
+    {
+      "prompt": "A 20% price increase leads to a 5% fall in quantity demanded. Demand is:",
+      "choices": [
+        "Perfectly elastic",
+        "Elastic",
+        "Inelastic",
+        "Unit elastic"
+      ],
+      "answerIndex": 2,
+      "explanation": "5 / 20 = 0.25, which is less than 1."
+    },
+    {
+      "prompt": "A firm faces elastic demand. To increase total revenue, it should:",
+      "choices": [
+        "Keep its price unchanged",
+        "Stop selling the product",
+        "Lower its price",
+        "Raise its price"
+      ],
+      "answerIndex": 2,
+      "explanation": "With elastic demand, a price cut increases quantity proportionally more."
+    },
+    {
+      "prompt": "A price floor set above the equilibrium price results in:",
+      "choices": [
+        "A surplus",
+        "No effect",
+        "A lower market price",
+        "A shortage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Quantity supplied exceeds quantity demanded."
+    },
+    {
+      "prompt": "What does deadweight loss from a tax represent?",
+      "choices": [
+        "The tax paid by sellers",
+        "Surplus lost because the tax prevents some mutually beneficial trades",
+        "Profits earned by firms",
+        "The tax revenue collected"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fewer units are traded than in the efficient equilibrium."
+    },
+    {
+      "prompt": "A firm produces 200 units at a total cost of $1,000, of which $400 is fixed. Its average variable cost is:",
+      "choices": [
+        "$2",
+        "$3",
+        "$600",
+        "$5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Variable cost is $600; $600 / 200 = $3."
+    },
+    {
+      "prompt": "Diminishing marginal returns cause marginal cost to:",
+      "choices": [
+        "Stay constant",
+        "Equal zero",
+        "Fall forever",
+        "Eventually rise as output increases"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each additional unit of input adds less output, so each unit costs more."
+    },
+    {
+      "prompt": "A perfectly competitive firm maximizes profit by producing where:",
+      "choices": [
+        "Price equals the highest possible value",
+        "Price equals marginal cost",
+        "Marginal cost is lowest",
+        "Average total cost is highest"
+      ],
+      "answerIndex": 1,
+      "explanation": "For a price taker, marginal revenue equals price."
+    },
+    {
+      "prompt": "Compared with a competitive market, a monopoly typically produces:",
+      "choices": [
+        "The same output at the same price",
+        "More output at a lower price",
+        "Less output at a higher price",
+        "More output at a higher price"
+      ],
+      "answerIndex": 2,
+      "explanation": "The monopolist restricts output where MR = MC, raising price."
+    },
+    {
+      "prompt": "Why are cartels often unstable?",
+      "choices": [
+        "Each member has an incentive to cheat by producing more than agreed",
+        "They always become monopolies",
+        "Members cannot communicate",
+        "Demand is perfectly elastic"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is the logic of the prisoner's dilemma."
+    },
+    {
+      "prompt": "Basic scientific research is often publicly funded because:",
+      "choices": [
+        "It has positive externalities and public-good characteristics, so markets underprovide it",
+        "It has no value",
+        "Firms are not allowed to fund research",
+        "It is rival and excludable"
+      ],
+      "answerIndex": 0,
+      "explanation": "Free riders and spillovers lead private markets to supply too little."
+    }
+  ],
+  "resources": [
+    {
+      "kind": "book",
+      "title": "Principles of Economics",
+      "creator": "N. Gregory Mankiw",
+      "year": 1997,
+      "note": "One of the most widely used economics textbooks, known for its clarity and real-world examples.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Principles of Microeconomics",
+      "creator": "OpenStax",
+      "year": null,
+      "note": "A free, peer-reviewed microeconomics textbook covering every topic in this course.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Undercover Economist",
+      "creator": "Tim Harford",
+      "year": 2005,
+      "note": "An entertaining tour of everyday life through the lens of microeconomics.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Freakonomics",
+      "creator": "Steven D. Levitt and Stephen J. Dubner",
+      "year": 2005,
+      "note": "A popular look at how incentives explain surprising patterns in human behavior.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Wealth of Nations",
+      "creator": "Adam Smith",
+      "year": 1776,
+      "note": "The founding text of economics, the source of the invisible hand and the division of labor.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "video",
+      "title": "Crash Course Economics",
+      "creator": "CrashCourse",
+      "year": 2015,
+      "note": "A brisk video series covering the core ideas of micro- and macroeconomics.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }

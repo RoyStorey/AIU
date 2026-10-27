@@ -4,9 +4,1141 @@
   "category": "foundation",
   "description": "An introduction to how historians think and work: asking historical questions, reading primary and secondary sources, weighing evidence, understanding context and causation, and writing clear, evidence-based historical arguments.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": [],
-  "resources": []
+  "status": "published",
+  "outcomes": [
+    "Distinguish the past from history and formulate strong historical questions.",
+    "Identify and evaluate primary and secondary sources, including their silences.",
+    "Analyze documents through sourcing, contextualization, close reading, and corroboration.",
+    "Explain causation, contingency, and change and continuity over time.",
+    "Compare competing historical interpretations and use non-textual evidence.",
+    "Write and cite evidence-based historical arguments, and evaluate history in public life."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "What Is History?",
+      "overview": "The difference between the past and history, why history is an argument rather than a list of facts, and the questions historians ask.",
+      "objectives": [
+        "Distinguish the past from history as an interpretive discipline.",
+        "Explain why historians disagree and why that is not a weakness.",
+        "Formulate open, researchable historical questions."
+      ],
+      "lesson": "## The past and history\n\nThe **past** is everything that has ever happened. **History** is what we can know and say about the past, based on the traces it has left behind. That distinction is the foundation of this program.\n\nThe past is vast and mostly lost. Of the billions of people who have lived, most left no written record. What survives, from letters and laws to tools, buildings, photographs, and memories, is a fragmentary record. Historians work from those fragments to build reasoned accounts of what happened and why. History, in other words, is an act of interpretation.\n\n## History is not just facts\n\nMany people remember school history as a list of names and dates to memorize. Dates matter, in the way that a map's coordinates matter, but they aren't the point. Consider:\n\n- *Fact:* The Berlin Wall fell in November 1989.\n- *Historical question:* Why did it fall then, and not earlier or later? Was it pushed by protesters, collapsing economies, a reforming Soviet leader, a bureaucratic mistake at a press conference, or all of these together?\n\nThe second is where history begins. Answering it requires evidence, judgment, and argument. Two careful historians using the same sources can reach different conclusions, because they weigh evidence differently or ask different questions.\n\n## Why historians disagree\n\nDisagreement in history is a feature, not a flaw. It arises because:\n\n1. **Evidence is incomplete**, so gaps must be filled by inference.\n2. **Sources conflict**, since people saw events differently or had reasons to shade the truth.\n3. **Questions change.** Each generation asks new questions about the past, often prompted by its own concerns. Historians in the twentieth century began asking far more about women, workers, enslaved people, and ordinary life, which revealed whole areas of the past that earlier histories had ignored.\n4. **Interpretive frameworks differ.** Some historians emphasize economics, others ideas, politics, culture, or the environment.\n\nBut disagreement has limits. Not every interpretation is equally good. Claims must be supported by evidence and must account for the evidence that cuts against them. Denying well-documented events, such as the Holocaust, is not a rival interpretation; it is a rejection of evidence.\n\n## Why study history?\n\n- **To understand the present.** Today's borders, institutions, inequalities, and conflicts all have histories.\n- **To think critically.** History trains you to evaluate sources, weigh evidence, and recognize bias, skills essential in an age of information overload.\n- **To understand other people.** Studying people who thought very differently from us builds empathy and humility. The novelist L. P. Hartley wrote, \"The past is a foreign country: they do things differently there.\"\n- **To be a better citizen.** Political arguments constantly invoke history; knowing it lets you judge those claims.\n\n## Asking good historical questions\n\nGood historical questions are **open** (they can't be answered with a single fact), **researchable** (evidence exists to address them), and **significant** (the answer matters for understanding something larger).\n\n| Weak question | Better question |\n|---|---|\n| When did the printing press appear in Europe? | How did the printing press change how ordinary Europeans encountered religious ideas? |\n| Who won the Battle of Hastings? | Why did the Norman Conquest change the English language so profoundly? |\n| What year did women in the U.S. win the vote? | Why did the movement for women's suffrage take more than seventy years to succeed? |\n\nHistorians often organize questions around a few concepts you'll use all program long: **causation** (why did this happen?), **change and continuity** (what changed, and what stayed the same?), **context** (what was the world like for these people?), and **significance** (why does it matter?).\n\n### Worked example: from topic to question\n\nTopic: the 1918 influenza pandemic.\n\n- Too broad: \"The 1918 flu.\"\n- Factual: \"How many people died?\"\n- Historical: \"Why did some American cities suffer far higher death rates than others in 1918, and what does that reveal about public health decisions?\" This question is open, researchable using newspapers, city records, and health reports, and significant for understanding how societies respond to epidemics.\n\n## Common misconceptions\n\n- **\"History is just what happened.\"** History is our evidence-based account of what happened, which is always partial and open to revision.\n- **\"If historians disagree, any opinion is valid.\"** Interpretations must be grounded in evidence.\n- **\"History is about memorizing dates.\"** Dates are tools; questions and arguments are the substance.\n\n## Summary\n\nHistory is the disciplined interpretation of a fragmentary past. Historians disagree because evidence is incomplete and questions evolve, but all interpretations must answer to evidence. Good history starts with open, researchable, significant questions about causation, change, context, and significance.\n",
+      "keyTerms": [
+        {
+          "term": "History",
+          "definition": "An evidence-based interpretation of the past, as distinct from the past itself."
+        },
+        {
+          "term": "Interpretation",
+          "definition": "A historian's reasoned explanation of what the evidence means."
+        },
+        {
+          "term": "Causation",
+          "definition": "The study of why historical events and changes happened."
+        },
+        {
+          "term": "Change and continuity",
+          "definition": "What changed over time and what remained the same."
+        },
+        {
+          "term": "Historical significance",
+          "definition": "Why an event, person, or development matters for understanding the past."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which statement best captures the difference between \"the past\" and \"history\"?",
+          "choices": [
+            "They mean exactly the same thing",
+            "The past is recent; history is ancient",
+            "History is everything that happened; the past is what we write about it",
+            "The past is everything that happened; history is our evidence-based account of it"
+          ],
+          "answerIndex": 3,
+          "explanation": "History is the interpretive discipline built from the past's surviving traces."
+        },
+        {
+          "prompt": "Why do careful historians sometimes reach different conclusions from the same sources?",
+          "choices": [
+            "Historical sources are always forged",
+            "One of them must be lying",
+            "History has no rules of evidence",
+            "They may weigh evidence differently or ask different questions"
+          ],
+          "answerIndex": 3,
+          "explanation": "Interpretation involves judgment about incomplete and conflicting evidence."
+        },
+        {
+          "prompt": "Which is the best historical research question?",
+          "choices": [
+            "Why did the Black Death lead to rising wages for some European workers?",
+            "Who was king of England in 1348?",
+            "What year did the Black Death reach England?",
+            "How do you spell 'pandemic'?"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is open, researchable, and significant."
+        },
+        {
+          "prompt": "Denying that a well-documented event occurred is best described as:",
+          "choices": [
+            "A primary source",
+            "A valid alternative interpretation",
+            "A rejection of evidence rather than a legitimate interpretation",
+            "A normal part of historiography"
+          ],
+          "answerIndex": 2,
+          "explanation": "Interpretations must account for the evidence, not dismiss it."
+        },
+        {
+          "prompt": "Twentieth-century historians began studying women, workers, and ordinary people much more. This illustrates that:",
+          "choices": [
+            "Earlier history was entirely false",
+            "Only recent history matters",
+            "The questions historians ask change over time",
+            "The past itself changed"
+          ],
+          "answerIndex": 2,
+          "explanation": "New questions reveal parts of the past previously overlooked."
+        }
+      ],
+      "assignment": {
+        "title": "Your Questions About the Past",
+        "prompt": "Choose a historical topic that genuinely interests you, from any time or place.\n\nIn at least 200 words: (1) explain why it interests you; (2) write one weak (factual) question and transform it into two strong historical questions, one about causation and one about change and continuity; (3) for one of your strong questions, describe what kinds of evidence might help answer it and why historians might disagree about the answer.",
+        "rubric": [
+          "Topic and motivation are clearly explained",
+          "Strong questions are open, researchable, and significant",
+          "Identifies plausible types of evidence",
+          "Explains sources of possible disagreement"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "video",
+          "title": "Crash Course World History",
+          "creator": "CrashCourse",
+          "year": 2012,
+          "note": "A fast-paced, thought-provoking video survey of world history that models asking big questions.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Primary and Secondary Sources",
+      "overview": "The raw materials of history: what counts as a primary source, how secondary scholarship builds on it, and where historians find evidence.",
+      "objectives": [
+        "Distinguish primary, secondary, and tertiary sources in historical research.",
+        "Explain how the same document can be primary or secondary depending on the question.",
+        "Identify where primary sources are found, including archives and digital collections."
+      ],
+      "lesson": "## The raw materials\n\nHistorians work with two main kinds of sources.\n\n**Primary sources** were created during the period being studied, by people who lived through it: letters, diaries, laws, court records, newspapers, photographs, speeches, maps, census returns, account books, oral testimonies, buildings, and objects. They are the evidence.\n\n**Secondary sources** are later works that analyze and interpret primary sources: scholarly books and articles, biographies, documentaries, and textbooks. They are arguments about the evidence.\n\n**Tertiary sources**, such as encyclopedias and indexes, summarize secondary work. They are useful starting points but rarely the basis for historical arguments.\n\n## It depends on the question\n\nWhether a source is primary or secondary depends on what you're studying.\n\n### Worked example\n\nA 1960 history book about the American Revolution is a **secondary** source if you're studying the Revolution. But if you're studying how Americans in the Cold War era thought about their nation's founding, the same book becomes a **primary** source, evidence of 1960s attitudes.\n\nLikewise, a 1930s film about medieval knights tells you little reliable about the Middle Ages, but a great deal about the 1930s.\n\n## Types of primary sources\n\n| Type | Examples | What they're good for |\n|---|---|---|\n| **Official records** | Laws, census data, court records, treaties | Institutions, populations, legal norms |\n| **Personal documents** | Letters, diaries, memoirs | Individual experience, emotion, private views |\n| **Published texts** | Newspapers, pamphlets, novels, sermons | Public opinion, debates, ideas in circulation |\n| **Visual sources** | Paintings, photographs, posters, maps | How people saw and represented their world |\n| **Material culture** | Tools, clothing, buildings, coins | Daily life, technology, economy (especially for people who left no writing) |\n| **Oral sources** | Interviews, oral traditions | Experiences missing from written records |\n\nEach type has strengths and blind spots. Official records reflect what governments counted and cared about. Diaries are intimate but represent individuals, often literate and privileged ones. Newspapers reflect their owners' politics and readers' interests.\n\n## Silences in the archive\n\nThe record is not neutral. Who left documents, and whose documents were preserved, reflects power. Enslaved people, the poor, women, colonized peoples, and many others often appear in the record only through the eyes of those who held power over them, in plantation ledgers, court cases, or colonial reports. The Haitian anthropologist Michel-Rolph Trouillot argued that silences enter history at every stage: in what gets recorded, what gets saved, what gets retrieved, and what gets told. Good historians read records \"against the grain,\" looking for traces of people the documents weren't designed to describe.\n\n## Secondary sources and the scholarly conversation\n\nHistorians don't work alone. Every serious research project begins by reading the **secondary literature**, to learn what others have argued, what evidence they used, and where gaps or disagreements remain. When you read a scholarly book, ask:\n\n- What is the author's main argument (thesis)?\n- What sources does the author rely on?\n- Whom is the author arguing with?\n\nPeer-reviewed books and journal articles, published by university presses and scholarly journals, have been evaluated by other experts and are the backbone of historical research.\n\n## Where to find sources\n\n- **Archives** hold unpublished records of governments, organizations, and families.\n- **Libraries** hold published primary sources and secondary scholarship.\n- **Digital collections** have made millions of primary sources freely available. The U.S. Library of Congress and National Archives, national libraries around the world, and university digital projects offer letters, photographs, maps, newspapers, and recordings online.\n- **Museums** preserve objects and images.\n\n## Common misconceptions\n\n- **\"Primary sources are always more reliable than secondary sources.\"** Primary sources can be biased, mistaken, or deceptive; they are evidence to be interpreted, not truth to be accepted.\n- **\"A source is always primary or always secondary.\"** Its role depends on your question.\n- **\"The archive contains everything.\"** It contains what was recorded and saved, which reflects power and chance.\n\n## Summary\n\nPrimary sources are evidence from the period studied; secondary sources interpret that evidence. A source's category depends on your question. The record contains silences shaped by power, and historians build arguments in conversation with existing scholarship, using archives, libraries, museums, and digital collections.\n",
+      "keyTerms": [
+        {
+          "term": "Primary source",
+          "definition": "Evidence created during the period being studied."
+        },
+        {
+          "term": "Secondary source",
+          "definition": "A later work that analyzes and interprets primary sources."
+        },
+        {
+          "term": "Archive",
+          "definition": "A repository of records, often unpublished, preserved for research."
+        },
+        {
+          "term": "Reading against the grain",
+          "definition": "Interpreting a source for information its creators did not intend to convey."
+        },
+        {
+          "term": "Secondary literature",
+          "definition": "The body of scholarship already written on a topic."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A soldier's letter home written during World War I is, for a study of the war, a:",
+          "choices": [
+            "Peer-reviewed article",
+            "Tertiary source",
+            "Secondary source",
+            "Primary source"
+          ],
+          "answerIndex": 3,
+          "explanation": "It was created by a participant during the period studied."
+        },
+        {
+          "prompt": "A historian studies how 1950s Americans imagined the Wild West. A 1953 Western film would be:",
+          "choices": [
+            "A secondary source about the Old West that should be trusted",
+            "A tertiary source",
+            "A primary source for that question",
+            "Irrelevant to the question"
+          ],
+          "answerIndex": 2,
+          "explanation": "The film is evidence of 1950s attitudes."
+        },
+        {
+          "prompt": "Why do enslaved people often appear in historical records mainly through documents created by enslavers?",
+          "choices": [
+            "Records about slavery were never kept",
+            "All their documents were deliberately hidden by historians",
+            "Enslaved people did not exist in large numbers",
+            "Power shaped who created and preserved records"
+          ],
+          "answerIndex": 3,
+          "explanation": "The archive reflects the power relations of the past."
+        },
+        {
+          "prompt": "When reading a scholarly history book, one of the first questions to ask is:",
+          "choices": [
+            "What is the author's main argument?",
+            "Is the cover attractive?",
+            "How many dates does it contain?",
+            "How long is the book?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Secondary sources are arguments about evidence."
+        },
+        {
+          "prompt": "Which statement about primary sources is most accurate?",
+          "choices": [
+            "They are evidence that must be interpreted critically, since they can be biased or mistaken",
+            "They are always objective",
+            "They are always more reliable than secondary sources",
+            "They only exist in archives"
+          ],
+          "answerIndex": 0,
+          "explanation": "Primary sources carry the perspectives and limits of their creators."
+        }
+      ],
+      "assignment": {
+        "title": "Explore a Digital Archive",
+        "prompt": "Visit a free digital collection such as the Library of Congress (loc.gov) or the U.S. National Archives (archives.gov), or a national library or museum collection from another country, and find one primary source that interests you.\n\nIn at least 200 words: describe the source (what it is, who made it, when, and for what purpose); explain what kind of primary source it is and what it could be good evidence for; identify one silence or limitation (who or what it leaves out); and pose one historical question this source could help answer.",
+        "rubric": [
+          "Describes the source accurately and specifically",
+          "Correctly classifies it and identifies its evidentiary value",
+          "Identifies a meaningful silence or limitation",
+          "Poses a strong historical question"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "website",
+          "title": "Library of Congress Digital Collections",
+          "creator": "Library of Congress",
+          "year": null,
+          "note": "Millions of free primary sources, from presidential papers to photographs, maps, and recordings.",
+          "url": "https://www.loc.gov/collections/",
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Reading Primary Sources Critically",
+      "overview": "The core moves of historical reading: sourcing, contextualizing, close reading, and corroborating, practiced on real kinds of evidence.",
+      "objectives": [
+        "Source a document by identifying its author, audience, date, and purpose.",
+        "Contextualize a source within its historical moment.",
+        "Corroborate sources against one another and weigh their reliability."
+      ],
+      "lesson": "## Reading like a historian\n\nThe education researcher Sam Wineburg studied how professional historians read documents, compared with talented high school students. The students read documents the way most of us read a textbook: from the first line to the last, absorbing information. The historians did something different. Before reading the text closely, they looked at who wrote it, when, and why. They treated each document not as a container of facts but as a *person speaking*, with a perspective and a purpose.\n\nThose habits can be learned. Historians commonly describe four of them.\n\n## 1. Sourcing\n\nBefore reading, ask:\n\n- **Who** created this? What was their position, background, and stake?\n- **When** and **where** was it created? How close in time and place was the author to the events?\n- **For whom** was it created? A private diary, an official report, a newspaper, a speech to supporters?\n- **Why** was it created? To inform, persuade, justify, record, entertain, deceive?\n\nA general's report to his superiors after a lost battle may emphasize the enemy's numbers and his own troops' bravery. That doesn't make it worthless; it tells you what the author needed to say and to whom.\n\n## 2. Contextualizing\n\nPlace the source in its world. What was happening when it was written? What did words mean then? What could the author have known, and what assumptions did the author's society take for granted?\n\nFor example, the word \"liberal\" meant something quite different in nineteenth-century Britain than in twenty-first-century American politics. Reading old sources with modern meanings is a form of **anachronism**, a central error to avoid.\n\n## 3. Close reading\n\nNow read carefully. Pay attention to:\n\n- **Word choice and tone.** Is the language emotional, neutral, legalistic?\n- **What is emphasized and what is omitted.**\n- **Claims versus evidence.** What does the author assert, and how do they support it?\n- **Audience cues.** What does the author assume the reader already believes?\n\n## 4. Corroborating\n\nNo single source tells the whole story. Compare sources: Do they agree? Where do they conflict, and why? A claim supported by several independent sources with different perspectives is stronger than one resting on a single account.\n\n### Worked example: a strike in two newspapers\n\nImagine two newspaper reports about the same 1890s factory strike:\n\n- **Newspaper A**, owned by a local industrialist: \"A mob of agitators, many of them foreigners, disrupted honest work at the mill and assaulted loyal employees.\"\n- **Newspaper B**, published by a labor organization: \"Peaceful workers, demanding a living wage, were attacked by hired guards.\"\n\n*Sourcing:* each paper has a clear stake. *Contextualizing:* the 1890s saw intense labor conflict and widespread anti-immigrant sentiment, which helps explain Newspaper A's emphasis on \"foreigners.\" *Close reading:* \"mob\" and \"agitators\" versus \"peaceful workers\" frame the same people very differently. *Corroborating:* the historian would look for other evidence, such as court records, police reports, photographs, letters, and accounts from neutral observers, to determine who did what.\n\nNotice that the biased sources are still valuable. Together they show how the conflict was understood and contested at the time, which is itself historically significant.\n\n## Reliability is not all-or-nothing\n\nInstead of asking \"Is this source reliable?\", historians ask \"**Reliable for what?**\" A propaganda poster is unreliable evidence about enemy atrocities but excellent evidence about how a government wanted its citizens to feel. A memoir written decades later may misremember dates but powerfully convey how an experience felt.\n\n## Common misconceptions\n\n- **\"A biased source is useless.\"** All sources have perspectives; biased sources are often extremely revealing.\n- **\"Eyewitness accounts are the most accurate.\"** Eyewitnesses can be mistaken, partial, or self-serving; corroboration matters.\n- **\"Read the document first, then think about who wrote it.\"** Sourcing first changes how you read.\n\n## Summary\n\nHistorians read documents as voices with perspectives. Sourcing identifies author, audience, date, and purpose; contextualizing places the source in its world; close reading attends to language and omissions; corroborating compares sources. The key question is not whether a source is reliable, but what it is reliable evidence for.\n",
+      "keyTerms": [
+        {
+          "term": "Sourcing",
+          "definition": "Identifying a document's author, date, audience, and purpose before analyzing it."
+        },
+        {
+          "term": "Contextualization",
+          "definition": "Placing a source within the historical circumstances in which it was created."
+        },
+        {
+          "term": "Corroboration",
+          "definition": "Comparing multiple sources to test claims and identify agreement and conflict."
+        },
+        {
+          "term": "Anachronism",
+          "definition": "Attributing ideas, meanings, or things to a time in which they did not exist."
+        },
+        {
+          "term": "Bias",
+          "definition": "A perspective or interest that shapes how a source presents events."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "According to research on how historians read, what do they typically do before reading a document closely?",
+          "choices": [
+            "Count the facts it contains",
+            "Examine who wrote it, when, and why",
+            "Read the last paragraph first",
+            "Check whether it is long enough"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sourcing shapes how historians interpret the text."
+        },
+        {
+          "prompt": "A government poster from wartime is best used as evidence of:",
+          "choices": [
+            "The private opinions of soldiers",
+            "Nothing; it is propaganda",
+            "How the government wanted citizens to think and feel",
+            "Exactly what happened on the battlefield"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reliability depends on the question being asked."
+        },
+        {
+          "prompt": "Reading a medieval text as though its words carried their modern meanings is an example of:",
+          "choices": [
+            "Anachronism",
+            "Sourcing",
+            "Corroboration",
+            "Peer review"
+          ],
+          "answerIndex": 0,
+          "explanation": "Projecting the present onto the past is anachronism."
+        },
+        {
+          "prompt": "Two sources from opposite sides of a conflict agree that a meeting took place on a certain date. This agreement is:",
+          "choices": [
+            "Meaningless, because both are biased",
+            "Evidence of forgery",
+            "Proof that both sources are entirely accurate",
+            "Strong corroboration, because sources with opposing interests agree"
+          ],
+          "answerIndex": 3,
+          "explanation": "Independent sources with different perspectives strengthen a claim."
+        },
+        {
+          "prompt": "Which question best reflects the historian's approach to reliability?",
+          "choices": [
+            "\"Is this source old enough?\"",
+            "\"Is this source true or false?\"",
+            "\"Does this source agree with me?\"",
+            "\"Reliable for what?\""
+          ],
+          "answerIndex": 3,
+          "explanation": "A source can be unreliable for one question and excellent for another."
+        }
+      ],
+      "assignment": {
+        "title": "Read a Document Like a Historian",
+        "prompt": "Find a short primary source (one page or less) online, such as a historical letter, speech excerpt, advertisement, or newspaper article; digital archives from last week are a good place to look. Include a link or full citation and quote at least two short passages.\n\nIn at least 250 words, analyze it using all four moves: sourcing (author, date, audience, purpose), contextualization (what was happening, and what the author could and couldn't have known), close reading (key word choices and omissions), and corroboration (what other sources you would seek to test its claims, and why). Conclude by stating what this source is reliable evidence for.",
+        "rubric": [
+          "Sourcing is thorough and accurate",
+          "Contextualization is specific and relevant",
+          "Close reading engages directly with the text",
+          "Corroboration plan and reliability judgment are well reasoned"
+        ],
+        "minWords": 250
+      },
+      "resources": []
+    },
+    {
+      "number": 4,
+      "title": "Context, Causation, and Change Over Time",
+      "overview": "Explaining the past: multiple causes, contingency, long-term and short-term factors, and how to trace change and continuity.",
+      "objectives": [
+        "Distinguish long-term causes, short-term causes, and triggers.",
+        "Explain contingency and the role of individuals and structures.",
+        "Analyze change and continuity across a period."
+      ],
+      "lesson": "## Why did it happen?\n\nExplaining why things happened is one of the historian's central tasks, and one of the hardest. Single-cause explanations (\"the war happened because of an assassination\") are almost always too simple. Historians think about causes in layers and weigh them against each other.\n\n## Layers of causation\n\n- **Long-term causes (structural or underlying):** deep forces that build over decades or centuries, such as economic changes, demographic shifts, ideologies, or rivalries between states.\n- **Short-term causes:** developments in the months or years before an event that made it more likely.\n- **Triggers:** the immediate event that set things in motion.\n\n### Worked example: the outbreak of World War I\n\n- **Long-term:** rival alliance systems in Europe, an arms race, intense nationalism, imperial competition, and instability in the Balkans.\n- **Short-term:** a series of diplomatic crises in the early 1910s, including wars in the Balkans, which heightened tensions and left leaders primed for confrontation.\n- **Trigger:** the assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo on June 28, 1914.\n\nThe assassination alone explains little: monarchs and statesmen had been assassinated before, such as Tsar Alexander II of Russia in 1881, without causing world wars. It mattered because of the structures it landed in. Yet the structures alone didn't make war inevitable either: decisions made by specific leaders in July 1914 turned a regional crisis into a continental war. Historians have debated for a century how to weigh these factors and how much responsibility belongs to particular governments.\n\n## Contingency\n\n**Contingency** means that outcomes depended on circumstances and choices that could have gone differently. History is not a machine running on rails. A delayed message, a battle lost in bad weather, a leader's illness: small things can matter. Recognizing contingency guards against **determinism**, the belief that what happened had to happen, and against **hindsight bias**, the tendency to see outcomes as obvious after the fact. People in the past did not know how their story would end.\n\n## Structure and agency\n\nHistorians balance two kinds of explanation:\n\n- **Agency:** the choices and actions of individuals and groups.\n- **Structure:** the economic, social, political, cultural, and environmental conditions that shape and limit those choices.\n\nThe nineteenth-century philosopher Karl Marx captured the balance in a much-quoted line: people make their own history, but not under circumstances of their own choosing. Good explanations show how choices were made within constraints.\n\n## Change and continuity\n\nThe other great historical question is what changed and what stayed the same.\n\n- **Change** can be sudden (a revolution) or gradual (the slow spread of literacy).\n- **Continuity** is persistence: institutions, beliefs, or patterns of life that endure despite dramatic events.\n\nEven revolutions contain continuity. After the French Revolution of 1789, France abolished its monarchy and transformed its laws, but many patterns of rural life, centralized administration, and social hierarchy persisted for decades.\n\n### Analyzing change over time\n\nUseful questions:\n\n1. What was the situation at the **beginning** of the period?\n2. What was it at the **end**?\n3. What **changed**, and what **stayed the same**?\n4. **Why?** What forces drove change, and what forces sustained continuity?\n5. For **whom**? Change often affected different groups differently.\n\n## Periodization\n\nHistorians divide time into **periods**, such as \"the Middle Ages\" or \"the Industrial Revolution.\" These labels are useful but artificial. They emphasize certain changes, and they can mislead: the term \"Middle Ages\" was invented by later Europeans who saw it as a dark interval between classical antiquity and their own era, an assumption many modern historians reject. Always ask who drew the period's boundaries, and why.\n\n## Common misconceptions\n\n- **\"Every event has one main cause.\"** Most events have multiple, interacting causes.\n- **\"What happened was inevitable.\"** Outcomes were contingent on choices and circumstances.\n- **\"Revolutions change everything.\"** Continuity persists even through dramatic change.\n\n## Summary\n\nHistorians explain events through layers of long-term causes, short-term causes, and triggers, balancing structure and agency and recognizing contingency. They also analyze change and continuity, asking what changed, what persisted, why, and for whom, while treating periodization as a useful but constructed tool.\n",
+      "keyTerms": [
+        {
+          "term": "Trigger",
+          "definition": "The immediate event that sets a larger historical development in motion."
+        },
+        {
+          "term": "Contingency",
+          "definition": "The dependence of outcomes on circumstances and choices that could have been otherwise."
+        },
+        {
+          "term": "Agency",
+          "definition": "The capacity of individuals and groups to make choices that shape events."
+        },
+        {
+          "term": "Structure",
+          "definition": "Underlying conditions, such as economic or political systems, that shape and constrain choices."
+        },
+        {
+          "term": "Periodization",
+          "definition": "The division of the past into named periods, which are useful but constructed."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "In the outbreak of World War I, the assassination of Archduke Franz Ferdinand is best described as a:",
+          "choices": [
+            "Continuity",
+            "Structure",
+            "Trigger",
+            "Long-term cause"
+          ],
+          "answerIndex": 2,
+          "explanation": "It was the immediate event that set the crisis in motion."
+        },
+        {
+          "prompt": "A historian argues that a battle's outcome might have been different if a storm had not delayed reinforcements. This emphasizes:",
+          "choices": [
+            "Contingency",
+            "Anachronism",
+            "Periodization",
+            "Determinism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Outcomes depended on circumstances that could have been otherwise."
+        },
+        {
+          "prompt": "Which is the best example of structure rather than agency?",
+          "choices": [
+            "A president's decision to veto a bill",
+            "A depression that left millions unemployed",
+            "An activist's decision to organize a march",
+            "A general's choice to retreat"
+          ],
+          "answerIndex": 1,
+          "explanation": "Economic conditions shape and constrain individual choices."
+        },
+        {
+          "prompt": "Why should historians be cautious about the label \"the Middle Ages\"?",
+          "choices": [
+            "No events happened during it",
+            "It refers only to Asia",
+            "It was coined by later Europeans who viewed the period as an interval between better eras",
+            "It covers too few years"
+          ],
+          "answerIndex": 2,
+          "explanation": "Period labels carry assumptions from those who created them."
+        },
+        {
+          "prompt": "Analyzing change over time should include asking:",
+          "choices": [
+            "Which dates are easiest to remember",
+            "Only what the most famous people did",
+            "Only what changed dramatically",
+            "What stayed the same as well as what changed"
+          ],
+          "answerIndex": 3,
+          "explanation": "Continuity is as important as change."
+        }
+      ],
+      "assignment": {
+        "title": "Explain an Event",
+        "prompt": "Choose a historical event you know something about, or one from your local or family history.\n\nIn at least 250 words: identify at least two long-term causes, one short-term cause, and a trigger, explaining how they interacted; identify one moment where contingency mattered (how could events have gone differently?); and analyze change and continuity by describing what changed as a result of the event, what stayed the same, and for whom. Note one source you would consult to deepen your analysis.",
+        "rubric": [
+          "Distinguishes long-term causes, short-term causes, and a trigger",
+          "Explains interaction among causes",
+          "Identifies contingency convincingly",
+          "Analyzes change and continuity with attention to different groups"
+        ],
+        "minWords": 250
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Guns of August",
+          "creator": "Barbara W. Tuchman",
+          "year": 1962,
+          "note": "A Pulitzer Prize–winning narrative of the first month of World War I and the decisions that led to it.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Interpretation and Historiography",
+      "overview": "How historical interpretations develop and compete, how to identify an author's argument and approach, and why historiography matters.",
+      "objectives": [
+        "Define historiography and explain how interpretations change over time.",
+        "Identify a historian's thesis, evidence, and interpretive approach.",
+        "Compare competing interpretations of the same historical question."
+      ],
+      "lesson": "## History of history\n\n**Historiography** is the study of how history has been written: the evolving interpretations of a topic, the methods historians have used, and the debates among them. When historians say \"the historiography of the French Revolution,\" they mean the body of scholarship about it and how that scholarship has changed.\n\nKnowing the historiography of a topic lets you see that every interpretation is part of a conversation, and lets you join it.\n\n## Why interpretations change\n\n1. **New evidence** surfaces: archives open, documents are discovered, archaeology and science reveal new information. The opening of Soviet archives after 1991 transformed the history of the Cold War.\n2. **New methods** develop: quantitative analysis, oral history, DNA analysis, climate data, and digital text mining.\n3. **New questions** arise from changing concerns. The rise of environmental awareness produced environmental history; the civil rights and women's movements expanded histories of race and gender.\n4. **New frameworks** offer different explanations: political, economic, social, cultural, global.\n\n## Schools of interpretation\n\nMany fields have recognizable \"schools,\" groups of historians who share an approach:\n\n- **Political history** focuses on states, leaders, wars, and diplomacy.\n- **Economic history** focuses on production, trade, and material conditions.\n- **Social history** studies ordinary people, families, work, and communities, often \"history from below.\"\n- **Cultural history** studies meanings, beliefs, rituals, and representations.\n- **Global and transnational history** follows connections across borders.\n\nMost good historians combine approaches, but recognizing an author's emphasis helps you read them critically.\n\n### Worked example: why did the Western Roman Empire fall?\n\nFew questions have attracted more interpretations.\n\n- In the eighteenth century, **Edward Gibbon**, in *The History of the Decline and Fall of the Roman Empire*, emphasized moral and civic decline and, controversially, the influence of Christianity.\n- Many later historians emphasized **external pressure**: migrations and invasions by Germanic peoples and the Huns, combined with military and fiscal strain.\n- From the 1970s, scholars associated with the idea of **\"Late Antiquity,\"** notably Peter Brown, emphasized *transformation* rather than fall: Roman culture, law, and Christianity continued and evolved in the post-Roman kingdoms.\n- More recently, some historians, such as Bryan Ward-Perkins, have pushed back, using archaeological evidence of declining living standards, such as poorer pottery and housing, to argue that the end of Roman rule in the West was a genuine catastrophe for many people.\n\nEach interpretation draws on different evidence and different questions. Seeing them side by side shows how historical understanding is built: not by finding the one correct answer, but by testing arguments against evidence and each other.\n\n## Reading a historical argument\n\nFor any secondary source, identify:\n\n- **Thesis:** the central argument, often in the introduction.\n- **Evidence:** the types of sources used. Are they adequate for the claim?\n- **Approach:** political, social, cultural, economic, global?\n- **Interlocutors:** whom is the author arguing against or building on?\n- **Significance:** what does the argument change about our understanding?\n\n## Evaluating competing interpretations\n\nWhen historians disagree, ask:\n\n- Which interpretation accounts for more of the evidence, including inconvenient evidence?\n- Do they disagree about facts, about the weight of evidence, or about the question itself?\n- Could both be partly right, perhaps at different scales or for different groups?\n\n## Revisionism\n\nNew interpretations that challenge established ones are often called **revisionist**. In scholarship, revision is normal and healthy; it is how history improves. The word is sometimes misused to describe denial of well-established facts, which is not scholarship at all. Legitimate revision engages the evidence; denial ignores or falsifies it.\n\n## Common misconceptions\n\n- **\"The latest interpretation is always correct.\"** New isn't automatically better; arguments must be judged on evidence.\n- **\"Historiography is just a list of opinions.\"** It is a record of evidence-based arguments and how they improved.\n- **\"Revisionism means rewriting history to fit an agenda.\"** In scholarship, it means revising interpretations in light of evidence.\n\n## Summary\n\nHistoriography is the history of historical interpretation. Interpretations change with new evidence, methods, questions, and frameworks. Reading historians critically means identifying their thesis, evidence, approach, and interlocutors, and evaluating competing interpretations by how well they account for the evidence.\n",
+      "keyTerms": [
+        {
+          "term": "Historiography",
+          "definition": "The study of how history has been written and how interpretations have changed."
+        },
+        {
+          "term": "Thesis",
+          "definition": "A historian's central argument."
+        },
+        {
+          "term": "Social history",
+          "definition": "History that focuses on ordinary people, communities, and everyday life."
+        },
+        {
+          "term": "Late Antiquity",
+          "definition": "A framework emphasizing transformation and continuity in the Mediterranean world from about the third to eighth centuries."
+        },
+        {
+          "term": "Revisionism (scholarly)",
+          "definition": "Revising established interpretations in light of new evidence or questions."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Historiography is best defined as:",
+          "choices": [
+            "A list of important dates",
+            "The study of handwriting in documents",
+            "The writing of fiction about the past",
+            "The study of how history has been written and how interpretations have changed"
+          ],
+          "answerIndex": 3,
+          "explanation": "It concerns interpretations and methods."
+        },
+        {
+          "prompt": "The opening of Soviet archives after 1991 changed interpretations of the Cold War mainly by:",
+          "choices": [
+            "Providing new evidence",
+            "Ending all disagreement",
+            "Changing the dates of events",
+            "Proving all previous historians wrong"
+          ],
+          "answerIndex": 0,
+          "explanation": "New evidence is a major driver of historiographical change."
+        },
+        {
+          "prompt": "A historian who uses archaeological evidence of declining living standards to argue the end of Roman rule in the West was catastrophic is responding to which earlier view?",
+          "choices": [
+            "Gibbon's emphasis on Christianity",
+            "Political history of the Cold War",
+            "The view emphasizing transformation rather than decline",
+            "The view that Rome never existed"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ward-Perkins challenged the Late Antiquity emphasis on continuity."
+        },
+        {
+          "prompt": "When evaluating two competing interpretations, which question is most useful?",
+          "choices": [
+            "Which one accounts for more of the evidence, including inconvenient evidence?",
+            "Which one is shorter?",
+            "Which author is more famous?",
+            "Which one was published more recently?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Interpretations are judged by how well they fit the evidence."
+        },
+        {
+          "prompt": "In historical scholarship, legitimate revisionism differs from denial because it:",
+          "choices": [
+            "Never changes established views",
+            "Relies only on secondary sources",
+            "Always supports the government",
+            "Engages with and is grounded in evidence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Revision tests evidence; denial dismisses it."
+        }
+      ],
+      "assignment": {
+        "title": "Compare Two Interpretations",
+        "prompt": "Choose a historical question on which historians disagree. You may use the fall of Rome from this lesson, or another (for example, the causes of the American Civil War, the effects of the Industrial Revolution on workers, or why Europe industrialized first). Use at least two secondary sources, such as encyclopedia entries, scholarly reviews, or books, and cite them.\n\nIn at least 250 words, summarize two competing interpretations, identifying each one's thesis, main evidence, and approach. Explain the source of their disagreement (facts, weighting of evidence, or the question itself), and state which you find more convincing and why, or how both might be partly right.",
+        "rubric": [
+          "Accurately summarizes two interpretations",
+          "Identifies thesis, evidence, and approach for each",
+          "Diagnoses the source of disagreement",
+          "Offers a well-reasoned evaluation with citations"
+        ],
+        "minWords": 250
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Fall of Rome and the End of Civilization",
+          "creator": "Bryan Ward-Perkins",
+          "year": 2005,
+          "note": "A short, vivid argument, grounded in archaeology, about what the end of Roman rule meant for ordinary people.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Evidence Beyond Texts",
+      "overview": "How historians use objects, images, oral histories, and quantitative data, and what each can and cannot tell us.",
+      "objectives": [
+        "Analyze material culture and visual sources as historical evidence.",
+        "Explain the strengths and challenges of oral history.",
+        "Interpret simple quantitative historical evidence and its limits."
+      ],
+      "lesson": "## When there are no words\n\nWriting has existed for only about five thousand years, and for most of that time only a small minority of people could read and write. To understand most of humanity's past, historians must use evidence beyond written texts.\n\n## Material culture\n\n**Material culture** means the physical objects people made and used: tools, pottery, clothing, coins, buildings, furniture, toys, and graves. Objects can reveal:\n\n- **Technology and economy:** what people could make and what materials they had.\n- **Trade and connection:** a Roman coin found in southern India, or Chinese porcelain in an East African port, reveals long-distance exchange.\n- **Daily life:** the layout of houses, the remains of food, and the wear on tools.\n- **Values and beliefs:** what people buried with their dead.\n\nTo analyze an object, ask: What is it made of, and how? Who made and used it? What was it for? Where was it found? What does its existence imply about the society that produced it?\n\nObjects have limits: they rarely tell us what their users thought or felt, and their meaning often depends on context that archaeologists must carefully reconstruct. An object removed from its site without recording that context loses much of its value as evidence.\n\n## Visual sources\n\nPaintings, photographs, maps, posters, cartoons, and films are powerful evidence, but images are **constructed**, not windows onto reality.\n\n- A royal portrait shows how a ruler wished to be seen, not necessarily how he looked.\n- A photograph is framed, selected, and sometimes staged. Early war photographers sometimes rearranged scenes for effect.\n- Maps reflect what their makers knew and wanted to claim; medieval European maps often placed Jerusalem at the center for religious reasons.\n\nAnalyze images like documents: source them (who made them, for whom, why), contextualize them, read them closely (composition, symbols, what's included and excluded), and corroborate them.\n\n## Oral history\n\n**Oral history** records people's spoken recollections, usually through interviews. It can recover experiences absent from written archives: workers, immigrants, veterans, survivors of disasters and atrocities, and communities whose histories were not written down.\n\nIn the 1930s, the U.S. Works Progress Administration interviewed more than two thousand formerly enslaved people, creating a priceless if complex record; the interviewers were mostly white, and the interviews took place decades after emancipation, which shaped what was said.\n\nChallenges:\n- **Memory** is reconstructive and shaped by later experience.\n- **The interview itself** shapes the testimony: who asks, how, and why.\n- **Ethics:** informed consent, respect, and care for narrators, especially about traumatic experiences.\n\nOral historians don't treat memories as simple fact; they treat them as evidence of both events and how people made meaning of them. In many societies, **oral traditions**, histories passed down through generations by storytellers, preserve knowledge across centuries; West African griots, for instance, have preserved accounts associated with the founding of the Mali Empire.\n\n## Quantitative evidence\n\nCensus returns, tax records, prices, wages, birth and death registers, and shipping records can be counted and analyzed. Quantitative history can reveal patterns invisible in individual documents, such as changing life expectancy, migration flows, or the scale of the transatlantic slave trade. Collaborative databases built from shipping records have documented tens of thousands of slaving voyages, giving historians a far more precise picture of the trade's scale and routes.\n\nQuestions to ask of numbers:\n- Who collected them, how, and why?\n- Who was counted, and who was missed?\n- Are categories consistent over time? (Census categories for race and occupation have changed repeatedly.)\n\n### Worked example: a parish register\n\nA historian studies baptism and burial records from an English village, 1550–1650. Counting them reveals a sharp spike in burials in one year, suggesting an epidemic or famine. Cross-checking with harvest records and letters can identify the cause. But the register only records members of the parish church, so dissenters and some poor transients may be missing: the numbers are evidence, not complete truth.\n\n## Common misconceptions\n\n- **\"Objects and photos are more objective than writing.\"** They are also made, selected, and framed.\n- **\"Oral history is unreliable, so it isn't real history.\"** It requires careful interpretation, like any source, and reveals what other sources can't.\n- **\"Numbers speak for themselves.\"** Data reflect the choices of whoever collected them.\n\n## Summary\n\nMaterial culture, images, oral history, and quantitative data let historians study people and processes that written texts miss. Each type of evidence must be sourced, contextualized, and corroborated, with attention to how it was created and what it leaves out.\n",
+      "keyTerms": [
+        {
+          "term": "Material culture",
+          "definition": "The physical objects made and used by people, studied as historical evidence."
+        },
+        {
+          "term": "Oral history",
+          "definition": "The recording and study of people's spoken recollections of the past."
+        },
+        {
+          "term": "Oral tradition",
+          "definition": "Knowledge of the past transmitted by word of mouth across generations."
+        },
+        {
+          "term": "Quantitative history",
+          "definition": "The use of numerical data to study historical patterns."
+        },
+        {
+          "term": "Provenance",
+          "definition": "The origin and history of ownership or discovery of an object or document."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A Roman coin found at an archaeological site in southern India is good evidence of:",
+          "choices": [
+            "The exact date the site was founded",
+            "Long-distance trade connections",
+            "Roman rule over India",
+            "The religious beliefs of Indian traders"
+          ],
+          "answerIndex": 1,
+          "explanation": "Objects found far from where they were made reveal exchange networks."
+        },
+        {
+          "prompt": "Why should historians be cautious about treating a royal portrait as an accurate likeness?",
+          "choices": [
+            "Paintings were never made of rulers",
+            "Only photographs are evidence",
+            "It shows how the ruler wished to be seen, shaped by artistic and political purposes",
+            "Portraits are always forgeries"
+          ],
+          "answerIndex": 2,
+          "explanation": "Images are constructed for audiences and purposes."
+        },
+        {
+          "prompt": "A major value of oral history is that it can:",
+          "choices": [
+            "Provide perfectly accurate dates",
+            "Eliminate the effects of memory",
+            "Replace all written sources",
+            "Recover experiences of people who left few written records"
+          ],
+          "answerIndex": 3,
+          "explanation": "Oral history reaches people often missing from archives."
+        },
+        {
+          "prompt": "When using census data across several decades, a historian should check whether:",
+          "choices": [
+            "The categories used to classify people stayed consistent",
+            "The census was printed in color",
+            "The numbers are large",
+            "Anyone remembers the census"
+          ],
+          "answerIndex": 0,
+          "explanation": "Changing categories can create misleading trends."
+        },
+        {
+          "prompt": "Why does removing an artifact from a site without recording its location reduce its value?",
+          "choices": [
+            "It makes the artifact fake",
+            "Its meaning as evidence depends heavily on its archaeological context",
+            "Artifacts are only valuable in museums",
+            "It changes the material it is made of"
+          ],
+          "answerIndex": 1,
+          "explanation": "Context is essential to interpretation."
+        }
+      ],
+      "assignment": {
+        "title": "An Object, an Image, or a Memory",
+        "prompt": "Choose ONE of the following:\n\n- **An object:** something old in your home or a museum (online collections count), such as a tool, dish, coin, or photograph album.\n- **An image:** a historical photograph, poster, map, or painting available online.\n- **A memory:** a short interview (10–15 minutes) with an older person, with their permission, about an event they lived through. Ask open questions and take notes.\n\nIn at least 250 words, analyze it as historical evidence: describe it; source and contextualize it; explain what it reveals and what it cannot tell you; and identify one other source you would use to corroborate it. If you conducted an interview, reflect on how the interview itself may have shaped what you heard.",
+        "rubric": [
+          "Describes the source clearly",
+          "Sources and contextualizes it appropriately",
+          "Evaluates what it can and cannot reveal",
+          "Identifies a corroborating source and, if relevant, reflects on the interview process"
+        ],
+        "minWords": 250
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "A History of the World in 100 Objects",
+          "creator": "Neil MacGregor",
+          "year": 2010,
+          "note": "The British Museum's former director tells world history through objects, modeling how to read material culture.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Writing Historical Arguments",
+      "overview": "From research to argument: writing a historical thesis, using evidence, integrating sources, citing them properly, and avoiding plagiarism.",
+      "objectives": [
+        "Write a clear, arguable historical thesis.",
+        "Structure an argument with evidence and analysis, and address counterarguments.",
+        "Integrate and cite sources correctly, using Chicago-style notes."
+      ],
+      "lesson": "## History is an argument\n\nA history essay is not a summary of what happened. It is an **argument**: a claim about the past, supported by evidence and reasoning, that a reasonable person could dispute.\n\n## The thesis\n\nA **thesis** is your central argument, usually stated in the introduction. A strong historical thesis is:\n\n- **Arguable:** someone could disagree.\n- **Specific:** it makes a precise claim.\n- **Analytical:** it explains why or how, not just what.\n- **Supportable:** evidence can back it up.\n\n| Weak thesis | Strong thesis |\n|---|---|\n| The printing press was important. | The printing press accelerated the Protestant Reformation because cheap pamphlets let reformers reach ordinary townspeople faster than church authorities could respond. |\n| The Great Depression was hard for many Americans. | The Great Depression reshaped Americans' expectations of the federal government, as New Deal programs made economic security a responsibility that later administrations could not easily abandon. |\n\n## Structuring the argument\n\nA typical structure:\n\n1. **Introduction:** context, the question, and your thesis.\n2. **Body paragraphs:** each develops one part of the argument. A strong paragraph has:\n   - a **topic sentence** stating the paragraph's point,\n   - **evidence** from sources,\n   - **analysis** explaining how the evidence supports the point (the step students most often skip),\n   - a **link** back to the thesis.\n3. **Counterargument:** acknowledge the strongest objection or alternative interpretation and respond to it.\n4. **Conclusion:** restate the argument in light of the evidence and explain its significance.\n\n### Worked example: a body paragraph\n\n> Topic sentence: Pamphlets allowed Martin Luther to reach audiences far beyond the universities. Evidence: Historians estimate that Luther's writings made up a large share of all works printed in the German lands in the early 1520s, many in short, inexpensive German-language pamphlets. Analysis: Because these works were cheap, short, and written in the vernacular rather than Latin, they could be read aloud in taverns and marketplaces to people who could not read, spreading Luther's ideas well beyond the educated elite. Link: This speed and reach help explain why Church authorities, who relied on slower, Latin-language responses, struggled to contain the movement.\n\nNote how the analysis sentence does the real work.\n\n## Using evidence\n\n- **Quote** when the exact words matter: when the language itself is evidence, or when the phrasing is too good to paraphrase. Keep quotations short and always explain them.\n- **Paraphrase** when the idea matters more than the wording.\n- **Summarize** to convey the gist of a longer passage.\n\nAvoid \"dropped quotations,\" quotations that appear without introduction or analysis. Introduce sources with context: \"Writing to his wife from the front in 1916, one British officer described…\"\n\n## Citation\n\nHistorians typically use **Chicago-style notes** (footnotes or endnotes), because notes let readers see exactly where each piece of evidence came from without interrupting the prose. A note for a book generally includes the author, title, place of publication, publisher, year, and page, and later notes for the same source can be shortened. Consult a style guide for exact formats.\n\nCitations serve several purposes: they credit others' work, let readers check your evidence, and show that your argument rests on research.\n\n## Academic integrity\n\n**Plagiarism** is presenting someone else's words or ideas as your own. It includes copying without quotation marks, paraphrasing too closely, and failing to cite ideas you borrowed. Using AI tools to generate your arguments and submitting them as your own also misrepresents your work. The goal of historical writing is to develop *your* judgment about evidence; you can only do that by doing the work.\n\n## Common misconceptions\n\n- **\"A thesis is a statement of the topic.\"** It's an arguable claim.\n- **\"Quotations speak for themselves.\"** Evidence needs analysis.\n- **\"Acknowledging counterarguments weakens your essay.\"** Engaging the strongest objection makes an argument more persuasive.\n\n## Summary\n\nHistorical writing makes arguable, specific, analytical claims supported by evidence. Strong paragraphs connect topic sentences, evidence, analysis, and the thesis. Good writers address counterarguments, integrate sources carefully, cite them in Chicago style, and do their own thinking.\n",
+      "keyTerms": [
+        {
+          "term": "Thesis statement",
+          "definition": "A specific, arguable, analytical claim that an essay sets out to prove."
+        },
+        {
+          "term": "Analysis",
+          "definition": "Explanation of how and why evidence supports a claim."
+        },
+        {
+          "term": "Counterargument",
+          "definition": "A serious objection or alternative interpretation that an essay acknowledges and answers."
+        },
+        {
+          "term": "Chicago-style notes",
+          "definition": "The footnote or endnote citation system most commonly used by historians."
+        },
+        {
+          "term": "Plagiarism",
+          "definition": "Presenting another's words or ideas as one's own without proper credit."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which is the strongest historical thesis?",
+          "choices": [
+            "The Black Death was a terrible plague",
+            "The Black Death weakened serfdom in Western Europe by creating labor shortages that gave surviving peasants bargaining power",
+            "Many people died in the Black Death",
+            "The Black Death happened in the fourteenth century"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is specific, arguable, and analytical."
+        },
+        {
+          "prompt": "In a body paragraph, what is the role of analysis?",
+          "choices": [
+            "To introduce a new topic",
+            "To repeat the quotation",
+            "To list the sources used",
+            "To explain how the evidence supports the paragraph's point"
+          ],
+          "answerIndex": 3,
+          "explanation": "Analysis connects evidence to argument."
+        },
+        {
+          "prompt": "Why do historians typically use footnotes or endnotes?",
+          "choices": [
+            "They are required for all writing",
+            "They show exactly where evidence comes from without interrupting the prose",
+            "They make essays longer",
+            "They replace the bibliography in every case"
+          ],
+          "answerIndex": 1,
+          "explanation": "Notes allow readers to trace and verify evidence."
+        },
+        {
+          "prompt": "Including a counterargument in a history essay generally:",
+          "choices": [
+            "Weakens the essay",
+            "Strengthens the argument by engaging the strongest objection",
+            "Is not allowed",
+            "Should replace the thesis"
+          ],
+          "answerIndex": 1,
+          "explanation": "Persuasive arguments account for alternatives."
+        },
+        {
+          "prompt": "Which is an example of plagiarism?",
+          "choices": [
+            "Quoting a source with quotation marks and a citation",
+            "Summarizing a source and citing it",
+            "Citing an idea you borrowed",
+            "Closely paraphrasing a historian's argument without citing it"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ideas, not just exact words, require credit."
+        }
+      ],
+      "assignment": {
+        "title": "Build an Argument",
+        "prompt": "Using your work from earlier weeks (a question, sources, or an event you analyzed), write a short historical argument of at least 300 words.\n\nYour response should include: an introduction with a clear thesis; two body paragraphs, each with a topic sentence, evidence from at least one source, analysis, and a link to the thesis; one paragraph addressing a counterargument; and at least three Chicago-style citations (footnotes may be written as numbered notes at the end).",
+        "rubric": [
+          "Thesis is specific, arguable, and analytical",
+          "Body paragraphs connect evidence and analysis to the thesis",
+          "Counterargument is addressed seriously",
+          "Sources are integrated and cited correctly"
+        ],
+        "minWords": 300
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "A Pocket Guide to Writing in History",
+          "creator": "Mary Lynn Rampolla",
+          "year": null,
+          "note": "The standard short guide to historical writing, research, and Chicago-style citation.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "History in Public Life",
+      "overview": "How societies remember the past through monuments, museums, commemorations, and politics, the ethics of historical work, and the historian's responsibility.",
+      "objectives": [
+        "Distinguish history from memory and explain how collective memory is formed.",
+        "Analyze debates over public commemoration.",
+        "Reflect on the uses and misuses of history and the ethics of historical work."
+      ],
+      "lesson": "## History and memory\n\n**Collective memory** is how a group, such as a nation, community, or family, remembers its past. Memory and history are related but different. Memory is often emotional, selective, and tied to identity: it tells a group who it is. History, as a discipline, tries to be critical and evidence-based, and it often complicates the stories groups tell about themselves.\n\nThe tension between them is a constant feature of public life. A nation may remember a war as a glorious triumph; historians may document its costs, its victims, and the ambiguities that heroic memory leaves out.\n\n## How public memory is made\n\nSocieties remember through:\n\n- **Monuments and memorials**, which tell passersby what to value and whom to honor.\n- **Museums and historic sites**, which select, arrange, and interpret objects and stories.\n- **Holidays and commemorations**, which mark certain events as worth remembering.\n- **Textbooks and curricula**, which define the shared story taught to children.\n- **Film, television, novels, and games**, which reach far larger audiences than scholarship.\n\nEvery one of these involves choices: what to include, what to leave out, how to frame it. That's why public history is so often contested.\n\n## Debates over commemoration\n\nMonuments are made at particular times, by particular people, for particular purposes, and those purposes may differ from the events they claim to commemorate. In the United States, for example, many monuments honoring Confederate leaders were erected decades after the Civil War, with large waves in the early twentieth century and during the civil rights era, often by organizations promoting a sympathetic \"Lost Cause\" view of the Confederacy. Historians point to this timing as evidence that such monuments say as much about the era that built them as about the war itself.\n\nDebates over removing, relocating, or recontextualizing monuments, here and in many other countries, are debates about collective memory: what a society chooses to honor in public space. Historians contribute evidence about when and why monuments were built, though the decisions themselves are civic and political.\n\n## Uses and misuses of history\n\nHistory is constantly used in public argument, and not always well. Common misuses include:\n\n- **Cherry-picking:** selecting only the evidence that supports a desired conclusion.\n- **False analogies:** \"this is exactly like 1938\" when the situations differ in crucial ways.\n- **Presentism:** judging the past solely by today's standards without trying to understand it on its own terms. (Understanding is not the same as excusing; historians can both explain the past and make moral judgments about it.)\n- **Myth-making:** smoothing the past into a simple, flattering story.\n- **Denial:** rejecting well-documented facts for political reasons.\n\nThe skills from this course, sourcing, contextualizing, corroborating, weighing interpretations, and building arguments, are exactly the skills needed to evaluate historical claims in public life.\n\n## The ethics of historical work\n\nHistorians have responsibilities:\n\n- **To the evidence:** to represent sources honestly, including evidence that complicates their argument.\n- **To people of the past:** to try to understand them in their own context, and to recover voices that were silenced.\n- **To living people:** to treat oral history narrators, descendants, and communities with respect, and to handle sensitive information carefully.\n- **To the public:** to communicate clearly and to resist misuse of history.\n\n## Course synthesis\n\nIn eight weeks you have learned the core of the historian's craft: distinguishing the past from history; working with primary and secondary sources; reading documents critically; analyzing causation and change; understanding historiography; using non-textual evidence; writing historical arguments; and evaluating history in public life. Every course in this program will ask you to use these skills on new times and places.\n\n## Common misconceptions\n\n- **\"Monuments simply record history.\"** They express the values of the people who built them, at the time they built them.\n- **\"Understanding the past means excusing it.\"** Historians can explain and judge.\n- **\"Public memory and history are the same.\"** Memory serves identity; history serves understanding, and they often conflict.\n\n## Summary\n\nCollective memory is shaped by monuments, museums, commemorations, and media, and it often differs from critical history. Commemoration is contested because it reflects choices about what to honor. Historical thinking helps citizens recognize misuses of history, and historians carry ethical responsibilities to evidence, to the past, and to the public.\n",
+      "keyTerms": [
+        {
+          "term": "Collective memory",
+          "definition": "The shared way a group remembers its past, often tied to identity."
+        },
+        {
+          "term": "Public history",
+          "definition": "History practiced and presented outside academia, in museums, sites, media, and communities."
+        },
+        {
+          "term": "Presentism",
+          "definition": "Judging the past solely by present-day values without seeking to understand its context."
+        },
+        {
+          "term": "Commemoration",
+          "definition": "Public acts of remembering, such as monuments, holidays, and ceremonies."
+        },
+        {
+          "term": "Cherry-picking",
+          "definition": "Selecting only evidence that supports a desired conclusion."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "How does collective memory typically differ from history as a discipline?",
+          "choices": [
+            "They are exactly the same",
+            "History is never contested",
+            "Memory relies only on archives",
+            "Memory is often selective and tied to identity, while history aims to be critical and evidence-based"
+          ],
+          "answerIndex": 3,
+          "explanation": "Memory serves identity; history tests claims against evidence."
+        },
+        {
+          "prompt": "Why do historians emphasize when a monument was built?",
+          "choices": [
+            "Monuments are only built immediately after events",
+            "The date determines the monument's height",
+            "The timing reveals the values and purposes of the people who erected it",
+            "Older monuments are always more accurate"
+          ],
+          "answerIndex": 2,
+          "explanation": "Monuments say much about the era that created them."
+        },
+        {
+          "prompt": "Claiming a current event is \"exactly like\" a past event, while ignoring crucial differences, is an example of:",
+          "choices": [
+            "A false analogy",
+            "Oral history",
+            "Contextualization",
+            "Corroboration"
+          ],
+          "answerIndex": 0,
+          "explanation": "Misleading comparisons are a common misuse of history."
+        },
+        {
+          "prompt": "Which statement about presentism is most accurate?",
+          "choices": [
+            "Present-day values are irrelevant to historians",
+            "Historians must never make moral judgments",
+            "Presentism is the best way to study the past",
+            "Historians try to understand the past in its own context while still being able to make moral judgments"
+          ],
+          "answerIndex": 3,
+          "explanation": "Understanding is not the same as excusing."
+        },
+        {
+          "prompt": "A historian's responsibility to the evidence includes:",
+          "choices": [
+            "Representing sources honestly, including those that complicate the argument",
+            "Ignoring evidence that doesn't fit",
+            "Avoiding controversial topics",
+            "Only using sources that agree with each other"
+          ],
+          "answerIndex": 0,
+          "explanation": "Honest engagement with all relevant evidence is central to historical ethics."
+        }
+      ],
+      "assignment": {
+        "title": "History in Your Community",
+        "prompt": "Choose a monument, memorial, museum exhibit, historical marker, street or building name, or public commemoration in your community (or one you can research online).\n\nIn at least 300 words: describe it and its message; research when, why, and by whom it was created; analyze how it reflects collective memory at the time it was made and what it emphasizes or omits; and explain how the historical thinking skills from this course could help your community discuss it. Conclude with a short reflection on what this course has changed about how you think about the past.",
+        "rubric": [
+          "Describes the site and its message accurately",
+          "Researches its origins and context",
+          "Analyzes memory, emphasis, and omission thoughtfully",
+          "Applies course skills and reflects meaningfully"
+        ],
+        "minWords": 300
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Lies My Teacher Told Me",
+          "creator": "James W. Loewen",
+          "year": 1995,
+          "note": "A bestselling critique of how American history textbooks simplify and distort the past.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "Which best describes history as a discipline?",
+      "choices": [
+        "A complete record of everything that happened",
+        "An evidence-based interpretation of a fragmentary past",
+        "A collection of opinions with no rules",
+        "A list of dates to memorize"
+      ],
+      "answerIndex": 1,
+      "explanation": "History interprets surviving evidence through argument."
+    },
+    {
+      "prompt": "Which is the strongest historical question?",
+      "choices": [
+        "Who was the first Protestant?",
+        "Why did literacy rates rise in Protestant regions of early modern Europe?",
+        "When was the first Bible printed?",
+        "What color was Luther's coat?"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is open, researchable, and significant."
+    },
+    {
+      "prompt": "A 1970s documentary about ancient Egypt would be a primary source for a study of:",
+      "choices": [
+        "How 1970s audiences imagined ancient Egypt",
+        "Daily life in ancient Egypt",
+        "The construction of the pyramids",
+        "Egyptian religion"
+      ],
+      "answerIndex": 0,
+      "explanation": "A source's category depends on the question."
+    },
+    {
+      "prompt": "When sourcing a document, a historian asks about all of the following EXCEPT:",
+      "choices": [
+        "Who created it",
+        "What its purpose was",
+        "Whether the historian personally agrees with it",
+        "When and where it was created"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sourcing analyzes the document's origins, not the reader's preferences."
+    },
+    {
+      "prompt": "Two hostile newspapers give opposite accounts of a riot. The best next step is to:",
+      "choices": [
+        "Choose the account you find more sympathetic",
+        "Seek additional independent sources to corroborate details",
+        "Discard both accounts",
+        "Average the two accounts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Corroboration with other evidence helps establish what happened."
+    },
+    {
+      "prompt": "The idea that outcomes depended on choices and circumstances that could have gone differently is called:",
+      "choices": [
+        "Determinism",
+        "Contingency",
+        "Periodization",
+        "Material culture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Contingency rejects the idea that events were inevitable."
+    },
+    {
+      "prompt": "Which is a long-term (structural) cause rather than a trigger?",
+      "choices": [
+        "An assassination",
+        "A sudden military attack",
+        "A single speech that sparked a protest",
+        "Decades of economic inequality"
+      ],
+      "answerIndex": 3,
+      "explanation": "Structural causes build over long periods."
+    },
+    {
+      "prompt": "Historiography is the study of:",
+      "choices": [
+        "Maps of ancient cities",
+        "How historical interpretations have developed and changed",
+        "The lives of famous historians only",
+        "Old handwriting"
+      ],
+      "answerIndex": 1,
+      "explanation": "It concerns the history of historical writing and debate."
+    },
+    {
+      "prompt": "Interpretations of a historical topic most often change because of:",
+      "choices": [
+        "Changes in the past itself",
+        "Historians randomly changing their minds",
+        "Government orders",
+        "New evidence, methods, questions, or frameworks"
+      ],
+      "answerIndex": 3,
+      "explanation": "These drivers reshape historical understanding."
+    },
+    {
+      "prompt": "Which is a major challenge of using oral history?",
+      "choices": [
+        "It never includes ordinary people",
+        "Oral history cannot be recorded",
+        "Memory is reconstructive and shaped by later experience and by the interview itself",
+        "It only covers ancient history"
+      ],
+      "answerIndex": 2,
+      "explanation": "Oral sources require careful interpretation."
+    },
+    {
+      "prompt": "A parish register records only members of one church. A historian using it to study a village's population should recognize that:",
+      "choices": [
+        "Some residents may be missing, so the data are incomplete",
+        "It contains every resident",
+        "Numbers are always objective",
+        "It is not a historical source"
+      ],
+      "answerIndex": 0,
+      "explanation": "Quantitative sources reflect who was counted."
+    },
+    {
+      "prompt": "In a history essay, a quotation should be followed by:",
+      "choices": [
+        "A new thesis",
+        "Analysis explaining how it supports the argument",
+        "Nothing; it speaks for itself",
+        "Another quotation immediately"
+      ],
+      "answerIndex": 1,
+      "explanation": "Evidence requires analysis."
+    },
+    {
+      "prompt": "Which citation system do historians most commonly use?",
+      "choices": [
+        "Only in-text page numbers",
+        "Hashtags",
+        "No citations at all",
+        "Chicago-style notes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Footnotes and endnotes let readers trace evidence precisely."
+    },
+    {
+      "prompt": "Many monuments are best analyzed as evidence of:",
+      "choices": [
+        "The opinions of modern historians",
+        "Exactly what happened in the events they depict",
+        "Nothing historical",
+        "The values and purposes of the people who built them, at the time they built them"
+      ],
+      "answerIndex": 3,
+      "explanation": "Commemoration reflects the era of its creation."
+    },
+    {
+      "prompt": "Which is the best example of responsible historical practice?",
+      "choices": [
+        "Inventing quotations to fill gaps",
+        "Acknowledging evidence that complicates your argument and explaining how you weigh it",
+        "Leaving out inconvenient evidence",
+        "Using only one source"
+      ],
+      "answerIndex": 1,
+      "explanation": "Honesty to the evidence is central to historical ethics."
+    }
+  ],
+  "resources": [
+    {
+      "kind": "book",
+      "title": "The Historian's Craft",
+      "creator": "Marc Bloch",
+      "year": 1953,
+      "note": "A great historian's reflections on his discipline, written during the Second World War before his death in the French Resistance.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "What Is History?",
+      "creator": "E. H. Carr",
+      "year": 1961,
+      "note": "A classic, provocative set of lectures on facts, interpretation, and the historian's role.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Historical Thinking and Other Unnatural Acts",
+      "creator": "Sam Wineburg",
+      "year": 2001,
+      "note": "Research-based essays on how historians read sources and how that skill can be taught.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Silencing the Past: Power and the Production of History",
+      "creator": "Michel-Rolph Trouillot",
+      "year": 1995,
+      "note": "A brilliant study of how power shapes which parts of the past are recorded and remembered.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Landscape of History",
+      "creator": "John Lewis Gaddis",
+      "year": 2002,
+      "note": "A leading historian explains how historians think about causation, evidence, and time.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "website",
+      "title": "National Archives",
+      "creator": "U.S. National Archives and Records Administration",
+      "year": null,
+      "note": "The official home of millions of U.S. government records, with many digitized documents and teaching guides.",
+      "url": "https://www.archives.gov/",
+      "isbn": null,
+      "verified": false
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }
