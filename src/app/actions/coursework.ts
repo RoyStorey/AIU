@@ -47,6 +47,7 @@ export async function completeLesson(formData: FormData) {
     .insert(schema.lessonCompletions)
     .values({ userId: user.id, courseCode: course.code, week: week.number })
     .onConflictDoNothing();
+  revalidatePath(`${base(course.code)}/week/${week.number}`);
   redirect(`${base(course.code)}/week/${week.number}#quiz`);
 }
 
@@ -55,6 +56,7 @@ export async function submitQuiz(formData: FormData) {
   const answers = readAnswers(formData, week.quiz.length);
   const score = gradeQuiz(week.quiz, answers);
   await db.insert(schema.quizAttempts).values({ id: newId(), userId: user.id, courseCode: course.code, week: week.number, score, answers });
+  revalidatePath(`${base(course.code)}/week/${week.number}`);
   redirect(`${base(course.code)}/week/${week.number}?quiz=review#quiz`);
 }
 
@@ -108,5 +110,6 @@ export async function submitFinal(formData: FormData) {
       }
     }
   }
+  revalidatePath(base(course.code), "layout");
   redirect(`${base(course.code)}/final?result=1`);
 }
