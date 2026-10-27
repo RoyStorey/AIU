@@ -4,9 +4,1141 @@
   "category": "foundation",
   "description": "An introduction to the writer's craft across fiction, poetry, and creative nonfiction: generating material, image and detail, voice, the writing habit, and how to give and receive useful feedback in a workshop.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": [],
-  "resources": []
+  "status": "published",
+  "outcomes": [
+    "Build a sustainable writing practice using notebooks and freewriting.",
+    "Write with concrete, significant detail across the senses.",
+    "Control point of view, narrative distance, and voice.",
+    "Draft fiction with character, conflict, scene, and plot.",
+    "Write poems that rely on fresh images and deliberate line breaks.",
+    "Write creative nonfiction that balances scene and reflection with honesty.",
+    "Revise in stages and give and receive useful workshop feedback."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "The Writing Life",
+      "overview": "What creative writing is, why writers keep notebooks, and how to build a daily practice that survives busy weeks and blank pages.",
+      "objectives": [
+        "Describe the three main genres of creative writing and what they share.",
+        "Establish a sustainable writing routine and a writer's notebook.",
+        "Use freewriting to generate raw material."
+      ],
+      "lesson": "## What creative writing is\n\n**Creative writing** is writing that values how something is said as much as what is said. It is usually divided into three genres:\n\n- **Fiction:** invented stories, from short stories to novels.\n- **Poetry:** language shaped by the line, sound, and compression.\n- **Creative nonfiction:** true stories told with the techniques of fiction and poetry, including memoir, personal essay, and literary journalism.\n\nThe genres share a toolkit: concrete detail, voice, structure, and attention to the reader's experience. Many writers work in more than one genre, and skills learned in one transfer to the others.\n\n## Writers write\n\nThe most consistent advice from working writers is unglamorous: write regularly. Inspiration matters, but it tends to visit people who are already at the desk. Anne Lamott, in *Bird by Bird*, describes the value of \"shitty first drafts,\" drafts written without judgment so that something exists to revise. Stephen King, in *On Writing*, describes a daily word target. Neither recommends waiting for the perfect mood.\n\nA sustainable practice has three parts:\n\n1. **A time.** Fifteen minutes every day beats three hours once a month. Attach writing to an existing habit, such as morning coffee or a lunch break.\n2. **A place.** It need not be quiet or beautiful, just consistent.\n3. **A modest goal.** A page, 300 words, or a set time. Small goals are kept; heroic ones are abandoned.\n\n## The writer's notebook\n\nWriters collect. A **notebook** (paper or digital) holds overheard dialogue, striking images, odd facts, dreams, memories, questions, and first lines. Joan Didion, in her essay \"On Keeping a Notebook,\" argued that the point is less to record what happened than to remember \"how it felt to me.\" Your notebook is a private storehouse that later becomes stories, poems, and essays.\n\nTry to note, every day:\n\n- One concrete sensory detail you observed.\n- One line of overheard speech.\n- One question you can't answer.\n\n## Freewriting\n\n**Freewriting**, a technique popularized by Peter Elbow, means writing continuously for a set time without stopping, editing, or judging. If you get stuck, write \"I'm stuck\" until something comes. The goal is to separate *generating* from *evaluating*, two mental modes that interfere with each other.\n\nVariations:\n\n- **Focused freewriting:** start from a prompt, such as \"The kitchen in the house where I grew up.\"\n- **Looping:** freewrite, circle the most interesting sentence, then freewrite again starting from it.\n- **Lists:** write \"Things I know about my grandfather\" and list fast.\n\n### Worked example: looping\n\nA ten-minute freewrite on \"my first job\" produces mostly summary: the hours, the boss, the pay. One sentence stands out: \"The fryer oil smelled the same every night, but the customers were always different.\" Starting a second freewrite from that sentence leads to a specific customer, a man who ordered the same meal every Tuesday and once left a twenty-dollar tip with a note. That man is a story. Looping found him.\n\n## The inner critic\n\nEvery writer hears a voice that says the work is bad. Its judgment is useful during revision and harmful during drafting. Give it a schedule: \"Not now. You can come back on Friday when I revise.\"\n\n## Common misconceptions\n\n- **\"Real writers wait for inspiration.\"** Most professional writers write on schedules.\n- **\"Good writers produce good first drafts.\"** Nearly all good writing is revised writing.\n- **\"Creative writing can't be taught.\"** Talent varies, but craft, the techniques of the trade, can be learned and practiced.\n\n## Summary\n\nCreative writing spans fiction, poetry, and creative nonfiction, which share a common craft. Writers build sustainable routines, keep notebooks, and use freewriting to generate material without judgment. Separate drafting from evaluating, and let the inner critic wait for revision.\n",
+      "keyTerms": [
+        {
+          "term": "Creative nonfiction",
+          "definition": "True stories told with the literary techniques of fiction and poetry."
+        },
+        {
+          "term": "Freewriting",
+          "definition": "Writing continuously for a set time without stopping or judging."
+        },
+        {
+          "term": "Looping",
+          "definition": "Freewriting, selecting the best sentence, and freewriting again from it."
+        },
+        {
+          "term": "Writer's notebook",
+          "definition": "A collection of observations, images, and ideas for future writing."
+        },
+        {
+          "term": "Draft",
+          "definition": "A version of a piece of writing, expected to be revised."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which genre tells true stories using literary techniques?",
+          "choices": [
+            "Fiction",
+            "Poetry",
+            "Creative nonfiction",
+            "Technical writing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Memoir and personal essay are creative nonfiction."
+        },
+        {
+          "prompt": "The main purpose of freewriting is to:",
+          "choices": [
+            "Produce a polished final draft",
+            "Correct grammar",
+            "Outline a novel",
+            "Separate generating material from judging it"
+          ],
+          "answerIndex": 3,
+          "explanation": "Freewriting silences the inner critic during drafting."
+        },
+        {
+          "prompt": "Which writing routine is most likely to last?",
+          "choices": [
+            "Fifteen minutes at a consistent time every day",
+            "One eight-hour session per month",
+            "Waiting for inspiration",
+            "Writing only when the house is completely quiet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Small, consistent goals are kept."
+        },
+        {
+          "prompt": "In looping, the writer:",
+          "choices": [
+            "Repeats the same sentence",
+            "Selects the most interesting sentence and freewrites again from it",
+            "Writes in a circle on the page",
+            "Rewrites a published story"
+          ],
+          "answerIndex": 1,
+          "explanation": "Looping digs deeper into promising material."
+        },
+        {
+          "prompt": "Anne Lamott's advice about first drafts is that they:",
+          "choices": [
+            "Are allowed to be bad, so that something exists to revise",
+            "Are unnecessary",
+            "Should be published immediately",
+            "Should be perfect"
+          ],
+          "answerIndex": 0,
+          "explanation": "Permission to write badly makes drafting possible."
+        }
+      ],
+      "assignment": {
+        "title": "A Week in the Notebook",
+        "prompt": "For five days, keep a writer's notebook. Each day, record at least one sensory detail, one line of overheard speech (or a remembered line), and one question.\n\nThen do one ten-minute freewrite followed by one loop. Submit: a selection of at least five notebook entries; your second (looped) freewrite; and a reflection of at least 100 words on what you noticed about your habits, your inner critic, and which material surprised you. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Notebook entries are specific and varied",
+          "Freewrite shows sustained, unjudged generation",
+          "Loop develops a promising sentence",
+          "Reflection is thoughtful and specific"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Bird by Bird: Some Instructions on Writing and Life",
+          "creator": "Anne Lamott",
+          "year": 1994,
+          "note": "A warm, funny, honest classic about the daily work of writing.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "book",
+          "title": "Writing Down the Bones",
+          "creator": "Natalie Goldberg",
+          "year": 1986,
+          "note": "Short chapters on writing practice and freewriting as a discipline.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Image and Concrete Detail",
+      "overview": "The foundation of all creative writing: sensory, specific detail that lets readers experience rather than be told.",
+      "objectives": [
+        "Distinguish concrete from abstract and specific from general language.",
+        "Use details from all five senses.",
+        "Choose significant details that suggest more than they state."
+      ],
+      "lesson": "## The reader's senses\n\nReaders experience writing through images. Abstract words, such as *love*, *fear*, *beauty*, *poverty*, name ideas. Concrete words, such as *a chipped mug*, *rain on a tin roof*, *the smell of diesel*, name things the senses can perceive. Abstractions tell readers what to conclude; concrete details let them conclude it themselves, which is far more powerful.\n\n## Specific, not general\n\nDetail also has degrees of specificity:\n\n- *a vehicle* → *a car* → *a pickup* → *a rusted 1987 Ford pickup with a cracked windshield*\n- *a flower* → *a rose* → *a yellow rose going brown at the edges*\n\nThe more specific the detail, the more real the world feels. Specific details also characterize: a character who drives a rusted pickup is different from one who drives a new hybrid.\n\n## All five senses\n\nBeginning writers rely on sight. Experienced writers use all the senses:\n\n- **Sound:** the hum of a refrigerator, a dog's nails on a wood floor.\n- **Smell:** often the most evocative sense, tied closely to memory.\n- **Taste:** metallic fear, the bitterness of over-steeped tea.\n- **Touch:** texture, temperature, weight, pain.\n- **Movement:** the sway of a train, a body's tiredness.\n\n## Significant detail\n\nNot every detail is worth including. A **significant detail** does more than decorate: it reveals character, establishes mood, or suggests something unstated. Anton Chekhov, writing to his brother in 1886, advised against describing a moonlit night in general terms and instead suggested showing the glitter of light on a piece of broken bottle on a mill dam. One precise, unexpected detail does the work of a paragraph of description.\n\n## Show and tell\n\nYou will hear the advice \"Show, don't tell.\" It means: dramatize through detail and action instead of summarizing conclusions.\n\n- *Telling:* \"Marcus was nervous about the interview.\"\n- *Showing:* \"Marcus checked his reflection in the elevator door, retucked his shirt, and rehearsed his first sentence under his breath for the fourth time.\"\n\nThe advice is useful, but not absolute. Good writers also **tell**: summary moves time quickly, and a well-placed statement can land with force after a scene has earned it. The skill is knowing when to do which. Use scenes and detail for what matters most; use summary to get between them.\n\n### Worked example: revising for detail\n\n*Draft:* \"My grandmother's kitchen was a warm and happy place where we spent a lot of time.\"\n\n*Revision:* \"In my grandmother's kitchen the radio stayed tuned to a station that played polkas on Saturdays, and the window over the sink was always fogged from the pot of cabbage she kept going from noon until supper. She let me cut the dough for pierogi with the rim of a juice glass.\"\n\nThe revision never says \"warm\" or \"happy,\" yet both come through, along with a culture, a routine, and a relationship. The juice glass is the significant detail: homely, specific, and full of trust.\n\n## Common misconceptions\n\n- **\"More adjectives make better description.\"** Precise nouns and verbs usually do more than stacked adjectives.\n- **\"Showing means never telling.\"** Summary and statement have their place.\n- **\"Description should be complete.\"** Selection, not completeness, makes description vivid.\n\n## Summary\n\nConcrete, specific details let readers experience a piece of writing. Use all five senses and choose significant details that reveal character or mood. Show what matters most through scene and detail, and tell when summary serves the story.\n",
+      "keyTerms": [
+        {
+          "term": "Concrete detail",
+          "definition": "Language naming things the senses can perceive."
+        },
+        {
+          "term": "Abstraction",
+          "definition": "A word naming an idea or quality rather than a sensory thing."
+        },
+        {
+          "term": "Significant detail",
+          "definition": "A detail that reveals character, mood, or meaning beyond itself."
+        },
+        {
+          "term": "Showing",
+          "definition": "Dramatizing through action and detail rather than stating conclusions."
+        },
+        {
+          "term": "Summary",
+          "definition": "Narration that compresses time and events."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which is the most concrete and specific?",
+          "choices": [
+            "A plant",
+            "A beautiful flower",
+            "Nature's beauty",
+            "A yellow rose going brown at the edges"
+          ],
+          "answerIndex": 3,
+          "explanation": "It names a specific, perceptible thing."
+        },
+        {
+          "prompt": "Chekhov's advice about the broken bottle on the mill dam illustrates:",
+          "choices": [
+            "That fiction should avoid setting",
+            "The power of one precise, unexpected detail",
+            "That moonlight cannot be described",
+            "The need for long description"
+          ],
+          "answerIndex": 1,
+          "explanation": "A single significant detail evokes the scene."
+        },
+        {
+          "prompt": "Which sentence shows rather than tells?",
+          "choices": [
+            "She was anxious.",
+            "She checked the lock three times before she could walk away from the door.",
+            "Her anxiety was considerable.",
+            "She felt very worried that day."
+          ],
+          "answerIndex": 1,
+          "explanation": "Action dramatizes the emotion."
+        },
+        {
+          "prompt": "When is telling (summary) appropriate?",
+          "choices": [
+            "To move quickly through time between important scenes",
+            "Only in poetry",
+            "Never",
+            "Only in the first sentence"
+          ],
+          "answerIndex": 0,
+          "explanation": "Summary has an important structural role."
+        },
+        {
+          "prompt": "Which sense is often most closely tied to memory?",
+          "choices": [
+            "Sight",
+            "Smell",
+            "Movement",
+            "Touch"
+          ],
+          "answerIndex": 1,
+          "explanation": "Smell is famously evocative of memory."
+        }
+      ],
+      "assignment": {
+        "title": "A Place in Five Senses",
+        "prompt": "Write a descriptive piece of at least 300 words about a real place that matters to you. Use details from all five senses, and never name the emotion the place evokes.\n\nAfter the piece, write a short note (at least 75 words) identifying what you consider your single most significant detail and explaining what it reveals. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Uses all five senses",
+          "Details are concrete and specific",
+          "Conveys emotion without naming it",
+          "Note identifies and explains a significant detail"
+        ],
+        "minWords": 300
+      },
+      "resources": []
+    },
+    {
+      "number": 3,
+      "title": "Voice and Point of View",
+      "overview": "Who is telling, and how they sound: first, second, and third person, narrative distance, and developing a voice of your own.",
+      "objectives": [
+        "Distinguish first-, second-, and third-person points of view and their effects.",
+        "Control narrative distance.",
+        "Describe the elements that create voice."
+      ],
+      "lesson": "## Point of view\n\n**Point of view** is the perspective from which a piece is told. It may be the most consequential choice a writer makes, because it determines what readers know and how they feel.\n\n### First person (\"I\")\n\nThe narrator is a character, telling their own story. First person offers intimacy and a distinctive voice, but it limits readers to what the narrator knows, notices, and is willing to admit. Mark Twain's *Adventures of Huckleberry Finn* (1884) gets much of its power and humor from Huck's voice:\n\n> You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter.\n\nA first-person narrator can be **unreliable**, as Huck sometimes is when he judges himself by his society's corrupt values.\n\n### Second person (\"you\")\n\nSecond person addresses the reader or a character as \"you.\" It is rare and can feel urgent, accusatory, or hypnotic. It appears in some stories, in many poems, and in how-to forms used ironically.\n\n### Third person (\"he,\" \"she,\" \"they\")\n\n- **Third-person limited:** the narration stays close to one character's perceptions and thoughts.\n- **Third-person omniscient:** the narrator knows everything and can move among characters' minds and comment freely, as in George Eliot's *Middlemarch*.\n- **Objective (dramatic):** the narrator reports only what can be seen and heard, like a camera, as in Ernest Hemingway's \"Hills Like White Elephants.\"\n\n## Narrative distance\n\nWithin a point of view, writers control **distance**, how close readers are to a character's consciousness. Consider a range:\n\n1. *It was winter in the year 1953. A man stood in a doorway.* (distant)\n2. *Henry hated snowstorms.* (closer)\n3. *God, how he hated these storms.* (very close; the narration takes on Henry's own voice)\n\nWhen narration slips into a character's idiom without quotation marks, it uses **free indirect discourse**, a technique perfected by Jane Austen. It lets a third-person narrative feel as intimate as first person.\n\n## Voice\n\n**Voice** is the distinctive sound of a writer or narrator on the page. It emerges from:\n\n- **Diction:** word choice, formal or colloquial, plain or ornate.\n- **Syntax:** sentence length and structure.\n- **Rhythm:** the music of sentences.\n- **Attitude:** humor, anger, tenderness, irony.\n- **What the speaker notices:** a voice is also a way of seeing.\n\nBeginning writers often worry about \"finding\" their voice. Voice usually emerges from writing a great deal, reading widely, and writing honestly about what genuinely interests you. Imitation of other writers (see CRW 110) helps, because you learn what you sound like by trying on what others sound like.\n\n### Worked example: same event, three points of view\n\n*Event:* a boy breaks a neighbor's window with a baseball.\n\n- *First person:* \"I knew it was bad before the glass even finished falling, because Mr. Ortiz's dog stopped barking.\"\n- *Third limited (the neighbor):* \"Ortiz was halfway through the crossword when the window came apart. He knew whose ball it was before he looked.\"\n- *Objective:* \"The ball went through the window. A boy stood at the edge of the lawn. A door opened.\"\n\nEach version produces a different story, with different sympathies and suspense.\n\n## Common misconceptions\n\n- **\"First person is easier.\"** It is intimate but demanding, since everything must come through the narrator's voice.\n- **\"Omniscient narration is old-fashioned.\"** Many contemporary writers use it brilliantly.\n- **\"Voice is something you either have or don't.\"** Voice develops through practice.\n\n## Summary\n\nPoint of view (first, second, or third person, limited, omniscient, or objective) determines what readers know and feel. Writers also control narrative distance, sometimes through free indirect discourse. Voice emerges from diction, syntax, rhythm, attitude, and what a speaker notices, and it develops with practice.\n",
+      "keyTerms": [
+        {
+          "term": "Point of view",
+          "definition": "The perspective from which a piece is narrated."
+        },
+        {
+          "term": "Third-person limited",
+          "definition": "Narration that stays close to one character's perceptions."
+        },
+        {
+          "term": "Omniscient narrator",
+          "definition": "A narrator who knows all characters' thoughts and can comment freely."
+        },
+        {
+          "term": "Narrative distance",
+          "definition": "How close the narration is to a character's consciousness."
+        },
+        {
+          "term": "Free indirect discourse",
+          "definition": "Third-person narration that adopts a character's idiom and thoughts."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A narrator who says \"I\" and is a character in the story uses:",
+          "choices": [
+            "Objective point of view",
+            "First person",
+            "Second person",
+            "Third-person omniscient"
+          ],
+          "answerIndex": 1,
+          "explanation": "First-person narrators tell their own story."
+        },
+        {
+          "prompt": "Which point of view reports only what can be seen and heard?",
+          "choices": [
+            "Omniscient",
+            "First person",
+            "Free indirect discourse",
+            "Objective (dramatic)"
+          ],
+          "answerIndex": 3,
+          "explanation": "It works like a camera."
+        },
+        {
+          "prompt": "\"God, how he hated these storms\" is an example of:",
+          "choices": [
+            "Second person",
+            "Distant omniscience",
+            "Close narrative distance (free indirect discourse)",
+            "Objective narration"
+          ],
+          "answerIndex": 2,
+          "explanation": "The narration adopts the character's own voice."
+        },
+        {
+          "prompt": "Which is NOT an element of voice?",
+          "choices": [
+            "Attitude",
+            "Diction",
+            "The page count",
+            "Syntax"
+          ],
+          "answerIndex": 2,
+          "explanation": "Voice arises from language and perspective, not length."
+        },
+        {
+          "prompt": "A major limitation of first-person narration is that:",
+          "choices": [
+            "It is never used in published fiction",
+            "It must be in present tense",
+            "Readers know only what the narrator knows or admits",
+            "It cannot express emotion"
+          ],
+          "answerIndex": 2,
+          "explanation": "First person restricts information to the narrator."
+        }
+      ],
+      "assignment": {
+        "title": "Three Ways of Telling",
+        "prompt": "Choose a simple event (an argument, a lost item, an arrival). Write it three times, at least 150 words each: in first person; in close third-person limited from a different character's perspective; and in objective point of view.\n\nThen write a reflection (at least 100 words) on how each choice changed the story's sympathies, suspense, and voice. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Each version uses its point of view consistently",
+          "Versions produce meaningfully different effects",
+          "Voice is distinct in the first-person version",
+          "Reflection analyzes effects thoughtfully"
+        ],
+        "minWords": 450
+      },
+      "resources": []
+    },
+    {
+      "number": 4,
+      "title": "Fiction: Character and Conflict",
+      "overview": "The engines of fiction: characters who want something, the obstacles in their way, and the scenes where they collide.",
+      "objectives": [
+        "Create characters through desire, action, dialogue, and detail.",
+        "Build conflict and stakes.",
+        "Write a scene with a clear dramatic shape."
+      ],
+      "lesson": "## Character is desire\n\nThe novelist and teacher Janet Burroway puts it simply in *Writing Fiction*: in fiction, only trouble is interesting. A story begins when a character wants something and something stands in the way. The want can be large (to escape a war) or small (to get a sister to apologize), but it must matter to the character.\n\nAsk of every protagonist:\n\n- What do they **want**? (the conscious goal)\n- What do they **need**? (often something deeper they may not recognize)\n- What are they **afraid** of?\n- What will they **do** to get what they want?\n\n## Ways to reveal character\n\n1. **Action:** what characters do, especially under pressure.\n2. **Dialogue:** what they say and how they say it.\n3. **Appearance and possessions:** significant details.\n4. **Thought:** in close points of view.\n5. **Others' reactions:** how other characters treat them.\n\nAction is the most revealing. A character who claims to be generous but tips badly has been characterized by the tip.\n\nE. M. Forster, in *Aspects of the Novel* (1927), distinguished **flat** characters, built around a single idea or quality, from **round** characters, complex enough to \"surprise in a convincing way.\" Minor characters may be flat; protagonists should be round.\n\n## Conflict and stakes\n\n**Conflict** is the struggle between a character's desire and what opposes it. Sources include other people, society, nature, and the character's own divided self. **Stakes** are what the character stands to gain or lose. Raise the stakes, and readers care more.\n\n## The scene\n\nA **scene** is a unit of continuous action in real time, usually in one place, in which something changes. A strong scene has:\n\n- A character who **wants something** in the scene.\n- **Resistance**: another character, a circumstance, the character's own hesitation.\n- **A turn**: by the end, the situation has changed, for better or worse.\n\nIf nothing changes, the scene is probably unnecessary.\n\n## Dialogue\n\nGood dialogue is not transcribed speech. It is compressed and purposeful:\n\n- **Subtext:** characters often don't say what they mean. The real conversation runs beneath the words.\n- **Cut small talk:** skip \"Hello, how are you\" unless it reveals something.\n- **Simple tags:** \"said\" is nearly invisible; elaborate tags (\"she expostulated\") distract.\n- **Action beats:** small actions between lines of dialogue add rhythm and reveal emotion.\n\n### Worked example: subtext\n\n> \"Did you get the milk?\"\n> \"I was at the hospital all afternoon.\"\n> \"So that's a no.\"\n> He put his keys in the bowl by the door, carefully, so they wouldn't make a sound.\n\nOn the surface, the scene is about milk. Beneath it lie resentment, exhaustion, and a relationship under strain. The careful placement of the keys, an action beat, tells us he is holding back anger. Nothing is explained, and everything is clear.\n\n## Common misconceptions\n\n- **\"Conflict means fighting.\"** Conflict can be quiet: a wish unspoken, a decision delayed.\n- **\"Likable characters are necessary.\"** Readers need characters who are interesting and comprehensible, not always likable.\n- **\"Realistic dialogue copies real speech.\"** Fictional dialogue is shaped speech.\n\n## Summary\n\nFiction runs on characters who want something and the obstacles they face. Reveal character through action, dialogue, detail, thought, and others' reactions; make protagonists round. Build conflict and stakes, write scenes in which something changes, and use dialogue with subtext.\n",
+      "keyTerms": [
+        {
+          "term": "Conflict",
+          "definition": "The struggle between a character's desire and what opposes it."
+        },
+        {
+          "term": "Stakes",
+          "definition": "What a character stands to gain or lose."
+        },
+        {
+          "term": "Round character",
+          "definition": "A complex character capable of surprising in a convincing way."
+        },
+        {
+          "term": "Scene",
+          "definition": "A unit of continuous action in which something changes."
+        },
+        {
+          "term": "Subtext",
+          "definition": "Meaning beneath the surface of what characters say."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which question is most fundamental to building a protagonist?",
+          "choices": [
+            "What does the character want?",
+            "How tall is the character?",
+            "What is the character's birthday?",
+            "What color is the character's hair?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Desire drives fiction."
+        },
+        {
+          "prompt": "Forster's \"round\" characters are those who:",
+          "choices": [
+            "Are always villains",
+            "Are built around a single quality",
+            "Appear only once",
+            "Can surprise in a convincing way"
+          ],
+          "answerIndex": 3,
+          "explanation": "Round characters are complex."
+        },
+        {
+          "prompt": "A scene is probably unnecessary if:",
+          "choices": [
+            "It contains dialogue",
+            "Nothing changes by its end",
+            "It is short",
+            "It takes place indoors"
+          ],
+          "answerIndex": 1,
+          "explanation": "Scenes must turn."
+        },
+        {
+          "prompt": "In the \"milk\" example, the real conflict is conveyed through:",
+          "choices": [
+            "Explicit statements of emotion",
+            "A long description of the hospital",
+            "Elaborate dialogue tags",
+            "Subtext and an action beat"
+          ],
+          "answerIndex": 3,
+          "explanation": "Meaning runs beneath the words."
+        },
+        {
+          "prompt": "Which dialogue tag is usually best?",
+          "choices": [
+            "opined",
+            "said",
+            "ejaculated",
+            "expostulated"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Said' is nearly invisible."
+        }
+      ],
+      "assignment": {
+        "title": "A Scene of Conflict",
+        "prompt": "Write a scene of at least 500 words in which two characters want different things. The scene should take place in continuous time, include dialogue with subtext, and end with the situation changed.\n\nAfter the scene, answer briefly: What does each character want? What changes? Where is the subtext? Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Characters have clear, competing desires",
+          "Dialogue carries subtext",
+          "The scene turns: something changes",
+          "Action and detail reveal character"
+        ],
+        "minWords": 500
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Writing Fiction: A Guide to Narrative Craft",
+          "creator": "Janet Burroway",
+          "year": 1982,
+          "note": "The most widely used textbook on fiction writing, with clear chapters on every element of craft.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Fiction: Plot and Structure",
+      "overview": "How stories are built: plot versus story, the arc of rising action, beginnings, endings, and the uses of time.",
+      "objectives": [
+        "Distinguish story from plot.",
+        "Describe common narrative structures.",
+        "Write effective openings and endings."
+      ],
+      "lesson": "## Story and plot\n\nE. M. Forster drew a famous distinction. \"The king died and then the queen died\" is a **story**, events in time order. \"The king died, and then the queen died of grief\" is a **plot**, events connected by causation. Plot answers \"why?\" Readers keep turning pages because they want to know not just what happens next but why it happens and what it means.\n\n## The arc\n\nMany stories follow a recognizable shape, often described as a pyramid (a model associated with the nineteenth-century critic Gustav Freytag):\n\n1. **Exposition:** the situation and characters.\n2. **Inciting incident:** something disrupts the status quo.\n3. **Rising action:** complications escalate.\n4. **Climax:** the moment of highest tension, where the conflict comes to a head.\n5. **Falling action and resolution:** consequences and a new state of things.\n\nShort stories often compress or skip parts of this arc. Many begin close to the inciting incident, and many end with a subtle shift rather than a dramatic resolution.\n\n## Epiphany\n\nJames Joyce used the term **epiphany** for a sudden moment of insight. In his story \"Araby\" (1914), a boy who has idealized a girl and a bazaar arrives too late, finds the bazaar closing, and sees himself \"as a creature driven and derided by vanity.\" Many literary short stories turn on an epiphany rather than an external event.\n\n## Beginnings\n\nAn opening must orient readers and make them want more. Effective openings often:\n\n- **Start in motion**, at or near a moment of change.\n- **Establish voice** immediately.\n- **Raise a question**.\n\nFranz Kafka's *The Metamorphosis* (1915) opens with a man waking to find he has been transformed into a monstrous insect. The question \"what now?\" carries the story.\n\nBeware throat-clearing: many drafts begin a page or two before the story does. Try deleting your first paragraph or page and see if the story starts better.\n\n## Endings\n\nEndings should feel both **surprising and inevitable**: unexpected, yet, in retrospect, the only possible outcome. Strong endings often:\n\n- **Resonate** with an image or line from earlier in the story.\n- **Resist over-explaining**, trusting readers with what they've experienced.\n- Show **change**, in a situation or in a character's understanding.\n\n## Time\n\nWriters manipulate time:\n\n- **Scene** slows time to the moment; **summary** speeds it up.\n- **Flashback** moves back in time; use it when the past illuminates the present, not merely to supply backstory.\n- **In medias res** (\"in the middle of things\") begins mid-action and fills in context later, as Homer does in the *Iliad*.\n\n### Worked example: from story to plot\n\n*Story:* A woman loses her job. She moves back home. She reconnects with her brother.\n\n*Plot:* A woman loses her job *because* she covered for her brother's mistake years ago and finally refused to do it for a new colleague; she moves home *because* she can't afford rent; and her brother, now sober and running their late father's hardware store, offers her work *because* he has never forgiven himself. Now each event causes the next, and a single conflict, loyalty and its cost, unifies them.\n\n## Common misconceptions\n\n- **\"Plot means action and explosions.\"** Plot means causally connected events, which can be quiet.\n- **\"Every story needs a twist.\"** Earned surprise matters more than twists.\n- **\"Begin at the beginning.\"** Stories often begin best in the middle.\n\n## Summary\n\nPlot is causation, not just sequence. Stories often follow an arc of exposition, inciting incident, rising action, climax, and resolution, though short stories compress it and may turn on an epiphany. Begin in motion, end with resonance, and use scene, summary, and flashback to control time.\n",
+      "keyTerms": [
+        {
+          "term": "Plot",
+          "definition": "A sequence of events connected by causation."
+        },
+        {
+          "term": "Inciting incident",
+          "definition": "The event that disrupts the status quo and sets a story in motion."
+        },
+        {
+          "term": "Climax",
+          "definition": "The moment of highest tension, where the conflict comes to a head."
+        },
+        {
+          "term": "Epiphany",
+          "definition": "A sudden moment of insight, often at a story's end."
+        },
+        {
+          "term": "In medias res",
+          "definition": "Beginning a narrative in the middle of the action."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "According to Forster, what turns a story into a plot?",
+          "choices": [
+            "Dialogue",
+            "A happy ending",
+            "Causation",
+            "Length"
+          ],
+          "answerIndex": 2,
+          "explanation": "Plot connects events by why they happen."
+        },
+        {
+          "prompt": "The event that disrupts a story's status quo is the:",
+          "choices": [
+            "Exposition",
+            "Inciting incident",
+            "Resolution",
+            "Denouement"
+          ],
+          "answerIndex": 1,
+          "explanation": "It sets the story in motion."
+        },
+        {
+          "prompt": "In Joyce's \"Araby,\" the story turns on:",
+          "choices": [
+            "A battle",
+            "An epiphany",
+            "A wedding",
+            "A murder mystery"
+          ],
+          "answerIndex": 1,
+          "explanation": "The boy suddenly sees himself clearly."
+        },
+        {
+          "prompt": "Strong endings are often described as:",
+          "choices": [
+            "Surprising yet inevitable",
+            "Identical to the opening",
+            "Completely unexpected and unconnected",
+            "Fully explained in a final paragraph"
+          ],
+          "answerIndex": 0,
+          "explanation": "They feel earned in retrospect."
+        },
+        {
+          "prompt": "Beginning a story in the middle of the action is called:",
+          "choices": [
+            "Flashback",
+            "In medias res",
+            "Exposition",
+            "Epiphany"
+          ],
+          "answerIndex": 1,
+          "explanation": "Homer's Iliad begins this way."
+        }
+      ],
+      "assignment": {
+        "title": "Building a Story",
+        "prompt": "Draft a complete short story of at least 1,000 words (it can grow from your Week 4 scene). Your story should include an inciting incident, causally connected events, a climax or epiphany, and an ending that resonates.\n\nAfter the story, write a short note (at least 100 words) mapping your plot: identify the inciting incident, explain how two events cause later ones, and describe what changes by the end. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Story has a clear inciting incident and causally connected plot",
+          "Opening begins in motion and establishes voice",
+          "Ending resonates and shows change",
+          "Note accurately maps the plot"
+        ],
+        "minWords": 1000
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Aspects of the Novel",
+          "creator": "E. M. Forster",
+          "year": 1927,
+          "note": "Forster's lively lectures on story, plot, and flat and round characters.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Poetry: Line and Image",
+      "overview": "Writing poems: compression, the line break, fresh images and metaphors, and avoiding clichés and abstraction.",
+      "objectives": [
+        "Write poems that rely on concrete images and fresh figurative language.",
+        "Use line breaks deliberately.",
+        "Revise poems for compression and freshness."
+      ],
+      "lesson": "## From reading poems to writing them\n\nWriting poetry draws on everything you learned about image and detail. Poems, however, add the **line** and an intense pressure on every word. As Ezra Pound advised in his 1913 \"A Few Don'ts by an Imagiste,\" \"Use no superfluous word.\"\n\n## Start with an image\n\nMany poems begin not with an idea but with an image: something seen, heard, or remembered. Abstract statements (\"Life is beautiful but painful\") rarely become good poems. A specific image (a father's work boots by the door, still laced) can carry a whole relationship.\n\n## Fresh figurative language\n\nA **cliché** is an expression used so often it no longer makes readers see anything: *cold as ice*, *heart of gold*, *tears streaming down her face*. Fresh metaphors and similes surprise readers into perception.\n\n- *Cliché:* \"The moon was like a silver coin.\"\n- *Fresher:* \"The moon sat in the bare tree like a plate left on a dish rack.\"\n\nThe second is homely and specific, and it implies a speaker who notices kitchens and ordinary things. The best figures are both surprising and exact.\n\n## The line break\n\nIn poetry, the line break is a powerful tool:\n\n- A break creates a slight **pause** and **emphasis** on the last word of a line.\n- **Enjambment** can create suspense or double meaning: the line seems to say one thing until the next line completes it.\n- **Short lines** slow reading and isolate words; **long lines** create flow and expansiveness.\n\nTry ending lines on strong words, usually nouns and verbs, rather than on weak words such as *the*, *of*, or *and*, unless you want the effect of instability.\n\n## Sound\n\nRead every draft aloud. Notice patterns of sound (alliteration, assonance, rhyme) and rhythm. You need not write in rhyme or meter, but you should hear what your words are doing.\n\n## Compression\n\nPoems tend to say more with less. In revision, cut:\n\n- Words that explain what an image already shows.\n- Redundant adjectives and adverbs.\n- Stating the poem's \"message\" at the end.\n\nThat last impulse, the closing explanation, is one of the most common weaknesses in beginning poems. Trust the image.\n\n### Worked example: revising a poem\n\n*Draft:*\n\n> My father worked very hard every day of his life\n> and when he came home he was always so tired\n> and I feel sad now when I think about it\n> because I never thanked him.\n\n*Revision:*\n\n> Five-forty, the screen door,\n> his boots unlaced on the mat\n> like two dogs sleeping.\n> I was busy with the television.\n> I am still learning to say it.\n\nThe revision replaces abstractions (\"worked very hard,\" \"tired,\" \"sad\") with images: a precise time, a door, the boots. The simile \"like two dogs sleeping\" is unexpected yet exact, suggesting loyalty and exhaustion. The poem never says \"thank you\"; \"it\" holds the unsaid word, and the absence carries the regret.\n\n## Common misconceptions\n\n- **\"Poems must rhyme.\"** Many don't, and forced rhyme often weakens poems.\n- **\"Poems should express feelings directly.\"** Images usually express feeling more powerfully.\n- **\"Line breaks can go anywhere.\"** Every break has an effect.\n\n## Summary\n\nWrite poems from concrete images. Replace clichés with fresh, exact figures. Use line breaks deliberately for pause, emphasis, and double meaning. Read aloud, and revise for compression, trusting the image rather than explaining it.\n",
+      "keyTerms": [
+        {
+          "term": "Cliché",
+          "definition": "An overused expression that no longer evokes fresh perception."
+        },
+        {
+          "term": "Compression",
+          "definition": "Saying more with fewer words."
+        },
+        {
+          "term": "Line break",
+          "definition": "The point at which a line of poetry ends, creating pause and emphasis."
+        },
+        {
+          "term": "Enjambment",
+          "definition": "Continuing a sentence across a line break."
+        },
+        {
+          "term": "Image",
+          "definition": "Language that evokes sensory experience."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which is a cliché?",
+          "choices": [
+            "Rain stitching the river",
+            "Cold as ice",
+            "Boots like two dogs sleeping",
+            "The moon like a plate on a dish rack"
+          ],
+          "answerIndex": 1,
+          "explanation": "It has been used so often it no longer evokes perception."
+        },
+        {
+          "prompt": "A line break typically places emphasis on:",
+          "choices": [
+            "The last word of the line",
+            "The title",
+            "The first word of the poem",
+            "Punctuation only"
+          ],
+          "answerIndex": 0,
+          "explanation": "The pause highlights the final word."
+        },
+        {
+          "prompt": "Which is a common weakness in beginning poems?",
+          "choices": [
+            "Cutting redundant words",
+            "Using concrete images",
+            "Explaining the poem's message at the end",
+            "Reading drafts aloud"
+          ],
+          "answerIndex": 2,
+          "explanation": "Trust the image instead."
+        },
+        {
+          "prompt": "Pound's advice \"Use no superfluous word\" emphasizes:",
+          "choices": [
+            "Abstraction",
+            "Compression",
+            "Rhyme",
+            "Length"
+          ],
+          "answerIndex": 1,
+          "explanation": "Every word must earn its place."
+        },
+        {
+          "prompt": "In the revised father poem, the regret is conveyed mainly through:",
+          "choices": [
+            "Images and what is left unsaid",
+            "Rhyme",
+            "A long explanation",
+            "Direct statements of sadness"
+          ],
+          "answerIndex": 0,
+          "explanation": "The images and the unspoken word carry feeling."
+        }
+      ],
+      "assignment": {
+        "title": "Three Poems",
+        "prompt": "Write three short poems (each 8–20 lines). One should begin from a remembered image, one from something you observed this week, and one from a line in your notebook.\n\nThen choose one poem and submit two drafts of it, showing your revision, with a note (at least 100 words) explaining what you cut or changed and why, including at least one line-break decision. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Poems use concrete images and avoid cliché",
+          "Line breaks are deliberate",
+          "Revision shows meaningful compression or change",
+          "Note explains revision choices thoughtfully"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Poet's Companion: A Guide to the Pleasures of Writing Poetry",
+          "creator": "Kim Addonizio and Dorianne Laux",
+          "year": 1997,
+          "note": "Practical chapters and exercises for writing poems, from subjects to line breaks.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Creative Nonfiction: Truth and Shape",
+      "overview": "Writing true stories: memoir and the personal essay, memory and its limits, the ethics of writing about real people, and shaping experience into meaning.",
+      "objectives": [
+        "Distinguish memoir, personal essay, and literary journalism.",
+        "Shape personal experience using scene, reflection, and structure.",
+        "Navigate the ethics of truth and of writing about others."
+      ],
+      "lesson": "## True stories, told well\n\n**Creative nonfiction** uses the techniques of fiction (scene, dialogue, character, point of view) and poetry (image, compression) to tell true stories. Its forms include:\n\n- **Memoir:** a narrative about a part of the writer's life.\n- **Personal essay:** a piece that explores an idea or question through the writer's experience. The word \"essay\" comes from the French *essayer*, \"to try\"; Michel de Montaigne, who invented the form in the sixteenth century, wrote essays that try out thoughts.\n- **Literary journalism:** reported stories about others, written with literary craft.\n\n## Two selves\n\nIn memoir and personal essay, there are two \"I\"s:\n\n- The **narrating self**: the writer now, who knows how things turned out.\n- The **experiencing self**: the writer then, who didn't.\n\nThe interplay between them generates meaning. Scenes put readers in the experiencing self's moment; **reflection**, the narrating self's interpretation, explains what the experience means now. Without scenes, the piece is abstract; without reflection, it is just events. Strong nonfiction moves between the two.\n\n## Memory and truth\n\nMemory is unreliable. Writers of nonfiction reconstruct dialogue and details they can't remember exactly. Most practitioners accept that:\n\n- **Reconstructed dialogue** should capture the substance and spirit of what was said.\n- **Compression** of time or events should not distort the truth of what happened.\n- **Invention** of events, characters, or significant facts crosses the line into fiction.\n\nWhen unsure, writers can signal uncertainty on the page: \"I remember it as raining, though my sister insists it was June.\" Such honesty often becomes one of the most interesting parts of the piece.\n\n## Ethics\n\nWriting about real people raises questions:\n\n- Are you being fair to people who can't respond?\n- What do you owe family members and friends?\n- Does your story need private details, or are you including them for shock?\n\nAnne Lamott offers a provocative view in *Bird by Bird*: \"You own everything that happened to you. If people wanted you to write warmly about them, they should have behaved better.\" Many writers temper this with care. A useful test: are you writing toward understanding, including of yourself, rather than settling scores?\n\n## Finding the story\n\nExperience isn't automatically a story. Ask:\n\n- What **question** does this experience raise?\n- How did **I change**, or fail to change?\n- What do I **understand now** that I didn't then?\n\nThe best personal essays often discover their meaning in the writing.\n\n## Structure\n\nNonfiction can be structured:\n\n- **Chronologically.**\n- **Around a frame**, a present-moment scene with flashbacks.\n- **As a braided essay**, interweaving two or three strands (a memory, a fact, a present situation) that illuminate one another.\n- **As a segmented essay**, made of short sections separated by white space.\n\n### Worked example: scene and reflection\n\n*Scene:* \"My mother handed me the car keys in the parking lot of the DMV and walked around to the passenger side. She did not say anything. She buckled her seatbelt and folded her hands.\"\n\n*Reflection:* \"I thought then that she was afraid of my driving. I understand now that she was practicing: learning to sit in the seat she would occupy for the rest of her life, the one beside her children.\"\n\nThe scene shows; the reflection, from the narrating self, transforms it into meaning.\n\n## Common misconceptions\n\n- **\"Nonfiction just reports what happened.\"** It shapes experience into meaning.\n- **\"Memoir must cover a whole life.\"** That's autobiography; memoir focuses on a theme or period.\n- **\"Changing anything makes it fiction.\"** Compression and reconstruction are accepted; invention is not.\n\n## Summary\n\nCreative nonfiction includes memoir, personal essay, and literary journalism. It balances scene (the experiencing self) and reflection (the narrating self). Honest writers acknowledge memory's limits, avoid invention, weigh their obligations to real people, and shape experience through structures such as frames, braids, and segments.\n",
+      "keyTerms": [
+        {
+          "term": "Memoir",
+          "definition": "A narrative about a part of the writer's life, focused on a theme or period."
+        },
+        {
+          "term": "Personal essay",
+          "definition": "A piece exploring an idea or question through the writer's experience."
+        },
+        {
+          "term": "Reflection",
+          "definition": "The narrating self's interpretation of past experience."
+        },
+        {
+          "term": "Braided essay",
+          "definition": "An essay interweaving several strands that illuminate one another."
+        },
+        {
+          "term": "Reconstructed dialogue",
+          "definition": "Dialogue recreated from memory that captures what was essentially said."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "The word \"essay\" derives from a French word meaning:",
+          "choices": [
+            "To remember",
+            "To prove",
+            "To narrate",
+            "To try"
+          ],
+          "answerIndex": 3,
+          "explanation": "Montaigne's essays try out thoughts."
+        },
+        {
+          "prompt": "In memoir, the \"narrating self\" is:",
+          "choices": [
+            "The writer now, who knows how things turned out",
+            "The reader",
+            "A fictional narrator",
+            "The writer then, who didn't know"
+          ],
+          "answerIndex": 0,
+          "explanation": "It provides reflection."
+        },
+        {
+          "prompt": "Which practice crosses the line into fiction?",
+          "choices": [
+            "Acknowledging uncertain memory on the page",
+            "Inventing a significant event that never happened",
+            "Reconstructing dialogue's substance",
+            "Compressing a long period into a few paragraphs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Invention of significant facts is fiction."
+        },
+        {
+          "prompt": "An essay that interweaves a memory, a set of facts, and a present situation is:",
+          "choices": [
+            "A chronological memoir",
+            "A sonnet",
+            "A braided essay",
+            "A news report"
+          ],
+          "answerIndex": 2,
+          "explanation": "The strands are braided together."
+        },
+        {
+          "prompt": "Strong creative nonfiction moves between:",
+          "choices": [
+            "Fiction and fact",
+            "Plot and subplot only",
+            "Rhyme and meter",
+            "Scene and reflection"
+          ],
+          "answerIndex": 3,
+          "explanation": "Scenes show; reflection interprets."
+        }
+      ],
+      "assignment": {
+        "title": "A Personal Essay",
+        "prompt": "Write a personal essay or short memoir piece of at least 800 words about an experience that still raises a question for you. Include at least two scenes and passages of reflection from your present-day narrating self. Use one of the structures discussed (chronological, frame, braided, or segmented).\n\nAfterward, in at least 100 words, explain your structure and note any places where memory was uncertain and how you handled it. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Includes vivid scenes",
+          "Reflection develops meaning",
+          "Structure is purposeful",
+          "Handles truth and memory honestly"
+        ],
+        "minWords": 800
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Art of Memoir",
+          "creator": "Mary Karr",
+          "year": 2015,
+          "note": "A celebrated memoirist on memory, truth, voice, and the ethics of writing about family.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "book",
+          "title": "The Situation and the Story: The Art of Personal Narrative",
+          "creator": "Vivian Gornick",
+          "year": 2001,
+          "note": "A short, sharp book on how personal writing finds its true subject.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Revision and Workshop",
+      "overview": "How good writing actually gets made: global and local revision, reading your work as a stranger, and giving and receiving feedback in a workshop.",
+      "objectives": [
+        "Distinguish global from local revision and revise in stages.",
+        "Give specific, useful, and generous feedback.",
+        "Receive feedback productively and decide what to use."
+      ],
+      "lesson": "## Revision is writing\n\n**Revision** literally means \"seeing again.\" It is not proofreading. Most of the work of writing happens in revision, where a draft becomes what it was trying to be. Many writers revise a piece dozens of times.\n\n## Global and local revision\n\nRevise from the largest issues to the smallest:\n\n1. **Global revision:** What is this piece really about? Is the structure right? Does it begin and end in the right places? Are any characters, scenes, or sections unnecessary? Are any missing?\n2. **Paragraph and scene level:** Does each scene turn? Does each paragraph earn its place? Are transitions clear?\n3. **Sentence level:** Are the verbs strong? Are there clichés, redundancies, or abstractions? Do sentences vary in length and rhythm?\n4. **Proofreading:** Grammar, spelling, punctuation, formatting.\n\nFixing commas in a scene you'll cut wastes time. Work big to small.\n\n## Strategies\n\n- **Let it rest.** Time turns you into a stranger to your own work.\n- **Read aloud.** Your ear catches what your eye misses.\n- **Reverse outline.** List what each section does; look for gaps and repetition.\n- **Retype.** Retyping a draft from scratch forces you to reconsider every sentence.\n- **Cut 10 percent.** Almost every draft improves when compressed.\n- **Find the real beginning.** Delete the first paragraph and see if the piece starts better.\n\n## The workshop\n\nIn a **workshop**, writers read and discuss one another's work. The model was made famous by the Iowa Writers' Workshop and is used in writing programs everywhere. Many workshops follow conventions:\n\n- Discuss what the piece **is doing** before what it **should** do.\n- Begin with **strengths**, specifically named.\n- Then raise **questions and possibilities**, framed around the writer's apparent goals.\n- In some workshops, the writer **listens without responding** until the end, so they hear how the piece reads without defending it.\n\n## Giving feedback\n\nUseful feedback is:\n\n- **Specific:** \"The scene in the car is vivid, especially the dashboard hula girl,\" not \"I liked it.\"\n- **Descriptive before evaluative:** \"I understood the story to be about...\" helps the writer see if their intention came through.\n- **Reader-based:** \"I got confused when the timeline shifted\" is more useful than \"The timeline is bad.\"\n- **Focused on the writing, not the writer.**\n- **Generous:** assume the writer's choices were deliberate, and help them achieve their goals rather than write the piece you would write.\n\nLiz Lerman's **Critical Response Process**, developed for the arts, offers a useful sequence: statements of meaning (what was striking), questions from the artist, neutral questions from responders, and then opinions, offered with permission.\n\n## Receiving feedback\n\n- **Listen** without arguing. Take notes.\n- **Look for patterns:** if three readers are confused in the same spot, there's a problem, even if their proposed solutions differ.\n- **Remember:** readers are often right that something isn't working and wrong about how to fix it.\n- **You decide.** The piece is yours. Use what helps and set aside what doesn't.\n\n### Worked example: from vague to useful\n\n*Vague:* \"The ending didn't work for me.\"\n\n*Useful:* \"In the last paragraph, I wasn't sure whether Dana decides to leave or stay. I read the closing image of the suitcase as a sign she's leaving, but the dialogue just before suggests she's staying. Was the ambiguity intentional? If so, maybe the suitcase could be more clearly half-packed.\"\n\nThe useful version locates the problem, describes the reader's experience, asks about intention, and offers one possibility without insisting.\n\n## Common misconceptions\n\n- **\"Revision means fixing typos.\"** That's proofreading, the last step.\n- **\"Feedback means criticism.\"** Naming strengths is equally important.\n- **\"You must take all the advice you get.\"** Writers weigh feedback and decide.\n\n## Course synthesis\n\nYou've built a writing practice; learned to use image and detail, voice, and point of view; written fiction, poetry, and creative nonfiction; and learned to revise and workshop. These are the foundations for every writing course that follows.\n\n## Summary\n\nRevision is the heart of writing; work from global to local. Rest, read aloud, reverse outline, and cut. In workshop, give specific, descriptive, reader-based, and generous feedback; receive feedback by listening, looking for patterns, and making your own decisions.\n",
+      "keyTerms": [
+        {
+          "term": "Revision",
+          "definition": "Re-seeing and substantially reworking a draft."
+        },
+        {
+          "term": "Global revision",
+          "definition": "Revision addressing a piece's purpose, structure, and content."
+        },
+        {
+          "term": "Workshop",
+          "definition": "A group discussion of writers' drafts aimed at helping them improve."
+        },
+        {
+          "term": "Reverse outline",
+          "definition": "An outline made from a draft, listing what each section does."
+        },
+        {
+          "term": "Reader-based feedback",
+          "definition": "Feedback describing the reader's experience of a piece."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "In what order should you revise?",
+          "choices": [
+            "From global issues to sentence-level and proofreading",
+            "It doesn't matter",
+            "Sentence-level first",
+            "Proofreading first"
+          ],
+          "answerIndex": 0,
+          "explanation": "Don't polish what you might cut."
+        },
+        {
+          "prompt": "Which feedback is most useful?",
+          "choices": [
+            "\"I liked it.\"",
+            "\"I got confused when the timeline jumped to the hospital scene.\"",
+            "\"You should write about something else.\"",
+            "\"It's bad.\""
+          ],
+          "answerIndex": 1,
+          "explanation": "It is specific and reader-based."
+        },
+        {
+          "prompt": "If three workshop readers are confused at the same point, the writer should:",
+          "choices": [
+            "Recognize there's likely a real problem there",
+            "Ignore them",
+            "Rewrite the whole piece as they suggest",
+            "Stop writing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Patterns in feedback reveal real issues."
+        },
+        {
+          "prompt": "Why do many workshops ask writers to listen without responding?",
+          "choices": [
+            "To save time",
+            "To prevent questions",
+            "So they hear how the piece reads without defending it",
+            "Because writers are not allowed to speak"
+          ],
+          "answerIndex": 2,
+          "explanation": "Listening reveals the reader's experience."
+        },
+        {
+          "prompt": "\"Revision\" literally means:",
+          "choices": [
+            "Seeing again",
+            "Rewriting entirely",
+            "Correcting errors",
+            "Publishing"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is re-seeing the work."
+        }
+      ],
+      "assignment": {
+        "title": "Revision Portfolio",
+        "prompt": "Choose one piece you wrote for this course (story, poems, or essay). Revise it substantially, applying at least one global revision and several sentence-level revisions.\n\nSubmit: the original draft; the revised version; and a revision letter (at least 300 words) that explains your global and local changes, describes feedback you received or imagined from a reader and how you responded, and reflects on what you've learned about your own process this term. Submit your own original writing. Drafts written for this course may later be revised for your portfolio.",
+        "rubric": [
+          "Revision shows substantial global change",
+          "Sentence-level revisions improve the prose",
+          "Letter clearly explains revision choices",
+          "Reflection shows insight into the writing process"
+        ],
+        "minWords": 300
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Revising Fiction",
+          "creator": "David Madden",
+          "year": 1988,
+          "note": "Hundreds of concrete revision techniques, illustrated with examples from published writers.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "The main purpose of freewriting is to:",
+      "choices": [
+        "Produce a final draft",
+        "Correct spelling",
+        "Outline the plot",
+        "Generate material without judging it"
+      ],
+      "answerIndex": 3,
+      "explanation": "It separates generating from evaluating."
+    },
+    {
+      "prompt": "Which detail is the most concrete and specific?",
+      "choices": [
+        "A vehicle",
+        "A car",
+        "A rusted 1987 Ford pickup with a cracked windshield",
+        "Transportation"
+      ],
+      "answerIndex": 2,
+      "explanation": "It names a specific, perceptible thing."
+    },
+    {
+      "prompt": "A significant detail is one that:",
+      "choices": [
+        "Is always visual",
+        "Reveals character, mood, or meaning beyond itself",
+        "Is the longest in the piece",
+        "Appears in the first sentence"
+      ],
+      "answerIndex": 1,
+      "explanation": "Significant details do more than decorate."
+    },
+    {
+      "prompt": "\"Show, don't tell\" means:",
+      "choices": [
+        "Use only dialogue",
+        "Avoid description",
+        "Never use summary",
+        "Dramatize through action and detail rather than stating conclusions"
+      ],
+      "answerIndex": 3,
+      "explanation": "It favors dramatization, though telling has its place."
+    },
+    {
+      "prompt": "A narrator who reports only what can be seen and heard uses:",
+      "choices": [
+        "Free indirect discourse",
+        "First person",
+        "Omniscient point of view",
+        "Objective point of view"
+      ],
+      "answerIndex": 3,
+      "explanation": "It works like a camera."
+    },
+    {
+      "prompt": "Free indirect discourse allows third-person narration to:",
+      "choices": [
+        "Switch to first person",
+        "Adopt a character's idiom and thoughts",
+        "Avoid all dialogue",
+        "Address the reader as \"you\""
+      ],
+      "answerIndex": 1,
+      "explanation": "It creates intimacy within third person."
+    },
+    {
+      "prompt": "The engine of most fiction is:",
+      "choices": [
+        "Elaborate description",
+        "A character who wants something and faces obstacles",
+        "A clever title",
+        "A twist ending"
+      ],
+      "answerIndex": 1,
+      "explanation": "Desire and conflict drive story."
+    },
+    {
+      "prompt": "Subtext in dialogue is:",
+      "choices": [
+        "Meaning beneath what characters literally say",
+        "A summary of the conversation",
+        "A footnote",
+        "The dialogue tag"
+      ],
+      "answerIndex": 0,
+      "explanation": "Characters often don't say what they mean."
+    },
+    {
+      "prompt": "Forster's distinction between story and plot rests on:",
+      "choices": [
+        "Setting",
+        "Causation",
+        "Length",
+        "Point of view"
+      ],
+      "answerIndex": 1,
+      "explanation": "Plot connects events by why they happen."
+    },
+    {
+      "prompt": "A sudden moment of insight at a story's end is:",
+      "choices": [
+        "An inciting incident",
+        "Exposition",
+        "A flashback",
+        "An epiphany"
+      ],
+      "answerIndex": 3,
+      "explanation": "Joyce popularized the term."
+    },
+    {
+      "prompt": "Which is a cliché?",
+      "choices": [
+        "Rain stitching the river",
+        "Heart of gold",
+        "The moon on the dish rack",
+        "Boots like two dogs sleeping"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is overused and evokes nothing fresh."
+    },
+    {
+      "prompt": "In memoir, reflection comes from:",
+      "choices": [
+        "The editor",
+        "An invented narrator",
+        "The narrating self, who knows how things turned out",
+        "The experiencing self"
+      ],
+      "answerIndex": 2,
+      "explanation": "Reflection interprets past experience."
+    },
+    {
+      "prompt": "Which practice is generally considered unacceptable in creative nonfiction?",
+      "choices": [
+        "Noting uncertain memories",
+        "Reconstructing dialogue's substance",
+        "Compressing time",
+        "Inventing significant events"
+      ],
+      "answerIndex": 3,
+      "explanation": "Invention makes it fiction."
+    },
+    {
+      "prompt": "The recommended order of revision is:",
+      "choices": [
+        "Proofreading, then global",
+        "Global, then paragraph and scene, then sentence, then proofreading",
+        "Only proofreading",
+        "Sentence, then global"
+      ],
+      "answerIndex": 1,
+      "explanation": "Work big to small."
+    },
+    {
+      "prompt": "Useful workshop feedback is:",
+      "choices": [
+        "Only negative",
+        "Specific, reader-based, and generous",
+        "Vague and brief",
+        "Focused on the writer's personality"
+      ],
+      "answerIndex": 1,
+      "explanation": "It helps the writer achieve their goals."
+    }
+  ],
+  "resources": [
+    {
+      "kind": "book",
+      "title": "On Writing: A Memoir of the Craft",
+      "creator": "Stephen King",
+      "year": 2000,
+      "note": "Part memoir, part practical advice, on the habits and toolbox of a working writer.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Steering the Craft",
+      "creator": "Ursula K. Le Guin",
+      "year": 1998,
+      "note": "Short, sharp exercises on sound, sentences, point of view, and voice.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Letters to a Young Poet",
+      "creator": "Rainer Maria Rilke",
+      "year": 1929,
+      "note": "Ten letters on solitude, patience, and the inner life of the writer.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "podcast",
+      "title": "The New Yorker: Fiction",
+      "creator": "The New Yorker",
+      "year": null,
+      "note": "Writers read and discuss short stories from the magazine's archive.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "website",
+      "title": "Poets & Writers",
+      "creator": "Poets & Writers",
+      "year": null,
+      "note": "Craft essays, writing prompts, and guides to literary magazines and contests.",
+      "url": "https://www.pw.org/",
+      "isbn": null,
+      "verified": false
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }
