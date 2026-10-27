@@ -5,8 +5,994 @@
   "category": "major-core",
   "description": "A first course in programming using Python. Students learn to break problems into steps and express them as code using variables, conditionals, loops, functions, and collections, and they develop habits of testing and debugging.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": []
+  "status": "published",
+  "outcomes": [
+    "Explain what algorithms and programs are and how Python executes code.",
+    "Write Python programs using variables, expressions, types, and input/output.",
+    "Control program flow with conditionals and loops.",
+    "Decompose problems into functions with parameters and return values.",
+    "Store and process data with lists, strings, and dictionaries.",
+    "Test and debug programs systematically."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "What Is Programming?",
+      "overview": "Algorithms, programs, and your first lines of Python: how a computer follows instructions exactly, and what to do when it complains.",
+      "objectives": [
+        "Explain what an algorithm is and how a program expresses one.",
+        "Write and run a simple Python program using print().",
+        "Distinguish syntax errors from runtime errors and read a basic error message."
+      ],
+      "lesson": "## Computers do exactly what they're told\n\nA computer is an extraordinarily fast, extraordinarily literal machine. It will carry out billions of instructions per second, but it will not guess what you meant. Programming is the craft of telling it, precisely, what to do.\n\nAt the heart of every program is an **algorithm**: a finite, unambiguous sequence of steps that solves a problem. You already know many algorithms. A recipe is one. So are the steps you follow to find a word in a dictionary:\n\n1. Open the dictionary near the middle.\n2. If the word you want comes earlier alphabetically, look in the first half; otherwise look in the second half.\n3. Repeat with the half you chose until you find the word.\n\nThat algorithm works whether a person or a machine carries it out. A **program** is an algorithm written in a **programming language**, a notation precise enough for a computer to execute.\n\n## Why Python?\n\nThis course uses **Python**, one of the most widely used programming languages in the world. Python is popular in education because its syntax is readable, and popular in industry because it is used for web services, data analysis, automation, scientific computing, and machine learning. The ideas you learn here, such as variables, decisions, loops, and functions, transfer to nearly every other language.\n\nPython programs are run by an **interpreter**, a program that reads your code and carries it out line by line, top to bottom.\n\n## Your first program\n\nHere is a complete Python program:\n\n```python\nprint(\"Hello, AIU!\")\n```\n\n`print` is a **function**, a named piece of code that does a job. The parentheses hold what you give it, and the text inside quotation marks is a **string**, a sequence of characters. Running this program displays:\n\n```\nHello, AIU!\n```\n\nPrograms usually contain several statements, which run in order:\n\n```python\nprint(\"Welcome to CS 101.\")\nprint(\"This week: what programming is.\")\nprint(\"Next week: variables.\")\n```\n\nYou can also add **comments**, notes for human readers that Python ignores. Comments start with `#`:\n\n```python\n# This program greets the user\nprint(\"Hello!\")  # comments can also follow code\n```\n\n## Where to run Python\n\nYou can run Python by installing it from python.org, or by using any free, browser-based Python environment. In an interactive session (often shown with a `>>>` prompt), you type one line and see the result immediately, which is excellent for experimenting. For longer programs you write a file, such as `hello.py`, and run the whole thing.\n\n## When things go wrong\n\nYou will make errors. Every programmer does, every day. Error messages are not scolding; they are information.\n\n**Syntax errors** happen when code breaks the rules of the language, so Python cannot even begin running it:\n\n```python\nprint(\"Hello)\n```\n\n```\nSyntaxError: unterminated string literal\n```\n\nThe closing quotation mark is missing. Python usually tells you the line number and points near the problem.\n\n**Runtime errors** happen while the program is running:\n\n```python\nprint(\"Total:\" + 5)\n```\n\n```\nTypeError: can only concatenate str (not \"int\") to str\n```\n\nThe syntax is fine, but Python can't add text to a number. You'll learn why next week.\n\nA third kind, the **logic error**, is the sneakiest: the program runs without complaint but does the wrong thing. Only testing reveals logic errors.\n\n### Worked example: fixing a broken program\n\n```python\nPrint(\"Line one\")\nprint(\"Line two\"\n```\n\nRunning it produces an error on the second line: Python reached the end of the file while still expecting a closing parenthesis. After adding it, a new error appears: `NameError: name 'Print' is not defined`. Python is **case-sensitive**: `Print` and `print` are different names. Fix one error at a time, rerun, and read the next message.\n\n## Common misconceptions\n\n- **\"The computer will figure out what I meant.\"** It won't. Precision is the job.\n- **\"Errors mean I'm bad at this.\"** Errors are the normal feedback loop of programming.\n- **\"I need to memorize everything.\"** Professionals look things up constantly. Understanding concepts matters far more than memorizing details.\n\n## Summary\n\nAn algorithm is a precise sequence of steps; a program expresses one in a language a computer can run. Python runs your statements in order, `print()` displays output, and error messages tell you what went wrong and where. Read them carefully, fix one thing at a time, and rerun.\n",
+      "keyTerms": [
+        {
+          "term": "Algorithm",
+          "definition": "A finite, unambiguous sequence of steps that solves a problem."
+        },
+        {
+          "term": "Program",
+          "definition": "An algorithm expressed in a programming language so a computer can execute it."
+        },
+        {
+          "term": "Interpreter",
+          "definition": "A program that reads and executes code, such as Python, statement by statement."
+        },
+        {
+          "term": "String",
+          "definition": "A sequence of characters, written in quotation marks in Python."
+        },
+        {
+          "term": "Syntax error",
+          "definition": "An error caused by code that breaks the language's grammar rules, detected before the program runs."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which best defines an algorithm?",
+          "choices": [
+            "A program that only runs on the internet",
+            "Any piece of computer hardware",
+            "A finite, unambiguous sequence of steps that solves a problem",
+            "A random set of instructions"
+          ],
+          "answerIndex": 2,
+          "explanation": "Algorithms are precise step-by-step procedures; programs express them."
+        },
+        {
+          "prompt": "What does this program display?\n\n```python\nprint(\"A\")\nprint(\"B\")\n```",
+          "choices": [
+            "B, then A",
+            "A on one line, then B on the next",
+            "AB on one line",
+            "Nothing; it has an error"
+          ],
+          "answerIndex": 1,
+          "explanation": "Statements run in order, and each print() starts a new line."
+        },
+        {
+          "prompt": "Python reports: NameError: name 'Print' is not defined. What is the most likely cause?",
+          "choices": [
+            "The code used Print with a capital P instead of print",
+            "The computer is out of memory",
+            "The string is missing a closing quote",
+            "Python cannot display text"
+          ],
+          "answerIndex": 0,
+          "explanation": "Python is case-sensitive, so Print and print are different names."
+        },
+        {
+          "prompt": "A program runs without errors but prints the wrong total. What kind of error is this?",
+          "choices": [
+            "Logic error",
+            "Interpreter error",
+            "Syntax error",
+            "Hardware error"
+          ],
+          "answerIndex": 0,
+          "explanation": "Logic errors produce wrong results without any error message."
+        },
+        {
+          "prompt": "What does Python do with a line that begins with #?",
+          "choices": [
+            "Ignores it as a comment",
+            "Prints it",
+            "Runs it twice",
+            "Treats it as an error"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comments are notes for human readers."
+        }
+      ],
+      "assignment": {
+        "title": "Your First Programs",
+        "prompt": "1. Write an algorithm, in numbered plain-English steps, for a task you do regularly (making coffee, planning a route, sorting mail). Make it precise enough that someone who has never done the task could follow it. Then identify one step that a computer would find ambiguous and rewrite it more precisely.\n2. Write a Python program that prints a short introduction of yourself on at least four lines, with at least one comment.\n3. Deliberately introduce one syntax error into your program, report the error message Python gave, and explain what it meant.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Algorithm is precise, ordered, and complete",
+          "Identifies and resolves an ambiguity thoughtfully",
+          "Python program is correct and uses comments",
+          "Accurately explains an error message"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 2,
+      "title": "Values, Variables, and Expressions",
+      "overview": "Numbers, text, and the names we give them: data types, arithmetic, string operations, user input, and type conversion.",
+      "objectives": [
+        "Use variables to store and update values.",
+        "Identify and convert between int, float, str, and bool types.",
+        "Write expressions using arithmetic and string operators, and read input from the user."
+      ],
+      "lesson": "## Values and types\n\nEvery piece of data in a Python program is a **value**, and every value has a **type** that determines what you can do with it. Four types will carry you a long way:\n\n| Type | Meaning | Examples |\n|------|---------|----------|\n| `int` | whole numbers | `7`, `-3`, `2026` |\n| `float` | numbers with a fractional part | `3.14`, `-0.5`, `2.0` |\n| `str` | text | `\"hello\"`, `'AIU'`, `\"42\"` |\n| `bool` | truth values | `True`, `False` |\n\nNotice that `\"42\"` is a string, not a number: it is the characters 4 and 2. You can ask Python for a value's type:\n\n```python\nprint(type(42))      # <class 'int'>\nprint(type(\"42\"))    # <class 'str'>\n```\n\n## Variables\n\nA **variable** is a name that refers to a value. You create one with an **assignment statement**:\n\n```python\ncredits = 3\ncourse = \"CS 101\"\ngpa = 3.75\n```\n\nRead `=` as \"gets\" or \"is assigned,\" not \"equals.\" The right side is evaluated first, then the name on the left is made to refer to the result. This makes updates natural:\n\n```python\ncredits = credits + 3   # credits now refers to 6\n```\n\nGood variable names describe what they hold: `total_credits` beats `x`. Python names may contain letters, digits, and underscores, can't start with a digit, and are case-sensitive.\n\n## Arithmetic expressions\n\nAn **expression** is code that produces a value. Python's arithmetic operators:\n\n```python\n7 + 2    # 9\n7 - 2    # 5\n7 * 2    # 14\n7 / 2    # 3.5   (true division always gives a float)\n7 // 2   # 3     (floor division)\n7 % 2    # 1     (remainder, \"modulo\")\n7 ** 2   # 49    (exponent)\n```\n\nPython follows the usual order of operations: exponents, then multiplication and division, then addition and subtraction. Use parentheses to make your intent clear: `(a + b) / 2`.\n\nThe `%` operator is surprisingly useful. `n % 2` is `0` exactly when `n` is even, and `minutes % 60` gives the leftover minutes after removing whole hours.\n\n## Strings\n\nStrings support their own operators:\n\n```python\nfirst = \"Ada\"\nlast = \"Lovelace\"\nfull = first + \" \" + last   # concatenation: \"Ada Lovelace\"\nline = \"-\" * 10             # repetition: \"----------\"\nprint(len(full))            # 12, the number of characters\n```\n\nAn **f-string** lets you insert values into text cleanly:\n\n```python\nname = \"Ada\"\ncredits = 6\nprint(f\"{name} has earned {credits} credits.\")\n```\n\n## Input and type conversion\n\nThe `input()` function displays a prompt, waits for the user to type something, and returns it **as a string**:\n\n```python\nname = input(\"What is your name? \")\nprint(f\"Welcome, {name}!\")\n```\n\nBecause `input()` always returns a string, you must convert it to do arithmetic:\n\n```python\nage_text = input(\"How old are you? \")\nage = int(age_text)\nprint(f\"Next year you will be {age + 1}.\")\n```\n\nThe conversion functions `int()`, `float()`, `str()`, and `bool()` create a value of the named type. This is exactly why last week's `\"Total:\" + 5` failed: Python won't silently mix strings and numbers. You must say which you mean:\n\n```python\nprint(\"Total: \" + str(5))   # Total: 5\nprint(f\"Total: {5}\")         # Total: 5\n```\n\n### Worked example: a tuition-free cost calculator\n\nAIU is tuition-free, but students still budget for time. Let's compute how many hours a term takes.\n\n```python\n# Estimate study hours for one AIU term\nhours_per_week = float(input(\"Study hours per week: \"))\nweeks = 8\ntotal = hours_per_week * weeks\nprint(f\"One term at {hours_per_week} hours/week is {total} hours.\")\nprint(f\"That's about {total // 24} full days of study.\")\n```\n\nRunning it with `7.5` prints `60.0` hours and `2.0` days. Notice how `//` with a float still produces a float (`2.0`).\n\n## Common misconceptions\n\n- **\"`=` means equal.\"** In Python, `=` assigns. Comparison uses `==`, coming next week.\n- **\"`input()` gives me a number if the user types digits.\"** It always returns a string.\n- **\"Variables are boxes that hold copies.\"** A better model is labels attached to values; reassigning moves the label.\n\n## Summary\n\nValues have types: `int`, `float`, `str`, and `bool`. Variables name values, and assignment evaluates the right side first. Expressions combine values with operators. `input()` returns strings, so convert with `int()` or `float()` before doing arithmetic.\n",
+      "keyTerms": [
+        {
+          "term": "Variable",
+          "definition": "A name that refers to a value."
+        },
+        {
+          "term": "Assignment statement",
+          "definition": "A statement such as x = 5 that evaluates the right side and binds the name on the left to the result."
+        },
+        {
+          "term": "Expression",
+          "definition": "Code that evaluates to a value, such as 3 + 4 or name + '!'."
+        },
+        {
+          "term": "Type conversion",
+          "definition": "Creating a value of a different type, as with int('42')."
+        },
+        {
+          "term": "f-string",
+          "definition": "A string literal prefixed with f that can embed expressions in braces."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "What is the value of 17 % 5?",
+          "choices": [
+            "12",
+            "3",
+            "3.4",
+            "2"
+          ],
+          "answerIndex": 3,
+          "explanation": "% gives the remainder: 17 = 3 × 5 + 2."
+        },
+        {
+          "prompt": "After x = 4 and then x = x * 3, what does x refer to?",
+          "choices": [
+            "An error, because x cannot equal x * 3",
+            "7",
+            "12",
+            "4"
+          ],
+          "answerIndex": 2,
+          "explanation": "The right side is evaluated using the old value (4 × 3), then x is reassigned."
+        },
+        {
+          "prompt": "What type of value does input() return?",
+          "choices": [
+            "int",
+            "float",
+            "str",
+            "It depends on what the user types"
+          ],
+          "answerIndex": 2,
+          "explanation": "input() always returns a string; convert it to use it as a number."
+        },
+        {
+          "prompt": "What does 7 / 2 evaluate to in Python?",
+          "choices": [
+            "4",
+            "1",
+            "3",
+            "3.5"
+          ],
+          "answerIndex": 3,
+          "explanation": "True division always produces a float."
+        },
+        {
+          "prompt": "Which line correctly prints 'Credits: 6' when credits = 6?",
+          "choices": [
+            "print(\"Credits: \" + credits)",
+            "print(f\"Credits: {credits}\")",
+            "print(\"Credits: credits\")",
+            "print(Credits: credits)"
+          ],
+          "answerIndex": 1,
+          "explanation": "An f-string inserts the value; concatenating a str and an int raises a TypeError."
+        }
+      ],
+      "assignment": {
+        "title": "Build a Calculator",
+        "prompt": "Write a Python program that asks the user for two pieces of numeric information relevant to their life (for example, monthly income and expenses, miles driven and gallons used, or minutes of exercise per day) and computes at least three results from them using different operators, including at least one use of `//` or `%`.\n\nPrint the results with clear f-string labels. Then, in a short explanation, describe each variable's type, where type conversion was needed and why, and one input that could make your program crash.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Program runs correctly and reads input with proper conversion",
+          "Uses at least three meaningful calculations including // or %",
+          "Output is clearly labeled with f-strings",
+          "Explanation correctly discusses types, conversion, and a failure case"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 3,
+      "title": "Making Decisions",
+      "overview": "Boolean logic and conditional statements let programs choose what to do: comparisons, if/elif/else, and combining conditions.",
+      "objectives": [
+        "Write Boolean expressions using comparison and logical operators.",
+        "Control program flow with if, elif, and else.",
+        "Trace conditional code to predict its output."
+      ],
+      "lesson": "## Programs that choose\n\nSo far our programs have run every statement, top to bottom. Real programs make decisions: grant access only with the right password, apply a discount only above a certain total, award a letter grade based on a score. Decisions are built from **Boolean expressions**, expressions whose value is `True` or `False`.\n\n## Comparison operators\n\n```python\nscore = 84\nscore == 84    # True   (equal to)\nscore != 90    # True   (not equal to)\nscore > 90     # False\nscore >= 80    # True\nscore < 70     # False\nscore <= 84    # True\n```\n\nRemember: `=` assigns and `==` compares. Mixing them up is one of the most common beginner bugs.\n\nStrings can be compared too. `==` checks whether they are identical (case matters: `\"AIU\" == \"aiu\"` is `False`).\n\n## if, elif, else\n\nAn `if` statement runs a block of code only when its condition is `True`:\n\n```python\nscore = 84\nif score >= 70:\n    print(\"You passed this quiz.\")\nprint(\"Done.\")\n```\n\nThe colon and the **indentation** matter. Every line indented under the `if` belongs to it. Python uses indentation, conventionally four spaces, to define blocks. `print(\"Done.\")` is not indented, so it always runs.\n\nAdd `else` for the alternative:\n\n```python\nif score >= 70:\n    print(\"Passed\")\nelse:\n    print(\"Try again\")\n```\n\nUse `elif` (\"else if\") to check several conditions in order. Python runs the **first** branch whose condition is true, then skips the rest:\n\n```python\nif score >= 90:\n    letter = \"A\"\nelif score >= 80:\n    letter = \"B\"\nelif score >= 70:\n    letter = \"C\"\nelse:\n    letter = \"F\"\nprint(letter)   # B\n```\n\nOrder matters. If we checked `score >= 70` first, an 84 would get a C.\n\n## Logical operators\n\nCombine conditions with `and`, `or`, and `not`:\n\n| Expression | True when… |\n|------------|-----------|\n| `a and b` | both are true |\n| `a or b` | at least one is true |\n| `not a` | `a` is false |\n\n```python\nlesson_done = True\nquiz_score = 85\nsubmitted = False\n\nweek_complete = lesson_done and quiz_score >= 70 and submitted\nprint(week_complete)   # False, because the assignment isn't submitted\n```\n\nThat is exactly the rule AIU uses to unlock your next week.\n\nPython also allows chained comparisons, which read naturally: `0 <= score <= 100`.\n\n## Nesting\n\nYou can place an `if` inside another:\n\n```python\nif lesson_done:\n    if quiz_score >= 70:\n        print(\"Quiz passed\")\n    else:\n        print(\"Review and retake the quiz\")\nelse:\n    print(\"Read the lesson first\")\n```\n\nNesting is sometimes clearest, but deeply nested code is hard to read. Often `elif` or `and` expresses the same logic more simply.\n\n### Worked example: a shipping calculator\n\nA store charges $5 shipping, free on orders of $50 or more, and adds $10 for express delivery regardless.\n\n```python\ntotal = float(input(\"Order total: $\"))\nexpress = input(\"Express shipping? (y/n) \") == \"y\"\n\nif total >= 50:\n    shipping = 0\nelse:\n    shipping = 5\nif express:\n    shipping = shipping + 10\n\nprint(f\"Shipping: ${shipping}\")\nprint(f\"Grand total: ${total + shipping:.2f}\")\n```\n\nTrace it with `total = 42`, express `y`: first branch gives `shipping = 5`, then express adds 10, so shipping is $15 and the grand total is $57.00. Notice the two `if` statements are separate because both decisions apply independently. (The `:.2f` inside the f-string formats a number with two decimal places.)\n\n## Tracing\n\n**Tracing** means stepping through code by hand, tracking each variable's value. It is the most important debugging skill you can build. When a conditional misbehaves, write down the values, evaluate each condition yourself, and check which branch runs.\n\n## Common misconceptions\n\n- **\"elif checks every condition.\"** It stops at the first true one.\n- **\"Indentation is just style.\"** In Python it defines structure.\n- **\"`if x == 1 or 2:` checks whether x is 1 or 2.\"** It doesn't. Python reads it as `(x == 1) or 2`, and `2` counts as true, so the condition is always true. Write `x == 1 or x == 2`.\n\n## Summary\n\nBoolean expressions evaluate to `True` or `False`. `if`, `elif`, and `else` choose which block runs, using indentation to define blocks, and `elif` chains stop at the first true condition. `and`, `or`, and `not` combine conditions. When in doubt, trace.\n",
+      "keyTerms": [
+        {
+          "term": "Boolean",
+          "definition": "A value that is either True or False."
+        },
+        {
+          "term": "Conditional statement",
+          "definition": "A statement such as if that runs code only when a condition is true."
+        },
+        {
+          "term": "Block",
+          "definition": "A group of statements that run together, defined in Python by indentation."
+        },
+        {
+          "term": "Logical operator",
+          "definition": "and, or, or not, used to combine Boolean values."
+        },
+        {
+          "term": "Tracing",
+          "definition": "Stepping through code by hand while tracking variable values."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "What does this print?\n\n```python\nx = 15\nif x > 10:\n    print(\"big\")\nelif x > 5:\n    print(\"medium\")\nelse:\n    print(\"small\")\n```",
+          "choices": [
+            "small",
+            "big",
+            "medium",
+            "big and medium"
+          ],
+          "answerIndex": 1,
+          "explanation": "The first true condition wins; the remaining branches are skipped."
+        },
+        {
+          "prompt": "Which expression is True when age is 20?",
+          "choices": [
+            "age >= 18 and age < 65",
+            "not age >= 18",
+            "age == 18",
+            "age < 18 or age > 65"
+          ],
+          "answerIndex": 0,
+          "explanation": "20 satisfies both comparisons joined by and."
+        },
+        {
+          "prompt": "What is wrong with: if score = 90:",
+          "choices": [
+            "It uses = (assignment) instead of == (comparison)",
+            "Nothing",
+            "Conditions cannot use numbers",
+            "if statements need parentheses"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comparisons use ==; Python reports a syntax error for =."
+        },
+        {
+          "prompt": "Why does the condition x == 1 or 2 always evaluate as true?",
+          "choices": [
+            "Python compares x to 1 and 2 at once",
+            "It is a syntax error",
+            "Python reads it as (x == 1) or 2, and 2 is treated as true",
+            "or always returns True"
+          ],
+          "answerIndex": 2,
+          "explanation": "Write x == 1 or x == 2 to test both values."
+        },
+        {
+          "prompt": "A grading program checks 'if score >= 70' before 'elif score >= 90'. What happens to a score of 95?",
+          "choices": [
+            "It is handled by the >= 70 branch, so it never reaches the >= 90 branch",
+            "It is handled by the >= 90 branch",
+            "An error occurs",
+            "Both branches run"
+          ],
+          "answerIndex": 0,
+          "explanation": "Order matters: put the most specific condition first."
+        }
+      ],
+      "assignment": {
+        "title": "Decision Program",
+        "prompt": "Write a Python program that makes a realistic decision with at least three possible outcomes, using `if`, `elif`, and `else`, and at least one condition that combines comparisons with `and` or `or`. Examples: recommending a study plan based on available hours and days until a goal, classifying a temperature and humidity reading, or a ticket-pricing rule by age and day.\n\nInclude your code, then show two test runs with different inputs and their outputs. Finally, trace one of the runs in words, explaining which conditions were true or false and why.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Program correctly uses if/elif/else with three or more outcomes",
+          "Uses a compound condition correctly",
+          "Includes two meaningful test runs",
+          "Trace accurately explains the evaluation of each condition"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 4,
+      "title": "Repetition with Loops",
+      "overview": "Loops let a program repeat work: while loops for repetition until a condition changes, for loops over ranges, and the accumulator pattern.",
+      "objectives": [
+        "Write while loops that terminate correctly.",
+        "Use for loops with range() to repeat a fixed number of times.",
+        "Apply the accumulator and counter patterns to compute totals."
+      ],
+      "lesson": "## Why loops?\n\nComputers shine at repetition. Printing a multiplication table, adding up 1,000 numbers, re-asking for a password until it's correct: all require doing something many times. Writing the same line 1,000 times is not an option. **Loops** solve this.\n\n## The while loop\n\nA `while` loop repeats its block as long as its condition is true:\n\n```python\ncount = 1\nwhile count <= 5:\n    print(count)\n    count = count + 1\nprint(\"Liftoff!\")\n```\n\nEach repetition is an **iteration**. Before every iteration Python checks the condition. Here it prints 1 through 5; when `count` becomes 6 the condition is false and the loop ends.\n\nThe line `count = count + 1` is essential. Without it, `count` stays 1 forever and the loop never ends: an **infinite loop**. (If that happens, you can usually stop the program with Ctrl+C.) Every `while` loop needs something in its body that eventually makes the condition false.\n\nPython offers a shorthand: `count += 1` means `count = count + 1`.\n\n`while` is ideal when you don't know in advance how many iterations you need:\n\n```python\npassword = input(\"Password: \")\nwhile password != \"open sesame\":\n    print(\"Incorrect, try again.\")\n    password = input(\"Password: \")\nprint(\"Welcome!\")\n```\n\n## The for loop and range()\n\nWhen you know how many times to repeat, a `for` loop is cleaner:\n\n```python\nfor i in range(5):\n    print(i)\n```\n\nThis prints 0, 1, 2, 3, 4. The `range()` function produces a sequence of integers:\n\n| Call | Produces |\n|------|----------|\n| `range(5)` | 0, 1, 2, 3, 4 |\n| `range(1, 6)` | 1, 2, 3, 4, 5 |\n| `range(0, 20, 5)` | 0, 5, 10, 15 |\n| `range(10, 0, -1)` | 10, 9, …, 1 |\n\nNote that the stop value is **excluded**. `range(1, 6)` stops before 6. This \"off by one\" behavior trips up everyone at first.\n\nOn each iteration, the **loop variable** (`i` here) takes the next value. You'll see next month that `for` works over any sequence, including strings and lists:\n\n```python\nfor letter in \"AIU\":\n    print(letter)\n```\n\n## The accumulator pattern\n\nA huge number of programs follow one simple pattern: start a variable at a neutral value, then update it in a loop.\n\n```python\ntotal = 0                      # 1. initialize\nfor n in range(1, 101):\n    total += n                 # 2. update each iteration\nprint(total)                   # 3. use the result: 5050\n```\n\nA **counter** is an accumulator that counts:\n\n```python\nevens = 0\nfor n in range(1, 101):\n    if n % 2 == 0:\n        evens += 1\nprint(evens)   # 50\n```\n\nNotice the `if` inside the loop. Loops and conditionals combine constantly.\n\n## break and continue\n\n`break` exits a loop immediately. `continue` skips to the next iteration. Use them sparingly; a clear loop condition is usually better.\n\n```python\nfor n in range(2, 100):\n    if n % 7 == 0:\n        print(f\"First multiple of 7: {n}\")\n        break\n```\n\n### Worked example: average of entered scores\n\nRead quiz scores until the user enters a blank line, then report the average.\n\n```python\ntotal = 0\ncount = 0\nentry = input(\"Score (blank to finish): \")\nwhile entry != \"\":\n    total += float(entry)\n    count += 1\n    entry = input(\"Score (blank to finish): \")\n\nif count > 0:\n    print(f\"Average of {count} scores: {total / count:.1f}\")\nelse:\n    print(\"No scores entered.\")\n```\n\nThis uses two accumulators (`total` and `count`), a `while` loop for an unknown number of inputs, and an `if` to avoid dividing by zero. Trace it with inputs 80, 90, and blank: total becomes 170, count becomes 2, average 85.0.\n\n## Common misconceptions\n\n- **\"range(1, 10) includes 10.\"** The stop value is excluded.\n- **\"The loop condition is checked continuously.\"** It is checked only before each iteration.\n- **\"Initialize the accumulator inside the loop.\"** That resets it every time. Initialize before the loop.\n\n## Summary\n\n`while` loops repeat while a condition holds and need progress toward stopping. `for` loops iterate over a sequence such as `range()`, which excludes its stop value. The accumulator pattern, initialize, update in the loop, then use, underlies countless programs.\n",
+      "keyTerms": [
+        {
+          "term": "Loop",
+          "definition": "A control structure that repeats a block of code."
+        },
+        {
+          "term": "Iteration",
+          "definition": "A single pass through the body of a loop."
+        },
+        {
+          "term": "Infinite loop",
+          "definition": "A loop whose condition never becomes false, so it never ends."
+        },
+        {
+          "term": "range()",
+          "definition": "A function producing a sequence of integers from a start up to, but not including, a stop."
+        },
+        {
+          "term": "Accumulator",
+          "definition": "A variable that collects a running result, such as a sum, across loop iterations."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which numbers does range(2, 8, 2) produce?",
+          "choices": [
+            "2, 4, 6",
+            "2, 3, 4, 5, 6, 7",
+            "2, 4, 6, 8",
+            "0, 2, 4, 6"
+          ],
+          "answerIndex": 0,
+          "explanation": "Start at 2, step by 2, and stop before 8."
+        },
+        {
+          "prompt": "What is printed?\n\n```python\ntotal = 0\nfor i in range(4):\n    total += i\nprint(total)\n```",
+          "choices": [
+            "0",
+            "4",
+            "10",
+            "6"
+          ],
+          "answerIndex": 3,
+          "explanation": "0 + 1 + 2 + 3 = 6."
+        },
+        {
+          "prompt": "Why might this loop never end?\n\n```python\nn = 1\nwhile n < 10:\n    print(n)\n```",
+          "choices": [
+            "print() cannot be used in loops",
+            "n never changes, so the condition stays true",
+            "range() is missing",
+            "while loops can't compare numbers"
+          ],
+          "answerIndex": 1,
+          "explanation": "The body must make progress toward making the condition false."
+        },
+        {
+          "prompt": "When is a while loop a better choice than a for loop with range()?",
+          "choices": [
+            "When you don't know in advance how many iterations are needed",
+            "Never; they are identical",
+            "When counting from 1 to 100",
+            "When you want to repeat exactly 10 times"
+          ],
+          "answerIndex": 0,
+          "explanation": "while suits repetition that depends on a changing condition, such as user input."
+        },
+        {
+          "prompt": "In the accumulator pattern, where should total = 0 go?",
+          "choices": [
+            "After the loop",
+            "Before the loop",
+            "Inside the loop, first line",
+            "It isn't needed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Initializing inside the loop would reset the total each iteration."
+        }
+      ],
+      "assignment": {
+        "title": "Loop It",
+        "prompt": "Write two short Python programs.\n\n1. A `for` loop program that prints a table (for example, a times table, a savings balance growing monthly, or a countdown of weeks remaining in your degree) using `range()` with a start, stop, and step.\n2. A `while` loop program that repeatedly reads input from the user until a stopping value is entered, and uses at least two accumulators to report a result such as a total and an average.\n\nFor each, include sample output and explain how you ensured the loop ends. Identify one off-by-one mistake you made or could have made, and how you avoided it.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "for-loop program uses range() correctly with meaningful output",
+          "while-loop program reads input and terminates correctly",
+          "Uses accumulators correctly",
+          "Explains termination and off-by-one reasoning clearly"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 5,
+      "title": "Functions",
+      "overview": "Functions let you name a piece of work and reuse it: defining functions, parameters and return values, scope, and breaking problems into parts.",
+      "objectives": [
+        "Define and call functions with parameters.",
+        "Distinguish returning a value from printing it.",
+        "Decompose a problem into well-named functions and explain variable scope."
+      ],
+      "lesson": "## Naming a piece of work\n\nYou've already used functions: `print()`, `input()`, `len()`, `int()`, `range()`. Each one packages a job behind a name, so you can use it without thinking about how it works inside. Now you'll write your own.\n\n## Defining and calling\n\n```python\ndef greet(name):\n    print(f\"Hello, {name}! Welcome to AIU.\")\n\ngreet(\"Ada\")\ngreet(\"Grace\")\n```\n\n- `def` begins a **function definition**.\n- `greet` is the function's name.\n- `name` is a **parameter**, a variable that receives a value when the function is called.\n- The indented block is the function's **body**.\n\nDefining a function doesn't run it. **Calling** it, `greet(\"Ada\")`, runs the body with `name` set to the **argument** `\"Ada\"`.\n\nFunctions can take several parameters:\n\n```python\ndef describe_course(code, credits):\n    print(f\"{code} is worth {credits} credits.\")\n\ndescribe_course(\"CS 101\", 3)\n```\n\n## Returning values\n\nThe most useful functions **return** a result to the caller:\n\n```python\ndef average(a, b):\n    return (a + b) / 2\n\nresult = average(80, 90)\nprint(result)          # 85.0\nprint(average(70, 75)) # 72.5\n```\n\n`return` ends the function and sends a value back. The call `average(80, 90)` is an expression whose value is `85.0`, so you can store it, print it, or use it in a larger expression.\n\n### Return versus print\n\nThis distinction is crucial. Compare:\n\n```python\ndef square_print(x):\n    print(x * x)\n\ndef square_return(x):\n    return x * x\n\na = square_print(4)    # displays 16, but a is None\nb = square_return(4)   # displays nothing; b is 16\nprint(b + 1)           # 17\n```\n\n`print` shows something to a human. `return` gives a value to the program. A function without a `return` statement returns the special value `None`. Prefer functions that return values: they can be combined, tested, and reused.\n\n## Scope\n\nVariables created inside a function are **local** to it. They exist only while the function runs and can't be seen outside:\n\n```python\ndef add_tax(price):\n    tax = price * 0.08\n    return price + tax\n\ntotal = add_tax(100)\nprint(total)   # 108.0\nprint(tax)     # NameError: name 'tax' is not defined\n```\n\nScope is a feature. It means you can reason about a function by itself, without worrying that it will collide with names elsewhere. Pass information in through parameters and out through `return`.\n\n## Decomposition\n\nThe real power of functions is **decomposition**: breaking a large problem into smaller, named pieces. Each function should do one clear job, and its name should say what that job is.\n\n### Worked example: a letter-grade report\n\n```python\ndef course_grade(quiz_avg, assignment_avg, final_exam):\n    \"\"\"Weighted course grade on a 0-100 scale.\"\"\"\n    return quiz_avg * 0.4 + assignment_avg * 0.3 + final_exam * 0.3\n\ndef letter(score):\n    \"\"\"Convert a numeric score to a letter grade.\"\"\"\n    if score >= 90:\n        return \"A\"\n    elif score >= 80:\n        return \"B\"\n    elif score >= 70:\n        return \"C\"\n    elif score >= 60:\n        return \"D\"\n    return \"F\"\n\ndef report(name, quiz_avg, assignment_avg, final_exam):\n    score = course_grade(quiz_avg, assignment_avg, final_exam)\n    return f\"{name}: {score:.1f} ({letter(score)})\"\n\nprint(report(\"Ada\", 92, 100, 85))   # Ada: 92.3 (A)\nprint(report(\"Alan\", 75, 80, 68))   # Alan: 74.4 (C)\n```\n\nEach function is short and testable on its own. `report` reads almost like English because the details live in well-named helpers. The triple-quoted strings are **docstrings**, which describe what a function does.\n\nNotice that `letter` has several `return` statements. Once one runs, the function ends, so the final `return \"F\"` only runs if none of the conditions were true.\n\n## Default parameter values\n\nParameters can have defaults:\n\n```python\ndef weeks_to_finish(courses, weeks_per_course=8):\n    return courses * weeks_per_course / 2   # two courses at a time\n\nprint(weeks_to_finish(40))      # 160.0\nprint(weeks_to_finish(40, 6))   # 120.0\n```\n\n## Common misconceptions\n\n- **\"Defining a function runs it.\"** Only calling it does.\n- **\"print and return do the same thing.\"** Printing displays; returning gives a value back.\n- **\"Code after return still runs.\"** `return` ends the function immediately.\n\n## Summary\n\nFunctions name a piece of work. Parameters bring values in; `return` sends a value out. Local variables stay inside their function. Good programs are decomposed into small functions that each do one job, named so the code explains itself.\n",
+      "keyTerms": [
+        {
+          "term": "Function",
+          "definition": "A named, reusable block of code that performs a task."
+        },
+        {
+          "term": "Parameter",
+          "definition": "A variable in a function definition that receives a value when the function is called."
+        },
+        {
+          "term": "Argument",
+          "definition": "A value passed to a function when it is called."
+        },
+        {
+          "term": "Return value",
+          "definition": "The value a function sends back to its caller with return."
+        },
+        {
+          "term": "Local scope",
+          "definition": "The region where a variable defined inside a function is visible: only within that function."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "What is printed?\n\n```python\ndef f(x):\n    return x * 2\n\nprint(f(3) + 1)\n```",
+          "choices": [
+            "7",
+            "6",
+            "None",
+            "8"
+          ],
+          "answerIndex": 0,
+          "explanation": "f(3) returns 6, and 6 + 1 is 7."
+        },
+        {
+          "prompt": "What value does a function return if it has no return statement?",
+          "choices": [
+            "It raises an error",
+            "None",
+            "An empty string",
+            "0"
+          ],
+          "answerIndex": 1,
+          "explanation": "Functions without return give back None."
+        },
+        {
+          "prompt": "In def area(width, height):, what are width and height?",
+          "choices": [
+            "Global variables",
+            "Parameters",
+            "Arguments",
+            "Return values"
+          ],
+          "answerIndex": 1,
+          "explanation": "Parameters are the names in the definition; arguments are the values in a call."
+        },
+        {
+          "prompt": "A variable named total is created inside a function. What happens if you print total outside the function?",
+          "choices": [
+            "It prints the last value total had",
+            "A NameError, because total is local to the function",
+            "It prints None",
+            "It prints 0"
+          ],
+          "answerIndex": 1,
+          "explanation": "Local variables are not visible outside their function."
+        },
+        {
+          "prompt": "Why is returning a value usually better than printing it inside a function?",
+          "choices": [
+            "Returned values are displayed in color",
+            "The caller can store, combine, and test the result",
+            "Printing is slower",
+            "Python forbids print inside functions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Returned values can be used by other code; printed text cannot."
+        }
+      ],
+      "assignment": {
+        "title": "Decompose a Problem",
+        "prompt": "Choose a small real-world calculation with at least three steps, such as converting a recipe for a different number of servings, estimating a road trip's fuel cost and time, or computing your projected degree completion date from your study pace.\n\nWrite a Python program that solves it using **at least three functions** that return values, at least one with a default parameter, each with a docstring. Include a few calls with sample output. Then explain how you decided to divide the problem into functions and why you chose their names.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Program uses three or more correct, value-returning functions",
+          "Uses parameters, a default value, and docstrings appropriately",
+          "Includes calls with correct sample output",
+          "Explains decomposition and naming decisions"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 6,
+      "title": "Lists and Strings",
+      "overview": "Working with sequences of data: creating and modifying lists, indexing and slicing, string methods, and looping over collections.",
+      "objectives": [
+        "Create, index, slice, and modify lists.",
+        "Use common list and string methods.",
+        "Loop over sequences to search, filter, and transform data."
+      ],
+      "lesson": "## Collections of values\n\nMost interesting programs work with many values at once: all the scores in a course, all the words in a document, all the courses in a degree plan. Python's **list** stores an ordered collection of values.\n\n```python\nscores = [88, 92, 79, 95]\ncourses = [\"AIU 101\", \"CS 101\", \"ENG 101\"]\nempty = []\n```\n\nLists can hold any type, even a mix, though in practice lists usually hold one kind of thing.\n\n## Indexing\n\nEach item has an **index**, its position, starting at **0**:\n\n```python\ncourses = [\"AIU 101\", \"CS 101\", \"ENG 101\"]\nprint(courses[0])    # AIU 101\nprint(courses[2])    # ENG 101\nprint(courses[-1])   # ENG 101  (negative indexes count from the end)\nprint(len(courses))  # 3\n```\n\nAccessing `courses[3]` raises an `IndexError`: the last valid index is `len(courses) - 1`.\n\n## Slicing\n\nA **slice** extracts a sub-list with `[start:stop]`, where, just like `range()`, the stop is excluded:\n\n```python\nnums = [10, 20, 30, 40, 50]\nnums[1:4]   # [20, 30, 40]\nnums[:2]    # [10, 20]       (from the beginning)\nnums[3:]    # [40, 50]       (to the end)\nnums[::2]   # [10, 30, 50]   (every second item)\n```\n\n## Lists are mutable\n\nUnlike strings and numbers, lists can be changed in place:\n\n```python\nscores = [88, 92, 79]\nscores[2] = 81          # replace an item\nscores.append(95)       # add to the end -> [88, 92, 81, 95]\nscores.insert(0, 70)    # insert at index 0\nscores.remove(92)       # remove the first 92\nlast = scores.pop()     # remove and return the last item\nscores.sort()           # sort in place\n```\n\nUseful built-in functions work on lists of numbers: `sum(scores)`, `max(scores)`, `min(scores)`, and `sorted(scores)` (which returns a new sorted list without changing the original). The `in` operator checks membership: `\"CS 101\" in courses` is `True`.\n\nA subtle point: assigning a list to another name does **not** copy it.\n\n```python\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)   # [1, 2, 3, 4], because a and b name the same list\n```\n\nUse `b = a.copy()` or `b = a[:]` when you need a separate copy.\n\n## Looping over lists\n\nA `for` loop visits each item:\n\n```python\nfor course in courses:\n    print(f\"Enrolled in {course}\")\n```\n\nCombine loops with accumulators and conditions to **search**, **filter**, and **transform**:\n\n```python\nscores = [88, 92, 79, 95, 64]\n\n# filter: build a new list of passing scores\npassing = []\nfor s in scores:\n    if s >= 70:\n        passing.append(s)\n\n# transform: curve every score by 5 points, max 100\ncurved = []\nfor s in scores:\n    curved.append(min(s + 5, 100))\n```\n\nIf you need the index too, use `enumerate`:\n\n```python\nfor i, s in enumerate(scores):\n    print(f\"Quiz {i + 1}: {s}\")\n```\n\n## Strings are sequences too\n\nStrings support indexing, slicing, `len()`, `in`, and `for` loops, just like lists:\n\n```python\ncode = \"CS 101\"\ncode[0]       # 'C'\ncode[3:]      # '101'\n\"101\" in code # True\n```\n\nBut strings are **immutable**: you can't change a character in place. String methods return new strings instead:\n\n```python\ntitle = \"  Introduction to Programming  \"\ntitle.strip()            # 'Introduction to Programming'\ntitle.upper()            # '  INTRODUCTION TO PROGRAMMING  '\ntitle.strip().lower()    # 'introduction to programming'\n\"a,b,c\".split(\",\")       # ['a', 'b', 'c']\n\" \".join([\"CS\", \"101\"])  # 'CS 101'\n\"CS 101\".replace(\"CS\", \"MATH\")  # 'MATH 101'\n```\n\n`split` and `join` convert between strings and lists, which is extremely common when processing text.\n\n### Worked example: word statistics\n\n```python\ntext = input(\"Enter a sentence: \")\nwords = text.lower().split()\n\nlong_words = []\nfor w in words:\n    w = w.strip(\".,!?;:\")\n    if len(w) >= 7:\n        long_words.append(w)\n\nprint(f\"Words: {len(words)}\")\nprint(f\"Longest: {max(words, key=len)}\")\nprint(f\"Long words: {', '.join(long_words)}\")\n```\n\n`max(words, key=len)` finds the word with the greatest length; the `key` argument tells `max` what to compare.\n\n## Common misconceptions\n\n- **\"The first item is at index 1.\"** It's at index 0.\n- **\"b = a makes a copy.\"** It makes a second name for the same list.\n- **\"title.upper() changes title.\"** Strings are immutable; the method returns a new string.\n\n## Summary\n\nLists are ordered, mutable collections indexed from 0; strings are immutable sequences of characters. Both support indexing, slicing, `len()`, `in`, and loops. Searching, filtering, and transforming collections with loops is one of the most common things programs do.\n",
+      "keyTerms": [
+        {
+          "term": "List",
+          "definition": "An ordered, mutable collection of values written in square brackets."
+        },
+        {
+          "term": "Index",
+          "definition": "An item's position in a sequence, starting at 0."
+        },
+        {
+          "term": "Slice",
+          "definition": "A portion of a sequence selected with [start:stop], excluding stop."
+        },
+        {
+          "term": "Mutable",
+          "definition": "Able to be changed in place; lists are mutable, strings are not."
+        },
+        {
+          "term": "Method",
+          "definition": "A function that belongs to a value and is called with dot notation, such as scores.append(90)."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Given nums = [5, 10, 15, 20], what is nums[1:3]?",
+          "choices": [
+            "[15, 20]",
+            "[5, 10, 15]",
+            "[10, 15, 20]",
+            "[10, 15]"
+          ],
+          "answerIndex": 3,
+          "explanation": "Slices start at index 1 and stop before index 3."
+        },
+        {
+          "prompt": "What is printed?\n\n```python\na = [1, 2]\nb = a\nb.append(3)\nprint(a)\n```",
+          "choices": [
+            "[3]",
+            "An error",
+            "[1, 2, 3]",
+            "[1, 2]"
+          ],
+          "answerIndex": 2,
+          "explanation": "a and b refer to the same list, so changes through b are visible through a."
+        },
+        {
+          "prompt": "What does \"data,science,ai\".split(\",\") return?",
+          "choices": [
+            "'data science ai'",
+            "['data,science,ai']",
+            "3",
+            "['data', 'science', 'ai']"
+          ],
+          "answerIndex": 3,
+          "explanation": "split breaks a string into a list at each separator."
+        },
+        {
+          "prompt": "Given name = \"ada\", what happens after name.upper() if you then print(name)?",
+          "choices": [
+            "It raises an error",
+            "It prints ADA",
+            "It prints ada, because strings are immutable and upper() returns a new string",
+            "It prints Ada"
+          ],
+          "answerIndex": 2,
+          "explanation": "String methods return new strings; assign the result to keep it."
+        },
+        {
+          "prompt": "Which expression gives the last item of any non-empty list items?",
+          "choices": [
+            "items.last",
+            "items[len(items)]",
+            "items[0]",
+            "items[-1]"
+          ],
+          "answerIndex": 3,
+          "explanation": "Negative indexes count from the end; items[len(items)] is out of range."
+        }
+      ],
+      "assignment": {
+        "title": "Process a List of Data",
+        "prompt": "Create a Python list of at least eight values from your own life or interests: daily step counts, monthly expenses, test scores, song lengths, or the titles of books you've read.\n\nWrite a program that: (1) prints summary statistics such as the count, total, maximum, minimum, and average where they make sense; (2) **filters** the list into a new list using a condition you choose; (3) **transforms** each item into a new form (for example, converting units or formatting text); and (4) uses at least two string methods. Show your output and explain one place where indexing or slicing was useful.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Program correctly builds and summarizes a list",
+          "Implements a correct filter with a loop and condition",
+          "Implements a correct transformation and uses string methods",
+          "Explanation of indexing or slicing is accurate"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 7,
+      "title": "Dictionaries and Data",
+      "overview": "Dictionaries map keys to values, the backbone of real-world data: lookups, counting, nested structures, and tuples.",
+      "objectives": [
+        "Create, access, and update dictionaries.",
+        "Use dictionaries to count and group data.",
+        "Represent structured records with nested lists and dictionaries."
+      ],
+      "lesson": "## Looking things up by name\n\nLists are perfect when position matters. But often we want to find information by a **key**: a word's definition, a student's grade, a course's title. Python's **dictionary** (`dict`) stores **key–value pairs**:\n\n```python\ntitles = {\n    \"CS 101\": \"Introduction to Programming\",\n    \"AIU 101\": \"First-Year Seminar\",\n    \"ENG 101\": \"College Composition I\",\n}\nprint(titles[\"CS 101\"])   # Introduction to Programming\n```\n\nKeys are usually strings or numbers and must be unique. Values can be anything.\n\n## Working with dictionaries\n\n```python\ngrades = {\"AIU 101\": \"A\", \"CS 101\": \"B+\"}\n\ngrades[\"ENG 101\"] = \"A-\"     # add a new pair\ngrades[\"CS 101\"] = \"A\"       # update an existing value\ndel grades[\"AIU 101\"]        # remove a pair\n\nprint(\"CS 101\" in grades)    # True: checks keys\nprint(len(grades))           # 2\n```\n\nLooking up a missing key raises a `KeyError`. The `get` method returns a default instead:\n\n```python\ngrades.get(\"MATH 151\", \"not taken\")   # 'not taken'\n```\n\n## Looping over dictionaries\n\n```python\nfor code in grades:                    # loops over keys\n    print(code)\n\nfor code, grade in grades.items():     # keys and values together\n    print(f\"{code}: {grade}\")\n```\n\n`grades.keys()` and `grades.values()` give the keys and values separately; `sum(prices.values())` totals a dictionary of prices.\n\n## The counting pattern\n\nOne of the most common uses of a dictionary is counting how often things occur:\n\n```python\nwords = \"the cat and the hat and the bat\".split()\ncounts = {}\nfor w in words:\n    counts[w] = counts.get(w, 0) + 1\nprint(counts)\n# {'the': 3, 'cat': 1, 'and': 2, 'hat': 1, 'bat': 1}\n```\n\n`counts.get(w, 0)` returns the current count, or 0 the first time we see a word. This is the accumulator pattern from Week 4, applied to many accumulators at once.\n\nTo find the most frequent word: `max(counts, key=counts.get)`.\n\n## Tuples\n\nA **tuple** is like a list that can't be changed, written with parentheses:\n\n```python\npoint = (3, 4)\nx, y = point          # \"unpacking\"\n```\n\nTuples are handy for fixed groups of values, such as coordinates or a function that returns two things:\n\n```python\ndef min_max(values):\n    return min(values), max(values)\n\nlow, high = min_max([70, 85, 92])\n```\n\n## Structured data: nesting\n\nReal data has structure. A list of dictionaries is the most common way to represent a table of records:\n\n```python\nstudents = [\n    {\"name\": \"Ada\", \"program\": \"CS\", \"credits\": 33},\n    {\"name\": \"Grace\", \"program\": \"BUS\", \"credits\": 12},\n    {\"name\": \"Alan\", \"program\": \"CS\", \"credits\": 57},\n]\n\nfor s in students:\n    print(f\"{s['name']} has {s['credits']} credits\")\n```\n\nEach dictionary is a **record**; the keys are its fields. Data from web services, spreadsheets, and databases very often arrives in exactly this shape. (A common text format for it, JSON, maps almost directly onto Python lists and dictionaries; AIU's own course catalog is stored that way.)\n\n### Worked example: grouping records\n\nHow many credits has each program's students earned in total?\n\n```python\ntotals = {}\nfor s in students:\n    program = s[\"program\"]\n    totals[program] = totals.get(program, 0) + s[\"credits\"]\nprint(totals)   # {'CS': 90, 'BUS': 12}\n```\n\nAnd which students are in each program?\n\n```python\nby_program = {}\nfor s in students:\n    by_program.setdefault(s[\"program\"], []).append(s[\"name\"])\nprint(by_program)   # {'CS': ['Ada', 'Alan'], 'BUS': ['Grace']}\n```\n\n`setdefault` returns the existing list for a key, or inserts and returns the default (an empty list) if the key is new. Here each value is a list: data nested two levels deep.\n\n## Choosing a structure\n\n| Need | Use |\n|------|-----|\n| Ordered items, accessed by position | list |\n| Fixed group of values that shouldn't change | tuple |\n| Look up values by a key | dict |\n| Table of records | list of dicts |\n\n## Common misconceptions\n\n- **\"Dictionaries are searched by value.\"** Lookups use keys; `in` checks keys.\n- **\"Keys can repeat.\"** Assigning to an existing key replaces its value.\n- **\"I need a loop to find an item by key.\"** That's precisely what a dictionary saves you from.\n\n## Summary\n\nDictionaries map unique keys to values and make lookups by key fast and natural. The counting and grouping patterns use dictionaries as many accumulators at once. Lists of dictionaries represent tables of records, the shape most real-world data takes.\n",
+      "keyTerms": [
+        {
+          "term": "Dictionary",
+          "definition": "A collection of key–value pairs that supports lookup by key."
+        },
+        {
+          "term": "Key",
+          "definition": "The unique identifier used to look up a value in a dictionary."
+        },
+        {
+          "term": "Tuple",
+          "definition": "An ordered, immutable sequence of values written in parentheses."
+        },
+        {
+          "term": "Record",
+          "definition": "A group of related fields describing one item, often represented as a dictionary."
+        },
+        {
+          "term": "KeyError",
+          "definition": "The error raised when looking up a key that is not in a dictionary."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Given d = {\"a\": 1, \"b\": 2}, what is d.get(\"c\", 0)?",
+          "choices": [
+            "A KeyError",
+            "2",
+            "None",
+            "0"
+          ],
+          "answerIndex": 3,
+          "explanation": "get returns the default when the key is missing."
+        },
+        {
+          "prompt": "What does this produce?\n\n```python\ncounts = {}\nfor ch in \"aab\":\n    counts[ch] = counts.get(ch, 0) + 1\n```",
+          "choices": [
+            "{'a': 1, 'b': 1}",
+            "[2, 1]",
+            "{'a': 2, 'b': 1}",
+            "{'aab': 1}"
+          ],
+          "answerIndex": 2,
+          "explanation": "This is the counting pattern: each character's count is incremented."
+        },
+        {
+          "prompt": "Which data structure best represents a table of students, each with a name, program, and credits?",
+          "choices": [
+            "A tuple of integers",
+            "A single string",
+            "A dictionary with one key",
+            "A list of dictionaries"
+          ],
+          "answerIndex": 3,
+          "explanation": "Each dictionary is a record; the list holds all the records."
+        },
+        {
+          "prompt": "What does \"CS 101\" in titles check when titles is a dictionary?",
+          "choices": [
+            "Whether \"CS 101\" is one of the values",
+            "Whether the dictionary is empty",
+            "Whether the dictionary is sorted",
+            "Whether \"CS 101\" is one of the keys"
+          ],
+          "answerIndex": 3,
+          "explanation": "in tests dictionary keys."
+        },
+        {
+          "prompt": "What happens when you assign to a key that already exists in a dictionary?",
+          "choices": [
+            "The old value is replaced",
+            "A KeyError is raised",
+            "A second pair with the same key is added",
+            "The assignment is ignored"
+          ],
+          "answerIndex": 0,
+          "explanation": "Keys are unique, so assignment updates the value."
+        }
+      ],
+      "assignment": {
+        "title": "Your Own Dataset",
+        "prompt": "Create a small dataset as a **list of at least six dictionaries**, each with at least three fields, about something you care about: books (title, author, year, rating), workouts, meals, recipes, or places you've visited.\n\nWrite a Python program that: (1) prints each record in a readable format; (2) uses the counting or grouping pattern to summarize the data by one field; (3) finds a \"top\" record using `max` or a loop; and (4) looks up something safely with `get`. Show your output, and explain why a list of dictionaries was a good structure for this data.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Dataset is a well-formed list of dictionaries",
+          "Correctly applies counting or grouping",
+          "Finds a top record and uses get appropriately",
+          "Explains the choice of data structure"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 8,
+      "title": "Testing, Debugging, and Putting It Together",
+      "overview": "Writing programs you can trust: testing with assert, reading tracebacks, systematic debugging, and building a complete small program.",
+      "objectives": [
+        "Write test cases, including edge cases, using assert.",
+        "Read a traceback and apply a systematic debugging process.",
+        "Design and build a complete program from a problem description."
+      ],
+      "lesson": "## How do you know it works?\n\nA program that runs is not necessarily a program that's right. Professional programmers spend a large share of their time **testing**, confirming that code does what it should, and **debugging**, finding out why it doesn't. This week brings together everything you've learned and adds the habits that make code trustworthy.\n\n## Testing with assert\n\nThe `assert` statement checks that a condition is true and stops the program with an `AssertionError` if it isn't:\n\n```python\ndef letter(score):\n    if score >= 90:\n        return \"A\"\n    elif score >= 80:\n        return \"B\"\n    elif score >= 70:\n        return \"C\"\n    return \"F\"\n\nassert letter(95) == \"A\"\nassert letter(85) == \"B\"\nassert letter(70) == \"C\"\nassert letter(69) == \"F\"\nprint(\"All tests passed.\")\n```\n\nEach `assert` is a **test case**: a specific input with a known correct output. Writing them forces you to decide exactly what \"correct\" means.\n\n### Edge cases\n\nThe most valuable tests probe **edge cases**: boundaries and unusual inputs where bugs hide.\n\n- **Boundaries:** exactly 90, 89.99, 70, 0, 100.\n- **Empty inputs:** an empty list or string.\n- **Single items:** a list with one element.\n- **Unexpected values:** negative numbers, very large numbers.\n\nConsider:\n\n```python\ndef average(values):\n    return sum(values) / len(values)\n```\n\nIt works for `[80, 90]`, but `average([])` raises `ZeroDivisionError`. Testing the empty case reveals a decision we must make: return 0? return `None`? raise a clear error? Tests turn vague requirements into precise ones.\n\nMany programmers write tests **before** the function, which clarifies the goal before any code exists. Larger projects use testing frameworks such as `pytest`, which you'll meet in Programming II, but the principle is the same.\n\n## Reading a traceback\n\nWhen a runtime error occurs, Python prints a **traceback**:\n\n```\nTraceback (most recent call last):\n  File \"grades.py\", line 12, in <module>\n    print(report(records))\n  File \"grades.py\", line 8, in report\n    avg = total / count\nZeroDivisionError: division by zero\n```\n\nRead it from the **bottom up**:\n\n1. The last line names the error type and message: division by zero.\n2. The line above shows where it happened: line 8, in `report`.\n3. Further up is the chain of calls that led there: line 12 called `report`.\n\n## A debugging process\n\nWhen code misbehaves, resist the urge to change things at random. Instead:\n\n1. **Reproduce** the problem with a specific input.\n2. **Read** the error message and traceback carefully.\n3. **Hypothesize** a cause. What do you think is wrong, and why?\n4. **Test the hypothesis.** Add `print()` statements to show variable values at key points, or trace by hand.\n5. **Fix** one thing, then **rerun** your tests to make sure you didn't break something else.\n\nExplaining your code line by line to someone, or even to an inanimate object, is a famously effective technique called **rubber duck debugging**. Articulating what each line *should* do often reveals the line that doesn't.\n\n## Putting it together: a complete program\n\n**Problem:** Read a list of course records and print a transcript with each course's letter grade, total credits, and GPA.\n\n**Design first.** Break it into functions, each testable:\n\n```python\nPOINTS = {\"A\": 4.0, \"B\": 3.0, \"C\": 2.0, \"D\": 1.0, \"F\": 0.0}\n\ndef letter(score):\n    \"\"\"Letter grade for a 0-100 score.\"\"\"\n    for cutoff, grade in [(90, \"A\"), (80, \"B\"), (70, \"C\"), (60, \"D\")]:\n        if score >= cutoff:\n            return grade\n    return \"F\"\n\ndef gpa(records):\n    \"\"\"Credit-weighted GPA, or None if there are no credits.\"\"\"\n    credits = sum(r[\"credits\"] for r in records)\n    if credits == 0:\n        return None\n    points = sum(POINTS[letter(r[\"score\"])] * r[\"credits\"] for r in records)\n    return points / credits\n\ndef transcript(records):\n    lines = [f\"{r['code']:<8} {letter(r['score'])}\" for r in records]\n    g = gpa(records)\n    lines.append(f\"GPA: {g:.2f}\" if g is not None else \"GPA: n/a\")\n    return \"\\n\".join(lines)\n\n# tests\nassert letter(90) == \"A\" and letter(89.9) == \"B\" and letter(0) == \"F\"\nassert gpa([]) is None\nassert gpa([{\"code\": \"X\", \"score\": 95, \"credits\": 3},\n            {\"code\": \"Y\", \"score\": 75, \"credits\": 3}]) == 3.0\n\nrecords = [\n    {\"code\": \"AIU 101\", \"score\": 94, \"credits\": 3},\n    {\"code\": \"CS 101\", \"score\": 86, \"credits\": 3},\n]\nprint(transcript(records))\n```\n\nTwo new conveniences appear here. `sum(r[\"credits\"] for r in records)` is a **generator expression**, a compact way to loop and accumulate in one line. And `[... for r in records]` is a **list comprehension**, a compact way to build a list by transforming each item. Both are equivalent to the loops you already know; use whichever is clearer.\n\n## Where you go from here\n\nYou can now write programs that store data, make decisions, repeat work, organize code into functions, and work with lists and dictionaries, and you can test and debug them. That is the core of programming in any language. Programming II builds on it with objects, recursion, files, and a closer look at efficiency.\n\n## Common misconceptions\n\n- **\"If it runs, it works.\"** Only tests, especially edge-case tests, build confidence.\n- **\"Debugging is guessing.\"** Good debugging is a methodical process of hypotheses and evidence.\n- **\"Tests are extra work.\"** They save time by catching bugs early and making changes safe.\n\n## Summary\n\nTests specify what correct behavior is; edge cases find where bugs hide. Tracebacks are read from the bottom up. Debug methodically: reproduce, read, hypothesize, test, fix, rerun. Design programs as small, tested functions, and the whole becomes trustworthy.\n",
+      "keyTerms": [
+        {
+          "term": "Test case",
+          "definition": "A specific input paired with its expected output, used to check code."
+        },
+        {
+          "term": "Edge case",
+          "definition": "An input at a boundary or extreme where bugs are likely, such as an empty list."
+        },
+        {
+          "term": "assert",
+          "definition": "A statement that raises an AssertionError if its condition is false."
+        },
+        {
+          "term": "Traceback",
+          "definition": "Python's report of a runtime error, showing the error and the chain of calls that led to it."
+        },
+        {
+          "term": "List comprehension",
+          "definition": "A compact expression that builds a list by transforming items, such as [x * 2 for x in nums]."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "What happens when assert 2 + 2 == 5 runs?",
+          "choices": [
+            "Python raises an AssertionError",
+            "Python changes 5 to 4",
+            "Nothing happens",
+            "Python prints False and continues"
+          ],
+          "answerIndex": 0,
+          "explanation": "assert stops the program when its condition is false."
+        },
+        {
+          "prompt": "Which input is the best edge case for a function that averages a list?",
+          "choices": [
+            "An empty list",
+            "[75, 85, 95]",
+            "[80, 90]",
+            "[50, 60]"
+          ],
+          "answerIndex": 0,
+          "explanation": "An empty list exposes a division-by-zero bug."
+        },
+        {
+          "prompt": "How should you read a Python traceback?",
+          "choices": [
+            "Start from the bottom, where the error type and message appear",
+            "Start from the top and ignore the bottom",
+            "Only read the first line",
+            "Tracebacks can't be interpreted"
+          ],
+          "answerIndex": 0,
+          "explanation": "The last line names the error; the lines above show where it happened and how execution got there."
+        },
+        {
+          "prompt": "What does [n * n for n in range(4)] produce?",
+          "choices": [
+            "16",
+            "[0, 1, 2, 3]",
+            "[0, 1, 4, 9]",
+            "[1, 4, 9, 16]"
+          ],
+          "answerIndex": 2,
+          "explanation": "It squares each of 0, 1, 2, 3."
+        },
+        {
+          "prompt": "Which is the first step of the debugging process described in the lesson?",
+          "choices": [
+            "Change lines at random until it works",
+            "Reproduce the problem with a specific input",
+            "Delete the tests",
+            "Rewrite the whole program"
+          ],
+          "answerIndex": 1,
+          "explanation": "You can't fix what you can't reliably reproduce."
+        }
+      ],
+      "assignment": {
+        "title": "Capstone Mini-Project",
+        "prompt": "Design and build a complete small Python program that solves a problem of your choosing, for example a budget tracker, a quiz game, a habit log summary, or a gradebook.\n\nYour program must use: at least three functions that return values; a list or dictionary (or both); at least one loop and one conditional; and at least **five** `assert` tests, including at least two edge cases.\n\nIn your response, include (1) a short description of the problem and your design, (2) the code, (3) sample output, and (4) a description of one bug you encountered and how you found and fixed it.\n\nYou may run your code in any Python 3 environment, including free browser-based ones. Paste your code into your response as text.",
+        "rubric": [
+          "Program is complete, correct, and solves the stated problem",
+          "Uses functions, collections, loops, and conditionals appropriately",
+          "Includes five or more meaningful tests with edge cases",
+          "Describes design and a debugging process clearly"
+        ],
+        "minWords": 250
+      }
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "What does this print?\n\n```python\nx = 10\nx = x - 3\nprint(x * 2)\n```",
+      "choices": [
+        "14",
+        "20",
+        "7",
+        "17"
+      ],
+      "answerIndex": 0,
+      "explanation": "x becomes 7, and 7 × 2 is 14."
+    },
+    {
+      "prompt": "What is the value of int(\"7\") + 3?",
+      "choices": [
+        "A TypeError",
+        "\"10\"",
+        "10",
+        "\"73\""
+      ],
+      "answerIndex": 2,
+      "explanation": "int(\"7\") converts the string to the number 7."
+    },
+    {
+      "prompt": "Which expression evaluates to True?",
+      "choices": [
+        "5 > 3 and 2 > 4",
+        "5 < 3 or 1 > 2",
+        "not 5 > 3",
+        "5 > 3 and 2 > 1"
+      ],
+      "answerIndex": 3,
+      "explanation": "Both comparisons are true, so and is true."
+    },
+    {
+      "prompt": "What is printed?\n\n```python\nn = 7\nif n % 2 == 0:\n    print(\"even\")\nelse:\n    print(\"odd\")\n```",
+      "choices": [
+        "odd",
+        "Nothing",
+        "even",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "7 % 2 is 1, so the else branch runs."
+    },
+    {
+      "prompt": "How many times does print run?\n\n```python\nfor i in range(3, 9):\n    print(i)\n```",
+      "choices": [
+        "9",
+        "6",
+        "5",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "range(3, 9) produces 3 through 8: six values."
+    },
+    {
+      "prompt": "What is printed?\n\n```python\ntotal = 0\nfor n in [2, 4, 6]:\n    total += n\nprint(total)\n```",
+      "choices": [
+        "12",
+        "0",
+        "246",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "The accumulator sums 2 + 4 + 6."
+    },
+    {
+      "prompt": "What is the main risk in a while loop whose condition never becomes false?",
+      "choices": [
+        "An infinite loop",
+        "A syntax error",
+        "Data loss in lists",
+        "A KeyError"
+      ],
+      "answerIndex": 0,
+      "explanation": "The loop body must make progress toward ending the loop."
+    },
+    {
+      "prompt": "What is printed?\n\n```python\ndef double(x):\n    return x * 2\n\nprint(double(double(3)))\n```",
+      "choices": [
+        "12",
+        "None",
+        "6",
+        "9"
+      ],
+      "answerIndex": 0,
+      "explanation": "double(3) is 6, and double(6) is 12."
+    },
+    {
+      "prompt": "A function prints a result but has no return statement. What does it return?",
+      "choices": [
+        "None",
+        "The printed value",
+        "True",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "A function without return gives back None."
+    },
+    {
+      "prompt": "Given items = [\"a\", \"b\", \"c\", \"d\"], what is items[-2:]?",
+      "choices": [
+        "['a', 'b']",
+        "['d']",
+        "['b', 'c']",
+        "['c', 'd']"
+      ],
+      "answerIndex": 3,
+      "explanation": "The slice starts two from the end and runs to the end."
+    },
+    {
+      "prompt": "Why does name.upper() not change the variable name?",
+      "choices": [
+        "Python ignores method calls",
+        "name must be declared constant",
+        "upper() only works on lists",
+        "Strings are immutable; upper() returns a new string"
+      ],
+      "answerIndex": 3,
+      "explanation": "Assign the result, as in name = name.upper(), to keep it."
+    },
+    {
+      "prompt": "Which structure is best for looking up a course title by its course code?",
+      "choices": [
+        "A list of titles",
+        "A tuple of codes",
+        "A single string",
+        "A dictionary with codes as keys"
+      ],
+      "answerIndex": 3,
+      "explanation": "Dictionaries are designed for lookup by key."
+    },
+    {
+      "prompt": "What does counts.get(\"x\", 0) + 1 accomplish in the counting pattern?",
+      "choices": [
+        "It deletes the key \"x\"",
+        "It raises a KeyError for new keys",
+        "It always returns 1",
+        "It increments the count for \"x\", starting from 0 if it's new"
+      ],
+      "answerIndex": 3,
+      "explanation": "get supplies a default for keys not yet in the dictionary."
+    },
+    {
+      "prompt": "A traceback's last line reads: IndexError: list index out of range. What does this most likely mean?",
+      "choices": [
+        "A function had no return",
+        "The code accessed a position beyond the end of a list",
+        "A string was added to a number",
+        "A dictionary key was missing"
+      ],
+      "answerIndex": 1,
+      "explanation": "IndexError means an invalid position was used."
+    },
+    {
+      "prompt": "Which test is most likely to reveal a bug in a function that finds the maximum of a list?",
+      "choices": [
+        "Calling it with [1, 2, 3] only",
+        "Calling it with a very long list of identical values only",
+        "Calling it twice with the same input",
+        "Calling it with a single-item list and with an empty list"
+      ],
+      "answerIndex": 3,
+      "explanation": "Edge cases like empty and single-item lists are where bugs hide."
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }
