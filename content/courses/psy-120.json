@@ -4,9 +4,1119 @@
   "category": "foundation",
   "description": "The statistical reasoning every psychologist needs: describing data, distributions and the normal curve, z-scores, correlation, sampling and probability, and an introduction to hypothesis testing, confidence intervals, and effect sizes, all illustrated with psychological research.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": [],
-  "resources": []
+  "status": "published",
+  "outcomes": [
+    "Classify variables and scales of measurement and distinguish samples from populations.",
+    "Summarize data with distributions, graphs, and measures of center and spread.",
+    "Use the normal distribution and z-scores to interpret individual scores.",
+    "Interpret correlations and explain why correlation does not establish causation.",
+    "Explain sampling distributions, standard error, and the logic of hypothesis testing.",
+    "Interpret p-values, confidence intervals, and effect sizes in published research."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "Why Psychologists Need Statistics",
+      "overview": "Variables, measurement, populations and samples, and why statistics is the language in which psychological evidence is written.",
+      "objectives": [
+        "Distinguish populations from samples and statistics from parameters.",
+        "Identify variables and their scales of measurement.",
+        "Explain the difference between descriptive and inferential statistics."
+      ],
+      "lesson": "## Evidence needs numbers\n\nPsychology makes claims about people: that sleep improves memory, that a therapy reduces anxiety, that stress affects health. But people vary enormously. Some sleepers remember more and some less; some patients improve and some don't. **Statistics** is the set of tools that lets us see patterns through that variability and judge how confident we should be in them. Every research article you read in this program will report statistics, and by the end of this course you'll be able to read them critically.\n\n## Populations and samples\n\nA **population** is the entire group we want to learn about: all adults, all college students, all people with insomnia. Populations are usually far too large to study completely, so we study a **sample**, a subset of the population.\n\nA number describing a population is a **parameter** (for example, the true average sleep of all adults). A number describing a sample is a **statistic** (the average sleep of the 200 adults in our study). We use statistics to estimate parameters.\n\nHow well a sample represents a population depends on how it was chosen. A **random sample**, in which every member of the population has an equal chance of selection, tends to be representative. A **convenience sample**, such as students in one psychology class, may not be, which limits how far results generalize.\n\n## Variables\n\nA **variable** is any characteristic that can take different values: age, reaction time, anxiety score, treatment group. We distinguish:\n\n- **Quantitative** variables, which are numbers (hours slept, test score).\n- **Categorical** variables, which are groups or labels (handedness, diagnosis).\n\nVariables can also be **discrete** (counts, like number of siblings) or **continuous** (any value in a range, like reaction time).\n\n## Scales of measurement\n\nPsychologists classify measurements into four scales, which determine which statistics make sense:\n\n| Scale | Properties | Examples | Meaningful operations |\n|---|---|---|---|\n| **Nominal** | Categories with no order | Eye color, diagnosis | Counting, mode |\n| **Ordinal** | Ordered categories, unequal gaps | Class rank, \"rate 1–5\" agreement | Median, percentiles |\n| **Interval** | Equal intervals, no true zero | Temperature in °C, many test scores | Mean, standard deviation |\n| **Ratio** | Equal intervals and a true zero | Reaction time, weight, number of errors | All of the above, plus ratios |\n\nYou can say a 400 ms reaction is twice as long as a 200 ms reaction (ratio), but not that 20 °C is \"twice as hot\" as 10 °C (interval). Many psychological questionnaires are technically ordinal but are often treated as interval in practice, a judgment call researchers debate.\n\n## Operational definitions\n\nPsychological constructs like \"anxiety\" or \"intelligence\" aren't directly observable. An **operational definition** specifies exactly how a construct will be measured: \"anxiety, as measured by the total score on a standardized 20-item questionnaire.\" Good operational definitions are **reliable** (consistent) and **valid** (they measure what they claim to).\n\n## Descriptive and inferential statistics\n\n- **Descriptive statistics** summarize data: averages, spreads, graphs. \"The 200 participants slept an average of 6.8 hours.\"\n- **Inferential statistics** use samples to draw conclusions about populations, with a measure of uncertainty: \"We are 95% confident the population average is between 6.6 and 7.0 hours,\" or \"this difference is unlikely to be due to chance alone.\"\n\nThe first half of this course focuses on description; the second half builds toward inference.\n\n### Worked example: classifying a study\n\nA researcher randomly selects 120 university students, assigns half to study with music and half in silence, and records the number of words each recalls from a list.\n\n- Population: university students (roughly; the sample is from one university).\n- Sample: the 120 participants.\n- Variables: study condition (categorical, nominal) and words recalled (quantitative, discrete, ratio scale).\n- Descriptive question: What was the average recall in each group?\n- Inferential question: Is the difference large enough that it probably reflects a real effect in the population?\n\n## Common misconceptions\n\n- **\"A big sample is always a good sample.\"** Size helps, but a large biased sample is still biased.\n- **\"Statistics prove things.\"** Statistics quantify evidence and uncertainty; they don't deliver certainty.\n- **\"Any numbers can be averaged.\"** Averaging nominal codes (like 1 = red, 2 = blue) is meaningless.\n\n## Summary\n\nStatistics lets psychologists find patterns amid variability. We study samples to learn about populations, measure variables on nominal, ordinal, interval, or ratio scales, and use descriptive statistics to summarize data and inferential statistics to generalize from it.\n",
+      "keyTerms": [
+        {
+          "term": "Population",
+          "definition": "The entire group a researcher wants to learn about."
+        },
+        {
+          "term": "Sample",
+          "definition": "The subset of a population that is actually studied."
+        },
+        {
+          "term": "Parameter",
+          "definition": "A number describing a population, usually estimated by a sample statistic."
+        },
+        {
+          "term": "Ratio scale",
+          "definition": "A measurement scale with equal intervals and a true zero, such as reaction time."
+        },
+        {
+          "term": "Inferential statistics",
+          "definition": "Methods for drawing conclusions about populations from samples, with measures of uncertainty."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A study surveys 500 voters to estimate the opinions of all voters in a country. The 500 voters are the:",
+          "choices": [
+            "Sample",
+            "Operational definition",
+            "Population",
+            "Parameter"
+          ],
+          "answerIndex": 0,
+          "explanation": "The sample is the group actually studied."
+        },
+        {
+          "prompt": "Participants rank five snacks from most to least preferred. This variable is measured on which scale?",
+          "choices": [
+            "Nominal",
+            "Ratio",
+            "Interval",
+            "Ordinal"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ranks are ordered, but the gaps between ranks aren't necessarily equal."
+        },
+        {
+          "prompt": "Which is a ratio-scale variable?",
+          "choices": [
+            "Reaction time in milliseconds",
+            "Temperature in degrees Celsius",
+            "Political party",
+            "Agreement rated from 1 to 5"
+          ],
+          "answerIndex": 0,
+          "explanation": "Reaction time has equal intervals and a true zero."
+        },
+        {
+          "prompt": "\"The average score in our sample was 72\" is an example of:",
+          "choices": [
+            "Inferential statistics",
+            "An operational definition",
+            "Descriptive statistics",
+            "A parameter"
+          ],
+          "answerIndex": 2,
+          "explanation": "It summarizes the data collected without generalizing beyond them."
+        },
+        {
+          "prompt": "Why might results from a convenience sample of students in one class not generalize?",
+          "choices": [
+            "Students cannot be studied",
+            "The sample may not represent the broader population",
+            "Convenience samples are always too small",
+            "Statistics cannot be computed on them"
+          ],
+          "answerIndex": 1,
+          "explanation": "Non-random samples may differ systematically from the population."
+        }
+      ],
+      "assignment": {
+        "title": "Anatomy of a Study",
+        "prompt": "Find a news article that reports on a psychology study (or describe one from PSY 101). In at least 200 words:\n\n1. Identify the population and the sample, and evaluate how well the sample represents the population.\n2. List the main variables, and classify each as quantitative or categorical and by scale of measurement.\n3. Describe how one key construct was operationally defined, and suggest one way that definition could be improved.\n4. Identify one descriptive and one inferential claim the article makes (or could make).",
+        "rubric": [
+          "Correctly identifies population and sample and evaluates representativeness",
+          "Classifies variables and scales accurately",
+          "Analyzes an operational definition thoughtfully",
+          "Distinguishes descriptive from inferential claims"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Lady Tasting Tea",
+          "creator": "David Salsburg",
+          "year": 2001,
+          "note": "A lively history of how statistics revolutionized science in the twentieth century.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Describing Data: Distributions and Central Tendency",
+      "overview": "Organizing data into frequency distributions and graphs, recognizing distribution shapes, and summarizing the center with the mean, median, and mode.",
+      "objectives": [
+        "Construct and interpret frequency distributions, histograms, and bar graphs.",
+        "Describe distribution shape, including symmetry, skew, and modality.",
+        "Compute the mean, median, and mode and choose the appropriate one."
+      ],
+      "lesson": "## From a pile of numbers to a picture\n\nImagine 25 participants' scores on a 10-point anxiety scale:\n\n`3, 5, 4, 6, 2, 5, 7, 5, 4, 3, 6, 8, 5, 4, 5, 6, 3, 4, 9, 5, 4, 6, 5, 2, 10`\n\nAs a list, it tells you little. The first job of statistics is to organize data so patterns become visible.\n\n## Frequency distributions\n\nA **frequency distribution** lists each value (or range of values) and how often it occurs:\n\n| Score | Frequency |\n|---|---|\n| 2 | 2 |\n| 3 | 3 |\n| 4 | 5 |\n| 5 | 7 |\n| 6 | 4 |\n| 7 | 1 |\n| 8 | 1 |\n| 9 | 1 |\n| 10 | 1 |\n\nNow we can see that scores cluster around 4–6, with a few high scores trailing off.\n\n## Graphs\n\n- A **histogram** shows frequencies of a quantitative variable as adjacent bars; the bars touch because the scale is continuous.\n- A **bar graph** shows frequencies of a categorical variable; the bars are separated.\n- A **box plot** summarizes the median, quartiles, and outliers, and is excellent for comparing groups.\n\nGood graphs have labeled axes and honest scales. A bar graph whose vertical axis starts at 95 instead of 0 can make a tiny difference look dramatic.\n\n## Shapes of distributions\n\n- **Symmetric:** the two halves mirror each other; the normal (\"bell\") curve is the classic example.\n- **Positively skewed (right-skewed):** a long tail toward high values. Income and reaction times are typically positively skewed. Our anxiety data are mildly positively skewed.\n- **Negatively skewed (left-skewed):** a long tail toward low values, as with scores on a very easy test.\n- **Unimodal** distributions have one peak; **bimodal** have two, which can signal two distinct groups mixed together.\n\n## Measures of central tendency\n\n### The mode\nThe most frequent value. Our data's mode is 5. It's the only measure that works for nominal data (\"the most common diagnosis\").\n\n### The median\nThe middle value when data are ordered. With n values, it's at position (n + 1)/2. Our 25 scores in order put the 13th score at the middle: 5. With an even number of values, average the two middle values.\n\n### The mean\nThe arithmetic average: the sum divided by the count, written M (or x̄) for a sample and μ for a population.\n\nM = ΣX / n\n\nOur scores sum to 126, so M = 126 / 25 = 5.04.\n\n## Choosing the right measure\n\nThe mean uses every value, which makes it informative but sensitive to **outliers**, extreme values far from the rest.\n\n### Worked example: the outlier effect\n\nFive participants' times to solve a puzzle, in seconds: 30, 32, 35, 36, 300 (one participant got stuck).\n\n- Mean = 433 / 5 = 86.6 seconds\n- Median = 35 seconds\n\nThe median describes the typical participant far better. In skewed distributions, the mean is pulled toward the tail: in positive skew, mean > median; in negative skew, mean < median. That's why reports of income usually give the median.\n\n| Situation | Best measure |\n|---|---|\n| Nominal data | Mode |\n| Ordinal data, or skewed quantitative data | Median |\n| Roughly symmetric interval or ratio data | Mean |\n\n## Common misconceptions\n\n- **\"The mean is always the best average.\"** Not when data are skewed or have outliers.\n- **\"Histograms and bar graphs are interchangeable.\"** Histograms are for quantitative data; bar graphs for categories.\n- **\"Bimodal data have two means.\"** They have two peaks, which often means two groups should be analyzed separately.\n\n## Summary\n\nFrequency distributions and graphs reveal the shape of data: symmetric or skewed, one peak or two. The mode, median, and mean summarize the center; the median resists outliers, while the mean uses every value. Choosing the right summary depends on the scale and shape of the data.\n",
+      "keyTerms": [
+        {
+          "term": "Frequency distribution",
+          "definition": "A table showing how often each value or range of values occurs."
+        },
+        {
+          "term": "Positively skewed",
+          "definition": "A distribution with a long tail toward high values; the mean exceeds the median."
+        },
+        {
+          "term": "Median",
+          "definition": "The middle value of ordered data."
+        },
+        {
+          "term": "Mean",
+          "definition": "The sum of the values divided by the number of values."
+        },
+        {
+          "term": "Outlier",
+          "definition": "A value that lies far from the rest of the data."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "What is the median of 4, 9, 2, 7, 5?",
+          "choices": [
+            "4",
+            "5",
+            "7",
+            "5.4"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ordered: 2, 4, 5, 7, 9; the middle value is 5."
+        },
+        {
+          "prompt": "Household incomes in a city are strongly right-skewed. Which measure best represents a typical household?",
+          "choices": [
+            "The mean",
+            "The mode of the mean",
+            "The range",
+            "The median"
+          ],
+          "answerIndex": 3,
+          "explanation": "The median resists the pull of very high incomes."
+        },
+        {
+          "prompt": "In a negatively skewed distribution, the mean is typically:",
+          "choices": [
+            "Equal to the mode",
+            "Equal to the median",
+            "Higher than the median",
+            "Lower than the median"
+          ],
+          "answerIndex": 3,
+          "explanation": "The long low tail pulls the mean down."
+        },
+        {
+          "prompt": "Which measure of central tendency can be used with nominal data?",
+          "choices": [
+            "The mean",
+            "The median",
+            "The mode",
+            "The standard deviation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Only counting is meaningful for unordered categories."
+        },
+        {
+          "prompt": "A histogram of reaction times shows two distinct peaks. What might this suggest?",
+          "choices": [
+            "The data have no center",
+            "The mean equals the median",
+            "The sample may contain two different groups that respond differently",
+            "The data are on a nominal scale"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bimodality often signals a mixture of populations."
+        }
+      ],
+      "assignment": {
+        "title": "Describe a Dataset",
+        "prompt": "Collect or invent a small, realistic dataset of at least 15 values about behavior (for example, your hours of sleep over 15 nights, minutes of phone use per day, or reaction times from an online test).\n\nIn at least 200 words: present a frequency distribution table; describe how a histogram of the data would look, including its shape; compute the mean, median, and mode, showing your work; and argue which measure best represents the \"typical\" value and why. Then add one invented outlier and explain how each measure changes.",
+        "rubric": [
+          "Dataset and frequency table are clear and correct",
+          "Shape is described accurately",
+          "Mean, median, and mode are computed correctly",
+          "Choice of measure and outlier analysis are well reasoned"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 3,
+      "title": "Variability",
+      "overview": "Measuring how spread out scores are: the range, interquartile range, variance, and standard deviation, and why spread matters as much as center.",
+      "objectives": [
+        "Compute the range and interquartile range.",
+        "Compute and interpret the variance and standard deviation.",
+        "Explain why samples use n − 1 when estimating variance."
+      ],
+      "lesson": "## Two classes, same mean\n\nTwo classes take the same exam. Both average 75. In Class A, everyone scored between 70 and 80. In Class B, scores ranged from 40 to 100. The means are identical, but the classes are very different. **Variability** describes how spread out the scores are, and it is just as important as the center.\n\nIn psychological research, variability is the background noise against which we try to detect effects. A small difference between groups is convincing when scores within each group vary little, and unconvincing when they vary a lot.\n\n## The range\n\nThe **range** is the highest score minus the lowest. Class A's range is 10; Class B's is 60. The range is easy to compute but depends entirely on two extreme values, so a single outlier can distort it.\n\n## The interquartile range\n\nQuartiles divide ordered data into four equal parts. The first quartile Q1 is the 25th percentile and the third quartile Q3 is the 75th percentile. The **interquartile range (IQR)** is Q3 − Q1, the spread of the middle 50% of scores. Like the median, it resists outliers, and it is what a box plot's box shows.\n\n## Variance and standard deviation\n\nThe most widely used measure of variability is built from **deviations**, the distances of scores from the mean.\n\n1. Find the mean.\n2. Subtract the mean from each score to get deviations (X − M).\n3. Square each deviation (otherwise positives and negatives cancel, since deviations always sum to zero).\n4. Add the squared deviations to get the **sum of squares**, SS.\n5. Divide by the number of scores to get the **variance**.\n6. Take the square root to get the **standard deviation (SD)**, which is back in the original units.\n\n### Worked example\n\nScores: 2, 4, 4, 6, 9. Mean = 25/5 = 5.\n\n| X | X − M | (X − M)² |\n|---|---|---|\n| 2 | −3 | 9 |\n| 4 | −1 | 1 |\n| 4 | −1 | 1 |\n| 6 | 1 | 1 |\n| 9 | 4 | 16 |\n| | **Sum: 0** | **SS = 28** |\n\nTreating these five scores as a whole population: variance σ² = 28/5 = 5.6, and SD σ = √5.6 ≈ 2.37.\n\nRoughly, the standard deviation is the typical distance of scores from the mean.\n\n## Samples: dividing by n − 1\n\nWhen we have a sample and want to estimate the population's variance, we divide SS by **n − 1** instead of n:\n\ns² = SS / (n − 1),  s = √s²\n\nFor our five scores as a sample: s² = 28/4 = 7, and s ≈ 2.65.\n\nWhy? A sample's scores tend to sit closer to their *own* mean than to the population mean, so SS/n systematically underestimates the population variance. Dividing by n − 1 corrects this bias. The quantity n − 1 is called the **degrees of freedom**: once you know the mean and n − 1 of the deviations, the last deviation is determined, because deviations must sum to zero.\n\nStatistical software and research articles almost always report the sample SD, s.\n\n## Interpreting standard deviations\n\nReports usually give M and SD together: \"Participants slept M = 6.8 hours, SD = 1.1.\" For roughly bell-shaped data, about two-thirds of scores fall within one SD of the mean (here, 5.7 to 7.9 hours), and about 95% within two. You'll see why next week.\n\n## Common misconceptions\n\n- **\"A larger SD means higher scores.\"** SD measures spread, not level.\n- **\"Variance and SD are interchangeable.\"** Variance is in squared units; SD is in the original units and easier to interpret.\n- **\"The SD can be negative.\"** It's a square root of a sum of squares, so it's zero or positive; zero means every score is identical.\n\n## Summary\n\nVariability describes spread. The range is simple but fragile; the IQR resists outliers. Variance averages squared deviations, and the standard deviation, its square root, describes the typical distance from the mean. Samples divide by n − 1 to estimate population variance without bias.\n",
+      "keyTerms": [
+        {
+          "term": "Range",
+          "definition": "The difference between the highest and lowest scores."
+        },
+        {
+          "term": "Interquartile range",
+          "definition": "Q3 − Q1, the spread of the middle 50% of scores."
+        },
+        {
+          "term": "Sum of squares (SS)",
+          "definition": "The sum of squared deviations of scores from their mean."
+        },
+        {
+          "term": "Standard deviation",
+          "definition": "The square root of the variance; roughly the typical distance of scores from the mean."
+        },
+        {
+          "term": "Degrees of freedom",
+          "definition": "The number of values free to vary; n − 1 when estimating variance from a sample."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "What is the range of 12, 5, 9, 20, 15?",
+          "choices": [
+            "12",
+            "8",
+            "15",
+            "20"
+          ],
+          "answerIndex": 2,
+          "explanation": "20 − 5 = 15."
+        },
+        {
+          "prompt": "Why are deviations squared when computing the variance?",
+          "choices": [
+            "Because positive and negative deviations would otherwise sum to zero",
+            "To make the numbers larger",
+            "Because variance must be negative",
+            "To convert to the original units"
+          ],
+          "answerIndex": 0,
+          "explanation": "Deviations from the mean always sum to zero."
+        },
+        {
+          "prompt": "For a sample, the variance is estimated by dividing the sum of squares by:",
+          "choices": [
+            "n − 1",
+            "The mean",
+            "n",
+            "n + 1"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dividing by n − 1 corrects the tendency of samples to underestimate population variance."
+        },
+        {
+          "prompt": "Two groups both have a mean of 50. Group A has SD = 2 and Group B has SD = 12. Which is true?",
+          "choices": [
+            "The groups are identical",
+            "Scores in Group B are more spread out",
+            "Group A has more participants",
+            "Group B has higher scores"
+          ],
+          "answerIndex": 1,
+          "explanation": "SD measures spread, not level."
+        },
+        {
+          "prompt": "Which measure of variability is least affected by a single extreme outlier?",
+          "choices": [
+            "Standard deviation",
+            "Variance",
+            "Range",
+            "Interquartile range"
+          ],
+          "answerIndex": 3,
+          "explanation": "The IQR depends only on the middle 50% of the data."
+        }
+      ],
+      "assignment": {
+        "title": "Spread Matters",
+        "prompt": "Create two small datasets (6–8 values each) that have the same mean but very different standard deviations, and give them a realistic psychological context (for example, stress scores in two workplaces).\n\nIn at least 200 words: compute the mean, range, and sample standard deviation for each, showing a deviation table for at least one; explain in plain language what the difference in SD means for the people involved; and explain why a researcher comparing the two groups would care about variability, not just the means.",
+        "rubric": [
+          "Datasets meet the requirements and have a realistic context",
+          "Calculations are correct and shown",
+          "Interpretation of SD is accurate and clear",
+          "Explains why variability matters for research"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 4,
+      "title": "The Normal Distribution and z-Scores",
+      "overview": "The bell curve, standardized scores, and how to use them to locate individual scores and compare across measures.",
+      "objectives": [
+        "Describe the properties of the normal distribution and the empirical rule.",
+        "Convert raw scores to z-scores and back.",
+        "Use z-scores to find percentiles and compare scores from different scales."
+      ],
+      "lesson": "## The bell curve\n\nMany psychological variables, such as scores on well-constructed tests, heights, and many measurement errors, are approximately **normally distributed**. The **normal distribution** is a symmetric, bell-shaped curve defined by its mean μ and standard deviation σ.\n\nIts properties:\n\n- Symmetric around the mean; mean, median, and mode are equal.\n- Most scores cluster near the mean, with fewer and fewer in the tails.\n- The curve never quite touches the horizontal axis.\n\n## The empirical rule\n\nFor any normal distribution:\n\n- About **68%** of scores fall within 1 SD of the mean.\n- About **95%** fall within 2 SD.\n- About **99.7%** fall within 3 SD.\n\nMany IQ tests are scaled to have a mean of 100 and an SD of 15. So about 68% of people score between 85 and 115, about 95% between 70 and 130, and scores above 145 are very rare.\n\n## z-scores\n\nA **z-score** expresses how many standard deviations a score is from the mean:\n\nz = (X − μ) / σ\n\n- z = 0: exactly at the mean.\n- z = +1.5: one and a half SDs above the mean.\n- z = −2: two SDs below the mean.\n\nConverting back: X = μ + zσ.\n\n### Worked example: comparing apples and oranges\n\nA student scores 82 on a memory test (mean 70, SD 8) and 65 on an attention test (mean 50, SD 10). On which did she do better relative to others?\n\n- Memory: z = (82 − 70) / 8 = 1.5\n- Attention: z = (65 − 50) / 10 = 1.5\n\nRelative to their groups, the performances are identical, even though the raw scores differ. z-scores put different measures on a common scale, which is how clinicians compare a client's profile across many tests.\n\n## Percentiles from z\n\nBecause the normal curve has a fixed shape, each z-score corresponds to a known **percentile**, the percentage of scores below it. Statistical tables and software give exact values. Some landmarks:\n\n| z | Percentage below |\n|---|---|\n| −2.0 | about 2.3% |\n| −1.0 | about 15.9% |\n| 0 | 50% |\n| +1.0 | about 84.1% |\n| +1.645 | about 95% |\n| +1.96 | about 97.5% |\n| +2.0 | about 97.7% |\n\nExample: on a test with μ = 100, σ = 15, a score of 115 has z = 1, so it's at about the 84th percentile.\n\nNotice z = ±1.96: 95% of scores lie between these values. You'll meet this number again when we build confidence intervals.\n\n## Standardized scores in practice\n\nMany familiar scales are transformations of z-scores. IQ scores (mean 100, SD 15) and T-scores (mean 50, SD 10, common in personality and clinical inventories) are both just z-scores rescaled for convenience.\n\n## When data aren't normal\n\nNot every variable is normal. Reaction times and incomes are skewed; counts of rare events are lopsided. Using normal-curve percentiles on strongly skewed data gives wrong answers. Always look at a histogram before assuming normality.\n\n## Common misconceptions\n\n- **\"A z-score is a percentage.\"** It's a distance in SD units; percentiles must be looked up.\n- **\"Converting to z-scores makes data normal.\"** Standardizing changes the scale, not the shape.\n- **\"Everything in psychology is normally distributed.\"** Many variables aren't; check.\n\n## Summary\n\nThe normal distribution is symmetric and bell-shaped, with about 68%, 95%, and 99.7% of scores within 1, 2, and 3 SDs. z-scores locate a score in SD units, allow comparisons across scales, and, for normal data, convert to percentiles.\n",
+      "keyTerms": [
+        {
+          "term": "Normal distribution",
+          "definition": "A symmetric, bell-shaped distribution defined by its mean and standard deviation."
+        },
+        {
+          "term": "Empirical rule",
+          "definition": "In a normal distribution, about 68%, 95%, and 99.7% of scores lie within 1, 2, and 3 SDs of the mean."
+        },
+        {
+          "term": "z-score",
+          "definition": "The number of standard deviations a score lies above or below the mean."
+        },
+        {
+          "term": "Percentile",
+          "definition": "The percentage of scores that fall below a given score."
+        },
+        {
+          "term": "T-score",
+          "definition": "A standardized score with a mean of 50 and a standard deviation of 10."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "On a test with mean 60 and SD 5, what is the z-score for a raw score of 70?",
+          "choices": [
+            "2.0",
+            "10",
+            "1.0",
+            "0.5"
+          ],
+          "answerIndex": 0,
+          "explanation": "(70 − 60) / 5 = 2."
+        },
+        {
+          "prompt": "In a normal distribution, about what percentage of scores fall within one standard deviation of the mean?",
+          "choices": [
+            "95%",
+            "99.7%",
+            "68%",
+            "50%"
+          ],
+          "answerIndex": 2,
+          "explanation": "This is the first part of the empirical rule."
+        },
+        {
+          "prompt": "An IQ test has mean 100 and SD 15. What raw score corresponds to z = −1?",
+          "choices": [
+            "115",
+            "99",
+            "85",
+            "70"
+          ],
+          "answerIndex": 2,
+          "explanation": "X = 100 + (−1)(15) = 85."
+        },
+        {
+          "prompt": "A score at z = 0 is at which percentile in a normal distribution?",
+          "choices": [
+            "50th",
+            "0th",
+            "100th",
+            "68th"
+          ],
+          "answerIndex": 0,
+          "explanation": "The mean splits a symmetric distribution in half."
+        },
+        {
+          "prompt": "Why are z-scores useful for comparing a person's performance on two different tests?",
+          "choices": [
+            "They express both scores on a common scale of standard deviations from each test's mean",
+            "They remove all measurement error",
+            "They make both tests have the same raw scores",
+            "They turn skewed data into normal data"
+          ],
+          "answerIndex": 0,
+          "explanation": "Standardizing puts different measures in comparable units."
+        }
+      ],
+      "assignment": {
+        "title": "Standing Out",
+        "prompt": "Choose two different measurements on which you could compare yourself to others (for example, a running time and a test score, or invented but realistic scores on two psychological tests). Supply plausible means and standard deviations for each.\n\nIn at least 200 words: compute your z-score on each, use the empirical rule or the table in the lesson to estimate your percentile, and explain on which measure you stand out more and why raw scores alone would mislead. Finally, explain one reason the normal-curve percentile might be inaccurate for one of your measures.",
+        "rubric": [
+          "Provides plausible means and SDs",
+          "Computes z-scores correctly",
+          "Estimates percentiles appropriately",
+          "Discusses limits of the normal assumption"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "website",
+          "title": "Seeing Theory",
+          "creator": "Brown University",
+          "year": null,
+          "note": "Beautiful interactive visualizations of probability and statistics, including the normal distribution.",
+          "url": "https://seeing-theory.brown.edu/",
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Correlation",
+      "overview": "Measuring the relationship between two variables with scatterplots and Pearson's r, and why correlation does not establish causation.",
+      "objectives": [
+        "Interpret scatterplots and the direction and strength of relationships.",
+        "Interpret Pearson's correlation coefficient and r².",
+        "Explain why correlation does not imply causation and identify alternative explanations."
+      ],
+      "lesson": "## Do two things go together?\n\nDo people who sleep more report less stress? Do students who study longer score higher? Questions about whether two variables are related are among the most common in psychology. **Correlation** measures the strength and direction of the linear relationship between two quantitative variables.\n\n## Scatterplots\n\nA **scatterplot** shows each participant as a point, with one variable on the x-axis and the other on the y-axis. Patterns to look for:\n\n- **Positive relationship:** points rise from lower left to upper right (more study, higher scores).\n- **Negative relationship:** points fall from upper left to lower right (more sleep, less stress).\n- **No relationship:** a shapeless cloud.\n- **Curvilinear relationship:** a curve, such as performance rising and then falling as arousal increases.\n\nAlways plot your data. Correlation coefficients only measure *linear* relationships and can miss curves entirely.\n\n## Pearson's r\n\n**Pearson's correlation coefficient**, r, summarizes a linear relationship with a single number from −1 to +1:\n\n- The **sign** gives the direction.\n- The **magnitude** gives the strength: r = ±1 is a perfect line; r = 0 means no linear relationship.\n\nRough conventions for psychology: |r| ≈ .10 is small, ≈ .30 is medium, and ≈ .50 or more is large. Many real psychological correlations are modest.\n\nConceptually, r is the average product of paired z-scores:\n\nr = Σ(z_X · z_Y) / (n − 1)\n\nWhen high X scores (positive z) pair with high Y scores (positive z), and low with low, the products are positive and r is positive. When high pairs with low, products are negative and r is negative.\n\n### Worked example: reading a result\n\nA study of 150 adults reports r = −.42 between weekly exercise hours and depression scores.\n\n- Direction: negative; more exercise goes with lower depression scores.\n- Strength: moderate to large by psychology's conventions.\n- **r² = .18:** about 18% of the variability in depression scores is associated with variability in exercise. The other 82% relates to other factors.\n\n## The coefficient of determination\n\nr² is the proportion of variance in one variable accounted for by its linear relationship with the other. It is a reminder that even \"strong\" correlations leave most of human variability unexplained.\n\n## Correlation is not causation\n\nThe exercise–depression correlation does not, by itself, show that exercise reduces depression. Alternatives:\n\n1. **Reverse causation:** depression may reduce motivation to exercise.\n2. **Third variables:** something else, such as chronic illness, free time, or social support, may affect both.\n3. **Coincidence:** in small samples, sizable correlations can arise by chance.\n\nIce cream sales and drowning deaths are positively correlated, because hot weather increases both. Only **experiments** with random assignment can establish causation (PSY 201 explores designs in depth). Correlational studies are still extremely valuable for prediction and for generating hypotheses, and some questions, such as the effects of childhood poverty, can't ethically be studied any other way.\n\n## Other cautions\n\n- **Restricted range:** if a sample includes only a narrow range of a variable, correlations shrink. SAT scores correlate less with grades among students at a highly selective college, where nearly everyone scored high.\n- **Outliers:** a single extreme point can create or destroy a correlation in a small sample.\n\n## Common misconceptions\n\n- **\"r = −.60 is weaker than r = +.30.\"** The sign shows direction; strength is the absolute value, so −.60 is stronger.\n- **\"r = 0 means the variables are unrelated.\"** It means no *linear* relationship; there could be a curve.\n- **\"A strong correlation proves cause and effect.\"** It doesn't.\n\n## Summary\n\nScatterplots show relationships between two variables, and Pearson's r measures linear relationships from −1 to +1. r² gives the proportion of shared variance. Correlation alone cannot establish causation because of reverse causation, third variables, and chance.\n",
+      "keyTerms": [
+        {
+          "term": "Scatterplot",
+          "definition": "A graph of paired scores showing the relationship between two variables."
+        },
+        {
+          "term": "Pearson's r",
+          "definition": "A coefficient from −1 to +1 describing the direction and strength of a linear relationship."
+        },
+        {
+          "term": "Coefficient of determination (r²)",
+          "definition": "The proportion of variance in one variable associated with another."
+        },
+        {
+          "term": "Third-variable problem",
+          "definition": "The possibility that an unmeasured variable causes both correlated variables."
+        },
+        {
+          "term": "Restricted range",
+          "definition": "A narrow range of scores in a sample, which tends to weaken observed correlations."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which correlation indicates the strongest relationship?",
+          "choices": [
+            "r = +.45",
+            "r = 0",
+            "r = −.70",
+            "r = +.10"
+          ],
+          "answerIndex": 2,
+          "explanation": "Strength is the absolute value; |−.70| is the largest."
+        },
+        {
+          "prompt": "A study finds r = .50 between hours of study and exam scores. What is r²?",
+          "choices": [
+            ".05",
+            ".50",
+            ".25",
+            "1.0"
+          ],
+          "answerIndex": 2,
+          "explanation": ".50 squared is .25, meaning 25% of the variance is shared."
+        },
+        {
+          "prompt": "Children who eat breakfast have higher test scores. Which is a plausible third-variable explanation?",
+          "choices": [
+            "Family stability may lead both to regular breakfasts and to better school performance",
+            "Test scores cause breakfast eating",
+            "Breakfast definitely causes higher scores",
+            "There is no possible alternative"
+          ],
+          "answerIndex": 0,
+          "explanation": "An unmeasured factor could influence both variables."
+        },
+        {
+          "prompt": "A scatterplot shows performance rising with arousal up to a point and then falling. Pearson's r would likely be:",
+          "choices": [
+            "Close to +1",
+            "Close to −1",
+            "Exactly .50",
+            "Close to zero, despite a clear relationship"
+          ],
+          "answerIndex": 3,
+          "explanation": "r measures only linear relationships and misses curves."
+        },
+        {
+          "prompt": "What kind of study is needed to show that one variable causes changes in another?",
+          "choices": [
+            "A scatterplot",
+            "A larger correlational study",
+            "An experiment with random assignment",
+            "A study with a higher r"
+          ],
+          "answerIndex": 2,
+          "explanation": "Random assignment rules out third variables and reverse causation."
+        }
+      ],
+      "assignment": {
+        "title": "Correlation Detective",
+        "prompt": "Find a news headline or social media claim that implies one thing causes another based on a correlation (for example, \"people who drink coffee live longer\").\n\nIn at least 200 words: state the correlation and its likely direction; propose at least one reverse-causation explanation and two third-variable explanations; describe the scatterplot you would expect if the claim were true; and design a simple experiment that could test the causal claim, or explain why an experiment would be unethical or impractical.",
+        "rubric": [
+          "Accurately identifies the correlation and its direction",
+          "Proposes plausible alternative explanations",
+          "Describes the expected scatterplot correctly",
+          "Designs a sound experiment or justifies why one isn't possible"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Signal and the Noise",
+          "creator": "Nate Silver",
+          "year": 2012,
+          "note": "A readable look at prediction, correlation, and why so many forecasts fail.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Probability and Sampling Distributions",
+      "overview": "Why sample statistics vary, the sampling distribution of the mean, the standard error, and the central limit theorem: the bridge to inference.",
+      "objectives": [
+        "Apply basic probability to random sampling.",
+        "Describe the sampling distribution of the mean and compute the standard error.",
+        "Explain the central limit theorem and why it matters for inference."
+      ],
+      "lesson": "## From describing to inferring\n\nSo far we have described the data we have. Now we ask the central question of inferential statistics: what can a sample tell us about a population we haven't fully observed? The answer depends on understanding how much samples vary.\n\n## A little probability\n\nThe **probability** of an event is the proportion of times it would occur over many repetitions. If 30% of a population has a trait, a randomly chosen person has a probability of .30 of having it. In a normal distribution, the probability of drawing a score above z = 1.96 is about .025, because that's the proportion of the curve beyond it. Probability is what lets us say how surprising a result would be.\n\n## Sampling error\n\nSuppose the average sleep of all adults is μ = 7.0 hours. Draw a random sample of 25 adults and compute their mean: perhaps 6.8. Draw another: 7.3. Another: 6.9. Each sample mean differs from μ, not because anything went wrong, but because of who happened to be chosen. This natural discrepancy is **sampling error**.\n\n## The sampling distribution of the mean\n\nImagine drawing every possible sample of size n from a population and plotting all the sample means. That distribution of means is the **sampling distribution of the mean**. It has three crucial properties:\n\n1. **Its center is the population mean μ.** Sample means are unbiased: on average they hit the target.\n2. **Its spread is the standard error (SE):**\n\n   SE = σ / √n\n\n   (When σ is unknown, we estimate SE with s / √n.)\n\n3. **Its shape approaches normal as n grows**, whatever the population's shape. That's the **central limit theorem**.\n\n## The standard error\n\nThe standard error is the typical distance of a sample mean from the population mean. Notice the √n: larger samples give smaller standard errors, so their means are more precise.\n\n### Worked example\n\nAdult sleep has σ = 1.2 hours.\n\n- With n = 9: SE = 1.2 / 3 = 0.40 hours.\n- With n = 36: SE = 1.2 / 6 = 0.20 hours.\n- With n = 144: SE = 1.2 / 12 = 0.10 hours.\n\nQuadrupling the sample size halves the standard error. This is why researchers care about sample size: small studies give noisy estimates, and precision improves with the square root of n, which also means diminishing returns.\n\n## The central limit theorem\n\nEven if a population is skewed, such as reaction times, the sampling distribution of the mean becomes approximately normal once samples are moderately large (a common rule of thumb is n ≥ 30, though it depends on how skewed the population is). This is why the normal curve appears throughout inferential statistics: we use it to describe the behavior of sample means, not necessarily of individual scores.\n\n### Putting it to work\n\nIf μ = 7.0, σ = 1.2, and n = 36, then SE = 0.20. How unusual would a sample mean of 6.5 be? z = (6.5 − 7.0) / 0.20 = −2.5. A sample mean that far below μ would occur less than 1% of the time by chance. If we observed it, we might suspect our sample comes from a population with a different mean, perhaps people under unusual stress. That reasoning is the heart of hypothesis testing, next week.\n\n## Common misconceptions\n\n- **\"The standard error is the same as the standard deviation.\"** SD describes individual scores; SE describes sample means.\n- **\"The central limit theorem says the data become normal.\"** It's the distribution of *sample means* that becomes normal.\n- **\"A sample mean that differs from μ means the study was flawed.\"** Some sampling error is always expected.\n\n## Summary\n\nSample statistics vary because of sampling error. The sampling distribution of the mean is centered on μ, has a spread given by the standard error σ/√n, and becomes normal for large samples by the central limit theorem. These facts let us judge how surprising a sample result is, the foundation of inference.\n",
+      "keyTerms": [
+        {
+          "term": "Sampling error",
+          "definition": "The natural difference between a sample statistic and the population parameter."
+        },
+        {
+          "term": "Sampling distribution",
+          "definition": "The distribution of a statistic, such as the mean, across all possible samples of a given size."
+        },
+        {
+          "term": "Standard error",
+          "definition": "The standard deviation of a sampling distribution; for the mean, σ/√n."
+        },
+        {
+          "term": "Central limit theorem",
+          "definition": "The principle that sample means are approximately normally distributed for sufficiently large samples."
+        },
+        {
+          "term": "Unbiased estimator",
+          "definition": "A statistic whose sampling distribution is centered on the parameter it estimates."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A population has σ = 20. What is the standard error of the mean for samples of n = 100?",
+          "choices": [
+            "2",
+            "0.2",
+            "200",
+            "20"
+          ],
+          "answerIndex": 0,
+          "explanation": "SE = 20 / √100 = 2."
+        },
+        {
+          "prompt": "What happens to the standard error when the sample size is quadrupled?",
+          "choices": [
+            "It stays the same",
+            "It is cut in half",
+            "It is cut to a quarter",
+            "It doubles"
+          ],
+          "answerIndex": 1,
+          "explanation": "SE depends on √n, and √4 = 2."
+        },
+        {
+          "prompt": "The central limit theorem states that:",
+          "choices": [
+            "Individual scores become normal in large samples",
+            "The distribution of sample means approaches normal as sample size increases",
+            "All populations are normally distributed",
+            "Larger samples always have larger means"
+          ],
+          "answerIndex": 1,
+          "explanation": "It's about the sampling distribution of the mean, not the raw data."
+        },
+        {
+          "prompt": "Two random samples from the same population have different means. The most likely reason is:",
+          "choices": [
+            "One of the samples is fraudulent",
+            "Sampling error",
+            "The population changed",
+            "The standard deviation is zero"
+          ],
+          "answerIndex": 1,
+          "explanation": "Different random samples naturally produce different statistics."
+        },
+        {
+          "prompt": "What does the standard error describe?",
+          "choices": [
+            "The probability of a Type I error",
+            "The size of the population",
+            "How much sample means typically vary from the population mean",
+            "How much individual scores vary from their mean"
+          ],
+          "answerIndex": 2,
+          "explanation": "SE is the spread of the sampling distribution."
+        }
+      ],
+      "assignment": {
+        "title": "Simulating Sampling",
+        "prompt": "Try this sampling demonstration. Use a list of at least 30 numbers (for example, the ages of people you know, or roll a die 30 times), or use an online random number generator.\n\n1. Compute the mean of all your numbers (treat this as your \"population\").\n2. Draw five random samples of size 5 and five random samples of size 15 (by drawing names from a hat, a random number generator, or similar). Compute each sample's mean.\n3. In at least 200 words, report your results and compare how spread out the sample means were for n = 5 versus n = 15. Connect what you observed to the standard error formula and the central limit theorem.",
+        "rubric": [
+          "Describes the population and sampling procedure clearly",
+          "Reports sample means accurately",
+          "Correctly compares variability across sample sizes",
+          "Connects observations to standard error and the central limit theorem"
+        ],
+        "minWords": 200
+      },
+      "resources": []
+    },
+    {
+      "number": 7,
+      "title": "Hypothesis Testing",
+      "overview": "The logic of null hypothesis significance testing: hypotheses, test statistics, p-values, significance levels, and the two kinds of errors.",
+      "objectives": [
+        "Formulate null and alternative hypotheses.",
+        "Explain p-values and statistical significance correctly.",
+        "Distinguish Type I and Type II errors and describe statistical power."
+      ],
+      "lesson": "## A courtroom for claims\n\nHypothesis testing resembles a criminal trial. The defendant is presumed innocent until the evidence makes innocence implausible. In research, we presume \"no effect\" until the data make that presumption implausible.\n\n## Hypotheses\n\n- The **null hypothesis (H₀)** states that there is no effect or no difference: the new therapy doesn't change anxiety scores; μ_therapy = μ_control.\n- The **alternative hypothesis (H₁)** states that there is an effect: μ_therapy ≠ μ_control.\n\nWe test H₀, not H₁. The question is: if H₀ were true, how surprising would our data be?\n\n## Test statistics\n\nA **test statistic** measures how far the observed result is from what H₀ predicts, in standard-error units. The simplest is a z-test for a mean:\n\nz = (M − μ₀) / SE\n\nIn practice, psychologists more often use **t-tests**, which work the same way but use the sample's SD to estimate the standard error, and **ANOVA** for comparing several groups. You'll learn these in Statistics for the Behavioral Sciences; the logic this week applies to all of them.\n\n## p-values\n\nThe **p-value** is the probability of obtaining a result at least as extreme as the one observed, *assuming the null hypothesis is true*.\n\n- A small p-value (say, .01) means the data would be quite surprising if H₀ were true.\n- A large p-value (say, .40) means the data are quite consistent with H₀.\n\n## Significance level and decisions\n\nBefore collecting data, researchers set a **significance level**, α, usually .05. If p ≤ α, the result is called **statistically significant** and we **reject H₀**. If p > α, we **fail to reject H₀**.\n\n### Worked example\n\nA standardized memory test has μ = 50 and σ = 10 in the general population. A researcher tests whether a mnemonic training program changes scores, giving the test to 25 trained participants, who score M = 54.\n\n- H₀: μ = 50. H₁: μ ≠ 50. α = .05 (two-tailed).\n- SE = 10 / √25 = 2.\n- z = (54 − 50) / 2 = 2.0.\n- For a two-tailed test, p ≈ .046 (the probability of |z| ≥ 2.0).\n- Since .046 ≤ .05, the result is statistically significant: we reject H₀.\n\n## What p-values do not mean\n\np-values are among the most misunderstood numbers in science.\n\n- p is **not** the probability that H₀ is true.\n- p is **not** the probability that the results are due to chance.\n- 1 − p is **not** the probability that the finding will replicate.\n- \"Not significant\" does **not** mean \"no effect\"; the study may have been too small to detect it.\n- \"Significant\" does **not** mean \"important\"; with a huge sample, trivial effects become significant.\n\n## Two kinds of errors\n\n| | H₀ is actually true | H₀ is actually false |\n|---|---|---|\n| **Reject H₀** | **Type I error** (false positive), probability α | Correct decision |\n| **Fail to reject H₀** | Correct decision | **Type II error** (false negative), probability β |\n\nA Type I error is like convicting an innocent person; a Type II error is like acquitting a guilty one. Lowering α reduces Type I errors but increases Type II errors.\n\n## Statistical power\n\n**Power** is the probability of correctly rejecting a false H₀ (1 − β). Power increases with larger samples, larger true effects, less variability, and a higher α. Underpowered studies often miss real effects, and when they do find significant results, they tend to overestimate the effect's size. Many researchers now plan sample sizes with a **power analysis** before collecting data.\n\n## Hypothesis testing and the replication crisis\n\nWhen researchers run many analyses and report only the significant ones, false positives multiply, a practice called **p-hacking**. This contributed to psychology's replication crisis. Remedies include **preregistration**, larger samples, reporting effect sizes and confidence intervals, and replication, the topics of next week.\n\n## Common misconceptions\n\n- **\"p = .03 means a 3% chance the null is true.\"** It's the probability of the data (or more extreme) given the null.\n- **\"Failing to reject H₀ proves it.\"** Absence of evidence isn't evidence of absence.\n- **\"Significant means large or important.\"** Significance depends heavily on sample size.\n\n## Summary\n\nHypothesis testing asks how surprising the data would be if the null hypothesis were true. The p-value quantifies that surprise; if p ≤ α we reject H₀. Type I and Type II errors are inevitable trade-offs, power is the chance of detecting a real effect, and p-values must be interpreted with care.\n",
+      "keyTerms": [
+        {
+          "term": "Null hypothesis",
+          "definition": "The hypothesis of no effect or no difference, which a significance test evaluates."
+        },
+        {
+          "term": "p-value",
+          "definition": "The probability of results at least as extreme as those observed, assuming the null hypothesis is true."
+        },
+        {
+          "term": "Significance level (α)",
+          "definition": "The threshold, often .05, below which results are deemed statistically significant."
+        },
+        {
+          "term": "Type I error",
+          "definition": "Rejecting a true null hypothesis: a false positive."
+        },
+        {
+          "term": "Statistical power",
+          "definition": "The probability of correctly rejecting a false null hypothesis."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which statement is the null hypothesis for a study of whether caffeine affects reaction time?",
+          "choices": [
+            "Caffeine speeds reaction time",
+            "Caffeine has no effect on mean reaction time",
+            "Caffeine slows reaction time",
+            "Caffeine affects reaction time in some people"
+          ],
+          "answerIndex": 1,
+          "explanation": "The null hypothesis states no effect or no difference."
+        },
+        {
+          "prompt": "A study reports p = .02. Which interpretation is correct?",
+          "choices": [
+            "There is a 2% chance the null hypothesis is true",
+            "The effect is large",
+            "If there were truly no effect, results this extreme would occur about 2% of the time",
+            "There is a 98% chance the effect is real"
+          ],
+          "answerIndex": 2,
+          "explanation": "A p-value is a probability about the data, computed assuming the null is true."
+        },
+        {
+          "prompt": "A researcher concludes a therapy works when in reality it has no effect. This is a:",
+          "choices": [
+            "Type II error",
+            "Correct decision",
+            "Power analysis",
+            "Type I error"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rejecting a true null is a false positive."
+        },
+        {
+          "prompt": "Which change increases a study's statistical power?",
+          "choices": [
+            "Increasing the sample size",
+            "Lowering α from .05 to .001",
+            "Decreasing the sample size",
+            "Adding more measurement error"
+          ],
+          "answerIndex": 0,
+          "explanation": "Larger samples reduce the standard error, making real effects easier to detect."
+        },
+        {
+          "prompt": "With an enormous sample, a study finds a statistically significant but tiny difference. What should you conclude?",
+          "choices": [
+            "The result must be a Type I error",
+            "The effect may be real but too small to matter practically",
+            "Significance proves practical importance",
+            "The effect must be large"
+          ],
+          "answerIndex": 1,
+          "explanation": "Significance depends on sample size; importance depends on effect size."
+        }
+      ],
+      "assignment": {
+        "title": "Test a Claim",
+        "prompt": "A standardized wellbeing scale has a population mean of 100 and a standard deviation of 15. A meditation app company tests 36 users after a month and finds a mean of 105.\n\nIn at least 200 words: state H₀ and H₁; compute the standard error and the z statistic; using the table from Week 4 (or the fact that |z| ≥ 1.96 corresponds to p ≤ .05, two-tailed), decide whether the result is significant at α = .05; interpret the result in plain language without any of the p-value misinterpretations from the lesson; and identify at least two reasons, beyond chance, why this study might not show the app causes improved wellbeing.",
+        "rubric": [
+          "Hypotheses are correctly stated",
+          "SE and z are computed correctly",
+          "Decision and interpretation are accurate",
+          "Identifies genuine design limitations"
+        ],
+        "minWords": 200
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Calling Bullshit: The Art of Skepticism in a Data-Driven World",
+          "creator": "Carl T. Bergstrom and Jevin D. West",
+          "year": 2020,
+          "note": "A sharp guide to spotting misleading statistics, graphs, and claims.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Estimation, Effect Sizes, and Reading Research",
+      "overview": "Confidence intervals, effect sizes such as Cohen's d, and a practical framework for reading the statistics in psychological research.",
+      "objectives": [
+        "Construct and interpret a confidence interval for a mean.",
+        "Compute and interpret Cohen's d and distinguish statistical from practical significance.",
+        "Critically evaluate the statistics reported in a research article."
+      ],
+      "lesson": "## Beyond yes or no\n\nHypothesis tests give a yes-or-no answer: significant or not. Researchers increasingly emphasize two richer questions: **How big is the effect?** and **How precisely do we know it?** Effect sizes and confidence intervals answer them.\n\n## Confidence intervals\n\nA **confidence interval (CI)** gives a range of plausible values for a population parameter. For a mean, when σ is known:\n\n95% CI = M ± 1.96 × SE\n\n(With σ unknown, we use the sample SD and a slightly larger multiplier from the t distribution, which approaches 1.96 as samples grow.)\n\n### Worked example\n\nA sample of 64 students sleeps M = 6.6 hours; σ = 1.2, so SE = 1.2/8 = 0.15.\n\n95% CI = 6.6 ± 1.96 × 0.15 = 6.6 ± 0.29, or **[6.31, 6.89]** hours.\n\n### Interpreting a CI correctly\n\nIf we repeated this study many times and built a 95% CI each time, about 95% of those intervals would contain the true population mean. For practical purposes, the interval shows the range of values reasonably consistent with the data.\n\nCIs convey precision: narrow intervals mean precise estimates; wide intervals mean uncertainty. They also connect to hypothesis tests: if a 95% CI for a difference excludes zero, the difference is significant at α = .05. Our interval excludes 7.0, so these students sleep significantly less than a 7-hour benchmark.\n\n## Effect sizes\n\nAn **effect size** measures the magnitude of an effect independent of sample size. For a difference between two means, **Cohen's d** expresses the difference in standard-deviation units:\n\nd = (M₁ − M₂) / SD\n\nCohen's conventional benchmarks: d ≈ 0.2 small, 0.5 medium, 0.8 large, though what counts as meaningful depends on context.\n\n### Worked example\n\nA therapy group's depression scores average 18; a control group's average 24; the SD is 10. d = (24 − 18)/10 = 0.6, a medium-to-large effect. If the same 6-point difference came with an SD of 30, d would be 0.2: the same difference, but much more overlap between groups.\n\nFor correlations, r itself is an effect size, and r² gives the proportion of shared variance.\n\n## Statistical versus practical significance\n\nA study of 100,000 people might find that a diet changes weight by 0.2 kg, highly significant (p < .001) and practically meaningless. A small study might find a large d that isn't significant because of low power. Always ask about both significance and size.\n\n## Reading the statistics in a research article\n\nWhen you meet statistics in an article, work through these questions:\n\n1. **Design:** Is it experimental or correlational? Can it support causal claims?\n2. **Sample:** How large? How was it selected? To whom does it generalize?\n3. **Descriptives:** What were the means and SDs? Do the numbers make sense?\n4. **Inference:** What test was used, and what were the test statistic and p-value?\n5. **Effect size and precision:** How big is the effect, and how wide is the CI?\n6. **Robustness:** Was the study preregistered? Has it been replicated? Were many outcomes tested?\n\nA typical results sentence: \"Participants in the retrieval-practice condition recalled more words (M = 18.2, SD = 4.1) than those in the rereading condition (M = 14.9, SD = 4.4), t(118) = 4.26, p < .001, d = 0.78, 95% CI for the difference [1.77, 4.83].\" You can now read nearly every part of it.\n\n## Where you go from here\n\nIn Research Methods you'll design studies; in Statistics for the Behavioral Sciences you'll run t-tests, ANOVA, and regression with software. The ideas from this course, variability, standard error, sampling distributions, p-values, confidence intervals, and effect sizes, are the foundation for all of them.\n\n## Common misconceptions\n\n- **\"There's a 95% probability the true mean is in this particular interval.\"** The 95% describes the method's long-run success rate; this is a subtle but important distinction.\n- **\"A bigger d means a more significant result.\"** Significance also depends on sample size.\n- **\"Non-overlapping error bars are required for significance.\"** The relationship between overlapping intervals and significance is more nuanced; compare the CI for the *difference*.\n\n## Summary\n\nConfidence intervals give a range of plausible values and show precision. Effect sizes such as Cohen's d measure magnitude independent of sample size. Together with significance tests, they let you judge both whether an effect exists and whether it matters, and they're the key to reading research critically.\n",
+      "keyTerms": [
+        {
+          "term": "Confidence interval",
+          "definition": "A range of values constructed so that, across repeated samples, it contains the parameter a specified percentage of the time."
+        },
+        {
+          "term": "Effect size",
+          "definition": "A measure of the magnitude of an effect that does not depend on sample size."
+        },
+        {
+          "term": "Cohen's d",
+          "definition": "The difference between two means expressed in standard-deviation units."
+        },
+        {
+          "term": "Practical significance",
+          "definition": "Whether an effect is large enough to matter in the real world."
+        },
+        {
+          "term": "Preregistration",
+          "definition": "Publicly recording hypotheses and analysis plans before collecting data."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A sample has M = 40 and SE = 2. What is the approximate 95% confidence interval for the population mean?",
+          "choices": [
+            "[39.02, 40.98]",
+            "[36.08, 43.92]",
+            "[38, 42]",
+            "[30, 50]"
+          ],
+          "answerIndex": 1,
+          "explanation": "40 ± 1.96 × 2 = 40 ± 3.92."
+        },
+        {
+          "prompt": "Two group means differ by 5 points and the SD is 10. What is Cohen's d?",
+          "choices": [
+            "0.05",
+            "0.5",
+            "5",
+            "2.0"
+          ],
+          "answerIndex": 1,
+          "explanation": "d = 5 / 10 = 0.5, a medium effect."
+        },
+        {
+          "prompt": "A 95% CI for the difference between two group means is [−1.2, 3.8]. At α = .05, the difference is:",
+          "choices": [
+            "Not statistically significant, because the interval includes zero",
+            "Impossible to evaluate",
+            "Significant, because most of the interval is positive",
+            "Significant, because the interval is wide"
+          ],
+          "answerIndex": 0,
+          "explanation": "A plausible difference of zero means we cannot reject the null."
+        },
+        {
+          "prompt": "What does increasing the sample size do to a confidence interval, all else being equal?",
+          "choices": [
+            "Leaves it unchanged",
+            "Makes it wider",
+            "Makes it narrower",
+            "Moves its center"
+          ],
+          "answerIndex": 2,
+          "explanation": "Larger samples reduce the standard error."
+        },
+        {
+          "prompt": "Why should researchers report effect sizes along with p-values?",
+          "choices": [
+            "Effect sizes replace the need for data",
+            "p-values are always wrong",
+            "Effect sizes show how large an effect is, which p-values don't convey",
+            "Effect sizes guarantee replication"
+          ],
+          "answerIndex": 2,
+          "explanation": "Significance and magnitude are different questions."
+        }
+      ],
+      "assignment": {
+        "title": "Read a Results Section",
+        "prompt": "Find a short research summary or abstract from a psychology study that reports statistics (for example from a journal's website or a university news release), or use the example results sentence from the lesson.\n\nIn at least 250 words, work through the six questions in the lesson's framework. Interpret every statistic reported in plain language, compute or estimate an effect size if one isn't given (or explain what you would need to do so), and conclude with your judgment of how much confidence the finding deserves and why.",
+        "rubric": [
+          "Applies all six framework questions",
+          "Interprets each statistic accurately",
+          "Addresses effect size and precision",
+          "Reaches a well-justified overall judgment"
+        ],
+        "minWords": 250
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Statistics Done Wrong",
+          "creator": "Alex Reinhart",
+          "year": 2015,
+          "note": "A short, witty tour of the most common statistical errors in published research.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "A researcher measures the number of errors participants make on a task. This variable is on which scale?",
+      "choices": [
+        "Ratio",
+        "Nominal",
+        "Interval",
+        "Ordinal"
+      ],
+      "answerIndex": 0,
+      "explanation": "Counts of errors have equal intervals and a true zero."
+    },
+    {
+      "prompt": "What is the mean of 3, 7, 8, 10, 12?",
+      "choices": [
+        "10",
+        "8",
+        "7",
+        "40"
+      ],
+      "answerIndex": 1,
+      "explanation": "40 / 5 = 8."
+    },
+    {
+      "prompt": "A distribution of reaction times has a long tail toward slow responses. Which is most likely true?",
+      "choices": [
+        "The mean equals the mode",
+        "The median is greater than the mean",
+        "The mean is greater than the median",
+        "The distribution is symmetric"
+      ],
+      "answerIndex": 2,
+      "explanation": "Positive skew pulls the mean toward the high tail."
+    },
+    {
+      "prompt": "For the scores 1, 3, 5 treated as a population, what is the variance?",
+      "choices": [
+        "8/3",
+        "2",
+        "4",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mean 3; squared deviations 4, 0, 4; SS = 8; 8 / 3."
+    },
+    {
+      "prompt": "Why does the sample variance divide by n − 1?",
+      "choices": [
+        "To make the variance larger for fun",
+        "To correct the tendency of samples to underestimate population variance",
+        "To convert it to a standard deviation",
+        "Because the mean is always zero"
+      ],
+      "answerIndex": 1,
+      "explanation": "Samples sit closer to their own mean than to the population mean."
+    },
+    {
+      "prompt": "On a test with mean 80 and SD 4, a score of 74 has what z-score?",
+      "choices": [
+        "−0.67",
+        "−1.5",
+        "−6",
+        "1.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "(74 − 80) / 4 = −1.5."
+    },
+    {
+      "prompt": "About what percentage of scores in a normal distribution fall between z = −2 and z = +2?",
+      "choices": [
+        "68%",
+        "50%",
+        "95%",
+        "99.7%"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is part of the empirical rule."
+    },
+    {
+      "prompt": "A study finds r = −.55 between screen time and sleep quality. Which conclusion is justified?",
+      "choices": [
+        "There is no relationship",
+        "More screen time is associated with poorer sleep quality",
+        "Poor sleep causes screen time",
+        "Screen time causes poor sleep"
+      ],
+      "answerIndex": 1,
+      "explanation": "Correlation shows association, not causation."
+    },
+    {
+      "prompt": "What is the standard error of the mean when σ = 12 and n = 16?",
+      "choices": [
+        "4",
+        "12",
+        "0.75",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "12 / √16 = 3."
+    },
+    {
+      "prompt": "The central limit theorem matters for inference because:",
+      "choices": [
+        "It makes p-values unnecessary",
+        "It guarantees the population is normal",
+        "It removes sampling error",
+        "Sample means are approximately normal for large samples, even if the population isn't"
+      ],
+      "answerIndex": 3,
+      "explanation": "It justifies using normal-curve methods for sample means."
+    },
+    {
+      "prompt": "If p = .30 and α = .05, the researcher should:",
+      "choices": [
+        "Conclude the effect is large",
+        "Conclude the null hypothesis is proven true",
+        "Fail to reject the null hypothesis",
+        "Reject the null hypothesis"
+      ],
+      "answerIndex": 2,
+      "explanation": "p > α, so the evidence is not strong enough to reject H₀."
+    },
+    {
+      "prompt": "A Type II error occurs when a researcher:",
+      "choices": [
+        "Computes the mean incorrectly",
+        "Uses the wrong scale of measurement",
+        "Detects an effect that doesn't exist",
+        "Fails to detect an effect that really exists"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Type II error is a false negative."
+    },
+    {
+      "prompt": "A 95% CI for a mean is [10.2, 14.6]. Which is the best interpretation?",
+      "choices": [
+        "The population mean is exactly 12.4",
+        "The sample mean is 95% likely to be in this range",
+        "95% of individual scores fall in this range",
+        "Values from about 10.2 to 14.6 are plausible for the population mean, given the data"
+      ],
+      "answerIndex": 3,
+      "explanation": "A CI estimates the parameter, not individual scores."
+    },
+    {
+      "prompt": "Group A averages 30 and Group B averages 26 on a scale with SD = 8. Cohen's d is:",
+      "choices": [
+        "4",
+        "0.125",
+        "2",
+        "0.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "(30 − 26) / 8 = 0.5."
+    },
+    {
+      "prompt": "A huge study finds a statistically significant but very small effect. The best description is:",
+      "choices": [
+        "Practically important because it is significant",
+        "Not worth reporting",
+        "Statistically significant but possibly not practically significant",
+        "Certainly a Type I error"
+      ],
+      "answerIndex": 2,
+      "explanation": "Large samples can make trivial effects significant."
+    }
+  ],
+  "resources": [
+    {
+      "kind": "book",
+      "title": "Statistics",
+      "creator": "David Freedman, Robert Pisani, and Roger Purves",
+      "year": 1978,
+      "note": "A classic introduction that builds statistical intuition with minimal formulas.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Naked Statistics",
+      "creator": "Charles Wheelan",
+      "year": 2013,
+      "note": "A funny, clear explanation of the ideas behind statistics, for readers who dread math.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Art of Statistics: How to Learn from Data",
+      "creator": "David Spiegelhalter",
+      "year": 2019,
+      "note": "A leading statistician shows how to reason with data, uncertainty, and evidence.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "How to Lie with Statistics",
+      "creator": "Darrell Huff",
+      "year": 1954,
+      "note": "A short classic on how numbers and graphs mislead, still relevant decades later.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "OpenIntro Statistics",
+      "creator": "David Diez, Mine Çetinkaya-Rundel, and Christopher Barr",
+      "year": null,
+      "note": "A free, rigorous introductory statistics textbook.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "video",
+      "title": "Crash Course Statistics",
+      "creator": "CrashCourse",
+      "year": 2018,
+      "note": "A video series covering everything from the mean to p-values, with clear visual examples.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }

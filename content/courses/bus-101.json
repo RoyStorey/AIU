@@ -114,7 +114,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Ten-Day MBA",
+          "creator": "Steven Silbiger",
+          "year": 1993,
+          "note": "A compact overview of what business schools teach, organized by discipline.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 2,
@@ -216,7 +227,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Naked Economics",
+          "creator": "Charles Wheelan",
+          "year": 2002,
+          "note": "Economics explained without equations, from supply and demand to the role of government.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 3,
@@ -318,7 +340,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Lean Startup",
+          "creator": "Eric Ries",
+          "year": 2011,
+          "note": "The influential case for building new ventures through rapid experiments with real customers.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 4,
@@ -420,7 +453,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "High Output Management",
+          "creator": "Andrew S. Grove",
+          "year": 1983,
+          "note": "Intel's legendary leader on the practical work of managing people and output.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 5,
@@ -522,7 +566,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Positioning: The Battle for Your Mind",
+          "creator": "Al Ries and Jack Trout",
+          "year": 1981,
+          "note": "The classic book that introduced positioning, one of marketing's central ideas.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 6,
@@ -624,7 +679,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Financial Intelligence",
+          "creator": "Karen Berman and Joe Knight",
+          "year": 2006,
+          "note": "A plain-language guide to reading financial statements and what the numbers really mean.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 7,
@@ -726,7 +792,18 @@
         ],
         "minWords": 200
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Goal",
+          "creator": "Eliyahu M. Goldratt",
+          "year": 1984,
+          "note": "A business novel that teaches operations thinking through a plant manager's struggle to save his factory.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     },
     {
       "number": 8,
@@ -828,7 +905,18 @@
         ],
         "minWords": 250
       },
-      "resources": []
+      "resources": [
+        {
+          "kind": "documentary",
+          "title": "The Corporation",
+          "creator": "Mark Achbar and Jennifer Abbott",
+          "year": 2003,
+          "note": "A provocative documentary on the nature of the modern corporation and its responsibilities to society.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
     }
   ],
   "finalExam": [
@@ -1002,5 +1090,66 @@
     "model": "claude-code-seed",
     "generatedAt": "2026-10-27T00:00:00.000Z"
   },
-  "resources": []
+  "resources": [
+    {
+      "kind": "book",
+      "title": "Introduction to Business",
+      "creator": "OpenStax",
+      "year": 2018,
+      "note": "A free, peer-reviewed introductory business textbook that covers every topic in this course in more depth.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Personal MBA",
+      "creator": "Josh Kaufman",
+      "year": 2010,
+      "note": "A concise tour of the core ideas of business, written for self-directed learners.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Shoe Dog",
+      "creator": "Phil Knight",
+      "year": 2016,
+      "note": "Nike's founder tells the messy, gripping story of building a company from nothing.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "Good to Great",
+      "creator": "Jim Collins",
+      "year": 2001,
+      "note": "A widely read study of what distinguished companies that made the leap to lasting success.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "podcast",
+      "title": "How I Built This",
+      "creator": "Guy Raz",
+      "year": null,
+      "note": "Founders tell the stories behind the companies they built, including the near-failures.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "podcast",
+      "title": "Planet Money",
+      "creator": "NPR",
+      "year": null,
+      "note": "Short, entertaining episodes that explain the economy and how businesses really work.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    }
+  ]
 }
