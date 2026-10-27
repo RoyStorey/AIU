@@ -1,14 +1,18 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import { withdrawFrom } from "@/app/actions";
+import { ThemePicker } from "@/components/ThemePicker";
 import { requireUser } from "@/lib/auth";
 import { enrollments } from "@/lib/progress";
+import { DEFAULT_THEME, THEME_COOKIE, findTheme } from "@/lib/themes";
 
 export const metadata: Metadata = { title: "My Studies" };
 
 export default async function Study() {
   const user = await requireUser("/study");
   const programs = enrollments(user.id);
+  const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value)?.id ?? DEFAULT_THEME.id;
   const since = new Date(user.created_at.replace(" ", "T") + "Z").toLocaleDateString("en-US", { month: "long", year: "numeric" });
 
   return (
@@ -58,6 +62,15 @@ export default async function Study() {
           );
         })
       )}
+
+      <section className="section" style={{ marginTop: "2rem" }}>
+        <div className="section-head">
+          <h2>Appearance</h2>
+          <span className="eyebrow">Temporary · for choosing the house colors</span>
+        </div>
+        <p className="muted measure">Choose a palette to see the whole site in it. Your choice is remembered on this device.</p>
+        <ThemePicker current={theme} />
+      </section>
     </div>
   );
 }

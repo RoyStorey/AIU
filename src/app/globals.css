@@ -586,3 +586,21 @@ a.media-card:hover { border-color: var(--accent); color: var(--ink); }
 @media (max-width: 64rem) { .lesson-aside { position: static; } }
 .lesson-aside .citation { grid-template-columns: 1fr; gap: 0.1rem; }
 .colophon .gold-motto { color: var(--band-gold); font-style: italic; }
+
+/* ——— Theme picker (temporary) ——— */
+
+.themes { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); margin-top: 1.5rem; }
+.theme-option {
+  display: grid; gap: 0.35rem; text-align: left; padding: 0.75rem; cursor: pointer;
+  font: inherit; color: var(--ink); background: var(--paper-raised);
+  border: 1px solid var(--rule); border-radius: 2px; transition: border-color 0.15s ease;
+}
+.theme-option:hover { border-color: var(--rule-strong); }
+.theme-option.active { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+.theme-swatch { position: relative; display: block; height: 5.5rem; border: 1px solid rgba(127, 127, 127, 0.25); overflow: hidden; margin-bottom: 0.4rem; }
+.theme-swatch-title { position: absolute; left: 0.75rem; top: 0.45rem; font-family: var(--display); font-size: 1.9rem; line-height: 1; }
+.theme-swatch-accent { position: absolute; left: 0.75rem; top: 2.85rem; width: 3.25rem; height: 0.8rem; }
+.theme-swatch-gold { position: absolute; right: 0.75rem; top: 0.8rem; width: 0.8rem; height: 0.8rem; border-radius: 50%; }
+.theme-swatch-band { position: absolute; inset: auto 0 0 0; height: 1.1rem; border-top: 2px solid; }
+.theme-name { font-family: var(--display); font-size: 1.25rem; line-height: 1.2; }
+.theme-description { color: var(--muted); font-size: 0.95rem; line-height: 1.4; }

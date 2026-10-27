@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Cormorant_Garamond, EB_Garamond } from "next/font/google";
 import { Crest } from "@/components/Crest";
+import { cookies } from "next/headers";
 import { currentUser } from "@/lib/auth";
+import { THEME_COOKIE, findTheme, themeStylesheet } from "@/lib/themes";
 import { signOut } from "@/app/actions";
 import "./globals.css";
 
@@ -27,9 +29,13 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const user = await currentUser();
+  const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value);
 
   return (
-    <html lang="en" className={`${display.variable} ${serif.variable}`}>
+    <html lang="en" className={`${display.variable} ${serif.variable}`} data-theme={theme?.id}>
+      <head>
+        <style>{themeStylesheet}</style>
+      </head>
       <body>
         <header className="masthead">
           <div className="wrap masthead-inner">
