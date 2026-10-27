@@ -1,12 +1,12 @@
 {
   "code": "MATH 210",
   "title": "Discrete Mathematics",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "The mathematics of computer science: logic and proof, sets, functions, relations, induction, counting, discrete probability, graphs, and trees.",
   "prerequisites": [],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

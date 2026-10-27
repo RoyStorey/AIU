@@ -1,7 +1,6 @@
 {
   "code": "CS 491",
   "title": "Capstone II: Build and Deliver",
-  "credits": 3,
   "category": "capstone",
   "description": "Students implement, test, and deliver their capstone project, then present it in a public portfolio with a technical report and reflection.",
   "prerequisites": [
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -31,10 +31,13 @@ export const enrollments = sqliteTable(
       .references(() => users.id, { onDelete: "cascade" }),
     programSlug: text("program_slug").notNull(),
     status: text("status", { enum: ["active", "graduated", "withdrawn"] }).notNull(),
+    /** First day of the cohort's first term (YYYY-MM-DD). Everyone in a cohort shares the same dates. */
+    cohortStart: text("cohort_start"),
+    concentration: text("concentration"),
     enrolledAt: createdAt(),
     endedAt: integer("ended_at", { mode: "timestamp" }),
   },
-  (t) => [index("enrollments_user_idx").on(t.userId)],
+  (t) => [index("enrollments_user_idx").on(t.userId), index("enrollments_cohort_idx").on(t.programSlug, t.cohortStart)],
 );
 
 /**
@@ -105,6 +108,13 @@ export const assignmentSubmissions = sqliteTable(
   },
   (t) => [index("assignment_lookup_idx").on(t.userId, t.courseCode, t.week)],
 );
+
+/** Administrative settings per program. Content stays in /content; this only controls how it is offered. */
+export const programSettings = sqliteTable("program_settings", {
+  slug: text("slug").primaryKey(),
+  hidden: integer("hidden", { mode: "boolean" }).notNull().default(false),
+  updatedAt: integer("updated_at", { mode: "timestamp" }).notNull().default(sql`(unixepoch())`),
+});
 
 export type User = typeof users.$inferSelect;
 export type Enrollment = typeof enrollments.$inferSelect;

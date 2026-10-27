@@ -1,8 +1,7 @@
 {
   "code": "CS 230",
   "title": "Database Systems",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Data modeling, the relational model, SQL, normalization, indexing, transactions, and an overview of non-relational databases.",
   "prerequisites": [
     "CS 201"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

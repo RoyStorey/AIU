@@ -18,7 +18,7 @@ export default async function StudentLayout({ children }: { children: React.Reac
           </div>
           <nav className="flex flex-wrap items-center gap-1 text-sm font-medium">
             <Link href="/student" className="rounded-md px-3 py-2 text-navy-700 hover:bg-navy-50">Dashboard</Link>
-            <Link href="/student/plan" className="rounded-md px-3 py-2 text-navy-700 hover:bg-navy-50">Degree Plan</Link>
+            <Link href="/student/plan" className="rounded-md px-3 py-2 text-navy-700 hover:bg-navy-50">My Plan</Link>
             <Link href="/student/transcript" className="rounded-md px-3 py-2 text-navy-700 hover:bg-navy-50">Transcript</Link>
             <form action={signOut}>
               <button className="rounded-md px-3 py-2 text-navy-500 hover:bg-navy-50 hover:text-navy-800">Sign out</button>

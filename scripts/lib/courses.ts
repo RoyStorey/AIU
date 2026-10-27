@@ -1,9 +1,21 @@
-import type { Course } from "../../src/lib/content/schema";
-import { generateCourseContent, mapLimit, usageTotals, type GenOptions } from "./generate";
+import { allProgramCodes, isSlot, slotNumber, type Course, type Program } from "../../src/lib/content/schema";
+import { generateCourseContent, generateResources, mapLimit, usageTotals, type GenOptions } from "./generate";
 import * as io from "./io";
 
 /** Generates full materials for each course code, saving each one as soon as it is finished. */
-export async function generateCourses(codes: string[], opts: GenOptions & { force?: boolean; courseConcurrency?: number; weekConcurrency?: number }) {
+/** Course codes scheduled in the given terms, expanding concentration slots to every concentration's course. */
+export function codesInTerms(program: Program, range: Set<number> | null) {
+  return program.terms
+    .filter((t) => !range || range.has(t.index))
+    .flatMap((t) =>
+      t.courses.flatMap((c) => (isSlot(c) ? program.concentrations.map((k) => k.courses[slotNumber(c) - 1]).filter(Boolean) : [c])),
+    );
+}
+
+export async function generateCourses(
+  codes: string[],
+  opts: GenOptions & { force?: boolean; resourcesOnly?: boolean; courseConcurrency?: number; weekConcurrency?: number },
+) {
   const log = opts.log ?? console.log;
   const programs = io.programs();
   const todo = codes.filter((code) => {
@@ -12,22 +24,22 @@ export async function generateCourses(codes: string[], opts: GenOptions & { forc
       log(`! ${code} is not in the catalog; skipping`);
       return false;
     }
+    if (opts.resourcesOnly) return c.status === "published" && (opts.force || c.resources.length === 0);
     return opts.force || c.status !== "published";
   });
-  log(`Generating materials for ${todo.length} course(s).`);
+  log(`Generating ${opts.resourcesOnly ? "resources" : "materials"} for ${todo.length} course(s).`);
 
   const failed: string[] = [];
   await mapLimit(todo, opts.courseConcurrency ?? 2, async (code) => {
     const summary = io.course(code)!;
     try {
-      const course: Course = await generateCourseContent(
-        summary,
-        {
-          programTitles: programs.filter((p) => p.terms.some((t) => t.courses.includes(code))).map((p) => p.title),
-          prerequisiteTitles: summary.prerequisites.map((p) => `${p} ${io.course(p)?.title ?? ""}`.trim()),
-        },
-        { ...opts, concurrency: opts.weekConcurrency ?? 4 },
-      );
+      const ctx = {
+        programTitles: programs.filter((p) => allProgramCodes(p).includes(code)).map((p) => p.title),
+        prerequisiteTitles: summary.prerequisites.map((p) => `${p} ${io.course(p)?.title ?? ""}`.trim()),
+      };
+      const course: Course = opts.resourcesOnly
+        ? await generateResources(summary, ctx, opts)
+        : await generateCourseContent(summary, ctx, { ...opts, concurrency: opts.weekConcurrency ?? 4 });
       io.saveCourse(course);
       log(`✓ ${code} ${summary.title}`);
     } catch (err) {

@@ -1,8 +1,7 @@
 {
   "code": "BUS 101",
   "title": "Introduction to Business",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "A tour of how businesses work: forms of ownership, the economic environment, management, marketing, accounting, finance, operations, and the ethical and social responsibilities of business.",
   "prerequisites": [],
   "status": "published",
@@ -114,7 +113,8 @@
           "Analyzes two environmental forces insightfully"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 2,
@@ -215,7 +215,8 @@
           "Connects an economic indicator and a business response"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 3,
@@ -316,7 +317,8 @@
           "Outlines three business plan sections with specific content"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 4,
@@ -417,7 +419,8 @@
           "Recommends a change with a thoughtful trade-off"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 5,
@@ -518,7 +521,8 @@
           "Addresses an ethical consideration"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 6,
@@ -619,7 +623,8 @@
           "Gives a justified financing recommendation"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 7,
@@ -720,7 +725,8 @@
           "Evaluates a technology's benefits and risks"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 8,
@@ -821,7 +827,8 @@
           "Makes a justified recommendation connected to CSR and global business"
         ],
         "minWords": 250
-      }
+      },
+      "resources": []
     }
   ],
   "finalExam": [
@@ -994,5 +1001,6 @@
   "generation": {
     "model": "claude-code-seed",
     "generatedAt": "2026-10-27T00:00:00.000Z"
-  }
+  },
+  "resources": []
 }

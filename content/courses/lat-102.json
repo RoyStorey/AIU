@@ -1,0 +1,14 @@
+{
+  "code": "LAT 102",
+  "title": "Elementary Latin II",
+  "category": "foundation",
+  "description": "Completion of basic Latin grammar: the remaining declensions, the perfect system, participles, the subjunctive, and the reading of simple original Latin prose and verse.",
+  "prerequisites": [
+    "LAT 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

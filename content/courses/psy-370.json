@@ -1,8 +1,7 @@
 {
   "code": "PSY 370",
   "title": "Clinical and Counseling Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "The professional practice of psychology: assessment, major therapeutic approaches, evidence-based treatment, ethics, and careers in mental health.",
   "prerequisites": [
     "PSY 250"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -15,7 +15,6 @@ export default async function TranscriptPage() {
     .filter((r) => r.status === "completed")
     .sort((a, b) => (a.completedAt?.getTime() ?? 0) - (b.completedAt?.getTime() ?? 0));
   const gpa = cumulativeGpa(records);
-  const credits = completed.reduce((n, r) => n + (getCourse(r.courseCode)?.credits ?? 0), 0);
 
   return (
     <div className="container-page py-10">
@@ -28,7 +27,7 @@ export default async function TranscriptPage() {
           <dl className="text-sm text-navy-700">
             <div><dt className="inline font-semibold">Student:</dt> <dd className="inline">{user.name}</dd></div>
             <div><dt className="inline font-semibold">Student ID:</dt> <dd className="inline">{user.studentNumber}</dd></div>
-            {program && <div><dt className="inline font-semibold">Program:</dt> <dd className="inline">{program.title}</dd></div>}
+            {program && <div><dt className="inline font-semibold">Program:</dt> <dd className="inline">{program.credential}</dd></div>}
           </dl>
         </div>
 
@@ -41,7 +40,6 @@ export default async function TranscriptPage() {
                 <th className="py-2 pr-4 font-semibold">Course</th>
                 <th className="py-2 pr-4 font-semibold">Title</th>
                 <th className="hidden py-2 pr-4 font-semibold sm:table-cell">Completed</th>
-                <th className="py-2 pr-4 text-right font-semibold">Credits</th>
                 <th className="py-2 text-right font-semibold">Grade</th>
               </tr>
             </thead>
@@ -53,7 +51,6 @@ export default async function TranscriptPage() {
                     <td className="py-2.5 pr-4 font-medium text-navy-700">{r.courseCode}</td>
                     <td className="py-2.5 pr-4 text-navy-900">{course?.title}</td>
                     <td className="hidden py-2.5 pr-4 text-navy-500 sm:table-cell">{r.completedAt ? formatDate(r.completedAt) : ""}</td>
-                    <td className="py-2.5 pr-4 text-right">{course?.credits}</td>
                     <td className="py-2.5 text-right font-semibold">{letterGrade(r.grade ?? 0).letter}</td>
                   </tr>
                 );
@@ -62,7 +59,7 @@ export default async function TranscriptPage() {
           </table>
         )}
         <div className="mt-6 flex justify-end gap-10 border-t-2 border-navy-800 pt-4 text-sm">
-          <p><span className="text-navy-500">Credits earned</span> <strong className="ml-2 text-navy-900">{credits}</strong></p>
+          <p><span className="text-navy-500">Courses completed</span> <strong className="ml-2 text-navy-900">{completed.length}</strong></p>
           <p><span className="text-navy-500">Cumulative GPA</span> <strong className="ml-2 text-navy-900">{gpa != null ? gpa.toFixed(2) : "—"}</strong></p>
         </div>
       </div>

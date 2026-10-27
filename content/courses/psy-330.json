@@ -1,8 +1,7 @@
 {
   "code": "PSY 330",
   "title": "Health Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "The interplay of psychological, behavioral, and social factors in health and illness: stress, coping, health behaviors, chronic illness, and the patient-provider relationship.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

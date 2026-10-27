@@ -1,16 +1,16 @@
 {
   "code": "CS 360",
   "title": "Machine Learning Foundations",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Supervised and unsupervised learning, linear and logistic regression, decision trees, neural networks, model evaluation, overfitting, and the responsible use of learned models.",
   "prerequisites": [
     "CS 201",
     "MATH 230",
-    "STA 210"
+    "MATH 220"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

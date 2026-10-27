@@ -1,14 +1,14 @@
 {
   "code": "CS 450",
   "title": "Natural Language Processing",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "concentration",
   "description": "Computational approaches to human language: text processing, language models, word embeddings, transformers, and applications such as classification, translation, and question answering.",
   "prerequisites": [
-    "CS 360"
+    "CS 455"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

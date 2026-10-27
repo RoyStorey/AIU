@@ -1,7 +1,6 @@
 {
   "code": "CS 490",
   "title": "Capstone I: Project Design",
-  "credits": 3,
   "category": "capstone",
   "description": "Students identify a meaningful problem, research users and prior work, write requirements, and design the architecture of a substantial software project.",
   "prerequisites": [
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

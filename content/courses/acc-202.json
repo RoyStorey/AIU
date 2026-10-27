@@ -1,8 +1,7 @@
 {
   "code": "ACC 202",
   "title": "Managerial Accounting",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Using accounting information for internal decisions: cost behavior, cost-volume-profit analysis, budgeting, variance analysis, and performance measurement.",
   "prerequisites": [
     "ACC 201"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

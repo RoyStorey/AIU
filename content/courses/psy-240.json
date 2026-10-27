@@ -1,8 +1,7 @@
 {
   "code": "PSY 240",
   "title": "Cognitive Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "The science of the mind: attention, perception, memory, language, problem solving, reasoning, and decision making.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

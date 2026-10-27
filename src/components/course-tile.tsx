@@ -1,23 +1,41 @@
 import Link from "next/link";
+import { letterGrade } from "@/lib/academics";
+import { formatShortDate } from "@/lib/calendar";
 import { getCourse } from "@/lib/content";
 import { courseSlug } from "@/lib/content/schema";
 import type { CourseRecord } from "@/lib/db/schema";
-import { letterGrade } from "@/lib/academics";
 import { Badge, ProgressBar } from "./ui";
 
-export function CourseTile({ code, record, percent }: { code: string; record?: CourseRecord; percent?: number }) {
+export function CourseTile({
+  code,
+  record,
+  percent,
+  opensAt,
+  overdue,
+}: {
+  code: string;
+  record?: CourseRecord;
+  percent?: number;
+  opensAt?: Date | null;
+  overdue?: boolean;
+}) {
   const course = getCourse(code);
   if (!course) return null;
   const published = course.status === "published";
-  const href = published ? `/student/courses/${courseSlug(code)}` : `/courses/${courseSlug(code)}`;
+  const locked = !record && !!opensAt;
+  const href = published && !locked ? `/student/courses/${courseSlug(code)}` : `/courses/${courseSlug(code)}`;
   return (
     <Link href={href} className="group flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm transition hover:border-navy-200 hover:shadow-md">
       <div className="flex items-start justify-between gap-3">
         <p className="text-sm font-semibold text-navy-500">{course.code}</p>
         {record?.status === "completed" ? (
           <Badge tone="green">Completed · {letterGrade(record.grade ?? 0).letter}</Badge>
+        ) : overdue ? (
+          <Badge tone="gold">Incomplete</Badge>
         ) : record ? (
           <Badge tone="gold">In progress</Badge>
+        ) : locked ? (
+          <Badge tone="gray">Opens {formatShortDate(opensAt!)}</Badge>
         ) : published ? (
           <Badge>Ready to begin</Badge>
         ) : (
@@ -36,7 +54,7 @@ export function CourseTile({ code, record, percent }: { code: string; record?: C
         </div>
       )}
       <p className="mt-5 text-sm font-semibold text-navy-700">
-        {!published ? "View course details →" : record?.status === "completed" ? "Review course →" : record ? "Continue →" : "Begin course →"}
+        {!published || locked ? "View course details →" : record?.status === "completed" ? "Review course →" : record ? "Continue →" : "Begin course →"}
       </p>
     </Link>
   );

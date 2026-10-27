@@ -1,8 +1,7 @@
 {
   "code": "CS 370",
   "title": "Cybersecurity Fundamentals",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Threat modeling, cryptography basics, authentication, secure software design, common vulnerabilities, network defense, and the ethics of security practice.",
   "prerequisites": [
     "CS 330"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

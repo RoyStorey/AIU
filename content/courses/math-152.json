@@ -1,8 +1,7 @@
 {
   "code": "MATH 152",
   "title": "Calculus II",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Techniques and applications of integration, sequences and series, Taylor polynomials, and an introduction to differential equations and parametric curves.",
   "prerequisites": [
     "MATH 151"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

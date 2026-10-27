@@ -16,10 +16,10 @@ export const metadata: Metadata = { title: "Final Examination" };
 
 export default async function FinalPage({ params, searchParams }: Props) {
   const { result, retake } = await searchParams;
-  const { user, course, record } = await loadClassroom((await params).code);
+  const { user, course, record, term } = await loadClassroom((await params).code);
   const base = `/student/courses/${courseSlug(course.code)}`;
   if (!record) redirect(base);
-  const work = await getCourseWork(user.id, course);
+  const work = await getCourseWork(user.id, course, term);
   if (!work.finalUnlocked) redirect(base);
 
   const last = await db

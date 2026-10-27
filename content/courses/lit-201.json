@@ -1,0 +1,14 @@
+{
+  "code": "LIT 201",
+  "title": "Literary Theory and Criticism",
+  "category": "core",
+  "description": "The major approaches critics use to interpret texts, including formalism, structuralism, psychoanalytic, Marxist, feminist, postcolonial, and ecocritical theory, applied to literary works.",
+  "prerequisites": [
+    "LIT 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

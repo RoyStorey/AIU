@@ -1,15 +1,15 @@
 {
   "code": "CS 470",
   "title": "Data Visualization",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "concentration",
   "description": "Principles of visual perception and design for presenting data, building interactive visualizations for the web, and telling honest stories with data.",
   "prerequisites": [
     "CS 220",
-    "STA 210"
+    "MATH 220"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

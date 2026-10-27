@@ -1,8 +1,7 @@
 {
   "code": "CS 410",
   "title": "Distributed Systems",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Building systems that span many machines: communication, replication, consistency, consensus, fault tolerance, and case studies of large-scale services.",
   "prerequisites": [
     "CS 310",
@@ -11,5 +10,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -1,7 +1,6 @@
 {
   "code": "PSY 490",
   "title": "Senior Seminar: Research Proposal",
-  "credits": 3,
   "category": "capstone",
   "description": "Students review a body of literature in an area of interest and develop a complete, ethically sound proposal for an original study.",
   "prerequisites": [
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

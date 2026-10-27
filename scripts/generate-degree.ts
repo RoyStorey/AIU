@@ -1,20 +1,22 @@
 /**
- * Create a new degree program.
+ * Create a new program of study.
  *
- *   npm run degree:new -- "Bachelor of Science in Nursing"
- *   npm run degree:new -- "Bachelor of Arts in History" --notes "Emphasize public history" --plan-only
+ *   npm run degree:new -- "History"
+ *   npm run degree:new -- "Philosophy" --notes "Strong emphasis on ethics and logic" --plan-only
  *
  * Options:
  *   --notes <text>        Extra guidance for the curriculum committee
- *   --plan-only           Write the degree plan and course stubs, but no course materials
+ *   --years <n>           Program length in years, 2-4 (default 3; five terms per year)
+ *   --plan-only           Write the plan and course stubs, but no course materials
  *   --terms <range>       Only generate materials for these terms, e.g. 1-5 (default: all)
  *   --model <id>          Claude model (default: $AIU_MODEL or claude-opus-5-5)
  *   --effort <level>      low | medium | high | xhigh | max
  */
 import { parseArgs } from "node:util";
 import "./lib/env";
+import { DEFAULT_YEARS } from "../src/lib/content/schema";
 import { llmConfigured } from "../src/lib/llm";
-import { generateCourses, printUsage } from "./lib/courses";
+import { codesInTerms, generateCourses, printUsage } from "./lib/courses";
 import { DEFAULT_MODEL, generateDegreePlan, type Effort } from "./lib/generate";
 import * as io from "./lib/io";
 import { parseRange } from "./lib/range";
@@ -23,6 +25,7 @@ const { values, positionals } = parseArgs({
   allowPositionals: true,
   options: {
     notes: { type: "string" },
+    years: { type: "string" },
     "plan-only": { type: "boolean", default: false },
     terms: { type: "string" },
     model: { type: "string" },
@@ -31,8 +34,9 @@ const { values, positionals } = parseArgs({
 });
 
 const title = positionals.join(" ").trim();
-if (!title) {
-  console.error('Usage: npm run degree:new -- "Bachelor of Science in <Major>" [--notes "..."] [--plan-only]');
+const years = Number(values.years ?? DEFAULT_YEARS);
+if (!title || !(years >= 2 && years <= 4)) {
+  console.error('Usage: npm run degree:new -- "<Discipline>" [--years 2-4] [--notes "..."] [--plan-only]');
   process.exit(1);
 }
 if (!llmConfigured()) {
@@ -45,7 +49,7 @@ const opts = { model, effort: values.effort as Effort | undefined };
 
 console.log(`\nAIU curriculum committee · ${title}\n`);
 const { program, newCourses, newSchool, newSubjects } = await generateDegreePlan(
-  { title, notes: values.notes },
+  { title, notes: values.notes, years },
   {
     catalog: io.courses(),
     schools: io.schools(),
@@ -60,12 +64,11 @@ if (newSubjects.length) io.saveSubjects({ ...Object.fromEntries(newSubjects.map(
 io.write(io.programFile(program.slug), program);
 const created = newCourses.filter(io.ensureCourseStub).length;
 
-console.log(`\n✓ ${program.title} → content/programs/${program.slug}.json`);
-console.log(`  ${program.terms.length} terms, ${created} new courses added to the catalog, ${40 - newCourses.length} reused.`);
+console.log(`\n✓ ${program.credential} → content/programs/${program.slug}.json`);
+console.log(`  ${program.terms.length} terms, ${program.concentrations.length} concentrations, ${created} new courses added to the catalog.`);
 
 if (!values["plan-only"]) {
-  const range = values.terms ? parseRange(values.terms) : null;
-  const codes = program.terms.filter((t) => !range || range.has(t.index)).flatMap((t) => t.courses);
+  const codes = codesInTerms(program, values.terms ? parseRange(values.terms) : null);
   const { failed } = await generateCourses(codes, opts);
   if (failed.length) console.log(`\nRe-run to retry: npm run courses:generate -- --program ${program.slug}`);
 }

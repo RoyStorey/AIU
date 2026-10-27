@@ -1,8 +1,7 @@
 {
   "code": "MGT 350",
   "title": "Human Resource Management",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Attracting, developing, and retaining talent: workforce planning, recruiting, selection, training, compensation, performance management, and employment law.",
   "prerequisites": [
     "MGT 220"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

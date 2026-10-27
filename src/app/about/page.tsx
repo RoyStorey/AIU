@@ -1,46 +1,48 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/ui";
-import { getCourses, getPrograms } from "@/lib/content";
+import { getVisibleCourses, getVisiblePrograms } from "@/lib/visibility";
 
 export const metadata: Metadata = { title: "About AIU" };
 
-export default function AboutPage() {
-  const programs = getPrograms();
-  const courses = getCourses();
+export default async function AboutPage() {
+  const programs = await getVisiblePrograms();
+  const courses = await getVisibleCourses();
   const published = courses.filter((c) => c.status === "published").length;
   return (
     <>
       <PageHeader eyebrow="About" title="About Artificial Intelligence University">
-        AIU exists to make a complete, structured undergraduate curriculum available to anyone who wants to learn.
+        AIU exists to make deep, structured study of a discipline available to anyone who wants to learn.
       </PageHeader>
       <div className="container-page max-w-3xl space-y-14 py-14 leading-relaxed text-navy-800/90">
         <section>
           <h2 className="text-2xl font-semibold text-navy-900">Our mission</h2>
           <p className="mt-4">
-            A university education is more than a collection of facts. It is a sequence: foundational courses that make
-            advanced ones possible, a balance of breadth and depth, and the steady discipline of finishing one term and
-            starting the next. AIU offers that structure, from a first-year seminar to a senior capstone, freely and
-            on your own schedule.
+            Learning a field well is more than collecting facts. It is a sequence: foundational courses that make
+            advanced ones possible, a focus you choose for yourself, and the steady discipline of finishing one term and
+            starting the next with people who are doing the same. AIU offers that structure in a single discipline, from
+            a first course to a capstone, studied together in cohorts.
           </p>
         </section>
 
         <section id="approach" className="scroll-mt-32">
           <h2 className="text-2xl font-semibold text-navy-900">How our courses are made</h2>
           <p className="mt-4">
-            AIU&apos;s curriculum is written by AI. When the university adds a degree, an AI model drafts the complete
-            four-year plan: its learning outcomes, the sequence of 40 courses, and the prerequisites that connect them.
-            Each course is then developed in the same way, week by week, into lessons, key terms, quizzes, written
+            AIU&apos;s curriculum is written by AI. When the university adds a program, an AI model drafts the complete
+            plan: its learning outcomes, the sequence of courses, its concentrations, and the prerequisites that connect
+            them. Each course is then developed in the same way, week by week, into lessons, key terms, quizzes, written
             assignments with rubrics, and a cumulative final exam.
           </p>
           <p className="mt-4">
             Every plan is checked automatically before it is published: each course must appear once, every
-            prerequisite must come in an earlier term, and every assessment must be well-formed. The curriculum is then
-            published in full, so anyone can read any course in the catalog before enrolling.
+            prerequisite must come in an earlier term for every concentration, and every assessment must be well-formed.
+            The curriculum is then published in full, so anyone can read any course in the catalog before enrolling.
           </p>
           <p className="mt-4">
-            AI-written material can contain mistakes. We encourage students to read critically, verify important claims
-            against other sources, and treat their coursework as the start of their learning rather than the end of it.
+            AI-written material can contain mistakes, so no AIU course stands alone. Each one recommends published books,
+            lectures, and documentaries by human scholars and creators, and we encourage students to read critically,
+            check important claims against those sources, and treat their coursework as the start of their learning
+            rather than the end of it.
             When an AI grader reviews a written assignment, it provides feedback against the published rubric.
           </p>
         </section>
@@ -58,8 +60,8 @@ export default function AboutPage() {
           <h2 className="font-sans text-base font-semibold text-navy-900">Accreditation and credentials</h2>
           <p className="mt-2">
             AIU is an independent, experimental institution. It is not accredited by any recognized accrediting body,
-            and the programs it offers do not confer academic degrees. Credits earned at AIU are not transferable to
-            other institutions. What you will take away is the knowledge itself.
+            and its certificates are not academic degrees. Coursework completed at AIU is not transferable to other
+            institutions. What you will take away is the knowledge itself.
           </p>
         </section>
 

@@ -1,0 +1,14 @@
+{
+  "code": "GRK 202",
+  "title": "Intermediate Greek: Poetry",
+  "category": "core",
+  "description": "Reading Greek verse, especially Homer: dactylic hexameter, the epic dialect, formulaic language, and the interpretation of Homeric poetry in the original.",
+  "prerequisites": [
+    "GRK 201"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { isAdminEmail } from "@/lib/admin";
 import { getCurrentUser } from "@/lib/auth";
 import { Crest } from "./crest";
 import { ButtonLink } from "./ui";
@@ -34,6 +35,7 @@ export async function SiteHeader() {
         <div className="container-page flex h-8 items-center justify-end gap-6">
           <Link href="/calendar" className="hover:text-white">Academic Calendar</Link>
           <Link href="/about#approach" className="hover:text-white">Our Approach</Link>
+          {user && isAdminEmail(user.email) && <Link href="/admin" className="text-gold-300 hover:text-white">Administration</Link>}
           {user ? (
             <Link href="/student" className="hover:text-white">Student Portal</Link>
           ) : (

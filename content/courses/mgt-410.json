@@ -1,8 +1,7 @@
 {
   "code": "MGT 410",
   "title": "Leadership",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Theories and practice of leadership: traits, behaviors, situational and transformational approaches, ethical leadership, and developing one's own leadership capacity.",
   "prerequisites": [
     "MGT 310"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

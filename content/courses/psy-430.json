@@ -1,8 +1,7 @@
 {
   "code": "PSY 430",
   "title": "Psychology and Technology",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "core",
   "description": "Human behavior in the digital age: social media and identity, attention and distraction, online relationships, persuasive design, and how people trust and use AI.",
   "prerequisites": [
     "PSY 220"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

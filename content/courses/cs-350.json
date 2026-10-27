@@ -1,8 +1,7 @@
 {
   "code": "CS 350",
   "title": "Programming Languages",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "How programming languages are designed and implemented: syntax and semantics, types, scope, functional and logic programming paradigms, and building an interpreter.",
   "prerequisites": [
     "CS 201"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

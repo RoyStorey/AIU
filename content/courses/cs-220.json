@@ -1,8 +1,7 @@
 {
   "code": "CS 220",
   "title": "Web Development Fundamentals",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Building for the web: HTML, CSS, and JavaScript, the HTTP request cycle, client-server architecture, accessibility, and an introduction to modern front-end frameworks.",
   "prerequisites": [
     "CS 102"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

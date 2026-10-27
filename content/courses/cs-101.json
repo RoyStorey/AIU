@@ -1,8 +1,7 @@
 {
   "code": "CS 101",
   "title": "Introduction to Programming",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "A first course in programming using Python. Students learn to break problems into steps and express them as code using variables, conditionals, loops, functions, and collections, and they develop habits of testing and debugging.",
   "prerequisites": [],
   "status": "published",
@@ -114,7 +113,8 @@
           "Accurately explains an error message"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 2,
@@ -215,7 +215,8 @@
           "Explanation correctly discusses types, conversion, and a failure case"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 3,
@@ -316,7 +317,8 @@
           "Trace accurately explains the evaluation of each condition"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 4,
@@ -417,7 +419,8 @@
           "Explains termination and off-by-one reasoning clearly"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 5,
@@ -518,7 +521,8 @@
           "Explains decomposition and naming decisions"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 6,
@@ -619,7 +623,8 @@
           "Explanation of indexing or slicing is accurate"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 7,
@@ -720,7 +725,8 @@
           "Explains the choice of data structure"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 8,
@@ -821,7 +827,8 @@
           "Describes design and a debugging process clearly"
         ],
         "minWords": 250
-      }
+      },
+      "resources": []
     }
   ],
   "finalExam": [
@@ -994,5 +1001,6 @@
   "generation": {
     "model": "claude-code-seed",
     "generatedAt": "2026-10-27T00:00:00.000Z"
-  }
+  },
+  "resources": []
 }

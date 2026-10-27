@@ -1,8 +1,7 @@
 {
   "code": "PSY 210",
   "title": "Lifespan Development",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Physical, cognitive, and social-emotional development from conception through late adulthood, and the major theories that explain continuity and change.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

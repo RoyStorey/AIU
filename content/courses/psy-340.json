@@ -1,8 +1,7 @@
 {
   "code": "PSY 340",
   "title": "Cross-Cultural Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "How culture shapes cognition, emotion, development, relationships, and mental health, and the challenges of conducting research across cultures.",
   "prerequisites": [
     "PSY 220"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

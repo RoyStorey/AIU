@@ -1,0 +1,14 @@
+{
+  "code": "LAT 202",
+  "title": "Intermediate Latin: Poetry",
+  "category": "core",
+  "description": "Reading Latin verse by poets such as Catullus, Virgil, and Ovid: meter and scansion, poetic word order, and the interpretation of poetry in the original.",
+  "prerequisites": [
+    "LAT 201"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

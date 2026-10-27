@@ -1,0 +1,14 @@
+{
+  "code": "HIS 150",
+  "title": "Medieval Europe",
+  "category": "foundation",
+  "description": "Europe from the fall of Rome to about 1500: the early medieval kingdoms, the Church, feudal society, towns and trade, the Crusades, the Black Death, and the intellectual and artistic achievements of the Middle Ages.",
+  "prerequisites": [
+    "HIS 110"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

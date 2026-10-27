@@ -1,0 +1,14 @@
+{
+  "code": "CS 445",
+  "title": "DevOps and Site Reliability Engineering",
+  "category": "concentration",
+  "description": "Running software in production: infrastructure as code, continuous delivery pipelines, monitoring and observability, incident response, service-level objectives, and building reliable systems at scale.",
+  "prerequisites": [
+    "CS 440"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

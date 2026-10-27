@@ -1,0 +1,14 @@
+{
+  "code": "LIT 220",
+  "title": "World Literature",
+  "category": "core",
+  "description": "Major works from beyond the English-speaking world, read in translation, from ancient and medieval classics to modern novels, with attention to translation and cultural context.",
+  "prerequisites": [
+    "LIT 140"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

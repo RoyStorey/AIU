@@ -1,0 +1,14 @@
+{
+  "code": "LIT 490",
+  "title": "Senior Seminar in Literature",
+  "category": "capstone",
+  "prerequisites": [
+    "LIT 280"
+  ],
+  "description": "An intensive seminar in which students study a focused topic, survey the relevant criticism, and develop a proposal and working bibliography for their senior thesis.",
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

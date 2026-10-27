@@ -32,11 +32,9 @@ export async function signUp(_: FormState, formData: FormData): Promise<FormStat
     studentNumber: newStudentNumber(),
     passwordHash: await hashPassword(password),
   });
-  if (program && getProgram(program)) {
-    await db.insert(schema.enrollments).values({ id: newId(), userId: id, programSlug: program, status: "active" });
-  }
   await startSession(id);
-  redirect(program ? "/student?welcome=1" : "/programs");
+  // Choosing a cohort and concentration happens on the enrollment page.
+  redirect(program && getProgram(program) ? `/enroll/${program}` : "/programs");
 }
 
 export async function signIn(_: FormState, formData: FormData): Promise<FormState> {

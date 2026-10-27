@@ -1,8 +1,7 @@
 {
   "code": "CS 102",
   "title": "Programming II: Data and Objects",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Continues the introduction to programming with object-oriented design, recursion, file and data processing, exceptions, unit testing, and an introduction to analyzing the efficiency of programs.",
   "prerequisites": [
     "CS 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

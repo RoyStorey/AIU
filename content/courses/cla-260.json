@@ -1,0 +1,14 @@
+{
+  "code": "CLA 260",
+  "title": "Classical Art and Architecture",
+  "category": "core",
+  "description": "Greek and Roman sculpture, painting, and architecture from the Archaic period to the Roman Empire, and their role in religion, politics, and private life.",
+  "prerequisites": [
+    "CLA 230"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

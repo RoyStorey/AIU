@@ -1,0 +1,14 @@
+{
+  "code": "CLA 230",
+  "title": "Classical Archaeology",
+  "category": "core",
+  "description": "How archaeology reveals the Greek and Roman worlds: excavation methods, major sites such as Athens, Delphi, Pompeii, and Rome, material culture, and what objects tell us that texts cannot.",
+  "prerequisites": [
+    "CLA 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

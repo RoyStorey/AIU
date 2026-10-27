@@ -1,8 +1,7 @@
 {
   "code": "MGT 420",
   "title": "Project Management",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Planning and delivering projects on time and on budget: scope, scheduling, cost estimation, risk management, stakeholder communication, and agile methods.",
   "prerequisites": [
     "MGT 220"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

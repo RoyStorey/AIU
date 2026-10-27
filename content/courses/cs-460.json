@@ -1,14 +1,14 @@
 {
   "code": "CS 460",
-  "title": "Mobile Application Development",
-  "credits": 3,
-  "category": "major-elective",
-  "description": "Designing and building applications for mobile devices: platform conventions, layouts, state, local storage, networking, and publishing.",
+  "title": "Computer Vision",
+  "category": "concentration",
+  "description": "How computers interpret images and video: image formation, filtering, features, geometry, object detection and segmentation, and modern deep-learning approaches to visual recognition.",
   "prerequisites": [
-    "CS 220"
+    "CS 455"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

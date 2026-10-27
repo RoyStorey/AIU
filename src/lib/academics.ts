@@ -1,9 +1,11 @@
 import "server-only";
 import { and, desc, eq } from "drizzle-orm";
 import type { SQLiteColumn } from "drizzle-orm/sqlite-core";
-import { getCourse, getProgram } from "./content";
-import { WEEKS_PER_COURSE, type Course, type Program } from "./content/schema";
+import { cohortSchedule, fromDateKey, openCohorts, today, weekStart, type CalendarTerm } from "./calendar";
+import { getProgram } from "./content";
+import { WEEKS_PER_COURSE, isSlot, resolveTerms, type Course, type Program, type Term } from "./content/schema";
 import { db, schema } from "./db";
+import type { Enrollment } from "./db/schema";
 
 export const PASSING_SCORE = 70;
 export const GRADE_WEIGHTS = { quizzes: 0.4, assignments: 0.3, final: 0.3 };
@@ -26,6 +28,19 @@ export function letterGrade(score: number) {
   return { letter, points };
 }
 
+/** One term of a student's plan, with its real calendar dates. */
+export type PlanTerm = Term & { calendar: CalendarTerm };
+
+export function cohortStartOf(enrollment: Enrollment) {
+  // Enrollments created before cohorts existed join the first cohort after they enrolled.
+  return enrollment.cohortStart ? fromDateKey(enrollment.cohortStart) : openCohorts(enrollment.enrolledAt, 1)[0].start;
+}
+
+export function studentPlan(program: Program, enrollment: Enrollment): PlanTerm[] {
+  const calendar = cohortSchedule(cohortStartOf(enrollment), program.terms.length);
+  return resolveTerms(program, enrollment.concentration).map((t, i) => ({ ...t, calendar: calendar[i] }));
+}
+
 export async function getActiveEnrollment(userId: string) {
   const enrollment = await db
     .select()
@@ -34,8 +49,10 @@ export async function getActiveEnrollment(userId: string) {
     .get();
   if (!enrollment) return null;
   const program = getProgram(enrollment.programSlug);
-  return program ? { enrollment, program } : null;
+  return program ? { enrollment, program, plan: studentPlan(program, enrollment) } : null;
 }
+
+export type ActiveEnrollment = NonNullable<Awaited<ReturnType<typeof getActiveEnrollment>>>;
 
 export async function getLatestEnrollment(userId: string) {
   return db
@@ -53,56 +70,50 @@ export async function getCourseRecords(userId: string) {
 
 export type Records = Awaited<ReturnType<typeof getCourseRecords>>;
 
-/** Where a student stands in their degree plan. */
-export function degreeProgress(program: Program, records: Records) {
-  let earned = 0;
-  let total = 0;
-  let currentTerm: Program["terms"][number] | null = null;
-  for (const term of program.terms) {
-    for (const code of term.courses) {
-      const credits = getCourse(code)?.credits ?? 3;
-      total += credits;
-      if (records.get(code)?.status === "completed") earned += credits;
-      else if (!currentTerm) currentTerm = term;
-    }
-  }
-  return { earned, total, percent: total ? Math.round((earned / total) * 100) : 0, currentTerm };
+/** Where a student stands in their program today. */
+export function standing(plan: PlanTerm[], records: Records, now = today()) {
+  const courses = plan.flatMap((t) => t.courses);
+  const completed = courses.filter((c) => records.get(c)?.status === "completed").length;
+  const current = plan.find((t) => now >= t.calendar.start && now <= t.calendar.end) ?? null;
+  const next = plan.find((t) => t.calendar.start > now) ?? null;
+  const phase = !plan.length || now < plan[0].calendar.start ? "before" : current ? "in-term" : next ? "break" : "finished";
+  return {
+    completed,
+    total: courses.length,
+    percent: courses.length ? Math.round((completed / courses.length) * 100) : 0,
+    current,
+    next,
+    phase,
+    pendingConcentration: courses.some(isSlot),
+    graduated: courses.length > 0 && completed === courses.length,
+  } as const;
 }
 
-export function cumulativeGpa(records: Records) {
-  let points = 0;
-  let credits = 0;
-  for (const record of records.values()) {
-    if (record.status !== "completed" || record.grade == null) continue;
-    const c = getCourse(record.courseCode)?.credits ?? 3;
-    points += letterGrade(record.grade).points * c;
-    credits += c;
-  }
-  return credits ? points / credits : null;
+export function termOfCourse(plan: PlanTerm[], code: string) {
+  return plan.find((t) => t.courses.includes(code)) ?? null;
 }
 
-/**
- * A student may open a course when it is in their program and they have
- * finished every course in earlier terms, or when they already have a record
- * for it (so finished courses stay available for review).
- */
-export function courseAccess(program: Program, records: Records, code: string) {
+/** A course opens to a student on the first day of the term their cohort takes it. */
+export function courseAccess(plan: PlanTerm[], records: Records, code: string, now = today()) {
   if (records.has(code)) return { allowed: true as const };
-  const termIdx = program.terms.findIndex((t) => t.courses.includes(code));
-  if (termIdx === -1) return { allowed: false as const, reason: "This course is not part of your degree plan." };
-  const blocked = program.terms
-    .slice(0, termIdx)
-    .flatMap((t) => t.courses)
-    .filter((c) => records.get(c)?.status !== "completed");
-  if (blocked.length)
-    return {
-      allowed: false as const,
-      reason: `Complete your earlier terms first (${blocked.slice(0, 3).join(", ")}${blocked.length > 3 ? "…" : ""}).`,
-    };
+  const term = termOfCourse(plan, code);
+  if (!term) return { allowed: false as const, reason: "This course is not part of your program plan." };
+  if (now < term.calendar.start) return { allowed: false as const, reason: "opens", opens: term.calendar.start };
   return { allowed: true as const };
 }
 
-export async function getCourseWork(userId: string, course: Course) {
+export function cumulativeGpa(records: Records) {
+  const graded = [...records.values()].filter((r) => r.status === "completed" && r.grade != null);
+  if (!graded.length) return null;
+  return graded.reduce((sum, r) => sum + letterGrade(r.grade!).points, 0) / graded.length;
+}
+
+/**
+ * Progress through one course. Weeks open on their calendar date (each Monday
+ * of the term) once the previous week is complete; with no term (for example a
+ * course kept from an earlier program) only the order rule applies.
+ */
+export async function getCourseWork(userId: string, course: Course, term: CalendarTerm | null = null, now = today()) {
   const where = (t: { userId: SQLiteColumn; courseCode: SQLiteColumn }) =>
     and(eq(t.userId, userId), eq(t.courseCode, course.code));
 
@@ -127,13 +138,14 @@ export async function getCourseWork(userId: string, course: Course) {
     const quizBest = best(number);
     const submission = submissions.find((s) => s.week === number) ?? null;
     const complete = lessonDone && quizBest != null && quizBest >= PASSING_SCORE && submission != null;
-    return { number, lessonDone, quizBest, submission, complete };
+    const opensAt = term ? weekStart(term, number) : null;
+    return { number, lessonDone, quizBest, submission, complete, opensAt, dateOpen: !opensAt || now >= opensAt };
   });
 
-  // Weeks open in order: each one unlocks when the previous week is complete.
-  const unlocked = weeks.map((_, i) => i === 0 || weeks[i - 1].complete);
+  const unlocked = weeks.map((w, i) => w.dateOpen && (i === 0 || weeks[i - 1].complete));
   const finalBest = best(0);
-  const finalUnlocked = weeks.every((w) => w.complete);
+  const finalOpensAt = term ? weekStart(term, WEEKS_PER_COURSE) : null;
+  const finalUnlocked = weeks.every((w) => w.complete) && (!finalOpensAt || now >= finalOpensAt);
 
   const quizAvg = avg(weeks.map((w) => w.quizBest ?? 0));
   const assignmentAvg = avg(weeks.map((w) => w.submission?.score ?? 0));
@@ -143,15 +155,19 @@ export async function getCourseWork(userId: string, course: Course) {
     (finalBest ?? 0) * GRADE_WEIGHTS.final;
 
   const completedWeeks = weeks.filter((w) => w.complete).length;
+  const passedFinal = finalBest != null && finalBest >= PASSING_SCORE;
   return {
     weeks,
     unlocked,
     finalBest,
     finalUnlocked,
+    finalOpensAt,
     quizAvg,
     assignmentAvg,
     grade,
-    percent: Math.round(((completedWeeks + (finalBest != null && finalBest >= PASSING_SCORE ? 1 : 0)) / (WEEKS_PER_COURSE + 1)) * 100),
+    /** The term has ended and the course isn't finished; work stays open so the student can catch up. */
+    overdue: !!term && now > term.end && !passedFinal,
+    percent: Math.round(((completedWeeks + (passedFinal ? 1 : 0)) / (WEEKS_PER_COURSE + 1)) * 100),
   };
 }
 
@@ -165,3 +181,9 @@ export function gradeQuiz(questions: { answerIndex: number }[], answers: number[
   const correct = questions.filter((q, i) => answers[i] === q.answerIndex).length;
   return questions.length ? (correct / questions.length) * 100 : 0;
 }
+
+/** Concentration can be chosen or changed until the student starts a concentration course. */
+export function canChangeConcentration(program: Program, records: Records) {
+  return !program.concentrations.some((c) => c.courses.some((code) => records.has(code)));
+}
+

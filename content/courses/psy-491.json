@@ -1,7 +1,6 @@
 {
   "code": "PSY 491",
   "title": "Senior Thesis",
-  "credits": 3,
   "category": "capstone",
   "description": "Students carry out the study proposed in the Senior Seminar, analyze their data, and write and present a thesis in the style of a journal article.",
   "prerequisites": [
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -1,0 +1,14 @@
+{
+  "code": "HIS 330",
+  "title": "Environmental History",
+  "category": "core",
+  "description": "The changing relationship between people and the natural world: agriculture, disease, energy, conservation, pollution, and climate, and how environmental forces have shaped human history.",
+  "prerequisites": [
+    "HIS 111"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

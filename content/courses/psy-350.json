@@ -1,8 +1,7 @@
 {
   "code": "PSY 350",
   "title": "History and Systems of Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "The development of psychology from its philosophical roots through structuralism, functionalism, behaviorism, psychoanalysis, humanism, and the cognitive revolution.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

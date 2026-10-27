@@ -1,8 +1,7 @@
 {
   "code": "PSY 450",
   "title": "Child and Adolescent Psychopathology",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "concentration",
   "description": "Psychological disorders that emerge in childhood and adolescence, including developmental, behavioral, and emotional disorders, and approaches to prevention and treatment.",
   "prerequisites": [
     "PSY 210",
@@ -11,5 +10,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

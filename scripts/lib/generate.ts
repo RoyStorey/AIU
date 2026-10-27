@@ -1,21 +1,21 @@
 import crypto from "node:crypto";
 import { z } from "zod";
 import {
-  CREDITS_PER_COURSE,
   COURSE_CATEGORIES,
   COURSES_PER_TERM,
-  SESSIONS,
+  RESOURCE_KINDS,
   TERMS_PER_YEAR,
-  TOTAL_TERMS,
   WEEKS_PER_COURSE,
   type Course,
   type CourseSummary,
   type Program,
   type Question,
+  type Resource,
   type School,
 } from "../../src/lib/content/schema";
 import { DEFAULT_MODEL, generateStructured } from "../../src/lib/llm";
 import { validateProgram } from "./validate";
+import { verifyResources } from "./verify";
 
 export type Effort = "low" | "medium" | "high" | "xhigh" | "max";
 export type GenOptions = { model?: string; effort?: Effort; log?: (msg: string) => void };
@@ -38,7 +38,7 @@ async function call<S extends z.ZodType>(opts: Parameters<typeof generateStructu
 // ---------------------------------------------------------------------------
 
 const LlmCourseSummary = z.object({
-  code: z.string().describe('Subject prefix + 3-digit number, e.g. "NUR 210"'),
+  code: z.string().describe('Subject prefix + 3-digit number, e.g. "HIS 210"'),
   title: z.string(),
   category: z.enum(COURSE_CATEGORIES),
   description: z.string().describe("A 45-70 word catalog description"),
@@ -46,10 +46,9 @@ const LlmCourseSummary = z.object({
 });
 
 export const LlmPlan = z.object({
-  slug: z.string().describe('URL slug, e.g. "bs-nursing" or "ba-history"'),
-  title: z.string().describe('Full degree title, e.g. "Bachelor of Science in Nursing"'),
-  degree: z.string().describe('Abbreviation, e.g. "B.S." or "B.A."'),
-  major: z.string(),
+  slug: z.string().describe('URL slug for the discipline, e.g. "history" or "nursing"'),
+  title: z.string().describe('The discipline, e.g. "History"'),
+  credential: z.string().describe('e.g. "Certificate in History"'),
   school: z.string().describe("Slug of an existing school, or of newSchool"),
   newSchool: z
     .object({ slug: z.string(), name: z.string(), description: z.string() })
@@ -58,12 +57,22 @@ export const LlmPlan = z.object({
   tagline: z.string().describe("One sentence, under 20 words"),
   overview: z.string().describe("Two paragraphs separated by a blank line"),
   outcomes: z.array(z.string()).describe("Six program learning outcomes"),
-  careers: z.array(z.object({ title: z.string(), description: z.string() })).describe("Four career paths"),
+  careers: z.array(z.object({ title: z.string(), description: z.string() })).describe("Four paths the program prepares students for"),
   newSubjects: z.array(z.object({ prefix: z.string(), name: z.string() })).describe("Any subject prefixes not already in use"),
-  newCourses: z.array(LlmCourseSummary).describe("Every course in the plan that is not already in the catalog"),
+  newCourses: z.array(LlmCourseSummary).describe("Every course in the plan or its concentrations that is not already in the catalog"),
   terms: z
     .array(z.object({ index: z.number(), courses: z.array(z.string()) }))
-    .describe(`Exactly ${TOTAL_TERMS} terms in order, each with exactly ${COURSES_PER_TERM} course codes`),
+    .describe('Terms in order, each with exactly two entries: course codes or concentration slots "@1", "@2", …'),
+  concentrations: z
+    .array(
+      z.object({
+        slug: z.string(),
+        name: z.string(),
+        description: z.string().describe("One or two sentences"),
+        courses: z.array(z.string()).describe("Course codes filling slots @1, @2, … in order"),
+      }),
+    )
+    .describe("Two or three concentrations"),
 });
 
 export const LlmSyllabus = z.object({
@@ -101,36 +110,53 @@ export const LlmWeek = z.object({
 
 export const LlmExam = z.object({ questions: z.array(LlmQuestion).describe("Exactly fifteen questions") });
 
+const LlmResource = z.object({
+  kind: z.enum(RESOURCE_KINDS),
+  title: z.string().describe("Exact published title"),
+  creator: z.string().describe("Author, director, YouTube channel, or publisher, exactly as credited"),
+  year: z.number().nullable(),
+  note: z.string().describe("One sentence on why it is worth a student's time"),
+  url: z.string().nullable().describe("Only for websites, or a video URL you are certain of; otherwise null"),
+});
+
+export const LlmResources = z.object({
+  course: z.array(LlmResource).describe("3-5 books and 1-3 other works for the whole course"),
+  weeks: z
+    .array(z.object({ number: z.number(), resources: z.array(LlmResource).describe("1-2 resources") }))
+    .describe(`One entry per week, ${WEEKS_PER_COURSE} in total`),
+});
+
 // ---------------------------------------------------------------------------
 
-const STRUCTURE = `AIU degree structure (required):
-- A bachelor's degree takes 4 years. Each year has ${TERMS_PER_YEAR} eight-week terms, in order: ${SESSIONS.join(", ")}.
-- That is ${TOTAL_TERMS} terms. Students take exactly ${COURSES_PER_TERM} courses per term, so a degree has ${TOTAL_TERMS * COURSES_PER_TERM} courses.
-- Every course is ${CREDITS_PER_COURSE} credit hours (${TOTAL_TERMS * COURSES_PER_TERM * CREDITS_PER_COURSE} total).
-- Course numbers reflect level: 100-level in year 1, 200-level mostly in year 2, 300-level in year 3, 400-level in year 4.
-- A prerequisite must be scheduled in an EARLIER term than the course that requires it (never the same term).
-- Balance: about 12-15 general-education courses spread across all four years (front-loaded), a coherent major core, 4-6 major electives in years 3-4, and 1-2 capstone courses in the final terms.
-- The first term pairs AIU 101 (the first-year seminar, if available in the catalog) with an introductory course in the major.`;
+const structure = (terms: number) => `AIU program structure (required):
+- The program has exactly ${terms} terms (${terms / TERMS_PER_YEAR} years of ${TERMS_PER_YEAR} eight-week terms). Students take exactly ${COURSES_PER_TERM} courses per term, so the plan has ${terms * COURSES_PER_TERM} entries.
+- AIU programs are certificate programs devoted entirely to one discipline. There are NO general-education, breadth, or first-year-seminar courses. Every course must belong to the discipline or be a direct tool of it (for example statistics in psychology, discrete mathematics in computer science, Latin and Greek in classics).
+- Sequence the plan like a strong university major: foundation courses first, then a deep core, then advanced work.
+- Course numbers reflect level: 100-level in year 1, 200-level in year 2, 300- and 400-level after that.
+- Include two or three concentrations. Each concentration is a coherent specialization of 4 courses. In the plan, reserve 4 entries for them using the slot tokens "@1", "@2", "@3", "@4" (each used once), placed in the second half of the program. Each concentration lists its 4 course codes in slot order. Concentration courses use the category "concentration"; no other course does.
+- End with a capstone (category "capstone") in the final term or two.
+- A prerequisite must be scheduled in an EARLIER term than the course that requires it, never the same term. This must hold for every concentration.`;
 
-const PLAN_SYSTEM = `You are the curriculum committee of Artificial Intelligence University (AIU), an online university whose curricula are written by AI. You design complete, realistic, rigorous undergraduate degree programs comparable to those at well-regarded universities, sequenced so that each course builds on the ones before it.
+const PLAN_SYSTEM = (terms: number) => `You are the curriculum committee of Artificial Intelligence University (AIU), an online university whose curricula are written by AI. You design rigorous, realistic programs of study comparable to the major at a well-regarded university, sequenced so each course builds on the ones before it.
 
-${STRUCTURE}
+${structure(terms)}
 
-Reuse existing catalog courses whenever they fit, especially general-education courses, by using their exact codes. Every course in the plan that is not in the catalog must be defined in newCourses, with a code that is not already used in the catalog. Use existing subject prefixes where they fit; declare any new prefix in newSubjects.`;
+Reuse an existing catalog course only when it genuinely belongs to this discipline, by using its exact code. Every other course must be defined in newCourses with a code not already used in the catalog. Use existing subject prefixes where they fit; declare any new prefix in newSubjects.`;
 
 export async function generateDegreePlan(
-  request: { title: string; notes?: string },
+  request: { title: string; notes?: string; years: number },
   ctx: { catalog: CourseSummary[]; schools: School[]; subjects: Record<string, string>; existingSlugs: string[] },
   opts: GenOptions = {},
 ) {
   const log = opts.log ?? console.log;
+  const terms = request.years * TERMS_PER_YEAR;
   const catalogText = ctx.catalog
     .slice()
     .sort((a, b) => a.code.localeCompare(b.code, "en", { numeric: true }))
     .map((c) => `${c.code} | ${c.title} | ${c.category} | prereqs: ${c.prerequisites.join(", ") || "none"}`)
     .join("\n");
 
-  const basePrompt = `Design this degree program: ${request.title}
+  const basePrompt = `Design this program: ${request.title}
 ${request.notes ? `\nAdditional guidance from the provost:\n${request.notes}\n` : ""}
 Existing schools (slug: name):
 ${ctx.schools.map((s) => `${s.slug}: ${s.name}`).join("\n")}
@@ -145,20 +171,22 @@ Slugs already in use (choose a different one): ${ctx.existingSlugs.join(", ") ||
 
   let feedback = "";
   for (let attempt = 1; attempt <= 3; attempt++) {
-    log(`  Drafting degree plan (attempt ${attempt})…`);
+    log(`  Drafting program plan (attempt ${attempt})…`);
     const { data, model } = await call({
       schema: LlmPlan,
-      system: PLAN_SYSTEM,
+      system: PLAN_SYSTEM(terms),
       prompt: basePrompt + feedback,
       model: opts.model,
       effort: opts.effort ?? "high",
     });
 
+    const fix = (c: string) => c.trim().toUpperCase().replace(/\s+/, " ");
     const newCourses: CourseSummary[] = data.newCourses.map((c) => ({
-      ...c,
-      code: c.code.trim().toUpperCase().replace(/\s+/, " "),
-      credits: CREDITS_PER_COURSE,
-      prerequisites: c.prerequisites.map((p) => p.trim().toUpperCase()),
+      code: fix(c.code),
+      title: c.title,
+      category: c.category,
+      description: c.description,
+      prerequisites: c.prerequisites.map(fix),
     }));
     const catalog = new Map(ctx.catalog.map((c) => [c.code, c]));
     const collisions = newCourses.filter((c) => catalog.has(c.code)).map((c) => c.code);
@@ -167,23 +195,19 @@ Slugs already in use (choose a different one): ${ctx.existingSlugs.join(", ") ||
     const program: Program = {
       slug: data.slug,
       title: data.title,
-      degree: data.degree,
-      major: data.major,
+      credential: data.credential,
       school: data.newSchool?.slug ?? data.school,
       tagline: data.tagline,
       overview: data.overview,
       outcomes: data.outcomes,
       careers: data.careers,
-      terms: data.terms.map((t, i) => ({
-        index: i + 1,
-        year: Math.floor(i / TERMS_PER_YEAR) + 1,
-        session: SESSIONS[i % TERMS_PER_YEAR],
-        courses: t.courses.map((c) => c.trim().toUpperCase()),
-      })),
+      terms: data.terms.map((t, i) => ({ index: i + 1, courses: t.courses.map((c) => (c.trim().startsWith("@") ? c.trim() : fix(c))) })),
+      concentrations: data.concentrations.map((c) => ({ ...c, courses: c.courses.map(fix) })),
       generation: { model, generatedAt: new Date().toISOString() },
     };
 
     const errors = validateProgram(program, catalog);
+    if (program.terms.length !== terms) errors.push(`The plan must have exactly ${terms} terms (it has ${program.terms.length}).`);
     if (collisions.length) errors.push(`These new course codes already exist in the catalog; reuse them or pick new codes: ${collisions.join(", ")}.`);
     if (ctx.existingSlugs.includes(program.slug)) errors.push(`The slug "${program.slug}" is already in use.`);
     if (!data.newSchool && !ctx.schools.some((s) => s.slug === program.school)) errors.push(`Unknown school "${program.school}".`);
@@ -194,7 +218,7 @@ Slugs already in use (choose a different one): ${ctx.existingSlugs.join(", ") ||
     }
 
     if (!errors.length) {
-      const used = new Set(program.terms.flatMap((t) => t.courses));
+      const used = new Set([...program.terms.flatMap((t) => t.courses), ...program.concentrations.flatMap((c) => c.courses)]);
       return {
         program,
         newCourses: newCourses.filter((c) => used.has(c.code)),
@@ -206,29 +230,31 @@ Slugs already in use (choose a different one): ${ctx.existingSlugs.join(", ") ||
     for (const e of errors.slice(0, 8)) log(`    - ${e}`);
     feedback = `\n\nA previous draft of this plan was rejected by the registrar for these problems. Produce a corrected, complete plan:\n${errors.map((e) => `- ${e}`).join("\n")}`;
   }
-  throw new Error("Could not produce a valid degree plan after 3 attempts.");
+  throw new Error("Could not produce a valid program plan after 3 attempts.");
 }
 
 // ---------------------------------------------------------------------------
 
-const COURSE_SYSTEM = `You are a professor at Artificial Intelligence University (AIU) writing the materials for an online, self-paced, eight-week undergraduate course. Students learn ONLY from what you write, so lessons must genuinely teach the material: explain ideas from the ground up, show worked examples, and anticipate misunderstandings. Write in clear, warm, academically rigorous prose at the level of a strong university course.
+const COURSE_SYSTEM = `You are a professor at Artificial Intelligence University (AIU) writing the materials for an online, eight-week course taken by a cohort of students. Students learn ONLY from what you write, so lessons must genuinely teach the material: explain ideas from the ground up, show worked examples, and anticipate misunderstandings. Write in clear, warm, academically rigorous prose at the level of a strong university course.
 
 Rules:
-- Use Markdown: ## and ### headings, short paragraphs, lists, tables, and fenced code blocks or LaTeX-free plain math where useful. Do not start with an H1; the page already shows the week title.
+- Use Markdown: ## and ### headings, short paragraphs, lists, tables, and fenced code blocks or plain-text math where useful. Do not start with an H1; the page already shows the week title.
 - Do not invent citations, URLs, quotations, or precise statistics. When referring to research, describe well-established findings in general terms.
 - Assessments must test understanding and application, not trivia. Question prompts may use Markdown; put any code in a fenced block. Multiple-choice distractors should be plausible. Vary which choice is correct.
 - Assignments must be completable as a written response (no file uploads, no external accounts).`;
 
 function courseContext(summary: CourseSummary, programTitles: string[]) {
-  return `Course: ${summary.code} ${summary.title} (${summary.credits} credits, ${summary.category})
+  return `Course: ${summary.code} ${summary.title} (${summary.category})
 Description: ${summary.description}
 Prerequisites: ${summary.prerequisites.join(", ") || "none"}
-Required in: ${programTitles.join("; ") || "general catalog"}`;
+Part of: ${programTitles.join("; ") || "general catalog"}`;
 }
+
+export type CourseContext = { programTitles: string[]; prerequisiteTitles: string[] };
 
 export async function generateCourseContent(
   summary: CourseSummary,
-  ctx: { programTitles: string[]; prerequisiteTitles: string[] },
+  ctx: CourseContext,
   opts: GenOptions & { concurrency?: number } = {},
 ): Promise<Course> {
   const log = opts.log ?? console.log;
@@ -273,6 +299,7 @@ Requirements:
       keyTerms: data.keyTerms,
       quiz: data.quiz.map(shuffleChoices),
       assignment: { ...data.assignment, minWords: Math.round(Math.max(100, Math.min(600, data.assignment.minWords))) },
+      resources: [] as Resource[],
     };
   });
 
@@ -287,13 +314,68 @@ Requirements:
     effort: opts.effort ?? "medium",
   });
 
-  return {
+  const course: Course = {
     ...summary,
     status: "published",
     outcomes: syllabus.outcomes,
     weeks,
     finalExam: exam.questions.map(shuffleChoices),
+    resources: [],
     generation: { model, generatedAt: new Date().toISOString() },
+  };
+  return generateResources(course, ctx, opts);
+}
+
+const RESOURCE_SYSTEM = `You are a university librarian at Artificial Intelligence University (AIU). AIU's lessons are written by AI, so every course points students to real, human-made works: books, documentaries, recorded lectures, and podcasts by established scholars, writers, and creators.
+
+Rules:
+- Recommend only works you are certain exist, with their exact titles and creators as published. Every recommendation is checked against library catalogs and anything that cannot be found is removed, so precision matters more than quantity.
+- Prefer well-known, widely available works: classic and standard texts, respected introductions by recognized experts, acclaimed documentaries, and lecture series from established sources (for example university open courseware, Crash Course, Khan Academy).
+- For videos and lectures, give the series or channel as the creator. Give a URL only for a website, or for a video whose exact URL you are certain of; otherwise use null and students will be sent to a search.
+- Suit the level of an undergraduate in this course, and say in one sentence why each is worth their time.`;
+
+/** Adds verified books and media to a course and each of its weeks. */
+export async function generateResources(course: Course, ctx: CourseContext, opts: GenOptions = {}): Promise<Course> {
+  const log = opts.log ?? console.log;
+  log(`  ${course.code}: resources`);
+  const { data } = await call({
+    schema: LlmResources,
+    system: RESOURCE_SYSTEM,
+    prompt: `${courseContext(course, ctx.programTitles)}
+
+Weekly topics:
+${course.weeks.map((w) => `Week ${w.number}: ${w.title} — ${w.overview}`).join("\n")}
+
+Recommend resources for the whole course (3-5 books and 1-3 other works) and 1-2 for each week that deepen that week's topic. Do not repeat a work.`,
+    model: opts.model,
+    effort: opts.effort ?? "medium",
+    maxTokens: 16000,
+  });
+
+  const clean = (r: z.infer<typeof LlmResource>): Resource => ({
+    kind: r.kind,
+    title: r.title.trim(),
+    creator: r.creator.trim(),
+    year: r.year ? Math.round(r.year) : null,
+    note: r.note.trim(),
+    url: r.url && /^https?:\/\//.test(r.url) ? r.url : null,
+    isbn: null,
+    verified: false,
+  });
+
+  const courseLevel = await verifyResources(data.course.map(clean));
+  const weekly = await Promise.all(
+    course.weeks.map((w) => verifyResources((data.weeks.find((x) => x.number === w.number)?.resources ?? []).map(clean))),
+  );
+  const all = [courseLevel, ...weekly];
+  const dropped = all.flatMap((r) => r.report.dropped);
+  if (dropped.length) log(`  ${course.code}: removed ${dropped.length} resource(s) not found in catalogs: ${dropped.join("; ")}`);
+  if (all.some((r) => r.report.offline)) log(`  ${course.code}: some resources could not be checked (offline); run npm run resources:verify later.`);
+
+  return {
+    ...course,
+    resources: courseLevel.resources,
+    weeks: course.weeks.map((w, i) => ({ ...w, resources: weekly[i].resources })),
   };
 }
 

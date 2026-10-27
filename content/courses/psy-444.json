@@ -1,0 +1,14 @@
+{
+  "code": "PSY 444",
+  "title": "Psychology of Language",
+  "category": "concentration",
+  "description": "How people produce, understand, and acquire language: speech perception, word recognition, sentence processing, reading, bilingualism, and the relationship between language and thought.",
+  "prerequisites": [
+    "PSY 240"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

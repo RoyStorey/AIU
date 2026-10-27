@@ -1,8 +1,7 @@
 {
   "code": "CS 440",
   "title": "Cloud Computing",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "concentration",
   "description": "Virtualization, containers, orchestration, serverless computing, cloud storage, and designing scalable, cost-aware applications on public cloud platforms.",
   "prerequisites": [
     "CS 310"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

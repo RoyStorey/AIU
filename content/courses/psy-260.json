@@ -1,8 +1,7 @@
 {
   "code": "PSY 260",
   "title": "Psychology of Learning and Behavior",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Classical and operant conditioning, observational learning, reinforcement schedules, and the application of learning principles to behavior change.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

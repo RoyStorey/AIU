@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge, PageHeader, categoryLabel } from "@/components/ui";
-import { getCourses, getSubjects, subjectOf } from "@/lib/content";
+import { getSubjects, subjectOf } from "@/lib/content";
+import { getVisibleCourses } from "@/lib/visibility";
 import { courseSlug } from "@/lib/content/schema";
 
 export const metadata: Metadata = { title: "Course Catalog" };
 
-export default function CoursesPage() {
+export default async function CoursesPage() {
   const subjects = getSubjects();
-  const courses = getCourses().sort((a, b) => a.code.localeCompare(b.code, "en", { numeric: true }));
+  const courses = (await getVisibleCourses()).sort((a, b) => a.code.localeCompare(b.code, "en", { numeric: true }));
   const groups = [...new Set(courses.map((c) => subjectOf(c.code)))]
     .map((prefix) => ({ prefix, name: subjects[prefix] ?? prefix, courses: courses.filter((c) => subjectOf(c.code) === prefix) }))
     .sort((a, b) => a.name.localeCompare(b.name));

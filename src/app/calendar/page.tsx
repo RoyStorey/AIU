@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/ui";
-import { academicYear, currentAcademicYearStart, formatDate } from "@/lib/calendar";
+import { academicYear, currentAcademicYearStart, formatDate, today } from "@/lib/calendar";
 
 export const metadata: Metadata = { title: "Academic Calendar" };
 
 export default function CalendarPage() {
   const start = currentAcademicYearStart();
   const years = [start, start + 1];
-  const now = new Date();
+  const now = today();
   return (
     <>
       <PageHeader eyebrow="Academics" title="Academic Calendar">
-        The AIU year is divided into five eight-week terms. Students may begin at any time and move at their own pace;
-        the calendar below shows the standard schedule for students who complete one term every eight weeks.
+        The AIU year is divided into five eight-week terms. Every term begins on the same day for all students, and each
+        new cohort starts on the first day of a term.
       </PageHeader>
       <div className="container-page space-y-12 py-12">
         {years.map((y) => (

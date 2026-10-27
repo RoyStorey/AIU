@@ -3,7 +3,7 @@
 import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { PASSING_SCORE, degreeProgress, getCourseRecords, getCourseWork, gradeQuiz } from "@/lib/academics";
+import { PASSING_SCORE, getCourseRecords, getCourseWork, gradeQuiz, standing } from "@/lib/academics";
 import { newId } from "@/lib/auth";
 import { loadClassroom } from "@/lib/classroom";
 import { courseSlug } from "@/lib/content/schema";
@@ -36,7 +36,7 @@ async function loadWeek(formData: FormData) {
   const n = Number(formData.get("week"));
   const week = ctx.course.weeks.find((w) => w.number === n);
   if (!week) redirect(base(ctx.course.code));
-  const work = await getCourseWork(ctx.user.id, ctx.course);
+  const work = await getCourseWork(ctx.user.id, ctx.course, ctx.term);
   if (!work.unlocked[n - 1]) redirect(base(ctx.course.code));
   return { ...ctx, week, work };
 }
@@ -83,9 +83,9 @@ export async function submitAssignment(_: AssignmentState, formData: FormData): 
 }
 
 export async function submitFinal(formData: FormData) {
-  const { user, course, record, active } = await loadClassroom(String(formData.get("course")));
+  const { user, course, record, active, term } = await loadClassroom(String(formData.get("course")));
   if (!record) redirect(base(course.code));
-  const work = await getCourseWork(user.id, course);
+  const work = await getCourseWork(user.id, course, term);
   if (!work.finalUnlocked) redirect(base(course.code));
 
   const answers = readAnswers(formData, course.finalExam.length);
@@ -93,15 +93,14 @@ export async function submitFinal(formData: FormData) {
   await db.insert(schema.quizAttempts).values({ id: newId(), userId: user.id, courseCode: course.code, week: 0, score, answers });
 
   if (score >= PASSING_SCORE && record.status !== "completed") {
-    const updated = await getCourseWork(user.id, course);
+    const updated = await getCourseWork(user.id, course, term);
     await db
       .update(schema.courseRecords)
       .set({ status: "completed", grade: Math.round(updated.grade * 10) / 10, completedAt: new Date() })
       .where(and(eq(schema.courseRecords.userId, user.id), eq(schema.courseRecords.courseCode, course.code)));
 
     if (active) {
-      const progress = degreeProgress(active.program, await getCourseRecords(user.id));
-      if (!progress.currentTerm) {
+      if (standing(active.plan, await getCourseRecords(user.id)).graduated) {
         await db
           .update(schema.enrollments)
           .set({ status: "graduated", endedAt: new Date() })

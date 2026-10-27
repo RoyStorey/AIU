@@ -1,10 +1,5 @@
 [
   {
-    "slug": "arts-sciences",
-    "name": "School of Arts & Sciences",
-    "description": "The intellectual foundation of an AIU education: writing, mathematics, the natural and social sciences, and the humanities, alongside majors in the behavioral sciences."
-  },
-  {
     "slug": "business",
     "name": "School of Business",
     "description": "Practical, analytically grounded preparation for leading organizations, building ventures, and making sound decisions in a global economy."
@@ -13,5 +8,15 @@
     "slug": "computing",
     "name": "School of Computing & Engineering",
     "description": "Rigorous study of computation, from mathematical foundations and systems to software engineering and artificial intelligence."
+  },
+  {
+    "slug": "humanities",
+    "name": "School of Humanities",
+    "description": "History, literature, writing, and the classics: the study of what people have thought, made, and done, and how to read and write about it well."
+  },
+  {
+    "slug": "social-sciences",
+    "name": "School of Social & Behavioral Sciences",
+    "description": "The scientific study of how people think, feel, behave, and live together."
   }
 ]

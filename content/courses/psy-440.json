@@ -1,14 +1,14 @@
 {
   "code": "PSY 440",
-  "title": "Forensic Psychology",
-  "credits": 3,
-  "category": "major-elective",
-  "description": "Psychology in the legal system: eyewitness memory, interrogation and confessions, jury decision making, risk assessment, and the roles of forensic psychologists.",
+  "title": "Psychopharmacology",
+  "category": "concentration",
+  "description": "How drugs affect the brain and behavior: pharmacokinetics, neurotransmitter systems, psychiatric medications, drugs of abuse, and how new treatments are tested.",
   "prerequisites": [
-    "PSY 250"
+    "PSY 230"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

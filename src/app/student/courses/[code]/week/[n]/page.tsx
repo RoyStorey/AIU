@@ -5,8 +5,10 @@ import { and, desc, eq } from "drizzle-orm";
 import { completeLesson, submitQuiz } from "@/app/actions/coursework";
 import { Markdown } from "@/components/markdown";
 import { QuizForm, QuizReview } from "@/components/quiz-form";
+import { WeekResources } from "@/components/resources";
 import { Badge, Button } from "@/components/ui";
 import { PASSING_SCORE, getCourseWork } from "@/lib/academics";
+import { formatShortDate } from "@/lib/calendar";
 import { loadClassroom } from "@/lib/classroom";
 import { courseSlug } from "@/lib/content/schema";
 import { db, schema } from "@/lib/db";
@@ -19,13 +21,13 @@ export const metadata: Metadata = { title: "Weekly Module" };
 export default async function WeekPage({ params, searchParams }: Props) {
   const { code, n } = await params;
   const { quiz: quizMode } = await searchParams;
-  const { user, course, record } = await loadClassroom(code);
+  const { user, course, record, term } = await loadClassroom(code);
   const base = `/student/courses/${courseSlug(course.code)}`;
   if (!record) redirect(base);
 
   const week = course.weeks.find((w) => w.number === Number(n));
   if (!week) notFound();
-  const work = await getCourseWork(user.id, course);
+  const work = await getCourseWork(user.id, course, term);
   if (!work.unlocked[week.number - 1]) redirect(base);
   const status = work.weeks[week.number - 1];
 
@@ -93,6 +95,12 @@ export default async function WeekPage({ params, searchParams }: Props) {
             </div>
           </section>
 
+          {week.resources.length > 0 && (
+            <div className="mt-8">
+              <WeekResources resources={week.resources} />
+            </div>
+          )}
+
           <section id="quiz" className="mt-12 scroll-mt-32">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h2 className="text-2xl font-semibold text-navy-900">Week {week.number} quiz</h2>
@@ -153,7 +161,13 @@ export default async function WeekPage({ params, searchParams }: Props) {
             ) : !next && work.finalUnlocked ? (
               <Link href={`${base}/final`} className="text-navy-700 hover:text-navy-900">Final exam →</Link>
             ) : (
-              <span className="font-normal text-navy-400">Complete this week to continue</span>
+              <span className="font-normal text-navy-400">
+                {next && !work.weeks[next.number - 1].dateOpen
+                  ? `Week ${next.number} opens ${formatShortDate(work.weeks[next.number - 1].opensAt!)}`
+                  : !next && work.finalOpensAt && !work.finalUnlocked && work.weeks.every((w) => w.complete)
+                    ? `Final exam opens ${formatShortDate(work.finalOpensAt)}`
+                    : "Complete this week to continue"}
+              </span>
             )}
           </div>
         </article>

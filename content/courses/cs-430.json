@@ -1,0 +1,14 @@
+{
+  "code": "CS 430",
+  "title": "Computing, Ethics, and Society",
+  "category": "core",
+  "description": "The responsibilities of people who build software: privacy, intellectual property, algorithmic bias, safety-critical systems, automation and work, and professional codes of conduct, studied through case analysis and argument.",
+  "prerequisites": [
+    "CS 320"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

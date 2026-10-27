@@ -1,8 +1,7 @@
 {
   "code": "PSY 250",
   "title": "Abnormal Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "The nature, causes, and treatment of psychological disorders, including anxiety, mood, psychotic, personality, and substance use disorders, examined through multiple perspectives.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

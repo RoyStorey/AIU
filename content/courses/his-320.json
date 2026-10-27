@@ -1,0 +1,14 @@
+{
+  "code": "HIS 320",
+  "title": "History of Science and Technology",
+  "category": "core",
+  "description": "How people have investigated nature and built tools, from ancient astronomy and medieval medicine to the Scientific Revolution, Darwin, the atomic age, and the digital revolution.",
+  "prerequisites": [
+    "HIS 111"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

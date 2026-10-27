@@ -1,8 +1,7 @@
 {
   "code": "MGT 220",
   "title": "Principles of Management",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "The functions of management, including planning, organizing, leading, and controlling, examined through theory and real organizational cases.",
   "prerequisites": [
     "BUS 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

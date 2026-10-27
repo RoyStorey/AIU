@@ -1,0 +1,15 @@
+{
+  "code": "MKT 420",
+  "title": "Marketing Research and Analytics",
+  "category": "concentration",
+  "description": "Turning customer data into marketing decisions: research design, surveys and experiments, segmentation analysis, marketing-mix and attribution models, and presenting insights.",
+  "prerequisites": [
+    "MKT 230",
+    "BUS 320"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

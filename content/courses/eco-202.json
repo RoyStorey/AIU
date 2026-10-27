@@ -1,8 +1,7 @@
 {
   "code": "ECO 202",
   "title": "Principles of Macroeconomics",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "The economy as a whole: GDP, unemployment, inflation, economic growth, money and banking, fiscal and monetary policy, and international trade.",
   "prerequisites": [
     "ECO 201"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -1,0 +1,14 @@
+{
+  "code": "HIS 310",
+  "title": "Digital History",
+  "category": "core",
+  "description": "Using digital tools to research and present the past: digitized archives, text analysis, mapping, databases, and online exhibitions, with attention to what new methods reveal and conceal.",
+  "prerequisites": [
+    "HIS 280"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

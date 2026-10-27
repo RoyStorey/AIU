@@ -1,15 +1,15 @@
 {
   "code": "PSY 201",
   "title": "Research Methods in Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "How psychologists know what they know: the scientific method, research ethics, measurement, observational, correlational, and experimental designs, and writing in APA style.",
   "prerequisites": [
     "PSY 101",
-    "STA 210"
+    "PSY 120"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -1,0 +1,180 @@
+{
+  "slug": "business-administration",
+  "title": "Business Administration",
+  "credential": "Certificate in Business Administration",
+  "school": "business",
+  "tagline": "Learn to lead organizations, build ventures, and make decisions grounded in evidence.",
+  "overview": "The Certificate in Business Administration is a three-year course of study in how organizations are built, managed, and led. You begin with the foundations of business, economics, accounting, management, and marketing, then master finance, analytics, operations, information systems, human resources, international business, and entrepreneurship.\n\nIn your final year you choose a concentration in finance, marketing, or entrepreneurship, study leadership and change, and bring the entire curriculum together in Strategic Management and a capstone project on a real business challenge.",
+  "outcomes": [
+    "Analyze financial statements and use financial tools to evaluate business decisions.",
+    "Develop marketing, operational, and strategic plans grounded in data and market research.",
+    "Lead and collaborate effectively in diverse teams and organizations.",
+    "Apply ethical reasoning and legal principles to business situations.",
+    "Use analytics and information systems to improve organizational performance.",
+    "Communicate business ideas persuasively to professional audiences."
+  ],
+  "careers": [
+    {
+      "title": "Management and Operations",
+      "description": "Lead teams and improve the processes that deliver an organization's products and services."
+    },
+    {
+      "title": "Financial Analyst",
+      "description": "Evaluate investments, budgets, and financial performance to guide decisions."
+    },
+    {
+      "title": "Marketing Manager",
+      "description": "Understand customers and build the campaigns that reach them."
+    },
+    {
+      "title": "Founder",
+      "description": "Turn an idea into a venture with a sound business model and the skills to grow it."
+    }
+  ],
+  "terms": [
+    {
+      "index": 1,
+      "courses": [
+        "BUS 101",
+        "ECO 201"
+      ]
+    },
+    {
+      "index": 2,
+      "courses": [
+        "ACC 201",
+        "ECO 202"
+      ]
+    },
+    {
+      "index": 3,
+      "courses": [
+        "ACC 202",
+        "BUS 210"
+      ]
+    },
+    {
+      "index": 4,
+      "courses": [
+        "MGT 220",
+        "MKT 230"
+      ]
+    },
+    {
+      "index": 5,
+      "courses": [
+        "BUS 215",
+        "BUS 240"
+      ]
+    },
+    {
+      "index": 6,
+      "courses": [
+        "FIN 301",
+        "MGT 310"
+      ]
+    },
+    {
+      "index": 7,
+      "courses": [
+        "BUS 320",
+        "BUS 340"
+      ]
+    },
+    {
+      "index": 8,
+      "courses": [
+        "MGT 330",
+        "MGT 350"
+      ]
+    },
+    {
+      "index": 9,
+      "courses": [
+        "BUS 360",
+        "BUS 370"
+      ]
+    },
+    {
+      "index": 10,
+      "courses": [
+        "MGT 410",
+        "MGT 420"
+      ]
+    },
+    {
+      "index": 11,
+      "courses": [
+        "BUS 380",
+        "@1"
+      ]
+    },
+    {
+      "index": 12,
+      "courses": [
+        "BUS 430",
+        "@2"
+      ]
+    },
+    {
+      "index": 13,
+      "courses": [
+        "MGT 440",
+        "@3"
+      ]
+    },
+    {
+      "index": 14,
+      "courses": [
+        "@4",
+        "MGT 490"
+      ]
+    },
+    {
+      "index": 15,
+      "courses": [
+        "BUS 450",
+        "BUS 491"
+      ]
+    }
+  ],
+  "concentrations": [
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "description": "Value companies, manage portfolios and risk, and understand the financial system.",
+      "courses": [
+        "FIN 320",
+        "FIN 330",
+        "FIN 340",
+        "FIN 420"
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "description": "Understand customers deeply and build brands and campaigns that reach them.",
+      "courses": [
+        "MKT 330",
+        "MKT 340",
+        "MKT 350",
+        "MKT 420"
+      ]
+    },
+    {
+      "slug": "entrepreneurship",
+      "name": "Entrepreneurship",
+      "description": "Start, fund, and grow new ventures and the products at their heart.",
+      "courses": [
+        "ENT 310",
+        "ENT 320",
+        "ENT 330",
+        "ENT 410"
+      ]
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
+}

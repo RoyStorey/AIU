@@ -1,8 +1,7 @@
 {
   "code": "PSY 410",
   "title": "Cognitive Neuroscience",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "How the brain gives rise to the mind: neuroimaging methods and findings on attention, memory, language, emotion, and executive function.",
   "prerequisites": [
     "PSY 230",
@@ -11,5 +10,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

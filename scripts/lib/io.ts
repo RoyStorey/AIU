@@ -56,6 +56,6 @@ export function saveCourse(c: Course) {
 /** Writes a "planned" course stub unless the course already exists. */
 export function ensureCourseStub(summary: CourseSummary) {
   if (course(summary.code)) return false;
-  saveCourse({ ...summary, status: "planned", outcomes: [], weeks: [], finalExam: [] });
+  saveCourse({ ...summary, status: "planned", outcomes: [], weeks: [], finalExam: [], resources: [] });
   return true;
 }

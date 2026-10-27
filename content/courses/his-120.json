@@ -1,12 +1,12 @@
 {
   "code": "HIS 120",
-  "title": "The Making of the Modern World",
-  "credits": 3,
-  "category": "general-education",
-  "description": "A global history from 1500 to the present: the rise of empires and nation-states, revolutions in science, politics, and industry, colonialism and decolonization, world wars, and globalization.",
+  "title": "United States History I: To 1877",
+  "category": "foundation",
+  "description": "American history from Indigenous societies and European colonization through the Revolution, the early republic, westward expansion, slavery, the Civil War, and Reconstruction.",
   "prerequisites": [],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

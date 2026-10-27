@@ -1,0 +1,14 @@
+{
+  "code": "HIS 121",
+  "title": "United States History II: Since 1877",
+  "category": "foundation",
+  "description": "The United States from the end of Reconstruction to the present: industrialization, immigration, Progressivism, the world wars, the Great Depression and New Deal, the civil rights movement, the Cold War, and recent decades.",
+  "prerequisites": [
+    "HIS 120"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

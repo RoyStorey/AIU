@@ -1,8 +1,7 @@
 {
   "code": "MGT 310",
   "title": "Organizational Behavior",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Individual and group behavior at work: personality, motivation, decision making, teams, communication, power, conflict, and organizational culture.",
   "prerequisites": [
     "MGT 220"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

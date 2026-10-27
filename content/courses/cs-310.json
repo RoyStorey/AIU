@@ -1,8 +1,7 @@
 {
   "code": "CS 310",
   "title": "Operating Systems",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Processes and threads, scheduling, synchronization, memory management and virtual memory, file systems, and protection in modern operating systems.",
   "prerequisites": [
     "CS 201",
@@ -11,5 +10,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

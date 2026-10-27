@@ -2,20 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ProgramCard } from "@/components/program-card";
 import { PageHeader } from "@/components/ui";
-import { getPrograms, getSchools } from "@/lib/content";
+import { getSchools } from "@/lib/content";
+import { getVisiblePrograms } from "@/lib/visibility";
 
 export const metadata: Metadata = { title: "Degree Programs" };
 
 export default async function ProgramsPage({ searchParams }: { searchParams: Promise<{ school?: string }> }) {
   const { school } = await searchParams;
   const schools = getSchools();
-  const programs = getPrograms().filter((p) => !school || p.school === school);
+  const programs = (await getVisiblePrograms()).filter((p) => !school || p.school === school);
 
   return (
     <>
       <PageHeader eyebrow="Academics" title="Degree Programs">
-        Every AIU bachelor&apos;s program is a complete four-year plan of 40 courses across 20 eight-week terms. Browse
-        the full degree map for any program before you apply.
+        Every AIU program is a focused course of study in a single discipline, taken two courses at a time in
+        eight-week terms alongside your cohort. Browse the complete plan for any program before you apply.
       </PageHeader>
       <div className="container-page py-12">
         <div className="flex flex-wrap gap-2">

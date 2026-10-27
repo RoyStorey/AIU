@@ -1,15 +1,15 @@
 {
   "code": "FIN 301",
   "title": "Corporate Finance",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "The time value of money, valuation of stocks and bonds, risk and return, capital budgeting, cost of capital, and financing decisions.",
   "prerequisites": [
     "ACC 201",
-    "STA 210"
+    "BUS 215"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

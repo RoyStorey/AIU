@@ -1,0 +1,15 @@
+{
+  "code": "CLA 240",
+  "title": "Ancient Historians: Herodotus to Tacitus",
+  "category": "core",
+  "description": "How the Greeks and Romans wrote history: Herodotus, Thucydides, Polybius, Livy, Sallust, and Tacitus, read in translation as historians and as sources.",
+  "prerequisites": [
+    "CLA 120",
+    "CLA 130"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

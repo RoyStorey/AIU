@@ -1,0 +1,14 @@
+{
+  "code": "CS 432",
+  "title": "Network Security",
+  "category": "concentration",
+  "description": "Defending networks: firewalls, intrusion detection, secure protocols, VPNs, wireless security, network monitoring, and the analysis of common attacks on network infrastructure.",
+  "prerequisites": [
+    "CS 370"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

@@ -1,0 +1,14 @@
+{
+  "code": "CLA 210",
+  "title": "Greek and Roman Philosophy",
+  "category": "core",
+  "description": "Ancient philosophy from the Presocratics through Socrates, Plato, and Aristotle to the Stoics, Epicureans, and Skeptics, read in translation with attention to ethics, knowledge, and the good life.",
+  "prerequisites": [
+    "CLA 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

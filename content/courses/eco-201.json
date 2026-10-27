@@ -1,12 +1,12 @@
 {
   "code": "ECO 201",
   "title": "Principles of Microeconomics",
-  "credits": 3,
-  "category": "general-education",
+  "category": "foundation",
   "description": "How individuals and firms make decisions under scarcity. Topics include supply and demand, elasticity, consumer choice, costs of production, market structures, market failures, and the role of government.",
   "prerequisites": [],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

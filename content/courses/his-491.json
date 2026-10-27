@@ -1,0 +1,14 @@
+{
+  "code": "HIS 491",
+  "title": "Senior Thesis",
+  "category": "capstone",
+  "prerequisites": [
+    "HIS 490"
+  ],
+  "description": "Students research and write an original work of history based on primary sources, revising it through drafts into a polished thesis they present to their cohort.",
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

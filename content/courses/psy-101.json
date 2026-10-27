@@ -1,8 +1,7 @@
 {
   "code": "PSY 101",
   "title": "Introduction to Psychology",
-  "credits": 3,
-  "category": "general-education",
+  "category": "foundation",
   "description": "A survey of the scientific study of behavior and mental processes: research methods, the brain, sensation and perception, learning, memory, development, personality, social behavior, and psychological disorders.",
   "prerequisites": [],
   "status": "published",
@@ -114,7 +113,8 @@
           "Writing is clear and well organized"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 2,
@@ -215,7 +215,8 @@
           "Addresses an ethical consideration thoughtfully"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 3,
@@ -316,7 +317,8 @@
           "Explains the hemisphere myth accurately"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 4,
@@ -417,7 +419,8 @@
           "Proposes a plausible perceptual error with correct reasoning"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 5,
@@ -518,7 +521,8 @@
           "Anticipates a realistic limitation"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 6,
@@ -619,7 +623,8 @@
           "Writing is clear and specific"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 7,
@@ -720,7 +725,8 @@
           "Connects a trait to studying with a practical strategy"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     },
     {
       "number": 8,
@@ -821,7 +827,8 @@
           "Offers a practical stigma-reduction strategy"
         ],
         "minWords": 200
-      }
+      },
+      "resources": []
     }
   ],
   "finalExam": [
@@ -994,5 +1001,6 @@
   "generation": {
     "model": "claude-code-seed",
     "generatedAt": "2026-10-27T00:00:00.000Z"
-  }
+  },
+  "resources": []
 }

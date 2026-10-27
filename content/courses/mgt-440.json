@@ -1,8 +1,7 @@
 {
   "code": "MGT 440",
   "title": "Managing Change",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "core",
   "description": "Why change efforts succeed or fail: models of organizational change, resistance, communication, culture, and leading people through transformation.",
   "prerequisites": [
     "MGT 310"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -1,0 +1,14 @@
+{
+  "code": "CS 438",
+  "title": "Secure Software Development",
+  "category": "concentration",
+  "description": "Building software that resists attack: threat modeling, input validation, authentication and session management, common web vulnerabilities, secure code review, and security testing in the development lifecycle.",
+  "prerequisites": [
+    "CS 370"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

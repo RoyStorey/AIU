@@ -1,8 +1,7 @@
 {
   "code": "PSY 280",
   "title": "Motivation and Emotion",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "core",
   "description": "What moves us: biological, cognitive, and social theories of motivation, the nature and function of emotions, and emotion regulation.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

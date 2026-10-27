@@ -1,14 +1,14 @@
 {
   "code": "BUS 320",
   "title": "Business Analytics",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Turning data into decisions: data preparation, descriptive and predictive analytics, regression, forecasting, and communicating insights with spreadsheets and dashboards.",
   "prerequisites": [
-    "STA 210"
+    "BUS 215"
   ],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

@@ -1,8 +1,7 @@
 {
   "code": "PSY 310",
   "title": "Theories of Personality",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Psychodynamic, trait, humanistic, social-cognitive, and biological approaches to personality, and how personality is measured.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

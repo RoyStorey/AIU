@@ -1,0 +1,14 @@
+{
+  "code": "LIT 410",
+  "title": "Advanced Literary Theory",
+  "category": "core",
+  "description": "A seminar on current debates in literary studies, including the uses of theory, the history of the book, digital humanities, and the future of reading.",
+  "prerequisites": [
+    "LIT 201"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

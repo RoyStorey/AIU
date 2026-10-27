@@ -72,8 +72,8 @@ export function Field({ label, hint, ...props }: ComponentProps<"input"> & { lab
 }
 
 export const categoryLabel: Record<string, string> = {
-  "general-education": "General Education",
-  "major-core": "Major Core",
-  "major-elective": "Major Elective",
+  foundation: "Foundation",
+  core: "Core",
+  concentration: "Concentration",
   capstone: "Capstone",
 };

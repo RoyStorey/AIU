@@ -1,8 +1,7 @@
 {
   "code": "PSY 220",
   "title": "Social Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "How people think about, influence, and relate to one another: attitudes, persuasion, conformity, group behavior, prejudice, attraction, aggression, and helping.",
   "prerequisites": [
     "PSY 101"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

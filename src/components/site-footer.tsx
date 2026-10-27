@@ -1,20 +1,22 @@
 import Link from "next/link";
 import { getSchools } from "@/lib/content";
+import { getVisiblePrograms } from "@/lib/visibility";
 import { Wordmark } from "./site-header";
 
-export function SiteFooter() {
-  const schools = getSchools();
+export async function SiteFooter() {
+  const programs = await getVisiblePrograms();
+  const schools = getSchools().filter((s) => programs.some((p) => p.school === s.slug));
   return (
     <footer className="mt-auto bg-navy-950 text-navy-200">
       <div className="container-page grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-1">
           <Wordmark light />
           <p className="mt-5 text-sm leading-relaxed text-navy-300">
-            A complete undergraduate education, open to anyone with the curiosity to begin.
+            Serious study in a single discipline, open to anyone with the curiosity to begin.
           </p>
         </div>
         <FooterCol title="Academics">
-          <Link href="/programs">Degree Programs</Link>
+          <Link href="/programs">Programs</Link>
           <Link href="/courses">Course Catalog</Link>
           <Link href="/calendar">Academic Calendar</Link>
         </FooterCol>

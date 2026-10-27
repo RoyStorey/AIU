@@ -1,12 +1,12 @@
 {
   "code": "ACC 201",
   "title": "Financial Accounting",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "The language of business: the accounting cycle, preparing and analyzing the balance sheet, income statement, and statement of cash flows, and the principles behind them.",
   "prerequisites": [],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

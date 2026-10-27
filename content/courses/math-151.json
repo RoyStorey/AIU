@@ -1,12 +1,12 @@
 {
   "code": "MATH 151",
   "title": "Calculus I",
-  "credits": 3,
-  "category": "major-core",
+  "category": "foundation",
   "description": "Limits and continuity, the derivative and its applications to rates of change and optimization, and an introduction to the definite integral and the Fundamental Theorem of Calculus.",
   "prerequisites": [],
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

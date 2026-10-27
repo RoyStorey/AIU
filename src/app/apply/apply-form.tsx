@@ -26,7 +26,7 @@ export function ApplyForm({ programs, selected }: { programs: { slug: string; ti
       </label>
       {state?.error && <p className="rounded-md bg-red-50 px-3 py-2 text-sm text-red-700">{state.error}</p>}
       <Button variant="primary" className="w-full py-3" disabled={pending}>
-        {pending ? "Submitting…" : "Submit application"}
+        {pending ? "Submitting…" : "Continue to enrollment"}
       </Button>
     </form>
   );

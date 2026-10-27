@@ -1,8 +1,7 @@
 {
   "code": "BUS 370",
   "title": "Entrepreneurship and Innovation",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "From idea to venture: opportunity recognition, customer discovery, business models, lean experimentation, financing, and building a startup team.",
   "prerequisites": [
     "MKT 230"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

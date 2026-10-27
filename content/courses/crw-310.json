@@ -1,0 +1,14 @@
+{
+  "code": "CRW 310",
+  "title": "Advanced Workshop I",
+  "category": "core",
+  "description": "An advanced workshop in the student's chosen genre, focused on ambitious new work and rigorous critique among serious writers.",
+  "prerequisites": [
+    "CRW 290"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

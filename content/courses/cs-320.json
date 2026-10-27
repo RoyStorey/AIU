@@ -1,8 +1,7 @@
 {
   "code": "CS 320",
   "title": "Software Engineering",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Engineering software in teams: requirements, design, version control, testing strategies, code review, continuous integration, and agile project management.",
   "prerequisites": [
     "CS 201"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

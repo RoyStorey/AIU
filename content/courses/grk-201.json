@@ -1,0 +1,14 @@
+{
+  "code": "GRK 201",
+  "title": "Intermediate Greek: Prose",
+  "category": "core",
+  "description": "Reading continuous Greek prose by authors such as Xenophon, Lysias, and Plato, with grammar review, vocabulary building, and attention to style and context.",
+  "prerequisites": [
+    "GRK 102"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": [],
+  "resources": []
+}

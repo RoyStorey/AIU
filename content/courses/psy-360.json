@@ -1,8 +1,7 @@
 {
   "code": "PSY 360",
   "title": "Industrial-Organizational Psychology",
-  "credits": 3,
-  "category": "major-core",
+  "category": "core",
   "description": "Psychology applied to the workplace: personnel selection, performance appraisal, training, motivation, job satisfaction, leadership, and organizational culture.",
   "prerequisites": [
     "PSY 220"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }

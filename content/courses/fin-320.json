@@ -1,8 +1,7 @@
 {
   "code": "FIN 320",
   "title": "Investments",
-  "credits": 3,
-  "category": "major-elective",
+  "category": "concentration",
   "description": "Financial markets and instruments, portfolio theory, asset pricing models, market efficiency, and the analysis of stocks, bonds, and funds.",
   "prerequisites": [
     "FIN 301"
@@ -10,5 +9,6 @@
   "status": "planned",
   "outcomes": [],
   "weeks": [],
-  "finalExam": []
+  "finalExam": [],
+  "resources": []
 }
