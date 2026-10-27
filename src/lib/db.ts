@@ -1,5 +1,5 @@
 import "server-only";
-import { DatabaseSync } from "node:sqlite";
+import Database from "better-sqlite3";
 import { mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { catalogue } from "@/content/catalogue";
@@ -103,10 +103,10 @@ export function slugify(text: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
-function open(): DatabaseSync {
+function open(): Database.Database {
   const file = resolve(process.env.AIU_DATABASE ?? "data/aiu.db");
   mkdirSync(dirname(file), { recursive: true });
-  const db = new DatabaseSync(file);
+  const db = new Database(file);
   db.exec("PRAGMA journal_mode = WAL; PRAGMA foreign_keys = ON; PRAGMA busy_timeout = 5000;");
   db.exec(SCHEMA);
   seed(db);
@@ -119,7 +119,7 @@ function open(): DatabaseSync {
  * edits to the authored catalogue take effect, but never touches rows that
  * students or the forge created.
  */
-function seed(db: DatabaseSync) {
+function seed(db: Database.Database) {
   const upsertSubject = db.prepare(`
     INSERT INTO subjects (slug, name, description, epigraph, attribution, position, origin)
     VALUES (?, ?, ?, ?, ?, ?, 'seed')
@@ -190,16 +190,16 @@ function checkAuthored(code: string, content: CourseContent) {
 }
 
 /** Drafts cannot survive a restart; mark them failed so a student can ask again. */
-function abandonInterruptedWork(db: DatabaseSync) {
+function abandonInterruptedWork(db: Database.Database) {
   const note = "The University was restarted while this was being prepared.";
   for (const table of ["subjects", "concentrations", "courses", "inquiries", "continuations"]) {
     db.prepare(`UPDATE ${table} SET status = 'failed', error = ? WHERE status = 'drafting'`).run(note);
   }
 }
 
-const globalForDb = globalThis as unknown as { aiuDb?: DatabaseSync };
+const globalForDb = globalThis as unknown as { aiuDb?: Database.Database };
 
-function connection(): DatabaseSync {
+function connection(): Database.Database {
   return (globalForDb.aiuDb ??= open());
 }
 
@@ -207,7 +207,7 @@ function connection(): DatabaseSync {
  * The University's database, opened on first use rather than on import, so
  * that building the site never touches it.
  */
-export const db = new Proxy({} as DatabaseSync, {
+export const db = new Proxy({} as Database.Database, {
   get(_, property) {
     const target = connection();
     const value = Reflect.get(target, property, target);

@@ -50,8 +50,12 @@ const COURSE_COLUMNS = `
   COALESCE(json_array_length(content, '$.lessons'), 0) AS lessons
 `;
 
-function toCourse(row: Record<string, unknown>): Course {
-  return { ...(row as unknown as Course), texts: JSON.parse(row.texts as string) };
+/** A course as stored: its core texts and content are JSON strings. */
+type CourseRow = Omit<Course, "texts"> & { texts: string; content?: string | null };
+
+function toCourse(row: unknown): Course {
+  const course = row as CourseRow;
+  return { ...course, texts: JSON.parse(course.texts) };
 }
 
 export function listSubjects(): Subject[] {
@@ -94,12 +98,12 @@ export function listCourses(concentrationId: number): Course[] {
 }
 
 export function getCourse(id: string): CourseWithContent | null {
-  const row = db.prepare(`SELECT ${COURSE_COLUMNS}, content FROM courses WHERE id = ?`).get(id);
+  const row = db.prepare(`SELECT ${COURSE_COLUMNS}, content FROM courses WHERE id = ?`).get(id) as CourseRow | undefined;
   if (!row) return null;
   const course = toCourse(row);
   const concentration = getConcentrationById(course.concentration_id)!;
   const subject = getSubject(concentration.subject_slug)!;
-  const content = row.content ? (JSON.parse(row.content as string) as CourseContent) : null;
+  const content = row.content ? (JSON.parse(row.content) as CourseContent) : null;
   return { ...course, content, concentration, subject };
 }
 

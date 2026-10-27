@@ -29,7 +29,7 @@ All drafting happens in the background; pages refresh themselves until the work 
 
 ## Running it
 
-Requires Node.js 22.13 or later (the database is the built-in `node:sqlite`).
+Requires Node.js 20 or later. The database is SQLite, through `better-sqlite3`, which installs prebuilt binaries for Windows, macOS, and Linux.
 
 ```bash
 npm install
