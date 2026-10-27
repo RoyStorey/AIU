@@ -20,7 +20,7 @@ const serif = EB_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: { default: "Sloppy Toppy Academy", template: "%s · Sloppy Toppy Academy" },
+  title: { default: "Cornerstone", template: "%s · Cornerstone" },
   description:
     "An academy of the humanities, with programs of study in Literature, Classics, History, Theology, and Linguistics.",
 };
@@ -33,10 +33,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         <header className="masthead">
           <div className="wrap masthead-inner">
-            <Link href="/" className="brand" aria-label="Sloppy Toppy Academy, home">
+            <Link href="/" className="brand" aria-label="Cornerstone, home">
               <Crest className="brand-mark" />
               <span className="brand-name">
-                Sloppy Toppy Academy
+                Cornerstone
                 <span>Founded MMXXVI</span>
               </span>
             </Link>
@@ -65,7 +65,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <footer className="colophon">
           <div className="wrap">
             <div className="colophon-inner">
-              <p><em>Sloppy Toppy Academy.</em> No degree is conferred; the learning is real.</p>
+              <p><em>Cornerstone.</em> No degree is conferred; the learning is real.</p>
               <p className="gold-motto">Tolle, lege.</p>
             </div>
           </div>

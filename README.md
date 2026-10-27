@@ -1,4 +1,4 @@
-# Sloppy Toppy Academy
+# Cornerstone
 
 An academy of the humanities. Students matriculate, choose a faculty and a concentration, and work through a full program of study, from Foundations to a capstone Seminar. Every course has lectures, assigned readings from real editions, recorded lectures and audio, a reference shelf, and knowledge checks. No degree is conferred; the learning is real.
 
@@ -18,9 +18,9 @@ Six courses are written in full by hand: **POE 101** The Art of Poetry, **AAL 10
 
 ## The forge
 
-With an Anthropic API key, Claude extends the Academy:
+With an Anthropic API key, Claude extends Cornerstone:
 
-- **Inquiries.** A student types “I want to learn Astronomy.” If the Academy already teaches it, they are taken there. If not, the faculty decides whether it belongs as a new concentration in an existing faculty or as a new faculty, and drafts a full program of study.
+- **Inquiries.** A student types “I want to learn Astronomy.” If Cornerstone already teaches it, they are taken there. If not, the faculty decides whether it belongs as a new concentration in an existing faculty or as a new faculty, and drafts a full program of study.
 - **Proposed concentrations.** Any signed-in student can propose a new concentration within a faculty.
 - **Course preparation.** An outlined course is prepared the first time a student opens it. A librarian pass searches the web for real editions, lectures, recordings, and archives; the faculty then writes the lectures, readings, media, knowledge checks, and reference shelf from those notes. **Any link that did not appear in the search results is removed**, so students never follow an invented URL.
 - **Continuing studies.** When a student completes every course in a program, they may ask for more: the faculty drafts graduate-level courses that extend it.

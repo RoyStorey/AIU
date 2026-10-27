@@ -26,7 +26,7 @@ export default async function InquiryPage({ params }: { params: Promise<{ id: st
       ) : (
         <Preparing title="The faculty is considering your request">
           <p>
-            The Academy does not yet teach this subject. The faculty is deciding where it belongs and drafting a
+            Cornerstone does not yet teach this subject. The faculty is deciding where it belongs and drafting a
             full program of study. This usually takes a minute or two.
           </p>
         </Preparing>

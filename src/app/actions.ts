@@ -73,7 +73,7 @@ export async function inquire(_: FormState, form: FormData): Promise<FormState> 
 
   if (!forgeAvailable()) {
     return {
-      error: `The Academy does not yet teach “${query}”, and new programs can only be drafted once the forge is configured with an Anthropic API key.`,
+      error: `Cornerstone does not yet teach “${query}”, and new programs can only be drafted once the forge is configured with an Anthropic API key.`,
     };
   }
   redirect(`/inquiries/${startInquiry(query)}`);

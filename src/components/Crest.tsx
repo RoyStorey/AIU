@@ -1,4 +1,4 @@
-/** The Academy's mark: an open book beneath a gold star, within a double ring. */
+/** Cornerstone's mark: an open book beneath a gold star, within a double ring. */
 export function Crest({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 64 64" className={className} aria-hidden="true" fill="none" stroke="currentColor">

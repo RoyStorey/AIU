@@ -113,7 +113,7 @@ export type SearchHit =
   | { kind: "course"; course: Course; concentration: Concentration };
 
 /**
- * Finds what the Academy already teaches that answers a student's wish
+ * Finds what Cornerstone already teaches that answers a student's wish
  * ("I want to learn Latin"). Exact names rank first, then concentrations, then courses.
  */
 export function search(query: string): SearchHit[] {

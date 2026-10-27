@@ -16,7 +16,7 @@ export default async function Login({ searchParams }: { searchParams: Promise<{ 
         <h1>Sign in</h1>
         <p className="lede">Return to your studies.</p>
         <SignInForm next={next} />
-        <p className="alt">New to the Academy? <Link href={next ? `/signup?next=${encodeURIComponent(next)}` : "/signup"}>Matriculate</Link></p>
+        <p className="alt">New to Cornerstone? <Link href={next ? `/signup?next=${encodeURIComponent(next)}` : "/signup"}>Matriculate</Link></p>
       </div>
     </div>
   );

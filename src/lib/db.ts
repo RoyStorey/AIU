@@ -103,7 +103,7 @@ export function slugify(text: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
-/** Stamped into the file's user_version, so the Academy only ever opens databases it made. */
+/** Stamped into the file's user_version, so Cornerstone only ever opens databases it made. */
 const SCHEMA_VERSION = 1;
 
 function open(): Database.Database {
@@ -117,7 +117,7 @@ function open(): Database.Database {
   if (version !== SCHEMA_VERSION && (version !== 0 || tables > 0)) {
     db.close();
     throw new Error(
-      `${file} was not created by this version of the Academy. ` +
+      `${file} was not created by this version of Cornerstone. ` +
         "Move or delete it, or set AIU_DATABASE to a different path.",
     );
   }
@@ -206,7 +206,7 @@ function checkAuthored(code: string, content: CourseContent) {
 
 /** Drafts cannot survive a restart; mark them failed so a student can ask again. */
 function abandonInterruptedWork(db: Database.Database) {
-  const note = "The Academy was restarted while this was being prepared.";
+  const note = "Cornerstone was restarted while this was being prepared.";
   for (const table of ["subjects", "concentrations", "courses", "inquiries", "continuations"]) {
     db.prepare(`UPDATE ${table} SET status = 'failed', error = ? WHERE status = 'drafting'`).run(note);
   }
@@ -219,7 +219,7 @@ function connection(): Database.Database {
 }
 
 /**
- * The Academy's database, opened on first use rather than on import, so
+ * Cornerstone's database, opened on first use rather than on import, so
  * that building the site never touches it.
  */
 export const db = new Proxy({} as Database.Database, {
