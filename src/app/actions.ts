@@ -7,12 +7,14 @@ import { currentUser, endSession, hashPassword, requireUser, startSession, verif
 import { getConcentrationById, getCourse, getSubject, search } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { PASSING, enroll, recordLesson, withdraw } from "@/lib/progress";
+import { ESSAY_LIMITS } from "@/lib/schema";
 import {
   continueStudies as beginContinuation,
   prepareCourse as beginCourse,
   proposeConcentration as beginConcentration,
   retryConcentration,
   startInquiry,
+  submitEssay as beginGrading,
 } from "@/lib/registrar";
 
 export type FormState = { error?: string } | undefined;
@@ -161,4 +163,23 @@ export async function submitKnowledgeCheck(
     passed,
     signedIn: !!user,
   };
+}
+
+// ——— Written exercises ———
+
+const words = (text: string) => text.split(/\s+/).filter(Boolean).length;
+
+export async function submitEssay(_: FormState, form: FormData): Promise<FormState> {
+  const courseId = text(form, "course");
+  const lessonIndex = Number(form.get("lesson"));
+  const response = text(form, "response");
+  const user = await requireUser(`/courses/${courseId}/lessons/${lessonIndex + 1}`);
+
+  if (!forgeAvailable()) return { error: "Written feedback requires the forge to be configured with an Anthropic API key." };
+  const count = words(response);
+  if (count < ESSAY_LIMITS.min) return { error: `Please write at least ${ESSAY_LIMITS.min} words; you have ${count}.` };
+  if (count > ESSAY_LIMITS.max) return { error: `Please keep to ${ESSAY_LIMITS.max} words; you have ${count}.` };
+
+  beginGrading(user.id, courseId, lessonIndex, response);
+  revalidatePath(`/courses/${courseId}/lessons/${lessonIndex + 1}`);
 }

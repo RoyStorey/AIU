@@ -6,6 +6,7 @@ import { CourseHeader } from "@/components/CourseHeader";
 import { KnowledgeCheck } from "@/components/KnowledgeCheck";
 import { Markdown } from "@/components/Markdown";
 import { Media } from "@/components/Media";
+import { WrittenExercise } from "@/components/WrittenExercise";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { PASSING, lessonScores } from "@/lib/progress";
@@ -62,13 +63,6 @@ export default async function LessonPage({ params }: Params) {
         <article>
           <Markdown>{lesson.lecture}</Markdown>
 
-          {lesson.reflection && (
-            <section className="reflection">
-              <h3>For Reflection</h3>
-              <p>{lesson.reflection}</p>
-            </section>
-          )}
-
           <section className="examination" id="knowledge-check">
             <h2>Knowledge Check</h2>
             <p>
@@ -83,6 +77,10 @@ export default async function LessonPage({ params }: Params) {
               next={nextLink}
             />
           </section>
+
+          {lesson.reflection && (
+            <WrittenExercise prompt={lesson.reflection} courseId={course.id} lessonIndex={index} user={user} />
+          )}
 
           <nav className="pager" aria-label="Lessons">
             {prev && (

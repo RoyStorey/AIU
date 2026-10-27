@@ -1,8 +1,8 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { useFormStatus } from "react-dom";
-import { inquire, proposeConcentration, signIn, signUp, type FormState } from "@/app/actions";
+import { inquire, proposeConcentration, signIn, signUp, submitEssay, type FormState } from "@/app/actions";
 
 export function Submit({ children, pending: pendingLabel, className = "button" }: {
   children: React.ReactNode;
@@ -94,6 +94,38 @@ export function ProposeForm({ subject, subjectName }: { subject: string; subject
         <textarea id="note" name="note" rows={3} placeholder="Authors, periods, or questions you hope to study." />
       </div>
       <Submit pending="Submitting…">Propose a program of study</Submit>
+    </form>
+  );
+}
+
+export function EssayForm({ courseId, lessonIndex, draft, minWords, revising }: {
+  courseId: string;
+  lessonIndex: number;
+  draft: string;
+  minWords: number;
+  revising: boolean;
+}) {
+  const [state, action] = useActionState(submitEssay, undefined);
+  const [text, setText] = useState(draft);
+  const count = text.split(/\s+/).filter(Boolean).length;
+  return (
+    <form action={action}>
+      <ErrorNote state={state} />
+      <input type="hidden" name="course" value={courseId} />
+      <input type="hidden" name="lesson" value={lessonIndex} />
+      <label htmlFor="response" className="visually-hidden">Your response</label>
+      <textarea
+        id="response"
+        name="response"
+        rows={14}
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        placeholder="Write your response here. Make an argument, and support it from the lecture and readings."
+      />
+      <div className="actions" style={{ justifyContent: "space-between" }}>
+        <span className="muted">{count} {count === 1 ? "word" : "words"}{count < minWords ? ` · at least ${minWords}` : ""}</span>
+        <Submit pending="Submitting…">{revising ? "Submit revision" : "Submit for feedback"}</Submit>
+      </div>
     </form>
   );
 }

@@ -81,6 +81,30 @@ export const ConcentrationOutline = z.object({
 });
 export type ConcentrationOutline = z.infer<typeof ConcentrationOutline>;
 
+/** Length bounds for a written exercise, in words. */
+export const ESSAY_LIMITS = { min: 75, max: 3000 };
+
+/** A tutor's report on a written exercise. */
+export const MARKS = ["Distinction", "Merit", "Pass", "Revise"] as const;
+
+export const Feedback = z.object({
+  mark: z.enum(MARKS).describe("Distinction: excellent; Merit: good; Pass: adequate; Revise: does not yet meet the standard."),
+  summary: z.string().describe("Two or three sentences assessing the essay as a whole."),
+  criteria: z.array(z.object({
+    name: z.enum(["Argument", "Evidence", "Understanding", "Expression"]),
+    score: z.number().int().min(1).max(4).describe("1 weak, 2 developing, 3 good, 4 excellent."),
+    comment: z.string(),
+  })),
+  strengths: z.array(z.string()),
+  improvements: z.array(z.string()),
+  annotations: z.array(z.object({
+    quote: z.string().describe("A short phrase copied exactly from the student's essay."),
+    comment: z.string(),
+  })).describe("Two to five marginal notes on specific passages."),
+  nextStep: z.string().describe("One question or task to take the student's thinking further."),
+});
+export type Feedback = z.infer<typeof Feedback>;
+
 export const STAGES: Record<number, string> = {
   1: "Foundations",
   2: "Intermediate Studies",

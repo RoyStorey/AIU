@@ -541,9 +541,6 @@ a.media-card:hover { border-color: var(--accent); color: var(--ink); }
 .verdict.pass { border-color: var(--success); }
 .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-top: 1.25rem; }
 
-.reflection { margin-top: 3rem; padding: 1.5rem 1.6rem; border: 1px solid var(--rule); background: var(--paper-sunk); max-width: var(--measure); }
-.reflection h3 { font-size: 1.35rem; margin-bottom: 0.5rem; }
-.reflection p { margin: 0; font-style: italic; }
 
 .pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
 .pager a { text-decoration: none; max-width: 48%; }
@@ -586,6 +583,37 @@ a.media-card:hover { border-color: var(--accent); color: var(--ink); }
 @media (max-width: 64rem) { .lesson-aside { position: static; } }
 .lesson-aside .citation { grid-template-columns: 1fr; gap: 0.1rem; }
 .colophon .gold-motto { color: var(--band-gold); font-style: italic; }
+
+/* ——— Written exercise ——— */
+
+.exercise { margin-top: 4rem; padding-top: 2.5rem; border-top: 1px solid var(--rule-strong); max-width: var(--measure); }
+.exercise h2 { font-size: 2rem; margin-bottom: 0.75rem; }
+.exercise-prompt { font-style: italic; font-size: 1.15rem; padding-left: 1.25rem; border-left: 1px solid var(--gold); margin-bottom: 1.5rem; }
+
+.report { margin-top: 2.5rem; padding: 1.75rem 1.75rem 1.5rem; border: 1px solid var(--rule-strong); background: var(--paper-raised); }
+.report h4 { font-family: var(--serif); font-variant-caps: all-small-caps; letter-spacing: 0.12em; font-weight: 400; color: var(--muted); font-size: 1rem; margin: 1.5rem 0 0.5rem; }
+.report-head { border-bottom: 1px solid var(--rule); padding-bottom: 1rem; margin-bottom: 1rem; }
+.report-head p { margin: 0; }
+.report-mark { font-family: var(--display); font-size: 2.6rem; line-height: 1.1; margin-top: 0.2rem; color: var(--accent); }
+.report-mark.mark-distinction { color: var(--gold); }
+.report-mark.mark-revise { color: var(--danger); }
+.report-summary { font-size: 1.1rem; }
+.report-criteria { width: 100%; border-collapse: collapse; margin: 1rem 0 0.5rem; font-size: 1rem; }
+.report-criteria th, .report-criteria td { text-align: left; vertical-align: top; padding: 0.6rem 0.75rem 0.6rem 0; border-top: 1px solid var(--rule); }
+.report-criteria th { font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: 0.1em; white-space: nowrap; }
+.pips { white-space: nowrap; padding-top: 0.95rem !important; }
+.pips span { display: inline-block; width: 0.55rem; height: 0.55rem; border-radius: 50%; border: 1px solid var(--gold); margin-right: 0.2rem; }
+.pips span.on { background: var(--gold); }
+.report-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
+@media (max-width: 34rem) { .report-columns { grid-template-columns: 1fr; } .report-criteria td:last-child { display: block; padding-top: 0; border-top: 0; } }
+.report ul { padding-left: 1.2rem; margin: 0; }
+.report li { margin-bottom: 0.4rem; font-size: 1.02rem; }
+.annotations { list-style: none; padding: 0 !important; }
+.annotations li { display: grid; gap: 0.2rem; padding: 0.6rem 0 0.6rem 1rem; border-left: 1px solid var(--gold); margin-bottom: 0.75rem; }
+.annotations q { font-style: italic; color: var(--ink); }
+.annotations span { color: var(--ink-soft); }
+.report-next { margin-top: 1.25rem; padding-top: 0.25rem; border-top: 1px solid var(--rule); }
+.report-next p { margin: 0; font-style: italic; }
 
 /* ——— Theme picker (temporary) ——— */
 

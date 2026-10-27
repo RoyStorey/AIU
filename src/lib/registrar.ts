@@ -1,8 +1,8 @@
 import "server-only";
 import { db, slugify } from "@/lib/db";
 import { getConcentrationById, getCourse, listConcentrations, listCourses, listSubjects } from "@/lib/catalogue";
-import { draftConcentration, draftContinuation, draftCourse, planInquiry } from "@/lib/forge";
-import { stageName, type CourseOutline } from "@/lib/schema";
+import { draftConcentration, draftContinuation, draftCourse, gradeEssay, planInquiry } from "@/lib/forge";
+import { stageName, type CourseOutline, type Feedback } from "@/lib/schema";
 
 /**
  * The registrar records requests and sets the forge to work on them. Each piece
@@ -200,4 +200,48 @@ export function continueStudies(concentrationId: number) {
     db.prepare("UPDATE continuations SET status = 'ready', error = NULL WHERE concentration_id = ?")
       .run(concentrationId);
   }, fail);
+}
+
+// ——— Written exercises ———
+
+export type Essay = {
+  id: number;
+  response: string;
+  status: "drafting" | "ready" | "failed";
+  feedback: Feedback | null;
+  error: string | null;
+  created_at: string;
+};
+
+export function submitEssay(userId: number, courseId: string, lessonIndex: number, response: string) {
+  const course = getCourse(courseId);
+  const lesson = course?.content?.lessons[lessonIndex];
+  if (!course || !lesson?.reflection) throw new Error("No such exercise.");
+
+  const { id } = db.prepare(`
+    INSERT INTO essays (user_id, course_id, lesson_index, response) VALUES (?, ?, ?, ?) RETURNING id
+  `).get(userId, courseId, lessonIndex, response) as { id: number };
+  const fail = (error: string) =>
+    db.prepare("UPDATE essays SET status = 'failed', error = ? WHERE id = ?").run(error, id);
+
+  inBackground(async () => {
+    const feedback = await gradeEssay({
+      course: `${course.code} ${course.title}`,
+      lesson: lesson.title,
+      lecture: lesson.lecture,
+      prompt: lesson.reflection!,
+      response,
+    });
+    db.prepare("UPDATE essays SET status = 'ready', feedback = ?, error = NULL WHERE id = ?")
+      .run(JSON.stringify(feedback), id);
+  }, fail);
+}
+
+/** A student's submissions for one exercise, newest first. */
+export function essaysFor(userId: number, courseId: string, lessonIndex: number): Essay[] {
+  const rows = db.prepare(`
+    SELECT id, response, status, feedback, error, created_at FROM essays
+    WHERE user_id = ? AND course_id = ? AND lesson_index = ? ORDER BY id DESC
+  `).all(userId, courseId, lessonIndex) as (Omit<Essay, "feedback"> & { feedback: string | null })[];
+  return rows.map((r) => ({ ...r, feedback: r.feedback ? (JSON.parse(r.feedback) as Feedback) : null }));
 }

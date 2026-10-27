@@ -77,6 +77,18 @@ const SCHEMA = `
     PRIMARY KEY (user_id, course_id, lesson_index)
   );
 
+  CREATE TABLE IF NOT EXISTS essays (
+    id           INTEGER PRIMARY KEY,
+    user_id      INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    course_id    TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    lesson_index INTEGER NOT NULL,
+    response     TEXT NOT NULL,
+    status       TEXT NOT NULL DEFAULT 'drafting',
+    feedback     TEXT,
+    error        TEXT,
+    created_at   TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
   CREATE TABLE IF NOT EXISTS inquiries (
     id         INTEGER PRIMARY KEY,
     query      TEXT NOT NULL,
@@ -207,7 +219,7 @@ function checkAuthored(code: string, content: CourseContent) {
 /** Drafts cannot survive a restart; mark them failed so a student can ask again. */
 function abandonInterruptedWork(db: Database.Database) {
   const note = "Cornerstone was restarted while this was being prepared.";
-  for (const table of ["subjects", "concentrations", "courses", "inquiries", "continuations"]) {
+  for (const table of ["subjects", "concentrations", "courses", "inquiries", "continuations", "essays"]) {
     db.prepare(`UPDATE ${table} SET status = 'failed', error = ? WHERE status = 'drafting'`).run(note);
   }
 }
