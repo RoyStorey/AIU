@@ -229,7 +229,7 @@ function Forge() {
 
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <div>
-              <h3 className="font-mono text-xs font-bold uppercase tracking-widest">Scouts' reports</h3>
+              <h3 className="font-mono text-xs font-bold uppercase tracking-widest">Scouts&apos; reports</h3>
               <ul className="mt-2 space-y-2">
                 <AnimatePresence initial={false}>
                   {feed.map((f) => (

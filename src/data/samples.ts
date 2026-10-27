@@ -1,4 +1,4 @@
-import type { Activity, Course, CourseOption, Lesson, Media, Resource, Topic } from "@/lib/schema";
+import type { Activity, Course, Lesson, Media, Resource, Topic } from "@/lib/schema";
 import { amazonBookLink, webSearchLink, youtubeSearchLink } from "@/lib/links";
 
 /*

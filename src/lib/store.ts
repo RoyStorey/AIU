@@ -56,10 +56,16 @@ type State = {
   dismissFx: (id: number) => void;
 };
 
+// IndexedDB holds generated courses comfortably (localStorage caps out around 5MB). No-op during SSR.
+const hasIdb = () => typeof indexedDB !== "undefined";
 const idbStorage: StateStorage = {
-  getItem: async (k) => (await get<string>(k)) ?? null,
-  setItem: (k, v) => set(k, v),
-  removeItem: (k) => del(k),
+  getItem: async (k) => (hasIdb() ? ((await get<string>(k)) ?? null) : null),
+  setItem: async (k, v) => {
+    if (hasIdb()) await set(k, v);
+  },
+  removeItem: async (k) => {
+    if (hasIdb()) await del(k);
+  },
 };
 
 let fxId = 0;
