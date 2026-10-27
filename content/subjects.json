@@ -1,0 +1,20 @@
+{
+  "ACC": "Accounting",
+  "AIU": "University Studies",
+  "ART": "Art",
+  "BIO": "Biology",
+  "BUS": "Business",
+  "COM": "Communication",
+  "CS": "Computer Science",
+  "ECO": "Economics",
+  "ENG": "English",
+  "FIN": "Finance",
+  "HIS": "History",
+  "MATH": "Mathematics",
+  "MGT": "Management",
+  "MKT": "Marketing",
+  "PHI": "Philosophy",
+  "PSY": "Psychology",
+  "SOC": "Sociology",
+  "STA": "Statistics"
+}

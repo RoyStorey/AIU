@@ -1,0 +1,14 @@
+{
+  "code": "PHI 220",
+  "title": "Ethics in a Technological Society",
+  "credits": 3,
+  "category": "general-education",
+  "description": "Major ethical theories applied to contemporary questions raised by technology: privacy, automation and work, algorithmic fairness, bioethics, and responsibility for the actions of autonomous systems.",
+  "prerequisites": [
+    "PHI 120"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

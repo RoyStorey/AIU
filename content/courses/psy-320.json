@@ -1,0 +1,14 @@
+{
+  "code": "PSY 320",
+  "title": "Sensation and Perception",
+  "credits": 3,
+  "category": "major-core",
+  "description": "How sensory systems transform physical energy into experience: vision, hearing, touch, taste, smell, and the perceptual organization of the world.",
+  "prerequisites": [
+    "PSY 230"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

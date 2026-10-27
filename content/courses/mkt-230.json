@@ -1,0 +1,14 @@
+{
+  "code": "MKT 230",
+  "title": "Principles of Marketing",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Creating value for customers: market research, segmentation, targeting, positioning, and the marketing mix of product, price, place, and promotion.",
+  "prerequisites": [
+    "BUS 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

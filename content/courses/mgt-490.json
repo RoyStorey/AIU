@@ -1,0 +1,16 @@
+{
+  "code": "MGT 490",
+  "title": "Strategic Management",
+  "credits": 3,
+  "category": "capstone",
+  "description": "The integrative capstone of the business core: industry analysis, competitive advantage, corporate strategy, and strategy execution through comprehensive case analysis.",
+  "prerequisites": [
+    "FIN 301",
+    "MKT 230",
+    "MGT 310"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

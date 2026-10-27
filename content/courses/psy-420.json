@@ -1,0 +1,14 @@
+{
+  "code": "PSY 420",
+  "title": "Psychological Testing and Assessment",
+  "credits": 3,
+  "category": "major-core",
+  "description": "The construction, validation, and ethical use of psychological tests, including reliability, validity, norms, and the assessment of intelligence and personality.",
+  "prerequisites": [
+    "PSY 301"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

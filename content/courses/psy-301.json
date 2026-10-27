@@ -1,0 +1,14 @@
+{
+  "code": "PSY 301",
+  "title": "Statistics for the Behavioral Sciences",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Applied statistics for psychological research: t-tests, ANOVA, correlation and regression, nonparametric tests, effect sizes, and statistical software.",
+  "prerequisites": [
+    "STA 210"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

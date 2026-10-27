@@ -1,0 +1,14 @@
+{
+  "code": "BUS 360",
+  "title": "International Business",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Doing business across borders: trade theory, foreign exchange, culture, political and legal environments, entry strategies, and managing global operations.",
+  "prerequisites": [
+    "ECO 202"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

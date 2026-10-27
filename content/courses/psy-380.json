@@ -1,0 +1,15 @@
+{
+  "code": "PSY 380",
+  "title": "Experimental Psychology Laboratory",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Students design, conduct, analyze, and report original experiments, gaining hands-on experience with every stage of psychological research.",
+  "prerequisites": [
+    "PSY 201",
+    "PSY 301"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

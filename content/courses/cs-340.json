@@ -1,0 +1,15 @@
+{
+  "code": "CS 340",
+  "title": "Theory of Computation",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Finite automata, regular languages, context-free grammars, Turing machines, decidability, and computational complexity: what can and cannot be computed efficiently.",
+  "prerequisites": [
+    "MATH 210",
+    "CS 301"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

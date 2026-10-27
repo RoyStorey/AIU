@@ -1,0 +1,14 @@
+{
+  "code": "CS 460",
+  "title": "Mobile Application Development",
+  "credits": 3,
+  "category": "major-elective",
+  "description": "Designing and building applications for mobile devices: platform conventions, layouts, state, local storage, networking, and publishing.",
+  "prerequisites": [
+    "CS 220"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

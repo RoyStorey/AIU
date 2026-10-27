@@ -1,0 +1,14 @@
+{
+  "code": "CS 210",
+  "title": "Computer Organization and Architecture",
+  "credits": 3,
+  "category": "major-core",
+  "description": "How computers work beneath the programming language: data representation, digital logic, assembly language, the processor datapath, memory hierarchy, and input/output.",
+  "prerequisites": [
+    "CS 102"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

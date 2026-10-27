@@ -1,0 +1,14 @@
+{
+  "code": "BUS 491",
+  "title": "Business Capstone Project",
+  "credits": 3,
+  "category": "capstone",
+  "description": "Students apply the full business curriculum to a substantial consulting-style project or business plan and present their recommendations to a review panel.",
+  "prerequisites": [
+    "MGT 490"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

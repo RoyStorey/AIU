@@ -1,0 +1,12 @@
+{
+  "code": "MATH 110",
+  "title": "College Algebra",
+  "credits": 3,
+  "category": "general-education",
+  "description": "Functions and their graphs, linear, quadratic, polynomial, rational, exponential, and logarithmic models, and systems of equations, with an emphasis on modeling real-world quantities.",
+  "prerequisites": [],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

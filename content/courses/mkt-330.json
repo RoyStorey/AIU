@@ -1,0 +1,14 @@
+{
+  "code": "MKT 330",
+  "title": "Digital Marketing",
+  "credits": 3,
+  "category": "major-elective",
+  "description": "Marketing in digital channels: search, social media, content, email, and performance marketing, along with analytics and experimentation.",
+  "prerequisites": [
+    "MKT 230"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

@@ -1,0 +1,221 @@
+{
+  "slug": "ba-psychology",
+  "title": "Bachelor of Arts in Psychology",
+  "degree": "B.A.",
+  "major": "Psychology",
+  "school": "arts-sciences",
+  "tagline": "Understand how people think, feel, and behave, and learn to study it scientifically.",
+  "overview": "The Bachelor of Arts in Psychology introduces you to the scientific study of the mind and behavior, and trains you to ask good questions about people and answer them with evidence. After a broad introduction to the field, you build the research and statistical skills that every psychologist relies on.\n\nAcross the major you study the discipline's core areas, including development, social, cognitive, biological, and clinical psychology, then choose electives in topics such as positive psychology, forensic psychology, and the psychology of technology. Your degree culminates in a two-term senior sequence in which you propose, conduct, and report an original study.",
+  "outcomes": [
+    "Describe the major concepts, theories, and findings across the core areas of psychology.",
+    "Design and critique research using appropriate methods, measures, and ethical safeguards.",
+    "Analyze and interpret behavioral data using descriptive and inferential statistics.",
+    "Apply psychological principles to personal, social, and organizational problems.",
+    "Communicate psychological knowledge clearly in writing and speech, following APA conventions.",
+    "Recognize the role of culture and diversity in human behavior and in psychological science."
+  ],
+  "careers": [
+    {
+      "title": "Human Services & Case Management",
+      "description": "Support individuals and families through social service and community organizations."
+    },
+    {
+      "title": "User Experience Researcher",
+      "description": "Study how people use products and turn those insights into better designs."
+    },
+    {
+      "title": "Human Resources Specialist",
+      "description": "Apply knowledge of motivation and behavior to hiring, training, and workplace culture."
+    },
+    {
+      "title": "Graduate Study",
+      "description": "Prepare for graduate programs in clinical, counseling, or research psychology."
+    }
+  ],
+  "terms": [
+    {
+      "index": 1,
+      "year": 1,
+      "session": "Fall I",
+      "courses": [
+        "AIU 101",
+        "PSY 101"
+      ]
+    },
+    {
+      "index": 2,
+      "year": 1,
+      "session": "Fall II",
+      "courses": [
+        "ENG 101",
+        "MATH 110"
+      ]
+    },
+    {
+      "index": 3,
+      "year": 1,
+      "session": "Spring I",
+      "courses": [
+        "ENG 102",
+        "BIO 110"
+      ]
+    },
+    {
+      "index": 4,
+      "year": 1,
+      "session": "Spring II",
+      "courses": [
+        "STA 210",
+        "COM 110"
+      ]
+    },
+    {
+      "index": 5,
+      "year": 1,
+      "session": "Summer",
+      "courses": [
+        "PHI 120",
+        "SOC 101"
+      ]
+    },
+    {
+      "index": 6,
+      "year": 2,
+      "session": "Fall I",
+      "courses": [
+        "PSY 201",
+        "PSY 210"
+      ]
+    },
+    {
+      "index": 7,
+      "year": 2,
+      "session": "Fall II",
+      "courses": [
+        "PSY 220",
+        "HIS 120"
+      ]
+    },
+    {
+      "index": 8,
+      "year": 2,
+      "session": "Spring I",
+      "courses": [
+        "PSY 230",
+        "ART 110"
+      ]
+    },
+    {
+      "index": 9,
+      "year": 2,
+      "session": "Spring II",
+      "courses": [
+        "PSY 240",
+        "ECO 201"
+      ]
+    },
+    {
+      "index": 10,
+      "year": 2,
+      "session": "Summer",
+      "courses": [
+        "PSY 250",
+        "PSY 260"
+      ]
+    },
+    {
+      "index": 11,
+      "year": 3,
+      "session": "Fall I",
+      "courses": [
+        "PSY 301",
+        "PSY 270"
+      ]
+    },
+    {
+      "index": 12,
+      "year": 3,
+      "session": "Fall II",
+      "courses": [
+        "PSY 310",
+        "PSY 320"
+      ]
+    },
+    {
+      "index": 13,
+      "year": 3,
+      "session": "Spring I",
+      "courses": [
+        "PSY 330",
+        "PSY 340"
+      ]
+    },
+    {
+      "index": 14,
+      "year": 3,
+      "session": "Spring II",
+      "courses": [
+        "PSY 350",
+        "PHI 220"
+      ]
+    },
+    {
+      "index": 15,
+      "year": 3,
+      "session": "Summer",
+      "courses": [
+        "PSY 360",
+        "PSY 280"
+      ]
+    },
+    {
+      "index": 16,
+      "year": 4,
+      "session": "Fall I",
+      "courses": [
+        "PSY 370",
+        "PSY 380"
+      ]
+    },
+    {
+      "index": 17,
+      "year": 4,
+      "session": "Fall II",
+      "courses": [
+        "PSY 410",
+        "PSY 420"
+      ]
+    },
+    {
+      "index": 18,
+      "year": 4,
+      "session": "Spring I",
+      "courses": [
+        "PSY 430",
+        "PSY 440"
+      ]
+    },
+    {
+      "index": 19,
+      "year": 4,
+      "session": "Spring II",
+      "courses": [
+        "PSY 460",
+        "PSY 490"
+      ]
+    },
+    {
+      "index": 20,
+      "year": 4,
+      "session": "Summer",
+      "courses": [
+        "PSY 450",
+        "PSY 491"
+      ]
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
+}

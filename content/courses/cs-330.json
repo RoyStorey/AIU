@@ -1,0 +1,14 @@
+{
+  "code": "CS 330",
+  "title": "Computer Networks",
+  "credits": 3,
+  "category": "major-core",
+  "description": "The layered architecture of the Internet: physical and link layers, IP routing, TCP and UDP, DNS, HTTP, and principles of network security and performance.",
+  "prerequisites": [
+    "CS 210"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

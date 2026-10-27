@@ -1,0 +1,14 @@
+{
+  "code": "ENG 102",
+  "title": "College Composition II: Research and Argument",
+  "credits": 3,
+  "category": "general-education",
+  "description": "Builds on College Composition I with an emphasis on research. Students formulate research questions, evaluate and integrate sources, construct evidence-based arguments, and document their work in a standard citation style.",
+  "prerequisites": [
+    "ENG 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

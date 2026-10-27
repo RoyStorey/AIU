@@ -1,0 +1,14 @@
+{
+  "code": "CS 380",
+  "title": "Human-Computer Interaction",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Designing technology for people: user research, interaction design principles, prototyping, usability testing, accessibility, and evaluating interfaces.",
+  "prerequisites": [
+    "CS 220"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

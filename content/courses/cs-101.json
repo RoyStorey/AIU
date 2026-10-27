@@ -1,0 +1,12 @@
+{
+  "code": "CS 101",
+  "title": "Introduction to Programming",
+  "credits": 3,
+  "category": "major-core",
+  "description": "A first course in programming using Python. Students learn to break problems into steps and express them as code using variables, conditionals, loops, functions, and collections, and they develop habits of testing and debugging.",
+  "prerequisites": [],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

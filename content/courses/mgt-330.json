@@ -1,0 +1,15 @@
+{
+  "code": "MGT 330",
+  "title": "Operations and Supply Chain Management",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Designing and improving the systems that deliver goods and services: process analysis, quality management, inventory, lean operations, and global supply chains.",
+  "prerequisites": [
+    "MGT 220",
+    "STA 210"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

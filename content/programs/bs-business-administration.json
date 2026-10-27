@@ -1,0 +1,221 @@
+{
+  "slug": "bs-business-administration",
+  "title": "Bachelor of Science in Business Administration",
+  "degree": "B.S.",
+  "major": "Business Administration",
+  "school": "business",
+  "tagline": "Learn to lead organizations, build ventures, and make decisions grounded in evidence.",
+  "overview": "The Bachelor of Science in Business Administration prepares you to understand, manage, and lead organizations of every size. You start with a broad introduction to business and the economic way of thinking, then master the essential tools of the field: accounting, finance, marketing, management, law, and analytics.\n\nIn your upper-division years you deepen your expertise in operations, information systems, human resources, international business, entrepreneurship, and leadership, and you choose electives in areas such as digital marketing, investments, and artificial intelligence in business. Your program concludes with Strategic Management and a capstone project in which you bring the entire curriculum to bear on a real business challenge.",
+  "outcomes": [
+    "Analyze financial statements and use financial tools to evaluate business decisions.",
+    "Develop marketing, operational, and strategic plans grounded in data and market research.",
+    "Lead and collaborate effectively in diverse teams and organizations.",
+    "Apply ethical reasoning and legal principles to business situations.",
+    "Use analytics and information systems to improve organizational performance.",
+    "Communicate business ideas persuasively to professional audiences."
+  ],
+  "careers": [
+    {
+      "title": "Management & Operations",
+      "description": "Lead teams and improve the processes that deliver an organization's products and services."
+    },
+    {
+      "title": "Financial Analyst",
+      "description": "Evaluate investments, budgets, and financial performance to guide decisions."
+    },
+    {
+      "title": "Marketing Manager",
+      "description": "Understand customers and build the campaigns that reach them."
+    },
+    {
+      "title": "Entrepreneur",
+      "description": "Turn an idea into a venture with a sound business model and the skills to grow it."
+    }
+  ],
+  "terms": [
+    {
+      "index": 1,
+      "year": 1,
+      "session": "Fall I",
+      "courses": [
+        "AIU 101",
+        "BUS 101"
+      ]
+    },
+    {
+      "index": 2,
+      "year": 1,
+      "session": "Fall II",
+      "courses": [
+        "ENG 101",
+        "MATH 110"
+      ]
+    },
+    {
+      "index": 3,
+      "year": 1,
+      "session": "Spring I",
+      "courses": [
+        "ENG 102",
+        "ECO 201"
+      ]
+    },
+    {
+      "index": 4,
+      "year": 1,
+      "session": "Spring II",
+      "courses": [
+        "STA 210",
+        "COM 110"
+      ]
+    },
+    {
+      "index": 5,
+      "year": 1,
+      "session": "Summer",
+      "courses": [
+        "PSY 101",
+        "PHI 120"
+      ]
+    },
+    {
+      "index": 6,
+      "year": 2,
+      "session": "Fall I",
+      "courses": [
+        "ACC 201",
+        "ECO 202"
+      ]
+    },
+    {
+      "index": 7,
+      "year": 2,
+      "session": "Fall II",
+      "courses": [
+        "ACC 202",
+        "BUS 210"
+      ]
+    },
+    {
+      "index": 8,
+      "year": 2,
+      "session": "Spring I",
+      "courses": [
+        "MGT 220",
+        "MKT 230"
+      ]
+    },
+    {
+      "index": 9,
+      "year": 2,
+      "session": "Spring II",
+      "courses": [
+        "BUS 240",
+        "HIS 120"
+      ]
+    },
+    {
+      "index": 10,
+      "year": 2,
+      "session": "Summer",
+      "courses": [
+        "BIO 110",
+        "SOC 101"
+      ]
+    },
+    {
+      "index": 11,
+      "year": 3,
+      "session": "Fall I",
+      "courses": [
+        "FIN 301",
+        "MGT 310"
+      ]
+    },
+    {
+      "index": 12,
+      "year": 3,
+      "session": "Fall II",
+      "courses": [
+        "BUS 320",
+        "ART 110"
+      ]
+    },
+    {
+      "index": 13,
+      "year": 3,
+      "session": "Spring I",
+      "courses": [
+        "MGT 330",
+        "BUS 340"
+      ]
+    },
+    {
+      "index": 14,
+      "year": 3,
+      "session": "Spring II",
+      "courses": [
+        "MGT 350",
+        "PHI 220"
+      ]
+    },
+    {
+      "index": 15,
+      "year": 3,
+      "session": "Summer",
+      "courses": [
+        "BUS 360",
+        "MKT 330"
+      ]
+    },
+    {
+      "index": 16,
+      "year": 4,
+      "session": "Fall I",
+      "courses": [
+        "BUS 370",
+        "FIN 320"
+      ]
+    },
+    {
+      "index": 17,
+      "year": 4,
+      "session": "Fall II",
+      "courses": [
+        "MGT 410",
+        "MKT 340"
+      ]
+    },
+    {
+      "index": 18,
+      "year": 4,
+      "session": "Spring I",
+      "courses": [
+        "MGT 420",
+        "BUS 380"
+      ]
+    },
+    {
+      "index": 19,
+      "year": 4,
+      "session": "Spring II",
+      "courses": [
+        "BUS 430",
+        "MGT 490"
+      ]
+    },
+    {
+      "index": 20,
+      "year": 4,
+      "session": "Summer",
+      "courses": [
+        "MGT 440",
+        "BUS 491"
+      ]
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
+}

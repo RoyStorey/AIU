@@ -1,0 +1,15 @@
+{
+  "code": "PSY 230",
+  "title": "Biological Psychology",
+  "credits": 3,
+  "category": "major-core",
+  "description": "The biological bases of behavior: neurons and neurotransmission, brain structure and function, hormones, sleep, emotion, and the genetics of behavior.",
+  "prerequisites": [
+    "PSY 101",
+    "BIO 110"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

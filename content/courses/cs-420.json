@@ -1,0 +1,15 @@
+{
+  "code": "CS 420",
+  "title": "Artificial Intelligence",
+  "credits": 3,
+  "category": "major-core",
+  "description": "Search, knowledge representation, planning, probabilistic reasoning, and modern deep learning, including large language models, with attention to their capabilities, limits, and societal impact.",
+  "prerequisites": [
+    "CS 301",
+    "CS 360"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

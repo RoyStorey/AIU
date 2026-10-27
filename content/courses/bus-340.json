@@ -1,0 +1,14 @@
+{
+  "code": "BUS 340",
+  "title": "Management Information Systems",
+  "credits": 3,
+  "category": "major-core",
+  "description": "How organizations use information technology for competitive advantage: enterprise systems, databases, cloud services, cybersecurity, and digital transformation.",
+  "prerequisites": [
+    "BUS 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}

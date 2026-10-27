@@ -1,0 +1,14 @@
+{
+  "code": "PSY 270",
+  "title": "Positive Psychology",
+  "credits": 3,
+  "category": "major-elective",
+  "description": "The scientific study of well-being: happiness, strengths, resilience, flow, gratitude, and evidence-based interventions that help people flourish.",
+  "prerequisites": [
+    "PSY 101"
+  ],
+  "status": "planned",
+  "outcomes": [],
+  "weeks": [],
+  "finalExam": []
+}
