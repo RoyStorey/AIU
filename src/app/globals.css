@@ -1,21 +1,25 @@
-/* Artificial Intelligence University — house style.
-   Ivory paper, iron-gall ink, an oxblood accent, hairline rules.
+/* Sloppy Toppy Academy — house style.
+   Clean white paper, navy ink, gold accents, hairline rules.
    Everything is set in serif type; hierarchy comes from size, small capitals, and space. */
 
 :root {
-  --paper: #f7f3ea;
-  --paper-raised: #fbf8f2;
-  --paper-sunk: #efe9dc;
-  --ink: #1e1b17;
-  --ink-soft: #46413a;
-  --muted: #7c7468;
-  --rule: #d9d0bf;
-  --rule-strong: #b9ad97;
-  --accent: #6d1f2b;
-  --accent-soft: #8a3a45;
-  --gold: #9c7c3c;
-  --success: #3d5a3a;
-  --danger: #8b2a1f;
+  --paper: #ffffff;
+  --paper-raised: #fbfcfe;
+  --paper-sunk: #f2f5fa;
+  --ink: #0e1a2f;
+  --ink-soft: #33415a;
+  --muted: #69758a;
+  --rule: #e1e6ee;
+  --rule-strong: #b9c3d3;
+  --accent: #1a2d55;
+  --accent-soft: #2c4479;
+  --gold: #a8822f;
+  --success: #2f6b4f;
+  --danger: #a3352b;
+  --band: #13224a;
+  --band-ink: #ffffff;
+  --band-muted: #b9c4da;
+  --band-gold: #e0c171;
 
   --display: var(--font-display), "Cormorant Garamond", Garamond, serif;
   --serif: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
@@ -27,19 +31,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #16140f;
-    --paper-raised: #1d1a15;
-    --paper-sunk: #110f0b;
-    --ink: #ece4d3;
-    --ink-soft: #cfc6b4;
-    --muted: #978d7d;
-    --rule: #3a342b;
-    --rule-strong: #564d40;
-    --accent: #d0959a;
-    --accent-soft: #e0b0b4;
-    --gold: #c4a463;
-    --success: #9cbf8e;
-    --danger: #e0907f;
+    --paper: #0a1322;
+    --paper-raised: #101c31;
+    --paper-sunk: #070e1a;
+    --ink: #eef2f8;
+    --ink-soft: #c4cddc;
+    --muted: #8b97ab;
+    --rule: #1d2a42;
+    --rule-strong: #31415f;
+    --accent: #d6b665;
+    --accent-soft: #e4c983;
+    --gold: #d6b665;
+    --success: #8fcfaa;
+    --danger: #ec9a8c;
+    --band: #070e1a;
+    --band-ink: #eef2f8;
+    --band-muted: #8b97ab;
+    --band-gold: #d6b665;
   }
 }
 
@@ -113,8 +121,8 @@ img, svg { display: block; max-width: 100%; }
 .rule-double {
   border: 0;
   height: 4px;
-  border-top: 1px solid var(--rule-strong);
-  border-bottom: 1px solid var(--rule-strong);
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
   margin: 0;
 }
 
@@ -183,10 +191,17 @@ img, svg { display: block; max-width: 100%; }
 
 /* ——— Footer ——— */
 
-.colophon { margin-top: 6rem; padding: 2.5rem 0 3rem; color: var(--muted); font-size: 0.98rem; }
-.colophon-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; padding-top: 1.5rem; }
+.colophon {
+  margin-top: 6rem;
+  padding: 2.25rem 0 2.5rem;
+  background: var(--band);
+  border-top: 3px double var(--band-gold);
+  color: var(--band-muted);
+  font-size: 0.98rem;
+}
+.colophon-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; }
 .colophon p { margin: 0; }
-.colophon em { color: var(--ink-soft); }
+.colophon em { color: var(--band-ink); }
 
 /* ——— Page headers ——— */
 
@@ -331,7 +346,7 @@ textarea { resize: vertical; min-height: 8rem; line-height: 1.55; }
   color: var(--ink);
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
-a.card:hover { border-color: var(--rule-strong); color: var(--ink); }
+a.card:hover { border-color: var(--gold); color: var(--ink); }
 a.card:hover h3 { color: var(--accent); }
 .card h3 { font-size: 1.6rem; margin: 0.35rem 0 0.6rem; transition: color 0.15s ease; }
 .card p { color: var(--ink-soft); font-size: 1.05rem; flex: 1; }
@@ -380,7 +395,7 @@ a.card:hover h3 { color: var(--accent); }
 .aside-block p { font-size: 1.02rem; color: var(--ink-soft); }
 
 .meter { height: 3px; background: var(--rule); position: relative; overflow: hidden; margin: 0.5rem 0; }
-.meter > span { position: absolute; inset: 0 auto 0 0; background: var(--accent); }
+.meter > span { position: absolute; inset: 0 auto 0 0; background: var(--gold); }
 
 .figure-big { font-family: var(--display); font-size: 2.6rem; line-height: 1; }
 
@@ -399,7 +414,7 @@ a.card:hover h3 { color: var(--accent); }
   white-space: nowrap;
 }
 .tabs a:hover { color: var(--ink); }
-.tabs a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+.tabs a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--gold); }
 
 .prose { max-width: var(--measure); }
 .prose h2 { font-size: 1.85rem; margin: 2.5rem 0 0.85rem; }
@@ -570,3 +585,4 @@ a.media-card:hover { border-color: var(--accent); color: var(--ink); }
 .lesson-aside { position: sticky; top: 1.5rem; }
 @media (max-width: 64rem) { .lesson-aside { position: static; } }
 .lesson-aside .citation { grid-template-columns: 1fr; gap: 0.1rem; }
+.colophon .gold-motto { color: var(--band-gold); font-style: italic; }

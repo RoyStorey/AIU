@@ -1,7 +1,7 @@
 import type { CourseOutline } from "@/lib/schema";
 
 /**
- * The founding catalogue of the University: five faculties, each with its
+ * The founding catalogue of the Academy: five faculties, each with its
  * concentrations, and for every concentration a full program of study.
  * Courses listed here begin as outlines; the forge (or an authored course in
  * `content/courses`) supplies their lessons.

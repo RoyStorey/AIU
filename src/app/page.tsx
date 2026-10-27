@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <section className="wrap hero">
         <Crest className="crest" />
-        <p className="eyebrow">A university of the humanities</p>
-        <h1>Artificial Intelligence University</h1>
+        <p className="eyebrow">An academy of the humanities</p>
+        <h1>Sloppy Toppy Academy</h1>
         <p className="motto">
           Tolle, lege. <span>— “Take up and read.” Augustine, Confessions VIII</span>
         </p>

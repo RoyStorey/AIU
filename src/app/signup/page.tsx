@@ -14,7 +14,7 @@ export default async function SignUp({ searchParams }: { searchParams: Promise<{
       <div className="auth">
         <p className="eyebrow" style={{ textAlign: "center" }}>Admission</p>
         <h1>Matriculate</h1>
-        <p className="lede">Enroll as a student of the University. Admission is open to all; tuition is free.</p>
+        <p className="lede">Enroll as a student of the Academy. Admission is open to all; tuition is free.</p>
         <SignUpForm next={next} />
         <p className="alt">Already enrolled? <Link href={next ? `/login?next=${encodeURIComponent(next)}` : "/login"}>Sign in</Link></p>
       </div>

@@ -24,7 +24,7 @@ function Outline({ course, signedIn }: { course: NonNullable<ReturnType<typeof g
     return (
       <Preparing title="This course is being prepared">
         <p>
-          The University’s librarian is searching for editions, lectures, and recordings, and the faculty is writing
+          The Academy’s librarian is searching for editions, lectures, and recordings, and the faculty is writing
           the lectures and knowledge checks. A full course usually takes three to six minutes.
         </p>
       </Preparing>

@@ -29,13 +29,13 @@ export function forgeAvailable(): boolean {
 let client: Anthropic | undefined;
 const anthropic = () => (client ??= new Anthropic());
 
-const FACULTY = `You are the faculty of Artificial Intelligence University, a serious university of the humanities.
+const FACULTY = `You are the faculty of Sloppy Toppy Academy, a serious academy of the humanities.
 You design programs of study and courses at the standard of a rigorous liberal-arts college: substantive, \
 accurate, and grounded in the primary texts and the best scholarship. Write in clear, elegant, unpretentious \
 English prose—the voice of a gifted lecturer, not a textbook committee. Never invent books, authors, \
 editions, lectures, or recordings. Students must be able to find every resource you name.`;
 
-const LIBRARIAN = `You are the research librarian of Artificial Intelligence University. Your task is to \
+const LIBRARIAN = `You are the research librarian of Sloppy Toppy Academy. Your task is to \
 assemble a reading and listening list of real, findable resources for a course. Use web search to confirm \
 that each resource exists and to find its exact URL. Prefer: standard editions and translations from \
 reputable publishers; free scholarly texts (Project Gutenberg, Perseus, the Latin Library, Internet Archive, \
@@ -162,7 +162,7 @@ export async function planInquiry(
     .join("\n");
   return compose(Placement, `A student has written: "${query}"
 
-The University's faculties are:
+The Academy's faculties are:
 ${listing}
 
 If the subject the student wants fits naturally inside one of these faculties but is not already one of its \
