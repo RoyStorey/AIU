@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Artificial Intelligence University
 
-## Getting Started
+A university of the humanities. Students matriculate, choose a faculty and a concentration, and work through a full program of study, from Foundations to a capstone Seminar. Every course has lectures, assigned readings from real editions, recorded lectures and audio, a reference shelf, and knowledge checks. No degree is conferred; the learning is real.
 
-First, run the development server:
+## The catalogue
+
+Five founding faculties, each with several concentrations and a complete program of study:
+
+| Faculty | Concentrations |
+|---|---|
+| Literature | Poetry · British · American · African American · World Literature · Drama |
+| Classics | Latin · Ancient Greek · Classical Literature in Translation · Ancient History · Ancient Philosophy |
+| History | European · American · Asian · Medieval · African |
+| Theology | Biblical Studies · Systematic Theology · Church History · Patristics · Philosophy of Religion · World Religions |
+| Linguistics | General · Historical and Comparative · Phonetics and Phonology · Syntax and Semantics · Sociolinguistics |
+
+Six courses are written in full by hand: **POE 101** The Art of Poetry, **AAL 101** Foundations of African American Literature, **LAT 101** Elementary Latin I, **AMH 101** The American Revolution, **BIB 101** Introduction to the Hebrew Bible, and **LIN 101** Introduction to Language. The rest begin as outlines with their core texts and are prepared by the forge.
+
+## The forge
+
+With an Anthropic API key, Claude extends the University:
+
+- **Inquiries.** A student types “I want to learn Astronomy.” If the University already teaches it, they are taken there. If not, the faculty decides whether it belongs as a new concentration in an existing faculty or as a new faculty, and drafts a full program of study.
+- **Proposed concentrations.** Any signed-in student can propose a new concentration within a faculty.
+- **Course preparation.** An outlined course is prepared the first time a student opens it. A librarian pass searches the web for real editions, lectures, recordings, and archives; the faculty then writes the lectures, readings, media, knowledge checks, and reference shelf from those notes. **Any link that did not appear in the search results is removed**, so students never follow an invented URL.
+- **Continuing studies.** When a student completes every course in a program, they may ask for more: the faculty drafts graduate-level courses that extend it.
+
+All drafting happens in the background; pages refresh themselves until the work is ready.
+
+## Running it
+
+Requires Node.js 22.13 or later (the database is the built-in `node:sqlite`).
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # add ANTHROPIC_API_KEY to enable the forge
+npm run dev                  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For production: `npm run build && npm start`. The SQLite database is created at `data/aiu.db` on first request and seeded from `src/content`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Adding to the catalogue
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Faculties, concentrations, and course outlines** live in `src/content/catalogue.ts`. Edit and restart; the seed is re-applied on every boot without touching student data or forged content.
+- **Hand-written courses** live in `src/content/courses/` and are registered in `src/content/courses/index.ts` by course code. They are validated against the course schema at startup.
+- Concentrations and faculties can also be added from the site itself through the forge, as above.
 
-## Learn More
+## Structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+  app/            pages (faculties, programs, courses, lessons, reference shelf, studies) and server actions
+  components/     typography-first UI: citations, media, knowledge checks
+  content/        the founding catalogue and hand-written courses
+  lib/
+    db.ts         SQLite schema and seeding
+    auth.ts       scrypt passwords and session cookies
+    catalogue.ts  catalogue queries and inquiry matching
+    progress.ts   enrollment and progress
+    forge.ts      Claude: research, drafting, link verification
+    registrar.ts  background drafting jobs
+    schema.ts     the course schema shared by authored and forged courses
+```

@@ -4,6 +4,7 @@ import { mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { catalogue } from "@/content/catalogue";
 import { authoredCourses } from "@/content/courses";
+import { CourseContent } from "@/lib/schema";
 
 const SCHEMA = `
   CREATE TABLE IF NOT EXISTS users (
@@ -159,6 +160,7 @@ function seed(db: DatabaseSync) {
         ) as { id: number };
         concentration.courses.forEach((course, position) => {
           const authored = authoredCourses[course.code];
+          if (authored) checkAuthored(course.code, authored);
           upsertCourse.run(
             slugify(course.code), id, course.code, course.title, course.stage,
             position, course.summary, JSON.stringify(course.texts),
@@ -173,6 +175,18 @@ function seed(db: DatabaseSync) {
     db.exec("ROLLBACK");
     throw error;
   }
+}
+
+/** Catches mistakes in hand-written courses at startup rather than in front of a student. */
+function checkAuthored(code: string, content: CourseContent) {
+  CourseContent.parse(content);
+  content.lessons.forEach((lesson, l) =>
+    lesson.questions.forEach((q, i) => {
+      if (q.answer >= q.choices.length) {
+        throw new Error(`${code}, lesson ${l + 1}, question ${i + 1}: answer index out of range`);
+      }
+    }),
+  );
 }
 
 /** Drafts cannot survive a restart; mark them failed so a student can ask again. */

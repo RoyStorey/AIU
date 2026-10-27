@@ -49,17 +49,17 @@ export default async function LessonPage({ params }: Params) {
         <Link href={`/courses/${course.id}/library`}>Reference Shelf</Link>
       </nav>
 
+      <header className="measure" style={{ marginBottom: "2.5rem" }}>
+        <p className="eyebrow">
+          Lesson {toRoman(index + 1)} of {toRoman(lessons.length)}
+          {passed && <span className="mark done" style={{ marginLeft: "1rem" }}>Completed</span>}
+        </p>
+        <h2 style={{ fontSize: "clamp(2.1rem, 5vw, 3rem)", margin: "0.35rem 0 0.6rem" }}>{lesson.title}</h2>
+        <p style={{ fontSize: "1.25rem", fontStyle: "italic", color: "var(--ink-soft)", margin: 0 }}>{lesson.summary}</p>
+      </header>
+
       <div className="lesson-layout">
         <article>
-          <header style={{ marginBottom: "2rem" }}>
-            <p className="eyebrow">
-              Lesson {toRoman(index + 1)} of {toRoman(lessons.length)}
-              {passed && <span className="mark done" style={{ marginLeft: "1rem" }}>Completed</span>}
-            </p>
-            <h2 style={{ fontSize: "clamp(2.1rem, 5vw, 3rem)", margin: "0.35rem 0 0.6rem" }}>{lesson.title}</h2>
-            <p style={{ fontSize: "1.25rem", fontStyle: "italic", color: "var(--ink-soft)", margin: 0 }}>{lesson.summary}</p>
-          </header>
-
           <Markdown>{lesson.lecture}</Markdown>
 
           {lesson.reflection && (

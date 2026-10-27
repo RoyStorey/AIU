@@ -52,7 +52,7 @@ export default async function Study() {
               <div>
                 <div className="figure-big">{coursesDone} <span className="muted" style={{ fontSize: "1.2rem" }}>of {courses.length} courses</span></div>
                 <div className="meter"><span style={{ width: `${courses.length ? (coursesDone / courses.length) * 100 : 0}%` }} /></div>
-                <p className="muted" style={{ fontSize: "0.98rem" }}>{lessonsDone} lessons completed</p>
+                <p className="muted" style={{ fontSize: "0.98rem" }}>{lessonsDone} {lessonsDone === 1 ? "lesson" : "lessons"} completed</p>
               </div>
             </section>
           );

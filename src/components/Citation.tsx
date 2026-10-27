@@ -30,7 +30,7 @@ export function Citation({ resource }: { resource: Resource }) {
           {url ? <a href={url} target="_blank" rel="noopener noreferrer">{title}</a> : title}
         </span>
         {author && <span className="by">, {author}</span>}
-        {imprint && <span className="pub">. {imprint}</span>}
+        {imprint && <span className="pub">{(author ?? title).endsWith(".") ? " " : ". "}{imprint}</span>}
         {url && <span className="host">{hostOf(url)} ↗</span>}
         {note && <p className="note">{note}</p>}
       </div>
