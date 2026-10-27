@@ -4,9 +4,1181 @@
   "category": "foundation",
   "description": "The myths of the Greeks and Romans, the gods, heroes, and monsters, studied through ancient sources such as Homer, Hesiod, and Ovid, with attention to what myths meant and how they have been interpreted.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": [],
-  "resources": []
+  "status": "published",
+  "outcomes": [
+    "Define myth and identify the major ancient sources for classical mythology.",
+    "Summarize and interpret Greek creation myths and the Olympian gods.",
+    "Analyze myths of divine-human encounter, transformation, and heroism.",
+    "Interpret the Trojan cycle, Homeric epic, and Athenian tragedy as reworkings of myth.",
+    "Apply theories of myth to specific stories.",
+    "Trace the reception of classical myths in later culture."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "What Is Myth?",
+      "overview": "Defining myth, legend, and folktale; where Greek and Roman myths come from; and the main ancient sources we read them in.",
+      "objectives": [
+        "Distinguish myth, legend, and folktale.",
+        "Identify the major ancient sources for classical mythology.",
+        "Explain why there is no single \"correct\" version of a myth."
+      ],
+      "lesson": "## Defining myth\n\nThe word **myth** comes from the Greek *mythos*, meaning \"word,\" \"speech,\" or \"story.\" In everyday English, \"myth\" often means a falsehood. Scholars use it differently: a myth is a **traditional story** that a community tells and retells because it matters, explaining the world, its gods, its origins, and its values.\n\nScholars often distinguish:\n\n- **Myth** (in a narrow sense): stories about gods and the origins of the world and human customs.\n- **Legend** (or saga): stories about heroes and the human past, which may contain a kernel of history, such as the Trojan War.\n- **Folktale**: stories told mainly for entertainment, often featuring ordinary people, tricks, and magic, set in no particular time or place.\n\nThese categories overlap, and Greek myths often combine them.\n\n## Myth without scripture\n\nGreek and Roman myths were never collected in a single holy book. They were told by poets, painted on vases, carved on temples, performed in theaters, and recited at festivals. Each teller could change details for their own purposes. As a result, **myths exist in variants**: Medea kills her children in Euripides' play, but in some earlier traditions others kill them. There is no \"correct\" version, only versions, each worth asking: who tells it, when, and why?\n\n## The major sources\n\n- **Homer** (eighth century BCE?): the *Iliad* and *Odyssey*, epic poems about the Trojan War and its aftermath.\n- **Hesiod** (c. 700 BCE): the *Theogony*, on the origins of the gods, and *Works and Days*, on human life, labor, and justice.\n- **The Homeric Hymns** (seventh–sixth centuries BCE and later): poems praising individual gods, such as the *Hymn to Demeter*.\n- **Pindar** (fifth century BCE): victory odes full of myth.\n- **Athenian tragedy** (fifth century BCE): Aeschylus, Sophocles, and Euripides dramatized myths.\n- **Apollodorus**, *Library* (first or second century CE): a mythological handbook summarizing many stories.\n- **Ovid** (43 BCE–17/18 CE): the *Metamorphoses*, a Latin epic of transformation myths, enormously influential on later art.\n- **Virgil** (70–19 BCE): the *Aeneid*, the Roman epic of Aeneas.\n\n## Art as a source\n\nGreek **vase paintings**, temple sculptures, and Roman frescoes are also sources. They sometimes show versions of myths that no surviving text records. Reading a myth fully means looking at images as well as words.\n\n## Greek and Roman gods\n\nRomans identified their gods with Greek ones: Zeus with Jupiter, Hera with Juno, Athena with Minerva, Aphrodite with Venus, Ares with Mars, Hermes with Mercury, Poseidon with Neptune, Artemis with Diana, Hephaestus with Vulcan, Demeter with Ceres, Dionysus with Bacchus (or Liber). Apollo kept his name. The identifications were not perfect: Mars, for instance, was more respected in Rome than Ares was in Greece.\n\n### Worked example: one myth, several sources\n\nThe abduction of **Persephone** appears in:\n\n- the *Homeric Hymn to Demeter*, which tells how Hades seized her, how her mother Demeter searched in grief and withheld the grain, and how Persephone, having eaten pomegranate seeds, must spend part of each year below;\n- Ovid's *Metamorphoses* (Book 5) and *Fasti* (Book 4), which retell it in Latin, with new details and a different tone;\n- vase paintings and the rites of the **Eleusinian Mysteries**, which honored Demeter and Persephone.\n\nComparing them shows how one story served different purposes: explaining the seasons, founding a religious cult, and, for Ovid, exploring desire and power.\n\n## Common misconceptions\n\n- **\"A myth is a false story.\"** In scholarship, myth means a traditional story of cultural importance.\n- **\"There is one authentic version of each myth.\"** Myths exist in many variants.\n- **\"Roman gods are just Greek gods with new names.\"** They were identified with Greek gods, but had their own cults and character.\n\n## Summary\n\nMyths are traditional stories that matter to a community, distinct from legends and folktales though overlapping with them. Classical myths survive in many variants, in sources from Homer and Hesiod to the tragedians and Ovid, and in art. Always ask who tells a version, when, and why.\n",
+      "keyTerms": [
+        {
+          "term": "Myth",
+          "definition": "A traditional story of cultural importance, often about gods and origins."
+        },
+        {
+          "term": "Legend",
+          "definition": "A traditional story about heroes and the human past."
+        },
+        {
+          "term": "Variant",
+          "definition": "One of several differing versions of a myth."
+        },
+        {
+          "term": "Theogony",
+          "definition": "Hesiod's poem on the origins and genealogy of the gods."
+        },
+        {
+          "term": "Metamorphoses",
+          "definition": "Ovid's Latin epic of transformation myths."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "The Greek word mythos originally meant:",
+          "choices": [
+            "Lie",
+            "Religion",
+            "Prophecy",
+            "Word, speech, or story"
+          ],
+          "answerIndex": 3,
+          "explanation": "Its root sense is 'story' or 'speech.'"
+        },
+        {
+          "prompt": "A traditional story about heroes and the human past is usually called a:",
+          "choices": [
+            "Legend",
+            "Folktale",
+            "Hymn",
+            "Fable"
+          ],
+          "answerIndex": 0,
+          "explanation": "Legends concern heroes and history."
+        },
+        {
+          "prompt": "Hesiod's Theogony concerns:",
+          "choices": [
+            "The Trojan War",
+            "Odysseus's return",
+            "The founding of Rome",
+            "The origins and genealogy of the gods"
+          ],
+          "answerIndex": 3,
+          "explanation": "Theogony means 'birth of the gods.'"
+        },
+        {
+          "prompt": "Why do classical myths exist in many variants?",
+          "choices": [
+            "Because a holy book was lost",
+            "They don't; each myth has one version",
+            "They were retold by many poets and artists, each adapting details",
+            "Because ancient scribes made errors"
+          ],
+          "answerIndex": 2,
+          "explanation": "There was no fixed scripture."
+        },
+        {
+          "prompt": "The Roman equivalent of Athena is:",
+          "choices": [
+            "Juno",
+            "Minerva",
+            "Diana",
+            "Venus"
+          ],
+          "answerIndex": 1,
+          "explanation": "Romans identified Athena with Minerva."
+        }
+      ],
+      "assignment": {
+        "title": "Comparing Versions",
+        "prompt": "Choose a myth that appears in at least two ancient sources (for example, Persephone in the *Homeric Hymn to Demeter* and Ovid's *Metamorphoses* 5; or Prometheus in Hesiod's *Theogony* and Aeschylus's *Prometheus Bound*).\n\nIn at least 400 words, summarize each version, identify at least three differences, and explain how each teller's purpose, genre, or time might account for those differences. Quote each source at least once. Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately summarizes both versions",
+          "Identifies at least three differences",
+          "Explains differences through purpose, genre, or context",
+          "Quotes and cites both sources"
+        ],
+        "minWords": 400
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Classical Mythology",
+          "creator": "Mark P. O. Morford, Robert J. Lenardon, and Michael Sham",
+          "year": 1971,
+          "note": "The standard textbook, combining translated sources with interpretation and art.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "website",
+          "title": "Theoi Project",
+          "creator": "Aaron J. Atsma",
+          "year": null,
+          "note": "An encyclopedia of Greek gods and myths, quoting the ancient sources in translation.",
+          "url": "https://www.theoi.com/",
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Creation and the Succession Myth",
+      "overview": "Hesiod's Theogony: Chaos, Gaia, and Ouranos; Kronos; the Titanomachy; Zeus's rise to power; and comparisons with Near Eastern creation myths.",
+      "objectives": [
+        "Summarize Hesiod's account of the origins of the cosmos and the gods.",
+        "Explain the succession myth and its themes of power and justice.",
+        "Compare Hesiod with Near Eastern parallels."
+      ],
+      "lesson": "## Hesiod and the Muses\n\nHesiod begins the *Theogony* (c. 700 BCE) by describing how the **Muses**, daughters of Zeus and Memory, appeared to him while he was tending sheep on Mount Helicon and gave him the gift of song. They warned him that they \"know how to speak many false things as though they were true,\" but also, when they wish, how to tell the truth. Even at its beginning, Greek myth reflects on its own reliability.\n\n## In the beginning\n\nAccording to Hesiod, first came **Chaos**, not disorder but a yawning gap or void. Then came **Gaia** (Earth), **Tartarus** (the deep underworld), and **Eros** (desire), the force that makes generation possible. From Chaos came Erebus (darkness) and Night; Gaia gave birth to **Ouranos** (Sky), mountains, and the sea.\n\n## The succession myth\n\nThe heart of the *Theogony* is a story of three generations of rulers, each overthrown by the next:\n\n1. **Ouranos** mated with Gaia, but hated their children and pushed them back into her body. Gaia made a sickle and persuaded her youngest son, **Kronos**, to ambush his father. Kronos castrated Ouranos; from the blood came the Furies and Giants, and from the severed parts in the sea arose **Aphrodite**.\n2. **Kronos** ruled with the **Titans**. Warned that a son would overthrow him, he swallowed each of his children by **Rhea** at birth. Rhea saved the last, **Zeus**, by giving Kronos a stone wrapped in swaddling clothes and hiding the baby on Crete.\n3. **Zeus** grew up, forced Kronos to vomit up his siblings (Hestia, Demeter, Hera, Hades, and Poseidon), and led them in a ten-year war against the Titans, the **Titanomachy**. Aided by the Hundred-Handers and the Cyclopes, who forged his thunderbolt, Zeus won and imprisoned the Titans in Tartarus. He then defeated the monster **Typhon**.\n\n## How Zeus's rule differs\n\nZeus breaks the cycle. Rather than ruling by force alone, he:\n\n- **Distributes honors** (*timai*) among the gods, giving each a sphere.\n- **Swallows Metis** (Cunning Intelligence) when she is pregnant, preventing a son from overthrowing him and making wisdom part of himself. **Athena** is later born from his head.\n- **Marries Themis** (Right Order), whose children include the Seasons, Good Order, Justice, and Peace.\n\nThe *Theogony* thus tells a story of progress, from violent, primal forces to an ordered cosmos ruled with intelligence and justice.\n\n## Prometheus and Pandora\n\nIn both the *Theogony* and *Works and Days*, Hesiod tells how the Titan **Prometheus** tricked Zeus at a sacrifice, giving humans the meat and the gods the bones wrapped in fat, then stole fire for humans. Zeus punished him by chaining him to a rock where an eagle ate his liver daily, and punished humans by creating the first woman, **Pandora**, who opened a jar (not a box; the \"box\" comes from a sixteenth-century mistranslation) releasing evils into the world, leaving only Hope (*Elpis*) inside. The story explains sacrifice, fire, labor, and suffering, and reflects Hesiod's deeply misogynistic view of women.\n\n## Near Eastern parallels\n\nHesiod's succession myth closely resembles older stories from the Near East:\n\n- The Hittite **Kumarbi** cycle (second millennium BCE) features a sky god, Anu, castrated by his son Kumarbi, who swallows something and is later overthrown by the storm god Teshub.\n- The Babylonian **Enuma Elish** tells how the storm god Marduk defeats the primordial monster Tiamat and becomes king of the gods.\n\nThese parallels suggest that Greek myth absorbed and adapted ideas from neighboring cultures.\n\n### Worked example: interpreting the succession myth\n\nWhy would a culture tell a story in which sons violently overthrow fathers? Interpretations include:\n\n- **Political:** the myth justifies Zeus's rule as the end of chaos and the beginning of order.\n- **Psychological:** the myth dramatizes generational conflict within families.\n- **Cosmological:** the story describes the world's development from undifferentiated forces to ordered structure.\n\nThese readings don't exclude one another. The richest interpretations of myths usually combine perspectives.\n\n## Common misconceptions\n\n- **\"Chaos means disorder.\"** In Hesiod, it means a gap or void.\n- **\"Pandora opened a box.\"** In Hesiod, it was a jar (*pithos*).\n- **\"Greek creation myths were unique.\"** They share patterns with Near Eastern myths.\n\n## Summary\n\nHesiod's *Theogony* moves from Chaos and Gaia through the succession of Ouranos, Kronos, and Zeus. Zeus wins the Titanomachy and establishes a lasting order of distributed honors, intelligence, and justice. The Prometheus and Pandora myths explain human conditions, and Near Eastern parallels show cultural exchange.\n",
+      "keyTerms": [
+        {
+          "term": "Chaos",
+          "definition": "In Hesiod, the primordial gap or void from which the cosmos began."
+        },
+        {
+          "term": "Succession myth",
+          "definition": "The story of successive rulers of the gods, each overthrown by the next."
+        },
+        {
+          "term": "Titanomachy",
+          "definition": "The war between Zeus's generation and the Titans."
+        },
+        {
+          "term": "Pithos",
+          "definition": "A large storage jar; Pandora's 'box' in Hesiod."
+        },
+        {
+          "term": "Enuma Elish",
+          "definition": "The Babylonian creation epic in which Marduk becomes king of the gods."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "In Hesiod, Chaos is best understood as:",
+          "choices": [
+            "Disorder and confusion",
+            "A monster",
+            "A gap or void",
+            "A god of war"
+          ],
+          "answerIndex": 2,
+          "explanation": "The word suggests a yawning gap."
+        },
+        {
+          "prompt": "Kronos tried to prevent being overthrown by:",
+          "choices": [
+            "Fleeing to Crete",
+            "Imprisoning Rhea",
+            "Swallowing his children",
+            "Marrying Themis"
+          ],
+          "answerIndex": 2,
+          "explanation": "He swallowed each child at birth."
+        },
+        {
+          "prompt": "How did Zeus prevent his own overthrow?",
+          "choices": [
+            "He married Gaia",
+            "He swallowed the pregnant Metis",
+            "He swallowed a stone",
+            "He gave up his thunderbolt"
+          ],
+          "answerIndex": 1,
+          "explanation": "He absorbed Cunning Intelligence."
+        },
+        {
+          "prompt": "In Hesiod, Pandora opened a:",
+          "choices": [
+            "Box",
+            "Door to the underworld",
+            "Chest of gold",
+            "Jar (pithos)"
+          ],
+          "answerIndex": 3,
+          "explanation": "The 'box' is a later mistranslation."
+        },
+        {
+          "prompt": "The Hittite Kumarbi cycle is significant because:",
+          "choices": [
+            "It is a Roman epic",
+            "It describes the Trojan War",
+            "It parallels Hesiod's succession myth, suggesting cultural exchange",
+            "It was written by Hesiod"
+          ],
+          "answerIndex": 2,
+          "explanation": "It features a similar sequence of divine rulers."
+        }
+      ],
+      "assignment": {
+        "title": "The Order of Zeus",
+        "prompt": "Read Hesiod's *Theogony* (lines 116–210 and 453–506 at minimum, and ideally lines 617–735 and 886–929).\n\nIn at least 450 words, explain how Hesiod presents Zeus's rule as different from that of Ouranos and Kronos. Quote and cite at least three passages. Then discuss one Near Eastern parallel and what it suggests. Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately explains the succession myth",
+          "Analyzes how Zeus's rule differs",
+          "Quotes and cites at least three passages",
+          "Discusses a Near Eastern parallel thoughtfully"
+        ],
+        "minWords": 450
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Theogony and Works and Days",
+          "creator": "Hesiod (tr. M. L. West)",
+          "year": 1988,
+          "note": "A clear translation by the great scholar of Hesiod and the Near Eastern connections, with notes.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Olympian Gods",
+      "overview": "The twelve Olympians: their spheres, attributes, and characters; how gods behave in myth; and the relationship between myth and worship.",
+      "objectives": [
+        "Identify the Olympian gods by their spheres and attributes.",
+        "Analyze how myths characterize the gods.",
+        "Explain the difference between gods in myth and gods in cult."
+      ],
+      "lesson": "## The Olympians\n\nThe **twelve Olympians**, believed to live on Mount Olympus, were usually listed as:\n\n| God | Roman | Spheres | Attributes |\n|---|---|---|---|\n| Zeus | Jupiter | sky, weather, justice, kingship | thunderbolt, eagle |\n| Hera | Juno | marriage, women | peacock, diadem |\n| Poseidon | Neptune | sea, earthquakes, horses | trident |\n| Demeter | Ceres | grain, agriculture | sheaf of wheat |\n| Athena | Minerva | wisdom, crafts, war strategy | owl, aegis, olive |\n| Apollo | Apollo | prophecy, music, healing, light | lyre, bow, laurel |\n| Artemis | Diana | hunting, wild animals, childbirth | bow, deer |\n| Ares | Mars | war | spear, helmet |\n| Aphrodite | Venus | love, beauty, desire | dove, myrtle |\n| Hephaestus | Vulcan | fire, metalwork | hammer, anvil |\n| Hermes | Mercury | messengers, travelers, thieves, trade, guiding souls | winged sandals, caduceus |\n| Hestia or Dionysus | Vesta / Bacchus | hearth (Hestia); wine, theater, ecstasy (Dionysus) | hearth fire; thyrsus, vine |\n\nLists varied; in some, Dionysus replaced Hestia. **Hades**, ruler of the underworld, was Zeus's brother but did not live on Olympus.\n\n## Attributes and epithets\n\nIn art, gods are identified by **attributes**: objects or animals associated with them. In poetry, they have **epithets**: Homer calls Athena \"grey-eyed\" (*glaukōpis*) and Hera \"ox-eyed\" or \"white-armed.\" Epithets also name a god's specific aspect in a local cult.\n\n## Gods in myth: power and personality\n\nGreek gods are **anthropomorphic**, imagined in human form, with human passions. In myth they:\n\n- **Love and desire**, often violently: many myths describe Zeus pursuing mortal women and goddesses.\n- **Quarrel**: Hera persecutes Zeus's lovers and their children, especially Heracles.\n- **Punish** humans who offend them, especially through **hubris**, arrogant overreaching.\n- **Favor** particular mortals, as Athena favors Odysseus.\n\nThe gods are immortal and enormously powerful, but not all-powerful or all-good. Even Zeus is constrained by **Fate** (*Moira*) in some accounts.\n\n## Gods in myth and in cult\n\nAncient Greeks encountered gods in two main ways:\n\n- **Myth:** stories, often of scandalous behavior.\n- **Cult:** worship through sacrifice, prayer, and festivals.\n\nThese could seem to conflict. Some ancient thinkers objected: the philosopher **Xenophanes** (sixth century BCE) complained that Homer and Hesiod attributed to the gods \"everything that is a shame and reproach among men: theft, adultery, and deceiving each other,\" and observed that if horses could draw, they would draw gods like horses. Plato wanted such stories censored in his ideal city. Yet most Greeks continued both to tell the myths and to worship the gods, holding them together without contradiction.\n\n### Worked example: Athena in the Odyssey\n\nIn the *Odyssey*, Athena repeatedly helps Odysseus, often in disguise. In Book 13, after he lands on Ithaca and spins a false story to the disguised goddess, she smiles, reveals herself, and praises him as a fellow master of cunning: among mortals he is best in counsel and stories, and she is famous among the gods for intelligence and craft.\n\n*What it shows:* Athena favors Odysseus because they share a quality, *mētis*, cunning intelligence. The gods in Homer have personalities, preferences, and affection, and their relationships with mortals reflect values the poem celebrates.\n\n## Common misconceptions\n\n- **\"Greek gods were all-good.\"** They were powerful, not necessarily moral.\n- **\"The twelve Olympians were a fixed list.\"** Lists varied.\n- **\"Greeks didn't question their myths.\"** Philosophers criticized them sharply.\n\n## Summary\n\nThe Olympians each had spheres, attributes, and epithets. In myth, the gods are anthropomorphic, passionate, powerful, and not always moral; they punish hubris and favor mortals who share their qualities. Myth and cult coexisted, though philosophers like Xenophanes and Plato criticized the stories.\n",
+      "keyTerms": [
+        {
+          "term": "Olympians",
+          "definition": "The principal Greek gods, believed to live on Mount Olympus."
+        },
+        {
+          "term": "Attribute",
+          "definition": "An object or animal identifying a god in art."
+        },
+        {
+          "term": "Epithet",
+          "definition": "A descriptive title for a god or hero, such as 'grey-eyed Athena.'"
+        },
+        {
+          "term": "Anthropomorphism",
+          "definition": "Imagining gods in human form with human qualities."
+        },
+        {
+          "term": "Hubris",
+          "definition": "Arrogant overreaching that offends the gods."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which god's attribute is the trident?",
+          "choices": [
+            "Zeus",
+            "Ares",
+            "Poseidon",
+            "Hermes"
+          ],
+          "answerIndex": 2,
+          "explanation": "Poseidon rules the sea with his trident."
+        },
+        {
+          "prompt": "The owl is associated with:",
+          "choices": [
+            "Hera",
+            "Artemis",
+            "Athena",
+            "Aphrodite"
+          ],
+          "answerIndex": 2,
+          "explanation": "The owl symbolized Athena's wisdom."
+        },
+        {
+          "prompt": "Who complained that Homer and Hesiod attributed shameful deeds to the gods?",
+          "choices": [
+            "Pindar",
+            "Herodotus",
+            "Ovid",
+            "Xenophanes"
+          ],
+          "answerIndex": 3,
+          "explanation": "He criticized anthropomorphic gods."
+        },
+        {
+          "prompt": "Why does Athena favor Odysseus?",
+          "choices": [
+            "He is her son",
+            "He defeated Ares",
+            "They share mētis, cunning intelligence",
+            "He built her temple"
+          ],
+          "answerIndex": 2,
+          "explanation": "Both are masters of cunning."
+        },
+        {
+          "prompt": "Hubris is best defined as:",
+          "choices": [
+            "Arrogant overreaching that offends the gods",
+            "A sacred festival",
+            "Divine favor",
+            "A type of sacrifice"
+          ],
+          "answerIndex": 0,
+          "explanation": "The gods punished hubris."
+        }
+      ],
+      "assignment": {
+        "title": "A God in Myth and Cult",
+        "prompt": "Choose one Olympian. In at least 450 words: describe their spheres, attributes, and epithets; analyze how they are characterized in at least two myths, quoting at least one ancient source; and describe at least one way they were worshipped (a festival, sanctuary, or cult title). Conclude by discussing how the god of myth and the god of cult relate. Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately describes spheres, attributes, and epithets",
+          "Analyzes characterization in two myths with a quoted source",
+          "Describes worship accurately",
+          "Thoughtfully relates myth to cult"
+        ],
+        "minWords": 450
+      },
+      "resources": []
+    },
+    {
+      "number": 4,
+      "title": "Gods and Mortals",
+      "overview": "Encounters between gods and humans: Demeter and Persephone, Apollo and Daphne, Arachne, Niobe, and Dionysus; transformation and divine punishment.",
+      "objectives": [
+        "Analyze myths of divine-human encounter.",
+        "Explain recurring themes of hubris, punishment, and transformation.",
+        "Interpret Ovid's retellings of myths."
+      ],
+      "lesson": "## Divine encounters\n\nMany myths explore what happens when gods and mortals meet. These encounters are often dangerous: gods are immortal, powerful, and unpredictable, and the gap between divine and human is a central theme of Greek myth.\n\n## Demeter and Persephone\n\nThe *Homeric Hymn to Demeter* tells how **Hades**, with Zeus's permission, seized **Persephone** while she gathered flowers. Her mother **Demeter** wandered the earth in grief and, disguised as an old woman, nursed a royal baby at **Eleusis**. She tried to make the child immortal by placing him in the fire at night but was interrupted by his frightened mother. Then, in anger and grief, Demeter caused a famine, threatening to destroy humanity and deprive the gods of sacrifices. Zeus relented, but Persephone had eaten pomegranate seeds in the underworld, so she must spend part of each year there.\n\nThe myth explains:\n\n- The **seasons** (in some interpretations, Persephone's absence is winter).\n- The founding of the **Eleusinian Mysteries**, which Demeter established.\n- A mother's grief and a daughter's passage into marriage.\n\n## Hubris and punishment\n\nMany myths show mortals punished for **challenging the gods**:\n\n- **Arachne**, a skilled weaver, challenged **Athena** to a contest. In Ovid's version (*Metamorphoses* 6), Arachne's tapestry, depicting the gods' deceptions and assaults, is flawless; Athena, enraged, tears it and strikes her. Arachne hangs herself, and Athena transforms her into a spider.\n- **Niobe**, queen of Thebes, boasted that she was superior to the goddess **Leto** because she had fourteen children and Leto only two. Leto's children, **Apollo** and **Artemis**, killed Niobe's children, and Niobe, weeping endlessly, turned to stone.\n- **Pentheus**, king of Thebes, refused to recognize **Dionysus** as a god. In Euripides' *Bacchae*, Dionysus drives him to spy on the god's female worshippers, who, in a frenzy, tear him apart, led by his own mother.\n\n## Desire and transformation\n\nOther myths show the gods' desire as a threat:\n\n- **Apollo and Daphne** (*Metamorphoses* 1): struck by Cupid's arrow, Apollo pursues the nymph Daphne, who prays to escape and is transformed into a **laurel tree**. Apollo makes the laurel his sacred plant.\n- Zeus's many pursuits, of Europa, Io, Leda, and others, often end in transformation.\n\nOvid lingers on these stories, often sympathizing with the victims and questioning the gods' justice.\n\n## Ovid's Metamorphoses\n\nOvid's *Metamorphoses* (completed c. 8 CE) gathers some 250 myths of **transformation**, linked in a continuous poem from the creation of the world to Ovid's own time. Its characteristic features:\n\n- **Wit, irony, and pathos.**\n- **Vivid transformation scenes**, describing bodies changing step by step.\n- **Ambiguity** about divine justice.\n- **Enormous influence** on later art and literature, from Shakespeare to Titian to Bernini.\n\n### Worked example: Arachne's tapestry\n\nIn Ovid's account, Athena weaves a tapestry showing the gods in majesty and, in its corners, mortals punished for challenging them, a warning. Arachne weaves the gods' crimes: Zeus as a bull abducting Europa, as a swan with Leda, and many more. Ovid says that neither Athena nor Envy itself could find fault with her work.\n\n*Interpretation:* Arachne is punished not because her art is inferior, but because it is perfect and its subject, divine abuse of power, is true. Many readers see Ovid identifying with Arachne, an artist whose work offends those in power. Ovid was himself exiled by Augustus in 8 CE, in part, he said, for a poem.\n\n## Common misconceptions\n\n- **\"The gods always punish the wicked.\"** They often punish pride or rivalry, not wickedness.\n- **\"Transformation myths are just explanations of nature.\"** They also explore power, desire, and identity.\n- **\"Ovid simply records myths.\"** He reshapes them with irony and sympathy.\n\n## Summary\n\nEncounters between gods and mortals are dangerous. Demeter's search for Persephone explains seasons and the Mysteries; Arachne, Niobe, and Pentheus are punished for challenging the gods; Daphne and others are transformed by divine desire. Ovid's *Metamorphoses* retells these myths with wit, pathos, and ambiguity about divine justice.\n",
+      "keyTerms": [
+        {
+          "term": "Eleusinian Mysteries",
+          "definition": "Secret rites honoring Demeter and Persephone at Eleusis."
+        },
+        {
+          "term": "Metamorphosis",
+          "definition": "Transformation, especially of a person into another form."
+        },
+        {
+          "term": "Arachne",
+          "definition": "A weaver transformed into a spider after challenging Athena."
+        },
+        {
+          "term": "Niobe",
+          "definition": "A queen whose children were killed after she boasted over Leto."
+        },
+        {
+          "term": "Bacchae",
+          "definition": "Euripides' tragedy in which Pentheus is destroyed for denying Dionysus."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Persephone must spend part of each year in the underworld because she:",
+          "choices": [
+            "Insulted Hades",
+            "Married Zeus",
+            "Stole fire",
+            "Ate pomegranate seeds there"
+          ],
+          "answerIndex": 3,
+          "explanation": "Eating food of the underworld bound her."
+        },
+        {
+          "prompt": "Daphne escapes Apollo by being transformed into:",
+          "choices": [
+            "A swan",
+            "A spider",
+            "A stone",
+            "A laurel tree"
+          ],
+          "answerIndex": 3,
+          "explanation": "The laurel became Apollo's sacred plant."
+        },
+        {
+          "prompt": "Niobe was punished for:",
+          "choices": [
+            "Refusing to marry",
+            "Stealing fire",
+            "Boasting she was superior to Leto",
+            "Weaving a tapestry"
+          ],
+          "answerIndex": 2,
+          "explanation": "Her pride offended Leto."
+        },
+        {
+          "prompt": "In Euripides' Bacchae, Pentheus is destroyed for:",
+          "choices": [
+            "Challenging Athena to a contest",
+            "Stealing cattle",
+            "Refusing to recognize Dionysus as a god",
+            "Killing a sacred deer"
+          ],
+          "answerIndex": 2,
+          "explanation": "He denies Dionysus."
+        },
+        {
+          "prompt": "In Ovid's version, Arachne's tapestry:",
+          "choices": [
+            "Is flawless and depicts the gods' crimes",
+            "Is never finished",
+            "Depicts the gods in majesty",
+            "Is inferior to Athena's"
+          ],
+          "answerIndex": 0,
+          "explanation": "Her art is perfect, and its subject is true."
+        }
+      ],
+      "assignment": {
+        "title": "Ovid's Transformations",
+        "prompt": "Read two transformation myths in Ovid's *Metamorphoses* (for example, Apollo and Daphne, 1.452–567; Arachne, 6.1–145; or Niobe, 6.146–312).\n\nIn at least 450 words, analyze how Ovid presents the relationship between gods and mortals in both, quoting and citing at least three passages. Consider: Who has power? With whom does the narrative sympathize? What does the transformation signify? Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately discusses two myths",
+          "Analyzes power and sympathy",
+          "Interprets the transformations",
+          "Quotes and cites at least three passages"
+        ],
+        "minWords": 450
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Metamorphoses",
+          "creator": "Ovid (tr. Stephanie McCarter)",
+          "year": 2022,
+          "note": "A lively, accurate recent translation attentive to the poem's treatment of power and violence.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "book",
+          "title": "Tales from Ovid",
+          "creator": "Ted Hughes",
+          "year": 1997,
+          "note": "Twenty-four passages from the Metamorphoses, retold in vivid English verse by a Poet Laureate.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Heroes: Perseus, Heracles, and Theseus",
+      "overview": "The Greek hero: divine parentage, labors and monsters, and civic identity, through the myths of Perseus, Heracles, and Theseus.",
+      "objectives": [
+        "Define the Greek hero and identify common heroic patterns.",
+        "Summarize the myths of Perseus, Heracles, and Theseus.",
+        "Analyze how hero myths served communities."
+      ],
+      "lesson": "## What is a hero?\n\nIn Greek, a *hērōs* was not simply a brave person. Heroes were men and women of a past age, often with one divine parent, who performed extraordinary deeds. After death, many were worshipped in **hero cults** at their tombs, believed to have power to help or harm the living. Heroes are not perfect; their strength is often matched by violence, excess, and suffering.\n\n## Heroic patterns\n\nMany hero myths share elements:\n\n- **Unusual birth**, often with a divine father.\n- **Threats in infancy** and exile.\n- **Tests and labors**, often against monsters.\n- **Divine help**: gods' gifts or guidance.\n- **A journey**, often to the edges of the world or the underworld.\n- **Return** and recognition.\n- **Death**, often troubled, followed by cult or immortality.\n\nScholars such as Lord Raglan and Joseph Campbell proposed universal \"hero patterns.\" These can be useful, but they can also flatten important differences among myths.\n\n## Perseus\n\nPerseus was the son of **Zeus** and **Danaë**, whose father, King Acrisius of Argos, had been told that her son would kill him. Acrisius locked Danaë away, but Zeus came to her as a shower of gold. Acrisius set mother and baby adrift in a chest at sea. They washed ashore on the island of Seriphos.\n\nThe king of Seriphos sent Perseus to fetch the head of the **Gorgon Medusa**, whose gaze turned people to stone. With help from Athena and Hermes, and with winged sandals, a cap of invisibility, and a reflective shield, Perseus beheaded Medusa. On the way home, he rescued **Andromeda** from a sea monster and married her. Later, he accidentally killed Acrisius with a discus at games, fulfilling the prophecy.\n\n## Heracles\n\n**Heracles** (Roman **Hercules**) was the son of Zeus and the mortal **Alcmene**. Hera persecuted him from birth, sending snakes into his cradle, which the baby strangled. Later, Hera drove him mad, and he killed his wife and children. To atone, he served King Eurystheus, performing the **Twelve Labors**, including:\n\n- Killing the Nemean Lion and wearing its invulnerable skin.\n- Killing the many-headed Hydra.\n- Cleaning the Augean stables in a single day by diverting rivers.\n- Fetching the golden apples of the Hesperides.\n- Bringing Cerberus, the three-headed dog, up from the underworld.\n\nHeracles died when his wife **Deianeira**, deceived by a centaur's dying lie, gave him a robe soaked in what she thought was a love charm but was poison. In agony, he had himself burned on a pyre, and he was taken up to Olympus as a god. He was worshipped across the Greek world as both hero and god.\n\n## Theseus\n\n**Theseus**, son of King Aegeus of Athens (or, in some versions, Poseidon), cleared the road to Athens of bandits and monsters. He volunteered to go to Crete as one of the young Athenians sent as tribute to the **Minotaur**, a half-bull monster in the **Labyrinth** built by Daedalus. With the help of the Cretan princess **Ariadne**, who gave him a ball of thread, he killed the Minotaur and escaped. He abandoned Ariadne on the island of Naxos. Returning home, he forgot to change his black sail to white, and Aegeus, thinking his son dead, threw himself into the sea, which was named the Aegean.\n\n## Heroes and communities\n\nHero myths served communities:\n\n- **Theseus** became Athens' national hero, credited with uniting Attica into one state (the *synoecism*) and even, later, with founding democracy.\n- **Heracles** was claimed as an ancestor by the Spartan kings and by Macedonian kings, including Alexander the Great.\n- Hero cults gave cities protectors and identities.\n\n### Worked example: Theseus and Athenian identity\n\nIn the fifth century BCE, as Athens grew powerful, its people promoted Theseus as their hero. Around 475 BCE, the Athenian general Cimon brought back from the island of Skyros bones said to be Theseus's and buried them in Athens. Vase painters increasingly depicted Theseus's deeds alongside Heracles', and Athenian tragedies, such as Sophocles' *Oedipus at Colonus*, show him as a just and generous king.\n\n*What it shows:* myths were not fixed; communities shaped and promoted heroes to express their identities and ambitions.\n\n## Common misconceptions\n\n- **\"Greek heroes were role models.\"** They were extraordinary, often violent and flawed.\n- **\"Hercules and Heracles are different heroes.\"** Hercules is the Roman name.\n- **\"All hero myths follow a universal pattern.\"** Patterns help, but differences matter.\n\n## Summary\n\nGreek heroes were extraordinary figures of the past, often half-divine and worshipped after death. Perseus, Heracles, and Theseus share patterns of birth, labors, divine help, and return, but each served different communities, and myths evolved to express civic identities.\n",
+      "keyTerms": [
+        {
+          "term": "Hero cult",
+          "definition": "Worship of a dead hero at a tomb or shrine."
+        },
+        {
+          "term": "Twelve Labors",
+          "definition": "The tasks Heracles performed for King Eurystheus."
+        },
+        {
+          "term": "Medusa",
+          "definition": "A Gorgon whose gaze turned people to stone, beheaded by Perseus."
+        },
+        {
+          "term": "Minotaur",
+          "definition": "A half-man, half-bull monster in the Labyrinth on Crete, killed by Theseus."
+        },
+        {
+          "term": "Synoecism",
+          "definition": "The unification of communities into a single state, attributed to Theseus for Athens."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A Greek hērōs was typically:",
+          "choices": [
+            "Any brave soldier",
+            "A god living on Olympus",
+            "A tragic playwright",
+            "A figure of the past, often half-divine, worshipped after death"
+          ],
+          "answerIndex": 3,
+          "explanation": "Heroes received cults."
+        },
+        {
+          "prompt": "Perseus avoided Medusa's gaze using:",
+          "choices": [
+            "A trident",
+            "The skin of the Nemean Lion",
+            "A reflective shield",
+            "A ball of thread"
+          ],
+          "answerIndex": 2,
+          "explanation": "He looked at her reflection."
+        },
+        {
+          "prompt": "Who persecuted Heracles throughout his life?",
+          "choices": [
+            "Hera",
+            "Athena",
+            "Demeter",
+            "Aphrodite"
+          ],
+          "answerIndex": 0,
+          "explanation": "She hated Zeus's son by Alcmene."
+        },
+        {
+          "prompt": "Ariadne helped Theseus escape the Labyrinth by giving him:",
+          "choices": [
+            "Winged sandals",
+            "A ball of thread",
+            "A sword of fire",
+            "A golden fleece"
+          ],
+          "answerIndex": 1,
+          "explanation": "He followed the thread out."
+        },
+        {
+          "prompt": "Cimon's return of Theseus's \"bones\" to Athens shows that:",
+          "choices": [
+            "Athens rejected hero cults",
+            "Theseus was a historical king",
+            "Myths were never political",
+            "Communities shaped heroes to express their identities"
+          ],
+          "answerIndex": 3,
+          "explanation": "Myths served civic purposes."
+        }
+      ],
+      "assignment": {
+        "title": "The Making of a Hero",
+        "prompt": "Choose one Greek hero (Perseus, Heracles, Theseus, Jason, Bellerophon, or Atalanta). Using at least two ancient sources (for example, Apollodorus's *Library* and Plutarch's *Life of Theseus*, Euripides' *Heracles*, or Ovid), quoted and cited:\n\nIn at least 450 words, summarize the hero's myth, analyze how it fits and departs from common heroic patterns, and explain how the hero served a community or later culture. Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately summarizes the hero's myth",
+          "Analyzes heroic patterns and departures",
+          "Explains the hero's civic or cultural role",
+          "Quotes and cites two ancient sources"
+        ],
+        "minWords": 450
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Mythos",
+          "creator": "Stephen Fry",
+          "year": 2017,
+          "note": "Lively, faithful retellings of the Greek myths of gods and mortals.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "book",
+          "title": "Heroes",
+          "creator": "Stephen Fry",
+          "year": 2018,
+          "note": "Fry's retellings of the hero myths, from Perseus to Jason.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The Trojan War and Homeric Epic",
+      "overview": "The cycle of Trojan myths, from the Judgment of Paris to the fall of Troy; the Iliad's wrath of Achilles; and the Odyssey's homecoming.",
+      "objectives": [
+        "Summarize the myths of the Trojan War cycle.",
+        "Analyze themes of the Iliad and Odyssey.",
+        "Explain the relationship between Homeric epic, myth, and history."
+      ],
+      "lesson": "## The Trojan cycle\n\nThe Trojan War was the greatest subject of Greek legend. Its story, told across many poems (the **Epic Cycle**, mostly lost), includes:\n\n1. **The Judgment of Paris:** at a wedding, Eris (Strife) tossed a golden apple inscribed \"for the fairest.\" Hera, Athena, and Aphrodite claimed it. The Trojan prince **Paris** judged, and Aphrodite won by promising him the most beautiful woman, **Helen**, wife of King **Menelaus** of Sparta.\n2. **The abduction:** Paris took Helen to Troy. Menelaus's brother **Agamemnon** led a Greek army to recover her.\n3. **Iphigenia:** to gain winds to sail, Agamemnon sacrificed his daughter **Iphigenia** to Artemis.\n4. **The siege:** the war lasted ten years.\n5. **The wooden horse:** **Odysseus** devised the trick of the hollow horse filled with soldiers. The Trojans brought it into the city, and Troy fell.\n6. **The returns:** the Greek heroes' journeys home, many disastrous. Agamemnon was murdered by his wife Clytemnestra; Odysseus wandered for ten years.\n\n## The Iliad\n\nThe *Iliad* covers only a few weeks in the war's tenth year. Its first word is *mēnin*, \"wrath\": the poem is about the anger of **Achilles**, the greatest Greek warrior.\n\n- Agamemnon takes Achilles' prize, the captive woman Briseis. Insulted, Achilles withdraws from battle, and the Greeks suffer.\n- Achilles' beloved companion **Patroclus** fights in Achilles' armor and is killed by the Trojan prince **Hector**.\n- Achilles, in grief and fury, returns, kills Hector, and drags his body.\n- In the final book, Hector's father, King **Priam**, comes secretly to Achilles' tent to ransom his son's body. Achilles, moved by thoughts of his own father, weeps with Priam and returns the body.\n\nThe *Iliad* explores **honor** (*timē*), **glory** (*kleos*), mortality, and grief. Achilles chooses a short life with undying glory over a long, obscure one. The meeting with Priam, in which enemies share grief, is one of literature's great scenes of compassion.\n\n## The Odyssey\n\nThe *Odyssey* follows **Odysseus**'s ten-year journey home to Ithaca and the struggle to reclaim his household from the suitors courting his wife, **Penelope**. It features:\n\n- Adventures with the Cyclops **Polyphemus**, the witch **Circe**, the Sirens, Scylla and Charybdis, and a journey to the underworld.\n- Odysseus's **mētis** (cunning): he tells the Cyclops his name is \"Nobody.\"\n- **Penelope**'s matching cunning: she delays the suitors by weaving a shroud by day and unweaving it by night.\n- **Recognition** scenes, as Odysseus, disguised as a beggar, is recognized by his dog Argos, his nurse Eurycleia, his son Telemachus, and finally Penelope.\n- **Xenia**, the sacred guest-host relationship, which the suitors violate.\n\n## Homer and history\n\nWas there a Trojan War? Archaeologists, beginning with Heinrich Schliemann in the 1870s, have excavated **Hisarlik** in northwest Turkey, identified with Troy. It shows multiple cities, including one destroyed around 1200 BCE, at the end of the Bronze Age. Hittite documents mention a place called **Wilusa**, possibly Ilios (Troy). There may be a historical memory behind the legend, but the poems themselves reflect centuries of oral tradition and the world of the eighth century BCE.\n\n## Oral composition\n\nScholars Milman Parry and Albert Lord showed, by studying oral poets in Yugoslavia in the 1930s, that Homeric epic was composed using **formulas**, such as stock epithets (\"swift-footed Achilles,\" \"rosy-fingered Dawn\") and repeated scenes, which helped bards compose in performance. The poems we have were probably written down in the eighth or seventh century BCE.\n\n### Worked example: Priam and Achilles (Iliad 24)\n\nPriam kneels and kisses Achilles' hands, \"the terrible, man-killing hands that had slain so many of his sons.\" He asks Achilles to remember his own father. Both men weep, one for his son, the other for his father and for Patroclus.\n\n*Interpretation:* the poem's climax is not a battle but a moment of shared mortality. Achilles' wrath, which began the poem, ends in compassion. The scene suggests that the *Iliad*'s deepest subject is not glory but the human condition common to enemies.\n\n## Common misconceptions\n\n- **\"The Iliad tells the whole Trojan War, including the horse.\"** It ends before Troy falls; the horse appears in the *Odyssey* and the *Aeneid*.\n- **\"Homer was certainly a single author who wrote the poems.\"** The poems emerged from oral tradition; Homer's identity is debated.\n- **\"The Trojan War is pure fiction.\"** It may preserve memories of Bronze Age conflict.\n\n## Summary\n\nThe Trojan cycle runs from the Judgment of Paris to the returns of the heroes. The *Iliad* explores Achilles' wrath, honor, glory, and grief, ending in compassion; the *Odyssey* celebrates cunning, homecoming, recognition, and hospitality. Archaeology suggests a historical kernel, and oral-formulaic theory explains Homer's style.\n",
+      "keyTerms": [
+        {
+          "term": "Epic Cycle",
+          "definition": "A series of mostly lost epic poems narrating the Trojan War and related myths."
+        },
+        {
+          "term": "Kleos",
+          "definition": "Glory or fame, especially as preserved in song."
+        },
+        {
+          "term": "Mētis",
+          "definition": "Cunning intelligence, Odysseus's defining quality."
+        },
+        {
+          "term": "Xenia",
+          "definition": "The sacred relationship between guest and host."
+        },
+        {
+          "term": "Oral-formulaic theory",
+          "definition": "The theory that Homeric epic was composed using formulas in oral performance."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "The first word of the Iliad means:",
+          "choices": [
+            "Man",
+            "Troy",
+            "Sing",
+            "Wrath"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mēnin announces Achilles' anger."
+        },
+        {
+          "prompt": "Achilles returns to battle after:",
+          "choices": [
+            "Paris kills Helen",
+            "Odysseus builds the horse",
+            "Hector kills Patroclus",
+            "Agamemnon apologizes"
+          ],
+          "answerIndex": 2,
+          "explanation": "Grief for Patroclus drives him."
+        },
+        {
+          "prompt": "The Iliad ends with:",
+          "choices": [
+            "Priam ransoming Hector's body from Achilles",
+            "Odysseus returning home",
+            "The wooden horse",
+            "The fall of Troy"
+          ],
+          "answerIndex": 0,
+          "explanation": "It ends before Troy falls."
+        },
+        {
+          "prompt": "Penelope delays the suitors by:",
+          "choices": [
+            "Weaving and unweaving a shroud",
+            "Fleeing to Sparta",
+            "Poisoning them",
+            "Hiding in the palace"
+          ],
+          "answerIndex": 0,
+          "explanation": "Her cunning matches Odysseus's."
+        },
+        {
+          "prompt": "Milman Parry and Albert Lord showed that Homeric poetry was:",
+          "choices": [
+            "Composed orally using formulas",
+            "Composed in Latin",
+            "Translated from Hittite",
+            "Written by a single scribe in Athens"
+          ],
+          "answerIndex": 0,
+          "explanation": "Their fieldwork illuminated oral composition."
+        }
+      ],
+      "assignment": {
+        "title": "Reading Homer",
+        "prompt": "Read one book of the *Iliad* or *Odyssey* in full (recommended: *Iliad* 24, or *Odyssey* 9 or 23).\n\nIn at least 500 words, summarize the book, analyze two of its central themes (such as glory, grief, cunning, hospitality, or recognition) with at least three quoted and cited passages, and explain how the book relates to the wider Trojan myth cycle. Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately summarizes the book",
+          "Analyzes two themes in depth",
+          "Quotes and cites at least three passages",
+          "Connects to the wider Trojan cycle"
+        ],
+        "minWords": 500
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Iliad",
+          "creator": "Homer (tr. Emily Wilson)",
+          "year": 2023,
+          "note": "A clear, propulsive, line-for-line verse translation.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "book",
+          "title": "The Odyssey",
+          "creator": "Homer (tr. Emily Wilson)",
+          "year": 2017,
+          "note": "The first English translation of the Odyssey by a woman, in fast, lucid verse.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "lecture",
+          "title": "The Ancient Greek Hero",
+          "creator": "Gregory Nagy (HarvardX)",
+          "year": 2013,
+          "note": "A Harvard course on heroes in Homer, tragedy, and cult.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Myth on Stage: Tragedy",
+      "overview": "How Athenian tragedians reworked myths: Aeschylus's Oresteia, Sophocles' Oedipus, and Euripides' Medea, and what tragedy did with inherited stories.",
+      "objectives": [
+        "Describe the conventions and context of Athenian tragedy.",
+        "Analyze how tragedians transformed myths.",
+        "Interpret major tragic themes of fate, justice, and suffering."
+      ],
+      "lesson": "## Tragedy in Athens\n\n**Tragedy** developed in Athens in the late sixth century BCE and flourished in the fifth. Tragedies were performed at the **City Dionysia**, a festival of Dionysus, in competitions among three playwrights, each presenting three tragedies and a satyr play. Audiences of thousands, mostly citizens, watched in the open-air Theater of Dionysus.\n\nConventions included:\n\n- A small cast of masked male **actors** (eventually three), playing multiple roles.\n- A **chorus** of twelve or fifteen, who sang and danced, commenting on the action.\n- **Violence offstage**, reported by messengers.\n- Plots drawn almost entirely from **myth**.\n\nBecause audiences knew the myths, suspense came less from *what* would happen than from *how* and *why*. Each playwright reshaped the myths, adding motives, inventing scenes, and questioning the gods.\n\n## Aeschylus: the Oresteia\n\nAeschylus's **Oresteia** (458 BCE) is the only complete surviving tragic trilogy:\n\n1. **Agamemnon:** Agamemnon returns from Troy and is murdered by his wife **Clytemnestra**, who avenges their daughter Iphigenia.\n2. **Libation Bearers:** their son **Orestes**, commanded by Apollo, kills his mother.\n3. **Eumenides:** pursued by the **Furies** (Erinyes), spirits of vengeance, Orestes is tried in Athens before a jury of citizens established by Athena. The votes are tied; Athena casts the deciding vote for acquittal and persuades the Furies to become benevolent protectors of Athens.\n\nThe trilogy moves from **cyclical revenge** to **civic justice**, celebrating Athenian law courts as a solution to the cycle of violence. It reshapes an old myth to dramatize a political idea.\n\n## Sophocles: Oedipus the King\n\nIn Sophocles' *Oedipus the King* (c. 429 BCE), **Oedipus**, king of Thebes, seeks the killer of the former king Laius to end a plague. Through relentless investigation, he discovers that he himself is the killer, that Laius was his father, and that his wife, **Jocasta**, is his mother, fulfilling a prophecy he had fled. Jocasta hangs herself; Oedipus blinds himself.\n\nThe play explores **fate and free will**, **knowledge and ignorance**, and **dramatic irony**: the audience knows the truth from the start, while Oedipus does not. Aristotle, in the *Poetics*, held it up as the model tragedy, praising its **reversal** (*peripeteia*) and **recognition** (*anagnōrisis*), which happen at the same moment.\n\n## Euripides: Medea\n\nIn Euripides' *Medea* (431 BCE), the sorceress **Medea**, who helped **Jason** win the Golden Fleece and betrayed her own family for him, is abandoned when Jason marries the daughter of the king of Corinth. Medea kills Jason's new bride and then, in the play's most shocking act, her own children, to devastate Jason. She escapes in a chariot of the Sun.\n\nEuripides may have invented, or at least made central, Medea's deliberate murder of her children. The play gives powerful voice to a foreign woman's rage and to the injustice of women's position; Medea declares she would rather stand three times in battle than bear one child. Yet her revenge is horrifying. Euripides refuses easy judgments.\n\n## What tragedy did with myth\n\nTragedy used inherited myths to:\n\n- Explore **ethical dilemmas** (Orestes must avenge his father by killing his mother).\n- Question **divine justice**.\n- Reflect on **civic institutions** and Athenian identity.\n- Give voice to **outsiders**: women, foreigners, the defeated.\n\n### Worked example: Aristotle on tragedy\n\nIn the *Poetics* (c. 335 BCE), Aristotle defines tragedy as an imitation of a serious action that, through **pity and fear**, accomplishes the **catharsis** (purification or purgation) of such emotions. He argues the best tragic hero is a person neither entirely good nor entirely bad who falls through a **hamartia**, a mistake or error, not necessarily a moral flaw. Oedipus's hamartia is his ignorance of his identity, not wickedness.\n\n*What it shows:* the popular idea of a \"tragic flaw\" oversimplifies Aristotle. Hamartia is better understood as an error of judgment or knowledge.\n\n## Common misconceptions\n\n- **\"Tragedy means a sad story.\"** Greek tragedy is a specific dramatic form with conventions.\n- **\"Hamartia means a moral flaw.\"** It means an error, often of knowledge.\n- **\"Tragedians simply staged traditional myths.\"** They reshaped them significantly.\n\n## Summary\n\nAthenian tragedy, performed at the City Dionysia with masked actors and a chorus, drew on myth but reshaped it. Aeschylus's *Oresteia* moves from revenge to civic justice; Sophocles' *Oedipus* explores fate and knowledge; Euripides' *Medea* voices a betrayed woman's rage. Aristotle's *Poetics* analyzes pity, fear, catharsis, and hamartia.\n",
+      "keyTerms": [
+        {
+          "term": "City Dionysia",
+          "definition": "The Athenian festival at which tragedies were performed in competition."
+        },
+        {
+          "term": "Chorus",
+          "definition": "A group of performers who sang and danced, commenting on the action."
+        },
+        {
+          "term": "Peripeteia",
+          "definition": "A reversal of fortune."
+        },
+        {
+          "term": "Anagnorisis",
+          "definition": "Recognition: a change from ignorance to knowledge."
+        },
+        {
+          "term": "Hamartia",
+          "definition": "In Aristotle, a tragic error or mistake, often of knowledge."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Greek tragedies were performed at the festival of which god?",
+          "choices": [
+            "Dionysus",
+            "Zeus",
+            "Apollo",
+            "Athena"
+          ],
+          "answerIndex": 0,
+          "explanation": "The City Dionysia honored Dionysus."
+        },
+        {
+          "prompt": "The Oresteia ends with:",
+          "choices": [
+            "Orestes executed",
+            "Agamemnon returning alive",
+            "The fall of Troy",
+            "Orestes acquitted by an Athenian court and the Furies transformed"
+          ],
+          "answerIndex": 3,
+          "explanation": "Athena casts the deciding vote."
+        },
+        {
+          "prompt": "In Oedipus the King, Oedipus discovers that:",
+          "choices": [
+            "He killed his father and married his mother",
+            "Creon is his father",
+            "He is a god",
+            "Jocasta killed Laius"
+          ],
+          "answerIndex": 0,
+          "explanation": "He fulfills the prophecy he fled."
+        },
+        {
+          "prompt": "Aristotle's hamartia is best understood as:",
+          "choices": [
+            "An error or mistake, often of knowledge",
+            "A type of chorus",
+            "A happy ending",
+            "A moral flaw such as pride"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is an error, not necessarily a vice."
+        },
+        {
+          "prompt": "What is shocking about Euripides' Medea?",
+          "choices": [
+            "Medea marries the king",
+            "There is no chorus",
+            "Medea deliberately kills her own children",
+            "Jason becomes a god"
+          ],
+          "answerIndex": 2,
+          "explanation": "Euripides made the infanticide central."
+        }
+      ],
+      "assignment": {
+        "title": "Tragedy and Myth",
+        "prompt": "Read one complete tragedy: Aeschylus's *Agamemnon* or *Eumenides*, Sophocles' *Oedipus the King* or *Antigone*, or Euripides' *Medea* or *Bacchae*.\n\nIn at least 500 words: summarize how the playwright treats the myth, analyze one way the play reshapes or questions the inherited story, and discuss a central theme (such as justice, fate, the gods, or gender), quoting and citing at least three passages by line number. Engage with at least one idea from Aristotle's *Poetics*. Translations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Accurately discusses the play's treatment of the myth",
+          "Analyzes how the play reshapes the myth",
+          "Interprets a central theme with cited quotations",
+          "Engages with Aristotle's Poetics"
+        ],
+        "minWords": 500
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "The Greek Plays",
+          "creator": "Mary Lefkowitz and James Romm (eds.)",
+          "year": 2016,
+          "note": "Sixteen tragedies in fresh translations, with excellent introductions and notes.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Interpreting Myth and Its Afterlife",
+      "overview": "Theories of myth, from allegory to psychology, ritual, and structuralism, and the afterlife of classical myth in Rome, the Renaissance, and modern culture.",
+      "objectives": [
+        "Summarize major theories for interpreting myth.",
+        "Apply a theory of myth to a specific story.",
+        "Trace the reception of a classical myth in later culture."
+      ],
+      "lesson": "## Why interpret myths?\n\nMyths invite interpretation. Ancient Greeks themselves offered explanations, and modern scholars have developed many theories. No single theory explains all myths, but each illuminates something.\n\n## Ancient interpretations\n\n- **Allegory:** myths encode philosophical or natural truths. Some ancient readers interpreted Homer's gods as natural forces or moral qualities.\n- **Rationalization:** myths are distorted history. **Euhemerus** (c. 300 BCE) argued that the gods were originally great human kings, deified after death.\n\n## Modern theories\n\n### Nature and etiology\n\nNineteenth-century scholars such as Max Müller interpreted myths as poetic descriptions of natural phenomena, especially the sun. More modestly, many myths are **etiological**, explaining origins: why spiders weave (Arachne), why seasons change (Persephone).\n\n### Myth and ritual\n\nScholars such as Jane Ellen Harrison (*Themis*, 1912) argued that myths arose to explain rituals. Walter Burkert, in *Homo Necans* (1972), linked Greek myths to the sacrificial practices of early hunting communities.\n\n### Psychological\n\n- **Sigmund Freud** interpreted myths as expressions of unconscious desires, naming the **Oedipus complex** after Sophocles' play.\n- **Carl Jung** saw myths as expressions of universal **archetypes** of a collective unconscious.\n- **Joseph Campbell** built on Jung in *The Hero with a Thousand Faces* (1949), outlining a universal \"monomyth\" of the hero's journey.\n\n### Structuralism\n\n**Claude Lévi-Strauss** argued that myths, like language, are structured by binary oppositions (nature/culture, raw/cooked, life/death) and work to mediate contradictions in a culture's thought.\n\n### Social and political\n\nMyths **justify institutions** (the anthropologist Bronisław Malinowski called myth a \"charter\"): Athena's court in the *Eumenides* justifies Athenian law. Feminist scholars examine what myths reveal about gender, and many have reread myths from women's perspectives.\n\n## Applying theories\n\n### Worked example: Persephone through several lenses\n\n- *Etiological:* the myth explains the seasons.\n- *Ritual:* it underpins the Eleusinian Mysteries.\n- *Psychological:* it dramatizes a daughter's separation from her mother.\n- *Structuralist:* it mediates oppositions of life and death, above and below, maiden and wife.\n- *Feminist:* it represents marriage as abduction, from the perspectives of mother and daughter, and Demeter's power to resist the male gods.\n\nEach lens reveals something; no single one exhausts the myth.\n\n## The afterlife of myth\n\nClassical myths have been retold continuously:\n\n- **Rome:** Virgil, Ovid, and Seneca reworked Greek myths for Roman audiences.\n- **The Middle Ages:** Ovid was read allegorically as Christian moral teaching (the *Ovide moralisé*).\n- **The Renaissance:** artists such as Botticelli (*The Birth of Venus*), Titian, and Bernini (*Apollo and Daphne*) and poets such as Shakespeare drew constantly on Ovid.\n- **The modern era:** James Joyce's *Ulysses* (1922) maps the *Odyssey* onto a day in Dublin; Derek Walcott's *Omeros* (1990) relocates Homer to the Caribbean; Madeline Miller's *Circe* (2018) and Pat Barker's *The Silence of the Girls* (2018) retell myths from women's perspectives.\n- **Popular culture:** myths appear in films, comics, and novels, from *Percy Jackson* to superheroes.\n\nStudying **reception** asks how and why each age reshapes myths for its own concerns.\n\n## Common misconceptions\n\n- **\"There is one correct interpretation of a myth.\"** Myths support many interpretations.\n- **\"Campbell's monomyth fits all myths.\"** It is useful but criticized for flattening differences.\n- **\"Classical myths belong only to the past.\"** They are retold constantly.\n\n## Course synthesis\n\nYou've studied what myths are and where they come from; creation and the gods; encounters between gods and mortals; heroes; the Trojan War and Homer; tragedy; and the interpretation and afterlife of myth. These stories have shaped Western imagination for nearly three thousand years, and they continue to be retold.\n\n## Summary\n\nMyths have been interpreted as allegory, distorted history, etiology, explanations of ritual, expressions of the psyche, binary structures, and social charters. Each lens reveals something. Classical myths have been continuously retold, from Rome through the Renaissance to modern novels and films, and studying their reception shows how each age makes them its own.\n",
+      "keyTerms": [
+        {
+          "term": "Euhemerism",
+          "definition": "The theory that gods were originally deified human beings."
+        },
+        {
+          "term": "Etiological myth",
+          "definition": "A myth explaining the origin of something."
+        },
+        {
+          "term": "Archetype",
+          "definition": "In Jung, a universal pattern or image in the collective unconscious."
+        },
+        {
+          "term": "Structuralism",
+          "definition": "Lévi-Strauss's theory that myths are structured by binary oppositions."
+        },
+        {
+          "term": "Reception",
+          "definition": "The study of how later cultures have interpreted and reworked classical works."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Euhemerus argued that the gods were originally:",
+          "choices": [
+            "Stars",
+            "Archetypes",
+            "Great human kings, deified after death",
+            "Natural forces"
+          ],
+          "answerIndex": 2,
+          "explanation": "Euhemerism rationalizes myth as history."
+        },
+        {
+          "prompt": "A myth explaining why spiders weave is:",
+          "choices": [
+            "Allegorical",
+            "Structuralist",
+            "Euhemerist",
+            "Etiological"
+          ],
+          "answerIndex": 3,
+          "explanation": "It explains an origin."
+        },
+        {
+          "prompt": "Who interpreted myths through binary oppositions?",
+          "choices": [
+            "Claude Lévi-Strauss",
+            "Sigmund Freud",
+            "Euhemerus",
+            "Joseph Campbell"
+          ],
+          "answerIndex": 0,
+          "explanation": "Structuralism analyzes oppositions."
+        },
+        {
+          "prompt": "Joseph Campbell's \"monomyth\" describes:",
+          "choices": [
+            "Ovid's Metamorphoses",
+            "A ritual sacrifice",
+            "Greek creation myths only",
+            "A universal pattern of the hero's journey"
+          ],
+          "answerIndex": 3,
+          "explanation": "He outlined the hero's journey."
+        },
+        {
+          "prompt": "James Joyce's Ulysses reworks which classical work?",
+          "choices": [
+            "The Aeneid",
+            "The Iliad",
+            "The Oresteia",
+            "The Odyssey"
+          ],
+          "answerIndex": 3,
+          "explanation": "It maps the Odyssey onto Dublin."
+        }
+      ],
+      "assignment": {
+        "title": "A Myth Through Time",
+        "prompt": "Choose one classical myth. In at least 550 words:\n\n1. Summarize its key ancient version(s), quoting and citing at least one ancient source.\n2. Interpret it using at least two theories of myth from this week.\n3. Analyze at least two later retellings or artworks from different periods (for example, a Renaissance painting and a modern novel or film), explaining how and why each reshapes the myth.\n\nTranslations of Homer, Hesiod, the Homeric Hymns, the tragedians, Apollodorus, and Ovid are freely available at the Perseus Digital Library (perseus.tufts.edu), the Theoi Project (theoi.com), and Project Gutenberg (gutenberg.org). Cite author, work, and book and line (or section) numbers.",
+        "rubric": [
+          "Summarizes and cites ancient sources accurately",
+          "Applies two theories insightfully",
+          "Analyzes two later receptions from different periods",
+          "Explains how and why the myth was reshaped"
+        ],
+        "minWords": 550
+      },
+      "resources": [
+        {
+          "kind": "book",
+          "title": "Circe",
+          "creator": "Madeline Miller",
+          "year": 2018,
+          "note": "A celebrated novel retelling the Odyssey's witch from her own perspective.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        },
+        {
+          "kind": "book",
+          "title": "The Hero with a Thousand Faces",
+          "creator": "Joseph Campbell",
+          "year": 1949,
+          "note": "The influential, and much-debated, study of the hero's journey.",
+          "url": null,
+          "isbn": null,
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "In scholarship, a myth is best defined as:",
+      "choices": [
+        "A religious scripture",
+        "A traditional story of cultural importance",
+        "A historical record",
+        "A false belief"
+      ],
+      "answerIndex": 1,
+      "explanation": "Myth means a meaningful traditional story."
+    },
+    {
+      "prompt": "Why do classical myths exist in multiple variants?",
+      "choices": [
+        "The Romans rewrote them all",
+        "They don't",
+        "Ancient scribes made mistakes",
+        "They were retold by many poets and artists without a fixed scripture"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each teller could adapt them."
+    },
+    {
+      "prompt": "In Hesiod's Theogony, the first thing to come into being is:",
+      "choices": [
+        "Chaos, a gap or void",
+        "Zeus",
+        "Gaia's children",
+        "Olympus"
+      ],
+      "answerIndex": 0,
+      "explanation": "First came Chaos."
+    },
+    {
+      "prompt": "Kronos was overthrown by:",
+      "choices": [
+        "Ouranos",
+        "Zeus",
+        "Typhon",
+        "Prometheus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Zeus led the Titanomachy."
+    },
+    {
+      "prompt": "Pandora, in Hesiod, opened a:",
+      "choices": [
+        "Book",
+        "Jar",
+        "Gate",
+        "Box"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pithos means jar."
+    },
+    {
+      "prompt": "Who complained that Homer and Hesiod attributed theft and adultery to the gods?",
+      "choices": [
+        "Ovid",
+        "Xenophanes",
+        "Homer",
+        "Aristotle"
+      ],
+      "answerIndex": 1,
+      "explanation": "He criticized anthropomorphism."
+    },
+    {
+      "prompt": "Which mortal was transformed into a spider for challenging Athena?",
+      "choices": [
+        "Arachne",
+        "Daphne",
+        "Niobe",
+        "Io"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ovid tells her story in Metamorphoses 6."
+    },
+    {
+      "prompt": "Persephone's time in the underworld is often interpreted as explaining:",
+      "choices": [
+        "Earthquakes",
+        "Eclipses",
+        "The seasons",
+        "The tides"
+      ],
+      "answerIndex": 2,
+      "explanation": "Demeter's grief brings winter."
+    },
+    {
+      "prompt": "Heracles performed the Twelve Labors for:",
+      "choices": [
+        "Zeus directly",
+        "King Eurystheus",
+        "Theseus",
+        "King Minos"
+      ],
+      "answerIndex": 1,
+      "explanation": "He served Eurystheus to atone."
+    },
+    {
+      "prompt": "The Iliad concerns primarily:",
+      "choices": [
+        "Odysseus's homecoming",
+        "The wrath of Achilles",
+        "The wooden horse",
+        "Aeneas's journey"
+      ],
+      "answerIndex": 1,
+      "explanation": "Its first word is 'wrath.'"
+    },
+    {
+      "prompt": "Odysseus's defining quality is:",
+      "choices": [
+        "Mētis, cunning intelligence",
+        "Musical skill",
+        "Divine immortality",
+        "Brute strength"
+      ],
+      "answerIndex": 0,
+      "explanation": "He tricks the Cyclops as 'Nobody.'"
+    },
+    {
+      "prompt": "Aeschylus's Oresteia ends by establishing:",
+      "choices": [
+        "Orestes as king of Sparta",
+        "The death of Athena",
+        "A court of justice in Athens",
+        "The fall of Troy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Athena founds a court."
+    },
+    {
+      "prompt": "Aristotle's hamartia is:",
+      "choices": [
+        "A choral song",
+        "A type of mask",
+        "An error or mistake, often of knowledge",
+        "A moral flaw"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is not necessarily a vice."
+    },
+    {
+      "prompt": "Lévi-Strauss analyzed myths in terms of:",
+      "choices": [
+        "Deified kings",
+        "Binary oppositions",
+        "Archetypes",
+        "Sun worship"
+      ],
+      "answerIndex": 1,
+      "explanation": "Structuralism uses oppositions."
+    },
+    {
+      "prompt": "The study of how later cultures rework classical myths is called:",
+      "choices": [
+        "Etiology",
+        "Euhemerism",
+        "Reception",
+        "Epigraphy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Reception studies traces afterlives."
+    }
+  ],
+  "resources": [
+    {
+      "kind": "book",
+      "title": "The Greek Myths",
+      "creator": "Robert Graves",
+      "year": 1955,
+      "note": "A vast, idiosyncratic compendium of Greek myths with sources (and Graves's own theories).",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "The Library of Greek Mythology",
+      "creator": "Apollodorus (tr. Robin Hard)",
+      "year": 1997,
+      "note": "The ancient handbook of Greek myths in an excellent annotated translation.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "book",
+      "title": "A Thousand Ships",
+      "creator": "Natalie Haynes",
+      "year": 2019,
+      "note": "The Trojan War retold through the women caught up in it.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    },
+    {
+      "kind": "podcast",
+      "title": "Natalie Haynes Stands Up for the Classics",
+      "creator": "BBC Radio 4",
+      "year": null,
+      "note": "Witty half-hour episodes on figures and myths of the ancient world.",
+      "url": null,
+      "isbn": null,
+      "verified": false
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }
