@@ -25,7 +25,7 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/programs" variant="gold" className="px-6 py-3 text-base">Explore programs</ButtonLink>
-              <ButtonLink href="/apply" variant="secondary" className="bg-transparent px-6 py-3 text-base text-white ring-white/30 hover:bg-white/10">
+              <ButtonLink href="/apply" variant="light" className="px-6 py-3 text-base">
                 Apply now
               </ButtonLink>
             </div>
@@ -99,7 +99,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-navy-900">{s.name}</h3>
               <p className="mt-3 text-sm leading-relaxed text-navy-700/80">{s.description}</p>
               <p className="mt-5 text-sm font-semibold text-navy-700 group-hover:text-navy-900">
-                {programs.filter((p) => p.school === s.slug).length} programs →
+                {pluralize(programs.filter((p) => p.school === s.slug).length, "program")} →
               </p>
             </Link>
           ))}
@@ -170,3 +170,5 @@ function HeroPattern() {
     </svg>
   );
 }
+
+const pluralize = (n: number, word: string) => `${n} ${word}${n === 1 ? "" : "s"}`;

@@ -155,7 +155,7 @@ function EnrollControl({ slug, activeSlug, activeTitle, confirming }: { slug: st
         </p>
         <div className="mt-4 flex gap-3">
           <Button variant="gold">Switch programs</Button>
-          <ButtonLink href={`/programs/${slug}`} variant="ghost" className="text-white hover:bg-white/10">Cancel</ButtonLink>
+          <ButtonLink href={`/programs/${slug}`} variant="light" className="">Cancel</ButtonLink>
         </div>
       </form>
     );

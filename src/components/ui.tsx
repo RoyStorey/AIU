@@ -1,13 +1,14 @@
 import Link from "next/link";
 import type { ComponentProps, ReactNode } from "react";
 
-type Variant = "primary" | "secondary" | "gold" | "ghost";
+type Variant = "primary" | "secondary" | "gold" | "ghost" | "light";
 
 const variants: Record<Variant, string> = {
   primary: "bg-navy-800 text-white hover:bg-navy-700 shadow-sm",
   secondary: "bg-white text-navy-800 ring-1 ring-inset ring-navy-200 hover:bg-navy-50",
   gold: "bg-gold-400 text-navy-950 hover:bg-gold-300 shadow-sm",
   ghost: "text-navy-700 hover:bg-navy-50",
+  light: "text-white ring-1 ring-inset ring-white/30 hover:bg-white/10",
 };
 
 export function buttonClass(variant: Variant = "primary", extra = "") {

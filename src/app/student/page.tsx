@@ -26,8 +26,8 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
             <h1 className="mt-3 text-4xl font-semibold">You completed the {program?.title}.</h1>
             <div className="mt-8 flex flex-wrap gap-3">
               <ButtonLink href="/student/diploma" variant="gold">View your diploma</ButtonLink>
-              <ButtonLink href="/student/transcript" variant="ghost" className="text-white hover:bg-white/10">Transcript</ButtonLink>
-              <ButtonLink href="/programs" variant="ghost" className="text-white hover:bg-white/10">Start another program</ButtonLink>
+              <ButtonLink href="/student/transcript" variant="light" className="">Transcript</ButtonLink>
+              <ButtonLink href="/programs" variant="light" className="">Start another program</ButtonLink>
             </div>
           </div>
         </div>

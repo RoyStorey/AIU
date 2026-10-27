@@ -59,7 +59,7 @@ export default function AdmissionsPage() {
             <h2 className="text-2xl font-semibold">Ready to begin?</h2>
             <p className="mt-3 text-sm text-navy-200">Your application takes about a minute.</p>
             <ButtonLink href="/apply" variant="gold" className="mt-6 w-full">Apply now</ButtonLink>
-            <ButtonLink href="/programs" variant="ghost" className="mt-2 w-full text-white hover:bg-white/10">Browse programs</ButtonLink>
+            <ButtonLink href="/programs" variant="light" className="mt-2 w-full ">Browse programs</ButtonLink>
           </div>
         </aside>
       </div>
