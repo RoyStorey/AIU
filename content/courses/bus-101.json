@@ -5,8 +5,994 @@
   "category": "major-core",
   "description": "A tour of how businesses work: forms of ownership, the economic environment, management, marketing, accounting, finance, operations, and the ethical and social responsibilities of business.",
   "prerequisites": [],
-  "status": "planned",
-  "outcomes": [],
-  "weeks": [],
-  "finalExam": []
+  "status": "published",
+  "outcomes": [
+    "Explain how businesses create value, earn profit, and serve stakeholders.",
+    "Apply basic economic concepts, including supply and demand, to business decisions.",
+    "Compare forms of business ownership and the role of entrepreneurship.",
+    "Describe the functions of management, marketing, operations, accounting, and finance.",
+    "Interpret basic financial statements and evaluate financing options.",
+    "Analyze ethical, social, and global issues facing businesses."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "What Is a Business?",
+      "overview": "The purpose of business, the resources businesses use, the stakeholders they serve, and how the business environment shapes what they do.",
+      "objectives": [
+        "Define business, profit, and the role of risk.",
+        "Identify the factors of production and the major sectors of an economy.",
+        "Explain who a business's stakeholders are and why they matter."
+      ],
+      "lesson": "## Business, profit, and risk\n\nA **business** is an organization that provides goods or services to customers in an effort to earn a profit. **Goods** are tangible products, like bicycles or coffee beans. **Services** are intangible activities performed for customers, like haircuts, tax preparation, or streaming video. Many businesses offer both: a restaurant sells food (a good) and the experience of being served (a service).\n\n**Revenue** is the money a business takes in from sales. **Profit** is what remains after subtracting expenses:\n\n> **Profit = Revenue − Expenses**\n\nIf expenses exceed revenue, the business suffers a **loss**. Profit rewards owners for taking **risk**, the chance of losing the time and money they invest. A coffee shop owner who signs a five-year lease, buys equipment, and hires staff is betting that customers will come. Many new businesses fail within their first few years; the possibility of profit is what makes the risk worth taking.\n\nNot all organizations seek profit. **Nonprofit organizations**, such as charities, many hospitals, and many universities, use any surplus to advance their mission rather than distributing it to owners. They still need sound management, budgeting, and marketing, so most of what you learn in business applies to them too.\n\n## Factors of production\n\nEconomists describe the resources used to create goods and services as **factors of production**:\n\n| Factor | Description | Coffee-shop example |\n|--------|-------------|---------------------|\n| **Natural resources** | Land and raw materials | Coffee beans, water, the land under the building |\n| **Labor** | Human effort, physical and mental | Baristas, the manager |\n| **Capital** | Tools, equipment, buildings, and the money to buy them | Espresso machines, the storefront |\n| **Entrepreneurship** | The initiative and risk-taking to combine the other factors | The owner's idea and willingness to start |\n| **Knowledge / information** | Data, expertise, and technology | Sales data, recipes, the point-of-sale system |\n\nMany modern accounts add knowledge or information as a distinct factor because data and expertise increasingly drive competitive advantage.\n\n## Sectors of the economy\n\nBusinesses are often grouped by what they do:\n\n- **Primary sector:** extracting natural resources (agriculture, mining, fishing).\n- **Secondary sector:** manufacturing and construction, turning raw materials into products.\n- **Tertiary sector:** services (retail, healthcare, finance, education, hospitality).\n- Some economists describe a **quaternary** sector for knowledge-based activities like research and information technology.\n\nIn advanced economies such as the United States, the large majority of jobs are in services.\n\n## Stakeholders\n\n**Stakeholders** are groups affected by a business's decisions and who can influence the business in turn:\n\n- **Customers**, who want value, quality, and fair treatment.\n- **Employees**, who want fair pay, safe conditions, and opportunities.\n- **Owners and investors**, who want a return on their investment.\n- **Suppliers**, who want reliable orders and payment.\n- **Communities**, which experience a business's environmental and economic effects.\n- **Governments**, which regulate and tax businesses.\n\nStakeholders' interests sometimes conflict. Raising wages benefits employees but may reduce profits for owners or raise prices for customers. Much of management involves balancing these interests. Some argue that a firm's primary responsibility is to its owners; others argue it should serve all stakeholders. You'll explore this debate in Week 8.\n\n## The business environment\n\nBusinesses operate within a broader environment they don't control:\n\n- **Economic:** growth, unemployment, inflation, and interest rates.\n- **Legal and regulatory:** laws on employment, safety, competition, and taxes.\n- **Technological:** new tools that create opportunities and threats.\n- **Social and cultural:** changing values, demographics, and tastes.\n- **Competitive:** rivals offering alternatives.\n- **Global:** international trade, supply chains, and currency movements.\n\n### Worked example: a bakery's environment\n\nMaria runs a small bakery. Rising wheat prices (economic) raise her costs. A new food-labeling regulation (legal) requires her to list allergens. Online ordering apps (technological) let her reach new customers but charge fees. A growing interest in gluten-free foods (social) suggests a new product line. A national chain opening nearby (competitive) pressures her to differentiate. Successful owners scan their environment continually and adapt.\n\n## Common misconceptions\n\n- **\"Business is only about making money.\"** Profit is essential, but businesses succeed over time by creating value for customers and managing relationships with all stakeholders.\n- **\"Revenue and profit are the same thing.\"** A business can have high revenue and still lose money.\n- **\"Nonprofits don't need business skills.\"** They need budgeting, management, and marketing as much as any firm.\n\n## Summary\n\nBusinesses provide goods and services in pursuit of profit, which rewards risk. They combine factors of production, operate in sectors of the economy, serve multiple stakeholders whose interests can conflict, and must adapt to an environment of economic, legal, technological, social, competitive, and global forces.\n",
+      "keyTerms": [
+        {
+          "term": "Profit",
+          "definition": "Revenue minus expenses; the reward for taking business risk."
+        },
+        {
+          "term": "Revenue",
+          "definition": "The total money a business receives from sales of goods and services."
+        },
+        {
+          "term": "Factors of production",
+          "definition": "The resources used to produce goods and services: natural resources, labor, capital, entrepreneurship, and knowledge."
+        },
+        {
+          "term": "Stakeholders",
+          "definition": "Groups affected by and able to influence a business's decisions."
+        },
+        {
+          "term": "Nonprofit organization",
+          "definition": "An organization that uses any surplus to pursue its mission rather than distributing profit to owners."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A shop has $500,000 in revenue and $540,000 in expenses. What is its result?",
+          "choices": [
+            "A $500,000 profit",
+            "A $40,000 profit",
+            "A $40,000 loss",
+            "A $1,040,000 profit"
+          ],
+          "answerIndex": 2,
+          "explanation": "Profit = revenue − expenses = −$40,000, which is a loss."
+        },
+        {
+          "prompt": "An espresso machine in a coffee shop is an example of which factor of production?",
+          "choices": [
+            "Labor",
+            "Capital",
+            "Entrepreneurship",
+            "Natural resources"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tools and equipment used in production are capital."
+        },
+        {
+          "prompt": "A hospital that reinvests any surplus in patient care rather than paying owners is most likely a:",
+          "choices": [
+            "Primary-sector business",
+            "Nonprofit organization",
+            "Corporation seeking profit",
+            "Sole proprietorship"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nonprofits use surpluses to advance their mission."
+        },
+        {
+          "prompt": "Which group is a stakeholder of a business?",
+          "choices": [
+            "Only the owners",
+            "Only the government",
+            "Only customers",
+            "All of the listed groups: customers, employees, and the local community"
+          ],
+          "answerIndex": 3,
+          "explanation": "Stakeholders include everyone affected by and able to influence the business."
+        },
+        {
+          "prompt": "A new law requires restaurants to post calorie counts. This is a change in the business's:",
+          "choices": [
+            "Legal and regulatory environment",
+            "Primary sector",
+            "Technological environment",
+            "Competitive environment"
+          ],
+          "answerIndex": 0,
+          "explanation": "Laws and regulations make up the legal environment."
+        }
+      ],
+      "assignment": {
+        "title": "Analyze a Local Business",
+        "prompt": "Choose a business you know well, perhaps one you work for, shop at, or would like to start.\n\nIn at least 200 words: (1) describe the goods and/or services it offers and how it earns revenue; (2) identify how it uses each factor of production; (3) list at least four stakeholders and describe what each wants, noting one conflict between them; and (4) identify two forces in its business environment that currently create an opportunity or threat.",
+        "rubric": [
+          "Clearly describes the business and its revenue",
+          "Correctly applies the factors of production",
+          "Identifies stakeholders and a genuine conflict",
+          "Analyzes two environmental forces insightfully"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 2,
+      "title": "The Economic Environment",
+      "overview": "How markets work: supply and demand, prices, competition, and the economic indicators that tell businesses where the economy is heading.",
+      "objectives": [
+        "Explain how supply and demand determine prices in a market.",
+        "Distinguish the four basic market structures.",
+        "Interpret key economic indicators and the business cycle."
+      ],
+      "lesson": "## Economics and business\n\n**Economics** studies how people and societies allocate scarce resources. Because resources are limited and wants are not, every choice involves a trade-off. The value of the next-best alternative you give up is the **opportunity cost** of your choice. If you spend Saturday studying rather than working an extra shift, the opportunity cost is the wages you didn't earn. Businesses face opportunity costs constantly: money spent on advertising can't also be spent on new equipment.\n\n**Microeconomics** studies individual markets, consumers, and firms. **Macroeconomics** studies the economy as a whole: growth, unemployment, and inflation. You'll study both in depth in Principles of Microeconomics and Macroeconomics; this week introduces the essentials every business person needs.\n\n## Demand\n\n**Demand** is the quantity of a good buyers are willing and able to purchase at each possible price. The **law of demand** states that, all else equal, as price rises, quantity demanded falls. Plotted on a graph with price on the vertical axis, the **demand curve** slopes downward.\n\nDemand **shifts** (the whole curve moves) when factors other than the good's own price change:\n\n- Consumer **income** rises or falls.\n- **Tastes and preferences** change.\n- Prices of **related goods** change: a rise in the price of coffee may increase demand for tea (a **substitute**) and decrease demand for coffee creamer (a **complement**).\n- **Expectations** about future prices change.\n- The **number of buyers** changes.\n\n## Supply\n\n**Supply** is the quantity sellers are willing and able to offer at each price. The **law of supply** states that, all else equal, as price rises, quantity supplied rises, since higher prices make production more profitable. The **supply curve** slopes upward.\n\nSupply shifts when production costs change (wages, materials), technology improves, the number of sellers changes, or government policies like taxes and subsidies change.\n\n## Equilibrium\n\nWhere supply and demand meet is the **equilibrium price**, at which the quantity buyers want equals the quantity sellers offer.\n\n- If price is **above** equilibrium, there's a **surplus**: sellers have unsold goods and tend to cut prices.\n- If price is **below** equilibrium, there's a **shortage**: buyers compete for scarce goods and prices tend to rise.\n\n### Worked example: a coffee frost\n\nSuppose a frost destroys part of Brazil's coffee crop. Supply of coffee beans **decreases** (the supply curve shifts left). At the old price there is now a shortage, so the price rises until a new, higher equilibrium is reached with a smaller quantity sold. A café owner sees higher bean costs; she might raise prices, absorb the cost temporarily, or promote tea (a substitute) instead.\n\nNow suppose a popular study claims coffee improves health. Demand **increases** (shifts right). Price and quantity both rise. Being able to reason through shifts like these helps managers anticipate costs and prices.\n\n## Market structures\n\nHow much power a business has over its price depends on its competition:\n\n| Structure | Number of sellers | Product | Price control | Example |\n|-----------|-------------------|---------|---------------|---------|\n| **Perfect competition** | Many | Identical | None | Wheat, many agricultural goods |\n| **Monopolistic competition** | Many | Differentiated | Some | Restaurants, clothing brands |\n| **Oligopoly** | Few | Similar or differentiated | Considerable | Airlines, wireless carriers |\n| **Monopoly** | One | Unique, no close substitutes | Significant (often regulated) | Local water utility |\n\nMost businesses you'll encounter operate in monopolistic competition: they compete by **differentiating** their products through quality, branding, location, or service. Governments use **antitrust** laws to prevent firms from abusing market power or unfairly limiting competition.\n\n## The business cycle and economic indicators\n\nEconomies grow over time but not smoothly. The **business cycle** describes fluctuations: **expansion**, a **peak**, **contraction** (a significant, sustained decline is a **recession**), and a **trough** before recovery.\n\nBusinesses watch key **economic indicators**:\n\n- **Gross domestic product (GDP):** the total market value of final goods and services produced in a country in a year; the broadest measure of economic output.\n- **Unemployment rate:** the percentage of the labor force that is jobless and actively seeking work.\n- **Inflation:** a general rise in prices over time, commonly measured by the **Consumer Price Index (CPI)**. High inflation erodes purchasing power; central banks often aim for low, stable inflation.\n- **Interest rates:** the cost of borrowing. When a central bank (in the U.S., the **Federal Reserve**) raises rates to fight inflation, borrowing becomes more expensive for businesses and consumers.\n\nA retailer expecting a recession might reduce inventory and delay expansion; one expecting strong growth might hire and invest.\n\n## Common misconceptions\n\n- **\"A change in price shifts the demand curve.\"** A change in a good's own price moves along the curve; other factors shift it.\n- **\"Businesses can charge whatever they want.\"** Pricing power depends on competition and on customers' alternatives.\n- **\"Inflation means all prices rise equally.\"** Inflation is an average; individual prices vary.\n\n## Summary\n\nPrices emerge from the interaction of supply and demand, and shifts in either change equilibrium price and quantity. Market structure determines how much pricing power a firm has. The business cycle and indicators such as GDP, unemployment, inflation, and interest rates shape the environment in which every business plans.\n",
+      "keyTerms": [
+        {
+          "term": "Opportunity cost",
+          "definition": "The value of the next-best alternative given up when making a choice."
+        },
+        {
+          "term": "Law of demand",
+          "definition": "All else equal, as price rises, quantity demanded falls."
+        },
+        {
+          "term": "Equilibrium price",
+          "definition": "The price at which quantity demanded equals quantity supplied."
+        },
+        {
+          "term": "Monopolistic competition",
+          "definition": "A market with many sellers offering differentiated products."
+        },
+        {
+          "term": "Gross domestic product (GDP)",
+          "definition": "The total market value of final goods and services produced in a country in a period."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A freeze damages orange groves. What is the most likely effect on the orange juice market?",
+          "choices": [
+            "Demand increases, so price falls",
+            "Nothing changes",
+            "Supply decreases, so price rises",
+            "Supply increases, so price falls"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lower supply at every price raises the equilibrium price."
+        },
+        {
+          "prompt": "If the price of a good is set below equilibrium, what results?",
+          "choices": [
+            "A shortage",
+            "Perfect competition",
+            "A surplus",
+            "A recession"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quantity demanded exceeds quantity supplied below equilibrium."
+        },
+        {
+          "prompt": "Coffee and tea are substitutes. If the price of coffee rises sharply, demand for tea will likely:",
+          "choices": [
+            "Increase",
+            "Become zero",
+            "Decrease",
+            "Stay the same"
+          ],
+          "answerIndex": 0,
+          "explanation": "Some coffee drinkers switch to the substitute."
+        },
+        {
+          "prompt": "A city has hundreds of restaurants, each offering a somewhat different menu and atmosphere. This market is best described as:",
+          "choices": [
+            "Perfect competition",
+            "Monopoly",
+            "Monopolistic competition",
+            "Oligopoly"
+          ],
+          "answerIndex": 2,
+          "explanation": "Many sellers with differentiated products characterize monopolistic competition."
+        },
+        {
+          "prompt": "You turn down a job paying $200 to attend a free workshop. The opportunity cost of attending is:",
+          "choices": [
+            "$200",
+            "$0",
+            "The cost of the workshop",
+            "Unknowable"
+          ],
+          "answerIndex": 0,
+          "explanation": "Opportunity cost is the value of the best alternative forgone."
+        }
+      ],
+      "assignment": {
+        "title": "Supply and Demand in the News",
+        "prompt": "Find a recent example of a price change in a product or service you buy: gasoline, groceries, rent, airline tickets, or electronics. Describe it in your own words.\n\nIn at least 200 words, explain the change using supply and demand. Identify whether supply, demand, or both shifted, and why. Describe the market structure of that industry. Finally, explain how one economic indicator (such as inflation, interest rates, or unemployment) might be related to the change, and how a business in that industry might respond.",
+        "rubric": [
+          "Describes a real price change clearly",
+          "Correctly applies supply and demand shifts",
+          "Identifies the market structure with justification",
+          "Connects an economic indicator and a business response"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 3,
+      "title": "Forms of Ownership and Entrepreneurship",
+      "overview": "Sole proprietorships, partnerships, corporations, and LLCs, and the entrepreneurs who start businesses in the first place.",
+      "objectives": [
+        "Compare the advantages and disadvantages of major forms of business ownership.",
+        "Explain limited liability and why it matters.",
+        "Describe the characteristics of entrepreneurs and the components of a business plan."
+      ],
+      "lesson": "## Choosing a legal form\n\nOne of the first decisions a new business owner makes is its **legal form**. This choice affects who controls the business, how it is taxed, how easily it can raise money, and, crucially, how much the owners stand to lose if things go wrong. (Business law differs by country and state; this lesson describes the general U.S. model. Business Law and Ethics covers the details.)\n\n## Sole proprietorship\n\nA **sole proprietorship** is owned by one person and is the simplest and most common form of business in the United States.\n\n**Advantages:** easy and inexpensive to start; the owner keeps all profits and makes all decisions; profits are taxed once, as the owner's personal income.\n\n**Disadvantages:** **unlimited liability**, meaning the owner is personally responsible for all of the business's debts, so personal assets like savings or a home could be at risk; limited ability to raise money; and the business may struggle to continue if the owner leaves or dies.\n\n## Partnership\n\nA **partnership** is owned by two or more people. In a **general partnership**, all partners share management and have unlimited liability, including, in general, for business debts created by other partners. In a **limited partnership**, at least one general partner manages the business with unlimited liability, while **limited partners** invest money but don't manage, and their liability is limited to their investment.\n\n**Advantages:** more capital and complementary skills than a sole proprietor.\n**Disadvantages:** potential disagreements and shared liability. A written **partnership agreement** specifying contributions, profit sharing, decision making, and how to dissolve the partnership is essential.\n\n## Corporation\n\nA **corporation** is a legal entity separate from its owners. Owners hold **shares of stock** and are called **shareholders**. Shareholders elect a **board of directors**, which hires officers such as the chief executive officer (CEO) to run the company.\n\nThe defining advantage is **limited liability**: shareholders can generally lose only what they invested, not their personal assets. Corporations can also raise large amounts of capital by selling stock, and they continue to exist even as owners change.\n\n**Disadvantages:** more expensive and complex to form and operate, with more regulation and reporting, especially for **public** corporations whose shares trade on stock exchanges. A traditional **C corporation** also faces **double taxation**: the corporation pays tax on its profits, and shareholders pay tax again on dividends they receive. An **S corporation** is a special status for qualifying smaller corporations that allows profits to pass through to owners' personal taxes, avoiding double taxation.\n\n## Limited liability company (LLC)\n\nA **limited liability company (LLC)** blends features: owners (called *members*) have limited liability like corporate shareholders, but profits can pass through to their personal tax returns like a partnership, and management rules are flexible. LLCs have become a very popular choice for small businesses.\n\n## Comparing the forms\n\n| Form | Liability | Taxation | Ease of raising capital | Complexity |\n|------|-----------|----------|-------------------------|------------|\n| Sole proprietorship | Unlimited | Owner's personal income | Low | Lowest |\n| General partnership | Unlimited | Partners' personal income | Moderate | Low |\n| C corporation | Limited | Corporate tax + tax on dividends | High | High |\n| S corporation | Limited | Pass-through | Moderate | Moderate |\n| LLC | Limited | Usually pass-through | Moderate | Moderate |\n\nBusinesses can also grow through **franchising**, in which a franchisee pays for the right to use a franchisor's brand and system, as with many fast-food restaurants, or through **mergers and acquisitions**.\n\n## Entrepreneurship\n\nAn **entrepreneur** recognizes an opportunity and takes on the risk of creating a business to pursue it. Entrepreneurs come from every background and age, and many start small businesses, while others build fast-growing startups seeking outside investment.\n\nCharacteristics commonly associated with entrepreneurs include tolerance for uncertainty, persistence, self-direction, and creativity. Research suggests these qualities can be developed, and that systematic practices, like talking to customers before building a product, matter as much as personality.\n\n### The business plan\n\nA **business plan** is a written description of a business idea and how it will succeed. Typical components:\n\n1. **Executive summary:** the idea in brief.\n2. **Company description:** mission, legal form, location.\n3. **Market analysis:** customers, competitors, and market size.\n4. **Products or services:** what you'll sell and why customers will buy.\n5. **Marketing and sales strategy.**\n6. **Operations plan:** how you'll produce and deliver.\n7. **Management team.**\n8. **Financial projections:** expected revenue, expenses, and funding needs.\n\nStartups often complement traditional plans with quick experiments to test assumptions, an approach you'll study in Entrepreneurship and Innovation.\n\n### Worked example\n\nJamal and Lena want to start a bike repair shop. If they form a general partnership and Lena signs a costly equipment lease that the business can't pay, both could be personally liable. Forming an LLC would generally protect their personal assets while letting profits pass through to their personal tax returns. They draft an operating agreement specifying that Jamal contributes $20,000 and manages the shop while Lena contributes $10,000 and handles marketing, with profits split 60/40.\n\n## Common misconceptions\n\n- **\"Incorporating protects owners from everything.\"** Owners can still be personally liable in some situations, such as for personal guarantees on loans or their own wrongful acts.\n- **\"Most businesses are large corporations.\"** By count, small businesses and sole proprietorships vastly outnumber large corporations, though corporations generate much of total revenue.\n- **\"Entrepreneurs are born, not made.\"** Entrepreneurial skills can be learned.\n\n## Summary\n\nLegal forms trade off simplicity, control, taxation, liability, and access to capital. Sole proprietorships and general partnerships are simple but carry unlimited liability; corporations offer limited liability and access to capital at the cost of complexity and, for C corporations, double taxation; LLCs combine limited liability with pass-through taxation. Entrepreneurs turn opportunities into businesses, and a business plan organizes their thinking.\n",
+      "keyTerms": [
+        {
+          "term": "Sole proprietorship",
+          "definition": "A business owned by one person who has unlimited liability for its debts."
+        },
+        {
+          "term": "Unlimited liability",
+          "definition": "Personal responsibility of owners for all of a business's debts."
+        },
+        {
+          "term": "Limited liability",
+          "definition": "Owners' financial risk is limited to the amount they invested."
+        },
+        {
+          "term": "Double taxation",
+          "definition": "Taxation of corporate profits at the corporate level and again when paid to shareholders as dividends."
+        },
+        {
+          "term": "Limited liability company (LLC)",
+          "definition": "A business form combining limited liability with flexible, usually pass-through, taxation."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which form of business exposes its single owner's personal assets to business debts?",
+          "choices": [
+            "C corporation",
+            "Sole proprietorship",
+            "LLC",
+            "S corporation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sole proprietors have unlimited liability."
+        },
+        {
+          "prompt": "What is the primary advantage of limited liability for corporate shareholders?",
+          "choices": [
+            "They are guaranteed dividends",
+            "They manage day-to-day operations",
+            "They pay no taxes",
+            "They can generally lose only the amount they invested"
+          ],
+          "answerIndex": 3,
+          "explanation": "Limited liability protects shareholders' personal assets."
+        },
+        {
+          "prompt": "A C corporation pays tax on its profits, and shareholders pay tax again on dividends. This is called:",
+          "choices": [
+            "Pass-through taxation",
+            "Double taxation",
+            "Unlimited liability",
+            "Franchising"
+          ],
+          "answerIndex": 1,
+          "explanation": "Profits are taxed twice: at the corporate and individual levels."
+        },
+        {
+          "prompt": "Which form combines limited liability with the option of pass-through taxation and flexible management?",
+          "choices": [
+            "Sole proprietorship",
+            "Limited liability company (LLC)",
+            "C corporation",
+            "General partnership"
+          ],
+          "answerIndex": 1,
+          "explanation": "LLCs blend features of partnerships and corporations."
+        },
+        {
+          "prompt": "A partner who invests money but does not participate in management, and whose liability is limited to the investment, is a:",
+          "choices": [
+            "Limited partner",
+            "General partner",
+            "Sole proprietor",
+            "Board member"
+          ],
+          "answerIndex": 0,
+          "explanation": "Limited partners trade management rights for limited liability."
+        }
+      ],
+      "assignment": {
+        "title": "Choose a Legal Form",
+        "prompt": "Imagine you are starting a business, either one you'd genuinely like to start or one from your current field.\n\nIn at least 200 words: describe the business in two or three sentences; recommend a legal form and justify it by comparing it with at least two alternatives on liability, taxation, capital, and complexity; and outline three sections of a business plan (such as market analysis, marketing strategy, and financial projections) with specific content for your idea.",
+        "rubric": [
+          "Describes a clear business concept",
+          "Recommends a legal form with accurate comparisons",
+          "Addresses liability, taxation, capital, and complexity",
+          "Outlines three business plan sections with specific content"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 4,
+      "title": "Management and Organization",
+      "overview": "What managers do, the skills they need at different levels, and how organizations are structured to get work done.",
+      "objectives": [
+        "Describe the four functions of management.",
+        "Explain levels of management and the skills each requires.",
+        "Compare common organizational structures and their trade-offs."
+      ],
+      "lesson": "## What is management?\n\n**Management** is the process of achieving organizational goals by working with and through people and other resources. A classic framework describes four functions, often remembered as **POLC**:\n\n1. **Planning:** setting goals and deciding how to achieve them.\n2. **Organizing:** arranging people, tasks, and resources to carry out plans.\n3. **Leading:** guiding, motivating, and communicating with people.\n4. **Controlling:** monitoring performance and making corrections.\n\nThese functions form a cycle. A manager plans a goal, organizes a team, leads them, measures results, and uses what she learns to plan again.\n\n## Planning\n\nPlans exist at several levels:\n\n- **Strategic plans** set long-term direction for the whole organization, typically several years out, guided by a **mission statement** (what the organization does and for whom) and a **vision** (what it aspires to become).\n- **Tactical plans** translate strategy into specific actions for departments over a shorter period.\n- **Operational plans** guide day-to-day and week-to-week activities.\n- **Contingency plans** prepare for things that might go wrong.\n\nA common tool for strategic planning is a **SWOT analysis**, which examines internal **S**trengths and **W**eaknesses and external **O**pportunities and **T**hreats.\n\nGood goals are often written to be **SMART**: specific, measurable, achievable, relevant, and time-bound, the same framework you may have used in AIU 101.\n\n## Organizing\n\nOrganizing involves dividing work into jobs (**division of labor**), grouping jobs into departments (**departmentalization**), and establishing who reports to whom (**chain of command**). Key concepts:\n\n- **Span of control:** the number of people a manager supervises directly. Wide spans create flatter organizations; narrow spans create taller ones.\n- **Centralization vs. decentralization:** whether decisions are made at the top or pushed down to lower levels.\n\n## Organizational structures\n\n| Structure | How work is grouped | Strengths | Weaknesses |\n|-----------|---------------------|-----------|------------|\n| **Functional** | By specialty (marketing, finance, operations) | Expertise, efficiency | Silos; slow coordination across functions |\n| **Divisional** | By product, customer, or geography | Focus on markets; accountability | Duplicated resources |\n| **Matrix** | Employees report to both a functional and a project manager | Flexibility, cross-functional collaboration | Confusion from two bosses |\n| **Flat / team-based** | Few layers; self-managing teams | Speed, empowerment | Role ambiguity as organizations grow |\n\nAn **organization chart** visually shows a company's structure and reporting relationships. In practice, informal networks of relationships, who people actually go to for help, matter as much as the formal chart.\n\n## Leading\n\nLeading involves influencing people toward goals. Managers use different **leadership styles**:\n\n- **Autocratic:** the leader makes decisions alone; useful in emergencies, but can lower morale.\n- **Participative (democratic):** the leader involves employees in decisions; builds commitment, but takes time.\n- **Laissez-faire (free-rein):** the leader gives employees broad freedom; works with highly skilled, motivated teams.\n\nEffective managers adapt their style to the situation and the people involved. You will study leadership theory and motivation in depth in Organizational Behavior and Leadership.\n\n## Controlling\n\nControlling compares actual performance with standards and takes corrective action. The process:\n\n1. Set performance standards (for example, customer satisfaction of at least 90%).\n2. Measure actual performance.\n3. Compare performance with standards.\n4. Take corrective action if needed, or adjust the standards.\n\nOrganizations often track **key performance indicators (KPIs)**, a small set of measurable values that show progress toward important goals.\n\n## Levels of management and managerial skills\n\n- **Top managers** (CEO, vice presidents) set strategy and direction.\n- **Middle managers** (department heads, regional managers) implement strategy and coordinate units.\n- **First-line managers** (supervisors, team leads) oversee daily work of employees.\n\nManagers need three kinds of skills in different proportions:\n\n- **Technical skills:** knowledge of specific tasks; most important for first-line managers.\n- **Human (interpersonal) skills:** working with and motivating people; important at all levels.\n- **Conceptual skills:** seeing the organization as a whole and thinking strategically; most important for top managers.\n\n### Worked example: a café expands\n\nWhen Ana's café opens a second location, she must **plan** (SWOT: strength in loyal customers, threat from a new chain), **organize** (hire a manager for location two, decide which decisions that manager can make, decentralizing day-to-day choices), **lead** (shift from doing everything herself to coaching managers), and **control** (track weekly sales, waste, and customer reviews at both sites). Her role shifts from technical skills, making great coffee, toward human and conceptual skills.\n\n## Common misconceptions\n\n- **\"Management and leadership are the same.\"** Leading is one function of management; managers also plan, organize, and control.\n- **\"Flat organizations have no structure.\"** They have fewer layers, not no structure.\n- **\"There's one best leadership style.\"** Effectiveness depends on the situation.\n\n## Summary\n\nManagers plan, organize, lead, and control. Plans range from strategic to operational. Organizations divide and coordinate work through structures such as functional, divisional, matrix, and flat designs, each with trade-offs. Managers at different levels rely on different mixes of technical, human, and conceptual skills.\n",
+      "keyTerms": [
+        {
+          "term": "Management",
+          "definition": "The process of achieving organizational goals by working with and through people and resources."
+        },
+        {
+          "term": "SWOT analysis",
+          "definition": "An assessment of internal strengths and weaknesses and external opportunities and threats."
+        },
+        {
+          "term": "Span of control",
+          "definition": "The number of people a manager directly supervises."
+        },
+        {
+          "term": "Matrix structure",
+          "definition": "A structure in which employees report to both functional and project managers."
+        },
+        {
+          "term": "Conceptual skills",
+          "definition": "The ability to understand the organization as a whole and think strategically."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A manager compares monthly sales with targets and adjusts the sales plan. Which function is this?",
+          "choices": [
+            "Planning only",
+            "Organizing",
+            "Leading",
+            "Controlling"
+          ],
+          "answerIndex": 3,
+          "explanation": "Controlling measures performance against standards and takes corrective action."
+        },
+        {
+          "prompt": "In a SWOT analysis, a new competitor entering the market is a:",
+          "choices": [
+            "Threat",
+            "Strength",
+            "Opportunity",
+            "Weakness"
+          ],
+          "answerIndex": 0,
+          "explanation": "Threats are external factors that could harm the business."
+        },
+        {
+          "prompt": "Employees who report to both a department head and a project manager work in a:",
+          "choices": [
+            "Divisional structure",
+            "Matrix structure",
+            "Functional structure",
+            "Sole proprietorship"
+          ],
+          "answerIndex": 1,
+          "explanation": "Matrix structures create dual reporting relationships."
+        },
+        {
+          "prompt": "Which skills are most important for top managers?",
+          "choices": [
+            "Manual skills",
+            "Clerical skills",
+            "Conceptual skills",
+            "Technical skills"
+          ],
+          "answerIndex": 2,
+          "explanation": "Top managers need to see the organization as a whole and think strategically."
+        },
+        {
+          "prompt": "A leader who involves team members in decisions is using which style?",
+          "choices": [
+            "Participative (democratic)",
+            "Laissez-faire",
+            "Functional",
+            "Autocratic"
+          ],
+          "answerIndex": 0,
+          "explanation": "Participative leaders share decision making."
+        }
+      ],
+      "assignment": {
+        "title": "Management in Action",
+        "prompt": "Think about an organization you have worked in, volunteered for, or observed closely (a workplace, school, team, or community group).\n\nIn at least 200 words: describe its structure (and sketch its chain of command in words or a simple list); give an example of each of the four management functions as practiced there; identify the leadership style of one manager and evaluate how well it fit the situation; and recommend one change to its structure or management practice, explaining the expected trade-off.",
+        "rubric": [
+          "Accurately describes the organization's structure",
+          "Gives a correct example of each management function",
+          "Analyzes a leadership style in context",
+          "Recommends a change with a thoughtful trade-off"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 5,
+      "title": "Marketing",
+      "overview": "Creating value for customers: understanding needs, choosing target markets, positioning a brand, and designing the marketing mix.",
+      "objectives": [
+        "Explain the marketing concept and customer value.",
+        "Apply market segmentation, targeting, and positioning.",
+        "Design a marketing mix using the four Ps."
+      ],
+      "lesson": "## What marketing really is\n\nMany people think marketing means advertising. Advertising is part of it, but **marketing** is broader: it is the process of understanding customers, creating products and services that meet their needs, and communicating and delivering value in ways that build lasting relationships.\n\nThe **marketing concept** holds that organizations succeed by identifying customer needs and satisfying them better than competitors, rather than by making whatever they can and then pushing it on customers. **Customer value** is the customer's perception of the benefits received relative to the costs, including price, time, and effort. A $6 coffee can be a great value to someone who wants a cozy place to work; a $1 coffee can be poor value if it's bad and the line is long.\n\nBusinesses increasingly emphasize **relationship marketing**: building long-term loyalty, because keeping an existing customer is often far less expensive than winning a new one.\n\n## Understanding the market\n\nEffective marketing starts with **market research**: gathering and analyzing information about customers, competitors, and trends. **Primary research** collects new data directly (surveys, interviews, observation, experiments). **Secondary research** uses data that already exists (industry reports, government statistics, published studies).\n\n## Segmentation, targeting, and positioning\n\nNo product appeals to everyone. Marketers divide the market and focus their efforts.\n\n**Market segmentation** divides a broad market into groups with similar needs or characteristics:\n\n| Basis | Examples |\n|-------|----------|\n| **Demographic** | Age, income, education, family size |\n| **Geographic** | Region, city size, climate |\n| **Psychographic** | Lifestyle, values, personality, interests |\n| **Behavioral** | Usage rate, loyalty, benefits sought, occasion |\n\n**Targeting** chooses which segments to serve, based on their size, growth, profitability, and fit with the company's strengths.\n\n**Positioning** defines how the company wants its product to be perceived in target customers' minds relative to competitors. A **positioning statement** often follows a template:\n\n> *For* [target customer] *who* [need], [brand] *is the* [category] *that* [key benefit], *unlike* [competitor].\n\nExample: *For busy working adults who want to finish a degree, AIU is the online university that offers a complete four-year curriculum at your own pace, unlike programs that require fixed class schedules.*\n\n## The marketing mix: the four Ps\n\nOnce a target and position are chosen, marketers design the **marketing mix**, the controllable tools used to deliver value:\n\n1. **Product:** what you offer, including features, quality, design, branding, packaging, and services. Products move through a **life cycle** of introduction, growth, maturity, and decline, and marketing strategies change at each stage.\n2. **Price:** what customers pay. Strategies include **cost-plus pricing** (adding a markup to costs), **value-based pricing** (based on customers' perceived value), **competitive pricing**, **penetration pricing** (starting low to gain market share quickly), and **skimming** (starting high for early adopters, then lowering).\n3. **Place (distribution):** how the product reaches customers, whether directly, through retailers, online, or through wholesalers.\n4. **Promotion:** how you communicate with customers, through advertising, public relations, personal selling, sales promotions (coupons, free trials), and digital channels such as social media, search, and email.\n\nFor services, marketers often add three more Ps: **people**, **process**, and **physical evidence** (the environment where the service happens).\n\nThe four Ps must fit together and with the positioning. A premium skincare brand with luxury packaging would undermine its position by selling at deep discounts in a dollar store.\n\n### Worked example: launching a meal-kit service\n\n**Segment and target:** Busy young professionals in cities (demographic and geographic) who value healthy eating but lack time (psychographic and behavioral).\n\n**Position:** *Healthy dinners in 20 minutes, without the grocery run.*\n\n**Product:** Pre-portioned ingredients, simple recipes, recyclable packaging.\n**Price:** Value-based, about $10 per serving: more than groceries, less than takeout. An introductory discount (penetration) encourages trial.\n**Place:** Direct-to-consumer delivery ordered through an app.\n**Promotion:** Social media videos of 20-minute cooking, referral credits, and partnerships with fitness influencers.\n\n## Marketing ethics\n\nMarketing can create real value, and it can also mislead. Ethical concerns include deceptive advertising, manipulative design that makes canceling difficult, targeting vulnerable groups, and misuse of personal data. Laws such as consumer protection and privacy regulations set minimum standards, but responsible marketers aim higher, because trust is a long-term asset.\n\n## Common misconceptions\n\n- **\"Marketing is just advertising.\"** Promotion is only one of the four Ps.\n- **\"A good product sells itself.\"** Even great products need the right price, distribution, and communication to reach customers.\n- **\"Targeting everyone maximizes sales.\"** Trying to appeal to everyone often appeals strongly to no one.\n\n## Summary\n\nMarketing creates value by understanding and meeting customer needs. Marketers segment markets, target attractive segments, and position offerings distinctively. The marketing mix of product, price, place, and promotion must fit together and support the chosen position, and ethical practice builds the trust on which long-term relationships depend.\n",
+      "keyTerms": [
+        {
+          "term": "Marketing concept",
+          "definition": "The philosophy that success comes from identifying and satisfying customer needs better than competitors."
+        },
+        {
+          "term": "Market segmentation",
+          "definition": "Dividing a market into groups of customers with similar needs or characteristics."
+        },
+        {
+          "term": "Positioning",
+          "definition": "Defining how a product should be perceived relative to competitors in target customers' minds."
+        },
+        {
+          "term": "Marketing mix",
+          "definition": "The controllable tools of product, price, place, and promotion."
+        },
+        {
+          "term": "Penetration pricing",
+          "definition": "Setting a low initial price to gain market share quickly."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A company groups customers by lifestyle and values. This is which type of segmentation?",
+          "choices": [
+            "Behavioral",
+            "Demographic",
+            "Psychographic",
+            "Geographic"
+          ],
+          "answerIndex": 2,
+          "explanation": "Psychographic segmentation uses lifestyle, values, and personality."
+        },
+        {
+          "prompt": "A new streaming service launches at a very low price to attract subscribers quickly. This is:",
+          "choices": [
+            "Positioning",
+            "Cost-plus pricing",
+            "Price skimming",
+            "Penetration pricing"
+          ],
+          "answerIndex": 3,
+          "explanation": "Low initial prices aim to build market share fast."
+        },
+        {
+          "prompt": "Deciding whether to sell through retail stores, online, or both is a decision about which P?",
+          "choices": [
+            "Product",
+            "Price",
+            "Place",
+            "Promotion"
+          ],
+          "answerIndex": 2,
+          "explanation": "Place concerns distribution channels."
+        },
+        {
+          "prompt": "What does the marketing concept emphasize?",
+          "choices": [
+            "Advertising as much as possible",
+            "Identifying and satisfying customer needs better than competitors",
+            "Producing as much as possible and pushing it onto customers",
+            "Charging the highest possible price"
+          ],
+          "answerIndex": 1,
+          "explanation": "The marketing concept is customer-centered."
+        },
+        {
+          "prompt": "Which statement best describes positioning?",
+          "choices": [
+            "Defining how a product is perceived relative to competitors in target customers' minds",
+            "Setting a product's price",
+            "Placing products on store shelves",
+            "Dividing customers into groups"
+          ],
+          "answerIndex": 0,
+          "explanation": "Positioning is about perception relative to alternatives."
+        }
+      ],
+      "assignment": {
+        "title": "Market a Product",
+        "prompt": "Choose a real or invented product or service, ideally one related to your interests or current work.\n\nIn at least 200 words, create a marketing plan summary: identify a target segment using at least two bases of segmentation; write a positioning statement using the template from the lesson; describe each of the four Ps with specific decisions; and explain how the four Ps fit together to support your positioning. Note one ethical consideration your marketing should respect.",
+        "rubric": [
+          "Defines a target segment using two or more bases",
+          "Writes a clear, distinctive positioning statement",
+          "Specifies concrete, consistent decisions for all four Ps",
+          "Addresses an ethical consideration"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 6,
+      "title": "Accounting and Finance Basics",
+      "overview": "The language of business: the accounting equation, the three core financial statements, key ratios, and how businesses get the money they need.",
+      "objectives": [
+        "Explain the accounting equation and the purpose of accounting.",
+        "Interpret the balance sheet, income statement, and statement of cash flows.",
+        "Describe common sources of business financing and the trade-off between debt and equity."
+      ],
+      "lesson": "## Accounting: the language of business\n\n**Accounting** is the process of recording, classifying, summarizing, and interpreting financial transactions so that people can make decisions. Different users need financial information:\n\n- **Managers** use it to plan, control costs, and evaluate performance.\n- **Investors and lenders** use it to decide whether to invest or lend.\n- **Governments** use it for taxes and regulation.\n\n**Financial accounting** prepares reports for outside users, following standard rules (in the United States, **Generally Accepted Accounting Principles**, or **GAAP**; many other countries use International Financial Reporting Standards). **Managerial accounting** provides information for internal decisions, such as budgeting and pricing. You'll study both in depth in Financial Accounting and Managerial Accounting.\n\n## The accounting equation\n\nEvery business's financial position rests on one equation:\n\n> **Assets = Liabilities + Owners' Equity**\n\n- **Assets** are resources the business owns or controls that have future value: cash, inventory, equipment, buildings, and money owed by customers (**accounts receivable**).\n- **Liabilities** are what the business owes to others: loans, money owed to suppliers (**accounts payable**), and wages owed.\n- **Owners' equity** (or *shareholders' equity*) is the owners' claim on the assets after liabilities: what they invested plus profits kept in the business.\n\nThe equation always balances. If a business borrows $10,000 from a bank, assets (cash) rise by $10,000 and liabilities (loan payable) rise by $10,000.\n\n## The three core financial statements\n\n### The balance sheet\n\nThe **balance sheet** is a snapshot of the accounting equation at a single point in time.\n\n| Assets | | Liabilities and Equity | |\n|---|---:|---|---:|\n| Cash | $15,000 | Accounts payable | $8,000 |\n| Inventory | $10,000 | Bank loan | $20,000 |\n| Equipment | $35,000 | **Total liabilities** | **$28,000** |\n| | | Owners' equity | $32,000 |\n| **Total assets** | **$60,000** | **Total liabilities + equity** | **$60,000** |\n\n### The income statement\n\nThe **income statement** (or *profit and loss statement*) shows performance **over a period**, such as a year:\n\n| | |\n|---|---:|\n| Revenue | $200,000 |\n| − Cost of goods sold | $80,000 |\n| **= Gross profit** | **$120,000** |\n| − Operating expenses (rent, wages, marketing) | $90,000 |\n| **= Operating income** | **$30,000** |\n| − Interest and taxes | $8,000 |\n| **= Net income** | **$22,000** |\n\n**Cost of goods sold (COGS)** is the direct cost of producing what was sold, such as ingredients for a bakery.\n\n### The statement of cash flows\n\nThe **statement of cash flows** tracks actual cash moving in and out, grouped into **operating** activities (day-to-day business), **investing** activities (buying or selling equipment and other long-term assets), and **financing** activities (borrowing, repaying loans, owner investments, dividends).\n\nWhy a separate cash statement? Because **profit is not the same as cash**. A business may record a sale as revenue when it ships an order, but the customer may not pay for 60 days. A growing, profitable business can run out of cash if customers pay slowly while bills come due. Running out of cash is a common reason small businesses fail.\n\n## Ratios: reading the statements\n\nRatios turn statements into insights:\n\n- **Profit margin** = net income ÷ revenue. Above: $22,000 ÷ $200,000 = **11%**. Of every dollar of sales, 11 cents is profit.\n- **Current ratio** = current assets ÷ current liabilities, a measure of ability to pay short-term bills. A ratio above 1 means more short-term assets than short-term obligations.\n- **Debt-to-equity ratio** = total liabilities ÷ owners' equity. Above: $28,000 ÷ $32,000 ≈ **0.88**. Higher ratios mean more reliance on borrowed money.\n\nRatios are most meaningful when compared over time or with similar businesses.\n\n## Finance: getting and using money\n\n**Finance** is the management of money: deciding how to raise it and how to use it. A business needs funds to start, to operate day to day (**working capital**), and to grow.\n\n**Debt financing** means borrowing money that must be repaid with interest: bank loans, lines of credit, or, for large firms, **bonds**.\n- *Advantages:* owners keep full ownership and control; interest is often tax-deductible.\n- *Disadvantages:* repayment is required regardless of performance; too much debt increases risk.\n\n**Equity financing** means selling ownership: bringing in partners, angel investors, **venture capital** firms, or, for corporations, selling stock.\n- *Advantages:* no required repayment; investors share risk and may bring expertise.\n- *Disadvantages:* owners give up part of the ownership, profits, and often some control.\n\nSmall businesses also use personal savings, family and friends, and government-backed loan programs.\n\n**Budgeting** is the financial plan for the future: projecting revenue and expenses so managers can allocate resources and spot problems early.\n\n### Worked example: should a bakery borrow or sell a share?\n\nA bakery needs $50,000 for a second oven and display case. A bank offers a five-year loan at 8% interest. An investor offers $50,000 for 25% ownership. If the bakery expects steady cash flow to make loan payments, debt lets the owner keep 100% of future profits. If cash flow is uncertain, equity avoids required payments but permanently gives away a quarter of the business. The right choice depends on risk, growth expectations, and how much control the owner wants to keep.\n\n## Common misconceptions\n\n- **\"Profit means the business has cash.\"** Timing differences mean profitable businesses can run short of cash.\n- **\"Debt is always bad.\"** Used prudently, debt can fund growth while preserving ownership.\n- **\"Accounting is just bookkeeping.\"** Accounting provides the information behind nearly every business decision.\n\n## Summary\n\nAssets equal liabilities plus owners' equity. The balance sheet shows position at a point in time, the income statement shows performance over a period, and the statement of cash flows tracks actual cash. Ratios such as profit margin, the current ratio, and debt-to-equity help interpret them. Businesses fund themselves with debt, equity, or both, each with trade-offs.\n",
+      "keyTerms": [
+        {
+          "term": "Accounting equation",
+          "definition": "Assets = Liabilities + Owners' Equity."
+        },
+        {
+          "term": "Balance sheet",
+          "definition": "A financial statement showing assets, liabilities, and equity at a point in time."
+        },
+        {
+          "term": "Income statement",
+          "definition": "A financial statement showing revenue, expenses, and profit over a period."
+        },
+        {
+          "term": "Statement of cash flows",
+          "definition": "A financial statement showing cash flows from operating, investing, and financing activities."
+        },
+        {
+          "term": "Equity financing",
+          "definition": "Raising money by selling ownership in a business."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "A company has assets of $90,000 and liabilities of $35,000. What is owners' equity?",
+          "choices": [
+            "$90,000",
+            "$55,000",
+            "$125,000",
+            "$35,000"
+          ],
+          "answerIndex": 1,
+          "explanation": "Equity = assets − liabilities."
+        },
+        {
+          "prompt": "Which statement shows a company's financial position at a single point in time?",
+          "choices": [
+            "Statement of cash flows",
+            "Budget",
+            "Income statement",
+            "Balance sheet"
+          ],
+          "answerIndex": 3,
+          "explanation": "The balance sheet is a snapshot; the income statement covers a period."
+        },
+        {
+          "prompt": "A business has revenue of $400,000 and net income of $40,000. What is its profit margin?",
+          "choices": [
+            "10%",
+            "90%",
+            "40%",
+            "4%"
+          ],
+          "answerIndex": 0,
+          "explanation": "$40,000 ÷ $400,000 = 10%."
+        },
+        {
+          "prompt": "How can a profitable business run out of cash?",
+          "choices": [
+            "Customers may pay slowly while the business must pay its bills",
+            "Profit is always paid immediately in cash",
+            "Profitable businesses can never run out of cash",
+            "Cash and profit are identical"
+          ],
+          "answerIndex": 0,
+          "explanation": "Timing differences between earning revenue and receiving cash matter."
+        },
+        {
+          "prompt": "What is a key disadvantage of equity financing compared with debt financing?",
+          "choices": [
+            "It is never available to small businesses",
+            "Money must be repaid with interest",
+            "Owners give up a share of ownership and future profits",
+            "It always requires collateral"
+          ],
+          "answerIndex": 2,
+          "explanation": "Equity investors become part-owners."
+        }
+      ],
+      "assignment": {
+        "title": "Read the Numbers",
+        "prompt": "Use the following information for a small business:\n\n- Revenue: $250,000; Cost of goods sold: $100,000; Operating expenses: $110,000; Interest and taxes: $10,000\n- Assets: Cash $20,000, Inventory $15,000, Equipment $45,000\n- Liabilities: Accounts payable $10,000, Bank loan $30,000\n\nIn at least 200 words: (1) calculate gross profit, operating income, net income, and profit margin, showing your work; (2) calculate owners' equity and the debt-to-equity ratio; (3) interpret what these numbers suggest about the business; and (4) the owner wants $40,000 to open a second location. Recommend debt, equity, or a mix, and justify your recommendation.",
+        "rubric": [
+          "Calculations are correct and work is shown",
+          "Correctly computes equity and debt-to-equity",
+          "Interprets the results thoughtfully",
+          "Gives a justified financing recommendation"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 7,
+      "title": "Operations and Technology",
+      "overview": "How businesses produce and deliver goods and services efficiently, manage quality and supply chains, and use technology, including AI.",
+      "objectives": [
+        "Describe operations management and the transformation process.",
+        "Explain quality management, lean principles, and inventory approaches.",
+        "Analyze how information technology and AI are changing business operations."
+      ],
+      "lesson": "## Operations: turning inputs into outputs\n\n**Operations management** is the design, management, and improvement of the systems that create a business's goods and services. Every organization has operations, whether it builds cars, serves meals, processes insurance claims, or teaches courses.\n\nAt its core, operations is a **transformation process**:\n\n> **Inputs** (materials, labor, equipment, information) → **Transformation** → **Outputs** (goods and services)\n\nA bakery transforms flour, labor, and ovens into bread. A hospital transforms sick patients, staff expertise, and equipment into treated patients. A university transforms curriculum and student effort into learning.\n\n## Goods versus services\n\nProducing services poses distinctive challenges. Services are often **intangible** (you can't inspect a haircut before buying it), **inseparable** (produced and consumed at the same time, often with the customer present), **variable** (quality depends on who provides them and when), and **perishable** (an empty airline seat today can't be sold tomorrow). Service operations therefore focus heavily on scheduling, staff training, and managing customer experience.\n\n## Key operations decisions\n\n- **Capacity planning:** how much can be produced? Too little capacity loses customers; too much wastes money.\n- **Location:** near customers, suppliers, or skilled workers? Costs, transportation, and regulations all matter.\n- **Facility layout:** a **process layout** groups similar equipment together (a hospital's radiology department); a **product layout** arranges steps in sequence (an assembly line); a **fixed-position layout** brings resources to the product (building a ship or a house).\n- **Scheduling:** coordinating people and resources over time.\n\n## Quality management\n\n**Quality** means meeting or exceeding customer expectations consistently. Poor quality creates costs: rework, returns, warranty claims, and lost reputation.\n\n**Total quality management (TQM)** is a philosophy in which everyone in the organization is responsible for continuous quality improvement, guided by customer needs and data. **Six Sigma** is a data-driven approach that aims to reduce process variation so that defects become extremely rare. International standards such as **ISO 9001** certify that a company follows documented quality management practices.\n\nA core idea in all of these is **continuous improvement**, sometimes called by its Japanese name, **kaizen**: many small improvements, made constantly, add up.\n\n## Lean operations and inventory\n\n**Lean** operations, inspired by the Toyota Production System, aim to eliminate **waste**, anything that uses resources without adding value for the customer: overproduction, waiting, unnecessary transportation, excess inventory, defects, and unnecessary motion.\n\n**Inventory** is a major operations decision. Holding inventory protects against running out, but it ties up cash, takes space, and can spoil or become obsolete. **Just-in-time (JIT)** inventory systems receive materials only as they are needed, reducing waste and costs. The trade-off is vulnerability: when supply chains are disrupted, as many were around 2020–2022, JIT systems can run short. Many firms now balance efficiency with **resilience**, holding more safety stock of critical parts or diversifying suppliers.\n\n## Supply chain management\n\nA **supply chain** is the network of organizations and activities involved in producing and delivering a product, from raw materials to the final customer. **Supply chain management** coordinates these flows of materials, information, and money. A smartphone's supply chain may span mining operations, component makers in several countries, an assembly plant, shipping companies, warehouses, and retailers. Managing it well requires sharing information, building supplier relationships, and planning for disruption.\n\n## Technology and operations\n\nInformation technology transforms operations:\n\n- **Enterprise resource planning (ERP)** systems integrate data on finance, inventory, production, and sales in one system.\n- **Automation and robotics** perform repetitive or dangerous tasks.\n- **E-commerce and digital platforms** let even small firms reach global customers.\n- **Data analytics** reveals patterns in sales, operations, and customer behavior that support better decisions.\n- **Cloud computing** provides computing resources on demand, without large up-front investment.\n\n### Artificial intelligence in business\n\n**Artificial intelligence (AI)** systems perform tasks that typically require human intelligence, such as recognizing patterns, making predictions, and generating text. Businesses use AI for demand forecasting, fraud detection, customer service chatbots, personalized recommendations, quality inspection with computer vision, and drafting documents.\n\nAI raises important management questions: How accurate is it, and how will errors be caught? What data does it use, and is privacy protected? Could it embed bias into decisions like hiring or lending? How will jobs change, and how will employees be retrained? Organizations that use AI well treat it as a tool requiring oversight, testing, and accountability, not a replacement for judgment. (AIU itself is an example: AI writes our courses, and structural checks and open publication help catch problems.)\n\n### Worked example: a restaurant's operations\n\nA restaurant notices long waits on Friday nights. Operations analysis reveals a bottleneck at the grill. Solutions include adding a second grill station (capacity), reorganizing the kitchen so ingredients are within reach (layout, reducing wasted motion), prepping ingredients earlier in the day (scheduling), and using sales data to forecast Friday demand and staff accordingly (analytics). After changes, average ticket time drops and customer ratings improve, an example of continuous improvement in action.\n\n## Common misconceptions\n\n- **\"Operations only matters in factories.\"** Every service business has operations too.\n- **\"Less inventory is always better.\"** Lean inventory saves money but can reduce resilience.\n- **\"AI will run businesses on its own.\"** AI requires human oversight, quality checks, and accountability.\n\n## Summary\n\nOperations transforms inputs into goods and services. Managers make decisions about capacity, location, layout, and scheduling, and pursue quality through TQM, Six Sigma, and continuous improvement. Lean and just-in-time approaches reduce waste but must be balanced with resilience. Technology, including AI, is reshaping operations, bringing both opportunities and new responsibilities.\n",
+      "keyTerms": [
+        {
+          "term": "Operations management",
+          "definition": "The design, management, and improvement of systems that produce goods and services."
+        },
+        {
+          "term": "Total quality management (TQM)",
+          "definition": "An organization-wide commitment to continuous quality improvement driven by customer needs."
+        },
+        {
+          "term": "Just-in-time (JIT)",
+          "definition": "An inventory approach that receives materials only as they are needed."
+        },
+        {
+          "term": "Supply chain",
+          "definition": "The network of organizations and activities that produce and deliver a product to customers."
+        },
+        {
+          "term": "Lean operations",
+          "definition": "An approach focused on eliminating activities that do not add value for the customer."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Which describes the transformation process in operations?",
+          "choices": [
+            "Converting inputs such as materials and labor into goods and services",
+            "Converting debt into equity",
+            "Converting customers into shareholders",
+            "Converting profit into cash"
+          ],
+          "answerIndex": 0,
+          "explanation": "Operations transforms inputs into outputs."
+        },
+        {
+          "prompt": "An empty seat on today's flight cannot be sold tomorrow. This illustrates that services are:",
+          "choices": [
+            "Separable",
+            "Tangible",
+            "Uniform",
+            "Perishable"
+          ],
+          "answerIndex": 3,
+          "explanation": "Unused service capacity is lost."
+        },
+        {
+          "prompt": "What is a key risk of just-in-time inventory?",
+          "choices": [
+            "Too much inventory spoilage",
+            "It increases waste",
+            "Vulnerability to supply chain disruptions",
+            "Excessive storage costs"
+          ],
+          "answerIndex": 2,
+          "explanation": "With little safety stock, disruptions can halt production."
+        },
+        {
+          "prompt": "Which philosophy makes everyone in an organization responsible for continuous quality improvement?",
+          "choices": [
+            "Fixed-position layout",
+            "Total quality management",
+            "Just-in-time",
+            "Equity financing"
+          ],
+          "answerIndex": 1,
+          "explanation": "TQM is organization-wide and customer-focused."
+        },
+        {
+          "prompt": "Which is the most responsible approach to using AI in business operations?",
+          "choices": [
+            "Let it make all decisions without review",
+            "Treat it as a tool requiring testing, oversight, and accountability",
+            "Assume its outputs are always accurate",
+            "Avoid collecting any data"
+          ],
+          "answerIndex": 1,
+          "explanation": "AI can err and embed bias; oversight is essential."
+        }
+      ],
+      "assignment": {
+        "title": "Improve an Operation",
+        "prompt": "Choose an operation you experience regularly: a coffee shop line, a grocery checkout, a doctor's office, a delivery service, or a process at your workplace.\n\nIn at least 200 words: describe its inputs, transformation, and outputs; identify a bottleneck, quality problem, or form of waste; propose at least two improvements using concepts from this lesson (such as capacity, layout, scheduling, lean, quality management, or technology); and evaluate whether AI or another technology could help, including one risk it would introduce.",
+        "rubric": [
+          "Accurately describes the transformation process",
+          "Identifies a specific operational problem",
+          "Proposes two concept-based improvements",
+          "Evaluates a technology's benefits and risks"
+        ],
+        "minWords": 200
+      }
+    },
+    {
+      "number": 8,
+      "title": "Ethics, Social Responsibility, and Global Business",
+      "overview": "Doing business responsibly and across borders: ethical decision making, corporate social responsibility, and the opportunities and risks of global markets.",
+      "objectives": [
+        "Apply an ethical decision-making framework to business dilemmas.",
+        "Explain corporate social responsibility and competing views of business's purpose.",
+        "Describe reasons for international trade, ways to enter foreign markets, and key global challenges."
+      ],
+      "lesson": "## Business ethics\n\n**Ethics** concerns standards of right and wrong behavior. **Business ethics** applies those standards to business decisions. Many ethical issues in business aren't clearly illegal, yet they matter enormously for trust, reputation, and long-term success.\n\nCommon ethical issues include conflicts of interest, honesty in advertising and financial reporting, fair treatment of employees, privacy, and environmental impact. Laws set a minimum; ethics often asks more.\n\n### A framework for ethical decisions\n\nWhen facing a dilemma, a structured approach helps:\n\n1. **Identify the facts** and the ethical issue.\n2. **Identify stakeholders** and how each would be affected.\n3. **Consider alternatives**, including creative options beyond the obvious two.\n4. **Evaluate alternatives** using several lenses:\n   - **Consequences (utilitarian):** which option produces the greatest overall good and least harm?\n   - **Duties and rights:** which option respects people's rights and honors obligations such as honesty and promises?\n   - **Fairness (justice):** which option treats people fairly and distributes benefits and burdens equitably?\n   - **Character (virtue):** what would a person of integrity do? Would you be comfortable if your decision appeared on the front page?\n5. **Decide, act, and reflect** on the outcome.\n\nOrganizations support ethical behavior through a **code of ethics**, training, leaders who model integrity, and safe channels for reporting concerns. **Whistleblowers**, employees who report wrongdoing, are protected by law in many situations.\n\n### Worked example\n\nA manager learns that a product has a minor defect that causes failure in about 1 in 5,000 units. A recall would be expensive. Applying the framework: stakeholders include customers (safety and trust), shareholders (costs), employees, and regulators. Alternatives include ignoring it, a quiet replacement program, a full recall, or a fix for future units plus free replacements on request. If the defect creates any safety risk, duties to customers and long-term consequences for trust strongly favor disclosure and remedy. Companies that conceal safety defects have suffered far greater losses when the truth emerged than the cost of acting early.\n\n## Corporate social responsibility\n\n**Corporate social responsibility (CSR)** is the idea that businesses have responsibilities to society beyond making a profit. A widely cited model describes four layers: **economic** (be profitable), **legal** (obey the law), **ethical** (do what is right), and **philanthropic** (contribute to the community).\n\nViews on business's purpose differ:\n\n- The **shareholder view**, associated with economist Milton Friedman, holds that a company's primary social responsibility is to increase profits for its owners within the rules of the game, leaving social goals to individuals and governments.\n- The **stakeholder view** holds that companies should create value for all stakeholders, including employees, customers, communities, and the environment.\n\nIn practice, many companies argue that responsible practices serve long-term profitability, a concept sometimes called **shared value**. Firms increasingly report on **environmental, social, and governance (ESG)** performance and pursue **sustainability**, meeting present needs without compromising future generations. Critics warn of **greenwashing**, misleading claims about environmental benefits. Credible CSR is measurable, honest, and connected to the core business.\n\n## Global business\n\n### Why trade?\n\nCountries and companies trade because of **comparative advantage**: even if one country could produce everything more efficiently, both countries benefit when each specializes in what it produces at the lowest *opportunity cost* and trades for the rest. Trade gives consumers more choice and lower prices and gives businesses larger markets.\n\nKey terms:\n\n- **Exporting:** selling domestic goods abroad. **Importing:** buying foreign goods.\n- **Balance of trade:** exports minus imports. A **trade deficit** occurs when imports exceed exports.\n- **Exchange rate:** the value of one currency in terms of another. If the U.S. dollar strengthens, American goods become more expensive for foreign buyers and imports become cheaper for Americans.\n\n### Ways to enter global markets\n\nFrom lowest to highest commitment and risk:\n\n1. **Exporting** through agents or online sales.\n2. **Licensing:** allowing a foreign company to produce your product in exchange for royalties.\n3. **Franchising:** a foreign franchisee operates using your brand and system.\n4. **Contract manufacturing:** a foreign firm produces goods to your specifications.\n5. **Joint ventures and strategic alliances:** partnering with a foreign company, sharing ownership and risk.\n6. **Foreign direct investment:** building or buying operations abroad, as **multinational corporations** do.\n\n### Barriers and challenges\n\n- **Trade barriers:** **tariffs** (taxes on imports), **quotas** (limits on quantities), and **embargoes** (bans on trade with a country). Governments may impose them to protect domestic industries or for political reasons. Trade agreements and organizations such as the World Trade Organization aim to reduce barriers.\n- **Cultural differences** in language, customs, negotiation styles, and consumer preferences. Products and marketing often must be adapted.\n- **Political and legal differences**, including varying regulations, political instability, and corruption risks. U.S. companies, for example, must comply with laws prohibiting bribery of foreign officials.\n- **Ethical challenges in global supply chains**, such as labor conditions at suppliers, which can create serious reputational and legal risks.\n\n## Common misconceptions\n\n- **\"If it's legal, it's ethical.\"** Laws set minimums; ethical choices often go further.\n- **\"CSR is just charity.\"** CSR includes how a company makes its money, not just how it gives it away.\n- **\"Trade only benefits the country with lower costs.\"** Comparative advantage shows how both trading partners can gain.\n\n## Summary\n\nEthical decision making considers consequences, duties, fairness, and character, supported by organizational codes and cultures. CSR expands business responsibility beyond profit, with ongoing debate between shareholder and stakeholder views. Global business rests on comparative advantage, offers entry strategies of increasing commitment, and requires navigating trade barriers, cultural differences, and ethical risks.\n",
+      "keyTerms": [
+        {
+          "term": "Business ethics",
+          "definition": "The application of standards of right and wrong to business decisions."
+        },
+        {
+          "term": "Corporate social responsibility (CSR)",
+          "definition": "The idea that businesses have responsibilities to society beyond profit."
+        },
+        {
+          "term": "Greenwashing",
+          "definition": "Misleading claims about a company's environmental practices or benefits."
+        },
+        {
+          "term": "Comparative advantage",
+          "definition": "The ability to produce a good at a lower opportunity cost than others, which makes trade mutually beneficial."
+        },
+        {
+          "term": "Tariff",
+          "definition": "A tax on imported goods."
+        }
+      ],
+      "quiz": [
+        {
+          "prompt": "Asking which option produces the greatest overall good and least harm applies which ethical lens?",
+          "choices": [
+            "Fairness only",
+            "Duties and rights",
+            "Consequences (utilitarian)",
+            "Character (virtue)"
+          ],
+          "answerIndex": 2,
+          "explanation": "Utilitarian reasoning focuses on outcomes."
+        },
+        {
+          "prompt": "Which view holds that a company's primary social responsibility is to increase profits for owners within the rules?",
+          "choices": [
+            "Shared value",
+            "Philanthropic responsibility",
+            "The stakeholder view",
+            "The shareholder view"
+          ],
+          "answerIndex": 3,
+          "explanation": "This view is associated with Milton Friedman."
+        },
+        {
+          "prompt": "A company advertises a product as 'eco-friendly' without evidence while its practices harm the environment. This is:",
+          "choices": [
+            "Licensing",
+            "Comparative advantage",
+            "Greenwashing",
+            "A tariff"
+          ],
+          "answerIndex": 2,
+          "explanation": "Greenwashing is misleading environmental marketing."
+        },
+        {
+          "prompt": "Which way of entering a foreign market involves the highest commitment and risk?",
+          "choices": [
+            "Exporting",
+            "Licensing",
+            "Foreign direct investment",
+            "Franchising"
+          ],
+          "answerIndex": 2,
+          "explanation": "Building or buying operations abroad requires the most investment."
+        },
+        {
+          "prompt": "If the U.S. dollar strengthens against other currencies, American exports become:",
+          "choices": [
+            "More expensive for foreign buyers",
+            "Cheaper for foreign buyers",
+            "Illegal",
+            "Unaffected"
+          ],
+          "answerIndex": 0,
+          "explanation": "Foreign buyers need more of their currency to buy the same dollar-priced goods."
+        }
+      ],
+      "assignment": {
+        "title": "An Ethical and Global Decision",
+        "prompt": "Imagine you manage a mid-sized clothing company. You discover that a low-cost overseas supplier, responsible for 30% of your products, may be using unsafe working conditions. Switching suppliers would raise costs by 12% and delay a major product launch.\n\nIn at least 250 words, apply the ethical decision-making framework from this lesson: identify the stakeholders, generate at least three alternatives, evaluate them using at least three ethical lenses, and make a recommendation. Then explain how your decision relates to CSR and to the challenges of global business described this week.",
+        "rubric": [
+          "Identifies stakeholders and the ethical issue clearly",
+          "Generates three or more realistic alternatives",
+          "Applies three ethical lenses accurately",
+          "Makes a justified recommendation connected to CSR and global business"
+        ],
+        "minWords": 250
+      }
+    }
+  ],
+  "finalExam": [
+    {
+      "prompt": "A company has revenue of $1.2 million and expenses of $1.05 million. What is its profit?",
+      "choices": [
+        "$2.25 million",
+        "$1.05 million",
+        "−$150,000",
+        "$150,000"
+      ],
+      "answerIndex": 3,
+      "explanation": "Profit = revenue − expenses."
+    },
+    {
+      "prompt": "A city's water utility is the only provider in its area. This market structure is a:",
+      "choices": [
+        "Oligopoly",
+        "Monopolistic competition",
+        "Perfect competition",
+        "Monopoly"
+      ],
+      "answerIndex": 3,
+      "explanation": "A single seller with no close substitutes is a monopoly."
+    },
+    {
+      "prompt": "Rising incomes increase demand for restaurant meals. What happens to equilibrium price and quantity, all else equal?",
+      "choices": [
+        "Neither changes",
+        "Both rise",
+        "Price rises, quantity falls",
+        "Both fall"
+      ],
+      "answerIndex": 1,
+      "explanation": "An increase in demand raises equilibrium price and quantity."
+    },
+    {
+      "prompt": "Which economic indicator measures the total value of a country's final goods and services?",
+      "choices": [
+        "Gross domestic product",
+        "Unemployment rate",
+        "Consumer Price Index",
+        "Interest rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "GDP measures total economic output."
+    },
+    {
+      "prompt": "Two friends start a business without filing any paperwork and share management. If the business cannot pay its debts, they generally face:",
+      "choices": [
+        "Unlimited personal liability as general partners",
+        "Double taxation",
+        "Liability limited to their investment",
+        "No liability"
+      ],
+      "answerIndex": 0,
+      "explanation": "General partners have unlimited liability."
+    },
+    {
+      "prompt": "Which business form offers limited liability and usually pass-through taxation?",
+      "choices": [
+        "LLC",
+        "Sole proprietorship",
+        "General partnership",
+        "C corporation"
+      ],
+      "answerIndex": 0,
+      "explanation": "LLCs combine these features."
+    },
+    {
+      "prompt": "Developing a five-year plan to enter a new market is an example of which type of planning?",
+      "choices": [
+        "Strategic",
+        "Contingency",
+        "Operational",
+        "Tactical only"
+      ],
+      "answerIndex": 0,
+      "explanation": "Strategic plans set long-term direction for the organization."
+    },
+    {
+      "prompt": "A first-line supervisor in a factory will rely most heavily on which skills compared with a CEO?",
+      "choices": [
+        "Financial skills",
+        "Strategic skills",
+        "Technical skills",
+        "Conceptual skills"
+      ],
+      "answerIndex": 2,
+      "explanation": "Technical skills matter most at the first-line level."
+    },
+    {
+      "prompt": "Writing 'For busy parents who need quick dinners, our brand is the meal kit that takes 15 minutes' is an example of:",
+      "choices": [
+        "A distribution strategy",
+        "A positioning statement",
+        "Market segmentation",
+        "A cash flow statement"
+      ],
+      "answerIndex": 1,
+      "explanation": "It defines how the product should be perceived by a target customer relative to alternatives."
+    },
+    {
+      "prompt": "A luxury brand that suddenly sells through discount stores risks:",
+      "choices": [
+        "Undermining its positioning because the marketing mix no longer fits",
+        "Improving quality",
+        "Increasing perceived exclusivity",
+        "Reducing competition"
+      ],
+      "answerIndex": 0,
+      "explanation": "The four Ps must be consistent with the brand's position."
+    },
+    {
+      "prompt": "Which equation must always balance?",
+      "choices": [
+        "Assets = Liabilities + Owners' Equity",
+        "Revenue = Expenses + Assets",
+        "Cash = Profit",
+        "Profit = Assets − Revenue"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is the accounting equation."
+    },
+    {
+      "prompt": "A business has total liabilities of $60,000 and owners' equity of $40,000. Its debt-to-equity ratio is:",
+      "choices": [
+        "20,000",
+        "1.5",
+        "0.67",
+        "100,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "$60,000 ÷ $40,000 = 1.5."
+    },
+    {
+      "prompt": "Which approach to operations focuses on eliminating activities that do not add value for customers?",
+      "choices": [
+        "Equity financing",
+        "Penetration pricing",
+        "Fixed-position layout",
+        "Lean"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lean operations target waste."
+    },
+    {
+      "prompt": "Two countries each gain by specializing in what they produce at the lowest opportunity cost and trading. This reflects:",
+      "choices": [
+        "Comparative advantage",
+        "A trade deficit",
+        "Greenwashing",
+        "A tariff"
+      ],
+      "answerIndex": 0,
+      "explanation": "Comparative advantage explains mutual gains from trade."
+    },
+    {
+      "prompt": "A firm allows a foreign company to make its product in exchange for royalties. This market-entry method is:",
+      "choices": [
+        "Foreign direct investment",
+        "Exporting",
+        "A joint venture",
+        "Licensing"
+      ],
+      "answerIndex": 3,
+      "explanation": "Licensing grants production rights for royalties."
+    }
+  ],
+  "generation": {
+    "model": "claude-code-seed",
+    "generatedAt": "2026-10-27T00:00:00.000Z"
+  }
 }
