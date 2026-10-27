@@ -37,7 +37,7 @@ cp .env.example .env.local   # add ANTHROPIC_API_KEY to enable the forge
 npm run dev                  # http://localhost:3000
 ```
 
-For production: `npm run build && npm start`. The SQLite database is created at `data/aiu.db` on first request and seeded from `src/content`.
+For production: `npm run build && npm start`. The SQLite database is created at `data/university.db` on first request and seeded from `src/content`.
 
 ## Adding to the catalogue
 

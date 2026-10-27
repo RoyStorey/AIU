@@ -103,12 +103,27 @@ export function slugify(text: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+/** Stamped into the file's user_version, so the University only ever opens databases it made. */
+const SCHEMA_VERSION = 1;
+
 function open(): Database.Database {
-  const file = resolve(process.env.AIU_DATABASE ?? "data/aiu.db");
+  const file = resolve(process.env.AIU_DATABASE ?? "data/university.db");
   mkdirSync(dirname(file), { recursive: true });
   const db = new Database(file);
   db.exec("PRAGMA journal_mode = WAL; PRAGMA foreign_keys = ON; PRAGMA busy_timeout = 5000;");
+
+  const version = db.pragma("user_version", { simple: true }) as number;
+  const { tables } = db.prepare("SELECT COUNT(*) AS tables FROM sqlite_master WHERE type = 'table'").get() as { tables: number };
+  if (version !== SCHEMA_VERSION && (version !== 0 || tables > 0)) {
+    db.close();
+    throw new Error(
+      `${file} was not created by this version of the University. ` +
+        "Move or delete it, or set AIU_DATABASE to a different path.",
+    );
+  }
+
   db.exec(SCHEMA);
+  db.pragma(`user_version = ${SCHEMA_VERSION}`);
   seed(db);
   abandonInterruptedWork(db);
   return db;
