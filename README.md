@@ -63,6 +63,6 @@ src/
     schema.ts     the course schema shared by authored and forged courses
 ```
 
-## Choosing the colors (temporary)
+## Appearance
 
-My Studies has an **Appearance** section with nine palettes to try. The choice is stored in a cookie and applies to every page. Once a palette is chosen, its colors can be copied into `:root` in `src/app/globals.css`, and `src/lib/themes.ts`, `src/components/ThemePicker.tsx`, and the picker's lines in `layout.tsx` and `study/page.tsx` removed.
+My Studies has an **Appearance** section with nine house palettes: Navy & Gold (the default, which follows the device's light or dark setting), Oxford Stone, Forest & Brass, Claret & Slate, Venetian Teal & Bronze, Ivory & Oxblood, Graphite & Silver, Midnight Library, and Reading Room. The choice is stored in a cookie and applies to every page. Palettes are defined in `src/lib/themes.ts`; the default lives in `:root` in `src/app/globals.css`.

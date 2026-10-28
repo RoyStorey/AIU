@@ -66,7 +66,7 @@ export default async function Study() {
       <section className="section" style={{ marginTop: "2rem" }}>
         <div className="section-head">
           <h2>Appearance</h2>
-          <span className="eyebrow">Temporary · for choosing the house colors</span>
+          <span className="eyebrow">Nine house palettes</span>
         </div>
         <p className="muted measure">Choose a palette to see the whole site in it. Your choice is remembered on this device.</p>
         <ThemePicker current={theme} />

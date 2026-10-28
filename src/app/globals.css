@@ -615,7 +615,7 @@ a.media-card:hover { border-color: var(--accent); color: var(--ink); }
 .report-next { margin-top: 1.25rem; padding-top: 0.25rem; border-top: 1px solid var(--rule); }
 .report-next p { margin: 0; font-style: italic; }
 
-/* ——— Theme picker (temporary) ——— */
+/* ——— Theme picker ——— */
 
 .themes { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); margin-top: 1.5rem; }
 .theme-option {
