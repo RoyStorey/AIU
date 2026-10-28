@@ -36,7 +36,33 @@ Hardy's poems do not sound like Tennyson's or Swinburne's. His language is often
 
 Hardy's characteristic mode is **irony**: the gap between what people expect and what happens, between human hopes and the indifference of the universe. He wrote whole collections called *Satires of Circumstance* (1914) and *Time's Laughingstocks* (1909). In "Ah, Are You Digging on My Grave?" a dead woman asks who is digging on her grave. Her lover, planting rue? He married another yesterday. Her family? They think flowers would do no good. Her enemy? She no longer thinks the dead woman worth her hate. At last it is her little dog—who, it turns out, is only burying a bone. The poem is grimly funny, and devastating.
 
-But Hardy's ironies are never cold. He believed that the only answer to an indifferent universe was human kindness, "loving-kindness," as he called it. And his poems are full of a longing for meaning that he could not believe in, but could not give up.`,
+But Hardy's ironies are never cold. He believed that the only answer to an indifferent universe was human kindness, "loving-kindness," as he called it. And his poems are full of a longing for meaning that he could not believe in, but could not give up.
+
+## "The Oxen"
+
+That longing is the subject of "The Oxen," published at Christmas 1915, in the second year of the war. It recalls an old country belief that at midnight on Christmas Eve the cattle kneel in their stalls in honor of Christ's birth:
+
+> Christmas Eve, and twelve of the clock.
+> "Now they are all on their knees,"
+> An elder said as we sat in a flock
+> By the embers in hearthside ease.
+>
+> We pictured the meek mild creatures where
+> They dwelt in their strawy pen,
+> Nor did it occur to one of us there
+> To doubt they were kneeling then.
+>
+> So fair a fancy few would weave
+> In these years! Yet, I feel,
+> If someone said on Christmas Eve,
+> "Come; see the oxen kneel,
+>
+> "In the lonely barton by yonder coomb
+> Our childhood used to know,"
+> I should go with him in the gloom,
+> Hoping it might be so.
+
+The first two stanzas remember childhood faith, when no one doubted. The third and fourth admit that no one now could believe such a "fancy"—and yet the old poet would go out into the dark to see, "Hoping it might be so." The last line holds everything: not faith, but the hope of faith, and the grief of having lost it. Hardy called himself "churchy," and it is poems like this that explain why.`,
     },
     {
       title: "\"The Darkling Thrush\" and \"The Convergence of the Twain\"",
