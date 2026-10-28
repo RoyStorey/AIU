@@ -860,3 +860,6 @@ code { font-size: 0.9em; background: var(--paper-sunk); padding: 0.05em 0.3em; b
 .resume { border: 1px solid var(--rule); background: var(--paper-raised); padding: 1rem 1.25rem; margin-bottom: 2rem; }
 .resume ul { list-style: none; margin: 0; padding: 0; }
 .resume li { margin: 0.35rem 0; }
+.roll-bio { font-size: 0.95rem; margin-top: 0.3rem; }
+.rose-card h4 .demo-tag { font-family: var(--serif); }
+.rose-link { flex: none; display: block; }

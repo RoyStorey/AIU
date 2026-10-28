@@ -48,7 +48,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </Link>
             <nav className="nav" aria-label="Primary">
               <Link href="/faculties">Faculties</Link>
-              <Link href="/students" className="nav-optional">Students</Link>
               {user ? (
                 <>
                   <Link href="/study" className="nav-strong">My Studies</Link>

@@ -33,8 +33,8 @@ Every concentration ends in a **capstone**: a substantial piece of work set by t
 ## Profiles and common rooms
 
 - **Profiles** (`/students/[id]`) show a student's standing in every concentration as a set of **rose windows**: one ring per concentration, one pane per course, each pane filling as lessons are completed, with a ring at the center for an Expert and a gold star for a Master. Below them are the student's capstones, six months of study activity, and their posts. A transcript table gives the same figures in text. Students may keep their profile private.
-- The **Students** page lists everyone with a public profile, Masters first.
-- Each concentration has a **Common Room**: its Hall of Masters, a roster of members by standing, and threads of discussion open to any signed-in student.
+- Each concentration has a **Students** tab listing everyone studying it who keeps a public profile—Masters, then Experts, then those still working through the program—each with their rose window for that concentration. There is no academy-wide directory: students meet one another within the concentration they share.
+- Each concentration also has a **Common Room**: its Hall of Masters and threads of discussion open to any signed-in student.
 
 ## Comments & Corrections
 
@@ -100,7 +100,7 @@ src/
     capstone.ts   capstone briefs, submissions, and the Hall of Masters
     corrections.ts  comments and corrections on lessons
     community.ts  common-room threads and rosters
-    people.ts     profiles and the students directory
+    people.ts     profiles and each concentration's students
     books.ts      finding copies of books (Open Library)
     notes.ts      the commonplace book
     forge.ts      Claude: research, drafting, link verification

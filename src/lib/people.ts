@@ -1,7 +1,7 @@
 import "server-only";
 import { db } from "@/lib/db";
 import type { User } from "@/lib/auth";
-import { standings, type Level } from "@/lib/progress";
+import { standing, type Standing } from "@/lib/progress";
 
 /** A student as others see them: never their email. */
 export type Student = {
@@ -41,17 +41,24 @@ export function isFaculty(user: User | null): boolean {
   return emails.includes(user.email.toLowerCase());
 }
 
-export type DirectoryEntry = Student & { masters: string[]; experts: string[]; studying: number };
-
-/** The public roll of students, Masters first. */
-export function directory(): DirectoryEntry[] {
-  const rows = db.prepare(`SELECT ${COLUMNS} FROM users WHERE visibility = 'public' ORDER BY name`).all().map(toStudent);
-  const count = (level: Level, list: ReturnType<typeof standings>) =>
-    list.filter((s) => s.level === level).map((s) => s.concentration.name);
+/**
+ * The students of one concentration who keep a public profile: everyone who has
+ * declared it, begun its courses, or passed its capstone, with their standing,
+ * Masters first.
+ */
+export function studentsOf(concentrationId: number): (Student & { standing: Standing })[] {
+  const rows = db.prepare(`
+    SELECT ${COLUMNS} FROM users WHERE visibility = 'public' AND id IN (
+      SELECT user_id FROM enrollments WHERE concentration_id = ?
+      UNION SELECT p.user_id FROM lesson_progress p JOIN courses k ON k.id = p.course_id WHERE k.concentration_id = ?
+      UNION SELECT user_id FROM capstones WHERE concentration_id = ? AND passed = 1
+    )
+  `).all(concentrationId, concentrationId, concentrationId).map(toStudent);
+  const rank = { master: 0, expert: 1, student: 2 } as const;
   return rows
-    .map((student) => {
-      const list = standings(student.id);
-      return { ...student, masters: count("master", list), experts: count("expert", list), studying: list.length };
-    })
-    .sort((a, b) => b.masters.length - a.masters.length || b.experts.length - a.experts.length || a.name.localeCompare(b.name));
+    .map((student) => ({ ...student, standing: standing(student.id, concentrationId)! }))
+    .sort((a, b) =>
+      rank[a.standing.level] - rank[b.standing.level]
+      || b.standing.lessonsDone - a.standing.lessonsDone
+      || a.name.localeCompare(b.name));
 }

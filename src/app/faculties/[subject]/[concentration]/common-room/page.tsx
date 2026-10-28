@@ -7,8 +7,9 @@ import { StudentName } from "@/components/Standing";
 import { currentUser } from "@/lib/auth";
 import { mastersOf } from "@/lib/capstone";
 import { getConcentration, getSubject } from "@/lib/catalogue";
-import { members, threads } from "@/lib/community";
-import { isEnrolled, standing } from "@/lib/progress";
+import { threads } from "@/lib/community";
+import { studentsOf } from "@/lib/people";
+import { isEnrolled } from "@/lib/progress";
 
 type Params = { params: Promise<{ subject: string; concentration: string }> };
 
@@ -30,7 +31,7 @@ export default async function CommonRoom({ params }: Params) {
   const user = await currentUser();
   const base = `/faculties/${subject.slug}/${concentration.slug}`;
   const masters = mastersOf(concentration.id);
-  const roster = members(concentration.id).map((m) => ({ ...m, standing: standing(m.id, concentration.id)! }));
+  const roster = studentsOf(concentration.id);
   const list = threads(concentration.id);
   const levelOf = new Map(roster.map((m) => [m.id, m.standing]));
   const enrolled = user ? isEnrolled(user.id, concentration.id) : false;
@@ -110,31 +111,9 @@ export default async function CommonRoom({ params }: Params) {
             <span className="eyebrow">Members</span>
             <div className="figure-big">{roster.length}</div>
             <p className="muted">{masters.length} {masters.length === 1 ? "Master" : "Masters"} · {experts.length} {experts.length === 1 ? "Expert" : "Experts"} · {studying.length} studying</p>
+            <p><Link href={`${base}/students`}>See them all →</Link></p>
           </div>
-          {experts.length > 0 && (
-            <div className="aside-block">
-              <h3>Experts</h3>
-              <ul className="members">
-                {experts.map((m) => (
-                  <li key={m.id}><StudentName id={m.id} name={m.name} level="expert" concentration={concentration.name} demo={m.demo} /></li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {studying.length > 0 && (
-            <div className="aside-block">
-              <h3>Studying</h3>
-              <ul className="members">
-                {studying.map((m) => (
-                  <li key={m.id}>
-                    <StudentName id={m.id} name={m.name} demo={m.demo} />
-                    <span className="muted"> · {m.standing.coreDone} of {m.standing.core.length} courses</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-          <p className="muted side-note">Only students with public profiles are listed.</p>
+
         </aside>
       </div>
     </div>

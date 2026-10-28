@@ -1,9 +1,9 @@
 import Link from "next/link";
 import type { Concentration, Subject } from "@/lib/catalogue";
 
-export type ConcentrationTab = "program" | "capstone" | "common-room";
+export type ConcentrationTab = "program" | "capstone" | "students" | "common-room";
 
-/** The heading and tabs shared by a concentration's program, capstone, and common room. */
+/** The heading and tabs shared by a concentration's program, capstone, students, and common room. */
 export function ConcentrationHeader({ subject, concentration, active, title, lede, children }: {
   subject: Subject;
   concentration: Concentration;
@@ -36,8 +36,9 @@ export function ConcentrationHeader({ subject, concentration, active, title, led
       </header>
       {concentration.status === "ready" && (
         <nav className="tabs" aria-label="Concentration">
-          {tab("program", base, "Program of Study")}
+          {tab("program", base, "Program")}
           {tab("capstone", `${base}/capstone`, "Capstone")}
+          {tab("students", `${base}/students`, "Students")}
           {tab("common-room", `${base}/common-room`, "Common Room")}
         </nav>
       )}

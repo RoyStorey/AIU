@@ -6,12 +6,12 @@ import { ConcentrationHeader } from "@/components/ConcentrationHeader";
 import { Submit } from "@/components/Forms";
 import { Seal, StudentName } from "@/components/Standing";
 import { capstoneFor, mastersOf } from "@/lib/capstone";
-import { members } from "@/lib/community";
 import { Preparing } from "@/components/Preparing";
 import { AutoRefresh } from "@/components/AutoRefresh";
 import { currentUser } from "@/lib/auth";
 import { getConcentration, getSubject } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
+import { studentsOf } from "@/lib/people";
 import { continuationStatus, isEnrolled, programStanding, standing, type CourseStanding } from "@/lib/progress";
 import { stageName, toRoman } from "@/lib/schema";
 
@@ -52,7 +52,7 @@ export default async function ProgramPage({ params }: Params) {
   const ready = concentration.status === "ready";
   const capstone = ready ? capstoneFor(concentration) : null;
   const masters = ready ? mastersOf(concentration.id) : [];
-  const memberCount = ready ? members(concentration.id).length : 0;
+  const memberCount = ready ? studentsOf(concentration.id).length : 0;
 
   return (
     <div className="wrap">
@@ -175,7 +175,7 @@ export default async function ProgramPage({ params }: Params) {
               <div className="aside-block">
                 <span className="eyebrow">The common room</span>
                 <p style={{ marginTop: "0.25rem" }}>
-                  {memberCount} {memberCount === 1 ? "student has" : "students have"} declared this concentration
+                  <Link href={`${base}/students`}>{memberCount} {memberCount === 1 ? "student is" : "students are"} studying {concentration.name}</Link>
                   {masters.length > 0 && <>; {masters.length} {masters.length === 1 ? "is a Master" : "are Masters"}</>}.
                 </p>
                 {masters.length > 0 && (

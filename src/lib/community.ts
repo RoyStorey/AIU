@@ -69,13 +69,3 @@ export function postsBy(userId: number, limit = 5): (Post & { concentration: str
     WHERE p.user_id = ? ORDER BY p.id DESC LIMIT ?
   `).all(userId, limit) as (Post & { concentration: string; subject_slug: string; slug: string; thread_id: number; thread_title: string })[];
 }
-
-export type Member = { id: number; name: string; demo: boolean; declared_at: string };
-
-/** Students who have declared a concentration and keep a public profile. */
-export function members(concentrationId: number): Member[] {
-  return (db.prepare(`
-    SELECT u.id, u.name, u.demo, e.declared_at FROM enrollments e JOIN users u ON u.id = e.user_id
-    WHERE e.concentration_id = ? AND u.visibility = 'public' ORDER BY e.declared_at
-  `).all(concentrationId) as (Omit<Member, "demo"> & { demo: number })[]).map((m) => ({ ...m, demo: m.demo === 1 }));
-}
