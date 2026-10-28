@@ -1,7 +1,7 @@
 /**
- * The house palettes a student can choose from My Studies. Each theme supplies every color token in globals.css; the default
- * theme is the one in globals.css itself (navy and gold, following the system's
- * light or dark setting).
+ * The house palettes a student can choose from My Studies. Each theme supplies
+ * every color token in globals.css; the default theme is the one in globals.css
+ * itself (navy and gold, following the system's light or dark setting).
  */
 
 export const THEME_COOKIE = "cornerstone-theme";
