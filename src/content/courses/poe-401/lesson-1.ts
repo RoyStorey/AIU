@@ -27,7 +27,7 @@ Running through all of these are three questions that you have met, in passing, 
 - **What is it for?** Is it for pleasure, for teaching, for moral improvement, for knowledge, for consolation, for political change, for nothing at all?
 - **How should we read it?** Should we attend to the poet's life and intentions, the poem's historical moment, its effect on readers, or only the words on the page?
 
-Critics have answered these questions differently in every age, and their answers have shaped how poets wrote. Wordsworth's *Preface* changed what poems looked like; Eliot's essays changed what poets read. The theory of poetry is not separate from its practice. Many of the greatest critics in this course—Sidney, Dryden, Pope, Johnson, Wordsworth, Coleridge, Shelley, Arnold, Eliot—were themselves poets, writing partly to explain and defend what they were doing.
+Critics have answered these questions differently in every age, and their answers have shaped how poets wrote. Wordsworth's *Preface* changed what poems looked like; Eliot's essays changed what poets read. The theory of poetry is not separate from its practice. Many of the greatest critics in this course—Sidney, Dryden, Pope, Johnson, Wordsworth, Coleridge, Shelley, Arnold, Eliot—were themselves poets, writing partly to explain and defend what they were doing, and partly to clear a space for the poetry they wanted to write.
 
 ## How to read criticism
 
@@ -67,7 +67,7 @@ The *Ion* introduces an idea that has never left the theory of poetry: the poet 
 
 ## Inspiration and craft
 
-Notice the tension the dialogue sets up, between **inspiration** and **craft** (the Greek word is *technē*, art or skill). Is a poem something that comes to the poet, or something the poet makes? Most poets would say: both. Keats wrote that "if Poetry comes not as naturally as the Leaves to a tree it had better not come at all"; but he revised constantly. Yeats, in "Adam's Curse," insisted that a line might take hours, "Yet if it does not seem a moment's thought, / Our stitching and unstitching has been naught." The argument between the two views runs through this whole course, and you should decide where you stand. Notice, too, that Socrates never asks Ion what Homer's poems mean, or whether they are true; he asks only what kind of knowledge their performer has. The question of poetry's truth, and of its effect on those who hear it, is postponed to the *Republic*.`,
+Notice the tension the dialogue sets up, between **inspiration** and **craft** (the Greek word is *technē*, art or skill). Is a poem something that comes to the poet, or something the poet makes? Most poets would say: both. Keats wrote that "if Poetry comes not as naturally as the Leaves to a tree it had better not come at all"; but he revised constantly. Yeats, in "Adam's Curse," insisted that a line might take hours, "Yet if it does not seem a moment's thought, / Our stitching and unstitching has been naught." The argument between the two views runs through this whole course, and you should decide where you stand. Notice, too, that Socrates never asks Ion what Homer's poems mean, or whether they are true; he asks only what kind of knowledge their performer has. The question of poetry's truth, and of its effect on those who hear it, is postponed to the *Republic*, Plato's greatest dialogue.`,
     },
     {
       title: "Madness and Beauty: The Phaedrus and the Symposium",
