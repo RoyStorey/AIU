@@ -58,7 +58,7 @@ export const catalogue: SeedSubject[] = [
             ["Lyrical Ballads — Wordsworth and Coleridge", "Songs of Innocence and of Experience — William Blake", "Complete Poems — John Keats", "The Prelude (1805) — William Wordsworth"]),
           course("POE 220", "The Epic Tradition", 2,
             "Homer, Virgil, Dante, and Milton: the long poem that tries to hold a whole civilization.",
-            ["The Iliad — Homer, trans. Richmond Lattimore", "The Aeneid — Virgil, trans. Robert Fagles", "Paradise Lost — John Milton"]),
+            ["The Iliad — Homer, trans. Richmond Lattimore", "The Odyssey — Homer, trans. Emily Wilson", "The Aeneid — Virgil, trans. Robert Fagles", "The Divine Comedy — Dante, trans. Allen Mandelbaum", "Paradise Lost — John Milton"]),
           course("POE 301", "Victorian and Modern Poetry", 3,
             "Tennyson and Hopkins to Yeats, Eliot, and Stevens: faith, doubt, and the breaking of the pentameter.",
             ["In Memoriam A.H.H. — Alfred, Lord Tennyson", "Poems — Gerard Manley Hopkins", "The Collected Poems — W. B. Yeats", "The Waste Land — T. S. Eliot"]),

@@ -10,6 +10,7 @@ import { poe101 } from "./poe-101";
 import { poe110 } from "./poe-110";
 import { poe201 } from "./poe-201";
 import { poe210 } from "./poe-210";
+import { poe220 } from "./poe-220";
 
 /** Courses written by hand, keyed by course code. They take precedence over the forge. */
 export const authoredCourses: Record<string, CourseContent> = {
@@ -24,4 +25,5 @@ export const authoredCourses: Record<string, CourseContent> = {
   "POE 110": poe110,
   "POE 201": poe201,
   "POE 210": poe210,
+  "POE 220": poe220,
 };
