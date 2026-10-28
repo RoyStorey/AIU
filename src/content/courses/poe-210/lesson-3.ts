@@ -184,6 +184,47 @@ Is the moral adequate to the poem? Many readers have felt that it is too simple,
 The moral is true as far as it goes: the Mariner's crime was a failure of love, and his redemption came through love. But the poem's power lies elsewhere: in its images of isolation, guilt, and the sudden, unwilled gift of grace; in its sense that the universe is full of spirits and powers beyond human understanding; and in the figure of the Mariner himself, saved but never at peace, compelled to tell his tale forever. He is one of the great images of the outcast in literature—and, many readers have felt, an image of Coleridge himself.`,
     },
     {
+      title: "\"Christabel\" and the Gothic",
+      body: `## An unfinished nightmare
+
+Coleridge's third great poem of the supernatural, "Christabel," was begun in 1797, continued in 1800, and never finished. It was published in 1816, in the same small volume as "Kubla Khan," again at Byron's urging. Even incomplete, it was enormously influential: Walter Scott had heard it recited years before and borrowed its meter for his own verse romances, and Byron imitated it.
+
+The poem belongs to the **Gothic** mode that was immensely popular in the 1790s. Gothic novels—Horace Walpole's *The Castle of Otranto* (1764), Ann Radcliffe's *The Mysteries of Udolpho* (1794), Matthew Lewis's *The Monk* (1796)—featured haunted castles, persecuted maidens, ghosts, villains, and the supernatural, in an atmosphere of terror and suspense. The Romantic poets drew on this mode, but transformed it from a source of cheap thrills into a means of exploring the dark places of the mind.
+
+## The story
+
+It is midnight in the castle of Sir Leoline:
+
+> 'Tis the middle of night by the castle clock,
+> And the owls have awakened the crowing cock;
+> Tu—whit!——Tu—whoo!
+> And hark, again! the crowing cock,
+> How drowsily it crew.
+
+His daughter, the pure and pious Christabel, has gone into the woods at night to pray for her absent lover. Beneath a great oak she finds a beautiful lady in white, Geraldine, who says she was kidnapped by warriors and abandoned there. Christabel takes her home. As they enter the castle, strange things happen: Geraldine must be lifted over the threshold, as if unable to cross it herself (a sign, in folklore, of an evil spirit); the dog moans in its sleep; the dying fire flares up when she passes. In Christabel's room, Geraldine undresses, and Christabel sees something terrible on her body—something the poem refuses to describe:
+
+> Behold! her bosom and half her side—
+> A sight to dream of, not to tell!
+
+Geraldine takes Christabel in her arms, and casts a spell that prevents her from speaking of what she has seen. In the second part, Geraldine charms Christabel's father, who takes her side against his daughter. Christabel, under the spell, can only hiss like a snake. The poem breaks off there.
+
+## A poem of the unspeakable
+
+What is Geraldine? A witch, a vampire, a lamia (a serpent-woman), a demon? The poem never says. What did Christabel see? We are never told. What would have happened next? Coleridge claimed in later years to have had the whole story in his mind, but different friends reported different endings. The poem's power lies precisely in what it withholds. "A sight to dream of, not to tell!" could be its motto. It is a poem about the unspeakable: about evil, sexuality, and the corruption of innocence, presented in images so suggestive and so incomplete that readers have never stopped arguing about them.
+
+Modern critics have read it in many ways: as a story of the corruption of innocence; as an exploration of sexual desire, perhaps between women; as a psychological drama of a daughter's relationship with her father; or as an allegory of Coleridge's own sense of being possessed by forces he could not name or control.
+
+## A new meter
+
+Coleridge prefaced the poem with a note on its meter that has become a landmark in the history of English prosody. The meter, he said, "is not, properly speaking, irregular, though it may seem so from its being founded on a new principle: namely, that of counting in each line the accents, not the syllables." Each line has four stresses, but the number of syllables varies from seven to twelve, according to "some transition in the nature of the imagery or passion."
+
+As you learned in POE 101, this was not really new: it is the accentual principle of Old English verse and the old ballads. But Coleridge's deliberate revival of it, against the strict syllable-counting of eighteenth-century verse, opened the way to the freer rhythms of the nineteenth century, including Hopkins's sprung rhythm. Read the opening lines aloud and count the stresses: four in each long line, however many syllables surround them.
+
+## Three poems of the supernatural
+
+*The Rime of the Ancient Mariner*, "Christabel," and "Kubla Khan" together form Coleridge's great achievement as a poet of the supernatural. All three are haunted by guilt, isolation, and forces beyond human control; all three use the supernatural not to thrill but to explore the depths of the mind. And all three, in different ways, are incomplete: the Mariner's tale must be told again and again, "Christabel" breaks off, and "Kubla Khan" is a lost vision. Coleridge's genius seems to have worked best at the edges of what could be said.`,
+    },
+    {
       title: "\"Kubla Khan\"",
       body: `## A vision in a dream
 
