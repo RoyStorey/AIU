@@ -443,7 +443,8 @@ a.card:hover h3 { color: var(--accent); }
 .objectives li::before { content: counter(obj, lower-roman) "."; color: var(--gold); font-family: var(--display); font-size: 1.1rem; }
 
 .syllabus { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--rule-strong); }
-.syllabus a {
+.syllabus a,
+.syllabus .planned > summary {
   display: grid;
   grid-template-columns: 3.25rem minmax(0, 1fr) auto;
   gap: 1rem;
@@ -454,6 +455,19 @@ a.card:hover h3 { color: var(--accent); }
   color: var(--ink);
 }
 .syllabus a:hover h3 { color: var(--accent); }
+.syllabus .planned > summary { cursor: pointer; list-style: none; }
+.syllabus .planned > summary::-webkit-details-marker { display: none; }
+.syllabus .planned > summary h3 { color: var(--ink-soft); }
+.syllabus .planned > summary:hover h3 { color: var(--accent); }
+.syllabus .planned .numeral { opacity: 0.6; }
+.syllabus .plan { padding: 0.25rem 0 1.25rem 4.25rem; border-bottom: 1px solid var(--rule); }
+.syllabus .plan ol { list-style: none; margin: 0 0 0.75rem; padding: 0; }
+.syllabus .plan ol li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: baseline; padding: 0.6rem 0; border-bottom: 1px dotted var(--rule); }
+.syllabus .plan h4 { font-family: var(--serif); font-size: 1.08rem; font-weight: 500; }
+.syllabus .plan > h4 { margin: 1rem 0 0.35rem; font-variant-caps: all-small-caps; letter-spacing: 0.1em; color: var(--muted); }
+.syllabus .plan p { font-size: 0.98rem; }
+.syllabus .plan ul { margin: 0; padding-left: 1.1rem; font-size: 0.98rem; color: var(--ink-soft); }
+@media (max-width: 34rem) { .syllabus .plan { padding-left: 0; } }
 .syllabus .numeral { font-family: var(--display); color: var(--gold); font-size: 1.3rem; }
 .syllabus h3 { font-size: 1.4rem; transition: color 0.15s ease; }
 .syllabus p { margin: 0.25rem 0 0; color: var(--ink-soft); font-size: 1.03rem; }

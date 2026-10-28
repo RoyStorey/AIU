@@ -20,10 +20,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 }
 
 function Standing({ course, enrolled }: { course: CourseStanding; enrolled: boolean }) {
+  const total = course.lessons + course.planned;
   if (course.status === "drafting") return <span className="mark progress">Being prepared</span>;
-  if (!enrolled) return <span className="mark pending">{course.lessons ? `${course.lessons} lessons` : "Outline"}</span>;
+  if (!enrolled) return <span className="mark pending">{total ? `${total} lessons` : "Outline"}</span>;
   if (course.done) return <span className="mark done">Completed</span>;
-  if (course.completed > 0) return <span className="mark progress">{course.completed} of {course.lessons} lessons</span>;
+  if (course.completed > 0) return <span className="mark progress">{course.completed} of {total} lessons</span>;
   return <span className="mark pending">Not begun</span>;
 }
 

@@ -37,6 +37,8 @@ export type Course = {
   status: Status;
   error: string | null;
   lessons: number;
+  /** Lessons planned in outline but not yet written. */
+  planned: number;
 };
 
 export type CourseWithContent = Course & {
@@ -47,7 +49,8 @@ export type CourseWithContent = Course & {
 
 const COURSE_COLUMNS = `
   id, concentration_id, code, title, stage, position, summary, texts, status, error,
-  COALESCE(json_array_length(content, '$.lessons'), 0) AS lessons
+  COALESCE(json_array_length(content, '$.lessons'), 0) AS lessons,
+  COALESCE(json_array_length(content, '$.forthcoming'), 0) AS planned
 `;
 
 /** A course as stored: its core texts and content are JSON strings. */

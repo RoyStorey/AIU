@@ -53,6 +53,22 @@ export const Lesson = z.object({
   reflection: z.string().optional(),
 });
 
+/**
+ * A lesson planned but not yet written: the titles of its pages, what each will
+ * cover, and how long each should take. A course may carry these after its
+ * written lessons, so students can see the whole course before it is finished.
+ */
+export const PlannedLesson = z.object({
+  title: z.string(),
+  summary: z.string(),
+  pages: z.array(z.object({
+    title: z.string(),
+    summary: z.string(),
+    minutes: z.number().int(),
+  })).min(1),
+  readings: z.array(Resource).optional(),
+});
+
 export const LibrarySection = z.object({
   heading: z.string(),
   items: z.array(Resource),
@@ -62,6 +78,7 @@ export const CourseContent = z.object({
   overview: z.string(),
   objectives: z.array(z.string()),
   lessons: z.array(Lesson).min(1),
+  forthcoming: z.array(PlannedLesson).optional(),
   library: z.array(LibrarySection),
 });
 
@@ -69,6 +86,7 @@ export type Resource = z.infer<typeof Resource>;
 export type Question = z.infer<typeof Question>;
 export type Page = z.infer<typeof Page>;
 export type Lesson = z.infer<typeof Lesson>;
+export type PlannedLesson = z.infer<typeof PlannedLesson>;
 export type LibrarySection = z.infer<typeof LibrarySection>;
 export type CourseContent = z.infer<typeof CourseContent>;
 

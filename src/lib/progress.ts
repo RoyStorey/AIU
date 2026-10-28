@@ -53,7 +53,8 @@ export function programStanding(userId: number | null, concentrationId: number):
   }
   return courses.map((course) => {
     const completed = Math.min(counts.get(course.id) ?? 0, course.lessons);
-    return { ...course, completed, done: course.lessons > 0 && completed >= course.lessons };
+    const done = course.lessons > 0 && course.planned === 0 && completed >= course.lessons;
+    return { ...course, completed, done };
   });
 }
 

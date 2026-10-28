@@ -10,8 +10,8 @@ import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { lessonScores } from "@/lib/progress";
-import { toRoman } from "@/lib/schema";
-import { formatMinutes, lessonMinutes } from "@/lib/timing";
+import { toRoman, type PlannedLesson } from "@/lib/schema";
+import { formatMinutes, lessonMinutes, plannedMinutes } from "@/lib/timing";
 
 type Params = { params: Promise<{ id: string }> };
 
@@ -75,6 +75,50 @@ function Outline({ course, signedIn }: { course: NonNullable<ReturnType<typeof g
   );
 }
 
+/** A lesson the faculty has planned but not yet written, opened to show its plan. */
+function Planned({ lesson, numeral }: { lesson: PlannedLesson; numeral: string }) {
+  return (
+    <li>
+      <details className="planned">
+        <summary>
+          <span className="numeral">{numeral}</span>
+          <div>
+            <h3>{lesson.title}</h3>
+            <p>{lesson.summary}</p>
+          </div>
+          <span className="mark pending">In preparation</span>
+        </summary>
+        <div className="plan">
+          <ol>
+            {lesson.pages.map((page) => (
+              <li key={page.title}>
+                <div>
+                  <h4>{page.title}</h4>
+                  <p>{page.summary}</p>
+                </div>
+                <span className="mark pending">{formatMinutes(page.minutes)}</span>
+              </li>
+            ))}
+          </ol>
+          <p className="muted">
+            Followed by a knowledge check and a written exercise. About {formatMinutes(plannedMinutes(lesson))} in all.
+          </p>
+          {lesson.readings && lesson.readings.length > 0 && (
+            <>
+              <h4>Readings</h4>
+              <ul>
+                {lesson.readings.map((r) => (
+                  <li key={r.title}><em>{r.title}</em>{r.author && <>, {r.author}</>}{r.note && <span className="muted"> — {r.note}</span>}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </div>
+      </details>
+    </li>
+  );
+}
+
 export default async function CoursePage({ params }: Params) {
   const course = getCourse((await params).id);
   if (!course) notFound();
@@ -92,6 +136,10 @@ export default async function CoursePage({ params }: Params) {
   const { content } = course;
   const scores = user ? lessonScores(user.id, course.id) : new Map<number, number>();
   const next = content.lessons.findIndex((_, i) => !scores.has(i));
+  const forthcoming = content.forthcoming ?? [];
+  const total = content.lessons.length + forthcoming.length;
+  const minutes = content.lessons.reduce((sum, l) => sum + lessonMinutes(l), 0)
+    + forthcoming.reduce((sum, l) => sum + plannedMinutes(l), 0);
 
   return (
     <div className="wrap">
@@ -121,6 +169,9 @@ export default async function CoursePage({ params }: Params) {
                 </Link>
               </li>
             ))}
+            {forthcoming.map((lesson, i) => (
+              <Planned key={i} lesson={lesson} numeral={toRoman(content.lessons.length + i + 1)} />
+            ))}
           </ol>
         </div>
 
@@ -128,17 +179,25 @@ export default async function CoursePage({ params }: Params) {
           <div className="aside-block">
             <span className="eyebrow">Length</span>
             <p style={{ margin: "0.25rem 0 1.25rem" }}>
-              About {formatMinutes(content.lessons.reduce((sum, l) => sum + lessonMinutes(l), 0))} of study in{" "}
-              {content.lessons.length} lessons, with further readings and recordings on the reference shelf.
+              About {formatMinutes(minutes)} of study in {total} lessons, with further readings and recordings on the
+              reference shelf.
             </p>
+            {forthcoming.length > 0 && (
+              <p className="muted" style={{ margin: "-0.75rem 0 1.25rem" }}>
+                {content.lessons.length === 1 ? "The first lesson is" : `The first ${content.lessons.length} lessons are`} written;
+                the rest are planned in outline and still in preparation.
+              </p>
+            )}
             <span className="eyebrow">Progress</span>
             <div className="figure-big">
-              {scores.size} <span className="muted" style={{ fontSize: "1.3rem" }}>of {content.lessons.length} lessons</span>
+              {scores.size} <span className="muted" style={{ fontSize: "1.3rem" }}>of {total} lessons</span>
             </div>
-            <div className="meter"><span style={{ width: `${(scores.size / content.lessons.length) * 100}%` }} /></div>
+            <div className="meter"><span style={{ width: `${(scores.size / total) * 100}%` }} /></div>
             <div style={{ marginTop: "1.25rem" }}>
               {next === -1 ? (
-                <p className="mark done">Course completed</p>
+                <p className={`mark ${forthcoming.length ? "progress" : "done"}`}>
+                  {forthcoming.length ? "Written lessons completed" : "Course completed"}
+                </p>
               ) : (
                 <Link className="button" href={`/courses/${course.id}/lessons/${next + 1}`}>
                   {scores.size === 0 ? "Begin the first lesson" : "Continue"}

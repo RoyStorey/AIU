@@ -1,4 +1,4 @@
-import type { Lesson, Page } from "@/lib/schema";
+import type { Lesson, Page, PlannedLesson } from "@/lib/schema";
 
 /**
  * How long study takes. Reading times assume careful reading of dense prose;
@@ -8,6 +8,8 @@ import type { Lesson, Page } from "@/lib/schema";
 export const WORDS_PER_MINUTE = 175;
 export const MINUTES_PER_QUESTION = 1.5;
 export const EXERCISE_MINUTES = 30;
+/** A planned lesson is assumed to end, like a written one, with ten questions and an exercise. */
+export const PLANNED_QUESTIONS = 10;
 
 const words = (text: string) => text.split(/\s+/).filter(Boolean).length;
 const toFive = (minutes: number) => Math.max(5, Math.round(minutes / 5) * 5);
@@ -26,6 +28,10 @@ export function exerciseMinutes(lesson: Lesson): number {
 
 export function lessonMinutes(lesson: Lesson): number {
   return lesson.pages.reduce((sum, p) => sum + pageMinutes(p), 0) + checkMinutes(lesson) + exerciseMinutes(lesson);
+}
+
+export function plannedMinutes(lesson: PlannedLesson): number {
+  return lesson.pages.reduce((sum, p) => sum + p.minutes, 0) + toFive(PLANNED_QUESTIONS * MINUTES_PER_QUESTION) + EXERCISE_MINUTES;
 }
 
 export function formatMinutes(minutes: number): string {

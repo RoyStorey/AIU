@@ -71,8 +71,9 @@ export function LessonShell({ course, index, step, completed, children }: {
   completed: boolean;
   children: React.ReactNode;
 }) {
-  const lessons = course.content!.lessons;
+  const { lessons, forthcoming = [] } = course.content!;
   const lesson = lessons[index];
+  const of = toRoman(lessons.length + forthcoming.length);
   const { subject, concentration } = course;
 
   return (
@@ -95,9 +96,9 @@ export function LessonShell({ course, index, step, completed, children }: {
       <header className="lesson-head measure">
         <p className="eyebrow">
           {step.kind === "overview" ? (
-            <>Lesson {toRoman(index + 1)} of {toRoman(lessons.length)}</>
+            <>Lesson {toRoman(index + 1)} of {of}</>
           ) : (
-            <Link href={lessonHref(course.id, index)}>Lesson {toRoman(index + 1)} of {toRoman(lessons.length)}</Link>
+            <Link href={lessonHref(course.id, index)}>Lesson {toRoman(index + 1)} of {of}</Link>
           )}
           <span className="muted"> · about {formatMinutes(lessonMinutes(lesson))}</span>
           {completed && <span className="mark done" style={{ marginLeft: "1rem" }}>Completed</span>}
