@@ -27,7 +27,7 @@ Running through all of these are three questions that you have met, in passing, 
 - **What is it for?** Is it for pleasure, for teaching, for moral improvement, for knowledge, for consolation, for political change, for nothing at all?
 - **How should we read it?** Should we attend to the poet's life and intentions, the poem's historical moment, its effect on readers, or only the words on the page?
 
-Critics have answered these questions differently in every age, and their answers have shaped how poets wrote. Wordsworth's *Preface* changed what poems looked like; Eliot's essays changed what poets read. The theory of poetry is not separate from its practice.
+Critics have answered these questions differently in every age, and their answers have shaped how poets wrote. Wordsworth's *Preface* changed what poems looked like; Eliot's essays changed what poets read. The theory of poetry is not separate from its practice. Many of the greatest critics in this course—Sidney, Dryden, Pope, Johnson, Wordsworth, Coleridge, Shelley, Arnold, Eliot—were themselves poets, writing partly to explain and defend what they were doing.
 
 ## How to read criticism
 
