@@ -60,7 +60,7 @@ export const catalogue: SeedSubject[] = [
             "Homer, Virgil, Dante, and Milton: the long poem that tries to hold a whole civilization.",
             ["The Iliad — Homer, trans. Richmond Lattimore", "The Odyssey — Homer, trans. Emily Wilson", "The Aeneid — Virgil, trans. Robert Fagles", "The Divine Comedy — Dante, trans. Allen Mandelbaum", "Paradise Lost — John Milton"]),
           course("POE 301", "Victorian and Modern Poetry", 3,
-            "Tennyson and Hopkins to Yeats, Eliot, and Stevens: faith, doubt, and the breaking of the pentameter.",
+            "Tennyson and Hopkins to Hardy, the war poets, Yeats, and Eliot: faith, doubt, and the breaking of the pentameter.",
             ["In Memoriam A.H.H. — Alfred, Lord Tennyson", "Poems — Gerard Manley Hopkins", "The Collected Poems — W. B. Yeats", "The Waste Land — T. S. Eliot"]),
           course("POE 310", "American Poetry: Whitman to the Present", 3,
             "The two great originals, Whitman and Dickinson, and the American poets who descend from them.",
