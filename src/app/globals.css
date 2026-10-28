@@ -863,3 +863,7 @@ code { font-size: 0.9em; background: var(--paper-sunk); padding: 0.05em 0.3em; b
 .roll-bio { font-size: 0.95rem; margin-top: 0.3rem; }
 .rose-card h4 .demo-tag { font-family: var(--serif); }
 .rose-link { flex: none; display: block; }
+@media (max-width: 30rem) {
+  .tabs { gap: 1.1rem; }
+  .tabs a { letter-spacing: 0.06em; font-size: 0.98rem; }
+}
