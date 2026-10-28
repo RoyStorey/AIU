@@ -229,7 +229,7 @@ Hopkins believed that every created thing had its own distinctive being, which h
 > It gathers to a greatness, like the ooze of oil
 > Crushed. Why do men then now not reck his rod?
 
-Listen to "gathers to a greatness," with its *g* alliteration and the build-up of the vowels. Listen to "like the ooze of oil / Crushed," where the line break makes us wait for the hard, single syllable "Crushed," landing at the start of the next line like a press coming down. And listen to the question: "Why do men then now not reck his rod?" Seven monosyllables, every one of them demanding stress, with the alliteration of *now*/*not* and *reck*/*rod*. ("Reck" means *heed*.) The line is almost impossible to say quickly; its difficulty makes us feel the speaker's exasperation.
+Listen to "gathers to a greatness," with its *g* alliteration and the build-up of the vowels. Listen to "like the ooze of oil / Crushed," where the line break makes us wait for the hard, single syllable "Crushed," landing at the start of the next line like a press coming down. And listen to the question: "Why do men then now not reck his rod?" Nine monosyllables, nearly every one of them demanding stress, with the alliteration of *now*/*not* and *reck*/*rod*. ("Reck" means *heed*.) The line is almost impossible to say quickly; its difficulty makes us feel the speaker's exasperation.
 
 Then:
 
