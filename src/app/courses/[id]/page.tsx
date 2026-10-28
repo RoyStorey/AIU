@@ -7,6 +7,8 @@ import { Submit } from "@/components/Forms";
 import { Markdown } from "@/components/Markdown";
 import { Preparing } from "@/components/Preparing";
 import { currentUser } from "@/lib/auth";
+import { Obtain } from "@/components/Obtain";
+import { bookKey, parseText, sourcesFor } from "@/lib/books";
 import { getCourse } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { lessonScores } from "@/lib/progress";
@@ -35,17 +37,7 @@ function Outline({ course, signedIn }: { course: NonNullable<ReturnType<typeof g
     <div className="program-layout">
       <div className="measure">
         <h2 style={{ fontSize: "1.85rem", marginBottom: "1rem" }}>Core Texts</h2>
-        <ul className="citations" style={{ marginBottom: "2rem" }}>
-          {course.texts.map((t) => {
-            const [title, author] = t.split(" — ");
-            return (
-              <li key={t} className="citation">
-                <span className="kind">Text</span>
-                <div><span className="title">{title}</span>{author && <span className="by">, {author}</span>}</div>
-              </li>
-            );
-          })}
-        </ul>
+        <CoreTexts texts={course.texts} />
       </div>
       <aside className="aside">
         <div className="aside-block">
@@ -72,6 +64,25 @@ function Outline({ course, signedIn }: { course: NonNullable<ReturnType<typeof g
         </div>
       </aside>
     </div>
+  );
+}
+
+/** A course's core texts, each with a way to obtain it. */
+function CoreTexts({ texts }: { texts: string[] }) {
+  const books = texts.map(parseText);
+  const sources = sourcesFor(books);
+  return (
+    <ul className="citations" style={{ marginBottom: "2rem" }}>
+      {books.map((book) => (
+        <li key={book.title} className="citation">
+          <span className="kind">Text</span>
+          <div>
+            <span className="title">{book.title}</span>{book.author && <span className="by">, {book.author}</span>}
+            <Obtain book={book} source={sources.get(bookKey(book))} />
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -134,6 +145,7 @@ export default async function CoursePage({ params }: Params) {
   }
 
   const { content } = course;
+  const textSources = sourcesFor(course.texts.map(parseText));
   const scores = user ? lessonScores(user.id, course.id) : new Map<number, number>();
   const next = content.lessons.findIndex((_, i) => !scores.has(i));
   const forthcoming = content.forthcoming ?? [];
@@ -208,8 +220,13 @@ export default async function CoursePage({ params }: Params) {
           </div>
           <div className="aside-block">
             <h3>Core Texts</h3>
-            <ul style={{ listStyle: "none", padding: 0, margin: 0, fontSize: "1.02rem" }}>
-              {course.texts.map((t) => <li key={t} style={{ marginBottom: "0.45rem" }}><em>{t.split(" — ")[0]}</em>{t.includes(" — ") && <span className="muted"> — {t.split(" — ")[1]}</span>}</li>)}
+            <ul className="core-texts">
+              {course.texts.map(parseText).map((book) => (
+                <li key={book.title}>
+                  <em>{book.title}</em>{book.author && <span className="muted"> — {book.author}</span>}
+                  <Obtain book={book} source={textSources.get(bookKey(book))} />
+                </li>
+              ))}
             </ul>
             <p style={{ marginTop: "1rem" }}><Link href={`/courses/${course.id}/library`}>The full reference shelf →</Link></p>
           </div>

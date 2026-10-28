@@ -6,8 +6,16 @@ import { db } from "@/lib/db";
 import { currentUser, endSession, hashPassword, requireUser, startSession, verifyPassword } from "@/lib/auth";
 import { getConcentrationById, getCourse, getSubject, search } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
-import { PASSING, enroll, recordLesson, withdraw } from "@/lib/progress";
-import { ESSAY_LIMITS } from "@/lib/schema";
+import { PASSING, enroll, recordLesson, standing, withdraw } from "@/lib/progress";
+import { CAPSTONE_LIMITS, ESSAY_LIMITS } from "@/lib/schema";
+import { capstoneFor, submitCapstone as beginExamination } from "@/lib/capstone";
+import { reply, startThread as beginThread, deletePost as removePost } from "@/lib/community";
+import {
+  KINDS, STATUSES, getCorrection, reportCorrection as fileCorrection,
+  settleCorrection as settle, withdrawCorrection as unfile, type Kind, type Status,
+} from "@/lib/corrections";
+import { saveNote as storeNote } from "@/lib/notes";
+import { isFaculty, updateProfile as storeProfile } from "@/lib/people";
 import { choiceOrder } from "@/lib/shuffle";
 import {
   continueStudies as beginContinuation,
@@ -18,7 +26,7 @@ import {
   submitEssay as beginGrading,
 } from "@/lib/registrar";
 
-export type FormState = { error?: string } | undefined;
+export type FormState = { error?: string; notice?: string; nonce?: number } | undefined;
 
 const text = (form: FormData, key: string) => String(form.get(key) ?? "").trim();
 
@@ -185,4 +193,144 @@ export async function submitEssay(_: FormState, form: FormData): Promise<FormSta
 
   beginGrading(user.id, courseId, lessonIndex, response);
   revalidatePath(`/courses/${courseId}/lessons/${lessonIndex + 1}/exercises`);
+}
+
+// ——— Profiles ———
+
+export async function updateProfile(_: FormState, form: FormData): Promise<FormState> {
+  const user = await requireUser("/study");
+  const bio = text(form, "bio");
+  if (bio.length > 1200) return { error: "Please keep your introduction under 1,200 characters." };
+  storeProfile(user.id, bio, form.get("visibility") === "private" ? "private" : "public");
+  revalidatePath(`/students/${user.id}`);
+  revalidatePath("/study");
+  return { notice: "Your profile has been saved." };
+}
+
+// ——— Comments and corrections ———
+
+export async function reportCorrection(_: FormState, form: FormData): Promise<FormState> {
+  const courseId = text(form, "course");
+  const lessonIndex = Number(form.get("lesson"));
+  const page = text(form, "page");
+  const kind = text(form, "kind") as Kind;
+  const quote = text(form, "quote");
+  const body = text(form, "body");
+  const back = text(form, "back") || `/courses/${courseId}/lessons/${lessonIndex + 1}`;
+  const user = await requireUser(back);
+
+  if (!(kind in KINDS)) return { error: "Please say what kind of report this is." };
+  if (body.length < 20) return { error: "Please explain the problem in a sentence or two, with a source if you have one." };
+  if (body.length > 4000 || quote.length > 600) return { error: "Please keep your report shorter." };
+  const course = getCourse(courseId);
+  const lesson = course?.content?.lessons[lessonIndex];
+  if (!lesson) return { error: "That lesson does not exist." };
+  const pageIndex = /^\d+$/.test(page) && Number(page) < lesson.pages.length ? Number(page) : null;
+
+  fileCorrection({ userId: user.id, courseId, lessonIndex, pageIndex, kind, quote, body });
+  revalidatePath(back);
+  return { notice: "Thank you. Your report has been posted below." };
+}
+
+export async function settleCorrection(form: FormData) {
+  const user = await requireUser();
+  if (!isFaculty(user)) return;
+  const id = Number(form.get("id"));
+  const status = text(form, "status") as Status;
+  const correction = getCorrection(id);
+  if (!correction || !(status in STATUSES)) return;
+  settle(id, status, text(form, "response"));
+  revalidatePath(`/courses/${correction.course_id}/lessons/${correction.lesson_index + 1}`);
+  revalidatePath("/corrections");
+}
+
+export async function withdrawCorrection(id: number) {
+  const user = await requireUser();
+  const correction = getCorrection(id);
+  if (!correction) return;
+  unfile(id, user.id);
+  revalidatePath(`/courses/${correction.course_id}/lessons/${correction.lesson_index + 1}`);
+}
+
+// ——— The commonplace book ———
+
+export async function saveNote(_: FormState, form: FormData): Promise<FormState> {
+  const courseId = text(form, "course");
+  const lesson = Number(form.get("lesson"));
+  const page = Number(form.get("page"));
+  const user = await requireUser(`/courses/${courseId}/lessons/${lesson + 1}/${page + 1}`);
+  const body = String(form.get("body") ?? "");
+  if (body.length > 20000) return { error: "That note is too long to keep." };
+  if (!getCourse(courseId)?.content?.lessons[lesson]?.pages[page]) return { error: "That page does not exist." };
+  storeNote(user.id, courseId, lesson, page, body);
+  revalidatePath("/study/notes");
+  return { notice: body.trim() ? "Saved to your commonplace book." : "Note removed." };
+}
+
+// ——— Capstones ———
+
+export async function submitCapstone(_: FormState, form: FormData): Promise<FormState> {
+  const concentrationId = Number(form.get("concentration"));
+  const concentration = getConcentrationById(concentrationId);
+  if (!concentration) return { error: "That concentration does not exist." };
+  const path = `/faculties/${concentration.subject_slug}/${concentration.slug}/capstone`;
+  const user = await requireUser(path);
+
+  const mine = standing(user.id, concentrationId);
+  if (!mine?.complete) return { error: "The capstone opens once you have completed every course in the program." };
+  if (mine.level === "master") return { error: "You have already passed this capstone." };
+  if (!forgeAvailable()) return { error: "Capstones are examined once the forge is configured with an Anthropic API key." };
+
+  const brief = capstoneFor(concentration);
+  const title = text(form, "title");
+  const abstract = text(form, "abstract");
+  const body = text(form, "body");
+  const option = text(form, "option");
+  if (title.length < 4) return { error: "Please give your capstone a title." };
+  const abstractWords = words(abstract);
+  if (abstractWords < 50 || abstractWords > 300) return { error: `Please write an abstract of 50 to 300 words; you have ${abstractWords}.` };
+  const min = Math.max(CAPSTONE_LIMITS.min, brief.words.min);
+  const max = Math.min(CAPSTONE_LIMITS.max, brief.words.max);
+  const count = words(body);
+  if (count < min) return { error: `The brief asks for at least ${min.toLocaleString()} words; you have ${count.toLocaleString()}.` };
+  if (count > max) return { error: `The brief allows at most ${max.toLocaleString()} words; you have ${count.toLocaleString()}.` };
+
+  beginExamination(user.id, concentrationId, { option, title, abstract, body });
+  revalidatePath(path);
+  redirect(path);
+}
+
+// ——— The common room ———
+
+export async function startThread(_: FormState, form: FormData): Promise<FormState> {
+  const concentration = getConcentrationById(Number(form.get("concentration")));
+  if (!concentration) return { error: "That concentration does not exist." };
+  const base = `/faculties/${concentration.subject_slug}/${concentration.slug}/common-room`;
+  const user = await requireUser(base);
+  const title = text(form, "title");
+  const body = text(form, "body");
+  if (title.length < 4 || title.length > 160) return { error: "Please give your thread a title of a few words." };
+  if (body.length < 10) return { error: "Please write a little more." };
+  if (body.length > 10000) return { error: "Please keep your post under 10,000 characters." };
+  const id = beginThread(concentration.id, user.id, title, body);
+  redirect(`${base}/${id}`);
+}
+
+export async function replyToThread(_: FormState, form: FormData): Promise<FormState> {
+  const threadId = Number(form.get("thread"));
+  const back = text(form, "back");
+  const user = await requireUser(back);
+  const body = text(form, "body");
+  if (body.length < 2) return { error: "Please write your reply." };
+  if (body.length > 10000) return { error: "Please keep your reply under 10,000 characters." };
+  reply(threadId, user.id, body);
+  revalidatePath(back);
+  return { notice: "Posted.", nonce: Date.now() };
+}
+
+export async function deletePost(id: number, back: string) {
+  const user = await requireUser();
+  removePost(id, user.id);
+  revalidatePath(back);
+  redirect(back);
 }

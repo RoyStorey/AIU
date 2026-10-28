@@ -83,7 +83,7 @@ Eliot respected Arnold but rejected his central claim. Poetry cannot replace rel
 
 ## The critic as poet
 
-Like Sidney, Dryden, Pope, Johnson, Wordsworth, Coleridge, Shelley, and Arnold, Eliot was a poet writing criticism. His essays were, as he later admitted, partly a defense of the kind of poetry he wanted to write. "The poet's criticism," he wrote, is "a by-product of his private poetry-workshop." This is worth remembering about all the critics in this course: their theories were not neutral descriptions but arguments for particular kinds of poetry, made by people who were writing it.`,
+Like Sidney, Dryden, Pope, Johnson, Wordsworth, Coleridge, Shelley, and Arnold, Eliot was a poet writing criticism. His essays were, as he later admitted, partly a defense of the kind of poetry he wanted to write; looking back in "The Frontiers of Criticism" (1956), he called his best criticism "a by-product of my private poetry-workshop." This is worth remembering about all the critics in this course: their theories were not neutral descriptions but arguments for particular kinds of poetry, made by people who were writing it.`,
     },
     {
       title: "Richards, Empson, and Practical Criticism",
@@ -237,7 +237,7 @@ Robert Frost, in POE 310, gave the most modest and perhaps the most enduring mod
 
 ## Poetry and survival
 
-For some poets of the twentieth century, poetry was a matter of survival. The Polish poet **Czesław Miłosz**, who lived through the Nazi occupation of Warsaw, asked in a poem of 1945, "Dedication," what poetry is worth "which does not save / Nations or people"—and later received the Nobel Prize for a lifetime of poems that bore witness to the century's catastrophes. Under Stalin, Russian poets like Anna Akhmatova and Osip Mandelstam wrote poems that were memorized and passed from mouth to mouth because they could not be written down; Mandelstam died in a labor camp after writing a poem mocking Stalin. "Only in Russia is poetry respected," he is reported to have said; "it gets people killed." Plato's fear that poetry has power over the soul turned out, in the twentieth century, to be shared by dictators.
+For some poets of the twentieth century, poetry was a matter of survival. The Polish poet **Czesław Miłosz**, who lived through the Nazi occupation of Warsaw, asked in a poem of 1945, "Dedication," what poetry is worth "which does not save / Nations or people"—and later received the Nobel Prize for a lifetime of poems that bore witness to the century's catastrophes. Under Stalin, Russian poets like Anna Akhmatova and Osip Mandelstam wrote poems that were memorized and passed from mouth to mouth because they could not be written down; Mandelstam, arrested in 1934 after reciting a poem mocking Stalin, died in a transit camp in 1938. "Only in Russia is poetry respected," he is reported to have said; "it gets people killed." Plato's fear that poetry has power over the soul turned out, in the twentieth century, to be shared by dictators.
 
 ## "Poetry is not a luxury"
 

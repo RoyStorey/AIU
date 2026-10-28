@@ -1,10 +1,12 @@
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { LessonShell, Pager, lessonHref } from "@/components/LessonShell";
+import { Corrections } from "@/components/Corrections";
 import { Markdown } from "@/components/Markdown";
+import { NotesBox } from "@/components/NotesBox";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
-import { lessonScores } from "@/lib/progress";
+import { lessonScores, recordVisit } from "@/lib/progress";
 import { toRoman } from "@/lib/roman";
 import { formatMinutes, pageMinutes } from "@/lib/timing";
 
@@ -33,6 +35,8 @@ export default async function LessonPage({ params }: Params) {
   const user = await currentUser();
   const completed = user ? lessonScores(user.id, course.id).has(index) : false;
   const last = pageIndex === lesson.pages.length - 1;
+  if (user) recordVisit(user.id, course.id, index, pageIndex);
+  const here = `/courses/${course.id}/lessons/${index + 1}/${pageIndex + 1}`;
 
   return (
     <LessonShell course={course} index={index} step={{ kind: "page", page: pageIndex }} completed={completed}>
@@ -50,6 +54,11 @@ export default async function LessonPage({ params }: Params) {
         next={last
           ? { href: lessonHref(course.id, index, { kind: "exercises" }), label: "Knowledge check and exercise", dir: "Continue" }
           : { href: lessonHref(course.id, index, { kind: "page", page: pageIndex + 1 }), label: lesson.pages[pageIndex + 1].title }}
+      />
+      <NotesBox user={user} courseId={course.id} lessonIndex={index} pageIndex={pageIndex} />
+      <Corrections
+        courseId={course.id} concentrationId={course.concentration.id} concentration={course.concentration.name}
+        lessonIndex={index} lesson={lesson} page={pageIndex} user={user} back={here}
       />
     </LessonShell>
   );

@@ -57,8 +57,8 @@ export default function Home() {
           </div>
           <div className="step">
             <span className="numeral">III</span>
-            <h3>Continue beyond it</h3>
-            <p>When you have completed a program, the faculty will draft further courses at the level of graduate study, so your reading never has to end.</p>
+            <h3>Become a Master</h3>
+            <p>Complete every course to become an Expert; pass the concentration&apos;s capstone to become a Master, with your work shown in its Hall of Masters. Then, if you wish, the faculty will draft further courses at the level of graduate study.</p>
           </div>
         </div>
       </section>

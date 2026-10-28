@@ -18,6 +18,7 @@ export function hashPassword(password: string): string {
 
 export function verifyPassword(password: string, stored: string): boolean {
   const [salt, hash] = stored.split(":");
+  if (!salt || !hash) return false; // accounts that cannot sign in, such as demonstration students
   const expected = Buffer.from(hash, "hex");
   const actual = scryptSync(password, Buffer.from(salt, "hex"), expected.length);
   return timingSafeEqual(expected, actual);

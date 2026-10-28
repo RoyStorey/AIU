@@ -1,4 +1,6 @@
 import type { Resource } from "@/lib/schema";
+import type { BookSource } from "@/lib/books";
+import { Obtain } from "@/components/Obtain";
 
 const KIND: Record<Resource["kind"], string> = {
   book: "Book",
@@ -18,8 +20,11 @@ export function hostOf(url: string): string {
   }
 }
 
-/** A bibliographic entry in the house style: kind, italic title, author, imprint, note. */
-export function Citation({ resource }: { resource: Resource }) {
+/**
+ * A bibliographic entry in the house style: kind, italic title, author, imprint, note.
+ * A book with no link of its own is followed by a way to obtain it.
+ */
+export function Citation({ resource, source }: { resource: Resource; source?: BookSource | null }) {
   const { kind, title, author, publisher, year, url, note } = resource;
   const imprint = [publisher, year].filter(Boolean).join(", ");
   return (
@@ -33,6 +38,7 @@ export function Citation({ resource }: { resource: Resource }) {
         {imprint && <span className="pub">{(author ?? title).endsWith(".") ? " " : ". "}{imprint}</span>}
         {url && <span className="host">{hostOf(url)} ↗</span>}
         {note && <p className="note">{note}</p>}
+        {source !== undefined && source !== null && <Obtain book={{ title, author }} source={source} />}
       </div>
     </li>
   );

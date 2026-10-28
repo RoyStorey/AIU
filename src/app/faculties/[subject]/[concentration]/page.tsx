@@ -2,13 +2,17 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { continueStudies, declare, retryProposal } from "@/app/actions";
+import { ConcentrationHeader } from "@/components/ConcentrationHeader";
 import { Submit } from "@/components/Forms";
+import { Seal, StudentName } from "@/components/Standing";
+import { capstoneFor, mastersOf } from "@/lib/capstone";
+import { members } from "@/lib/community";
 import { Preparing } from "@/components/Preparing";
 import { AutoRefresh } from "@/components/AutoRefresh";
 import { currentUser } from "@/lib/auth";
 import { getConcentration, getSubject } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
-import { continuationStatus, isEnrolled, programStanding, type CourseStanding } from "@/lib/progress";
+import { continuationStatus, isEnrolled, programStanding, standing, type CourseStanding } from "@/lib/progress";
 import { stageName, toRoman } from "@/lib/schema";
 
 type Params = { params: Promise<{ subject: string; concentration: string }> };
@@ -43,18 +47,23 @@ export default async function ProgramPage({ params }: Params) {
   const next = courses.find((c) => !c.done);
   const continuation = continuationStatus(concentration.id);
   const coursesDrafting = courses.some((c) => c.status === "drafting") && continuation?.status !== "drafting";
+  const base = `/faculties/${subject.slug}/${concentration.slug}`;
+  const mine = user ? standing(user.id, concentration.id) : null;
+  const ready = concentration.status === "ready";
+  const capstone = ready ? capstoneFor(concentration) : null;
+  const masters = ready ? mastersOf(concentration.id) : [];
+  const memberCount = ready ? members(concentration.id).length : 0;
 
   return (
     <div className="wrap">
-      <header className="page-head">
-        <nav className="crumbs" aria-label="Breadcrumb">
-          <Link href="/faculties">Faculties</Link>
-          <span aria-hidden="true">/</span>
-          <Link href={`/faculties/${subject.slug}`}>{subject.name}</Link>
-        </nav>
-        <h1>{concentration.name}</h1>
-        <p className="lede">{concentration.description}</p>
-      </header>
+      <ConcentrationHeader subject={subject} concentration={concentration} active="program">
+        {mine && mine.level !== "student" && (
+          <p style={{ marginTop: "1rem" }}>
+            <Seal level={mine.level} concentration={concentration.name} size="large"
+              href={mine.mastery ? `/capstones/${mine.mastery.capstoneId}` : `${base}/capstone`} />
+          </p>
+        )}
+      </ConcentrationHeader>
 
       {concentration.status === "drafting" ? (
         <Preparing title="The faculty is drafting this program">
@@ -148,6 +157,38 @@ export default async function ProgramPage({ params }: Params) {
                 ) : (
                   <p className="muted">Continuing studies requires the forge to be configured with an Anthropic API key.</p>
                 )}
+              </div>
+            )}
+
+            {capstone && (
+              <div className="aside-block">
+                <span className="eyebrow">The capstone</span>
+                <h3 style={{ marginTop: "0.25rem" }}><Link href={`${base}/capstone`}>{capstone.title}</Link></h3>
+                <p>{capstone.summary}</p>
+                <p className="muted" style={{ fontSize: "0.98rem" }}>
+                  Complete every course to become an <strong>Expert</strong>; pass the capstone to become a <strong>Master</strong>.
+                </p>
+              </div>
+            )}
+
+            {ready && (
+              <div className="aside-block">
+                <span className="eyebrow">The common room</span>
+                <p style={{ marginTop: "0.25rem" }}>
+                  {memberCount} {memberCount === 1 ? "student has" : "students have"} declared this concentration
+                  {masters.length > 0 && <>; {masters.length} {masters.length === 1 ? "is a Master" : "are Masters"}</>}.
+                </p>
+                {masters.length > 0 && (
+                  <ul className="masters-mini">
+                    {masters.slice(0, 4).map((m) => (
+                      <li key={m.submission.id}>
+                        <StudentName id={m.user.id} name={m.user.name} level="master" concentration={concentration.name} capstoneId={m.submission.id} demo={m.user.demo} />
+                        <Link href={`/capstones/${m.submission.id}`} className="muted"> <em>{m.submission.title}</em></Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                <p><Link href={`${base}/common-room`}>Visit the common room →</Link></p>
               </div>
             )}
 

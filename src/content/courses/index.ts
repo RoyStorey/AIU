@@ -1,5 +1,6 @@
 import type { CourseContent } from "@/lib/schema";
 import { aal101 } from "./aal-101";
+import { editorial } from "./editorial";
 import { amh101 } from "./amh-101";
 import { bib101 } from "./bib-101";
 import { euh301 } from "./euh-301";
@@ -15,8 +16,7 @@ import { poe301 } from "./poe-301";
 import { poe310 } from "./poe-310";
 import { poe401 } from "./poe-401";
 
-/** Courses written by hand, keyed by course code. They take precedence over the forge. */
-export const authoredCourses: Record<string, CourseContent> = {
+const written: Record<string, CourseContent> = {
   "AAL 101": aal101,
   "AMH 101": amh101,
   "BIB 101": bib101,
@@ -33,3 +33,18 @@ export const authoredCourses: Record<string, CourseContent> = {
   "POE 310": poe310,
   "POE 401": poe401,
 };
+
+/** Joins each lesson to the editors' notes on it. */
+function withEditorial(code: string, course: CourseContent): CourseContent {
+  const notes = editorial[code];
+  if (!notes) return course;
+  return {
+    ...course,
+    lessons: course.lessons.map((lesson, i) => ({ ...lesson, caveats: [...(lesson.caveats ?? []), ...(notes[i + 1] ?? [])] })),
+  };
+}
+
+/** Courses written by hand, keyed by course code. They take precedence over the forge. */
+export const authoredCourses: Record<string, CourseContent> = Object.fromEntries(
+  Object.entries(written).map(([code, course]) => [code, withEditorial(code, course)]),
+);

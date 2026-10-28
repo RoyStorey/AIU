@@ -2,7 +2,7 @@ import "server-only";
 import { db, slugify } from "@/lib/db";
 import { getConcentrationById, getCourse, listConcentrations, listCourses, listSubjects } from "@/lib/catalogue";
 import { draftConcentration, draftContinuation, draftCourse, gradeEssay, planInquiry } from "@/lib/forge";
-import { stageName, type CourseOutline, type Feedback } from "@/lib/schema";
+import { stageName, type Capstone, type CourseOutline, type Feedback } from "@/lib/schema";
 
 /**
  * The registrar records requests and sets the forge to work on them. Each piece
@@ -43,13 +43,16 @@ function insertCourses(concentrationId: number, outlines: CourseOutline[], first
   });
 }
 
-function insertConcentration(subjectSlug: string, name: string, description: string, status: string): number {
+function insertConcentration(subjectSlug: string, name: string, description: string, status: string, capstone?: Capstone): number {
   const position = (db.prepare("SELECT COALESCE(MAX(position), -1) + 1 AS p FROM concentrations WHERE subject_slug = ?")
     .get(subjectSlug) as { p: number }).p;
   const { id } = db.prepare(`
-    INSERT INTO concentrations (subject_slug, slug, name, description, position, origin, status)
-    VALUES (?, ?, ?, ?, ?, 'forge', ?) RETURNING id
-  `).get(subjectSlug, uniqueConcentrationSlug(subjectSlug, name), name, description, position, status) as { id: number };
+    INSERT INTO concentrations (subject_slug, slug, name, description, position, origin, status, capstone)
+    VALUES (?, ?, ?, ?, ?, 'forge', ?, ?) RETURNING id
+  `).get(
+    subjectSlug, uniqueConcentrationSlug(subjectSlug, name), name, description, position, status,
+    capstone ? JSON.stringify(capstone) : null,
+  ) as { id: number };
   return id;
 }
 
@@ -75,7 +78,7 @@ export function startInquiry(query: string): number {
       if (existing) {
         let first: number | null = null;
         for (const c of plan.concentrations) {
-          const cid = insertConcentration(existing.slug, c.name, c.description, "ready");
+          const cid = insertConcentration(existing.slug, c.name, c.description, "ready", c.capstone);
           insertCourses(cid, c.courses);
           first ??= cid;
         }
@@ -88,7 +91,7 @@ export function startInquiry(query: string): number {
           VALUES (?, ?, ?, ?, ?, 100, 'forge')
         `).run(slug, plan.facultyName, plan.facultyDescription, plan.epigraph || null, plan.attribution || null);
         for (const c of plan.concentrations) {
-          insertCourses(insertConcentration(slug, c.name, c.description, "ready"), c.courses);
+          insertCourses(insertConcentration(slug, c.name, c.description, "ready", c.capstone), c.courses);
         }
         path = `/faculties/${slug}`;
       }
@@ -126,8 +129,8 @@ export function proposeConcentration(subjectSlug: string, name: string, note: st
     );
     db.exec("BEGIN");
     try {
-      db.prepare("UPDATE concentrations SET description = ?, status = 'ready', error = NULL WHERE id = ?")
-        .run(outline.description, id);
+      db.prepare("UPDATE concentrations SET description = ?, capstone = ?, status = 'ready', error = NULL WHERE id = ?")
+        .run(outline.description, outline.capstone ? JSON.stringify(outline.capstone) : null, id);
       insertCourses(id, outline.courses);
       db.exec("COMMIT");
     } catch (error) {

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
+import { Corrections } from "@/components/Corrections";
 import { LessonShell, StepList, lessonHref } from "@/components/LessonShell";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
@@ -48,6 +49,10 @@ export default async function LessonOverview({ params }: Params) {
           </Link>
         </div>
       </section>
+      <Corrections
+        courseId={course.id} concentrationId={course.concentration.id} concentration={course.concentration.name}
+        lessonIndex={index} lesson={lesson} user={user} back={lessonHref(course.id, index)}
+      />
     </LessonShell>
   );
 }

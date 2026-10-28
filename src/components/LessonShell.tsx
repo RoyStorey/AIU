@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Citation } from "@/components/Citation";
+import { resourceSources } from "@/lib/books";
 import { Media } from "@/components/Media";
 import type { CourseWithContent } from "@/lib/catalogue";
 import { toRoman } from "@/lib/roman";
@@ -75,6 +76,7 @@ export function LessonShell({ course, index, step, completed, children }: {
   const lesson = lessons[index];
   const of = toRoman(lessons.length + forthcoming.length);
   const { subject, concentration } = course;
+  const sources = resourceSources(lesson.readings);
 
   return (
     <div className="wrap">
@@ -120,7 +122,7 @@ export function LessonShell({ course, index, step, completed, children }: {
             <>
               <h3 className="side-head">Assigned Reading</h3>
               <ul className="citations">
-                {lesson.readings.map((r, i) => <Citation key={i} resource={r} />)}
+                {lesson.readings.map((r, i) => <Citation key={i} resource={r} source={sources[i]} />)}
               </ul>
             </>
           )}

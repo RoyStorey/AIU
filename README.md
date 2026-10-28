@@ -22,6 +22,37 @@ Poems published before 1931 (in the US public domain) are printed in full; later
 
 A lesson is a series of pages followed by an exercises step: a knowledge check and a written exercise marked by a tutor. Every page, lesson, and course shows an estimated time. Reading time is computed at 175 words a minute; a page can set its own time when it asks for more than reading (such as working through primary sources); the knowledge check counts a minute and a half per question and the written exercise thirty minutes. The assigned readings and recordings are supplementary and not counted. A full lesson aims at about two hours. Knowledge-check choices are shown in a stable shuffled order, so the position of the right answer gives nothing away.
 
+## Standing: Expert and Master
+
+Every concentration ends in a **capstone**: a substantial piece of work set by the faculty and tailored to the discipline. Poetry asks for a critical study (or a portfolio of poems with a critical preface), Latin and Greek for a translation with commentary, the histories for a source-based research essay, Biblical Studies for an exegesis, Phonetics for a phonological analysis from data, Sociolinguistics for a small empirical study. Each brief gives its options, requirements, length, and the rubric the examiner uses. The briefs for the founding concentrations are in `src/content/capstones.ts`; the forge writes one for every concentration it drafts.
+
+- A student who completes every course in a program (Foundations through Seminar) becomes an **Expert** in it.
+- An Expert who submits the capstone and passes (Distinction, Merit, or Pass) becomes a **Master**. The capstone is examined against its rubric by the forge, with scores, marginal notes, and a one-sentence citation; a capstone marked Revise may be revised and resubmitted.
+- A Master's capstone is published on their profile and in the concentration's **Hall of Masters**. Wherever a Master's name appears in that concentration—the common room, the roster, a correction report—it carries a gold seal that links to the capstone; an Expert's carries a ring.
+
+## Profiles and common rooms
+
+- **Profiles** (`/students/[id]`) show a student's standing in every concentration as a set of **rose windows**: one ring per concentration, one pane per course, each pane filling as lessons are completed, with a ring at the center for an Expert and a gold star for a Master. Below them are the student's capstones, six months of study activity, and their posts. A transcript table gives the same figures in text. Students may keep their profile private.
+- The **Students** page lists everyone with a public profile, Masters first.
+- Each concentration has a **Common Room**: its Hall of Masters, a roster of members by standing, and threads of discussion open to any signed-in student.
+
+## Comments & Corrections
+
+Every lesson ends with a **Comments & Corrections** section, because these lessons can be wrong. It shows the editors' own notes on claims that are uncertain (a quotation known only from later report), disputed, or corrected, and the reports students post: errors of fact, doubtful claims, broken links, and comments, each with the passage in question. With the forge configured, each report of an error gets an automated fact-checker's first look within a minute. Faculty (named in `AIU_FACULTY_EMAILS`) answer reports and mark them Confirmed, Corrected, or Not an error. `/corrections` lists every open report. The editors' notes on the hand-written courses are kept in `src/content/courses/editorial.ts`; the forge lists its own uncertain claims when it drafts a lesson.
+
+## Books
+
+Every book named in a course comes with a way to obtain it. Books are looked up in Open Library's catalogue in the background, one at a time, and the result is kept: a link to read or borrow a free copy where one exists, a catalogue record otherwise, and links to find it in a library (WorldCat) or buy it new or secondhand. A book the catalogue does not know is marked plainly: the student will need to find a copy elsewhere, through a library or a secondhand bookseller. Until a book has been looked up, it is shown with searches of libraries and booksellers.
+
+## Study aids
+
+- **Commonplace book.** Every lesson page has a private notes box; all of a student's notes are gathered at `/study/notes`, in course order.
+- **Pick up where you left off.** My Studies shows the last pages a student was reading.
+
+## Sample students
+
+A new installation includes three sample students so the community features can be seen at once: **Eleanor Marsh**, a Master of Poetry whose capstone, "'Thou Hast Thy Music Too': How Keats's Odes End," is a complete 4,500-word essay; **Thomas Adeyemi**, an Expert; and **Ruth Calloway**, midway through the program, with their threads in the Poetry common room and two correction reports. They are labeled "sample," cannot sign in, and are removed—with everything they wrote—by setting `AIU_DEMO=off`.
+
 ## The forge
 
 With an Anthropic API key, Claude extends Cornerstone:
@@ -44,7 +75,9 @@ cp .env.example .env.local   # add ANTHROPIC_API_KEY to enable the forge
 npm run dev                  # http://localhost:3000
 ```
 
-For production: `npm run build && npm start`. The SQLite database is created at `data/university.db` on first request and seeded from `src/content`.
+For production: `npm run build && npm start`. The SQLite database is created at `data/university.db` on first request and seeded from `src/content`. Databases made by the previous version are upgraded in place.
+
+Other settings, all optional, are described in `.env.example`: `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), and `AIU_BOOK_LOOKUP=off` (no Open Library lookups).
 
 ## Adding to the catalogue
 
@@ -63,7 +96,13 @@ src/
     db.ts         SQLite schema and seeding
     auth.ts       scrypt passwords and session cookies
     catalogue.ts  catalogue queries and inquiry matching
-    progress.ts   enrollment and progress
+    progress.ts   enrollment, progress, and standing (Student, Expert, Master)
+    capstone.ts   capstone briefs, submissions, and the Hall of Masters
+    corrections.ts  comments and corrections on lessons
+    community.ts  common-room threads and rosters
+    people.ts     profiles and the students directory
+    books.ts      finding copies of books (Open Library)
+    notes.ts      the commonplace book
     forge.ts      Claude: research, drafting, link verification
     registrar.ts  background drafting jobs
     schema.ts     the course schema shared by authored and forged courses
