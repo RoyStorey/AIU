@@ -18,7 +18,7 @@ This course reads the Hebrew Bible closely and in context. We set it beside the 
     {
       title: "The Parts of the Whole",
       summary: "What the Hebrew Bible is, how it is arranged, and how to study it.",
-      lecture: `## A library, not a book
+      pages: [{ title: "Lecture", body: `## A library, not a book
 
 The word *Bible* comes from the Greek *ta biblia*, "the books"—a plural. The Hebrew Bible is an anthology of twenty-four books (in the Jewish count) written by many authors, in different genres, across many centuries, and gathered into a **canon**, an authoritative collection, only gradually.
 
@@ -48,7 +48,7 @@ We will use three approaches, each with its own questions:
 2. **Comparative**: How does it compare with other ancient Near Eastern texts?
 3. **Literary**: How does the text work as narrative or poetry? What do its repetitions, silences, and patterns mean?
 
-These approaches are compatible with belief and with unbelief alike. Read the text slowly and closely, as you would any great literature—and keep a good annotated Bible at your side.`,
+These approaches are compatible with belief and with unbelief alike. Read the text slowly and closely, as you would any great literature—and keep a good annotated Bible at your side.` }],
       readings: [
         { kind: "book", title: "Introduction to the Bible", author: "Christine Hayes", publisher: "Yale University Press", year: "2012", note: "The opening chapters, on the structure of the Bible and its ancient Near Eastern setting." },
         { kind: "book", title: "The New Oxford Annotated Bible with Apocrypha (NRSV)", author: "Michael D. Coogan et al., eds.", publisher: "Oxford University Press", year: "5th ed., 2018", note: "Read the general introductions to the Hebrew Bible and to the Torah. This is the course's recommended study Bible." },
@@ -87,7 +87,7 @@ These approaches are compatible with belief and with unbelief alike. Read the te
     {
       title: "In the Beginning: Genesis 1–11 in Its World",
       summary: "The two creation stories and the flood, set beside Mesopotamian myth.",
-      lecture: `## The world of the ancient Near East
+      pages: [{ title: "Lecture", body: `## The world of the ancient Near East
 
 Israel was a small people among great civilizations—Egypt to the southwest, Mesopotamia to the east—whose literature was old long before the Bible was written. In the nineteenth century, archaeologists recovered thousands of cuneiform tablets from Mesopotamia, among them stories of creation and of a great flood strikingly similar to those in Genesis. These discoveries transformed biblical study: we can now see what the biblical writers shared with their neighbors, and where they departed from them.
 
@@ -114,7 +114,7 @@ The Mesopotamian **Atrahasis** epic and Tablet XI of the **Epic of Gilgamesh** t
 
 ## The meaning of comparison
 
-Comparison does not reduce the Bible to borrowed myth. It shows biblical writers taking the shared stories of their world and **transforming** them to express a radically different idea: one God, sovereign and good, whose creation is orderly and whose concern is justice.`,
+Comparison does not reduce the Bible to borrowed myth. It shows biblical writers taking the shared stories of their world and **transforming** them to express a radically different idea: one God, sovereign and good, whose creation is orderly and whose concern is justice.` }],
       readings: [
         { kind: "website", title: "Genesis 1–11", publisher: "Bible Gateway (NRSV Updated Edition)", url: passage("Genesis 1-11"), note: "Read slowly, noting where one creation account ends and another begins (2:4)." },
         { kind: "book", title: "Myths from Mesopotamia: Creation, the Flood, Gilgamesh, and Others", author: "Stephanie Dalley, trans.", publisher: "Oxford World's Classics", year: "1989; rev. 2000", note: "Read Atrahasis and Enuma Elish Tablets I–IV." },
@@ -155,7 +155,7 @@ Comparison does not reduce the Bible to borrowed myth. It shows biblical writers
     {
       title: "Who Wrote the Torah?",
       summary: "Doublets, contradictions, and the Documentary Hypothesis.",
-      lecture: `## A question with a history
+      pages: [{ title: "Lecture", body: `## A question with a history
 
 Jewish and Christian tradition long held that Moses wrote the five books of the Torah. But careful readers—medieval rabbis like Abraham ibn Ezra, and later philosophers like Thomas Hobbes and Baruch Spinoza—noticed problems. How could Moses describe his own death and burial (Deuteronomy 34)? Why does Genesis say "the Canaanites were then in the land" (12:6), as if from a later time when they were no longer there?
 
@@ -187,7 +187,7 @@ The connection of **D** with history is especially striking. 2 Kings 22 describe
 
 Wellhausen's dates and the very existence of E are now debated; some scholars prefer to speak of fragments or supplements rather than continuous documents. But the basic insight that the Torah combines several distinct traditions remains widely accepted.
 
-Other readers urge a complementary approach. The literary critic **Robert Alter** argues that, whatever its sources, the Bible must be read as the editors left it: they combined traditions not carelessly but artfully, and apparent contradictions can create meaning—two creation stories offering two views of what it is to be human. Professor Hayes holds both perspectives together: the text is composite, and the composite text is itself a work of deliberate art.`,
+Other readers urge a complementary approach. The literary critic **Robert Alter** argues that, whatever its sources, the Bible must be read as the editors left it: they combined traditions not carelessly but artfully, and apparent contradictions can create meaning—two creation stories offering two views of what it is to be human. Professor Hayes holds both perspectives together: the text is composite, and the composite text is itself a work of deliberate art.` }],
       readings: [
         { kind: "book", title: "Who Wrote the Bible?", author: "Richard Elliott Friedman", publisher: "Summit Books", year: "1987", note: "A lucid, widely read account of the Documentary Hypothesis and its historical settings. Read chapters 1–5." },
         { kind: "website", title: "Genesis 6–9 (the Flood)", publisher: "Bible Gateway (NRSV Updated Edition)", url: passage("Genesis 6-9"), note: "Find the two counts of animals and the two durations of the flood." },
@@ -234,7 +234,7 @@ Other readers urge a complementary approach. The literary critic **Robert Alter*
     {
       title: "Ancestors and Exodus",
       summary: "The covenant with Abraham, the binding of Isaac, and the God who brings Israel out of Egypt.",
-      lecture: `## The call of Abraham
+      pages: [{ title: "Lecture", body: `## The call of Abraham
 
 With Genesis 12 the Bible narrows its focus from all humanity to one family. God speaks to Abram in Haran:
 
@@ -266,7 +266,7 @@ In Hebrew, *ehyeh asher ehyeh*—"I am who I am," or "I will be who I will be." 
 
 After the plagues and the crossing of the sea, Israel comes to **Mount Sinai**. There God makes a covenant with the whole people, and gives the **Ten Commandments** and a body of law. The covenant takes a form scholars have compared to ancient Near Eastern treaties between a great king and a vassal: a historical prologue—"I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery" (Exodus 20:2)—followed by stipulations, and blessings and curses.
 
-The Exodus became the central story of Israel's identity, retold at Passover every year, and later a story of liberation for many peoples—not least enslaved Africans in America, who sang "Go down, Moses."`,
+The Exodus became the central story of Israel's identity, retold at Passover every year, and later a story of liberation for many peoples—not least enslaved Africans in America, who sang "Go down, Moses."` }],
       readings: [
         { kind: "website", title: "Genesis 12, 22, and 37–50; Exodus 1–4, 19–20", publisher: "Bible Gateway (NRSV Updated Edition)", url: passage("Genesis 12; Genesis 22; Exodus 3; Exodus 19-20"), note: "Read Genesis 22 twice—once quickly, once noting every detail the narrator withholds." },
         { kind: "book", title: "Mimesis: The Representation of Reality in Western Literature", author: "Erich Auerbach, trans. Willard R. Trask", publisher: "Princeton University Press", year: "1953", note: "Chapter 1, “Odysseus' Scar.” One of the great essays of literary criticism." },
@@ -307,7 +307,7 @@ The Exodus became the central story of Israel's identity, retold at Passover eve
     {
       title: "Prophets and Poets",
       summary: "The classical prophets' demand for justice, and the wisdom and poetry of the Writings.",
-      lecture: `## The prophets
+      pages: [{ title: "Lecture", body: `## The prophets
 
 The Hebrew **navi**, "prophet," is not chiefly a predictor of the future but a **messenger**: one who speaks for God to the people, often against the king, the priests, and the comfortable. The classical or "literary" prophets, whose words were collected in books, began in the eighth century BCE, as the Assyrian Empire threatened both Israel in the north and Judah in the south.
 
@@ -340,7 +340,7 @@ The third division of the Tanakh contains Israel's poetry and wisdom.
 - **Job** questions that wisdom radically. A righteous man suffers terribly; his friends insist he must have sinned; Job protests his innocence and demands an answer from God. God answers from the whirlwind—"Where were you when I laid the foundation of the earth?" (38:4)—not with an explanation but with a vision of creation's vastness.
 - **Ecclesiastes** (Qohelet) looks at life "under the sun" and finds it *hevel*—"vanity," or "breath," "vapor"—yet counsels the enjoyment of daily life as God's gift.
 
-Together these books preserve not one answer to suffering and meaning, but an argument—which is perhaps the Hebrew Bible's deepest characteristic.`,
+Together these books preserve not one answer to suffering and meaning, but an argument—which is perhaps the Hebrew Bible's deepest characteristic.` }],
       readings: [
         { kind: "website", title: "Amos 5; Isaiah 6 and 40; Psalm 19; Job 38", publisher: "Bible Gateway (NRSV Updated Edition)", url: passage("Amos 5; Isaiah 6; Isaiah 40; Psalm 19; Job 38"), note: "Read each aloud, noticing the parallelism of the lines." },
         { kind: "book", title: "The Prophets", author: "Abraham Joshua Heschel", publisher: "Harper & Row", year: "1962", note: "Chapter 1, “What Manner of Man Is the Prophet?”" },

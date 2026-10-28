@@ -173,7 +173,7 @@ export async function submitEssay(_: FormState, form: FormData): Promise<FormSta
   const courseId = text(form, "course");
   const lessonIndex = Number(form.get("lesson"));
   const response = text(form, "response");
-  const user = await requireUser(`/courses/${courseId}/lessons/${lessonIndex + 1}`);
+  const user = await requireUser(`/courses/${courseId}/lessons/${lessonIndex + 1}/exercises`);
 
   if (!forgeAvailable()) return { error: "Written feedback requires the forge to be configured with an Anthropic API key." };
   const count = words(response);
@@ -181,5 +181,5 @@ export async function submitEssay(_: FormState, form: FormData): Promise<FormSta
   if (count > ESSAY_LIMITS.max) return { error: `Please keep to ${ESSAY_LIMITS.max} words; you have ${count}.` };
 
   beginGrading(user.id, courseId, lessonIndex, response);
-  revalidatePath(`/courses/${courseId}/lessons/${lessonIndex + 1}`);
+  revalidatePath(`/courses/${courseId}/lessons/${lessonIndex + 1}/exercises`);
 }

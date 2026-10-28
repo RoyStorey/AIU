@@ -15,7 +15,7 @@ This course introduces the core of the discipline. We begin with the question of
     {
       title: "What Is Language?",
       summary: "Description versus prescription, the design features of language, and the arbitrariness of the sign.",
-      lecture: `## Description, not prescription
+      pages: [{ title: "Lecture", body: `## Description, not prescription
 
 Most of us met the study of language in school as a list of rules: do not split infinitives, do not end a sentence with a preposition, never say "ain't." These are **prescriptive** rules—statements of how someone thinks people *should* speak. Linguistics is **descriptive**: it asks how people *do* speak, and what knowledge makes their speech possible.
 
@@ -42,7 +42,7 @@ The Swiss linguist **Ferdinand de Saussure**, whose *Course in General Linguisti
 
 ## How many languages?
 
-Roughly **7,000 languages** are spoken today, according to catalogs such as *Ethnologue*. Nearly half are endangered, many spoken only by elderly people. Each one is a unique record of human thought—a reason, among many, why linguists document them.`,
+Roughly **7,000 languages** are spoken today, according to catalogs such as *Ethnologue*. Nearly half are endangered, many spoken only by elderly people. Each one is a unique record of human thought—a reason, among many, why linguists document them.` }],
       readings: [
         { kind: "book", title: "An Introduction to Language", author: "Victoria Fromkin, Robert Rodman, and Nina Hyams", publisher: "Cengage", year: "11th ed., 2018", note: "The opening chapter, “What Is Language?” The standard introductory textbook." },
         { kind: "book", title: "The Language Instinct", author: "Steven Pinker", publisher: "William Morrow", year: "1994", note: "Chapters 1–2: “An Instinct to Acquire an Art” and “Chatterboxes.” A lively argument that language is part of human biology." },
@@ -88,7 +88,7 @@ Roughly **7,000 languages** are spoken today, according to catalogs such as *Eth
     {
       title: "Phonetics: The Sounds of Speech",
       summary: "The vocal tract, the International Phonetic Alphabet, and describing consonants and vowels.",
-      lecture: `## Why spelling fails us
+      pages: [{ title: "Lecture", body: `## Why spelling fails us
 
 English spelling is a poor guide to pronunciation. The letters *ough* are pronounced differently in *though, through, rough, cough,* and *bough*; the sound in *shoe* is spelled differently in *sugar, nation, mission,* and *ocean*. To describe sounds precisely, linguists use the **International Phonetic Alphabet (IPA)**, first published in 1888, in which each symbol stands for exactly one sound. Phonetic transcription is written in square brackets: *cough* is [kɔf] or [kɒf] depending on the dialect.
 
@@ -124,7 +124,7 @@ Vowels have no obstruction; they are distinguished by the position of the tongue
 
 ## Beyond English
 
-The world's languages use sounds English lacks: the **clicks** of Zulu and Xhosa, the **ejectives** of Georgian and Quechua, the front rounded vowel [y] of French *tu*, the **tones** of Mandarin, in which *mā* (high level) "mother" and *mǎ* (dipping) "horse" differ only in pitch. The IPA provides a symbol for each—a reminder that the sounds of one's own language are only a small selection from the human repertoire.`,
+The world's languages use sounds English lacks: the **clicks** of Zulu and Xhosa, the **ejectives** of Georgian and Quechua, the front rounded vowel [y] of French *tu*, the **tones** of Mandarin, in which *mā* (high level) "mother" and *mǎ* (dipping) "horse" differ only in pitch. The IPA provides a symbol for each—a reminder that the sounds of one's own language are only a small selection from the human repertoire.` }],
       readings: [
         { kind: "book", title: "A Course in Phonetics", author: "Peter Ladefoged and Keith Johnson", publisher: "Cengage", year: "7th ed., 2015", note: "Chapter 1, “Articulation and Acoustics.” The classic textbook by the twentieth century's foremost phonetician." },
         { kind: "book", title: "An Introduction to Language", author: "Victoria Fromkin, Robert Rodman, and Nina Hyams", publisher: "Cengage", year: "11th ed., 2018", note: "The chapter on phonetics, the sounds of language." },
@@ -170,7 +170,7 @@ The world's languages use sounds English lacks: the **clicks** of Zulu and Xhosa
     {
       title: "Phonology: The Sound System",
       summary: "Phonemes, allophones, minimal pairs, and the hidden rules every speaker knows.",
-      lecture: `## Sounds and the mind
+      pages: [{ title: "Lecture", body: `## Sounds and the mind
 
 Phonetics studies sounds as physical events. **Phonology** studies how a particular language **organizes** them into a system. Two sounds that are physically different may count as "the same" for speakers of one language and as completely different for speakers of another.
 
@@ -201,7 +201,7 @@ Speakers' knowledge includes rules that alter sounds in context:
 
 Every language also has **phonotactic** constraints: rules about which sequences of sounds are permitted. English allows *blick* as a possible word that simply happens not to exist, but not *bnick*; no English word begins with [ŋ], though Vietnamese words can. Native speakers know these constraints instantly, as you can test by inventing words.
 
-Phonology, then, is a clear case of the unconscious knowledge that linguistics seeks to describe: rules no one taught us, which we nonetheless follow with perfect regularity.`,
+Phonology, then, is a clear case of the unconscious knowledge that linguistics seeks to describe: rules no one taught us, which we nonetheless follow with perfect regularity.` }],
       readings: [
         { kind: "book", title: "An Introduction to Language", author: "Victoria Fromkin, Robert Rodman, and Nina Hyams", publisher: "Cengage", year: "11th ed., 2018", note: "The chapter on phonology, the sound patterns of language." },
         { kind: "book", title: "Introductory Phonology", author: "Bruce Hayes", publisher: "Wiley-Blackwell", year: "2009", note: "Chapter 2, “Phonemic Analysis.” A clear, exercise-based introduction; optional." },
@@ -247,7 +247,7 @@ Phonology, then, is a clear case of the unconscious knowledge that linguistics s
     {
       title: "Words and Sentences: Morphology and Syntax",
       summary: "Morphemes, the world's word structures, constituency, and the creativity of syntax.",
-      lecture: `## Morphemes
+      pages: [{ title: "Lecture", body: `## Morphemes
 
 The smallest unit of meaning in a language is the **morpheme**. *Unhappiness* contains three: *un-* ("not"), *happy*, and *-ness* ("state of"). Morphemes that can stand alone, like *happy*, are **free**; those that must attach, like *un-* and *-ness*, are **bound**.
 
@@ -279,7 +279,7 @@ Both are nonsense, but every English speaker recognizes the first as **grammatic
 
 ## Recursion
 
-Syntax allows **recursion**: a phrase can contain another phrase of the same type, without limit. *This is the cat that killed the rat that ate the malt that lay in the house that Jack built.* Because of recursion, a finite set of words and rules can produce an infinite number of sentences—the formal basis of the **productivity** we met in the first lesson. Wilhelm von Humboldt put it in the nineteenth century: language makes "infinite use of finite means."`,
+Syntax allows **recursion**: a phrase can contain another phrase of the same type, without limit. *This is the cat that killed the rat that ate the malt that lay in the house that Jack built.* Because of recursion, a finite set of words and rules can produce an infinite number of sentences—the formal basis of the **productivity** we met in the first lesson. Wilhelm von Humboldt put it in the nineteenth century: language makes "infinite use of finite means."` }],
       readings: [
         { kind: "book", title: "An Introduction to Language", author: "Victoria Fromkin, Robert Rodman, and Nina Hyams", publisher: "Cengage", year: "11th ed., 2018", note: "The chapters on morphology and syntax." },
         { kind: "book", title: "Syntactic Structures", author: "Noam Chomsky", publisher: "Mouton", year: "1957", note: "Chapters 1–2. A short book that changed the field; read for its argument, not its formalism." },
@@ -325,7 +325,7 @@ Syntax allows **recursion**: a phrase can contain another phrase of the same typ
     {
       title: "Meaning and Use: Semantics and Pragmatics",
       summary: "Sense and reference, entailment, Grice's maxims, and doing things with words.",
-      lecture: `## Semantics
+      pages: [{ title: "Lecture", body: `## Semantics
 
 **Semantics** studies the literal meaning of words and sentences. One of its founding distinctions comes from the German logician **Gottlob Frege**, in "On Sense and Reference" (1892). The phrases *the morning star* and *the evening star* **refer** to the same object—the planet Venus—but they have different **senses**, different ways of presenting that object. That is why "The morning star is the evening star" can be a discovery, while "The morning star is the morning star" cannot.
 
@@ -354,7 +354,7 @@ The philosopher **J. L. Austin**, in *How to Do Things with Words* (1962), obser
 
 ## The whole picture
 
-We have now climbed through the levels of language: sound, sound system, word, sentence, meaning, and use. Each level has its own rules, and native speakers master them all before they can tie their shoes. That achievement—how it happens, how it varies across the world, how it changes over time—is the subject of the rest of the Linguistics concentration.`,
+We have now climbed through the levels of language: sound, sound system, word, sentence, meaning, and use. Each level has its own rules, and native speakers master them all before they can tie their shoes. That achievement—how it happens, how it varies across the world, how it changes over time—is the subject of the rest of the Linguistics concentration.` }],
       readings: [
         { kind: "book", title: "An Introduction to Language", author: "Victoria Fromkin, Robert Rodman, and Nina Hyams", publisher: "Cengage", year: "11th ed., 2018", note: "The chapter on semantics and pragmatics." },
         { kind: "book", title: "Studies in the Way of Words", author: "H. P. Grice", publisher: "Harvard University Press", year: "1989", note: "Essay 2, “Logic and Conversation” (first delivered in 1967). The source of the cooperative principle." },

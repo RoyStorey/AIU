@@ -36,10 +36,17 @@ export const Question = z.object({
   explanation: z.string(),
 });
 
+/** One page of a lesson's lecture. Minutes default to an estimate from its length. */
+export const Page = z.object({
+  title: z.string(),
+  body: z.string(),
+  minutes: z.number().int().optional(),
+});
+
 export const Lesson = z.object({
   title: z.string(),
   summary: z.string(),
-  lecture: z.string(),
+  pages: z.array(Page).min(1),
   readings: z.array(Resource),
   media: z.array(Resource),
   questions: z.array(Question).min(1),
@@ -60,6 +67,7 @@ export const CourseContent = z.object({
 
 export type Resource = z.infer<typeof Resource>;
 export type Question = z.infer<typeof Question>;
+export type Page = z.infer<typeof Page>;
 export type Lesson = z.infer<typeof Lesson>;
 export type LibrarySection = z.infer<typeof LibrarySection>;
 export type CourseContent = z.infer<typeof CourseContent>;

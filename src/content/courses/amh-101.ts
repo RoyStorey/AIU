@@ -17,7 +17,7 @@ This course follows that transformation through the documents the revolutionarie
     {
       title: "Being a British Colonist",
       summary: "The colonies within the British Empire, and the war that changed everything.",
-      lecture: `## Loyal subjects
+      pages: [{ title: "Lecture", body: `## Loyal subjects
 
 To understand the Revolution we must first forget that it happened. In 1760 nobody expected it. The thirteen mainland colonies, from New Hampshire to Georgia, had little in common with one another; most colonists felt closer ties to London than to neighboring colonies. They thought of themselves as **Britons** living across the Atlantic, heirs of the Glorious Revolution of 1688 and of the "rights of Englishmen": trial by jury, the protection of property, and, above all, taxation only by their own consent through their elected assemblies.
 
@@ -39,7 +39,7 @@ The first sign of the new policy was the **Proclamation of 1763**, which forbade
 
 ## The historian's question
 
-Joanne Freeman's Yale course begins with a warning against hindsight: the participants did not know how the story would end, and most of them did not want independence until very late. As you read, practice what historians call **contingency**—the recognition that things could have turned out otherwise. The Revolution was not inevitable; it was made, step by step, by people making choices under uncertainty.`,
+Joanne Freeman's Yale course begins with a warning against hindsight: the participants did not know how the story would end, and most of them did not want independence until very late. As you read, practice what historians call **contingency**—the recognition that things could have turned out otherwise. The Revolution was not inevitable; it was made, step by step, by people making choices under uncertainty.` }],
       readings: [
         { kind: "book", title: "The American Revolution: A History", author: "Gordon S. Wood", publisher: "Modern Library", year: "2002", note: "Chapter 1, “Origins.” A brilliant short history, and the main text of Freeman's Yale course." },
         { kind: "book", title: "Crucible of War: The Seven Years' War and the Fate of Empire in British North America, 1754–1766", author: "Fred Anderson", publisher: "Alfred A. Knopf", year: "2000", note: "Introduction and Part I. The definitive account of the war that set the Revolution in motion. Optional." },
@@ -80,7 +80,7 @@ Joanne Freeman's Yale course begins with a warning against hindsight: the partic
     {
       title: "The Imperial Crisis, 1764–1774",
       summary: "Taxes, protests, and the escalating argument over Parliament's authority.",
-      lecture: `## A decade of crisis
+      pages: [{ title: "Lecture", body: `## A decade of crisis
 
 Between 1764 and 1774 the British government and the colonies argued about one question in ever sharper terms: **Did Parliament have the right to tax the colonies?** Each British measure provoked colonial resistance; each act of resistance provoked a firmer British response.
 
@@ -106,7 +106,7 @@ Parliament repealed all the Townshend duties except the one on tea. In 1773 the 
 
 ## The Coercive Acts
 
-Britain's response in 1774—the **Coercive Acts**, which colonists called the **Intolerable Acts**—closed the port of Boston, suspended the Massachusetts charter, and allowed royal officials accused of crimes to be tried elsewhere. Meant to isolate Massachusetts, they united the colonies instead. In September 1774 twelve colonies sent delegates to the **First Continental Congress** in Philadelphia, which organized a continent-wide boycott. The argument had become a crisis of the empire itself.`,
+Britain's response in 1774—the **Coercive Acts**, which colonists called the **Intolerable Acts**—closed the port of Boston, suspended the Massachusetts charter, and allowed royal officials accused of crimes to be tried elsewhere. Meant to isolate Massachusetts, they united the colonies instead. In September 1774 twelve colonies sent delegates to the **First Continental Congress** in Philadelphia, which organized a continent-wide boycott. The argument had become a crisis of the empire itself.` }],
       readings: [
         { kind: "book", title: "The American Revolution: A History", author: "Gordon S. Wood", publisher: "Modern Library", year: "2002", note: "Chapter 2, “Resistance.”" },
         { kind: "book", title: "The Glorious Cause: The American Revolution, 1763–1789", author: "Robert Middlekauff", publisher: "Oxford University Press", year: "rev. ed., 2005", note: "Chapters 4–10, a detailed narrative of the imperial crisis (Oxford History of the United States)." },
@@ -153,7 +153,7 @@ Britain's response in 1774—the **Coercive Acts**, which colonists called the *
     {
       title: "The Ideas of the Revolution",
       summary: "Liberty, power, and conspiracy: the ideological world of the revolutionaries, and Common Sense.",
-      lecture: `## Why so much fuss over a tax?
+      pages: [{ title: "Lecture", body: `## Why so much fuss over a tax?
 
 The taxes at issue in the imperial crisis were small. Why did colonists respond as if their liberty were at stake? The historian **Bernard Bailyn** answered this question in *The Ideological Origins of the American Revolution* (1967), one of the most influential works of American history ever written.
 
@@ -179,7 +179,7 @@ Written in plain, forceful prose for ordinary readers, *Common Sense* went throu
 
 ## Republicanism
 
-What did the revolutionaries want in place of monarchy? A **republic**: a government without a king, deriving its authority from the people. Classical republican thought, drawn from Rome and Renaissance Italy, held that a republic depended on **virtue**—citizens' willingness to sacrifice private interest for the public good. This was an inspiring but demanding ideal, and the question whether Americans possessed enough virtue to sustain a republic would haunt the next decade.`,
+What did the revolutionaries want in place of monarchy? A **republic**: a government without a king, deriving its authority from the people. Classical republican thought, drawn from Rome and Renaissance Italy, held that a republic depended on **virtue**—citizens' willingness to sacrifice private interest for the public good. This was an inspiring but demanding ideal, and the question whether Americans possessed enough virtue to sustain a republic would haunt the next decade.` }],
       readings: [
         { kind: "edition", title: "Common Sense", author: "Thomas Paine", publisher: "Project Gutenberg (1776 text)", url: "https://www.gutenberg.org/ebooks/147", note: "Read the whole pamphlet; it is short. Note especially the sections “Of Monarchy and Hereditary Succession” and “Thoughts on the Present State of American Affairs.”" },
         { kind: "book", title: "The Ideological Origins of the American Revolution", author: "Bernard Bailyn", publisher: "Belknap Press of Harvard University Press", year: "1967; 50th anniversary ed., 2017", note: "Chapters 2–4: “Sources and Traditions,” “Power and Liberty: A Theory of Politics,” and “The Logic of Rebellion.” Winner of the Pulitzer Prize." },
@@ -219,7 +219,7 @@ What did the revolutionaries want in place of monarchy? A **republic**: a govern
     {
       title: "Independence",
       summary: "From Lexington to the Declaration of Independence.",
-      lecture: `## The shot heard round the world
+      pages: [{ title: "Lecture", body: `## The shot heard round the world
 
 In April 1775 General Thomas Gage sent British troops from Boston to seize colonial military supplies at Concord. Warned by riders including Paul Revere and William Dawes, militiamen gathered. On **April 19, 1775**, shots were exchanged on Lexington Green and at Concord's North Bridge; on the long march back to Boston, the British column was harried by thousands of militia. The war had begun—though not yet a war for independence.
 
@@ -245,7 +245,7 @@ The second, longest part is a **list of grievances**—twenty-seven charges, eac
 
 ## What Congress cut
 
-Congress removed about a quarter of Jefferson's draft. Most notably it struck a passage blaming George III for the Atlantic slave trade, which Jefferson called "cruel war against human nature itself." Delegates from South Carolina and Georgia objected, and some Northerners whose merchants profited from the trade were uncomfortable. The contradiction between "all men are created equal" and the slavery practiced in every state was visible from the start—and, as Lincoln and Frederick Douglass would later insist, the Declaration's principles would become the standard by which that contradiction was judged.`,
+Congress removed about a quarter of Jefferson's draft. Most notably it struck a passage blaming George III for the Atlantic slave trade, which Jefferson called "cruel war against human nature itself." Delegates from South Carolina and Georgia objected, and some Northerners whose merchants profited from the trade were uncomfortable. The contradiction between "all men are created equal" and the slavery practiced in every state was visible from the start—and, as Lincoln and Frederick Douglass would later insist, the Declaration's principles would become the standard by which that contradiction was judged.` }],
       readings: [
         { kind: "website", title: "The Declaration of Independence: A Transcription", publisher: "U.S. National Archives", url: "https://www.archives.gov/founding-docs/declaration-transcript", note: "Read the entire text, noting its three parts." },
         { kind: "book", title: "American Scripture: Making the Declaration of Independence", author: "Pauline Maier", publisher: "Alfred A. Knopf", year: "1997", note: "Chapters 2–3. Maier shows the Declaration as one of some ninety local declarations of independence, and traces Congress's edits." },
@@ -292,7 +292,7 @@ Congress removed about a quarter of Jefferson's draft. Most notably it struck a 
     {
       title: "From War to Constitution",
       summary: "Victory, the Articles of Confederation, and the making of the Constitution.",
-      lecture: `## Winning the war
+      pages: [{ title: "Lecture", body: `## Winning the war
 
 The war lasted eight years. Washington's Continental Army lost more battles than it won, but it survived—which was enough. The turning point came at **Saratoga** in October 1777, where General John Burgoyne surrendered an entire British army. The victory persuaded France to enter an **alliance** with the United States in 1778, transforming a colonial rebellion into a world war. In **October 1781**, a combined American and French force, with a French fleet blocking escape by sea, trapped General Cornwallis at **Yorktown**, Virginia. His surrender ended major fighting. The **Treaty of Paris (1783)** recognized American independence, with a western boundary at the Mississippi.
 
@@ -323,7 +323,7 @@ The Constitution was ratified in 1788; Washington was inaugurated in 1789; the *
 
 ## How radical was the Revolution?
 
-Gordon Wood's *The Radicalism of the American Revolution* (1992) argues that the Revolution was as radical as any in history—not because it overturned property or the economy, but because it destroyed the hierarchical, monarchical society of colonial America and created a democratic society of independent, equal citizens, in ways its founders neither foresaw nor always welcomed. Other historians stress how much it left unchanged, above all for enslaved people, women, and Native nations. Weighing these arguments is the work of AMH 401.`,
+Gordon Wood's *The Radicalism of the American Revolution* (1992) argues that the Revolution was as radical as any in history—not because it overturned property or the economy, but because it destroyed the hierarchical, monarchical society of colonial America and created a democratic society of independent, equal citizens, in ways its founders neither foresaw nor always welcomed. Other historians stress how much it left unchanged, above all for enslaved people, women, and Native nations. Weighing these arguments is the work of AMH 401.` }],
       readings: [
         { kind: "website", title: "The Federalist, Nos. 10 and 51", author: "James Madison", publisher: "Project Gutenberg (The Federalist Papers)", url: "https://www.gutenberg.org/ebooks/1404", note: "Read Federalist No. 10 (factions and the extended republic) and No. 51 (checks and balances)." },
         { kind: "website", title: "The Constitution of the United States: A Transcription", publisher: "U.S. National Archives", url: "https://www.archives.gov/founding-docs/constitution-transcript", note: "Read Articles I–III and identify where powers are separated and checked." },

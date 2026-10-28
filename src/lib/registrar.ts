@@ -228,7 +228,7 @@ export function submitEssay(userId: number, courseId: string, lessonIndex: numbe
     const feedback = await gradeEssay({
       course: `${course.code} ${course.title}`,
       lesson: lesson.title,
-      lecture: lesson.lecture,
+      lecture: lesson.pages.map((p) => `## ${p.title}\n\n${p.body}`).join("\n\n"),
       prompt: lesson.reflection!,
       response,
     });

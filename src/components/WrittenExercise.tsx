@@ -6,6 +6,7 @@ import type { User } from "@/lib/auth";
 import { forgeAvailable } from "@/lib/forge";
 import { essaysFor, type Essay } from "@/lib/registrar";
 import { ESSAY_LIMITS, type Feedback } from "@/lib/schema";
+import { formatMinutes } from "@/lib/timing";
 
 const MARK_NOTE: Record<Feedback["mark"], string> = {
   Distinction: "An excellent piece of work.",
@@ -79,8 +80,9 @@ function Report({ feedback }: { feedback: Feedback }) {
  * A lesson's written exercise: the question, the student's response, and the
  * tutor's report on each submission.
  */
-export function WrittenExercise({ prompt, courseId, lessonIndex, user }: {
+export function WrittenExercise({ prompt, minutes, courseId, lessonIndex, user }: {
   prompt: string;
+  minutes: number;
   courseId: string;
   lessonIndex: number;
   user: User | null;
@@ -88,10 +90,11 @@ export function WrittenExercise({ prompt, courseId, lessonIndex, user }: {
   const essays: Essay[] = user ? essaysFor(user.id, courseId, lessonIndex) : [];
   const [latest] = essays;
   const graded = essays.find((e) => e.status === "ready");
-  const here = `/courses/${courseId}/lessons/${lessonIndex + 1}`;
+  const here = `/courses/${courseId}/lessons/${lessonIndex + 1}/exercises`;
 
   return (
     <section className="exercise" id="written-exercise">
+      <p className="eyebrow">About {formatMinutes(minutes)}</p>
       <h2>Written Exercise</h2>
       <p className="exercise-prompt">{prompt}</p>
 

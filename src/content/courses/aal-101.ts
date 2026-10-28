@@ -15,7 +15,7 @@ This course reads the founding texts of the tradition: the neoclassical poems of
     {
       title: "Phillis Wheatley and the Right to Write",
       summary: "The first book of poems by an African American, and the trial that preceded it.",
-      lecture: `## A child sold in Boston
+      pages: [{ title: "Lecture", body: `## A child sold in Boston
 
 In 1761 a slave ship called the *Phillis* brought a girl of about seven from West Africa to Boston. She was bought by the merchant John Wheatley and named for the vessel that had carried her. Within sixteen months, his household reported, she could read the most difficult passages of the Bible; within a few years she was reading Latin and writing poems modeled on Alexander Pope.
 
@@ -46,7 +46,7 @@ Many twentieth-century readers found the poem embarrassing: it seems to thank sl
 
 Not everyone was persuaded. In *Notes on the State of Virginia* (1785), Thomas Jefferson wrote that "Religion indeed has produced a Phyllis Whately; but it could not produce a poet. The compositions published under her name are below the dignity of criticism." The dismissal itself proves Wheatley's importance: her book had become evidence in the argument over whether Africans were fully human, and Jefferson felt obliged to answer it.
 
-Wheatley was freed shortly after her book appeared. She married, lost two children in infancy, and died in poverty in Boston in 1784, about thirty-one years old, with a second volume of poems unpublished.`,
+Wheatley was freed shortly after her book appeared. She married, lost two children in infancy, and died in poverty in Boston in 1784, about thirty-one years old, with a second volume of poems unpublished.` }],
       readings: [
         { kind: "edition", title: "Poems on Various Subjects, Religious and Moral", author: "Phillis Wheatley", publisher: "Project Gutenberg (1773 text)", url: "https://www.gutenberg.org/ebooks/409", note: "Read the attestation, “On Being Brought from Africa to America,” “To the University of Cambridge, in New-England,” and “To the Right Honourable William, Earl of Dartmouth.”" },
         { kind: "website", title: "On Being Brought from Africa to America", author: "Phillis Wheatley", publisher: "Representative Poetry Online", url: "https://rpo.library.utoronto.ca/poems/being-brought-africa-america" },
@@ -86,7 +86,7 @@ Wheatley was freed shortly after her book appeared. She married, lost two childr
     {
       title: "Frederick Douglass: The Narrative",
       summary: "Literacy, violence, and selfhood in the most famous slave narrative.",
-      lecture: `## The book that made a name
+      pages: [{ title: "Lecture", body: `## The book that made a name
 
 Frederick Douglass was born into slavery on Maryland's Eastern Shore around 1818. He escaped in 1838, settled in New Bedford, Massachusetts, and within three years was lecturing for the American Anti-Slavery Society. He was so eloquent that audiences began to doubt he had ever been a slave. His answer was a book: *Narrative of the Life of Frederick Douglass, an American Slave, Written by Himself* (1845).
 
@@ -118,7 +118,7 @@ Seven years later, in Rochester, New York, Douglass delivered his most famous sp
 
 > What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.
 
-Yet the speech ends in hope, grounded in the principles of the Declaration of Independence. Douglass's genius is to hold the nation to its own founding words.`,
+Yet the speech ends in hope, grounded in the principles of the Declaration of Independence. Douglass's genius is to hold the nation to its own founding words.` }],
       readings: [
         { kind: "edition", title: "Narrative of the Life of Frederick Douglass, an American Slave", author: "Frederick Douglass", publisher: "Project Gutenberg (1845 text)", url: "https://www.gutenberg.org/ebooks/23", note: "Read the whole: the prefaces, chapters I–XI, and the Appendix. Pay special attention to chapters VI–VII (literacy) and X (Covey)." },
         { kind: "book", title: "Frederick Douglass: Prophet of Freedom", author: "David W. Blight", publisher: "Simon & Schuster", year: "2018", note: "Pulitzer Prize–winning biography. Read chapters 1–8 for the years of slavery and the writing of the Narrative." },
@@ -164,7 +164,7 @@ Yet the speech ends in hope, grounded in the principles of the Declaration of In
     {
       title: "Harriet Jacobs: Incidents in the Life of a Slave Girl",
       summary: "A woman's slave narrative, its address to Northern women, and the garret where she hid for seven years.",
-      lecture: `## A book doubted for a century
+      pages: [{ title: "Lecture", body: `## A book doubted for a century
 
 *Incidents in the Life of a Slave Girl, Written by Herself* appeared in 1861 under the pseudonym "Linda Brent," with an introduction by the abolitionist writer Lydia Maria Child. For more than a century many historians assumed it was a novel, perhaps written by Child herself. In 1981 the scholar Jean Fagan Yellin published letters proving that Harriet Jacobs (c. 1813–1897) had written it and that its events were true; her annotated edition of 1987 changed the study of the slave narrative.
 
@@ -192,7 +192,7 @@ Linda finally escapes to the North in 1842, but the Fugitive Slave Act of 1850 m
 
 ## Douglass and Jacobs
 
-Read together, the two narratives show how the slave narrative could take different shapes for different purposes. Douglass emphasizes self-making, literacy, and physical resistance; Jacobs, the family, the community that hides her, and the particular vulnerability of women. Both insist on writing "by himself" and "by herself"—on the authority of their own voices.`,
+Read together, the two narratives show how the slave narrative could take different shapes for different purposes. Douglass emphasizes self-making, literacy, and physical resistance; Jacobs, the family, the community that hides her, and the particular vulnerability of women. Both insist on writing "by himself" and "by herself"—on the authority of their own voices.` }],
       readings: [
         { kind: "edition", title: "Incidents in the Life of a Slave Girl, Written by Herself", author: "Harriet A. Jacobs", publisher: "Project Gutenberg (1861 text)", url: "https://www.gutenberg.org/ebooks/11030", note: "Read the Preface, Child's Introduction, and chapters I–XXI, including “The Loophole of Retreat,” and the final chapter." },
         { kind: "book", title: "Incidents in the Life of a Slave Girl (enlarged edition)", author: "Harriet A. Jacobs, ed. Jean Fagan Yellin", publisher: "Harvard University Press", year: "2009", note: "The authoritative annotated edition by the scholar who established Jacobs's authorship." },
@@ -232,7 +232,7 @@ Read together, the two narratives show how the slave narrative could take differ
     {
       title: "W. E. B. Du Bois: The Souls of Black Folk",
       summary: "The veil, double consciousness, the color line, and the Sorrow Songs.",
-      lecture: `## The problem of the twentieth century
+      pages: [{ title: "Lecture", body: `## The problem of the twentieth century
 
 William Edward Burghardt Du Bois (1868–1963) was born in Great Barrington, Massachusetts, studied at Fisk University, Harvard, and the University of Berlin, and in 1895 became the first African American to earn a Ph.D. from Harvard. In 1903 he gathered essays written over several years into *The Souls of Black Folk*. Its "Forethought" contains one of the most quoted sentences in American writing:
 
@@ -258,7 +258,7 @@ The third essay, "Of Mr. Booker T. Washington and Others," challenged the most p
 
 ## The Sorrow Songs
 
-The final chapter, "The Sorrow Songs," explains those bars of music. Du Bois calls the spirituals "the most beautiful expression of human experience born this side the seas," and "the singular spiritual heritage of the nation." In them he hears the history the book has traced: sorrow, but also faith that "sometime, somewhere, men will judge men by their souls and not by their skins."`,
+The final chapter, "The Sorrow Songs," explains those bars of music. Du Bois calls the spirituals "the most beautiful expression of human experience born this side the seas," and "the singular spiritual heritage of the nation." In them he hears the history the book has traced: sorrow, but also faith that "sometime, somewhere, men will judge men by their souls and not by their skins."` }],
       readings: [
         { kind: "edition", title: "The Souls of Black Folk", author: "W. E. B. Du Bois", publisher: "Project Gutenberg (1903 text)", url: "https://www.gutenberg.org/ebooks/408", note: "Read the Forethought and chapters I, III, V, XI, XIII, and XIV (“The Sorrow Songs”)." },
         { kind: "book", title: "W. E. B. Du Bois: Biography of a Race, 1868–1919", author: "David Levering Lewis", publisher: "Henry Holt", year: "1993", note: "The first volume of the Pulitzer Prize–winning biography; chapters on the writing of Souls." },
@@ -297,7 +297,7 @@ The final chapter, "The Sorrow Songs," explains those bars of music. Du Bois cal
     {
       title: "The Mask and the Tradition",
       summary: "Dunbar, the Harlem Renaissance, and how the founding texts speak to later writers.",
-      lecture: `## A tradition that talks to itself
+      pages: [{ title: "Lecture", body: `## A tradition that talks to itself
 
 A literary tradition is not merely a list of authors who share a background. It is a set of texts that **answer one another**—that revise, echo, and argue with what came before. Henry Louis Gates Jr. calls this practice, borrowed from African American vernacular, **Signifyin(g)**: repetition with a difference. In this final lesson we trace a few of the threads that run from the founding texts into the twentieth century.
 
@@ -323,7 +323,7 @@ In the 1920s, a generation of writers centered in Harlem—Langston Hughes, Zora
 
 ## Literacy and voice, again
 
-Return finally to the scene that runs through the tradition: the moment of learning to read and write. Douglass trades bread for letters; Jacobs writes from the garret; Du Bois carries his learning behind the veil. In the twentieth century the scene recurs in Richard Wright's *Black Boy*, in Malcolm X's account of copying the dictionary in prison, and in Toni Morrison's *Beloved*, where literacy can be used to dehumanize as well as to free. To read African American literature is to watch writers continually reclaim the authority that was first denied them: the right to say "written by myself."`,
+Return finally to the scene that runs through the tradition: the moment of learning to read and write. Douglass trades bread for letters; Jacobs writes from the garret; Du Bois carries his learning behind the veil. In the twentieth century the scene recurs in Richard Wright's *Black Boy*, in Malcolm X's account of copying the dictionary in prison, and in Toni Morrison's *Beloved*, where literacy can be used to dehumanize as well as to free. To read African American literature is to watch writers continually reclaim the authority that was first denied them: the right to say "written by myself."` }],
       readings: [
         { kind: "website", title: "We Wear the Mask", author: "Paul Laurence Dunbar", publisher: "Poetry Foundation", url: "https://www.poetryfoundation.org/poems/44203/we-wear-the-mask", note: "Read aloud; notice how the rondeau's refrain returns." },
         { kind: "book", title: "The Norton Anthology of African American Literature", author: "Henry Louis Gates Jr. and Valerie A. Smith, eds.", publisher: "W. W. Norton", year: "3rd ed., 2014", note: "Read the period introductions to “The Literature of Slavery and Freedom” and “Harlem Renaissance,” and the selections from Dunbar, J. W. Johnson, and Hughes." },

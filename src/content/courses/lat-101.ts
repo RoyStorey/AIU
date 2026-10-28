@@ -15,7 +15,7 @@ This course begins at the beginning. We learn to pronounce Latin as the Romans o
     {
       title: "The Sounds of Latin",
       summary: "The alphabet, the restored classical pronunciation, vowel length, and accent.",
-      lecture: `## Why pronunciation matters
+      pages: [{ title: "Lecture", body: `## Why pronunciation matters
 
 Latin is often called a "dead" language, but it was spoken for centuries before it was written down, and its poetry depends entirely on sound. Virgil's hexameters are built from long and short syllables; a reader who cannot hear them cannot hear the poem. We therefore learn to read Latin aloud from the first day.
 
@@ -65,7 +65,7 @@ Read aloud the opening of the *Aeneid*:
 > Ītaliam, fātō profugus, Lāvīniaque vēnit
 > lītora…
 
-"I sing of arms and the man, who first from the shores of Troy, an exile by fate, came to Italy and the Lavinian shores…" Listen to recordings made in the restored pronunciation and imitate them. Ten minutes of listening a day will do more for your Latin than an hour of silent drill.`,
+"I sing of arms and the man, who first from the shores of Troy, an exile by fate, came to Italy and the Lavinian shores…" Listen to recordings made in the restored pronunciation and imitate them. Ten minutes of listening a day will do more for your Latin than an hour of silent drill.` }],
       readings: [
         { kind: "book", title: "Wheelock's Latin", author: "Frederic M. Wheelock, revised by Richard A. LaFleur", publisher: "HarperCollins", year: "7th ed., 2011", note: "Introduction: “The Alphabet and Pronunciation” and “Syllables and Accent.”" },
         { kind: "book", title: "Vox Latina: A Guide to the Pronunciation of Classical Latin", author: "W. Sidney Allen", publisher: "Cambridge University Press", year: "2nd ed., 1978", note: "Chapters 1–2 on consonants and vowels. The scholarly authority on classical pronunciation." },
@@ -105,7 +105,7 @@ Read aloud the opening of the *Aeneid*:
     {
       title: "The Verb: Person, Number, and the Present",
       summary: "Principal parts, the present system of the first two conjugations, and the verb “to be.”",
-      lecture: `## A language of endings
+      pages: [{ title: "Lecture", body: `## A language of endings
 
 English shows who does what mostly by **word order**: "the farmer loves the poet" and "the poet loves the farmer" mean different things. Latin shows it by **endings**. This is the single most important fact about the language, and it begins with the verb.
 
@@ -163,7 +163,7 @@ The infinitive is **esse**, "to be." Descartes's famous sentence uses it: **Cōg
 
 ## How to study
 
-Say every paradigm aloud until it comes without thought, as a musician learns scales. Wheelock recommends the time-tested method: read, recite, write, and recite again. Ten minutes twice a day is better than an hour once a week.`,
+Say every paradigm aloud until it comes without thought, as a musician learns scales. Wheelock recommends the time-tested method: read, recite, write, and recite again. Ten minutes twice a day is better than an hour once a week.` }],
       readings: [
         { kind: "book", title: "Wheelock's Latin", author: "Frederic M. Wheelock, revised by Richard A. LaFleur", publisher: "HarperCollins", year: "7th ed., 2011", note: "Chapter 1, “Verbs; First and Second Conjugations,” with its Sententiae Antīquae, and the section on sum in Chapter 4." },
         { kind: "website", title: "Allen and Greenough's New Latin Grammar", publisher: "Dickinson College Commentaries", url: "https://dcc.dickinson.edu/grammar/latin/", note: "The standard reference grammar, free online. Consult its section on verb inflection as you study." },
@@ -208,7 +208,7 @@ Say every paradigm aloud until it comes without thought, as a musician learns sc
     {
       title: "Nouns and the Cases",
       summary: "The first declension and what each of the six cases does.",
-      lecture: `## Case
+      pages: [{ title: "Lecture", body: `## Case
 
 A Latin noun changes its ending to show its **function** in the sentence. These functions are called **cases**, and the set of forms a noun takes is its **declension**. Because the ending carries the meaning, Latin word order is free to serve emphasis and art:
 
@@ -254,7 +254,7 @@ Latin nouns have **grammatical gender**: masculine, feminine, or neuter. First-d
 
 When you meet a Latin sentence, do not read it left to right as English. First find the verb. Then look for a nominative that agrees with it in number—that is the subject. Then look for an accusative—that is the object. Read the endings first, and the order will take care of itself.
 
-An old proverb shows the cases at work: **Fortūna fortēs adiuvat**—"Fortune helps the brave." **Fortūna** is nominative; **fortēs** (a third-declension word you will meet later) is accusative.`,
+An old proverb shows the cases at work: **Fortūna fortēs adiuvat**—"Fortune helps the brave." **Fortūna** is nominative; **fortēs** (a third-declension word you will meet later) is accusative.` }],
       readings: [
         { kind: "book", title: "Wheelock's Latin", author: "Frederic M. Wheelock, revised by Richard A. LaFleur", publisher: "HarperCollins", year: "7th ed., 2011", note: "Chapter 2, “Nouns and Cases; First Declension; Agreement of Adjectives; Syntax.”" },
         { kind: "book", title: "Lingua Latina per se Illustrata, Pars I: Familia Romana", author: "Hans H. Ørberg", publisher: "Focus Publishing (now Hackett)", year: "2003", note: "Capitulum II, “Familia Rōmāna,” which introduces the genitive through Julius's household." },
@@ -299,7 +299,7 @@ An old proverb shows the cases at work: **Fortūna fortēs adiuvat**—"Fortune 
     {
       title: "The Second Declension and Adjectives",
       summary: "Masculine and neuter nouns of the second declension, and how adjectives agree.",
-      lecture: `## The second declension
+      pages: [{ title: "Lecture", body: `## The second declension
 
 Nouns whose genitive singular ends in **-ī** belong to the **second declension**. Most are **masculine** and end in **-us** in the nominative; others are **neuter** and end in **-um**.
 
@@ -344,7 +344,7 @@ The verb **sum** links a subject to a **predicate**, and a predicate adjective a
 
 ## A note on vocabulary
 
-From this point onward, vocabulary is the chief labor of learning Latin. The Dickinson College Commentaries' core list of the thousand most frequent Latin words covers the great majority of the word forms in a typical classical text. Learn your textbook's vocabulary with macrons, gender, and genitive, and review it daily.`,
+From this point onward, vocabulary is the chief labor of learning Latin. The Dickinson College Commentaries' core list of the thousand most frequent Latin words covers the great majority of the word forms in a typical classical text. Learn your textbook's vocabulary with macrons, gender, and genitive, and review it daily.` }],
       readings: [
         { kind: "book", title: "Wheelock's Latin", author: "Frederic M. Wheelock, revised by Richard A. LaFleur", publisher: "HarperCollins", year: "7th ed., 2011", note: "Chapters 3 and 4: “Second Declension: Masculine Nouns and Adjectives; Apposition; Word Order” and “Second Declension Neuters; Adjectives; Present Indicative of Sum.”" },
         { kind: "book", title: "38 Latin Stories Designed to Accompany Wheelock's Latin", author: "Anne H. Groton and James M. May", publisher: "Bolchazy-Carducci", year: "5th ed., 1995", note: "Read the stories for Chapters 2–4: short adapted passages using only the grammar you have learned." },
@@ -383,7 +383,7 @@ From this point onward, vocabulary is the chief labor of learning Latin. The Dic
     {
       title: "Reading Latin: Familia Romana",
       summary: "From grammar to reading: the method of Ørberg and the first chapter of Familia Romana.",
-      lecture: `## Two methods
+      pages: [{ title: "Lecture", body: `## Two methods
 
 There are two great traditions of teaching Latin. The **grammar-translation** method, represented by Wheelock, teaches the system first—paradigms, rules, vocabulary—and then applies it to sentences. The **natural** or **inductive** method, represented by Hans Ørberg's *Lingua Latina per se Illustrata* (first published in 1955), teaches Latin entirely in Latin: a continuous story, illustrated in the margins, in which each new word and form is introduced in a context that makes its meaning clear.
 
@@ -422,7 +422,7 @@ As you continue, you will rely on a few indispensable tools:
 
 ## Where this leads
 
-In LAT 102 you will complete the grammar: the remaining declensions, the past and future tenses, participles, and the subjunctive. In LAT 201 you will read Caesar and Cicero unadapted. That is not far away. **Dīmidium factī quī coepit habet**, wrote Horace: "He who has begun has half the deed done."`,
+In LAT 102 you will complete the grammar: the remaining declensions, the past and future tenses, participles, and the subjunctive. In LAT 201 you will read Caesar and Cicero unadapted. That is not far away. **Dīmidium factī quī coepit habet**, wrote Horace: "He who has begun has half the deed done."` }],
       readings: [
         { kind: "book", title: "Lingua Latina per se Illustrata, Pars I: Familia Romana", author: "Hans H. Ørberg", publisher: "Focus Publishing (now Hackett)", year: "2003", note: "Capitulum I, “Imperium Rōmānum.” Read it aloud twice, consulting the marginal notes and map, before looking up anything." },
         { kind: "book", title: "Latine Disco: Student's Manual", author: "Hans H. Ørberg", publisher: "Focus Publishing (now Hackett)", year: "2005", note: "The English-language companion that explains the grammar of each chapter of Familia Romana." },

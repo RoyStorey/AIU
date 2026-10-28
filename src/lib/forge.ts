@@ -8,6 +8,8 @@ import {
   Feedback,
   CourseContent,
   CourseOutline,
+  Lesson,
+  LibrarySection,
   type Resource,
 } from "@/lib/schema";
 
@@ -137,6 +139,17 @@ function keepFoundLinks(resource: Resource, found: Set<string>): Resource {
 
 // ——— Public operations ———
 
+const CoursePlan = z.object({
+  overview: z.string(),
+  objectives: z.array(z.string()),
+  lessons: z.array(z.object({
+    title: z.string(),
+    summary: z.string(),
+    pages: z.array(z.string()).describe("The titles of the lesson's pages, in order, each with a one-line description."),
+  })),
+  library: z.array(LibrarySection),
+});
+
 const Placement = z.object({
   faculty: z.string().describe('The slug of the existing faculty this belongs in, or "new" if it needs a faculty of its own.'),
   facultyName: z.string().describe("For a new faculty, its name, e.g. Philosophy. Otherwise repeat the existing faculty name."),
@@ -233,8 +246,7 @@ lectures, recorded readings, documentaries, podcast episodes. Give the exact URL
 Write your findings as an annotated list. For every item give title, author or creator, publisher or host, year, \
 and the exact URL you found. Do not include anything you could not confirm.`);
 
-  const content = await compose(CourseContent, `Write the complete course below for a serious adult student \
-studying on their own.
+  const plan = await compose(CoursePlan, `Plan the course below for a serious adult student studying on their own.
 
 ${brief}
 
@@ -246,18 +258,49 @@ ${notes}
 Requirements:
 - overview: two paragraphs of Markdown introducing the course and why it matters.
 - objectives: four to six learning objectives.
-- lessons: five or six lessons in a sensible order. Each lesson's "lecture" is a substantive Markdown lecture \
-of 700 to 1000 words with ## section headings, quoting primary texts where useful (with > blockquotes), \
-teaching real content—names, dates, arguments, terms—rather than describing what a student will learn.
-- Each lesson's readings: two or three specific assignments (chapters, books, poems, sections) from the library.
-- Each lesson's media: one to three items from the library that are video, audio, or lecture resources, with URLs.
-- Each lesson's questions: four or five multiple-choice knowledge checks with four choices each, one correct \
-answer (zero-based index), and a one- or two-sentence explanation. Test understanding, not trivia.
-- Each lesson's reflection: one writing prompt.
+- lessons: five lessons in a sensible order. Each will take about two hours of study, so give each a substantial \
+scope and four to six pages, each page a distinct stage of the argument.
 - library: the course's reference shelf, grouped under headings such as "Primary Texts", "Textbooks and Guides", \
 "Scholarship", "Reference Works", "Listening and Viewing", "Online Resources". Annotate items with a short note.
 
-Use only resources from the library above, and copy their URLs exactly. Leave url empty when none was given.`, { effort: "high" });
+Use only resources from the library above, and copy their URLs exactly. Leave url empty when none was given.`);
+
+  // Each lesson is long enough to deserve its own draft; they are written side by side.
+  const lessons = await Promise.all(plan.lessons.map((lesson, i) => compose(Lesson, `Write lesson ${i + 1} of \
+the course below in full.
+
+${brief}
+
+The course's lessons are:
+${plan.lessons.map((l, j) => `${j + 1}. ${l.title}: ${l.summary}`).join("\n")}
+
+This lesson: ${lesson.title}
+${lesson.summary}
+Its pages:
+${lesson.pages.map((t) => `- ${t}`).join("\n")}
+
+The librarian has assembled these confirmed resources:
+<library>
+${notes}
+</library>
+
+The lesson should take an average student about two hours, not counting the assigned readings and recordings. \
+Requirements:
+- pages: four to six pages of Markdown, each 1,800 to 2,500 words, together about 10,000 words. Teach real \
+content—names, dates, events, arguments, terms, and the debates among historians or critics—as a gifted lecturer \
+would, with ## section headings. Quote primary texts where useful (with > blockquotes), keeping quotations of \
+copyrighted works brief. Close some sections with a short "Pause and consider" question in a blockquote.
+- One page, titled "Working with the Sources", presents three to five short primary-source excerpts, each with \
+its context and two or three questions for the student; give that page minutes: 25.
+- readings: two or three specific assignments (chapters, books, poems, sections) from the library.
+- media: one to three items from the library that are video, audio, or lecture resources, with URLs.
+- questions: eight to ten multiple-choice knowledge checks with four choices each, one correct answer \
+(zero-based index), and a one- or two-sentence explanation. Test understanding, not trivia.
+- reflection: one essay question of the kind a tutor would set, answerable in 400 to 800 words.
+
+Use only resources from the library above, and copy their URLs exactly. Leave url empty when none was given.`, { effort: "high" })));
+
+  const content: CourseContent = { overview: plan.overview, objectives: plan.objectives, lessons, library: plan.library };
 
   const keep = (r: Resource) => keepFoundLinks(r, urls);
   return {

@@ -11,6 +11,7 @@ import { getCourse } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { lessonScores } from "@/lib/progress";
 import { toRoman } from "@/lib/schema";
+import { formatMinutes, lessonMinutes } from "@/lib/timing";
 
 type Params = { params: Promise<{ id: string }> };
 
@@ -115,7 +116,7 @@ export default async function CoursePage({ params }: Params) {
                     <p>{lesson.summary}</p>
                   </div>
                   <span className={`mark ${scores.has(i) ? "done" : "pending"}`}>
-                    {scores.has(i) ? "Completed" : `${lesson.questions.length} questions`}
+                    {scores.has(i) ? "Completed" : formatMinutes(lessonMinutes(lesson))}
                   </span>
                 </Link>
               </li>
@@ -125,6 +126,11 @@ export default async function CoursePage({ params }: Params) {
 
         <aside className="aside">
           <div className="aside-block">
+            <span className="eyebrow">Length</span>
+            <p style={{ margin: "0.25rem 0 1.25rem" }}>
+              About {formatMinutes(content.lessons.reduce((sum, l) => sum + lessonMinutes(l), 0))} of study in{" "}
+              {content.lessons.length} lessons, with further readings and recordings on the reference shelf.
+            </p>
             <span className="eyebrow">Progress</span>
             <div className="figure-big">
               {scores.size} <span className="muted" style={{ fontSize: "1.3rem" }}>of {content.lessons.length} lessons</span>

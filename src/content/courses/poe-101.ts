@@ -15,7 +15,7 @@ We begin with the act of reading slowly, then learn the technical vocabulary tha
     {
       title: "Reading Slowly",
       summary: "What makes a poem different from prose, and how to begin reading one.",
-      lecture: `## The poem as an event in time
+      pages: [{ title: "Lecture", body: `## The poem as an event in time
 
 Prose is built to be read quickly; poetry is built to be read *slowly*. A novel can be skimmed and still largely understood. A poem cannot, because its meaning lives in details that skimming erases: where a line ends, which word is repeated, how one sound echoes another.
 
@@ -46,7 +46,7 @@ In Sonnet 73, three images of ending—autumn, twilight, a dying fire—build ac
 
 ## Paraphrase and its limits
 
-It is useful to paraphrase a poem—to restate its sense in plain prose—because paraphrase forces you to understand the syntax. But a paraphrase is never the poem. Cleanth Brooks called this "the heresy of paraphrase": what a poem *means* cannot be separated from *how* it says it. Our work in this course is to describe that "how."`,
+It is useful to paraphrase a poem—to restate its sense in plain prose—because paraphrase forces you to understand the syntax. But a paraphrase is never the poem. Cleanth Brooks called this "the heresy of paraphrase": what a poem *means* cannot be separated from *how* it says it. Our work in this course is to describe that "how."` }],
       readings: [
         { kind: "book", title: "A Poetry Handbook", author: "Mary Oliver", publisher: "Harcourt", year: "1994", note: "Chapters 1–3: “Getting Ready,” “Reading Poems,” “Imitation.” A poet's short, practical guide." },
         { kind: "website", title: "That time of year thou mayst in me behold (Sonnet 73)", author: "William Shakespeare", url: "https://poets.org/poem/time-year-thou-mayst-me-behold-sonnet-73", note: "Read the poem aloud twice before reading the lecture again." },
@@ -86,7 +86,7 @@ It is useful to paraphrase a poem—to restate its sense in plain prose—becaus
     {
       title: "Meter: The Music of the Line",
       summary: "Stress, the metrical foot, and how to scan English verse.",
-      lecture: `## Stress in English
+      pages: [{ title: "Lecture", body: `## Stress in English
 
 English is a **stress-timed** language. In any word of more than one syllable, one syllable is spoken with more force than the others: *PO-em*, *be-HOLD*, *un-der-STAND*. Meter is the patterning of these stressed and unstressed syllables into a regular rhythm.
 
@@ -130,7 +130,7 @@ Not all English poetry is accentual-syllabic. Old English verse such as *Beowulf
 
 ## How to practice
 
-Scansion is a skill like sight-reading music. Begin by marking the stresses of each word as you would naturally say it. Then look for the dominant pattern. Then mark the exceptions. Do not force a line into a pattern it does not have—meter describes the poem, not the other way around.`,
+Scansion is a skill like sight-reading music. Begin by marking the stresses of each word as you would naturally say it. Then look for the dominant pattern. Then mark the exceptions. Do not force a line into a pattern it does not have—meter describes the poem, not the other way around.` }],
       readings: [
         { kind: "book", title: "Poetic Meter and Poetic Form", author: "Paul Fussell", publisher: "McGraw-Hill", year: "1979 (rev. ed.)", note: "Part One, “Poetic Meter.” The standard short introduction." },
         { kind: "book", title: "The Ode Less Travelled: Unlocking the Poet Within", author: "Stephen Fry", publisher: "Hutchinson", year: "2005", note: "Chapter One, “Metre.” Witty, exercise-driven, and genuinely useful." },
@@ -176,7 +176,7 @@ Scansion is a skill like sight-reading music. Begin by marking the stresses of e
     {
       title: "Form: Sonnet, Villanelle, Ode",
       summary: "Fixed forms as instruments: what each form asks a poet to do.",
-      lecture: `## Why forms exist
+      pages: [{ title: "Lecture", body: `## Why forms exist
 
 A fixed form is a set of rules—number of lines, rhyme scheme, meter, sometimes refrains. It can look like a cage. Poets have found it to be more like an instrument: each form makes certain kinds of thinking easy and others difficult, and the best poems exploit that.
 
@@ -205,7 +205,7 @@ Not all forms are learned. The **ballad**, a narrative song, uses quatrains alte
 
 ## Reading form
 
-When you read a formal poem, ask: what does the form *demand*, and where does the poem strain against it? Bishop's parenthesis, Shakespeare's couplet that refuses the quatrains' logic, Dickinson's off-rhymes—these are moments where the poet's meaning meets the form's resistance, and they are almost always the most important moments in the poem.`,
+When you read a formal poem, ask: what does the form *demand*, and where does the poem strain against it? Bishop's parenthesis, Shakespeare's couplet that refuses the quatrains' logic, Dickinson's off-rhymes—these are moments where the poet's meaning meets the form's resistance, and they are almost always the most important moments in the poem.` }],
       readings: [
         { kind: "website", title: "One Art", author: "Elizabeth Bishop", publisher: "Poetry Foundation", url: "https://www.poetryfoundation.org/poems/47536/one-art", note: "Follow the two refrains through the poem. Where does the pattern break?" },
         { kind: "book", title: "The Making of a Poem: A Norton Anthology of Poetic Forms", author: "Mark Strand and Eavan Boland, eds.", publisher: "W. W. Norton", year: "2000", note: "Sections on the sonnet, villanelle, and ode, each with history and examples." },
@@ -245,7 +245,7 @@ When you read a formal poem, ask: what does the form *demand*, and where does th
     {
       title: "Image, Metaphor, and Symbol",
       summary: "How poems think in pictures, comparisons, and charged objects.",
-      lecture: `## The image
+      pages: [{ title: "Lecture", body: `## The image
 
 An **image** is language that appeals to the senses—most often sight, but also sound, touch, taste, and smell. Images are the poem's evidence: they let the reader experience rather than merely be told.
 
@@ -279,7 +279,7 @@ The rose is a rose. It is also love, or innocence, or the body; the worm is also
 
 ## Practicing
 
-When you meet a figure of speech, name its parts (tenor, vehicle), list what the vehicle brings with it, and ask what the comparison lets the poem say that plain statement could not.`,
+When you meet a figure of speech, name its parts (tenor, vehicle), list what the vehicle brings with it, and ask what the comparison lets the poem say that plain statement could not.` }],
       readings: [
         { kind: "website", title: "In a Station of the Metro", author: "Ezra Pound", publisher: "Representative Poetry Online, University of Toronto Libraries", url: "https://rpo.library.utoronto.ca/poems/station-metro", note: "Fourteen words. Consider what the colon does." },
         { kind: "edition", title: "Songs of Innocence and of Experience", author: "William Blake", publisher: "Tate Publishing / William Blake Trust (facsimile)", year: "1794", note: "Read “The Sick Rose” and “The Tyger.” If possible, see Blake's illuminated plates via the William Blake Archive." },
@@ -319,7 +319,7 @@ When you meet a figure of speech, name its parts (tenor, vehicle), list what the
     {
       title: "Voice, Persona, and the Dramatic Monologue",
       summary: "Who speaks in a poem, and how poets create characters in verse.",
-      lecture: `## The speaker is not the poet
+      pages: [{ title: "Lecture", body: `## The speaker is not the poet
 
 We have been careful to speak of a poem's **speaker** rather than its author. This is not pedantry. Poets often write in voices not their own, and even when the voice is close to the poet's, it is a made thing—shaped, selected, performed.
 
@@ -352,7 +352,7 @@ You now have the basic instruments: line and sentence, meter, form, figure, and 
 2. Supports it with **specific evidence**—quoted words, scanned lines, structural observations.
 3. Explains **how** the evidence supports the claim, rather than merely pointing to it.
 
-This is the craft you will practice in every literature course that follows.`,
+This is the craft you will practice in every literature course that follows.` }],
       readings: [
         { kind: "website", title: "My Last Duchess", author: "Robert Browning", publisher: "Representative Poetry Online, University of Toronto Libraries", url: "https://rpo.library.utoronto.ca/poems/my-last-duchess", note: "Read aloud, imagining the envoy's silence." },
         { kind: "book", title: "The Poetry of Experience: The Dramatic Monologue in Modern Literary Tradition", author: "Robert Langbaum", publisher: "Random House", year: "1957", note: "The classic study of the dramatic monologue and the tension between sympathy and judgment." },

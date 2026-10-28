@@ -103,8 +103,19 @@ export function getCourse(id: string): CourseWithContent | null {
   const course = toCourse(row);
   const concentration = getConcentrationById(course.concentration_id)!;
   const subject = getSubject(concentration.subject_slug)!;
-  const content = row.content ? (JSON.parse(row.content) as CourseContent) : null;
+  const content = row.content ? normalize(JSON.parse(row.content)) : null;
   return { ...course, content, concentration, subject };
+}
+
+/** Courses stored before lessons had pages kept their lecture as one string; read it as a single page. */
+function normalize(content: CourseContent): CourseContent {
+  return {
+    ...content,
+    lessons: content.lessons.map((lesson) => {
+      const { lecture, ...rest } = lesson as typeof lesson & { lecture?: string };
+      return lesson.pages ? lesson : { ...rest, pages: [{ title: "Lecture", body: lecture ?? "" }] };
+    }),
+  };
 }
 
 export type SearchHit =
