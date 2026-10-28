@@ -54,7 +54,7 @@ export const catalogue: SeedSubject[] = [
             "Wyatt, Sidney, Shakespeare, Donne, and Herbert: the sonnet comes to England and the metaphysical conceit is born.",
             ["Astrophil and Stella — Philip Sidney", "Shakespeare's Sonnets — ed. Stephen Booth", "The Complete Poems — John Donne", "The Temple — George Herbert"]),
           course("POE 210", "The Romantic Poets", 2,
-            "Blake, Wordsworth, Coleridge, Shelley, and Keats, and the revolution in feeling, nature, and imagination they set in motion.",
+            "Blake, Wordsworth, Coleridge, Byron, Shelley, and Keats, and the revolution in feeling, nature, and imagination they set in motion.",
             ["Lyrical Ballads — Wordsworth and Coleridge", "Songs of Innocence and of Experience — William Blake", "Complete Poems — John Keats", "The Prelude (1805) — William Wordsworth"]),
           course("POE 220", "The Epic Tradition", 2,
             "Homer, Virgil, Dante, and Milton: the long poem that tries to hold a whole civilization.",
