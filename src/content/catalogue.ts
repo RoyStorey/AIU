@@ -64,7 +64,7 @@ export const catalogue: SeedSubject[] = [
             ["In Memoriam A.H.H. — Alfred, Lord Tennyson", "Poems — Gerard Manley Hopkins", "The Collected Poems — W. B. Yeats", "The Waste Land — T. S. Eliot"]),
           course("POE 310", "American Poetry: Whitman to the Present", 3,
             "The two great originals, Whitman and Dickinson, and the American poets who descend from them.",
-            ["Leaves of Grass — Walt Whitman", "The Poems of Emily Dickinson — ed. R. W. Franklin", "Collected Poems — Elizabeth Bishop", "The Collected Poems — Wallace Stevens"]),
+            ["Leaves of Grass — Walt Whitman", "The Poems of Emily Dickinson — ed. R. W. Franklin", "The Collected Poems — Wallace Stevens", "The Collected Poems — Langston Hughes", "Poems — Elizabeth Bishop"]),
           course("POE 401", "Seminar: Poetics and Criticism", 4,
             "What is poetry, and what is it for? Aristotle, Sidney, Wordsworth, Eliot, and the New Critics answer.",
             ["Poetics — Aristotle", "The Defence of Poesy — Philip Sidney", "Preface to Lyrical Ballads — William Wordsworth", "The Well Wrought Urn — Cleanth Brooks"]),
