@@ -14,7 +14,9 @@ Five founding faculties, each with several concentrations and a complete program
 | Theology | Biblical Studies · Systematic Theology · Church History · Patristics · Philosophy of Religion · World Religions |
 | Linguistics | General · Historical and Comparative · Phonetics and Phonology · Syntax and Semantics · Sociolinguistics |
 
-Seven courses are written in full by hand: **POE 101** The Art of Poetry, **AAL 101** Foundations of African American Literature, **LAT 101** Elementary Latin I, **AMH 101** The American Revolution, **BIB 101** Introduction to the Hebrew Bible, **LIN 101** Introduction to Language, and **EUH 301** Europe in the Age of Totalitarianism. EUH 301 is written to the full standard—five lessons of about two hours each, roughly ten hours in all—and the others will be expanded to match. The rest of the catalogue begins as outlines with their core texts and is prepared by the forge.
+The whole **Poetry concentration** is written in full by hand, to the full standard of five lessons of about two hours each (roughly ten hours a course): **POE 101** The Art of Poetry, **POE 110** The Lyric from Sappho to Petrarch, **POE 201** The English Renaissance Lyric, **POE 210** The Romantic Poets, **POE 220** The Epic Tradition, **POE 301** Victorian and Modern Poetry, **POE 310** American Poetry: Whitman to the Present, and **POE 401** Seminar: Poetics and Criticism. **EUH 301** Europe in the Age of Totalitarianism is also complete to that standard, and **MEH 101** has its first lesson written with the rest outlined. Shorter hand-written first courses exist for **AAL 101**, **LAT 101**, **AMH 101**, **BIB 101**, and **LIN 101**, and will be expanded to match. The rest of the catalogue begins as outlines with their core texts and is prepared by the forge.
+
+Poems published before 1931 (in the US public domain) are printed in full; later poems are described, quoted no more than a line, and linked to authorized texts at the Poetry Foundation or the Academy of American Poets.
 
 ## Lessons and study time
 

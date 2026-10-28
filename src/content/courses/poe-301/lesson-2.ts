@@ -531,7 +531,8 @@ Reread the sonnet on the page "The Terrible Sonnets."
   ],
   media: [
     { kind: "audio", title: "Gerard Manley Hopkins", author: "Melvyn Bragg with Catherine Phillips, Jane Wright, and Martin Dubois", publisher: "BBC Radio 4, In Our Time", year: "2019", url: "https://www.bbc.co.uk/programmes/m0003clk" },
-    { kind: "website", title: "The Windhover", author: "Gerard Manley Hopkins", publisher: "Poetry Foundation", url: "https://www.poetryfoundation.org/poems/44402/the-windhover", note: "See also the Poetry Foundation's essay on the poem: https://www.poetryfoundation.org/articles/69191/gerard-manley-hopkins-the-windhover" },
+    { kind: "website", title: "The Windhover", author: "Gerard Manley Hopkins", publisher: "Poetry Foundation", url: "https://www.poetryfoundation.org/poems/44402/the-windhover", note: "The text of the poem." },
+    { kind: "article", title: "Gerard Manley Hopkins: “The Windhover”", publisher: "Poetry Foundation", url: "https://www.poetryfoundation.org/articles/69191/gerard-manley-hopkins-the-windhover", note: "An essay on the poem, line by line." },
   ],
   questions: [
     {

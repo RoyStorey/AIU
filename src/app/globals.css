@@ -66,6 +66,7 @@ body {
   font-family: var(--serif);
   font-size: 1.1875rem;
   line-height: 1.6;
+  overflow-wrap: break-word;
   font-variant-numeric: oldstyle-nums proportional-nums;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
