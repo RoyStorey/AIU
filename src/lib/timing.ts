@@ -13,7 +13,7 @@ const words = (text: string) => text.split(/\s+/).filter(Boolean).length;
 const toFive = (minutes: number) => Math.max(5, Math.round(minutes / 5) * 5);
 
 export function pageMinutes(page: Page): number {
-  return page.minutes ?? toFive(words(page.body) / WORDS_PER_MINUTE);
+  return page.minutes ?? Math.max(3, Math.round(words(page.body) / WORDS_PER_MINUTE));
 }
 
 export function checkMinutes(lesson: Lesson): number {

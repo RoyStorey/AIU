@@ -8,6 +8,7 @@ import { getConcentrationById, getCourse, getSubject, search } from "@/lib/catal
 import { forgeAvailable } from "@/lib/forge";
 import { PASSING, enroll, recordLesson, withdraw } from "@/lib/progress";
 import { ESSAY_LIMITS } from "@/lib/schema";
+import { choiceOrder } from "@/lib/shuffle";
 import {
   continueStudies as beginContinuation,
   prepareCourse as beginCourse,
@@ -148,7 +149,9 @@ export async function submitKnowledgeCheck(
   const lesson = course?.content?.lessons[lessonIndex];
   if (!lesson) throw new Error("No such lesson.");
 
-  const correct = lesson.questions.map((q, i) => answers[i] === q.answer);
+  // Choices are shown in a shuffled order; translate between shown positions and original indices.
+  const orders = lesson.questions.map((q, i) => choiceOrder(courseId, lessonIndex, i, q.choices.length));
+  const correct = lesson.questions.map((q, i) => orders[i][answers[i]] === q.answer);
   const score = correct.filter(Boolean).length / lesson.questions.length;
   const passed = score >= PASSING;
 
@@ -158,7 +161,7 @@ export async function submitKnowledgeCheck(
     revalidatePath(`/courses/${courseId}`);
   }
   return {
-    answers: lesson.questions.map((q) => q.answer),
+    answers: lesson.questions.map((q, i) => orders[i].indexOf(q.answer)),
     explanations: lesson.questions.map((q) => q.explanation),
     passed,
     signedIn: !!user,

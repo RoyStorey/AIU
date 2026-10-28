@@ -367,7 +367,7 @@ export const catalogue: SeedSubject[] = [
             "Europe at the height of its power, and how it walked into catastrophe.",
             ["The Age of Empire — Eric Hobsbawm", "The Sleepwalkers — Christopher Clark", "The Great War and Modern Memory — Paul Fussell"]),
           course("EUH 301", "Europe in the Age of Totalitarianism", 3,
-            "Fascism, Communism, and the Second World War.",
+            "From the crisis of liberal Europe to the Holocaust: Fascist Italy, the Soviet Union under Lenin and Stalin, Nazi Germany, and the war of annihilation.",
             ["The Origins of Totalitarianism — Hannah Arendt", "Bloodlands — Timothy Snyder", "Hitler — Ian Kershaw"]),
           course("EUH 310", "Postwar Europe", 3,
             "Reconstruction, the Cold War, and the making of the European Union.",

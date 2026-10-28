@@ -6,6 +6,7 @@ import { WrittenExercise } from "@/components/WrittenExercise";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { PASSING, lessonScores } from "@/lib/progress";
+import { choiceOrder } from "@/lib/shuffle";
 import { checkMinutes, exerciseMinutes, formatMinutes } from "@/lib/timing";
 
 type Params = { params: Promise<{ id: string; n: string }> };
@@ -48,7 +49,10 @@ export default async function LessonExercises({ params }: Params) {
         <KnowledgeCheck
           courseId={course.id}
           lessonIndex={index}
-          questions={lesson.questions.map(({ prompt, choices }) => ({ prompt, choices }))}
+          questions={lesson.questions.map(({ prompt, choices }, qi) => ({
+            prompt,
+            choices: choiceOrder(course.id, index, qi, choices.length).map((c) => choices[c]),
+          }))}
           passingPercent={Math.round(PASSING * 100)}
           alreadyPassed={completed}
           next={{ href: next.href, label: following ? "Proceed to the next lesson" : next.label }}
