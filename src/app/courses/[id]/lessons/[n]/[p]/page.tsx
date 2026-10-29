@@ -55,7 +55,7 @@ export default async function LessonPage({ params }: Params) {
           ? { href: lessonHref(course.id, index, { kind: "exercises" }), label: "Knowledge check and exercise", dir: "Continue" }
           : { href: lessonHref(course.id, index, { kind: "page", page: pageIndex + 1 }), label: lesson.pages[pageIndex + 1].title }}
       />
-      <NotesBox user={user} courseId={course.id} lessonIndex={index} pageIndex={pageIndex} />
+      <NotesBox user={user} courseId={course.id} lessonIndex={index} pageIndex={pageIndex} pageTitle={page.title} />
       <Corrections
         courseId={course.id} concentrationId={course.concentration.id} concentration={course.concentration.name}
         lessonIndex={index} lesson={lesson} page={pageIndex} user={user} back={here}
