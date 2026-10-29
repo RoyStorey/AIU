@@ -2,6 +2,7 @@ import type { CourseContent } from "@/lib/schema";
 import { aal101 } from "./aal-101";
 import { editorial } from "./editorial";
 import { amh101 } from "./amh-101";
+import { amh110 } from "./amh-110";
 import { bib101 } from "./bib-101";
 import { euh301 } from "./euh-301";
 import { lat101 } from "./lat-101";
@@ -19,6 +20,7 @@ import { poe401 } from "./poe-401";
 const written: Record<string, CourseContent> = {
   "AAL 101": aal101,
   "AMH 101": amh101,
+  "AMH 110": amh110,
   "BIB 101": bib101,
   "EUH 301": euh301,
   "LAT 101": lat101,
