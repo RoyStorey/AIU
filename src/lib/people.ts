@@ -1,6 +1,6 @@
 import "server-only";
 import { db } from "@/lib/db";
-import type { User } from "@/lib/auth";
+import { isAdmin, type User } from "@/lib/auth";
 import { standing, type Standing } from "@/lib/progress";
 
 /** A student as others see them: never their email. */
@@ -34,9 +34,10 @@ export function updateProfile(userId: number, bio: string, visibility: "public" 
   db.prepare("UPDATE users SET bio = ?, visibility = ? WHERE id = ?").run(bio, visibility, userId);
 }
 
-/** Faculty may answer and settle correction reports. They are named in AIU_FACULTY_EMAILS. */
+/** Faculty may answer and settle correction reports. They are named in AIU_FACULTY_EMAILS; administrators count too. */
 export function isFaculty(user: User | null): boolean {
   if (!user) return false;
+  if (isAdmin(user)) return true;
   const emails = (process.env.AIU_FACULTY_EMAILS ?? "").split(",").map((e) => e.trim().toLowerCase()).filter(Boolean);
   return emails.includes(user.email.toLowerCase());
 }

@@ -3,7 +3,8 @@
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
-import { currentUser, endSession, hashPassword, requireUser, startSession, verifyPassword } from "@/lib/auth";
+import { currentUser, endSession, hashPassword, isAdmin, requireUser, startSession, verifyPassword } from "@/lib/auth";
+import { deleteAccounts as removeAccounts } from "@/lib/admin";
 import { getConcentrationById, getCourse, getSubject, search } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { PASSING, enroll, recordLesson, standing, withdraw } from "@/lib/progress";
@@ -333,4 +334,20 @@ export async function deletePost(id: number, back: string) {
   removePost(id, user.id);
   revalidatePath(back);
   redirect(back);
+}
+
+// ——— Administration ———
+
+export async function deleteAccounts(_: FormState, form: FormData): Promise<FormState> {
+  const user = await requireUser("/admin");
+  if (!isAdmin(user)) return { error: "Only administrators can delete accounts." };
+  const ids = form.getAll("account").map(Number).filter(Number.isInteger);
+  if (ids.length === 0) return { error: "Select at least one account to delete." };
+  const removed = removeAccounts(ids, user);
+  revalidatePath("/admin");
+  const skipped = ids.length - removed;
+  return {
+    notice: `Deleted ${removed} ${removed === 1 ? "account" : "accounts"}.${skipped ? ` ${skipped} could not be deleted (your own account and administrators are protected).` : ""}`,
+    nonce: Date.now(),
+  };
 }

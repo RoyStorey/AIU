@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Cormorant_Garamond, EB_Garamond } from "next/font/google";
 import { Crest } from "@/components/Crest";
 import { cookies } from "next/headers";
-import { currentUser } from "@/lib/auth";
+import { currentUser, isAdmin } from "@/lib/auth";
 import { THEME_COOKIE, findTheme, themeStylesheet } from "@/lib/themes";
 import { signOut } from "@/app/actions";
 import "./globals.css";
@@ -50,6 +50,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <Link href="/faculties">Faculties</Link>
               {user ? (
                 <>
+                  {isAdmin(user) && <Link href="/admin" className="nav-optional">Admin</Link>}
                   <Link href="/study" className="nav-strong">My Studies</Link>
                   <form action={signOut} className="nav-optional">
                     <button type="submit">Sign out</button>

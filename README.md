@@ -53,6 +53,10 @@ Every book named in a course comes with a way to obtain it. Books are looked up 
 
 A new installation includes three sample students so the community features can be seen at once: **Eleanor Marsh**, a Master of Poetry whose capstone, "'Thou Hast Thy Music Too': How Keats's Odes End," is a complete 4,500-word essay; **Thomas Adeyemi**, an Expert; and **Ruth Calloway**, midway through the program, with their threads in the Poetry common room and two correction reports. They are labeled "sample," cannot sign in, and are removed—with everything they wrote—by setting `AIU_DEMO=off`.
 
+## Administration
+
+Administrators, named in `AIU_ADMIN_EMAILS`, see an **Admin** link in the header. The panel at `/admin` lists every account with when it joined, when it was last active (the latest of signing in, opening a page, and anything written or completed), and what it has done: lessons, concentrations declared, posts, and capstones. Accounts can be filtered by how long they have been inactive (30, 90, 180, or 365 days), by whether they never began, or by name or email, then selected and deleted after a confirmation. Deleting an account removes everything that belongs to it. An administrator cannot delete their own account or another administrator's. Administrators may also answer correction reports.
+
 ## The forge
 
 With an Anthropic API key, Claude extends Cornerstone:
@@ -79,7 +83,7 @@ For production: `npm run build && npm start`. The SQLite database is created at 
 
 **Sharing it with others.** You can run Cornerstone on your own computer and let others reach it by port forwarding. Sign-in works over plain HTTP, but passwords and session cookies then cross the network unencrypted; for anything beyond friends on a trusted network, put it behind HTTPS (a reverse proxy such as Caddy, or a tunnel such as Cloudflare Tunnel or Tailscale Funnel). Behind a proxy that sends `X-Forwarded-Proto: https`, the session cookie is marked Secure automatically.
 
-Other settings, all optional, are described in `.env.example`: `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), `AIU_BOOK_LOOKUP=off` (no Open Library lookups), and `AIU_SECURE_COOKIES` (force the session cookie's Secure flag on or off).
+Other settings, all optional, are described in `.env.example`: `AIU_ADMIN_EMAILS` (who may manage accounts at `/admin`), `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), `AIU_BOOK_LOOKUP=off` (no Open Library lookups), and `AIU_SECURE_COOKIES` (force the session cookie's Secure flag on or off).
 
 ## Adding to the catalogue
 

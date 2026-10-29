@@ -43,6 +43,7 @@ export async function startSession(userId: number) {
   const expires = new Date(Date.now() + SESSION_DAYS * 86_400_000);
   db.prepare("INSERT INTO sessions (token, user_id, expires_at) VALUES (?, ?, ?)")
     .run(token, userId, expires.toISOString());
+  db.prepare("UPDATE users SET last_seen_at = datetime('now') WHERE id = ?").run(userId);
   (await cookies()).set(COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
@@ -63,12 +64,25 @@ export const currentUser = cache(async (): Promise<User | null> => {
   const token = (await cookies()).get(COOKIE)?.value;
   if (!token) return null;
   const row = db.prepare(`
-    SELECT u.id, u.name, u.email, u.created_at
+    SELECT u.id, u.name, u.email, u.created_at, u.last_seen_at
     FROM sessions s JOIN users u ON u.id = s.user_id
     WHERE s.token = ? AND s.expires_at > ?
-  `).get(token, new Date().toISOString());
-  return (row as User | undefined) ?? null;
+  `).get(token, new Date().toISOString()) as (User & { last_seen_at: string | null }) | undefined;
+  if (!row) return null;
+  const { last_seen_at, ...user } = row;
+  // Note when each student was last here, at most once an hour, so the admin panel can tell who is active.
+  if (!last_seen_at || Date.now() - Date.parse(last_seen_at.replace(" ", "T") + "Z") > 3_600_000) {
+    db.prepare("UPDATE users SET last_seen_at = datetime('now') WHERE id = ?").run(user.id);
+  }
+  return user;
 });
+
+/** Administrators manage accounts. They are named in AIU_ADMIN_EMAILS. */
+export function isAdmin(user: User | null): boolean {
+  if (!user) return false;
+  const emails = (process.env.AIU_ADMIN_EMAILS ?? "").split(",").map((e) => e.trim().toLowerCase()).filter(Boolean);
+  return emails.includes(user.email.toLowerCase());
+}
 
 export async function requireUser(next?: string): Promise<User> {
   const user = await currentUser();
