@@ -629,7 +629,9 @@ a.media-card:hover { border-color: var(--accent); color: var(--ink); }
 
 /* ——— Theme picker ——— */
 
-.themes { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); margin-top: 1.5rem; }
+.themes { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); margin-top: 0.75rem; }
+.theme-group { margin-top: 1.75rem; }
+.theme-group-label { font-family: var(--display); font-size: 1.15rem; font-weight: 500; color: var(--ink-soft); margin: 0; }
 .theme-option {
   display: grid; gap: 0.35rem; text-align: left; padding: 0.75rem; cursor: pointer;
   font: inherit; color: var(--ink); background: var(--paper-raised);
