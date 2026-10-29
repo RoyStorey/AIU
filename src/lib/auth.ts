@@ -1,6 +1,6 @@
 import "server-only";
 import { randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { cache } from "react";
 import { db } from "@/lib/db";
@@ -24,6 +24,20 @@ export function verifyPassword(password: string, stored: string): boolean {
   return timingSafeEqual(expected, actual);
 }
 
+/**
+ * Whether the visitor reached Cornerstone over HTTPS. Browsers silently refuse
+ * a cookie marked Secure on a plain-HTTP site (localhost excepted), so the
+ * session cookie is marked Secure only when the connection really is secure:
+ * directly, or through a proxy that says so in X-Forwarded-Proto.
+ * AIU_SECURE_COOKIES=true or false overrides the guess.
+ */
+async function overHttps(): Promise<boolean> {
+  const forced = process.env.AIU_SECURE_COOKIES;
+  if (forced === "true" || forced === "false") return forced === "true";
+  const proto = (await headers()).get("x-forwarded-proto")?.split(",")[0].trim().toLowerCase();
+  return proto === "https";
+}
+
 export async function startSession(userId: number) {
   const token = randomBytes(32).toString("hex");
   const expires = new Date(Date.now() + SESSION_DAYS * 86_400_000);
@@ -32,7 +46,7 @@ export async function startSession(userId: number) {
   (await cookies()).set(COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
+    secure: await overHttps(),
     expires,
     path: "/",
   });

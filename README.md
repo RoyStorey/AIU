@@ -77,7 +77,9 @@ npm run dev                  # http://localhost:3000
 
 For production: `npm run build && npm start`. The SQLite database is created at `data/university.db` on first request and seeded from `src/content`. Databases made by the previous version are upgraded in place.
 
-Other settings, all optional, are described in `.env.example`: `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), and `AIU_BOOK_LOOKUP=off` (no Open Library lookups).
+**Sharing it with others.** You can run Cornerstone on your own computer and let others reach it by port forwarding. Sign-in works over plain HTTP, but passwords and session cookies then cross the network unencrypted; for anything beyond friends on a trusted network, put it behind HTTPS (a reverse proxy such as Caddy, or a tunnel such as Cloudflare Tunnel or Tailscale Funnel). Behind a proxy that sends `X-Forwarded-Proto: https`, the session cookie is marked Secure automatically.
+
+Other settings, all optional, are described in `.env.example`: `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), `AIU_BOOK_LOOKUP=off` (no Open Library lookups), and `AIU_SECURE_COOKIES` (force the session cookie's Secure flag on or off).
 
 ## Adding to the catalogue
 
