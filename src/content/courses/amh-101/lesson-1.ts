@@ -195,6 +195,8 @@ In the spring of 1754, George Washington led about 160 Virginia militiamen towar
 
 That same summer, at the request of the British government, delegates from seven colonies met at **Albany**, New York, to secure the alliance of the Iroquois and to consider the common defense. Benjamin Franklin, a delegate from Pennsylvania, proposed a **Plan of Union**: a grand council of delegates from the colonial assemblies, under a president-general appointed by the Crown, with power to manage Indian affairs, raise troops, and levy taxes for defense. In his *Pennsylvania Gazette*, Franklin printed a famous woodcut of a snake cut into pieces, each labeled with a colony's initials, with the caption "Join, or Die."
 
+![A woodcut of a snake cut into eight segments, each labeled with a colony's initials, above the words JOIN, or DIE.](https://commons.wikimedia.org/wiki/Special:FilePath/Join_or_Die_LCCN2002695523.jpg "“Join, or Die,” attributed to Benjamin Franklin, *Pennsylvania Gazette*, May 9, 1754: the first American political cartoon, drawn to urge union at the Albany Congress. Library of Congress.")
+
 The colonies did not join. Every colonial assembly rejected the Albany Plan, jealous of its own powers; the British government ignored it, unwilling to create a body that might challenge royal authority. Franklin later observed that the assemblies thought it had too much prerogative in it, while in England it was thought to have too much of the democratic. The episode showed how far the colonies were from any sense of common identity in 1754.
 
 ## Early disasters
@@ -206,6 +208,8 @@ In 1756 the conflict became a world war—the **Seven Years' War**—as Britain 
 ## Pitt turns the tide
 
 The turning point came with the rise of **William Pitt** to lead the British war effort in 1757. Pitt decided to win the war in America. He poured British troops and money into the colonies, promised to reimburse the colonial assemblies for the troops they raised, and appointed younger, more aggressive commanders. Britain's navy cut off reinforcements from France.
+
+![A painting of General Wolfe dying in the arms of officers on the Plains of Abraham, with a Native warrior seated in the foreground.](https://commons.wikimedia.org/wiki/Special:FilePath/Benjamin_West_-_The_Death_of_General_Wolfe_-_WGA25558.jpg "Benjamin West, *The Death of General Wolfe* (1770). The painting turned Quebec into an imperial martyrdom; the contemplative Native warrior is West's invention. National Gallery of Canada.")
 
 The tide turned in 1758. British forces captured the great French fortress of **Louisbourg** on Cape Breton Island; British and colonial troops took Fort Frontenac on Lake Ontario; and the French, abandoned by their Native allies after a peace conference at Easton, Pennsylvania, blew up Fort Duquesne and retreated. The British built Fort Pitt on its ruins. In 1759—the British "year of victories"—General **James Wolfe** led his army up the cliffs below Quebec and defeated the French under the Marquis de Montcalm on the **Plains of Abraham** on September 13. Both commanders died of their wounds. Montreal fell the following year, and with it, New France.
 

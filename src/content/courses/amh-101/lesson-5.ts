@@ -179,6 +179,8 @@ The delegates struggled with the executive. Should there be one executive or sev
 
 In August a Committee of Detail turned the Convention's resolutions into a draft, listing the specific powers of Congress—among them the power to tax, to borrow, to regulate commerce with foreign nations and among the states, to coin money, to raise armies, and to make all laws "necessary and proper" for carrying out its powers. In September a Committee of Style, led by Gouverneur Morris, polished the text and wrote the preamble, which began not "We the States" but "**We the People of the United States**." On September 17, 1787, thirty-nine delegates signed the Constitution. Three who remained—Edmund Randolph, George Mason, and Elbridge Gerry—refused, Mason chiefly because it lacked a bill of rights.
 
+![The first page of the engrossed Constitution, beginning with the large words We the People.](https://commons.wikimedia.org/wiki/Special:FilePath/Constitution_of_the_United_States,_page_1.jpg "The Constitution, page one, engrossed by Jacob Shallus, September 1787. National Archives.")
+
 > **Pause and consider.** The Constitution protected slavery while never naming it. What does this choice of words suggest about the delegates' attitudes toward slavery?`,
     },
     {
@@ -196,6 +198,8 @@ The Federalists had many advantages. They included most of the country's best-kn
 ## The Federalist
 
 In New York, where opposition was strong, Alexander Hamilton recruited Madison and John Jay to write a series of newspaper essays under the pseudonym **"Publius"**. Between October 1787 and May 1788 they published eighty-five essays, later collected as ***The Federalist***. Hamilton wrote fifty-one, Madison twenty-nine, and Jay, who fell ill, five. Although written quickly, for a particular political purpose, *The Federalist* became the most important work of American political theory and the most cited guide to the Constitution's meaning.
+
+![Title page of The Federalist, volume one, New York, J. and A. M'Lean, 1788.](https://commons.wikimedia.org/wiki/Special:FilePath/The_Federalist_%281st_ed,_1788,_vol_I,_title_page%29.jpg "Title page of the first collected edition of *The Federalist* (New York: J. and A. M'Lean, 1788).")
 
 The most famous essay, **Federalist No. 10**, by Madison, answered the Anti-Federalist argument, drawn from Montesquieu, that republics could survive only in small territories. Madison argued the opposite. The great danger to republics was **faction**—groups of citizens united by a common passion or interest adverse to the rights of others or the good of the community—and the most common source of faction was the unequal distribution of property. In a small republic, a single faction could easily become a majority and oppress the minority. In a large republic, with "a greater variety of parties and interests," it would be "less probable that a majority of the whole will have a common motive to invade the rights of other citizens." The size of the union, which the Anti-Federalists feared, was its safeguard. In **Federalist No. 51**, Madison explained how the Constitution's separation of powers and checks and balances would prevent any branch from becoming tyrannical: "Ambition must be made to counteract ambition."
 

@@ -115,6 +115,8 @@ For a town of 16,000 people, the presence of some 2,000 soldiers was a constant 
 
 On the cold evening of **March 5, 1770**, a crowd gathered around a lone British sentry outside the Custom House on King Street, pelting him with snowballs, ice, and insults. Captain **Thomas Preston** marched a small detachment of soldiers to his aid. In the confusion, with the crowd shouting "Fire!" and daring the soldiers to shoot, a soldier was knocked down and fired, and others followed. Five men were killed or mortally wounded, among them **Crispus Attucks**, a sailor of African and Native descent, and Samuel Maverick, an apprentice of seventeen.
 
+![A hand-colored engraving of a line of red-coated soldiers firing on a crowd in front of a building marked Butcher's Hall.](https://commons.wikimedia.org/wiki/Special:FilePath/The_bloody_massacre_perpetrated_in_King_Street_Boston_on_March_5th_1770_by_a_party_of_the_29th_Regt._-_engrav%27d,_printed_%26_sold_by_Paul_Revere,_Boston._LCCN2008680173.jpg "Paul Revere, *The Bloody Massacre Perpetrated in King Street* (1770). Propaganda, not reportage: the soldiers fire in an orderly volley at an unresisting crowd. Library of Congress.")
+
 Patriots called it the "Boston Massacre." Paul Revere's engraving, copied from a design by Henry Pelham, showed a line of soldiers firing deliberately on a peaceful crowd at their officer's command—an image of tyranny that bore little resemblance to the chaotic reality. The soldiers were brought to trial in Boston. They were defended by two patriot lawyers, **John Adams** and Josiah Quincy, who believed that even British soldiers deserved a fair trial—and that a fair trial would show the world that Bostonians were not a lawless mob. Preston and six of the soldiers were acquitted; two were convicted of manslaughter and branded on the thumb.
 
 ## Partial repeal
@@ -220,6 +222,8 @@ Lord North assumed the colonists would welcome cheap tea. Instead, patriots saw 
 ## The Tea Party
 
 When the first tea ships arrived in American ports late in 1773, patriots everywhere resolved that the tea must not be landed. In Philadelphia and New York, the consignees resigned and the ships were sent back to England. In Charleston, the tea was landed but locked in a warehouse unsold.
+
+![A print of Bostonians pouring tea down the throat of a tarred-and-feathered customs officer beneath the Liberty Tree, while men dump tea from a ship in the background.](https://commons.wikimedia.org/wiki/Special:FilePath/Philip_Dawe_%28attributed%29,_The_Bostonians_Paying_the_Excise-man,_or_Tarring_and_Feathering_%281774%29.jpg "*The Bostonians Paying the Excise-Man, or Tarring & Feathering*, attributed to Philip Dawe (London, 1774). The victim is the customs official John Malcolm; a London printmaker's view of colonial liberty.")
 
 In Boston, Governor Hutchinson refused to let the ships leave the harbor without unloading. The law gave the owners twenty days to land the cargo and pay the duty; after that, customs officers could seize the tea and land it themselves. As the deadline for the first ship, the *Dartmouth*, approached, thousands of people crowded into the Old South Meeting House on December 16, 1773, while the ship's owner made a last appeal to the governor. When he returned with Hutchinson's refusal, Samuel Adams is said to have announced that this meeting could do nothing more to save the country.
 

@@ -23,6 +23,8 @@ Revere's ride became a national legend through Henry Wadsworth Longfellow's poem
 
 At dawn on April 19, the advance companies of regulars, under Major John Pitcairn, reached Lexington. On the town green they found about seventy militiamen drawn up under Captain John Parker. The militia were not there to stop the march, only to show that they would not be cowed. Pitcairn ordered them to disperse. As they began to do so, a shot rang out—no one has ever known from which side. The regulars, without orders, fired volleys and charged with bayonets. When the smoke cleared, eight militiamen lay dead and ten were wounded. One British soldier was slightly wounded.
 
+![A hand-colored engraving of British regulars firing on a small company of militia on Lexington green.](https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Lexington.jpeg "Amos Doolittle after Ralph Earl, *The Battle of Lexington, April 19th, 1775*, Plate I (December 1775). Doolittle and Earl visited the battlefield weeks after the fighting.")
+
 ## Concord bridge
 
 The regulars marched on to Concord, where they searched for military stores, most of which had been moved or hidden. Meanwhile, militia companies from surrounding towns gathered on a hill above the North Bridge. Seeing smoke rising from the town—the regulars were burning some gun carriages—and fearing the town was being burned, the militia marched down on the bridge. The British guarding it fired; the militia fired back, killing three soldiers and wounding others, and the regulars retreated. Ralph Waldo Emerson, whose grandfather watched from the nearby manse, would later commemorate the moment in his "Concord Hymn" (1837): "Here once the embattled farmers stood / And fired the shot heard round the world."
@@ -137,6 +139,8 @@ What made *Common Sense* more than a political pamphlet was its vision. Paine pr
 
 Paine's style was itself a political argument. By writing so that a farmer or an apprentice could follow him, he assumed that ordinary people could judge questions of government for themselves—that politics was not the preserve of lawyers and gentlemen. He wrote in short, punchy sentences, with homely images and Biblical cadences, and he never condescended. The readers of *Common Sense* were invited to see themselves not as subjects awaiting the decisions of their betters, but as citizens deciding the fate of a continent.
 
+![The title page of Common Sense, addressed to the inhabitants of America, Philadelphia, 1776.](https://commons.wikimedia.org/wiki/Special:FilePath/Commonsense.jpg "Title page of *Common Sense* (Philadelphia, 1776). Paine published it anonymously, “Written by an Englishman.”")
+
 ## Responses
 
 Not everyone was persuaded. Loyalist writers answered Paine with warnings that independence would bring anarchy, defeat, and ruin. Even some patriots were alarmed. John Adams admired Paine's case for independence but thought his ideas about government—a single-house legislature with few checks—were dangerous and simple-minded. In April 1776 Adams published *Thoughts on Government*, recommending balanced constitutions with two-house legislatures, independent executives, and independent judges for the new states. The argument between Paine's democratic radicalism and Adams's balanced republicanism would run through the history of American constitution-making.
@@ -170,6 +174,8 @@ Lee also moved that Congress form foreign alliances and prepare a plan of confed
 ## The committee of five
 
 The committee to draft a declaration consisted of John Adams, Benjamin Franklin, Thomas Jefferson, Roger Sherman of Connecticut, and Robert R. Livingston of New York. It assigned the writing to **Jefferson**, then thirty-three, a Virginia planter and lawyer known for his "masterly pen" since *A Summary View*. Adams later recalled that he urged Jefferson to write it because a Virginian should take the lead, because Adams himself was "obnoxious, suspected, and unpopular," and because Jefferson wrote ten times better. Jefferson drafted the declaration in his rented rooms in Philadelphia over about two weeks, drawing on his own draft preamble for the Virginia constitution and on Mason's Declaration of Rights. Adams and Franklin made small changes, and the committee presented the draft to Congress on June 28.
+
+![A large painting of the five-man drafting committee presenting the Declaration to John Hancock before the members of Congress.](https://commons.wikimedia.org/wiki/Special:FilePath/Declaration_of_Independence_%281819%29,_by_John_Trumbull.jpg "John Trumbull, *Declaration of Independence* (1817–19), U.S. Capitol Rotunda. It shows the committee presenting its draft on June 28, 1776, not a signing, and gathers men who were never all in the room at once.")
 
 ## The vote
 

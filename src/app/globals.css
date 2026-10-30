@@ -431,6 +431,13 @@ a.card:hover h3 { color: var(--accent); }
   color: var(--ink);
 }
 .prose blockquote p { margin-bottom: 0.15em; }
+/* Lesson illustrations: archival images with caption, credit, and source. */
+.lesson-figure { margin: 2rem 0 2.25rem; }
+.lesson-figure-frame { display: block; background: var(--paper-sunk); border: 1px solid var(--rule); padding: 0.5rem; }
+.lesson-figure img { display: block; width: 100%; height: auto; max-height: 34rem; object-fit: contain; margin: 0 auto; }
+.lesson-figure-frame:hover { border-color: var(--rule-strong); }
+.lesson-figure figcaption { margin-top: 0.6rem; font-size: 0.97rem; line-height: 1.5; color: var(--ink-soft); }
+.lesson-figure-source { font-variant-caps: all-small-caps; letter-spacing: 0.08em; white-space: nowrap; }
 .prose table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 1.02rem; }
 .prose th, .prose td { text-align: left; padding: 0.5rem 0.75rem 0.5rem 0; border-bottom: 1px solid var(--rule); }
 .prose th { font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: 0.1em; color: var(--muted); border-bottom-color: var(--rule-strong); }

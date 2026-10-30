@@ -25,6 +25,8 @@ By mid-December, Washington had perhaps 3,000 men fit for duty, and most of thei
 
 Then Washington struck. On Christmas night 1776, in a sleet storm, he led about 2,400 men across the ice-choked Delaware. The next morning they surprised the Hessian garrison at **Trenton**, killing its commander, Colonel Johann Rall, and capturing about 900 men at the cost of a handful of American casualties. A week later, slipping away from a larger British force under Lord Cornwallis by leaving his campfires burning, Washington defeated a British detachment at **Princeton** on January 3, 1777.
 
+![Washington standing in a crowded rowboat crossing an icy river at dawn.](https://commons.wikimedia.org/wiki/Special:FilePath/Washington_Crossing_the_Delaware_by_Emanuel_Leutze,_MMA-NYC,_1851.jpg "Emanuel Leutze, *Washington Crossing the Delaware* (1851). Painted in Düsseldorf seventy-five years later, it gets the boats, the flag, and the hour wrong, and the spirit right. Metropolitan Museum of Art.")
+
 Militarily, these were small battles. Politically, they were decisive. They revived a cause that had seemed lost, persuaded enough soldiers to stay beyond their enlistments, encouraged recruiting for the next year, and showed both Americans and Europeans that the Continental Army was still alive. The historian David Hackett Fischer, in *Washington's Crossing* (2004), argues that the campaign also showed something about the kind of war the Americans meant to fight: Washington insisted that Hessian prisoners be treated humanely, in deliberate contrast to the plundering and abuse New Jersey civilians had suffered from the occupying army.
 
 ## The Hessians
@@ -58,6 +60,8 @@ The American army in the north, commanded by General **Horatio Gates**, with **B
 ## Why Saratoga mattered
 
 Saratoga was the turning point of the war, not because of what it did in America but because of what it did in Europe. Since 1776, France had been secretly supplying the Americans with arms, gunpowder, and money, eager to avenge its defeat in the Seven Years' War and weaken Britain. But the French had hesitated to commit openly until they were sure the Americans could win. Saratoga convinced them.
+
+![A painting of General Burgoyne offering his sword to General Gates outside a tent, with officers of both armies.](https://commons.wikimedia.org/wiki/Special:FilePath/Surrender_of_General_Burgoyne.jpg "John Trumbull, *Surrender of General Burgoyne* (1821), U.S. Capitol Rotunda. Gates declined the sword and invited Burgoyne to dinner.")
 
 The American commissioners in Paris, led by **Benjamin Franklin**, had worked toward this moment. Franklin, already famous as a scientist and philosopher, became a celebrity in France. Wearing a plain brown suit and a fur cap rather than the wig and finery of the court, he presented himself as the embodiment of American virtue and simplicity, and the French adored him. His image appeared on medallions, snuffboxes, and chamber pots.
 
@@ -196,6 +200,8 @@ Everything depended on control of the sea. On September 5, 1781, de Grasse's fle
 ## The siege
 
 By late September, some 16,000 American and French troops had surrounded Yorktown. The allies dug siege lines and brought up heavy artillery; on the night of October 14, American troops under Alexander Hamilton and French troops stormed two key British redoubts. Cornwallis's position was hopeless. On October 19, 1781, his army—about 8,000 soldiers and sailors—surrendered. Cornwallis, pleading illness, sent his deputy to hand over his sword. According to a tradition first recorded decades later, the British band played a tune called "The World Turned Upside Down."
+
+![A painting of the surrender at Yorktown, with American and French officers on horseback flanking the British column.](https://commons.wikimedia.org/wiki/Special:FilePath/Surrender_of_Lord_Cornwallis.jpg "John Trumbull, *Surrender of Lord Cornwallis* (1820), U.S. Capitol Rotunda. Cornwallis, pleading illness, did not attend; General O'Hara surrendered in his place to General Lincoln.")
 
 ## The end of the war
 
