@@ -60,6 +60,8 @@ The Wedding-Guest wants to go to the feast, but the Mariner holds him with his "
 
 The Mariner's ship sails south from England, across the equator, and is driven by a storm into the frozen seas of the Antarctic:
 
+![An engraving of sailors on an icebound ship looking up at an albatross flying above the rigging.](https://commons.wikimedia.org/wiki/Special:FilePath/Rime_of_the_Ancient_Mariner-Albatross-Dore.jpg "Gustave Doré, illustration for *The Rime of the Ancient Mariner* (1876): “At length did cross an Albatross.”")
+
 > And now there came both mist and snow,
 > And it grew wondrous cold:
 > And ice, mast-high, came floating by,

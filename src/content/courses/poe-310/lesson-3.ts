@@ -39,6 +39,8 @@ In 1912, at thirty-eight, he sold the farm and took his family to England. There
 
 Frost did not write free verse. "Writing free verse," he said, "is like playing tennis with the net down." He wrote in blank verse, rhymed stanzas, sonnets, and other traditional forms. But he did something new with them. He wanted his poems to capture what he called "**the sound of sense**": the tones of actual speech, the way a sentence sounds when you hear it through a closed door, without the words—the rhythms of questions, jokes, complaints, threats. He set these speech rhythms against the regular beat of the meter, so that the two pulled against each other, creating tension. "I am never more pleased," he wrote, "than when I can get these into strict iambic verse without distortion."
 
+![A photographic portrait of Robert Frost as a young man with tousled hair.](https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Frost,_1910s.jpg "Robert Frost in the 1910s, the decade of *A Boy's Will* (1913) and *North of Boston* (1914). Library of Congress.")
+
 The result is a voice that sounds completely natural—plain, laconic, colloquial, the voice of a New England farmer—yet is shaped by meter as strictly as Shakespeare's.
 
 ## "Mending Wall"

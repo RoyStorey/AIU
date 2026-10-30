@@ -148,6 +148,8 @@ But the principle was far easier to proclaim than to apply. In central and easte
 
 The peace with Germany, signed in the Hall of Mirrors at Versailles on **June 28, 1919**—five years to the day after the assassination in Sarajevo—was negotiated without German participation and presented to the German delegation for signature. Its main terms were:
 
+![A painting of statesmen seated and standing at a long table in the Hall of Mirrors as two German delegates sign the treaty, the mirrors and arches towering above them.](https://commons.wikimedia.org/wiki/Special:FilePath/Orpen,_William_%28Sir%29_%28RA%29_-_The_Signing_of_Peace_in_the_Hall_of_Mirrors,_Versailles,_28th_June_1919_-_Google_Art_Project.jpg "William Orpen, *The Signing of Peace in the Hall of Mirrors, Versailles, 28th June 1919*. Orpen, an official British war artist, dwarfed the peacemakers beneath the palace's gilded arches. Imperial War Museum.")
+
 - **Territory.** Germany lost about 13 percent of its European territory and some 10 percent of its population. Alsace-Lorraine returned to France. West Prussia and Posen went to the new Poland, creating a "Polish Corridor" to the Baltic that separated East Prussia from the rest of Germany. Danzig became a Free City under the League of Nations. The Saar coal basin was placed under League administration for fifteen years. Germany's colonies were taken and distributed as League "mandates."
 - **Disarmament.** The German army was limited to 100,000 men with no tanks, heavy artillery, or general staff; the air force was abolished; the navy was reduced to a token force. The Rhineland was to be occupied by Allied troops for up to fifteen years and permanently demilitarized.
 - **Reparations.** Germany was to pay for the damage caused to the Allies. The sum was fixed in 1921 at 132 billion gold marks, though much of this was understood to be a paper figure that would never be paid in full.
@@ -199,6 +201,8 @@ The successor states of central and eastern Europe faced special difficulties. T
 ## Inflation
 
 The most traumatic economic experience of the early 1920s was **inflation**. In Austria the currency collapsed in 1921–1922 until the League of Nations arranged an international loan in October 1922 in return for strict financial controls. In Poland and Hungary prices rose enormously. But the most famous case—and the most politically consequential—was Germany.
+
+![A German banknote for one billion marks, issued in 1923.](https://commons.wikimedia.org/wiki/Special:FilePath/Reichsbanknote_Eine_Milliarde_Mark_1923.jpg "A Reichsbank note for one billion (*eine Milliarde*) marks, 1923. By November a dollar bought 4.2 trillion marks.")
 
 German prices had risen steadily during and after the war. The government, facing reparations, debts, and the costs of demobilization and welfare, continued to print money. In January 1923, after Germany fell behind in reparations deliveries of coal and timber, French and Belgian troops occupied the **Ruhr**, Germany's industrial heartland. The German government called for **passive resistance**: workers struck and officials refused to cooperate, and the government paid their wages by printing still more money.
 

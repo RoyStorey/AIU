@@ -49,6 +49,8 @@ Back in England, in March 1812, he published the first two cantos of *Childe Har
 
 These poems created a character type that bears Byron's name: the **Byronic hero**. He is proud, moody, cynical, and isolated, a man of passionate feeling and great abilities, scarred by some mysterious guilt or sorrow from his past, contemptuous of society and its conventions, attractive to women, and doomed. He descends from Milton's Satan, whom the Romantics admired as a heroic rebel, and from the hero-villains of Gothic fiction. Childe Harold, the Corsair, Manfred, and Cain are all versions of him, and readers assumed, with some encouragement from Byron, that he was a portrait of the poet himself.
 
+![A portrait of Byron in an embroidered Albanian costume and red turban.](https://commons.wikimedia.org/wiki/Special:FilePath/Lord_Byron_in_Albanian_Dress_by_Phillips,_1813.jpg "Thomas Phillips, *Lord Byron in Albanian Dress* (1813), painted the year after *Childe Harold* made him famous.")
+
 The Byronic hero had an enormous influence on nineteenth-century literature: on Pushkin's Eugene Onegin, Emily Brontë's Heathcliff, Charlotte Brontë's Rochester, Lermontov's Pechorin, and countless others. His brooding, rebellious individualism became one of the defining images of Romanticism across Europe.
 
 ## Scandal and exile

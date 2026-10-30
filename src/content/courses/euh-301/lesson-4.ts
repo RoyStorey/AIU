@@ -179,6 +179,8 @@ The act passed by **444 votes to 94**. The Reichstag had voted itself out of exi
 
 There followed the process the Nazis called **Gleichschaltung**—"coordination" or "bringing into line." Every institution of German society was brought under Nazi control or abolished.
 
+![A photograph of a crowd watching students throw books onto a bonfire in a Berlin square at night.](https://commons.wikimedia.org/wiki/Special:FilePath/1933-may-10-berlin-book-burning.JPG "The burning of “un-German” books on the Opernplatz, Berlin, May 10, 1933, organized by Nazi student groups in university towns across Germany. U.S. National Archives.")
+
 - **The states** lost their autonomy; Reich governors were appointed to oversee them, and in January 1934 the state parliaments were abolished.
 - **The trade unions** were destroyed. On May 1, 1933, the regime celebrated a national "Day of Labor" with huge rallies; the next day, SA and SS men occupied union offices across the country and arrested their leaders. Workers were enrolled in the **German Labor Front** (DAF) under Robert Ley.
 - **The parties** disappeared. The KPD was suppressed; the SPD was banned in June 1933; the other parties, including the Center and Hugenberg's own DNVP, dissolved themselves. On **July 14, 1933**, a law declared the NSDAP the only legal party in Germany.

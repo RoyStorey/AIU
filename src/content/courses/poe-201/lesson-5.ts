@@ -215,6 +215,8 @@ But the temple is also the human heart. Herbert's real subject is the inner life
 
 Herbert was one of the most inventive formal poets in English. Almost every poem in *The Temple* uses a different stanza form, and many of them are shaped so that the form enacts the meaning. The most famous examples are his **pattern poems**, printed so that their lines form a picture. "The Altar" is shaped like an altar. "Easter Wings" is printed sideways, so that its two stanzas look like pairs of wings:
 
+![Two pages of The Temple printed sideways so that the lines of Easter Wings form the shape of two pairs of wings.](https://commons.wikimedia.org/wiki/Special:FilePath/GeorgeHerbertEasterWingsPatternPoem1633.jpg "“Easter Wings” as printed in the first edition of *The Temple* (1633), set sideways so the lines become wings.")
+
 > Lord, who createdst man in wealth and store,
 > Though foolishly he lost the same,
 > Decaying more and more,

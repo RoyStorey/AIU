@@ -23,6 +23,8 @@ At the same time, German biblical scholars were studying the Bible as a historic
 
 The Romantic poets had often written as outsiders, rebels, or exiles. The great Victorian poets were public figures, read by a vast middle-class audience, expected to speak to and for their age. **Alfred Tennyson** became Poet Laureate in 1850, succeeding Wordsworth, and held the post for forty-two years; his poems sold tens of thousands of copies; Queen Victoria was his admirer. Poetry was read aloud in families, memorized in schools, quoted in Parliament and from the pulpit. Many Victorians looked to poets, as earlier ages had looked to priests, for guidance on how to live.
 
+![A photographic portrait of Tennyson with long hair and a full beard, in dark clothes.](https://commons.wikimedia.org/wiki/Special:FilePath/Alfred,_Lord_Tennyson_by_Julia_Margaret_Cameron.jpg "Julia Margaret Cameron, Alfred Tennyson. Cameron, his neighbor on the Isle of Wight, photographed him often; he called one portrait “the Dirty Monk.”")
+
 That role was a burden as well as an honor. Victorian poets often felt torn between the private lyric impulse inherited from the Romantics and the public duty to address social and religious questions. Their poems are full of divided selves, of voices arguing with themselves, of masks.
 
 ## Three poets, one predicament

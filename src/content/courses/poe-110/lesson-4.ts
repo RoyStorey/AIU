@@ -78,6 +78,8 @@ The story is almost certainly invented from the song itself. But it was so beaut
 
 The greatest of the early troubadours, and to many readers the most moving, was **Bernart de Ventadorn**, active from about 1147 to the 1170s. His *vida* says that he was the son of a servant at the castle of Ventadorn in the Limousin—perhaps the man who fired the bread oven—and that he learned his art there, fell in love with the lady of the castle, and was banished when her husband discovered it. It also claims that he later served Eleanor of Aquitaine, Queen of England. Whatever the truth of these stories, his poetry has a directness, a lyrical intensity, and a psychological honesty unusual among the troubadours. Some forty of his songs survive, about eighteen of them with their melodies—more than for any other troubadour.
 
+![A small medieval miniature of a troubadour beside the opening of his song.](https://commons.wikimedia.org/wiki/Special:FilePath/BnF_ms._12473_fol._15v_-_Bernart_de_Ventadour_%281%29.jpg "Bernart de Ventadorn, from a thirteenth-century chansonnier (songbook) of the troubadours. Bibliothèque nationale de France, ms. fr. 12473.")
+
 His most famous song begins:
 
 > Can vei la lauzeta mover
@@ -340,6 +342,8 @@ The book opens with an image: "In that part of the book of my memory before whic
 ## Beatrice
 
 Who was Beatrice? The fourteenth-century writer Giovanni Boccaccio, Dante's first biographer, identified her as **Bice Portinari**, daughter of a prominent Florentine family, who married a banker, Simone de' Bardi, and died young in 1290. Most scholars accept this identification, though some have wondered whether Beatrice is as much a symbol as a woman. Her name means "she who blesses" or "she who makes blessed," and Dante plays on it.
+
+![A painting of Dante on a Florentine bridge watching Beatrice, in white, pass by with two companions.](https://commons.wikimedia.org/wiki/Special:FilePath/Dante_and_beatrice.jpg "Henry Holiday, *Dante and Beatrice* (1883): the meeting by the Arno that the *Vita Nuova* makes the beginning of a new life. Walker Art Gallery, Liverpool.")
 
 Dante first saw her, he says, when she was nearly nine and he had just turned nine, dressed in "a most noble color, a modest and becoming crimson." At that moment, he writes, "the spirit of life, which dwells in the most secret chamber of the heart, began to tremble so violently that it appeared fearfully in the least of my pulses, and, trembling, said these words: *Behold a god stronger than I, who, coming, shall rule over me*." The language is Cavalcanti's—spirits trembling, love as an overwhelming god—but the tone is already reverent.
 

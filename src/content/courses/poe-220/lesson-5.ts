@@ -156,6 +156,8 @@ Satan volunteers to make the dangerous journey alone, through Chaos. On the way,
 
 Many readers have found Satan the most compelling character in *Paradise Lost*: proud, eloquent, courageous, defiant of tyranny—everything the epic tradition taught its readers to admire in a hero. William Blake famously wrote that "Milton wrote in fetters when he wrote of Angels & God, and at liberty when of Devils & Hell," because "he was a true Poet and of the Devil's party without knowing it." Shelley, in the *Defence of Poetry*, judged Satan morally superior to Milton's God.
 
+![An engraving of Satan in profile, winged and brooding, against a dark sky.](https://commons.wikimedia.org/wiki/Special:FilePath/GustaveDoreParadiseLostSatanProfile.jpg "Gustave Doré, Satan, illustration for *Paradise Lost* (1866).")
+
 Others have answered that the reader's admiration is the point. Satan speaks like Achilles and Aeneas because heroic self-assertion, the virtue of the classical epic, is itself the sin of pride. "The mind is its own place" sounds magnificent; but it is a lie, as Satan himself will discover. We will return to this debate at the end of the lesson. For now, notice how much of Satan's grandeur is borrowed from the heroes of the earlier lessons.`,
     },
     {

@@ -126,11 +126,15 @@ Not all of Sappho's poems were intimate. A whole book of the Alexandrian edition
 
 The modern recovery of Sappho is one of the great stories of classical scholarship. In 1937, an Italian scholar published a fragment of a poem written on a broken piece of pottery (an *ostrakon*) from the third century BC—fragment 2, which you will read on the next page. From the 1890s onward, excavators at Oxyrhynchus in Egypt recovered papyrus scraps with lines of her poems. In 2004, a papyrus in Cologne allowed scholars to reconstruct almost the whole of a poem on old age (the "Tithonus poem"). In 2014, another papyrus revealed a poem about her brothers, though questions were later raised about how that papyrus had been acquired and traded.
 
+![A fragment of papyrus with lines of Greek text.](https://commons.wikimedia.org/wiki/Special:FilePath/P.Oxy.v0021.n2288.jpg "Papyrus Oxyrhynchus 2288 (second century AD), preserving part of Sappho's “Hymn to Aphrodite,” found among the rubbish heaps of Oxyrhynchus in Egypt.")
+
 Each discovery changes our picture of her, which is a useful reminder of how provisional our knowledge is. A poet we thought we knew as a poet of erotic longing turns out also to have written about family, old age, and myth.
 
 ## Sappho's world
 
 Who were the women and girls in Sappho's poems? The question has been argued for two centuries, often more in response to modern anxieties than to ancient evidence. Victorian scholars, uncomfortable with poems of desire between women, imagined Sappho as the headmistress of a kind of finishing school for girls, whose poems expressed a chaste, motherly affection. Others have seen her circle as a religious association devoted to Aphrodite, or a group of aristocratic women who gathered for music and ritual before marriage, much as men gathered at the symposium.
+
+![A Roman fresco of a young woman with a gold hairnet, holding wax tablets and a stylus to her lips.](https://commons.wikimedia.org/wiki/Special:FilePath/Pompei_-_Sappho_-_MAN.jpg "The so-called “Sappho” fresco from Pompeii (c. AD 50). The name is modern; she is a Roman woman of the first century, but the image of a woman poised to write has become Sappho's. Naples National Archaeological Museum.")
 
 What the poems themselves show is a world of women: friends and companions, girls who arrive and depart—often, it seems, to be married—festivals, garlands, perfumes, music, prayers to Aphrodite, and intense feelings of love, jealousy, longing, and loss. The love is often clearly erotic. The modern words "sapphic" and "lesbian," meaning love between women, derive from Sappho's name and her island, though they acquired that sense only in the nineteenth century. What we can say with confidence is that Sappho is the first poet in the Western tradition, and one of very few in the ancient world, to give voice to the desires and experiences of women from within.
 

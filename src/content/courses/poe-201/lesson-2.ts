@@ -49,6 +49,8 @@ Sidney's political ambitions were largely frustrated. Elizabeth gave him only mi
 
 Sidney's longest work, the *Arcadia*, is a prose romance interspersed with poems, written for the entertainment of his sister and her friends. In its first version (the "Old Arcadia," completed around 1580), Basilius, Duke of Arcadia, warned by an oracle of disaster, retires with his family to a pastoral retreat. Two young princes, Pyrocles and Musidorus, fall in love with his daughters, Philoclea and Pamela, and woo them in disguise—Pyrocles, comically and scandalously, as an Amazon warrior woman, Musidorus as a shepherd. The story is full of disguises, intrigues, seductions, and a trial, and between its five "acts" are pastoral eclogues in which the shepherds sing poems in an astonishing range of verse forms: sonnets, sestinas, terza rima, classical quantitative meters, and more. Sidney later began a much longer and more serious revision, the "New Arcadia," left unfinished at his death; the version published in 1593 combined the two.
 
+![A portrait of the young Philip Sidney in a dark doublet with a lace ruff.](https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Philip_Sidney_from_NPG.jpg "Sir Philip Sidney, unknown artist, after a portrait of about 1576. National Portrait Gallery, London.")
+
 The *Arcadia* was one of the most widely read books in English for over a century. It shows Sidney as an experimenter in verse—trying every form available to him—and as a writer fascinated by the conflict between passion and reason, love and duty, that would also drive *Astrophil and Stella*. Its afterlife included a political scandal: in 1649 John Milton accused the executed King Charles I of having borrowed a prayer spoken by Pamela in the *Arcadia* for his own devotions, as if the king's piety were a literary imitation.
 
 ## Zutphen
@@ -253,6 +255,8 @@ In 1580 Spenser went to Ireland as secretary to the new Lord Deputy, Lord Grey, 
 ## The Faerie Queene
 
 Spenser's masterpiece is *The Faerie Queene*, an immense allegorical romance in the nine-line Spenserian stanza you met in POE 101. Its first three books were published in 1590, with a letter to Sir Walter Ralegh explaining that its purpose was "to fashion a gentleman or noble person in virtuous and gentle discipline." Each book follows a knight representing a virtue—Holiness, Temperance, Chastity, Friendship, Justice, Courtesy—through adventures that are at once romance, moral allegory, and political commentary. The Faerie Queene herself, Gloriana, represents Elizabeth. Spenser planned twelve books; he completed six, published in 1590 and 1596, and a fragment of a seventh.
+
+![The title page of The Faerie Queene, London, William Ponsonby, 1590.](https://commons.wikimedia.org/wiki/Special:FilePath/The_Faerie_Queene_frontispiece.jpg "Title page of the first installment of *The Faerie Queene* (London: William Ponsonby, 1590), Books I–III.")
 
 *The Faerie Queene* is one of the longest poems in English, and one of the most beautiful. Its archaic language, deliberately old-fashioned, and its slow, weaving stanza create a dreamlike world of forests, castles, monsters, and enchantments. It belongs more to the epic tradition (POE 220) than to the lyric. But Spenser was also a great lyric poet, and in 1595 he published a small volume that combined his two greatest lyric achievements.
 

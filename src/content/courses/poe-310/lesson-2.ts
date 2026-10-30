@@ -17,6 +17,8 @@ Dickinson was educated at Amherst Academy and spent a year at Mount Holyoke Fema
 
 From her late twenties, Dickinson withdrew gradually from the world. By the late 1860s she rarely left the house and garden, and saw few visitors; she spoke with some through a half-closed door. She dressed in white. The townspeople called her "the Myth." Her reasons have been endlessly debated: shyness, illness (she had trouble with her eyes in the 1860s), an unhappy love, agoraphobia, a deliberate choice to protect the time and solitude her work required. She was not cut off from the world: she wrote over a thousand letters, read widely in newspapers, magazines, and books, and maintained intense friendships by correspondence. But she chose to live inwardly.
 
+![A daguerreotype of the teenage Emily Dickinson, seated, her hair parted in the middle, a velvet ribbon at her throat.](https://commons.wikimedia.org/wiki/Special:FilePath/Emily_Dickinson_daguerreotype.jpg "Emily Dickinson, daguerreotype (c. 1846–47), the only photograph of the poet that all scholars accept as authentic. Amherst College Archives & Special Collections.")
+
 ## The poems
 
 And she wrote. Between about 1858 and her death, Dickinson wrote nearly **eighteen hundred poems**. In the peak year, around 1862–63, she wrote nearly three hundred—almost one a day. She copied many of them into small booklets, sewing sheets of paper together with thread; scholars call these forty booklets the **fascicles**. Others she kept on loose sheets, scraps of envelopes, and the backs of recipes. She sent some to friends in letters—more than 250 to Susan alone. About ten were published in her lifetime, anonymously, in newspapers, several altered by editors. The rest she kept.

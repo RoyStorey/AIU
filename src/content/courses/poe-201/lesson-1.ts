@@ -85,6 +85,8 @@ In 1541, after the fall of his protector Thomas Cromwell, Wyatt was arrested aga
 
 Wyatt's poetry, most of it unpublished in his lifetime, is remarkably varied:
 
+![A chalk drawing of Sir Thomas Wyatt with a full beard, in three-quarter view.](https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Thomas_Wyatt_%281%29_by_Hans_Holbein_the_Younger.jpg "Hans Holbein the Younger, Sir Thomas Wyatt, chalk drawing (c. 1535–37). Royal Collection, Windsor.")
+
 - **Sonnets**, about thirty of them, most adapted from Petrarch: the first sonnets in English.
 - **Songs and lyrics** in short stanzas, often with refrains, many meant for the lute: "My lute, awake!", "Forget not yet," "Blame not my lute."
 - **Satires** in terza rima, adapted from Italian models, including a famous verse letter, "Mine own John Poyntz," in which he explains why he has left the court for the country: he cannot flatter, lie, or "call the crow a swan."

@@ -58,6 +58,8 @@ And he tells us when she died. On the flyleaf of his treasured manuscript of Vir
 
 We know almost nothing about the real Laura. Petrarch never names her family, never describes a conversation with her, never tells us anything about her life beyond her beauty, her virtue, her glance, her greeting, and her death. Since the sixteenth century she has been identified with **Laure de Noves**, wife of Hugues de Sade (an ancestor of the notorious marquis), who did die in 1348 and had many children. The identification is possible but unproven. Some of Petrarch's own contemporaries suspected that Laura was a poetic fiction, and he had to insist, in a letter, that she was real.
 
+![A fifteenth-century manuscript illumination of Petrarch, crowned with laurel, struck by Cupid's arrow, beside Laura.](https://commons.wikimedia.org/wiki/Special:FilePath/Petrarch_and_Laura.jpg "Petrarch and Laura in a fifteenth-century manuscript of the *Canzoniere* and *Trionfi*. Biblioteca Medicea Laurenziana, Florence.")
+
 What we know is that, if she was real, Laura was a married woman whom Petrarch loved for twenty-one years without, apparently, any return beyond courtesy, and whom he continued to love and write about for twenty-six years after her death. In this he followed the troubadours, who loved married ladies from afar, and Dante, who loved Beatrice—another married woman who died young—and turned her into a guide to paradise. But Petrarch's Laura is different from Beatrice, as we will see.
 
 ## Laura, laurel, breeze, gold

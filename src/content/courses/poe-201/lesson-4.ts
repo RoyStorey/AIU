@@ -33,6 +33,8 @@ For more than a decade Donne lived in poverty, dependent on patrons and relative
 
 King James I admired Donne's learning and urged him to become a priest. For years Donne resisted, perhaps out of a sense of unworthiness. In 1615, at forty-two, he was ordained in the Church of England. In 1617 Anne died after giving birth to a stillborn child; Donne was devastated, and Walton says that he turned wholly to God. In 1621 he became **Dean of St Paul's Cathedral** in London, and over the next decade he became the most celebrated preacher in England. His sermons, of which about 160 survive, are dramatic, learned, and intensely personal, full of the same wit and imagery as his poems.
 
+![A miniature portrait of John Donne with a pointed beard and a white collar.](https://commons.wikimedia.org/wiki/Special:FilePath/JohnDonne.jpg "Isaac Oliver, John Donne, miniature (1616), the year after his ordination.")
+
 He was preoccupied with death. Shortly before his own death in 1631, he preached his final sermon, *Death's Duel*, before the king, so emaciated that listeners said he had preached his own funeral sermon. He then had himself painted wrapped in his burial shroud, standing on a funeral urn, and kept the picture by his bed. A marble statue made from it stands in St Paul's today. It was one of the few monuments to survive the Great Fire of London in 1666.
 
 ## One mind
@@ -376,6 +378,8 @@ This is prose, not verse, but it has the rhythm and imagery of poetry. Its centr
 ## The sermons
 
 Donne's sermons, preached to large congregations at St Paul's and before the king, are among the greatest prose in English. They are dramatic, personal, learned, and full of startling images. In one, he describes the difficulty of prayer: "I throw myself down in my chamber, and I call in, and invite God and his angels thither, and when they are there, I neglect God and his angels for the noise of a fly, for the rattling of a coach, for the whining of a door." In another, he describes the decay of the body in the grave with grim relish. His last sermon, *Death's Duel*, preached in February 1631, weeks before his death, is a meditation on mortality in which the dying preacher seems to enact his own death in the pulpit.
+
+![An engraving of John Donne wrapped in his burial shroud, his eyes closed.](https://commons.wikimedia.org/wiki/Special:FilePath/Donne-shroud.png "Martin Droeshout, Donne in his shroud, frontispiece to *Deaths Duell* (1632), his last sermon. Donne posed for the original drawing in his winding sheet weeks before he died; it also served for his effigy in St Paul's.")
 
 ## "A Hymn to God the Father"
 

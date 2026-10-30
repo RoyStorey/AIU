@@ -17,6 +17,8 @@ We know they circulated in manuscript before publication. In 1598 the clergyman 
 
 The book begins with a dedication printed in capital letters and broken up with periods, like an inscription on a monument:
 
+![The title page of Shake-speares Sonnets, Never before Imprinted, London, 1609.](https://commons.wikimedia.org/wiki/Special:FilePath/Sonnets1609titlepage.jpg "Title page of *Shake-speares Sonnets* (London: Thomas Thorpe, 1609). Folger Shakespeare Library.")
+
 > TO. THE. ONLIE. BEGETTER. OF.
 > THESE. INSUING. SONNETS.
 > M^r. W. H. ALL. HAPPINESSE.

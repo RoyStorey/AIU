@@ -330,6 +330,8 @@ The refrain, "My soul has grown deep like the rivers," gives the poem its center
 
 Hughes went to Columbia University in 1921, but left after a year, alienated by its racism. He worked as a sailor and a kitchen worker, writing poems all the time. In 1925, working as a busboy at the Wardman Park Hotel in Washington, he saw the famous poet Vachel Lindsay at dinner, left three of his poems beside Lindsay's plate, and went back to work. That evening Lindsay read the poems aloud at a public reading and announced that he had discovered a busboy poet. The newspapers took up the story. That same year, Hughes's poem "The Weary Blues" won first prize in *Opportunity* magazine's literary contest, and the following year it became the title of his first book.
 
+![A photographic portrait of Langston Hughes in three-quarter profile.](https://commons.wikimedia.org/wiki/Special:FilePath/Langston_Hughes_by_Carl_Van_Vechten_1936.jpg "Carl Van Vechten, Langston Hughes, February 29, 1936. Library of Congress.")
+
 ## "Mother to Son"
 
 One of Hughes's early poems, published in *The Crisis* in 1922, is a dramatic monologue in Black vernacular speech:

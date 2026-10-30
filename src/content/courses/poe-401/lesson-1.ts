@@ -37,6 +37,8 @@ Criticism is argument. As you read each critic, ask: What is the claim? What evi
 
 The argument begins in Athens in the fourth century BC, with two philosophers, teacher and student. **Plato** (c. 427–347 BC), a student of Socrates, wrote dialogues in which Socrates questions his fellow Athenians about justice, love, knowledge, and the good. In several of them he turns to poetry, and especially to Homer, who, as you learned in POE 220, was the foundation of Greek education—"the educator of Greece." Plato's verdict on Homer and the poets is the most famous attack on poetry ever written.
 
+![A detail of Raphael's fresco: the white-bearded Plato points upward while Aristotle beside him holds his hand out flat toward the earth.](https://commons.wikimedia.org/wiki/Special:FilePath/Sanzio_01_Plato_Aristotle.jpg "Raphael, Plato and Aristotle, detail from *The School of Athens* (1509–11). Plato points to the heavens and holds the *Timaeus*; Aristotle gestures to the world and holds the *Ethics*. Vatican, Stanza della Segnatura.")
+
 **Aristotle** (384–322 BC), who studied for twenty years in Plato's Academy, wrote the first systematic treatise on poetry, the *Poetics*. It is in large part a reply to his teacher. Every later theory of poetry in the West descends, directly or indirectly, from one or the other—or from the quarrel between them.`,
     },
     {

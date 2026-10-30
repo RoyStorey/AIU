@@ -35,6 +35,8 @@ In 1805 his beloved brother John, a ship's captain, drowned when his ship sank o
 
 After about 1807, most readers agree, Wordsworth's poetry declined. He lived another forty-three years, wrote prolifically, and grew steadily more famous, more respectable, and more conservative. In 1813 he took a government post as Distributor of Stamps for Westmorland, collecting taxes; in 1843 he became Poet Laureate. The radical of the 1790s became a supporter of the established church and the Tory party, an opponent of reform. The younger Romantic poets, who revered his early work, felt betrayed. In 1816 Shelley wrote a sonnet "To Wordsworth" that ends:
 
+![A painting of the elderly Wordsworth, head bowed in thought, against a mountain landscape.](https://commons.wikimedia.org/wiki/Special:FilePath/Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg "Benjamin Robert Haydon, *Wordsworth on Helvellyn* (1842): the poet at seventy-two, a year before he became Poet Laureate. National Portrait Gallery, London.")
+
 > In honoured poverty thy voice did weave
 > Songs consecrate to truth and liberty,—
 > Deserting these, thou leavest me to grieve,

@@ -226,6 +226,8 @@ For a moment, the poem achieves a lyric beauty it has refused throughout. Prufro
 
 "Prufrock" uses the dramatic monologue you met in Browning, but turns it inward. Browning's Duke speaks to a listener and reveals himself unawares; Prufrock speaks to "you"—perhaps the reader, perhaps another part of himself—and is painfully aware of everything about himself, and paralyzed by that awareness. The poem's form is new, too: irregular lines of varying length, with rhymes that come and go unpredictably; abrupt shifts of scene and tone; a refrain ("In the room the women come and go / Talking of Michelangelo") that recurs like a mocking chorus. Eliot learned this technique partly from the French Symbolist poet Jules Laforgue, whose ironic, self-deprecating dandies are Prufrock's ancestors.
 
+![A snapshot of T. S. Eliot in a suit standing in a garden.](https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg "Lady Ottoline Morrell, T. S. Eliot at Garsington (1934). National Portrait Gallery, London.")
+
 Above all, "Prufrock" made the modern city, with its "half-deserted streets," "one-night cheap hotels," and yellow fog, and the modern mind, self-conscious, ironic, unable to act, the subject of poetry. Generations of readers have recognized themselves in it.`,
     },
     {

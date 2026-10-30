@@ -271,6 +271,8 @@ Here the pentameter becomes a vast organ. The sentence runs over five lines befo
 
 Iambic pentameter can be used with or without rhyme. **Blank verse** (unrhymed) tends to be used for long works: drama, epic, meditative and narrative poems. It can sustain great length without the chiming of rhyme becoming tiresome, and it allows sentences to run freely across lines. **Rhymed pentameter**, in couplets or stanzas, tends to be used for lyrics, sonnets, satire, and shorter narrative. The rhyme marks off the lines more strongly and makes them more epigrammatic.
 
+![The title page of the first edition of Paradise Lost, A Poem Written in Ten Books, London, 1667.](https://commons.wikimedia.org/wiki/Special:FilePath/Houghton_EC65.M6427P.1667aa_-_Paradise_Lost,_1667.jpg "Title page of the first edition of *Paradise Lost* (London, 1667), in ten books. Milton added a note defending his blank verse in 1668. Houghton Library, Harvard.")
+
 In the next lesson we will study rhyme itself. For now, simply notice the difference in feel between the free flow of Milton's blank verse and the snap of Pope's couplets.`,
     },
     {

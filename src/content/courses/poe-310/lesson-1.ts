@@ -49,6 +49,8 @@ In the early 1850s, living with his family in Brooklyn and working as a carpente
 
 Whitman set some of the type of the 1855 *Leaves of Grass* himself, in a Brooklyn print shop, and paid for the printing of about eight hundred copies. Few sold. Its prose preface announced his program:
 
+![An engraved portrait of the young Walt Whitman in a workman's shirt open at the collar, a hat tilted on his head, one hand on his hip.](https://commons.wikimedia.org/wiki/Special:FilePath/Walt_Whitman,_steel_engraving,_July_1854.jpg "Samuel Hollyer's steel engraving after a daguerreotype by Gabriel Harrison (1854), the frontispiece of the 1855 *Leaves of Grass*. The book printed no author's name on its title page; this was its signature. Morgan Library & Museum.")
+
 > The Americans of all nations at any time upon the earth have probably the fullest poetical nature. The United States themselves are essentially the greatest poem.
 
 The great poet, Whitman wrote, would be the equal of his country: "His spirit responds to his country's spirit ... he incarnates its geography and natural life and rivers and lakes." He would be democratic: "The poet ... is the equable man ... He is the arbiter of the diverse and he is the key." He would not need rhyme or meter: "The rhyme and uniformity of perfect poems show the free growth of metrical laws and bud from them as unerringly and loosely as lilacs or roses on a bush."

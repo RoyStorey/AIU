@@ -17,6 +17,8 @@ Hardy was born in a cottage in Dorset, in the southwest of England, the son of a
 
 Hardy straddles two centuries. He was born three years after Victoria's accession and died in 1928, the year of Eliot's early fame. He read Darwin's *Origin of Species* as a young man and lost his Christian faith, but never ceased to mourn it; he called himself "churchy" and loved the old hymns and the parish church. His view of the universe was bleak. There is no benevolent God, he believed, only an unconscious force he called the "**Immanent Will**," which moves through all things blindly, without purpose or care. Human beings suffer not because the universe is cruel but because it is indifferent.
 
+![A painted portrait of Thomas Hardy with a mustache, in a dark coat.](https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Hardy_by_William_Strang_1893.jpg "William Strang, Thomas Hardy (1893), painted while Hardy was still chiefly a novelist; his first book of poems came five years later. National Portrait Gallery, London.")
+
 His early sonnet "Hap" (written in 1866) states it plainly. He would almost prefer a cruel god, he says, who could laugh at his suffering—at least then there would be a meaning. But there is none:
 
 > But not so. How arrives it joy lies slain,

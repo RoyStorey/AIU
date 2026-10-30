@@ -145,6 +145,8 @@ The prayer is answered, in every detail. Odysseus's need to claim his *kleos*, t
 
 On the island of **Circe**, the enchantress turns Odysseus's men into pigs. Odysseus, protected by a magic herb from Hermes, resists her spells, and she restores the men; they stay a year with her as her guests and Odysseus as her lover, until his men remind him of home. Circe tells him he must first travel to the land of the dead, the subject of the next page.
 
+![A red-figure vase painting of Odysseus bound to the mast of his ship while his men row and bird-bodied Sirens hover around them.](https://commons.wikimedia.org/wiki/Special:FilePath/Odysseus_Sirens_BM_E440.jpg "The Siren Painter, Odysseus and the Sirens, Attic red-figure stamnos (c. 480–470 BC). Odysseus is lashed to the mast; one Siren plunges toward the sea. British Museum.")
+
 On the way home, Circe warns him about the **Sirens**, whose song lures sailors to their deaths. Odysseus plugs his men's ears with wax and has himself bound to the mast, so that he can hear the song without being destroyed by it. The Sirens sing to him not of love but of knowledge: "We know all the things that the Argives and Trojans suffered in wide Troy by the will of the gods, and we know all that happens on the fruitful earth." They offer him what he most desires: to know everything, and to hear the song of his own glory. He strains at the ropes; his men row on. It is an image of the hero who wants to experience everything and survive—and of the danger of the poetry that tells his story.
 
 ## The loss of the companions

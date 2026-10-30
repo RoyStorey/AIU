@@ -69,6 +69,8 @@ We cannot be certain that Lesbia was Clodia Metelli, and we should not read the 
 
 Two of the most famous poems concern Lesbia's pet sparrow. The first (poem 2) watches her play with it:
 
+![A painting of a Roman interior where a young man leans toward a woman reclining with a pet bird.](https://commons.wikimedia.org/wiki/Special:FilePath/Catullus-at-Lesbia%27s-large.jpg "Lawrence Alma-Tadema, *Catullus at Lesbia's* (1865), a Victorian imagining of the poet and his beloved.")
+
 > Sparrow, darling of my girl,
 > with whom she likes to play, to hold you in her lap,
 > to give you her fingertip when you come at her,

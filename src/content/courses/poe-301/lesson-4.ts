@@ -54,6 +54,8 @@ Yeats's early poetry—*The Wanderings of Oisin* (1889), *The Rose* (1893), *The
       title: "Maud Gonne",
       body: `## "The troubling of my life"
 
+![A photographic portrait of the young W. B. Yeats with dark hair falling over his forehead and a loose tie.](https://commons.wikimedia.org/wiki/Special:FilePath/Yeats_Boughton.jpg "Alice Boughton, W. B. Yeats (1903), taken during his first American lecture tour.")
+
 On 30 January 1889, a tall, beautiful, wealthy young Englishwoman, **Maud Gonne**, came to visit Yeats's father's house in London. She was twenty-two; Yeats was twenty-three. "I had never thought to see in a living woman so great beauty," he wrote later. "The troubling of my life began." She was a passionate Irish nationalist, a speaker at mass meetings, a campaigner for evicted tenants and political prisoners. Yeats fell in love with her at once, and remained in love with her, hopelessly, for nearly thirty years.
 
 He proposed to her in 1891, and many times after. She refused him every time. She admired his poetry but told him that the world should thank her for not marrying him, because his unhappiness made his poems. In 1903 she married instead Major John MacBride, an Irish nationalist soldier who had fought against the British in the Boer War. The marriage was a disaster, and they separated within two years. But she still would not marry Yeats.

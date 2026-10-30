@@ -67,6 +67,8 @@ The Reds won for several reasons. They held the central core of Russia, with its
 
 The Civil War merged into an international war. The new Polish state, led by **Józef Piłsudski**, sought to push its frontiers east and to create a federation with Lithuania, Belarus, and Ukraine that would keep Russia permanently weak. In April 1920 Polish forces, allied with the Ukrainian nationalist Symon Petliura, captured Kyiv. The Red Army counterattacked and by August had reached the outskirts of Warsaw. Lenin hoped to carry revolution "on the point of the bayonet" through Poland to Germany; Tukhachevsky's order of the day proclaimed that "over the corpse of White Poland lies the road to world conflagration."
 
+![A photograph of Lenin speaking from a wooden platform to a crowd, with Trotsky and Kamenev standing on the steps beside it.](https://commons.wikimedia.org/wiki/Special:FilePath/Lenin_Speech_in_May_1920.png "G. P. Goldshtein, Lenin addresses troops leaving for the Polish front, Moscow, May 5, 1920. Trotsky and Kamenev stand on the steps at right; in later Soviet reproductions, both were removed.")
+
 In the **Battle of Warsaw** (August 13–25, 1920), which Poles call the "Miracle on the Vistula," Piłsudski's counteroffensive routed the Red Army. The **Treaty of Riga** (March 1921) divided Belarus and Ukraine between Poland and Soviet Russia. The failure in Poland ended Bolshevik hopes of spreading revolution westward by force and confirmed that, for the foreseeable future, Soviet Russia would stand alone. One of the political commissars blamed for the defeat was Stalin, then attached to the southwestern front, who had failed to send forces north to support Tukhachevsky—an episode neither man forgot.
 
 ## Red Terror

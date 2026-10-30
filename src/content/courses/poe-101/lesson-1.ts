@@ -195,6 +195,8 @@ Read it aloud twice. Then read on.
 
 Before we look at any single line, we should establish the basic situation, as we would at the start of a play. Who is speaking? An "I" (or "me")—an older person, who says that he is in the autumn, the twilight, and the dying embers of his life. To whom? A "thou," someone who loves him. About what? About the speaker's own aging and approaching death. And in what spirit? That is harder to say, and the answer will depend on our reading of the final two lines.
 
+![A painted portrait of a balding man with a dark beard and a gold earring, believed to be Shakespeare.](https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare.jpg "The Chandos portrait, attributed to John Taylor (c. 1600–10), long held to be the only portrait of Shakespeare painted from life. National Portrait Gallery, London.")
+
 ## The structure
 
 The poem has fourteen lines of iambic pentameter rhyming *abab cdcd efef gg*: three quatrains (four-line units) and a final couplet. This is the form we now call the Shakespearean or English sonnet. Each quatrain is built on the same pattern: "*In me thou see'st* ..." followed by a metaphor for the speaker's age. The couplet then turns from the speaker to the listener: "*This thou perceiv'st* ..."

@@ -348,6 +348,8 @@ A **persona** (Latin for "mask," originally the mask worn by actors) is a speake
 
 The persona reaches its fullest development in the **dramatic monologue**, a form perfected by Robert Browning in the 1840s and 1850s. A dramatic monologue has three features:
 
+![A photographic portrait of Robert Browning with a gray beard, looking down.](https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Browning_1865.jpg "Julia Margaret Cameron, Robert Browning (1865).")
+
 1. A single speaker, who is clearly not the poet, speaks the whole poem.
 2. The speaker addresses a silent listener, whose presence and reactions we infer from the speaker's words.
 3. The speaker reveals his or her character, often unintentionally, in the course of speaking.

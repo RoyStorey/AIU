@@ -248,6 +248,8 @@ The last line is a devastating accusation. Church and state together build their
 
 The most famous poem of *Experience* answers "The Lamb":
 
+![Blake's hand-colored relief-etched plate of The Tyger, the poem's text above a drawing of a tiger beneath a tree.](https://commons.wikimedia.org/wiki/Special:FilePath/Songs_of_Innocence_and_of_Experience_copy_F_object_42_The_Tyger.jpg "William Blake, “The Tyger,” *Songs of Innocence and of Experience*, copy F, relief etching colored by hand. Yale Center for British Art.")
+
 > Tyger Tyger, burning bright,
 > In the forests of the night;
 > What immortal hand or eye,

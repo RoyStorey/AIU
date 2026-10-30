@@ -197,6 +197,8 @@ Notice where the turn comes: not at line 9, but in the middle of line 8: "But Pa
 
 The **Shakespearean sonnet**, devised by Surrey and perfected by Shakespeare, is built differently: three **quatrains** and a final **couplet**, rhyming *abab cdcd efef gg*. English has fewer rhymes than Italian, and this scheme needs only two words for each rhyme instead of four or five.
 
+![A page of the 1609 quarto showing Shakespeare's Sonnet 130, My mistress' eyes are nothing like the sun.](https://commons.wikimedia.org/wiki/Special:FilePath/Sonnet_130_1609.jpg "Sonnet 130 as first printed in *Shake-speares Sonnets* (1609): three quatrains and a couplet, the English sonnet's shape on the page.")
+
 Its structure suits a different kind of thinking. The three quatrains allow a subject to be developed in three stages—three images, three arguments, three variations—and the couplet delivers a conclusion, often epigrammatic, sometimes a surprising twist. You saw this in Sonnet 73, where three images of decline lead to the couplet's turn to the listener. The turn may come at line 9, as in the Italian form, or be delayed until the couplet, or both.
 
 Critics have sometimes complained that the Shakespearean couplet can feel too neat, a tidy moral tacked on to a complex poem. Shakespeare often exploits this: his couplets can be ironic, inadequate to what precedes them, or deliberately unconvincing, so that the reader feels the gap between the poem's problem and its claimed solution.

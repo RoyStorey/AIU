@@ -152,6 +152,8 @@ Emily Dickinson used near rhyme more boldly than any English-language poet befor
 
 The English poet Wilfred Owen, killed in action one week before the end of the First World War in 1918, developed pararhyme into a powerful instrument. His poem "Strange Meeting," in which a soldier descends into a kind of underworld and meets the enemy he killed, begins:
 
+![A photographic portrait of Wilfred Owen in army uniform.](https://commons.wikimedia.org/wiki/Special:FilePath/Wilfred_Owen_plate_from_Poems_%281920%29.jpg "Wilfred Owen, the frontispiece to his posthumous *Poems* (1920), edited by Siegfried Sassoon.")
+
 > It seemed that out of battle I escaped
 > Down some profound dull tunnel, long since scooped
 > Through granites which titanic wars had groined.

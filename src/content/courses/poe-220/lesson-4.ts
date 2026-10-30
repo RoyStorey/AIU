@@ -23,6 +23,8 @@ The *Comedy* is an exile's poem. Its journey is set in 1300, before the exile, s
 
 The *Comedy* is the most carefully structured long poem ever written. It is divided into three parts, or *cantiche*: ***Inferno*** (Hell), ***Purgatorio*** (Purgatory), and ***Paradiso*** (Paradise). Each has thirty-three cantos; with an introductory canto, they make one hundred, the perfect number (ten times ten). The number three, for the Trinity, governs everything: the poem is written in **terza rima**, the interlocking three-line stanza Dante invented, which you met in POE 101 (*aba bcb cdc ...*), in which each tercet reaches forward into the next, as the journey moves always onward. Each line is a **hendecasyllable**, eleven syllables, the standard Italian line. Each of the three *cantiche* ends with the same word: *stelle*, "stars."
 
+![A painting of Dante in red robes holding his book, with the gate of Hell on one side, the mountain of Purgatory behind, the city of Florence on the other, and the heavenly spheres above.](https://commons.wikimedia.org/wiki/Special:FilePath/Dante_Domenico_di_Michelino_Duomo_Florence.jpg "Domenico di Michelino, *Dante and the Three Kingdoms* (1465): the poet with his book between Hell, the mountain of Purgatory, the spheres of Heaven, and Florence, the city that exiled him. Florence Cathedral.")
+
 The journey takes place over a week at Easter 1300. Dante enters Hell on the evening of Good Friday, emerges at the foot of Mount Purgatory before dawn on Easter Sunday, climbs the mountain for three days, and rises through the heavens. The story of the poem is the story of Christ's death and resurrection, lived by one man.
 
 ## Why "Comedy"?

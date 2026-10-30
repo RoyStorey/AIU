@@ -35,6 +35,8 @@ Between September 1818 and September 1819—the period critics call "the living 
 
 In February 1820, getting into bed, he coughed blood. Brown later recalled his words: "I know the colour of that blood;—it is arterial blood;—I cannot be deceived in that colour;—that drop of blood is my death-warrant;—I must die." His last book, *Lamia, Isabella, The Eve of St. Agnes, and Other Poems*, appeared in July 1820. In September, on his doctors' advice, he sailed for Italy with the young painter Joseph Severn. They took rooms beside the Spanish Steps in Rome, where Severn nursed him through months of suffering. Keats died on 23 February 1821, at twenty-five.
 
+![A portrait of John Keats seated reading, his head resting on his hand.](https://commons.wikimedia.org/wiki/Special:FilePath/John_Keats,_portrait_by_Joseph_Severn.jpg "Joseph Severn, *John Keats* (1821–23), painted after the poet's death from Severn's memories of Keats reading at Wentworth Place. National Portrait Gallery, London.")
+
 He asked that his gravestone bear no name, only the words: "Here lies One Whose Name was writ in Water." It stands in the Protestant Cemetery in Rome, a few hundred yards from where Shelley's ashes would be buried the next year. The rooms where he died are now the Keats-Shelley House, a museum. His name, of course, was not writ in water.`,
     },
     {

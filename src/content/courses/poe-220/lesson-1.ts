@@ -287,6 +287,8 @@ Andromache, at home, knows nothing. She is weaving a purple cloth with flowers, 
 
 Achilles' wrath does not end with Hector's death. For twelve days he drags the body around the tomb of Patroclus every morning; the gods, in pity, preserve it from corruption. Finally Zeus intervenes. Thetis tells Achilles to accept a ransom for the body; and Iris, the messenger of the gods, tells Priam to go to Achilles' tent, alone except for a herald, with a wagon of treasure. Guided through the Greek camp by the god Hermes, the old king enters the tent of the man who has killed his son.
 
+![A red-figure painting on a Greek cup: the old king Priam approaches Achilles, who reclines on a couch above the body of Hector.](https://commons.wikimedia.org/wiki/Special:FilePath/Hektor_ransom_BM_E75.jpg "Priam comes to ransom Hector's body from Achilles, Attic red-figure cup (c. 480 BC), said to be from Vulci. British Museum.")
+
 What follows, in Book 24, is the climax of the *Iliad*, and many readers consider it the greatest scene in ancient literature. Priam kneels and clasps Achilles' knees and kisses his hands—"the terrible, man-slaying hands that had killed so many of his sons." He asks Achilles to remember his own father, Peleus, an old man far away, who still hopes to see his son come home. And he says:
 
 > I have endured what no other mortal on earth has endured:

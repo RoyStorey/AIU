@@ -43,6 +43,8 @@ In 1798, Wordsworth and Coleridge published *Lyrical Ballads* anonymously, with 
 
 The Preface begins by stating what the poems tried to do:
 
+![The title page of Lyrical Ballads, with a Few Other Poems, London, J. & A. Arch, 1798.](https://commons.wikimedia.org/wiki/Special:FilePath/Lyrical_Ballads.jpg "Title page of the first edition of *Lyrical Ballads* (London, 1798), published anonymously by Wordsworth and Coleridge. The famous Preface came with the second edition of 1800. University of Leeds.")
+
 > The principal object, then, proposed in these Poems was to choose incidents and situations from common life, and to relate or describe them, throughout, as far as was possible in a selection of language really used by men, and, at the same time, to throw over them a certain colouring of imagination, whereby ordinary things should be presented to the mind in an unusual aspect.
 
 Three elements: **common life** as subject; the **language really used by men** as medium; and a **colouring of imagination** to make the ordinary strange and new. Wordsworth chose "humble and rustic life" in particular, because "in that condition, the essential passions of the heart find a better soil in which they can attain their maturity, are less under restraint, and speak a plainer and more emphatic language." Country people, he argued, live close to nature and to the permanent realities of human existence, and their speech is simpler and more truthful than the artificial language of fashionable society.
