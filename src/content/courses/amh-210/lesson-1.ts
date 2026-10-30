@@ -77,6 +77,8 @@ On July 5, 1852, Frederick Douglass spoke to an antislavery audience in Rocheste
 
 The most powerful response to the Fugitive Slave Act came from **Harriet Beecher Stowe**, the daughter of the evangelical minister Lyman Beecher and the sister of Catharine Beecher. Stowe had lived for years in Cincinnati, across the Ohio River from slaveholding Kentucky, where she had met fugitives and seen something of slavery. Outraged by the new law, she wrote *Uncle Tom's Cabin, or Life among the Lowly*, which was serialized in an antislavery newspaper in 1851–52 and published as a book in March 1852.
 
+![An engraved illustration of Uncle Tom's cabin, with Tom, Aunt Chloe, and their children at the door.](https://commons.wikimedia.org/wiki/Special:FilePath/UncleTomsCabinCover.jpg "Hammatt Billings's illustration for the first edition of *Uncle Tom's Cabin* (Boston: John P. Jewett, 1852).")
+
 The novel told the stories of Tom, a pious enslaved man who is sold away from his family, passes through the hands of a kind master, and is finally beaten to death by the brutal Simon Legree for refusing to betray two women who have escaped; and of Eliza, who escapes across the ice of the Ohio River with her child to save him from being sold. Stowe's purpose was to make readers *feel* the evil of slavery, especially its destruction of families. She appealed above all to mothers: what would they do if their children were to be sold?
 
 The book sold some 300,000 copies in the United States in its first year—an unprecedented number—and over a million in Britain. It was adapted into plays that were performed for decades. Southerners denounced it as a slander, and Southern writers published dozens of "anti-Tom" novels portraying happy slaves and kindly masters. The story that Lincoln greeted Stowe in 1862 as "the little woman who wrote the book that made this great war" first appeared decades later and is probably apocryphal. But no book did more to make slavery real to Northern readers.
@@ -114,6 +116,8 @@ Violence followed. On May 21, 1856, a proslavery posse sacked the free-state tow
 ## Bleeding Sumner
 
 The violence reached the Senate. On May 19–20, 1856, Senator **Charles Sumner** of Massachusetts delivered a speech, "The Crime against Kansas," denouncing the proslavery forces in lurid language and insulting the elderly Senator Andrew Butler of South Carolina, whom he accused of taking "the harlot, Slavery," as his mistress. Two days later, Butler's kinsman, Congressman **Preston Brooks**, walked into the Senate chamber and beat Sumner over the head with a cane until he collapsed, bloody and unconscious. Sumner did not return to the Senate for over three years. Brooks resigned, was reelected overwhelmingly, and received dozens of new canes from admirers across the South. In the North, "Bleeding Kansas" and "Bleeding Sumner" seemed proof that the Slave Power would stop at nothing.
+
+![A cartoon of Preston Brooks beating Charles Sumner with a cane on the Senate floor while other senators watch and laugh.](https://commons.wikimedia.org/wiki/Special:FilePath/Southern_chivalry_-_argument_versus_club%27s.jpg "John L. Magee, *Southern Chivalry: Argument versus Club's* (1856). A Northern view of the caning of Sumner: the senator holds a pen; his attacker, a club.")
 
 ## The election of 1856
 
@@ -190,6 +194,8 @@ At Freeport, Lincoln asked Douglas whether the people of a territory could lawfu
 ## The outcome
 
 Senators were then chosen by state legislatures, not by popular vote. In November 1858, Republican legislative candidates won more popular votes, but the Democrats, aided by an outdated apportionment, won a majority of seats, and the legislature reelected Douglas. Lincoln had lost. But the debates made him a national figure. In February 1860 he spoke at the **Cooper Union** in New York, delivering a careful historical argument that most of the founders had believed Congress could regulate slavery in the territories, and closing: "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it." The speech, and the photograph taken by Mathew Brady the same day, introduced him to the East.
+
+![A photograph of a beardless Abraham Lincoln standing with one hand on a pile of books.](https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Lincoln,_candidate_for_U.S._president,_three-quarter_length_portrait,_before_delivering_his_Cooper_Union_address_in_New_York_City%29_-_Brady,_N.Y_LCCN98504529.jpg "Mathew Brady, Abraham Lincoln, February 27, 1860, the day of the Cooper Union address. Lincoln later said the speech and the photograph made him president. Library of Congress.")
 
 ## Lincoln's views
 

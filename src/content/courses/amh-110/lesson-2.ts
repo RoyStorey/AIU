@@ -27,6 +27,8 @@ Powhatan did not see the English as conquerors. He saw them as a small, weak, po
 
 The colony was saved, for a time, by **John Smith**, a twenty-seven-year-old soldier of fortune who had fought against the Ottoman Turks, been enslaved in Turkey, and escaped. Smith was arrogant and quarrelsome—he had arrived in chains, accused of mutiny—but he was energetic and capable. In 1608 he became president of the colony's council. He imposed discipline, declaring that "he that will not work shall not eat," set the colonists to building and planting, and traded—and bullied—the Powhatans for corn.
 
+![An engraved map of the Chesapeake Bay and its rivers, oriented with west at the top, with an inset of Powhatan seated in his longhouse.](https://commons.wikimedia.org/wiki/Special:FilePath/Virginia_1612_map.jpg "John Smith's map of Virginia, engraved by William Hole (Oxford, 1612). Note the inset of Powhatan at Werowocomoco and how much of the map is Native towns.")
+
 Smith's dealings with Powhatan produced the most famous story of early Virginia. According to Smith's *Generall Historie of Virginia* (1624), he was captured by the Powhatans in December 1607 and brought before Powhatan, where he was about to be clubbed to death when Powhatan's daughter, a girl of about eleven named **Pocahontas**, threw herself upon him and saved his life. Historians have long doubted the story. Smith did not mention it in his earlier account of his captivity, published in 1608; he told it only after Pocahontas had become famous, and he told a similar story of being rescued by a young woman in Turkey. Some scholars suggest that, if something like it happened, it may have been a ritual in which Powhatan adopted Smith as a subordinate chief, which Smith misunderstood. What is certain is that Pocahontas visited the fort, carried messages, and became a link between the two peoples.
 
 ## The Starving Time
@@ -54,6 +56,8 @@ Tobacco shaped everything about the Chesapeake. It exhausted the soil within a f
 ## Pocahontas in England
 
 In 1616 Rolfe and Pocahontas, now baptized as Rebecca, traveled to England with their infant son, Thomas, as part of the Virginia Company's campaign to promote the colony. She was presented at court and to fashionable society as a converted "Indian princess," living proof that the colony could civilize and Christianize the Native peoples. In March 1617, as the family prepared to return to Virginia, she fell ill and died at Gravesend, at about twenty-one. Her marriage had brought a period of peace between the colonists and the Powhatans. With her death, and Powhatan's in 1618, that peace would not last.
+
+![An engraved portrait of Pocahontas in English court dress with a lace collar and a feather fan.](https://commons.wikimedia.org/wiki/Special:FilePath/Pocahontas_by_Simon_van_de_Passe_%281616%29.png "Simon van de Passe, *Matoaka als Rebecka* (1616), engraved during her visit to London: the only likeness of Pocahontas made in her lifetime. National Portrait Gallery, Washington.")
 
 ## Reforms of 1618–1619
 

@@ -49,6 +49,8 @@ In 1800, by the secret Treaty of San Ildefonso, Spain returned the vast territor
 
 What saved the situation was a revolution in the Caribbean. As you saw in Lesson I, enslaved people in Saint-Domingue had risen in 1791, and under the leadership of **Toussaint Louverture**, a formerly enslaved coachman who proved a military and political genius, they had defeated Spanish and British invasions and taken control of the colony, nominally still under France. In 1802 Napoleon sent a great army under his brother-in-law, General Charles Leclerc, to restore French rule and, it soon became clear, slavery. Leclerc captured Toussaint by treachery and shipped him to France, where he died in a prison in the Jura Mountains in April 1803. But the people of Saint-Domingue fought on under **Jean-Jacques Dessalines**, and yellow fever destroyed the French army; Leclerc himself died of it. On January 1, 1804, Dessalines declared the independence of **Haiti**.
 
+![An engraved portrait of Toussaint Louverture in the uniform of a French general.](https://commons.wikimedia.org/wiki/Special:FilePath/Toussaint_L%27Ouverture.jpg "Toussaint Louverture in the uniform of a general of the French Republic, from a series of portraits of revolutionary generals (c. 1800–1802). John Carter Brown Library.")
+
 The defeat in Saint-Domingue ended Napoleon's American ambitions. Without the sugar island, Louisiana was useless to him, and he needed money for a coming war with Britain. In April 1803, his minister Talleyrand startled Livingston and James Monroe, who had been sent to buy New Orleans, by asking what the United States would pay for all of Louisiana.
 
 ## The purchase
@@ -134,6 +136,8 @@ In the South, the war merged with a civil war among the Creeks. A faction known 
 ## Washington burns
 
 In 1814, with Napoleon defeated in Europe, Britain sent veteran troops to America. In August, a British force landed in Maryland, routed American militia at Bladensburg, and marched into Washington. The president and his government fled; Dolley Madison had the full-length portrait of George Washington removed from the President's House before she left. On August 24, the British burned the Capitol, the President's House, and other public buildings, in retaliation for the American burning of York, the capital of Upper Canada, the year before. A thunderstorm the next day put out the fires.
+
+![An engraving of British troops marching through Washington as the Capitol and other buildings burn.](https://commons.wikimedia.org/wiki/Special:FilePath/Burning_of_Washington_1814.jpg "*Capture and Burning of Washington by the British, in 1814*, a wood engraving published in 1876. Library of Congress.")
 
 The British then moved on **Baltimore**, but Fort McHenry withstood a twenty-five-hour bombardment in September. Watching from a ship in the harbor, a Washington lawyer named **Francis Scott Key** saw the American flag still flying at dawn and wrote the poem that became "The Star-Spangled Banner." In the same month, an American naval victory on Lake Champlain at Plattsburgh turned back a British invasion from Canada.
 

@@ -59,6 +59,8 @@ To manage his empire, in 1882 Rockefeller's lawyers created the **Standard Oil T
 
 Were these men "**robber barons**," who built their fortunes through monopoly, fraud, political corruption, and the exploitation of workers? Or were they "**captains of industry**," whose vision and energy created the industrial economy and lowered the prices of the goods ordinary people consumed? The term "robber barons," borrowed from medieval lords who extorted tolls from travelers on the Rhine, was used by critics in their own time, and popularized by the journalist Matthew Josephson's book *The Robber Barons* (1934), written during the Great Depression.
 
+![A cartoon of senators at their desks dwarfed by enormous bloated money-bags representing trusts, with the people's entrance to the gallery barred shut.](https://commons.wikimedia.org/wiki/Special:FilePath/The_Bosses_of_the_Senate_by_Joseph_Keppler.jpg "Joseph Keppler, *The Bosses of the Senate*, *Puck*, January 23, 1889. The banner reads: “This is the Senate of the Monopolists by the Monopolists and for the Monopolists!” Library of Congress.")
+
 Later historians, such as Allan Nevins in his biography of Rockefeller, defended the industrialists as builders who brought order and efficiency to chaotic industries. The truth includes both. Rockefeller's methods were ruthless and often unscrupulous; but kerosene became much cheaper under Standard Oil. Carnegie's steel made railroads and cities possible; but his workers labored twelve hours a day, seven days a week, in brutal conditions. Some industrialists, such as the railroad speculator **Jay Gould**, who manipulated stocks and once tried to corner the gold market, were closer to pure robber barons; others, such as Carnegie, were genuinely productive. All operated in an economy with few rules, in which political influence was for sale and workers had little power.
 
 ## The Gospel of Wealth
@@ -129,6 +131,8 @@ Industrial work was also dangerous. The United States had the highest rate of in
 
 Women made up a growing part of the workforce: about one in five by 1900. Most were young and unmarried. They worked in textile mills, garment shops, and food processing, and increasingly as domestic servants, the largest single occupation for women. By the end of the century, new jobs opened for women as typists, telephone operators, and department store clerks—jobs that required education and offered respectability. Women were almost always paid less than men for the same work, on the assumption that they were supported by fathers or husbands. Many women also worked for wages at home, taking in boarders, laundry, or piecework sewing, labor that census takers rarely counted.
 
+![A photograph of soot-covered boys sitting astride coal chutes in a dark breaker, picking slate from the coal.](https://commons.wikimedia.org/wiki/Special:FilePath/Pennsylvania_breaker_boys_1911.jpg "Lewis Hine, breaker boys at an anthracite breaker near South Pittston, Pennsylvania (1911), photographed for the National Child Labor Committee. Library of Congress.")
+
 **Child labor** was widespread. In 1900, about 1.75 million children between ten and fifteen worked for wages—nearly one in five children of that age. They worked in textile mills, coal mines, canneries, and street trades, often for twelve hours a day. Boys as young as eight or nine worked as "breaker boys" in the anthracite coal mines of Pennsylvania, picking slate and rock from the coal as it passed below them on chutes. The photographer **Lewis Hine** would later document their lives for the National Child Labor Committee.
 
 ## Black workers
@@ -160,6 +164,8 @@ The Knights' goals went far beyond higher wages. They sought to replace the wage
 ## Haymarket
 
 The year 1886 saw unprecedented labor unrest—over 1,400 strikes involving some 400,000 workers—much of it centered on a national campaign for the **eight-hour day**, set to culminate in strikes on May 1. Chicago was the center of the movement, and of a small but vocal anarchist movement, largely of German immigrants.
+
+![An engraving of a bomb exploding among police in a Chicago square at night, with a speaker on a wagon and a fleeing crowd.](https://commons.wikimedia.org/wiki/Special:FilePath/HaymarketRiot-Harpers.jpg "Thure de Thulstrup, *The Anarchist Riot in Chicago: A Dynamite Bomb Exploding among the Police*, *Harper's Weekly*, May 15, 1886. The engraving compresses the event: the meeting was ending, and the speaker shown had finished, when the bomb was thrown.")
 
 On May 3, police killed several strikers at the McCormick Harvester plant. Anarchists called a protest meeting the next evening at **Haymarket Square**. The meeting was peaceful, and the mayor, who attended, left early. But as police moved in to disperse the dwindling crowd, someone threw a bomb, killing one policeman instantly; in the gunfire that followed, mostly from police, seven policemen and at least four civilians died, and many were wounded.
 

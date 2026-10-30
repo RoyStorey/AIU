@@ -79,6 +79,8 @@ Lee was the son of a Revolutionary War hero, "Light-Horse Harry" Lee, a West Poi
 
 In September 1862, Lee invaded Maryland, hoping to win a victory on Northern soil that would demoralize the North before the fall elections, perhaps bring Maryland into the Confederacy, and win European recognition. By extraordinary luck, a Union soldier found a copy of Lee's orders, wrapped around three cigars, in an abandoned Confederate camp, revealing that Lee had divided his army. McClellan moved, but slowly.
 
+![A photograph of President Lincoln, very tall in a stovepipe hat, standing among army officers outside a tent.](https://commons.wikimedia.org/wiki/Special:FilePath/Lincoln_and_generals_at_Antietam.jpg "Alexander Gardner, President Lincoln with officers at Antietam, October 3, 1862. Lincoln had come to urge McClellan to pursue Lee; a month later he removed him from command. Library of Congress.")
+
 On September 17, 1862, along Antietam Creek near Sharpsburg, Maryland, McClellan attacked. The **Battle of Antietam** was the bloodiest single day in American history: about 23,000 men were killed, wounded, or missing. Union attacks came in uncoordinated waves, through a cornfield, along a sunken road that became known as "Bloody Lane," and across a stone bridge. Lee's outnumbered army held on, and the next day McClellan, though he had fresh troops, did not attack. Lee retreated to Virginia.
 
 Antietam was a tactical draw but a strategic Union victory. Lee's invasion had been turned back. Britain and France, which had been considering mediation, drew back. And Lincoln, who had been waiting for a victory, used it to issue the preliminary Emancipation Proclamation. When McClellan again refused to pursue Lee, Lincoln removed him from command in November.
@@ -128,6 +130,8 @@ The historian **Drew Gilpin Faust**, in *This Republic of Suffering* (2008), exp
 ## Seeing the war
 
 The Civil War was the first major war to be extensively photographed. In October 1862, the photographer **Mathew Brady** exhibited in his New York gallery photographs by Alexander Gardner of the dead at Antietam, the first time Americans saw images of corpses on a battlefield. "Mr. Brady has done something to bring home to us the terrible reality and earnestness of war," wrote the *New York Times*. "If he has not brought bodies and laid them in our door-yards and along the streets, he has done something very like it."
+
+![A photograph of dead Confederate soldiers lying along a rail fence beside a road at Antietam.](https://commons.wikimedia.org/wiki/Special:FilePath/Antietam,_Md._Confederate_dead_by_a_fence_on_the_Hagerstown_road_LOC_cwpb.01097.jpg "Alexander Gardner, Confederate dead by a fence on the Hagerstown road, Antietam, September 1862, one of the photographs Brady exhibited in New York that October. Library of Congress.")
 
 > **Pause and consider.** Why did tactics lag so far behind technology in the Civil War, and what were the consequences?`,
     },

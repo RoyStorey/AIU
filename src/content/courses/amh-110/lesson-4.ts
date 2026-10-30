@@ -49,6 +49,8 @@ The company founded **New Netherland** as a trading colony. In 1624 it built For
 
 New Netherland was never populous—perhaps 9,000 people by 1664—because the Dutch, prosperous at home, had little reason to emigrate. To attract settlers, the company offered huge estates called **patroonships** to investors who would bring over tenants; only one, **Rensselaerswyck**, near Fort Orange, succeeded. The colony drew settlers from across Europe: Dutch, Walloons, Germans, Scandinavians, English, and French Huguenots. A Jesuit visitor in 1643 reported that eighteen languages were spoken in New Amsterdam.
 
+![A colored plan of New Amsterdam in 1660, showing the fort, the canal, blocks of houses and gardens, and the wall that became Wall Street.](https://commons.wikimedia.org/wiki/Special:FilePath/Stad_Amsterdam_in_Nieuw_Nederland_%28City_Amsterdam_in_New_Netherland%29_Castello_Plan_1660.jpg "The Castello Plan of New Amsterdam (1660), from a survey by Jacques Cortelyou. The wall along the right-hand edge gave Wall Street its name. Biblioteca Medicea Laurenziana, Florence.")
+
 Slavery came early. The West India Company was a major slave trader, and it imported enslaved Africans to work on its farms and fortifications; by the 1660s, perhaps a fifth of New Amsterdam's population was African. Dutch law was relatively flexible: enslaved people could own property and sue in court, and in 1644 the company granted a form of "half-freedom" to some enslaved men and their wives, who received land in exchange for an annual payment and service when required—though their children remained enslaved.
 
 ## Kieft's War
@@ -88,6 +90,8 @@ Penn intended Pennsylvania as a "**holy experiment**": a colony where Quakers an
 ## Peace with the Lenape
 
 Penn was determined to deal justly with the Native peoples of his colony, the **Lenape** (Delaware). Before arriving, he wrote to them in 1681, acknowledging "the unkindness and injustice that hath been too much exercised towards you" by Europeans, and promising to purchase their land and live with them in peace. Penn learned some of the Lenape language, bought land rather than seizing it, and established a reputation for fair dealing that lasted decades. According to tradition, he made a great treaty with the Lenape under an elm tree at Shackamaxon in 1682 or 1683—an event later celebrated in a famous painting by Benjamin West, though no written record of it survives. For half a century, Pennsylvania had no war with its Native neighbors.
+
+![A painting of William Penn in Quaker dress offering cloth to a group of Lenape men and women beneath an elm tree.](https://commons.wikimedia.org/wiki/Special:FilePath/Treaty_of_Penn_with_Indians_by_Benjamin_West.jpg "Benjamin West, *The Treaty of Penn with the Indians* (1771–72), painted ninety years after the event it imagines. Pennsylvania Academy of the Fine Arts.")
 
 That peace did not outlast Penn's generation. In 1737, his sons, now the colony's proprietors and badly in debt, used a dubious old deed to claim from the Lenape all the land a man could walk in a day and a half. They hired the fastest runners they could find and cleared a path in advance; the "walk" covered some sixty-five miles and took more than a million acres. The **Walking Purchase** embittered the Lenape, and contributed to the bloody frontier wars of the 1750s.
 

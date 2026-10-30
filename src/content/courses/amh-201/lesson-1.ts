@@ -49,6 +49,8 @@ The new government's most pressing problem was money. The United States owed abo
 
 Congress asked the secretary of the treasury for a plan. Alexander Hamilton was then thirty-four: born illegitimate on the Caribbean island of Nevis, orphaned young, sent to New York by patrons who recognized his brilliance, an aide to Washington during the war, a co-author of *The Federalist*, and a man of restless energy and ambition. In January 1790 he submitted his **Report on Public Credit**.
 
+![A portrait of Alexander Hamilton in a dark coat and white cravat, turned slightly to the left.](https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Hamilton_portrait_by_John_Trumbull_%28c._1806%29.jpg "John Trumbull, *Alexander Hamilton* (c. 1806), painted after Hamilton's death from Trumbull's earlier portraits. National Gallery of Art.")
+
 Hamilton proposed, first, that the federal government **fund** the national debt at its face value, paying interest on new bonds that would replace the old certificates. Second, he proposed that the federal government **assume** the remaining war debts of the states. He argued that a nation that paid its debts would be able to borrow in a crisis; that a well-funded debt would serve as a form of capital, since government bonds could be used like money; and, more quietly, that the creditors who held the debt would have a stake in the new government's success. "A national debt, if it is not excessive," he had written to the financier Robert Morris in 1781, "will be to us a national blessing."
 
 ## Madison's objections
@@ -172,6 +174,8 @@ Adams was one of the great figures of the Revolution: the leader of independence
 ## The XYZ Affair and the Quasi-War
 
 Adams inherited a crisis with France, which, angered by the Jay Treaty, was seizing American ships. In 1797 he sent three envoys to Paris to negotiate. Agents of the French foreign minister, Talleyrand, told them that negotiations could begin only after the United States paid a bribe of $250,000 and lent France millions. The Americans refused. When Adams published their dispatches in 1798, identifying the French agents only as "X," "Y," and "Z," Americans were outraged. "Millions for defense, but not one cent for tribute!" became a popular toast.
+
+![A cartoon of five Frenchmen robbing a woman representing America, while figures of other nations look on and John Bull laughs from a cliff.](https://commons.wikimedia.org/wiki/Special:FilePath/Property_protected-%C3%A0_la_Fran%C3%A7oise_LCCN93509853.jpg "*Property Protected à la Françoise* (London: S. W. Fores, 1798). A British cartoonist's view of the XYZ Affair: the French Directory plunders America. Library of Congress.")
 
 The United States and France fought an undeclared naval war, the **Quasi-War** (1798–1800), in the Caribbean. Congress created a Navy Department, built warships, and authorized a large army, with Washington as its nominal commander and Hamilton as its effective head. For the first time, the Federalists were popular, and they won the congressional elections of 1798.
 

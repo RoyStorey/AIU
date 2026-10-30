@@ -31,6 +31,8 @@ Lincoln at first restrained generals who moved faster than he wished. In August 
 
 For the people who fled, freedom was precarious. Union officers were often hostile or indifferent; many treated the refugees as laborers to be worked, not people to be protected. The contraband camps were crowded and disease-ridden. Smallpox, dysentery, and hunger killed thousands. The historian Jim Downs, in *Sick from Freedom* (2012), argued that the emancipation process produced a public health catastrophe among freedpeople that the government largely ignored. Yet the camps also became places where formerly enslaved people built churches and schools, reunited families, and worked for wages for the first time. Northern freedmen's aid societies and Black churches sent teachers, clothing, and money. At Fort Monroe, a free Black woman named Mary Peake began teaching freed children under a great oak in September 1861; the tree, later called the Emancipation Oak, still stands on the campus of Hampton University.
 
+![A photograph of a group of formerly enslaved men, women, and children gathered in front of a farmhouse in Virginia.](https://commons.wikimedia.org/wiki/Special:FilePath/Cumberland_Landing,_Va._Group_of_%27contrabands%27_at_Foller%27s_house_LOC_cwpb.01005.jpg "James F. Gibson, a group of “contrabands” at Foller's house, Cumberland Landing, Virginia, May 1862, during the Peninsula Campaign. Library of Congress.")
+
 Some refugees were put to work by the army as laborers, teamsters, cooks, and servants. Others were hired out to Northern men who leased abandoned plantations. On the Sea Islands of South Carolina, occupied by Union forces in November 1861 after their owners fled, Northern missionaries and teachers—called "Gideonites"—began the **Port Royal Experiment**, an effort to show that freed people could work as free laborers and learn to read. Among the teachers was **Charlotte Forten**, a young Black woman from a prominent Philadelphia abolitionist family, whose journal records her years there.
 
 ## Forcing the question
@@ -142,6 +144,8 @@ The worst atrocity came at **Fort Pillow**, Tennessee, on April 12, 1864. Confed
 ## The scale of service
 
 By the war's end, about **180,000** Black men had served in the Union army, roughly 10 percent of its total strength, and about 18,000 in the navy, where Black sailors had served alongside whites since the war's start. About 40,000 Black soldiers died, most of them from disease. They fought in some 40 major battles and hundreds of smaller engagements. About two dozen Black soldiers and sailors received the Medal of Honor for their service in the war. Black women served as nurses, cooks, laundresses, and spies; **Harriet Tubman** guided a Union raid up the Combahee River in South Carolina in June 1863 that freed more than 700 enslaved people.
+
+![A photograph of a company of Black Union soldiers standing in formation with rifles, their officers in front, at a fort.](https://commons.wikimedia.org/wiki/Special:FilePath/Company_E_of_the_4th_United_States_%E2%80%9CColored%22_Infantry_Regiment,_at_Fort_Lincoln,_Washington,_D.C._c._1864._%2850133595056%29.jpg "Company E, 4th U.S. Colored Infantry, at Fort Lincoln, part of the defenses of Washington (c. 1864). The regiment fought at Petersburg and Fort Fisher. Library of Congress.")
 
 ## What service meant
 

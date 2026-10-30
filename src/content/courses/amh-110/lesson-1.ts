@@ -27,6 +27,8 @@ In the Mississippi Valley and the Southeast, the **Mississippian** culture flour
 
 In the forests of the Northeast lived peoples who combined farming with hunting, fishing, and gathering. They spoke languages of two great families: **Algonquian**, spoken along the Atlantic coast from the Carolinas to Canada and around the Great Lakes, and **Iroquoian**, spoken in what is now upstate New York, Pennsylvania, and southern Ontario, and by the Cherokee in the southern Appalachians. In many of these societies, women did the farming and controlled the fields and their produce, while men hunted, fished, traded, and made war. Among the Iroquois, descent was traced through the mother, and senior women chose the chiefs who sat on village and league councils.
 
+![A watercolor of an Algonquian town with bark-covered longhouses along a central street, fields of corn, and people dancing and eating.](https://commons.wikimedia.org/wiki/Special:FilePath/Secoton01.jpg "John White, the Algonquian town of Secotan in present-day North Carolina, watercolor (1585). White, later governor of the lost Roanoke colony, drew what he saw: a settled farming town. British Museum.")
+
 Sometime before European contact—Iroquois tradition and scholars give dates ranging from the twelfth to the fifteenth century—five Iroquois nations formed the **League of the Haudenosaunee**, bound by a Great Law of Peace that ended the wars among them. You met the Confederacy in AMH 101; it would remain one of the great powers of the Northeast for two centuries after contact.
 
 ## Other worlds
@@ -108,6 +110,8 @@ From the Old World, the Americas received wheat, rice, sugar cane, bananas, and 
 ## Disease
 
 The most devastating part of the exchange was invisible. Europeans and Africans carried diseases—**smallpox**, measles, influenza, typhus, and later malaria and yellow fever—to which Native Americans had no acquired immunity. Living in close contact with domesticated animals for thousands of years, Old World populations had been exposed to these diseases repeatedly, and survivors passed on some resistance. Native Americans, who had few domesticated animals, had not. When these diseases arrived, they struck **"virgin soil"** populations with catastrophic force, killing people of every age at once, so that no one was left to tend the sick, plant the crops, or bury the dead.
+
+![A sixteenth-century drawing of Nahua people lying on mats, covered in smallpox sores, tended by others.](https://commons.wikimedia.org/wiki/Special:FilePath/FlorentineCodex_BK12_F54_smallpox.jpg "Smallpox among the Nahua, from Book XII of the *Florentine Codex*, compiled by Bernardino de Sahagún with Nahua artists and scholars (1570s). Biblioteca Medicea Laurenziana, Florence.")
 
 Epidemics often ran ahead of the Europeans themselves, carried along Native trade routes, so that some peoples were devastated before they ever saw a European. Over the century and a half after 1492, the Native population of the Americas fell by something like 90 percent in many regions—one of the greatest demographic catastrophes in human history. Some historians caution that disease did not act alone: war, enslavement, forced labor, displacement, and famine weakened communities and made them more vulnerable to epidemics. But whatever the balance of causes, the result transformed the history of the hemisphere, and it would recur, region by region, for three centuries as colonization advanced. Europeans would conquer and settle a land whose peoples had been devastated by forces neither side understood.
 

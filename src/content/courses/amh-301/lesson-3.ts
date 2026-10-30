@@ -82,6 +82,8 @@ By 1896, the money question had become the dominant issue in American politics. 
 
 At the Democratic convention in Chicago in July 1896, the silver forces took control of the party from Cleveland's Gold Democrats. On July 9, during the debate over the platform, a thirty-six-year-old former congressman from Nebraska, **William Jennings Bryan**, rose to speak. Bryan was a devout evangelical Christian and a spellbinding orator. He spoke for the producers of the West and South against the financiers of the East. "Burn down your cities and leave our farms," he said, "and your cities will spring up again as if by magic; but destroy our farms and the grass will grow in the streets of every city in the country." He closed with a famous image: "You shall not press down upon the brow of labor this crown of thorns; you shall not crucify mankind upon a cross of gold." As he spoke the last words, he spread his arms as if on a cross. The convention erupted. The next day, the Democrats nominated him for president. Gold Democrats walked out and nominated their own candidate.
 
+![A Judge magazine cartoon of 1896 mocking William Jennings Bryan's Cross of Gold imagery.](https://commons.wikimedia.org/wiki/Special:FilePath/Cross_of_gold_speech_cartoon.jpg "Grant Hamilton, cartoon in *Judge* (1896). Republicans accused Bryan of sacrilege for his speech's imagery of crucifixion.")
+
 ## The Populist dilemma
 
 Bryan's nomination put the Populists in an agonizing position. The Democrats had adopted their most popular demand, free silver, but ignored the rest of the Omaha Platform. If the Populists nominated their own candidate, they would split the silver vote and ensure the election of the Republican. If they endorsed Bryan, they would lose their independence. At their convention in St. Louis, they chose to nominate Bryan for president, but with their own vice-presidential candidate, Tom Watson, rather than the Democrats' nominee, a wealthy Maine banker and shipbuilder. The Populists were absorbed into the Democratic campaign, and never recovered.
@@ -137,6 +139,8 @@ Settlement workers became leading advocates of reform: of child labor laws, fact
 ## The Triangle fire
 
 On March 25, 1911, a fire broke out at the **Triangle Shirtwaist Company** on the upper floors of a building near Washington Square in New York. The workers, mostly young Jewish and Italian immigrant women, found exits locked—to prevent theft and unauthorized breaks—and the single fire escape collapsed. 146 workers died, many jumping from the ninth floor to their deaths as crowds watched. The owners were acquitted of manslaughter. The tragedy spurred New York to create a Factory Investigating Commission, whose investigators included a young social worker named **Frances Perkins**, who had witnessed the fire and would later become the first woman cabinet member as Franklin Roosevelt's secretary of labor. The commission's work produced some three dozen new laws on factory safety and working conditions.
+
+![A photograph of crowds lining a New York street in the rain as a funeral procession for the Triangle fire victims passes.](https://commons.wikimedia.org/wiki/Special:FilePath/Mourners_line_the_streets_during_a_funeral_procession_for_victims_of_the_Triangle_fire,_April_5,_1911_%285279748598%29.jpg "Mourners line the streets for the funeral procession of the Triangle fire's victims, April 5, 1911. Kheel Center, Cornell University.")
 
 ## Reforming government
 
@@ -242,6 +246,8 @@ Washington State granted women the vote in 1910, California in 1911, and several
 ## Two strategies
 
 **Carrie Chapman Catt**, who became president of NAWSA in 1915, devised a "Winning Plan" that combined state campaigns with a push for a federal amendment, using disciplined lobbying and organization. NAWSA supported the war effort when the United States entered the First World War in 1917, arguing that women's patriotic service earned them the vote.
+
+![A photograph of women in coats and hats standing in a line before the White House gates holding suffrage banners.](https://commons.wikimedia.org/wiki/Special:FilePath/Women_suffragists_picketing_in_front_of_the_White_house.jpg "Harris & Ewing, National Woman's Party pickets at the White House gates (1917), holding banners that asked, “Mr. President, How Long Must Women Wait for Liberty?” Library of Congress.")
 
 **Alice Paul**, a Quaker who had worked with militant suffragists in Britain, took a more confrontational approach. Her **National Woman's Party** organized a parade of some 5,000 women in Washington on the eve of Wilson's inauguration in 1913, which was attacked by hostile crowds. Beginning in January 1917, NWP members picketed the White House—the first group ever to do so—holding banners that asked, "Mr. President, How Long Must Women Wait for Liberty?" After the United States entered the war, their banners compared Wilson to the Kaiser, and they were attacked by mobs and arrested. In prison, Paul and others went on hunger strikes and were force-fed through tubes. The publicity embarrassed the administration.
 

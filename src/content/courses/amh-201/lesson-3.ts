@@ -129,6 +129,8 @@ In the decades after 1800, a wave of religious revivals swept across the United 
 
 The Awakening transformed the American religious landscape. In 1790 the largest denominations were the Congregationalists, Presbyterians, and Episcopalians, the churches of the colonial establishment. By 1850 the largest were the **Methodists** and **Baptists**, who had been small sects at the Revolution. The Methodists grew from fewer than 60,000 members in 1790 to over a million by 1844.
 
+![A print of a forest camp meeting at night, with a preacher on a raised stand, tents among the trees, and worshippers kneeling and fainting.](https://commons.wikimedia.org/wiki/Special:FilePath/Camp_meeting_of_the_Methodists_in_N._America_J._Milbert_del_M._Dubourg_sculp_%28cropped%29.jpg "Jacques Milbert and M. Dubourg, *Camp Meeting of the Methodists in North America* (c. 1819), hand-colored aquatint. Library of Congress.")
+
 The historian **Nathan Hatch**, in *The Democratization of American Christianity* (1989), explained their success. The new evangelical churches rejected the authority of an educated clergy and of traditional theology. Their preachers were often young, poorly educated men who spoke the language of ordinary people, and who preached that each individual could choose salvation. Methodist **circuit riders**, traveling preachers on horseback, carried the gospel to remote settlements. Like the political movement for democracy, the religious movement affirmed the capacity of ordinary people to judge for themselves.
 
 ## Charles Grandison Finney

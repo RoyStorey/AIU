@@ -87,6 +87,8 @@ The bloodiest single act of violence came on Easter Sunday, April 13, 1873, at *
 
 In 1874, open paramilitary organizations replaced the secret Klan. In Louisiana, the **White League**, organized by Democrats, attacked Republican officials; in August 1874, at Coushatta, it forced six white Republican officeholders to resign and then murdered them. In September 1874, some 5,000 White Leaguers fought the integrated state militia and police in the streets of New Orleans, in what they called the Battle of Liberty Place, and briefly seized control of the state government until federal troops restored the Republican governor. In Mississippi, Alabama, and South Carolina, similar "rifle clubs" drilled openly, disrupted Republican meetings, and intimidated voters.
 
+![A cartoon of a White League member and a hooded Klansman shaking hands over a shield showing a Black family beside a burning schoolhouse and a lynched man.](https://commons.wikimedia.org/wiki/Special:FilePath/Worse_than_Slavery_%281874%29,_by_Thomas_Nast.jpg "Thomas Nast, *The Union As It Was: The Lost Cause, Worse Than Slavery*, *Harper's Weekly*, October 24, 1874. Library of Congress.")
+
 ## The Mississippi Plan
 
 In Mississippi in 1875, Democrats perfected a strategy that became known as the **Mississippi Plan**. White Democrats organized armed clubs, broke up Republican rallies, and killed Black political leaders. In September, at a Republican barbecue at Clinton, white men opened fire, killing several people; in the days that followed, armed whites roamed the countryside, killing perhaps thirty or more Black people. Black voters were warned that if they voted Republican, they would lose their jobs or their lives. White employers fired Black workers who voted Republican.
