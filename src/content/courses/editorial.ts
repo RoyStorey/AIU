@@ -62,6 +62,41 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "ASH 110": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "Wet-rice farming may have begun in Kyūshū as early as the tenth century BC.",
+        note: "This rests on radiocarbon dates published by the National Museum of Japanese History from 2003. Other archaeologists keep a later start, around the fifth century BC. The lesson says the earlier date “remains debated.”",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Prince Shōtoku issued the Seventeen-Article Constitution in 604.",
+        note: "The text survives only in the Nihon shoki of 720. Some historians, notably Ōyama Seiichi, hold that it was composed later and that the chronicle's Shōtoku is largely a later creation; others defend the traditional attribution. The lesson presents both.",
+      },
+    ],
+    3: [
+      {
+        page: 4, kind: "uncertain",
+        claim: "The sizes of the Mongol invasion forces of 1274 and 1281.",
+        note: "The figures come from Chinese and Korean records and are probably inflated, especially the hundred thousand of the Southern Route Army in 1281. Thomas Conlan argues for smaller forces. The lesson gives the figures as “perhaps” and says they “may be exaggerated.”",
+      },
+    ],
+    4: [
+      {
+        page: 6, kind: "disputed",
+        claim: "At Nagashino in 1575, three thousand musketeers firing in rotating volleys destroyed the Takeda cavalry.",
+        note: "The number and the volley tactic come from later accounts; Fujimoto Masayuki and others argue they are embellishments, and that the Takeda force was not purely cavalry. The lesson gives the traditional account and the critique.",
+      },
+    ],
+    5: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "Around the mid-nineteenth century, perhaps forty percent of men and fifteen percent of women could read.",
+        note: "These are Ronald Dore's estimates (1965), extrapolated from school attendance. Later scholars, such as Richard Rubinger, have stressed how much literacy varied by region, class, and what counts as reading. The lesson calls them disputed.",
+      },
+    ],
+  },
   "POE 101": {
     1: [
       {
