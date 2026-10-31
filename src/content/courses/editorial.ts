@@ -10,6 +10,58 @@ import type { Caveat } from "@/lib/schema";
  * record of what changed stays with the lesson.
  */
 export const editorial: Record<string, Record<number, Caveat[]>> = {
+  "ASH 101": {
+    1: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Fu Hao led an army of thirteen thousand men.",
+        note: "The figure comes from a single oracle-bone inscription about raising troops for a campaign against the Qiang. Its reading, and whether all those troops served under Fu Hao, are debated by specialists. The lesson says “reportedly.”",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "The Zhou conquest at Muye took place in 1046 BC.",
+        note: "1046 BC is the date adopted by the Xia–Shang–Zhou Chronology Project (2000). Scholars working from the same astronomical and textual evidence have argued for 1045 BC and other years; the lesson gives 1046 as the conventional date and notes the dispute.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "After Changping in 260 BC, Qin buried alive four hundred thousand Zhao soldiers.",
+        note: "The number is Sima Qian's, written about a century and a half later. Mass graves excavated near the battlefield confirm a massacre, but not its scale. The lesson calls the figure “surely exaggerated.”",
+      },
+    ],
+    3: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The First Emperor burned the books in 213 BC and put more than 460 scholars to death in 212 BC.",
+        note: "The burning of private copies is well attested, but its effect on the survival of texts is debated, and some scholars, among them Michael Nylan and Martin Kern, suspect that the story of the executed scholars was shaped or enlarged by later Confucian writers. The lesson presents both.",
+      },
+    ],
+    4: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Emperor Yang's first Korean campaign of 612 mobilized more than a million soldiers.",
+        note: "The figure comes from the Sui histories, compiled under the Tang. Like most premodern army sizes, it is probably inflated. The lesson flags this.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Huang Chao's army massacred tens of thousands of foreign merchants at Guangzhou in 879.",
+        note: "The report comes from the Arabic account of Abu Zayd al-Sirafi, written some decades later, which gives a figure of 120,000. No Chinese source confirms the number. The lesson attributes it to “Arab sources.”",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "disputed",
+        claim: "The size of Zheng He's “treasure ships.”",
+        note: "Ming sources give dimensions of about 44 by 18 zhang, roughly 130 meters long. Many naval historians doubt that wooden ships of that size could have sailed, and propose much smaller figures. The lesson says the Ming numbers are “almost certainly exaggerated.”",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "The Qianlong Emperor's letter to George III, in the translation of Backhouse and Bland (1914).",
+        note: "The translation is free and was made in a period when Western readers took the letter as proof of Chinese arrogance; Edmund Backhouse was later shown to have forged other documents, though not this one, whose Chinese text survives. Modern translations differ in tone. Read it as one rendering, as the source exercise asks.",
+      },
+    ],
+  },
   "POE 101": {
     1: [
       {
