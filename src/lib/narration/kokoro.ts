@@ -81,9 +81,29 @@ export function normalizeForKokoro(text: string): string {
 const PUNCTUATION = ';:,.!?¡¿—…"«»“”(){}[]';
 const PUNCT_RUN = new RegExp(`(\\s*[${PUNCTUATION.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}]+\\s*)+`, "g");
 
+/* ---------- The optional runtime packages ---------- */
+
+// The engine's two packages are optional, so they are loaded at run time with Node's own require, out of the
+// bundler's sight: the site builds and runs without them, and only studio narration needs them.
+// (Bundlers rewrite `import { createRequire } from "node:module"`, so it is fetched from Node directly.)
+function runtimeRequire(): NodeJS.Require {
+  type ModuleApi = { createRequire: (path: string) => NodeJS.Require };
+  const node = process as unknown as { getBuiltinModule?: (id: string) => ModuleApi };
+  const api = node.getBuiltinModule?.("node:module") ?? ((0, eval)("require") as NodeJS.Require)("node:module") as ModuleApi;
+  return api.createRequire(join(process.cwd(), "package.json"));
+}
+
+type Tensor = { data: unknown; dims: readonly number[] };
+type Ort = {
+  Tensor: new (type: string, data: BigInt64Array | Float32Array, dims: number[]) => Tensor;
+  InferenceSession: { create(path: string, options: Record<string, unknown>): Promise<Session> };
+};
+type Session = { outputNames: readonly string[]; run(feeds: Record<string, Tensor>): Promise<Record<string, Tensor>> };
 type Phonemizer = (text: string, language: string) => Promise<string[]>;
-let phonemizerModule: Promise<Phonemizer> | undefined;
-const loadPhonemizer = () => (phonemizerModule ??= import("phonemizer").then((m) => m.phonemize as Phonemizer));
+
+const loadOrt = () => runtimeRequire()("onnxruntime-node") as Ort;
+let phonemizerModule: Phonemizer | undefined;
+const loadPhonemizer = async () => (phonemizerModule ??= (runtimeRequire()("phonemizer") as { phonemize: Phonemizer }).phonemize);
 
 /** Text to the IPA phoneme string the model reads, keeping punctuation (which shapes the pauses) as it is. */
 export async function phonemize(text: string, british: boolean): Promise<string> {
@@ -150,14 +170,12 @@ export async function ensureKokoroFiles(voices: string[], log: (s: string) => vo
   }
 }
 
-type Ort = typeof import("onnxruntime-node");
-type Session = import("onnxruntime-node").InferenceSession;
 let session: Promise<{ ort: Ort; session: Session }> | undefined;
 const styles = new Map<string, Float32Array>();
 
 async function load() {
   return (session ??= (async () => {
-    const ort = await import("onnxruntime-node");
+    const ort = loadOrt();
     // Use every core for each inference (AIU_KOKORO_THREADS overrides): passages are rendered one at a time.
     const threads = Number(process.env.AIU_KOKORO_THREADS) || availableParallelism();
     const s = await ort.InferenceSession.create(join(kokoroDir(), MODEL_FILE), {
@@ -180,8 +198,8 @@ async function voiceStyles(voice: string): Promise<Float32Array> {
 /** Whether the optional runtime packages are installed. */
 export async function kokoroAvailable(): Promise<boolean> {
   try {
-    await import("onnxruntime-node");
-    await import("phonemizer");
+    loadOrt();
+    await loadPhonemizer();
     return true;
   } catch {
     return false;
