@@ -12,6 +12,7 @@ import { createHash, randomBytes } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { mkdir, readFile, unlink } from "node:fs/promises";
 import { join, resolve } from "node:path";
+import { ffmpegPath } from "@/lib/narration/ffmpeg";
 import { spellNumbers } from "@/lib/narration/numbers";
 import { customVoice, KOKORO_VOICES, type StudioVoice } from "@/lib/narration/voices";
 
@@ -84,7 +85,7 @@ async function referenceClip(voice: StudioVoice): Promise<string | null> {
   await mkdir(dir, { recursive: true });
   const out = join(dir, `${chatterboxEngine(voice).split("-").pop()}.wav`);
   if (!existsSync(out)) {
-    const r = spawnSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", "-i", source, "-ac", "1", "-ar", "24000", out]);
+    const r = spawnSync(ffmpegPath(), ["-hide_banner", "-loglevel", "error", "-y", "-i", source, "-ac", "1", "-ar", "24000", out]);
     if (r.status !== 0) return source; // without ffmpeg, let the model read the clip as it is
   }
   return out;

@@ -100,13 +100,29 @@ Run $venvPython @("-c", "import torch, chatterbox; assert torch.cuda.is_availabl
 
 # ---- ffmpeg ----
 Step "Checking ffmpeg (used to make MP3s)"
-if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) {
-  Write-Host "Installing ffmpeg with winget ..."
-  Run "winget" @("install", "-e", "--id", "Gyan.FFmpeg", "--silent", "--accept-package-agreements", "--accept-source-agreements")
-  # Make it usable in this window without reopening it.
-  $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [Environment]::GetEnvironmentVariable("Path", "User")
+# winget puts ffmpeg where an already-open window cannot see it, so look in its usual places too.
+function Find-Ffmpeg {
+  $cmd = Get-Command ffmpeg -ErrorAction SilentlyContinue
+  if ($cmd) { return $cmd.Source }
+  $link = Join-Path $env:LOCALAPPDATA "Microsoft\WinGet\Links\ffmpeg.exe"
+  if (Test-Path $link) { return $link }
+  foreach ($dir in @((Join-Path $env:LOCALAPPDATA "Microsoft\WinGet\Packages"), (Join-Path $env:ProgramFiles "WinGet\Packages"), "C:\ffmpeg")) {
+    if (Test-Path $dir) {
+      $exe = Get-ChildItem -Path $dir -Filter ffmpeg.exe -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+      if ($exe) { return $exe.FullName }
+    }
+  }
+  return $null
 }
-if (Get-Command ffmpeg -ErrorAction SilentlyContinue) { Write-Host "ffmpeg is ready." } else { Write-Host "ffmpeg was installed; open a new window before narrating." -ForegroundColor Yellow }
+$ffmpeg = Find-Ffmpeg
+if (-not $ffmpeg) {
+  Write-Host "Installing ffmpeg with winget ..."
+  & winget install -e --id Gyan.FFmpeg --silent --accept-package-agreements --accept-source-agreements
+  $ffmpeg = Find-Ffmpeg
+}
+if (-not $ffmpeg) { throw "ffmpeg could not be found or installed. Install it (winget install Gyan.FFmpeg), then run this again." }
+$env:Path = (Split-Path $ffmpeg) + ";" + $env:Path
+Write-Host "ffmpeg: $ffmpeg"
 
 # ---- Settings ----
 Step "Switching the site to Chatterbox (.env.local)"
@@ -122,6 +138,7 @@ function SetSetting($name, $value) {
 }
 SetSetting "AIU_NARRATION_PROVIDER" "chatterbox"
 SetSetting "AIU_NARRATION_ON_DEMAND" "off"
+SetSetting "AIU_FFMPEG" $ffmpeg  # so narration finds ffmpeg even where it is not on the PATH
 SetSetting "HF_HOME" $hfHome  # where the voice model is kept (on this drive, not C:)
 [System.IO.File]::WriteAllLines($envFile, [string[]]$lines)  # UTF-8 without a byte-order mark, which would spoil the first setting
 Write-Host "AIU_NARRATION_PROVIDER=chatterbox and AIU_NARRATION_ON_DEMAND=off (students play only pre-made audio)."

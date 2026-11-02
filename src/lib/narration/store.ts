@@ -9,6 +9,7 @@ import { spawn, spawnSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { mkdir, rename, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
+import { ffmpegPath } from "@/lib/narration/ffmpeg";
 import { blockHash, type NarrationBlock } from "@/lib/narration/script";
 import { chatterboxAvailable, chatterboxEngine, chatterboxSynthesize, customVoices } from "@/lib/narration/chatterbox";
 import { KOKORO_SAMPLE_RATE, kokoroAvailable, kokoroSynthesize } from "@/lib/narration/kokoro";
@@ -110,11 +111,11 @@ export async function studioStatus(): Promise<{ voices: StudioVoice[]; canRender
 /* ---------- Encoding ---------- */
 
 let ffmpeg: boolean | undefined;
-const hasFfmpeg = () => (ffmpeg ??= spawnSync("ffmpeg", ["-version"], { stdio: "ignore" }).status === 0);
+const hasFfmpeg = () => (ffmpeg ??= spawnSync(ffmpegPath(), ["-version"], { stdio: "ignore" }).status === 0);
 
 function encodeMp3(samples: Float32Array, rate: number): Promise<Buffer> {
   return new Promise((ok, fail) => {
-    const p = spawn("ffmpeg", ["-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", String(rate), "-ac", "1",
+    const p = spawn(ffmpegPath(), ["-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", String(rate), "-ac", "1",
       "-i", "pipe:0", "-c:a", "libmp3lame", "-b:a", "64k", "-f", "mp3", "pipe:1"]);
     const out: Buffer[] = [];
     const err: Buffer[] = [];
