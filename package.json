@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "narrate": "tsx scripts/narrate.ts"
+    "narrate": "tsx scripts/narrate.ts",
+    "narrate:setup-gpu": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-chatterbox.ps1",
+    "narrate:nightly": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/schedule-narration.ps1"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

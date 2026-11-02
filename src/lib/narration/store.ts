@@ -10,18 +10,19 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { mkdir, rename, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { blockHash, type NarrationBlock } from "@/lib/narration/script";
+import { chatterboxAvailable, chatterboxEngine, chatterboxSynthesize, customVoices } from "@/lib/narration/chatterbox";
 import { KOKORO_SAMPLE_RATE, kokoroAvailable, kokoroSynthesize } from "@/lib/narration/kokoro";
 import { mp3Duration } from "@/lib/narration/mp3";
 import { openaiSynthesize } from "@/lib/narration/openai";
-import { KOKORO_VOICES, OPENAI_VOICES, voiceFromSlug, voiceSlug, type StudioVoice } from "@/lib/narration/voices";
+import { CHATTERBOX_VOICES, KOKORO_VOICES, OPENAI_VOICES, voiceFromSlug, voiceSlug, type StudioVoice } from "@/lib/narration/voices";
 
-export type Provider = "kokoro" | "openai" | "off";
+export type Provider = "kokoro" | "chatterbox" | "openai" | "off";
 
 export const narrationDir = () => resolve(process.env.AIU_NARRATION_DIR ?? "data/narration");
 
 export function narrationProvider(): Provider {
   const p = (process.env.AIU_NARRATION_PROVIDER ?? "kokoro").toLowerCase();
-  return p === "openai" || p === "off" ? p : "kokoro";
+  return p === "openai" || p === "chatterbox" || p === "off" ? p : "kokoro";
 }
 
 /** Courses with a Listen button, by code: AIU_NARRATION_COURSES ("AMH 101" by default; "all" for every course). */
@@ -40,7 +41,17 @@ export function onDemandPolicy(): "signed-in" | "admins" | "off" {
 
 /** The engine a voice is rendered with; part of the cache key, so changing models re-renders. */
 export function engineOf(voice: StudioVoice): string {
-  return voice.provider === "kokoro" ? "kokoro-82m-v1.0-q8" : `openai-${process.env.AIU_OPENAI_TTS_MODEL ?? "gpt-4o-mini-tts"}`;
+  if (voice.provider === "kokoro") return "kokoro-82m-v1.0-q8";
+  if (voice.provider === "chatterbox") return chatterboxEngine(voice);
+  return `openai-${process.env.AIU_OPENAI_TTS_MODEL ?? "gpt-4o-mini-tts"}`;
+}
+
+/** The voices a provider offers on this server. */
+export function providerVoices(provider: Provider): StudioVoice[] {
+  if (provider === "kokoro") return KOKORO_VOICES;
+  if (provider === "chatterbox") return [...CHATTERBOX_VOICES, ...customVoices()];
+  if (provider === "openai") return OPENAI_VOICES;
+  return [];
 }
 
 export const hashFor = (voice: StudioVoice, block: Pick<NarrationBlock, "text">) => blockHash(voice.id, block.text, engineOf(voice));
@@ -73,16 +84,25 @@ export async function studioStatus(): Promise<{ voices: StudioVoice[]; canRender
   if (provider === "kokoro") {
     canRender = await kokoroAvailable();
     if (!canRender) reason = "The Kokoro engine is not installed on this server (npm install onnxruntime-node phonemizer).";
+  } else if (provider === "chatterbox") {
+    canRender = chatterboxAvailable();
+    if (!canRender) reason = "Chatterbox is not set up on this server (npm run narrate:setup-gpu).";
   } else if (provider === "openai") {
     canRender = Boolean(process.env.OPENAI_API_KEY);
     if (!canRender) reason = "OPENAI_API_KEY is not set.";
   } else {
     reason = "Studio narration is turned off (AIU_NARRATION_PROVIDER=off).";
   }
-  const offered = canRender ? (provider === "kokoro" ? KOKORO_VOICES : OPENAI_VOICES) : [];
-  const onDisk = existsSync(narrationDir())
-    ? readdirSync(narrationDir()).map(voiceFromSlug).filter((v): v is StudioVoice => Boolean(v))
+  // Voices the server can render on request; when it renders only in advance, just those already recorded.
+  const offered = canRender && onDemandPolicy() !== "off" ? providerVoices(provider) : [];
+  // Voices with narration recorded (a folder holding at least one rendered passage), in the catalog's order.
+  const recorded = existsSync(narrationDir())
+    ? readdirSync(narrationDir(), { withFileTypes: true })
+      .filter((d) => d.isDirectory() && readdirSync(join(narrationDir(), d.name)).some((f) => f.endsWith(".json")))
+      .map((d) => voiceFromSlug(d.name)).filter((v): v is StudioVoice => Boolean(v))
     : [];
+  const order = [...KOKORO_VOICES, ...CHATTERBOX_VOICES, ...OPENAI_VOICES].map((v) => v.id);
+  const onDisk = recorded.sort((a, b) => (order.indexOf(a.id) + 1 || 999) - (order.indexOf(b.id) + 1 || 999));
   const voices = [...offered, ...onDisk.filter((v) => !offered.some((o) => o.id === v.id))];
   return { voices, canRender, reason };
 }
@@ -92,10 +112,10 @@ export async function studioStatus(): Promise<{ voices: StudioVoice[]; canRender
 let ffmpeg: boolean | undefined;
 const hasFfmpeg = () => (ffmpeg ??= spawnSync("ffmpeg", ["-version"], { stdio: "ignore" }).status === 0);
 
-function encodeMp3(samples: Float32Array): Promise<Buffer> {
+function encodeMp3(samples: Float32Array, rate: number): Promise<Buffer> {
   return new Promise((ok, fail) => {
-    const p = spawn("ffmpeg", ["-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", String(KOKORO_SAMPLE_RATE), "-ac", "1",
-      "-i", "pipe:0", "-c:a", "libmp3lame", "-b:a", "48k", "-f", "mp3", "pipe:1"]);
+    const p = spawn("ffmpeg", ["-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", String(rate), "-ac", "1",
+      "-i", "pipe:0", "-c:a", "libmp3lame", "-b:a", "64k", "-f", "mp3", "pipe:1"]);
     const out: Buffer[] = [];
     const err: Buffer[] = [];
     p.stdout.on("data", (d) => out.push(d));
@@ -106,13 +126,13 @@ function encodeMp3(samples: Float32Array): Promise<Buffer> {
   });
 }
 
-function encodeWav(samples: Float32Array): Buffer {
+function encodeWav(samples: Float32Array, rate: number): Buffer {
   const data = Buffer.alloc(samples.length * 2);
   samples.forEach((s, i) => data.writeInt16LE(Math.round(Math.max(-1, Math.min(1, s)) * 32767), i * 2));
   const h = Buffer.alloc(44);
   h.write("RIFF", 0); h.writeUInt32LE(36 + data.length, 4); h.write("WAVE", 8); h.write("fmt ", 12);
-  h.writeUInt32LE(16, 16); h.writeUInt16LE(1, 20); h.writeUInt16LE(1, 22); h.writeUInt32LE(KOKORO_SAMPLE_RATE, 24);
-  h.writeUInt32LE(KOKORO_SAMPLE_RATE * 2, 28); h.writeUInt16LE(2, 32); h.writeUInt16LE(16, 34); h.write("data", 36);
+  h.writeUInt32LE(16, 16); h.writeUInt16LE(1, 20); h.writeUInt16LE(1, 22); h.writeUInt32LE(rate, 24);
+  h.writeUInt32LE(rate * 2, 28); h.writeUInt16LE(2, 32); h.writeUInt16LE(16, 34); h.write("data", 36);
   h.writeUInt32LE(data.length, 40);
   return Buffer.concat([h, data]);
 }
@@ -125,13 +145,15 @@ async function render(voice: StudioVoice, block: NarrationBlock, hash: string): 
   let type = "audio/mpeg";
   let ext = "mp3";
   let duration: number;
-  if (voice.provider === "kokoro") {
-    const speech = await kokoroSynthesize(block.text, voice.engineVoice);
-    const samples = new Float32Array(speech.length + Math.round(PAUSE[block.kind] * KOKORO_SAMPLE_RATE));
+  if (voice.provider === "kokoro" || voice.provider === "chatterbox") {
+    const { samples: speech, sampleRate: rate } = voice.provider === "kokoro"
+      ? { samples: await kokoroSynthesize(block.text, voice.engineVoice), sampleRate: KOKORO_SAMPLE_RATE }
+      : await chatterboxSynthesize(block.text, voice);
+    const samples = new Float32Array(speech.length + Math.round(PAUSE[block.kind] * rate));
     samples.set(speech);
-    duration = samples.length / KOKORO_SAMPLE_RATE;
-    if (hasFfmpeg()) bytes = await encodeMp3(samples);
-    else { bytes = encodeWav(samples); type = "audio/wav"; ext = "wav"; }
+    duration = samples.length / rate;
+    if (hasFfmpeg()) bytes = await encodeMp3(samples, rate);
+    else { bytes = encodeWav(samples, rate); type = "audio/wav"; ext = "wav"; }
   } else {
     bytes = await openaiSynthesize(block.text, voice.engineVoice);
     duration = mp3Duration(bytes);
