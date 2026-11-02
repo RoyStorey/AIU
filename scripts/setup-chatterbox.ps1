@@ -17,6 +17,30 @@ function Run($exe, [string[]]$arguments) {
   if ($LASTEXITCODE -ne 0) { throw "This step failed: $exe $($arguments -join ' ')" }
 }
 
+# ---- Disk space: keep everything on the project's drive ----
+# pip unpacks PyTorch (2.5 GB) in the temp folder, and the model downloads to the user's profile, both
+# normally on C:. Point them at this drive instead, and clear what an earlier attempt left behind.
+Step "Checking disk space"
+Get-ChildItem -Path $env:TEMP -Filter "pip-*" -Directory -ErrorAction SilentlyContinue |
+  Remove-Item -Recurse -Force -ErrorAction SilentlyContinue  # half-finished downloads from an earlier attempt
+$work = Join-Path $root ".venv-tts\.tmp"
+New-Item -ItemType Directory -Force -Path $work | Out-Null
+$env:TEMP = $work
+$env:TMP = $work
+$env:PIP_NO_CACHE_DIR = "1"
+$hfHome = Join-Path $root "data\models\huggingface"
+New-Item -ItemType Directory -Force -Path $hfHome | Out-Null
+$env:HF_HOME = $hfHome
+$oldCache = Join-Path $env:LOCALAPPDATA "pip\Cache"
+if (Test-Path $oldCache) {
+  Write-Host "Clearing pip's download cache on C: (left by an earlier attempt) ..."
+  Remove-Item -Recurse -Force $oldCache -ErrorAction SilentlyContinue
+}
+$drive = (Split-Path $root -Qualifier).TrimEnd(":")
+$freeGb = [math]::Round((Get-PSDrive $drive).Free / 1GB, 1)
+Write-Host "Free on ${drive}: $freeGb GB (about 15 GB is needed: 7 for PyTorch and Chatterbox, 3 for the model, the rest for audio)."
+if ($freeGb -lt 12) { throw "Not enough space on ${drive}: free at least 15 GB there, then run this again." }
+
 # ---- The GPU ----
 Step "Checking the graphics card"
 $gpu = ""
@@ -38,7 +62,7 @@ foreach ($v in @("3.11", "3.12")) {
 if (-not $python) {
   $candidate = Join-Path $env:LOCALAPPDATA "Programs\Python\Python311\python.exe"
   if (-not (Test-Path $candidate)) {
-    Write-Host "Python 3.11 is not installed; installing it with winget …"
+    Write-Host "Python 3.11 is not installed; installing it with winget ..."
     Run "winget" @("install", "-e", "--id", "Python.Python.3.11", "--scope", "user", "--silent", "--accept-package-agreements", "--accept-source-agreements")
   }
   if (Test-Path $candidate) { $python = $candidate }
@@ -77,7 +101,7 @@ Run $venvPython @("-c", "import torch, chatterbox; assert torch.cuda.is_availabl
 # ---- ffmpeg ----
 Step "Checking ffmpeg (used to make MP3s)"
 if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) {
-  Write-Host "Installing ffmpeg with winget …"
+  Write-Host "Installing ffmpeg with winget ..."
   Run "winget" @("install", "-e", "--id", "Gyan.FFmpeg", "--silent", "--accept-package-agreements", "--accept-source-agreements")
   # Make it usable in this window without reopening it.
   $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [Environment]::GetEnvironmentVariable("Path", "User")
@@ -98,12 +122,15 @@ function SetSetting($name, $value) {
 }
 SetSetting "AIU_NARRATION_PROVIDER" "chatterbox"
 SetSetting "AIU_NARRATION_ON_DEMAND" "off"
+SetSetting "HF_HOME" $hfHome  # where the voice model is kept (on this drive, not C:)
 [System.IO.File]::WriteAllLines($envFile, [string[]]$lines)  # UTF-8 without a byte-order mark, which would spoil the first setting
 Write-Host "AIU_NARRATION_PROVIDER=chatterbox and AIU_NARRATION_ON_DEMAND=off (students play only pre-made audio)."
 
 # ---- The model and the samples ----
 Step "Downloading the voice model and recording a sample of each voice"
 Run "npm.cmd" @("run", "narrate", "--", "--previews")
+
+Remove-Item -Recurse -Force $work -ErrorAction SilentlyContinue
 
 Write-Host ""
 Write-Host "Chatterbox is ready." -ForegroundColor Green
