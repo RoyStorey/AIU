@@ -49,6 +49,28 @@ Every book named in a course comes with a way to obtain it. Books are looked up 
 - **Commonplace book.** Every lesson page has a private notes box; all of a student's notes are gathered at `/study/notes`, in course order.
 - **Pick up where you left off.** My Studies shows the last pages a student was reading.
 
+## Listening
+
+Lectures can be listened to as well as read: while cooking, on a commute, or with the screen off. **Listen** appears on each page and lesson overview of a narrated course. Narration starts at the top of the page (or where the student left off), carries on from page to page through the lesson, and can carry on into the next lesson. **AMH 101** is narrated first, as the testbed; `AIU_NARRATION_COURSES` names others (`AIU_NARRATION_COURSES="AMH 101, ASH 101"`, or `all`).
+
+- **The player** stays at the foot of the screen as the student moves around the site: play and pause, back 15 seconds and forward 30, previous and next passage or page, a position bar, speeds from 0.8× to 2×, and a sleep timer (15–60 minutes, or the end of the page or lesson). Headphone buttons, the lock screen, and car controls work too, and `L` plays and pauses.
+- **Follow along.** The passage being read is highlighted, the page scrolls with it, and the page turns when the narration does. Hovering over a passage (or tapping it on a phone) offers **Listen from here**.
+- **Picks up where you left off**, per lesson, on that device.
+- **Narration reads like a lecturer, not a screen reader.** Each page opens with its title; headings, quotations ("Quote … End quote"), verse, and numbered source questions are read as such; images are skipped; abbreviations, date ranges, and regnal numbers are spoken in full (*c. 1760* → "circa 1760", *George III* → "George the Third", *1759–60* → "1759 to 1760").
+- **Offline.** A lesson in a studio voice can be saved on the device and played without a connection.
+
+**Voices.** There are two kinds, chosen in the player:
+
+1. **Studio voices** are neural voices rendered on the server and played as audio, so they sound natural and keep playing with the screen locked. By default they come from [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M), an open-weight model that runs on the server itself at no cost: six voices, American and British, women and men (Heart, Michael, Emma, George, Bella, Fenrir). Each voice has a sample in the player. Alternatively, `AIU_NARRATION_PROVIDER=openai` with `OPENAI_API_KEY` uses OpenAI's speech voices instead (a paid service).
+2. **Device voices** are the voices built into the student's phone or computer, spoken by the browser. They need nothing from the server and work for every narrated course at once, but quality varies by device, and most phones pause them when the screen locks.
+
+**Rendering studio narration.** Audio is rendered passage by passage and kept in `data/narration/`, keyed to the exact words, so an edited lesson re-renders only what changed. It is rendered in one of two ways:
+
+- **In advance** (recommended): `npm run narrate -- "AMH 101"` renders every lesson in every voice, or `--voices heart,george` for some, or `--lesson 2` for one lesson. It can be stopped and resumed. On a four-core machine Kokoro renders about twice as fast as real time, so a course of five lessons (about five hours of listening) takes roughly two and a half hours per voice. The first run downloads the model (about 92 MB) into `data/models/kokoro`; `npm run narrate -- --setup` does only that.
+- **On demand**: when a signed-in student listens to a passage not yet rendered, the server renders it and the passages after it. The first passage takes a few seconds; after that the server keeps ahead of the listener. `AIU_NARRATION_ON_DEMAND` can limit this to `admins`, or turn it `off`. Students who are not signed in hear pre-rendered audio, or a device voice.
+
+Studio voices need the optional packages `onnxruntime-node` and `phonemizer` (installed by `npm install`; `npm install --omit=optional` leaves them out) and `ffmpeg` for MP3 encoding (without it, narration is stored as larger WAV files). Rendered narration can also be made on one machine and copied to another: a server serves whatever is in `data/narration/` even without the engine installed. The Kokoro model is Apache-2.0 licensed; the phonemizer includes eSpeak NG, which is GPL-3.0.
+
 ## Sample students
 
 A new installation includes three sample students so the community features can be seen at once: **Eleanor Marsh**, a Master of Poetry whose capstone, "'Thou Hast Thy Music Too': How Keats's Odes End," is a complete 4,500-word essay; **Thomas Adeyemi**, an Expert; and **Ruth Calloway**, midway through the program, with their threads in the Poetry common room and two correction reports. They are labeled "sample," cannot sign in, and are removed—with everything they wrote—by setting `AIU_DEMO=off`.
@@ -83,7 +105,7 @@ For production: `npm run build && npm start`. The SQLite database is created at 
 
 **Sharing it with others.** You can run Cornerstone on your own computer and let others reach it by port forwarding. Sign-in works over plain HTTP, but passwords and session cookies then cross the network unencrypted; for anything beyond friends on a trusted network, put it behind HTTPS (a reverse proxy such as Caddy, or a tunnel such as Cloudflare Tunnel or Tailscale Funnel). Behind a proxy that sends `X-Forwarded-Proto: https`, the session cookie is marked Secure automatically.
 
-Other settings, all optional, are described in `.env.example`: `AIU_ADMIN_EMAILS` (who may manage accounts at `/admin`), `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), `AIU_BOOK_LOOKUP=off` (no Open Library lookups), and `AIU_SECURE_COOKIES` (force the session cookie's Secure flag on or off).
+Other settings, all optional, are described in `.env.example`: `AIU_ADMIN_EMAILS` (who may manage accounts at `/admin`), `AIU_FACULTY_EMAILS` (who may answer correction reports), `AIU_DEMO=off` (remove the sample students), `AIU_BOOK_LOOKUP=off` (no Open Library lookups), `AIU_SECURE_COOKIES` (force the session cookie's Secure flag on or off), and the narration settings described under Listening.
 
 ## Adding to the catalogue
 

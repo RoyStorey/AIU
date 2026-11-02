@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import { currentUser, isAdmin } from "@/lib/auth";
 import { THEME_COOKIE, findTheme, themeStylesheet } from "@/lib/themes";
 import { signOut } from "@/app/actions";
+import { NarrationProvider } from "@/components/narration/NarrationProvider";
 import "./globals.css";
 
 const display = Cormorant_Garamond({
@@ -67,7 +68,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <div className="wrap"><hr className="rule-double" /></div>
         </header>
 
-        <main>{children}</main>
+        <NarrationProvider>
+          <main>{children}</main>
+        </NarrationProvider>
 
         <footer className="colophon">
           <div className="wrap">

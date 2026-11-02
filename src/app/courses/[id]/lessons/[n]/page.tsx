@@ -6,6 +6,9 @@ import { LessonShell, StepList, lessonHref } from "@/components/LessonShell";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { lessonScores } from "@/lib/progress";
+import { ListenButton } from "@/components/narration/ListenButton";
+import { pageNarration } from "@/lib/narration/script";
+import { isNarrated } from "@/lib/narration/store";
 import { WORDS_PER_MINUTE, formatMinutes, lessonMinutes } from "@/lib/timing";
 
 type Params = { params: Promise<{ id: string; n: string }> };
@@ -30,6 +33,10 @@ export default async function LessonOverview({ params }: Params) {
 
   const user = await currentUser();
   const completed = user ? lessonScores(user.id, course.id).has(index) : false;
+  // Listening time at the studio voices' pace of about 125 words a minute.
+  const listenMinutes = isNarrated(course.code)
+    ? Math.round(lesson.pages.reduce((n, _, p) => n + pageNarration(lesson, index, p).reduce((w, b) => w + b.words, 0), 0) / 125)
+    : 0;
 
   return (
     <LessonShell course={course} index={index} step={{ kind: "overview" }} completed={completed}>
@@ -40,6 +47,7 @@ export default async function LessonOverview({ params }: Params) {
           About {formatMinutes(lessonMinutes(lesson))} in all. Times assume careful reading at about {WORDS_PER_MINUTE} words
           a minute, with time to work through sources and exercises; the assigned readings and recordings are additional.
         </p>
+        {listenMinutes > 0 && <ListenButton courseId={course.id} lesson={index + 1} minutes={listenMinutes} />}
         <div className="actions">
           <Link className="button" href={lessonHref(course.id, index, { kind: "page", page: 0 })}>
             Begin the lesson

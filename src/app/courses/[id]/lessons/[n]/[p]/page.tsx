@@ -4,6 +4,8 @@ import { LessonShell, Pager, lessonHref } from "@/components/LessonShell";
 import { Corrections } from "@/components/Corrections";
 import { Markdown } from "@/components/Markdown";
 import { NotesBox } from "@/components/NotesBox";
+import { ListenButton } from "@/components/narration/ListenButton";
+import { isNarrated } from "@/lib/narration/store";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { lessonScores, recordVisit } from "@/lib/progress";
@@ -45,6 +47,7 @@ export default async function LessonPage({ params }: Params) {
           Page {toRoman(pageIndex + 1).toLowerCase()} of {toRoman(lesson.pages.length).toLowerCase()} · {formatMinutes(pageMinutes(page))}
         </p>
         <h2>{page.title}</h2>
+        {isNarrated(course.code) && <ListenButton courseId={course.id} lesson={index + 1} page={pageIndex + 1} />}
       </header>
       <Markdown>{page.body}</Markdown>
       <Pager

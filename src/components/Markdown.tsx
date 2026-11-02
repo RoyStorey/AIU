@@ -1,4 +1,4 @@
-import type { Element } from "hast";
+import type { Element, Root } from "hast";
 import ReactMarkdown, { type Components } from "react-markdown";
 import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
@@ -20,11 +20,24 @@ const components: Components = {
   },
 };
 
+/**
+ * Stamps each top-level element with the offset of the Markdown block it came from,
+ * so the narration player can find, highlight, and start from the passage being read.
+ */
+function rehypeBlockIds() {
+  return (tree: Root) => {
+    for (const node of tree.children) {
+      const offset = node.position?.start.offset;
+      if (node.type === "element" && offset !== undefined) node.properties["data-block"] = String(offset);
+    }
+  };
+}
+
 /** Renders lecture Markdown. Line breaks are kept, so quoted verse keeps its lineation. */
 export function Markdown({ children, className = "prose" }: { children: string; className?: string }) {
   return (
     <div className={className}>
-      <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} components={components}>{children}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} rehypePlugins={[rehypeBlockIds]} components={components}>{children}</ReactMarkdown>
     </div>
   );
 }
