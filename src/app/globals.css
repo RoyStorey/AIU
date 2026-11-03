@@ -779,12 +779,31 @@ code { font-size: 0.9em; background: var(--paper-sunk); padding: 0.05em 0.3em; b
 
 /* ——— Obtaining books ——— */
 
-.obtain { margin: 0.35rem 0 0; font-size: 0.92rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 0.15rem 0.85rem; align-items: baseline; }
-.obtain-head { font-variant-caps: all-small-caps; letter-spacing: 0.12em; color: var(--ink-soft); }
-.obtain a { color: var(--ink-soft); text-decoration-color: var(--rule-strong); }
-.obtain a.obtain-free { color: var(--success); }
-.obtain-missing { display: block; border-left: 2px solid var(--rule-strong); padding-left: 0.7rem; }
-.obtain-missing .obtain-head { margin-right: 0.5rem; }
+.obtain { margin: 0.35rem 0 0; font-size: 0.92rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.9rem; }
+.obtain-more > summary {
+  display: inline-flex; align-items: center; gap: 0.3rem; cursor: pointer; list-style: none;
+  font-variant-caps: all-small-caps; letter-spacing: 0.1em; color: var(--muted);
+}
+.obtain-more > summary::-webkit-details-marker { display: none; }
+.obtain-more > summary::after {
+  content: ""; width: 0.38em; height: 0.38em; margin-left: 0.1rem;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: translateY(-0.12em) rotate(45deg); transition: transform 0.15s ease;
+}
+.obtain-more[open] > summary::after { transform: translateY(0.08em) rotate(-135deg); }
+.obtain-more > summary:hover, .obtain-more[open] > summary { color: var(--accent); }
+.obtain-more > summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 2px; }
+.obtain-more[open] { flex-basis: 100%; }
+.obtain-menu { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.4rem; }
+.obtain-link {
+  display: inline-flex; align-items: baseline; gap: 0.35rem; padding: 0.12rem 0.65rem;
+  border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-soft); text-decoration: none; line-height: 1.5;
+}
+.obtain-link:hover { border-color: var(--accent); color: var(--accent); }
+.obtain-site { font-size: 0.8rem; color: var(--muted); }
+.obtain-link.obtain-free { border-color: color-mix(in srgb, var(--success) 45%, transparent); color: var(--success); }
+.obtain-link.obtain-free:hover { border-color: var(--success); }
+.obtain-missing { margin: 0.4rem 0 0; color: var(--ink-soft); border-left: 2px solid var(--rule-strong); padding-left: 0.7rem; }
 .core-texts { list-style: none; padding: 0; margin: 0; font-size: 1.02rem; }
 .core-texts li { margin-bottom: 0.8rem; }
 
