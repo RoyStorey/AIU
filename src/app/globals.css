@@ -1062,7 +1062,6 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
 }
 .np-icon:hover, .np-text-btn:hover { background: var(--paper-sunk); color: var(--ink); }
 .np-text-btn { font-size: 0.95rem; font-variant-numeric: tabular-nums; border: 1px solid var(--rule-strong); height: 2rem; padding: 0 0.6rem; }
-.np-skip-n { position: absolute; font-family: system-ui, sans-serif; font-size: 0.6rem; font-weight: 700; letter-spacing: -0.02em; top: 50%; left: 50%; transform: translate(-50%, -36%); }
 @media (max-width: 40rem) {
   .np-wide, .np-x { display: none; }
   .np-time { min-width: 2.4rem; }
@@ -1092,6 +1091,9 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
   border: 1px solid var(--rule-strong); background: var(--paper); color: var(--ink-soft); font-variant-numeric: tabular-nums;
 }
 .np-chip:hover { border-color: var(--accent); color: var(--accent); }
+/* Speeds on one line at every width: the chips share the row equally. */
+.np-speeds { flex-wrap: nowrap; gap: 0.3rem; }
+.np-speeds .np-chip { flex: 1 1 0; min-width: 0; padding: 0.3rem 0; text-align: center; font-size: 0.88rem; }
 .np-chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
 .np-sub { margin: 0.2rem 0 0.35rem; font-size: 0.95rem; }
 .np-sub span { color: var(--muted); font-style: italic; }
@@ -1099,7 +1101,8 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
 .np-voices li { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 0.2rem 0; }
 .np-voices label { display: flex; align-items: baseline; gap: 0.45rem; cursor: pointer; flex: 1; }
 .np-voices input { accent-color: var(--accent); transform: translateY(1px); }
-.np-voice-name { font-weight: 500; }
+.np-voice-text { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 0.45rem; }
+.np-voice-name { font-weight: 500; white-space: nowrap; }
 .np-voice-desc { color: var(--muted); font-size: 0.92rem; }
 .np-sample { font: inherit; font-size: 0.85rem; padding: 0.15rem 0.6rem; border: 1px solid var(--rule); border-radius: 999px; background: none; color: var(--accent); cursor: pointer; }
 .np-sample:hover { border-color: var(--accent); }

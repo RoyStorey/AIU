@@ -19,8 +19,8 @@ export type Manifest = {
   prev: { lesson: number; page: number } | null;
 };
 export type Place = { courseId: string; lesson: number; page: number };
-export type Sleep = { kind: "minutes"; until: number } | { kind: "page" } | { kind: "lesson" } | null;
-export type Settings = { voice: string; rate: number; follow: boolean; continueLessons: boolean };
+/** autoNext: carry on to the next page by itself (off by default: narration stops at the end of each page). */
+export type Settings = { voice: string; rate: number; follow: boolean; autoNext: boolean };
 
 type State = {
   manifest: Manifest | null;
@@ -33,14 +33,15 @@ type State = {
   /** Seconds into the current passage. */
   offset: number;
   sentence: number;
-  sleep: Sleep;
+  /** The page has been read to its end and the narration is waiting for "Next page". */
+  pageEnded: boolean;
   settings: Settings;
   devices: DeviceVoice[];
   sheet: boolean;
 };
 
 const SETTINGS_KEY = "cornerstone-listen-settings";
-const DEFAULTS: Settings = { voice: "", rate: 1, follow: true, continueLessons: false };
+const DEFAULTS: Settings = { voice: "", rate: 1, follow: true, autoNext: false };
 /** Device voices read faster than the studio estimates assume. */
 const deviceSeconds = (words: number, rate: number) => words / 2.6 / rate + 0.3;
 
@@ -57,7 +58,6 @@ type Api = {
   page: (delta: number) => void;
   setRate: (r: number) => void;
   setVoice: (id: string) => void;
-  setSleep: (s: Sleep) => void;
   setOption: (patch: Partial<Settings>) => void;
   openSheet: (open: boolean) => void;
   close: () => void;
@@ -75,7 +75,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
   const audio = useRef<HTMLAudioElement | null>(null);
   const st = useRef<State>({
     manifest: null, index: 0, mode: "studio", playing: false, waiting: false, finished: false, notice: null,
-    offset: 0, sentence: 0, sleep: null, settings: DEFAULTS, devices: [], sheet: false,
+    offset: 0, sentence: 0, pageEnded: false, settings: DEFAULTS, devices: [], sheet: false,
   });
   const here = useRef<Place | null>(null);
   const [, render] = useReducer((n: number) => n + 1, 0);
@@ -94,7 +94,12 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = stored<Settings>(SETTINGS_KEY);
-    if (saved) set({ settings: { ...DEFAULTS, ...saved } });
+    if (saved) {
+      // A speed no longer offered (such as 1.1x) snaps to the nearest one that is.
+      const rates = [0.8, 1, 1.2, 1.35, 1.5, 1.75, 2];
+      const rate = rates.reduce((best, r) => (Math.abs(r - (saved.rate ?? 1)) < Math.abs(best - (saved.rate ?? 1)) ? r : best), 1);
+      set({ settings: { ...DEFAULTS, ...saved, rate } });
+    }
     if (!("speechSynthesis" in window)) return;
     const update = () => set({ devices: deviceVoices() });
     update();
@@ -120,9 +125,9 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
 
   /** Decides how a page will be read: in the chosen studio voice if its audio can be had, otherwise in a device voice. */
   const resolve = useCallback(async (p: Place): Promise<{ manifest: Manifest; mode: State["mode"]; notice: string | null }> => {
-    const wanted = st.current.settings.voice;
-    let manifest = await fetchManifest(p);
-    if (wanted.startsWith("device:")) return { manifest, mode: "device", notice: null };
+    // Device voices are only a fallback now; a device voice chosen in an earlier version is set aside.
+    const wanted = st.current.settings.voice.startsWith("device:") ? "" : st.current.settings.voice;
+    let manifest = await fetchManifest(p, wanted);
     const studio = manifest.studio.voices;
     if (!studio.length) {
       return { manifest, mode: "device", notice: st.current.devices.length ? null : "No voices are available on this device or server." };
@@ -130,7 +135,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
     if (!manifest.voice) {
       // No studio voice chosen yet (or the chosen one is gone): use the first the server offers.
       manifest = await fetchManifest(p, studio[0].id);
-      if (!wanted) saveSettings({ voice: studio[0].id });
+      if (!wanted || !studio.some((v) => v.id === wanted)) saveSettings({ voice: studio[0].id });
     }
     const missing = manifest.blocks.some((b) => !b.ready);
     if (missing && !manifest.studio.canRender) {
@@ -229,7 +234,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
       if (my !== token.current || e.error === "interrupted" || e.error === "canceled") return;
       set({ playing: false, notice: `${st.current.notice ? `${st.current.notice} ` : ""}Your device's voice stopped unexpectedly. Press play to continue.` });
     };
-    set({ index, sentence, offset: (deviceSeconds(block.words, s.settings.rate) / parts.length) * sentence, playing: true, waiting: true, finished: false });
+    set({ index, sentence, offset: (deviceSeconds(block.words, s.settings.rate) / parts.length) * sentence, playing: true, waiting: true, finished: false, pageEnded: false });
     window.speechSynthesis.speak(u);
     // Chrome sometimes leaves the engine paused after a cancel.
     window.speechSynthesis.resume();
@@ -253,7 +258,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
       return;
     }
     stopSpeech();
-    set({ index, offset, playing: true, waiting: true, finished: false });
+    set({ index, offset, playing: true, waiting: true, finished: false, pageEnded: false });
     switching.current = true;
     a.src = block.url!;
     a.defaultPlaybackRate = s.settings.rate;
@@ -272,7 +277,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
     audio.current?.pause();
     stopSpeech();
     if (m && message) store(resumeKey(m.course.id, m.lesson.number), null);
-    set({ playing: false, waiting: false, finished: true, notice: message, sleep: st.current.sleep?.kind === "minutes" ? st.current.sleep : null });
+    set({ playing: false, waiting: false, finished: true, pageEnded: false, notice: message });
   }, [set]);
 
   const goToPage = useCallback(async (p: Place, index = 0, offset = 0, follow = false) => {
@@ -310,15 +315,21 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
     const m = s.manifest;
     if (!m) return;
     if (s.index + 1 < m.blocks.length) { playBlock(s.index + 1); return; }
-    // The end of a page.
-    if (s.sleep?.kind === "page") { finish("Stopped at the end of the page, as you asked. Sleep well."); return; }
-    if (!m.next || (m.next.newLesson && (!s.settings.continueLessons || s.sleep?.kind === "lesson"))) {
+    // The end of a page: stop, unless the listener asked to carry on, and never across into another lesson.
+    if (!m.next || m.next.newLesson) {
       finish(m.next ? `That's the end of Lesson ${m.lesson.number}.` : `That's the end of ${m.course.code}. Well done.`);
       return;
     }
-    if (m.next.newLesson) store(resumeKey(m.course.id, m.lesson.number), null);
+    if (!s.settings.autoNext) {
+      audio.current?.pause();
+      stopSpeech();
+      // Remember the next page as the place to resume.
+      store(resumeKey(m.course.id, m.lesson.number), { page: m.next.page, block: "title", offset: 0, at: Date.now(), title: `page ${m.next.page}` } satisfies ResumePoint);
+      set({ playing: false, waiting: false, finished: true, pageEnded: true, notice: null });
+      return;
+    }
     goToPage({ courseId: m.course.id, lesson: m.next.lesson, page: m.next.page }, 0, 0, true);
-  }, [finish, goToPage, playBlock]);
+  }, [finish, goToPage, playBlock, set]);
   advanceRef.current = advance;
 
   /* ---------- Controls ---------- */
@@ -365,12 +376,17 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
   const resume = useCallback(() => {
     const s = st.current;
     if (!s.manifest) return;
+    // Play after the end of a page goes on to the next page.
+    if (s.finished && s.pageEnded && s.manifest.next) {
+      goToPage({ courseId: s.manifest.course.id, lesson: s.manifest.next.lesson, page: s.manifest.next.page }, 0, 0, true);
+      return;
+    }
     if (s.finished) { playBlock(0); return; }
     if (s.mode === "device") { speak(s.index, s.sentence); return; }
     const a = audio.current!;
     if (!a.src || a.src.startsWith("data:")) { playBlock(s.index, s.offset); return; }
     a.play().then(() => set({ playing: true })).catch(() => playBlock(s.index, s.offset));
-  }, [playBlock, set, speak]);
+  }, [goToPage, playBlock, set, speak]);
 
   const toggle = useCallback(() => (st.current.playing ? pause() : resume()), [pause, resume]);
 
@@ -435,7 +451,6 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
     else resolve(p).then((next) => { set({ manifest: next.manifest, mode: next.mode, notice: next.notice }); }).catch(() => {});
   }, [pause, resolve, saveSettings, set, start]);
 
-  const setSleep = useCallback((sleep: Sleep) => set({ sleep }), [set]);
   const setOption = useCallback((patch: Partial<Settings>) => saveSettings(patch), [saveSettings]);
   const openSheet = useCallback((sheet: boolean) => set({ sheet }), [set]);
 
@@ -444,7 +459,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
     audio.current?.pause();
     if (audio.current) audio.current.removeAttribute("src");
     stopSpeech();
-    set({ manifest: null, playing: false, waiting: false, notice: null, sheet: false, sleep: null, finished: false });
+    set({ manifest: null, playing: false, waiting: false, notice: null, sheet: false, pageEnded: false, finished: false });
     if ("mediaSession" in navigator) navigator.mediaSession.metadata = null;
   }, [savePlace, set]);
 
@@ -539,24 +554,6 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
     } catch { /* some browsers reject until metadata loads */ }
   });
 
-  /* ---------- Sleep timer ---------- */
-
-  useEffect(() => {
-    const id = window.setInterval(() => {
-      const s = st.current;
-      if (s.sleep?.kind !== "minutes" || !s.playing) return;
-      const left = (s.sleep.until - Date.now()) / 1000;
-      const a = audio.current;
-      if (a) a.volume = left < 10 ? Math.max(0, left / 10) : 1;
-      if (left <= 0) {
-        pause();
-        if (a) a.volume = 1;
-        set({ sleep: null, notice: "The sleep timer stopped the narration." });
-      } else render();
-    }, 1000);
-    return () => window.clearInterval(id);
-  }, [pause, set]);
-
   /* ---------- Follow along: highlight the passage being read ---------- */
 
   useEffect(() => {
@@ -619,7 +616,7 @@ export function NarrationProvider({ children }: { children: React.ReactNode }) {
 
   const api: Api = {
     state: st.current, getHere: () => here.current, setHere, start, toggle, pause, seek, skip, passage, page, setRate, setVoice,
-    setSleep, setOption, openSheet, close, durations, position, total,
+    setOption, openSheet, close, durations, position, total,
   };
 
   return (

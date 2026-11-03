@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { useNarration, type Sleep } from "@/components/narration/NarrationProvider";
+import { useNarration } from "@/components/narration/NarrationProvider";
 import { OfflineSave, useNarrationWorker } from "@/components/narration/OfflineSave";
 import { clock } from "@/components/narration/device";
 
-const RATES = [0.8, 1, 1.1, 1.2, 1.35, 1.5, 1.75, 2];
+const RATES = [0.8, 1, 1.2, 1.35, 1.5, 1.75, 2];
 const SAMPLE = "In April 1775, British regulars marched out of Boston toward Concord. By nightfall the colonies were at war.";
 const roman = (n: number) => ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][n] ?? String(n);
 
@@ -29,15 +29,19 @@ function Skip({ seconds }: { seconds: number }) {
   const label = seconds < 0 ? `Back ${-seconds} seconds` : `Forward ${seconds} seconds`;
   return (
     <button type="button" className="np-icon np-skip" onClick={() => n.skip(seconds)} aria-label={label} title={label}>
-      <Icon name={seconds < 0 ? "back" : "fwd"} />
-      <span className="np-skip-n">{Math.abs(seconds)}</span>
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        {seconds < 0
+          ? <><path d="M12 5A8 8 0 1 1 5.07 9" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /><path d="M12 2.3v5.4L8.7 5z" fill="currentColor" /></>
+          : <><path d="M12 5A8 8 0 1 0 18.93 9" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /><path d="M12 2.3v5.4L15.3 5z" fill="currentColor" /></>}
+        <text x="12" y="13.4" textAnchor="middle" dominantBaseline="central" fontSize="7" fontWeight="700" fontFamily="system-ui, -apple-system, Segoe UI, sans-serif" fill="currentColor">{Math.abs(seconds)}</text>
+      </svg>
     </button>
   );
 }
 
 export function NarrationBar() {
   const n = useNarration()!;
-  const { manifest: m, playing, waiting, notice, settings, sheet, mode, sleep, finished } = n.state;
+  const { manifest: m, playing, waiting, notice, settings, sheet, mode, finished, pageEnded } = n.state;
   const [scrub, setScrub] = useState<number | null>(null);
   const sheetRef = useRef<HTMLDivElement>(null);
   useNarrationWorker();
@@ -57,7 +61,6 @@ export function NarrationBar() {
   const voiceName = mode === "device"
     ? (n.state.devices.find((d) => d.id === settings.voice) ?? n.state.devices[0])?.name ?? "Device voice"
     : m.studio.voices.find((v) => v.id === m.voice)?.name ?? "Studio voice";
-  const sleepLeft = sleep?.kind === "minutes" ? Math.max(0, (sleep.until - Date.now()) / 1000) : null;
 
   return (
     <>
@@ -88,7 +91,7 @@ export function NarrationBar() {
 
           <fieldset className="np-group">
             <legend>Speed</legend>
-            <div className="np-chips">
+            <div className="np-chips np-speeds">
               {RATES.map((r) => (
                 <button key={r} type="button" className="np-chip" aria-pressed={settings.rate === r} onClick={() => n.setRate(r)}>{r}×</button>
               ))}
@@ -97,21 +100,10 @@ export function NarrationBar() {
 
           <VoicePicker />
 
-          <fieldset className="np-group">
-            <legend>Sleep timer{sleepLeft !== null ? ` · ${clock(sleepLeft)} left` : sleep ? ` · ${sleep.kind === "page" ? "end of page" : "end of lesson"}` : ""}</legend>
-            <div className="np-chips">
-              {([["Off", null], ["15 min", 15], ["30 min", 30], ["45 min", 45], ["60 min", 60], ["End of page", "page"], ["End of lesson", "lesson"]] as const).map(([label, v]) => {
-                const active = v === null ? !sleep : typeof v === "number" ? false : sleep?.kind === v;
-                const value: Sleep = v === null ? null : typeof v === "number" ? { kind: "minutes", until: Date.now() + v * 60_000 } : { kind: v };
-                return <button key={label} type="button" className="np-chip" aria-pressed={active} onClick={() => n.setSleep(value)}>{label}</button>;
-              })}
-            </div>
-          </fieldset>
-
           <fieldset className="np-group np-options">
             <legend>While listening</legend>
             <label><input type="checkbox" checked={settings.follow} onChange={(e) => n.setOption({ follow: e.target.checked })} /> Follow along: highlight each passage and turn the page</label>
-            <label><input type="checkbox" checked={settings.continueLessons} onChange={(e) => n.setOption({ continueLessons: e.target.checked })} /> Carry on into the next lesson</label>
+            <label><input type="checkbox" checked={settings.autoNext} onChange={(e) => n.setOption({ autoNext: e.target.checked })} /> Go on to the next page by itself (otherwise it stops at the end of each page)</label>
           </fieldset>
 
           {mode === "studio" && <OfflineSave />}
@@ -142,8 +134,10 @@ export function NarrationBar() {
             <span className="np-time">−{clock(total - shown)}</span>
           </div>
           <p className="np-status" aria-live="polite">
-            {notice ?? (waiting && playing ? (mode === "studio" ? "Preparing the narration…" : "Starting…")
-              : finished ? "Finished." : `${voiceName} · ${rateLabel}${sleepLeft !== null ? ` · sleep in ${clock(sleepLeft)}` : ""}`)}
+            {pageEnded && m.next
+              ? <>End of this page. <button type="button" className="btn-link" onClick={() => n.page(1)}>Next page →</button></>
+              : notice ?? (waiting && playing ? (mode === "studio" ? "Preparing the narration…" : "Starting…")
+                : finished ? "Finished." : `${voiceName} · ${rateLabel}`)}
           </p>
         </div>
         <Skip seconds={-15} />
@@ -162,7 +156,7 @@ export function NarrationBar() {
 
 function VoicePicker() {
   const n = useNarration()!;
-  const { manifest: m, settings, devices, mode } = n.state;
+  const { manifest: m, settings, devices } = n.state;
   const sample = useRef<HTMLAudioElement | null>(null);
   const [playingSample, setPlayingSample] = useState<string | null>(null);
   if (!m) return null;
@@ -189,20 +183,19 @@ function VoicePicker() {
     }
   };
 
-  const current = mode === "device" ? (settings.voice.startsWith("device:") ? settings.voice : devices[0]?.id) : m.voice;
+  const current = m.voice;
 
   return (
     <fieldset className="np-group">
       <legend>Voice</legend>
       {m.studio.voices.length > 0 && (
         <>
-          <p className="np-sub">Studio voices <span>· natural, and they keep playing with your screen locked</span></p>
           <ul className="np-voices">
             {m.studio.voices.map((v) => (
               <li key={v.id}>
                 <label>
                   <input type="radio" name="np-voice" checked={current === v.id} onChange={() => n.setVoice(v.id)} />
-                  <span className="np-voice-name">{v.name}</span> <span className="np-voice-desc">{v.description}</span>
+                  <span className="np-voice-text"><span className="np-voice-name">{v.name}</span> <span className="np-voice-desc">{v.description}</span></span>
                 </label>
                 <button type="button" className="np-sample" onClick={() => preview(v.id, v.preview)} aria-label={`Hear a sample of ${v.name}`}>
                   {playingSample === v.id ? "Stop" : "Sample"}
@@ -210,28 +203,9 @@ function VoicePicker() {
               </li>
             ))}
           </ul>
-          {!m.studio.canRender && <p className="np-note">Pages this server hasn&rsquo;t recorded yet are read by your device&rsquo;s voice{m.studio.reason ? "" : "; signing in lets the server record them"}.</p>}
         </>
       )}
-      {devices.length > 0 && (
-        <>
-          <p className="np-sub">Voices on this device <span>· work everywhere; most phones pause them when the screen locks</span></p>
-          <div className="np-device">
-            <select
-              aria-label="Device voice"
-              value={settings.voice.startsWith("device:") ? settings.voice : ""}
-              onChange={(e) => e.target.value && n.setVoice(e.target.value)}
-            >
-              <option value="">Choose a voice on this device…</option>
-              {devices.map((d) => <option key={d.id} value={d.id}>{d.name} ({d.lang})</option>)}
-            </select>
-            {settings.voice.startsWith("device:") && (
-              <button type="button" className="np-sample" onClick={() => preview(settings.voice)}>{playingSample === settings.voice ? "Stop" : "Sample"}</button>
-            )}
-          </div>
-        </>
-      )}
-      {!m.studio.voices.length && !devices.length && <p className="np-note">No voices are available. Try another browser, or ask the site&rsquo;s administrator to set up studio narration.</p>}
+      {!m.studio.voices.length && <p className="np-note">No studio voices are recorded for this course yet, so your device&rsquo;s own voice reads it.</p>}
     </fieldset>
   );
 }
