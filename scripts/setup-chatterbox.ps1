@@ -145,7 +145,13 @@ Write-Host "AIU_NARRATION_PROVIDER=chatterbox and AIU_NARRATION_ON_DEMAND=off (s
 
 # ---- The model and the samples ----
 Step "Downloading the voice model and recording a sample of each voice"
-Run "npm.cmd" @("run", "narrate", "--", "--previews")
+$samples = @(Get-ChildItem -Path (Join-Path $root "public\narration\previews") -Filter "chatterbox-*.mp3" -ErrorAction SilentlyContinue)
+if ($samples.Count -ge 7) {
+  Write-Host "The voice samples are already recorded."
+} else {
+  & npm.cmd run narrate -- --previews
+  if ($LASTEXITCODE -ne 0) { Write-Host "The samples could not be recorded now; the rest of the setup is done. Try: npm run narrate -- --previews" -ForegroundColor Yellow }
+}
 
 Remove-Item -Recurse -Force $work -ErrorAction SilentlyContinue
 

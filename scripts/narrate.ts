@@ -16,7 +16,7 @@ import { loadEnvConfig } from "@next/env";
 import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { authoredCourses } from "@/content/courses";
-import { showChatterboxLog, warmChatterbox } from "@/lib/narration/chatterbox";
+import { showChatterboxLog, stopChatterbox, warmChatterbox } from "@/lib/narration/chatterbox";
 import { ensureKokoroFiles } from "@/lib/narration/kokoro";
 import { pageNarration } from "@/lib/narration/script";
 import { speakable } from "@/lib/narration/speakable";
@@ -24,6 +24,12 @@ import { findRendered, hashFor, isNarrated, narrationProvider, providerVoices, r
 import { voiceSlug, type StudioVoice } from "@/lib/narration/voices";
 
 loadEnvConfig(process.cwd());
+
+// Ctrl+C (or the nightly task ending) stops the Python worker too, so it doesn't linger holding the GPU.
+for (const signal of ["SIGINT", "SIGTERM", "SIGBREAK", "SIGHUP"] as const) {
+  process.on(signal, () => { stopChatterbox(); console.log("\nStopped. Run the same command again to carry on."); process.exit(130); });
+}
+process.on("exit", () => stopChatterbox());
 
 const args = process.argv.slice(2);
 const flag = (name: string) => {
@@ -92,7 +98,7 @@ async function main() {
   if (provider === "kokoro") await ensureKokoroFiles(voices.map((v) => v.engineVoice), (s) => console.log(s));
   if (provider === "chatterbox") {
     showChatterboxLog(true);
-    console.log("Starting Chatterbox (the first time, it downloads the model, a few GB) …");
+    console.log("Starting Chatterbox (the very first time, it downloads the model, a few GB) …");
     console.log(`Chatterbox is running on ${await warmChatterbox()}.`);
     showChatterboxLog(tty);
   }

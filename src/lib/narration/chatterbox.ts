@@ -214,6 +214,12 @@ export async function chatterboxSynthesize(text: string, voice: StudioVoice): Pr
   }
 }
 
+/** Stops the worker now, freeing the GPU (on Ctrl+C, or when the command line finishes). */
+export function stopChatterbox() {
+  worker?.proc.kill();
+  worker = null;
+}
+
 /** Starts the worker ahead of the first passage and reports where it runs ("cuda", "cpu"). */
 export async function warmChatterbox(): Promise<string> {
   worker ??= start();
