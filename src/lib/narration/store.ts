@@ -102,7 +102,8 @@ export async function studioStatus(): Promise<{ voices: StudioVoice[]; canRender
       .filter((d) => d.isDirectory() && readdirSync(join(narrationDir(), d.name)).some((f) => f.endsWith(".json")))
       .map((d) => voiceFromSlug(d.name)).filter((v): v is StudioVoice => Boolean(v))
     : [];
-  const order = [...KOKORO_VOICES, ...CHATTERBOX_VOICES, ...OPENAI_VOICES].map((v) => v.id);
+  // The configured engine's voices first, so the player's default is the voice now being rendered.
+  const order = [...providerVoices(provider), ...KOKORO_VOICES, ...CHATTERBOX_VOICES, ...OPENAI_VOICES].map((v) => v.id);
   const onDisk = recorded.sort((a, b) => (order.indexOf(a.id) + 1 || 999) - (order.indexOf(b.id) + 1 || 999));
   const voices = [...offered, ...onDisk.filter((v) => !offered.some((o) => o.id === v.id))];
   return { voices, canRender, reason };
