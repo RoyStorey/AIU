@@ -61,7 +61,7 @@ export function ListenButton({ courseId, lesson, page, minutes }: { courseId: st
           {page ? "from the top" : "from the beginning"}
         </button>
       )}
-      {!resumeHere && minutes ? <span className="listen-hint">about {minutes} min · keeps going page to page</span> : null}
+      {!resumeHere && minutes ? <span className="listen-hint">about {minutes} minutes of listening</span> : null}
     </div>
   );
 }

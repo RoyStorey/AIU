@@ -115,6 +115,7 @@ export function NarrationBar() {
 
       <div className="np-bar" role="region" aria-label="Lecture narration">
         <div className="np-progress-line" aria-hidden="true"><span style={{ width: `${total ? (shown / total) * 100 : 0}%` }} /></div>
+        <div className="np-bar-inner">
         <button type="button" className={waiting && playing ? "np-play is-waiting" : "np-play"} onClick={n.toggle} aria-label={playing ? "Pause" : "Play"}>
           <Icon name={playing ? "pause" : "play"} />
         </button>
@@ -137,7 +138,7 @@ export function NarrationBar() {
             {pageEnded && m.next
               ? <>End of this page. <button type="button" className="btn-link" onClick={() => n.page(1)}>Next page →</button></>
               : notice ?? (waiting && playing ? (mode === "studio" ? "Preparing the narration…" : "Starting…")
-                : finished ? "Finished." : `${voiceName} · ${rateLabel}`)}
+                : finished ? "Finished." : `Lesson ${roman(m.lesson.number)}, page ${roman(m.page.number).toLowerCase()} of ${roman(m.lesson.pages).toLowerCase()} · ${voiceName}${settings.rate !== 1 ? ` · ${rateLabel}` : ""}`)}
           </p>
         </div>
         <Skip seconds={-15} />
@@ -149,6 +150,7 @@ export function NarrationBar() {
           <Icon name="up" />
         </button>
         <button type="button" className="np-icon np-x" onClick={n.close} aria-label="Stop and close the player"><Icon name="close" /></button>
+        </div>
       </div>
     </>
   );

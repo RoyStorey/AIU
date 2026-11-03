@@ -41,13 +41,13 @@ export default async function LessonOverview({ params }: Params) {
   return (
     <LessonShell course={course} index={index} step={{ kind: "overview" }} completed={completed}>
       <section className="measure">
+        {listenMinutes > 0 && <ListenButton courseId={course.id} lesson={index + 1} minutes={listenMinutes} />}
         <h2 className="section-title">Contents</h2>
         <StepList courseId={course.id} index={index} lesson={lesson} large />
         <p className="muted timing-note">
           About {formatMinutes(lessonMinutes(lesson))} in all. Times assume careful reading at about {WORDS_PER_MINUTE} words
           a minute, with time to work through sources and exercises; the assigned readings and recordings are additional.
         </p>
-        {listenMinutes > 0 && <ListenButton courseId={course.id} lesson={index + 1} minutes={listenMinutes} />}
         <div className="actions">
           <Link className="button" href={lessonHref(course.id, index, { kind: "page", page: 0 })}>
             Begin the lesson
