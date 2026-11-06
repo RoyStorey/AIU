@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Barnabas, Hermas, and Diognetus: Scripture, Repentance, and the Christian in the World",
   summary:
-    "The Epistle of Barnabas and its bold reading of the Jewish Scriptures, by which the covenant, the Law, the Sabbath, and the Temple all belong to the Christians; the Shepherd of Hermas, a freedman's visions in second-century Rome, its Church as an old woman growing young, and its offer of one repentance after baptism; the Epistle to Diognetus, saved from a fish shop and lost in a fire, with its portrait of Christians as the soul of the world and its God who persuades rather than compels; and, looking back over the course, how the Apostolic Fathers prepared the way for the Church of Irenaeus, and why they are still read.",
+    "Barnabas's reading of the Jewish Scriptures; the visions of Hermas and repentance after baptism; the Epistle to Diognetus and the Christian in the world; and the road to the Great Church.",
   pages: [
     {
       title: "The Epistle of Barnabas: Reading the Scriptures for Knowledge",

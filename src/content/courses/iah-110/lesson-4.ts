@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "The Plains, the Great Basin, and California, to 1870",
   summary:
-    "The Plains before the horse, its bison hunters and its farming villages along the Missouri; the horse and the gun, and the peoples who moved onto the grasslands to make a new way of life; the rise of the Comanche, and the argument over whether they built an empire; the world of the Plains nations—the buffalo, the Sun Dance, the warrior societies, the winter counts, and the work of women; the peoples of the Great Basin, so often scorned and so little understood; the crowded and varied world of Native California; and the missions, the Gold Rush, and the killings that historians now call genocide.",
+    "The Plains before and after the horse; the rise of the Comanche; the life of the Plains nations; the peoples of the Great Basin; Native California; and the missions, the Gold Rush, and genocide.",
   pages: [
     {
       title: "The Plains before the Horse",

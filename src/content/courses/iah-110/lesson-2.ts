@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The Eastern Woodlands: Cahokia, the Mississippians, and the League of Peace, 800–1600",
   summary:
-    "The rise of Cahokia, the greatest town north of Mexico, and the Mississippian world of chiefdoms, platform mounds, and a shared religious art; the decline of Cahokia and the arguments over why; Hernando de Soto's invasion of the Southeast and the transformation of its peoples into the Creek, Choctaw, Chickasaw, and Cherokee nations; the founding of the Haudenosaunee League by the Peacemaker and Hiawatha, the power of its clan mothers, and the debate over its influence on the American founders; the Algonquian peoples of the coast and the Great Lakes; and the first encounters with Europeans on the Atlantic shore.",
+    "Cahokia and the Mississippian world; de Soto's invasion and the new nations of the South; the Haudenosaunee League and its clan mothers; the Algonquian peoples; and the first encounters with Europeans on the Atlantic shore.",
   pages: [
     {
       title: "Cahokia: The Great Town",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Polycarp, the Martyrs, and Papias: Memory and Witness in Asia",
   summary:
-    "Polycarp, bishop of Smyrna, remembered as a link to the apostle John; his letter to the Philippians, with its fallen presbyter and its web of scriptural echoes; his visit to Rome and the first quarrel over the date of Easter; the account of his martyrdom, the earliest of its kind, and how it was shaped to follow the Gospel; why the Roman authorities executed Christians at all, from Pliny's letter to Trajan to the modern debate over how much persecution there was; and Papias of Hierapolis, who preferred “a living and abiding voice” to books, and preserved the earliest traditions about the writing of the Gospels.",
+    "Polycarp of Smyrna, his letter, and the first quarrel over Easter; the account of his martyrdom; why Rome persecuted Christians; and Papias's traditions about the Gospels.",
   pages: [
     {
       title: "Polycarp of Smyrna",

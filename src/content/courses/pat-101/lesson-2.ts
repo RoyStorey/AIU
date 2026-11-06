@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Clement of Rome: Order, Concord, and the Apostles' Successors",
   summary:
-    "The church of Rome from its obscure beginnings to the deaths of Peter and Paul; the letter it sent to Corinth around the end of the first century, when the Corinthians had deposed their presbyters; its sermon on jealousy and the earliest witness to the martyrdom of the apostles; its appeal to the order of creation, the army, the body, and the Temple; its claim that the apostles appointed successors, and the long argument over what that claim means; its hymn to love and its prayer for the rulers of the empire; and 2 Clement, the oldest Christian sermon, with the legends that grew up around Clement's name.",
+    "The church of Rome and its letter to Corinth: jealousy and the deaths of Peter and Paul, order in creation and the church, the claim of apostolic succession, and the oldest Christian sermon.",
   pages: [
     {
       title: "The Church in Rome",

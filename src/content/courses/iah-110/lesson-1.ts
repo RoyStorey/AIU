@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Deep Time: The First Peoples, to AD 800",
   summary:
-    "A continent of hundreds of nations and languages, and how to speak of them; the peopling of the Americas, from the land bridge and the Clovis hunters to the older sites that overturned the old story; the hunters and foragers of the Ice Age and after; the mound builders of Watson Brake and Poverty Point, who raised monuments without farming; the first farmers of the Eastern Woodlands and the coming of maize; the earthworks of the Adena and Hopewell; and the nineteenth-century myth of a lost race of Mound Builders, and what replaced it.",
+    "The many nations of North America and how to name them; how the first peoples arrived; Ice Age hunters; the mound builders of Poverty Point; the first farmers; the Hopewell earthworks; and the myth of a lost race of Mound Builders.",
   pages: [
     {
       title: "A Continent of Nations",

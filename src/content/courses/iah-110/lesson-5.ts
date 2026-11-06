@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "The Northwest Coast, the Plateau, and the North",
   summary:
-    "The wealthy, ranked societies of the Northwest Coast, built on salmon and cedar; the potlatch, and Canada's sixty-seven-year ban on it; crests, house poles, and the art of the formline; the buried village of Ozette and the great earthquake of 1700, remembered in oral tradition and confirmed by science; the peoples of the Columbia Plateau and the fishery at Celilo Falls, from Lewis and Clark to the dam that drowned it; the Inuit and their ancestors in the Arctic, and the Norse who met them; the hunters of the northern forests; and, at the end of the course, the continent's Native nations then and now.",
+    "The salmon-and-cedar world of the Northwest Coast and the potlatch; the earthquake of 1700 remembered in oral tradition; Celilo Falls and the Plateau; the Inuit and the Norse; and Native nations today.",
   pages: [
     {
       title: "Salmon and Cedar: The Northwest Coast",

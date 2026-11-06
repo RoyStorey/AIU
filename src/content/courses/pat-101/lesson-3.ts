@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Ignatius of Antioch: The Bishop on the Road to Rome",
   summary:
-    "A bishop of Antioch, condemned to the beasts, writes seven letters on his journey to Rome; the long and partisan quarrel over which letters are genuine; his vision of the church gathered around one bishop, with presbyters and deacons, and the first use of the phrase “the catholic church”; his insistence that Christ was “truly” born, suffered, and rose, against those who said he only seemed to; his attack on Christians who “Judaize,” and the first use of the word “Christianity”; his longing for martyrdom, and how modern readers have judged it; and his teaching on unity and the Eucharist, “the medicine of immortality.”",
+    "The seven letters Ignatius wrote on his way to die in Rome: the single bishop, Christ who “truly” suffered, the first use of “Christianity,” and his longing for martyrdom.",
   pages: [
     {
       title: "The Prisoner from Antioch",

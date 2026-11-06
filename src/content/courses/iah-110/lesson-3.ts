@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "The Southwest: Desert Farmers and the Pueblo Revolt, to 1700",
   summary:
-    "The farmers of the desert, from the first maize and canals to the irrigation networks of the Hohokam; the great houses, roads, and turquoise of Chaco Canyon; the cliff dwellings of Mesa Verde, the Great Drought, and the migrations that made the Pueblo world; the Pueblos in 1540 and the invasion of Coronado; the arrival of the Diné and Apache peoples; the Spanish colony of New Mexico and the missions; and the Pueblo Revolt of 1680, the most successful Native uprising in North American history.",
+    "The Hohokam canals, the great houses of Chaco, and the migrations from Mesa Verde; Coronado and the Spanish conquest; the Diné and Apache; and the Pueblo Revolt of 1680.",
   pages: [
     {
       title: "Farmers of the Desert: The Hohokam",
