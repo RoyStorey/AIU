@@ -192,6 +192,88 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "IAH 110": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "Most estimates put the population north of Mexico in 1492 between about two and seven million.",
+        note: "Estimates range from James Mooney's 1.15 million (1928) to Henry Dobyns's eighteen million (1983). The range given is where most recent estimates fall; none is a count.",
+      },
+      {
+        page: 2, kind: "disputed",
+        claim: "Human footprints at White Sands, New Mexico, are 21,000 to 23,000 years old.",
+        note: "The dates, published in 2021 and supported by further tests in 2023, are still questioned by some archaeologists. The lesson says the question is not settled.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "The date of Serpent Mound.",
+        note: "Radiocarbon studies have pointed both to about 300 BC (Adena) and to about AD 1070 (Fort Ancient). The lesson gives both.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Cahokia had perhaps ten or fifteen thousand people in the central town.",
+        note: "Population estimates for Cahokia range from under ten thousand to thirty thousand or more for the wider region. The figure given is a common middle estimate.",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "The founding date of the Haudenosaunee League.",
+        note: "Most scholars place it between about 1450 and 1525 on archaeological grounds; Barbara Mann and Jerry Fields argued for 1142 from an eclipse in the tradition. The lesson presents the question as open.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "The League influenced the framers of the U.S. Constitution.",
+        note: "Argued by Donald Grinde and Bruce Johansen and acknowledged by Congress in 1988; disputed by Elisabeth Tooker and others. The lesson sets out both sides.",
+      },
+    ],
+    3: [
+      {
+        page: 2, kind: "disputed",
+        claim: "What Chaco Canyon was.",
+        note: "Archaeologists disagree whether Chaco was a pilgrimage center with a small resident population or a political center ruled by an elite; Stephen Lekson argues for a regional state. The lesson gives the main views.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Evidence of cannibalism at some Ancestral Puebloan sites.",
+        note: "Interpretations by Christy Turner and others have been strongly contested, and many Pueblo people reject them. The lesson describes the claims as disputed.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "What Popé taught.",
+        note: "Known mainly from the testimony of Pueblo people questioned by Spanish officials after the revolt, through interpreters and in the officials' own words.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "disputed",
+        claim: "Native peoples of the northern Rockies and Plains had horses by the early 1600s.",
+        note: "This rests on a 2023 study of horse remains made with Native scholars. It revises the older view that horses spread mainly after the Pueblo Revolt of 1680; some details of its dating may be refined.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "The Comanche built an empire.",
+        note: "Pekka Hämäläinen's argument has been highly influential but criticized by scholars who think “empire” misdescribes a decentralized people. The lesson presents both views.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "The killings of Native Californians, 1846–1873, were genocide.",
+        note: "Benjamin Madley makes the case in detail, and California's governor used the word in 2019; some historians emphasize disease and starvation instead. The lesson sets out the evidence and the debate.",
+      },
+    ],
+    5: [
+      {
+        page: 4, kind: "uncertain",
+        claim: "Oral traditions of the coast remember the Cascadia earthquake of January 26, 1700.",
+        note: "The earthquake's date is secure from Japanese tsunami records and tree rings. The link to particular oral traditions is strong but rests on matching their details and genealogical dating to the event.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "The Tuniit of Inuit tradition are the Dorset people.",
+        note: "Widely accepted by archaeologists and Inuit scholars, but an identification rather than a certainty.",
+      },
+    ],
+  },
   "PAT 101": {
     1: [
       {
