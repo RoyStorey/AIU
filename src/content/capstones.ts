@@ -429,6 +429,38 @@ Read the primary sources closely—documents, debates, speeches, letters, court 
     ],
   },
 
+  "Indigenous Americas": {
+    title: "A Research Essay in Indigenous History",
+    summary: "An argued essay on a question in the history of the Indigenous peoples of the Americas, built on the evidence the concentration has taught you to weigh: written records, archaeology, Native texts, and oral tradition.",
+    brief: `Your capstone asks a question about the Native past and answers it from the evidence. You may work in any region and any period, from the first peoples to the present: Cahokia or Chaco, the Maya kings or the Inca roads, the Pueblo Revolt, the Cherokee Nation's fight against Removal, the boarding schools, or the movements for sovereignty in our own time.
+
+Choose a question that historians argue about: Why did Cahokia rise so suddenly, and why was it abandoned? How did a few hundred Spaniards bring down the Aztec and Inca empires, and is that even the right question? Was the Comanche dominion an empire? What did treaties mean to the nations that signed them?
+
+The sources for Native history are unusually varied, and the concentration has taught you to read all of them. Use written records—chronicles, letters, treaties, court testimony, the writings of Native authors—and, where they help, the findings of archaeology and the testimony of oral tradition. Read each for what it can and cannot tell you, and ask whose voice it carries. Set out the scholarly debate, and argue your own position.
+
+Write with care about the living peoples whose history this is. Name nations as they name themselves where you can, avoid both the story of "vanished" peoples and the story of a timeless golden age, and treat sacred knowledge and human remains with the respect that many communities ask of researchers.`,
+    options: [
+      { name: "Research essay", description: "A question in the history of one people or region, answered from the sources." },
+      { name: "Sources in conversation", description: "A study of one event or place as written records, archaeology, and oral tradition tell it, and how far they agree." },
+    ],
+    requirements: [
+      "Pose a clear historical question and answer it with an arguable thesis.",
+      "Use at least four primary sources, at least one of them by a Native author or speaker.",
+      "Read each source critically, attending to who produced it, for whom, and how it reached us.",
+      "Set out the scholarly debate, naming historians, archaeologists, or Native scholars.",
+      "Attend to change over time; do not treat Native societies as unchanging.",
+      "Give a bibliography of primary and secondary sources.",
+    ],
+    words: { min: 4500, max: 9000 },
+    rubric: [
+      { name: "Argument", description: "A clear historical thesis, developed and sustained." },
+      { name: "Use of Sources", description: "Well-chosen evidence of more than one kind, read critically and cited accurately." },
+      { name: "Historiography", description: "A fair and informed account of the scholarly debate." },
+      { name: "Historical Understanding", description: "A secure grasp of context, change over time, and the perspectives of Native peoples." },
+      { name: "Expression", description: "Clear, organized, and graceful prose." },
+    ],
+  },
+
   "Asian History": {
     title: "A Research Essay in Asian History",
     summary: "An argued essay on a question in the history of China, Japan, or India—or the connections among them—from primary sources in translation.",
