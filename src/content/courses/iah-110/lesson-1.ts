@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Deep Time: The First Peoples, to AD 800",
   summary:
-    "The many nations of North America and how to name them; how the first peoples arrived; Ice Age hunters; the mound builders of Poverty Point; the first farmers; the Hopewell earthworks; and the myth of a lost race of Mound Builders.",
+    "Turtle Island's hundreds of nations and how to name them; how the first peoples reached the Americas, and the finds that overturned the textbook story; Ice Age hunters; the mound builders of Poverty Point; the first farmers; the Hopewell earthworks; and the myth of a lost race of Mound Builders.",
   pages: [
     {
       title: "A Continent of Nations",

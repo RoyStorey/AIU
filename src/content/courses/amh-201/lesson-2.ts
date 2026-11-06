@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Jefferson's Republic, 1801–1824",
   summary:
-    "The Republicans in power: Jefferson's simplicity and the Barbary War; Marbury v. Madison and judicial review; the Haitian Revolution and the Louisiana Purchase; Lewis and Clark; the embargo and the Native resistance of Tecumseh and Tenskwatawa; the War of 1812; the nationalism of the Era of Good Feelings and the Marshall Court; the Missouri crisis; and the Monroe Doctrine.",
+    "The Republicans in power: Jefferson and the Barbary War; Marbury v. Madison; the Haitian Revolution and the Louisiana Purchase; Lewis and Clark; Tecumseh's resistance and the War of 1812; the Marshall Court; the Missouri crisis; and the Monroe Doctrine.",
   pages: [
     {
       title: "Jefferson in Power",

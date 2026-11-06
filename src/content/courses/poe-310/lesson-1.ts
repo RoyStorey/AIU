@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Walt Whitman: \"I Celebrate Myself\"",
   summary:
-    "The poet who invented American poetry: the call for a national poet in Emerson's “The Poet”; Walt Whitman's Leaves of Grass of 1855, its long free-verse lines and its democratic, bodily, cosmic “I”; “Song of Myself” and “Crossing Brooklyn Ferry”; the Civil War hospitals and the elegy for Lincoln, “When Lilacs Last in the Dooryard Bloom'd”; and the poets who have argued with Whitman ever since.",
+    "The poet who invented American poetry: Emerson's call for a national poet; Whitman's Leaves of Grass, its long free-verse lines and democratic, bodily “I”; “Song of Myself” and “Crossing Brooklyn Ferry”; the Civil War and the elegy for Lincoln; and the poets who argue with him still.",
   pages: [
     {
       title: "Waiting for an American Poet",

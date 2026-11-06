@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "British America on the Eve of Crisis, 1750–1763",
   summary:
-    "The thirteen colonies at the height of their attachment to Britain: a fast-growing, diverse, slaveholding society that thought of itself as the freest part of the freest empire on earth; the Native nations and imperial rivals around it; the Seven Years' War that made Britain master of North America; and the problems that victory created.",
+    "The thirteen colonies at the height of their loyalty to Britain: a fast-growing, slaveholding society that thought itself the freest part of the freest empire on earth; the Native nations and rival empires around it; and the Seven Years' War, whose victory created Britain's problems.",
   pages: [
     {
       title: "The Colonies in 1750",

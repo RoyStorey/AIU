@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "The Plains, the Great Basin, and California, to 1870",
   summary:
-    "The Plains before and after the horse; the rise of the Comanche; the life of the Plains nations; the peoples of the Great Basin; Native California; and the missions, the Gold Rush, and genocide.",
+    "The Plains before the horse and the revolution it brought; the rise of the Comanche; the buffalo, the Sun Dance, and the winter counts; the Great Basin peoples and Sarah Winnemucca; the crowded world of Native California; and the missions, the Gold Rush, and the killings now called genocide.",
   pages: [
     {
       title: "The Plains before the Horse",

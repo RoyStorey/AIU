@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The Heian Court, 794–1185",
   summary:
-    "The new capital at Heian-kyō and the esoteric Buddhism of Saichō and Kūkai; the Fujiwara regents and the politics of marriage; the invention of kana and the Kokinshū; the women writers of the court; The Tale of Genji; Pure Land Buddhism and the fear of the End of the Law; and the world of the 'shining prince,' its refinements and its blind spots, as the provinces armed themselves.",
+    "The new capital at Heian-kyō; the Fujiwara regents and the politics of marriage; the invention of kana and the women writers of the court; The Tale of Genji and The Pillow Book; Pure Land Buddhism; and the refinements and blind spots of the court as the provinces armed.",
   pages: [
     {
       title: "Heian-kyō and the New Buddhism",

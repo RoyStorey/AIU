@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "From Confederation to Constitution, 1776–1791",
   summary:
-    "How the victorious states governed themselves: the experiments of the first state constitutions; the Articles of Confederation and their achievements and weaknesses; the troubles of the 1780s and Shays's Rebellion; the Philadelphia Convention and its compromises, including those over slavery; the great debate over ratification; and the Bill of Rights. Was the Constitution the fulfillment of the Revolution, or a reaction against it?",
+    "How the new states governed themselves: the first state constitutions, the Articles of Confederation, and Shays's Rebellion; the Philadelphia Convention and its compromises over slavery; ratification and the Bill of Rights. Did the Constitution fulfill the Revolution, or check it?",
   pages: [
     {
       title: "Making Republics: The State Constitutions",

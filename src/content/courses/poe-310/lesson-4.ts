@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Langston Hughes and the Harlem Renaissance",
   summary:
-    "The tradition of African American poetry from Phillis Wheatley and Paul Laurence Dunbar's “We Wear the Mask,” through W. E. B. Du Bois's “double-consciousness,” to the Harlem Renaissance of the 1920s: Claude McKay's sonnets of defiance, Countee Cullen's “Yet Do I Marvel,” Jean Toomer's Cane, and above all Langston Hughes, who made poetry out of the blues and jazz and answered Whitman with “I, too, sing America”—and the generation of Gwendolyn Brooks that followed.",
+    "African American poetry from Phillis Wheatley and Dunbar's “We Wear the Mask” to the Harlem Renaissance: McKay's sonnets, Cullen's “Yet Do I Marvel,” Toomer's Cane, and above all Langston Hughes, who made poetry of the blues and answered Whitman with “I, too, sing America.”",
   pages: [
     {
       title: "Before Harlem: Wheatley, Dunbar, Du Bois",

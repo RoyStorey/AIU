@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "The Beginnings of Chinese Civilization, to 771 BC",
   summary:
-    "The land of China and its Neolithic peoples; the Shang kings of Anyang, their oracle bones, bronzes, and ancestors; the Zhou conquest and the idea of the Mandate of Heaven; the kinship state of the Western Zhou and its fall; the Book of Songs and the Book of Documents; and how historians weigh legend, text, and archaeology in reconstructing China's earliest past.",
+    "The land of China and its first farmers; the Shang kings, their oracle bones, bronzes, and ancestors; the Zhou conquest and the Mandate of Heaven; the Book of Songs; and how historians weigh legend, text, and archaeology in reconstructing China's earliest past.",
   pages: [
     {
       title: "The Land and Its First Farmers",

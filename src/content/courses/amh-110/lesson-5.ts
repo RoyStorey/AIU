@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Atlantic Slavery and the Making of African America, 1500–1775",
   summary:
-    "The transatlantic slave trade and the societies it built: West Africa and the origins of the trade; its scale and shape; the Middle Passage; the laws that made slavery hereditary and racial; the different slave societies of the Chesapeake, the Lowcountry, the North, and Louisiana; the making of African American culture, family, and faith; and the first voices raised against slavery.",
+    "The transatlantic slave trade and the societies it built: West Africa and the Middle Passage; the laws that made slavery hereditary and racial; the slave societies of the Chesapeake, the Lowcountry, the North, and Louisiana; African American culture and faith; and the first voices against slavery.",
   pages: [
     {
       title: "West Africa and the Origins of the Atlantic Trade",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Homer's Iliad: The Wrath of Achilles",
   summary:
-    "What an epic is, and how the first and greatest one came to be: the oral tradition behind Homer, the dactylic hexameter, and the Iliad's story of a few weeks in the tenth year of the Trojan War—Achilles' quarrel and withdrawal, Hector and Andromache, the death of Patroclus, the death of Hector, and the meeting of Priam and Achilles that ends the poem.",
+    "What an epic is, and how the first one came to be: the oral tradition behind Homer and the hexameter; and the Iliad—Achilles' wrath and withdrawal, Hector and Andromache, the deaths of Patroclus and Hector, and the meeting of Priam and Achilles that ends the poem.",
   pages: [
     {
       title: "What Is an Epic?",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Virginia and the Chesapeake: Tobacco, Servitude, and Slavery, 1607–1705",
   summary:
-    "England's first lasting colony: the near-collapse of Jamestown and its relations with the Powhatan paramount chiefdom; the tobacco boom and the servants who made it; Maryland; Bacon's Rebellion of 1676; and the slow, deliberate making of a slave society in law, from the arrival of the first Africans in 1619 to the slave code of 1705. Why did Virginia, which would later give the republic so many champions of liberty, build its prosperity on slavery?",
+    "England's first lasting colony: Jamestown's near-collapse and its relations with Powhatan's chiefdom; the tobacco boom and its servants; Bacon's Rebellion; and the deliberate making of a slave society in law, from 1619 to 1705. Why did Virginia build its prosperity on slavery?",
   pages: [
     {
       title: "Jamestown: Founding and Survival, 1607–1610",

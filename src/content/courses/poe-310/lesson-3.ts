@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Frost, Stevens, and Williams: American Modernism",
   summary:
-    "Three Americans who stayed home and remade poetry in different ways: Robert Frost, who caught “the sound of sense” of New England speech in traditional meters, from “Mending Wall” to “Stopping by Woods”; Wallace Stevens, insurance executive and poet of the imagination's “supreme fiction”; and William Carlos Williams, New Jersey doctor, who insisted on “no ideas but in things”—with Marianne Moore and Hart Crane.",
+    "Three Americans who remade poetry at home: Robert Frost and “the sound of sense” of New England speech; Wallace Stevens, poet of the imagination's “supreme fiction”; and William Carlos Williams, doctor, with “no ideas but in things”—with Marianne Moore and Hart Crane.",
   pages: [
     {
       title: "American Modernism at Home",

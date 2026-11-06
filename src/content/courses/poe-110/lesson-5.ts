@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Petrarch and the Canzoniere",
   summary:
-    "The poet who gathered the whole lyric tradition and remade it: Petrarch's life between Avignon and Italy, his love for Laura and the laurel, the shape of his “scattered rhymes,” the paradoxes of desire that taught Europe how to write sonnets, the poems after Laura's death, and the Petrarchism that conquered Europe and reached England.",
+    "The poet who gathered the lyric tradition and remade it: Petrarch's life between Avignon and Italy, his love for Laura, his “scattered rhymes,” the paradoxes of desire that taught Europe to write sonnets, the poems after Laura's death, and the Petrarchism that reached England.",
   pages: [
     {
       title: "The Father of Humanism",

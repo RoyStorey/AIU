@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Barnabas, Hermas, and Diognetus: Scripture, Repentance, and the Christian in the World",
   summary:
-    "Barnabas's reading of the Jewish Scriptures; the visions of Hermas and repentance after baptism; the Epistle to Diognetus and the Christian in the world; and the road to the Great Church.",
+    "Barnabas's bold reading of the Jewish Scriptures; the visions of Hermas and the problem of sin after baptism; the Epistle to Diognetus, with Christians as the soul of the world; and how the Apostolic Fathers prepared the way for the Church of Irenaeus.",
   pages: [
     {
       title: "The Epistle of Barnabas: Reading the Scriptures for Knowledge",

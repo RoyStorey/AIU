@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "The First Empires: Qin and Han, 221 BC–AD 220",
   summary:
-    "The Qin unification and the First Emperor's empire; his tomb, his death, and the swift fall of his dynasty; the Han founding and the expansion of Emperor Wu; the making of an imperial Confucianism; Sima Qian and the writing of history; Han society, the Xiongnu, and the Silk Road; and Wang Mang, the Eastern Han, and the collapse of the first great Chinese empire.",
+    "The First Emperor's unification and his dynasty's swift fall; the Han founding and the expansion of Emperor Wu; imperial Confucianism; Sima Qian and the writing of history; the Xiongnu and the Silk Road; and the collapse of the first great Chinese empire.",
   pages: [
     {
       title: "The First Emperor",

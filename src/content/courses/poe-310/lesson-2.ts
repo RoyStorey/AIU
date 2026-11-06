@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Emily Dickinson: \"Tell All the Truth but Tell It Slant\"",
   summary:
-    "The other founder of American poetry: Emily Dickinson of Amherst, who wrote nearly eighteen hundred poems and published about ten. Her hymn meters, dashes, and slant rhymes; her poems of death (“Because I could not stop for Death,” “I heard a Fly buzz”), of inner states (“After great pain,” “There's a certain Slant of light”), of love and power (“Wild nights,” “My Life had stood – a Loaded Gun”), and of nature and God; and the long, strange history of how her poems reached the world.",
+    "The other founder of American poetry: Emily Dickinson of Amherst, who wrote nearly eighteen hundred poems and published about ten. Her hymn meters, dashes, and slant rhymes; her poems of death, pain, love, power, and God; and the strange history of how her poems reached the world.",
   pages: [
     {
       title: "The Woman in White",

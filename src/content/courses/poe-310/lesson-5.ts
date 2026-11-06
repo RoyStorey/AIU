@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Bishop, Lowell, and After: American Poetry Since 1945",
   summary:
-    "American poetry from the end of the Second World War to the present: Elizabeth Bishop's patient, precise art of looking and losing; Robert Lowell and the “confessional” poets, Sylvia Plath and Anne Sexton; the open-form rebellions of Allen Ginsberg, the Beats, and Frank O'Hara; the Black Arts Movement and the many voices that have transformed American poetry since the 1960s; and the poets of our own time.",
+    "American poetry since 1945: Elizabeth Bishop's art of looking and losing; Robert Lowell and the confessional poets, Sylvia Plath and Anne Sexton; Ginsberg, the Beats, and Frank O'Hara; the Black Arts Movement; and the many voices that have transformed American poetry since.",
   pages: [
     {
       title: "After 1945: Two Anthologies",

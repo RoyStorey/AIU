@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Shakespeare's Sonnets",
   summary:
-    "The greatest sonnet sequence in English: the mysterious book of 1609, the young man and the procreation sonnets, poetry's war against Time, the dramas of love, absence, and betrayal, the paradoxes of Sonnet 116, the Dark Lady and the sonnets of lust and self-deception, and the long argument over whether Shakespeare “unlocked his heart.”",
+    "The greatest sonnet sequence in English: the mysterious book of 1609; the young man and poetry's war against Time; love, absence, and betrayal; Sonnet 116; the Dark Lady and the sonnets of lust; and the long argument over whether Shakespeare “unlocked his heart.”",
   pages: [
     {
       title: "The Book of 1609",

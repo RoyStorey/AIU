@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Sidney, Pope, and Johnson: Nature and the Rules",
   summary:
-    "The English answer to Plato and the age of “Nature methodized”: Sidney's Defence of Poesy, which makes the poet a maker of a “golden world” who moves readers to virtue; Dryden's praise of Shakespeare's “largest and most comprehensive soul”; Pope's Essay on Criticism, in which the rules of the ancients are “Nature still, but Nature methodized”; and Samuel Johnson, the greatest English critic, who asked the poet to paint “general nature” and not “number the streaks of the tulip.”",
+    "The English answer to Plato and the age of “Nature methodized”: Sidney's Defence of Poesy and its “golden world”; Dryden on Shakespeare; Pope's Essay on Criticism; and Samuel Johnson, who asked the poet to paint “general nature” and not “number the streaks of the tulip.”",
   pages: [
     {
       title: "The Defence of Poesy",

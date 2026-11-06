@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The War, 1861–1865",
   summary:
-    "The military and civilian history of the Civil War: the resources and strategies of the two sides; the battles of 1861–62 from Bull Run to Antietam; the soldiers' war and the work of death; the turning points of 1863; the home fronts, North and South; Grant, Sherman, and the campaigns of 1864–65; Appomattox and the assassination of Lincoln; and the long argument over why the Union won.",
+    "The Civil War on the battlefield and the home front: the strategies of both sides; the battles from Bull Run to Antietam and the turning points of 1863; the soldiers' war; the campaigns of Grant and Sherman; Appomattox and Lincoln's assassination; and why the Union won.",
   pages: [
     {
       title: "Two Societies at War",

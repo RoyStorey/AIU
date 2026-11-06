@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Byron and Shelley: Rebels in Exile",
   summary:
-    "The younger Romantics who carried revolution into poetry: Lord Byron, celebrity, exile, and creator of the Byronic hero, from Childe Harold and his lyrics to the comic epic Don Juan; and Percy Bysshe Shelley, radical idealist, poet of the West Wind and the skylark, of political prophecy and the “unacknowledged legislators of the world.”",
+    "The younger Romantics who carried revolution into poetry: Byron, celebrity and exile, from Childe Harold to the comic epic Don Juan; and Shelley, radical idealist, poet of the West Wind and the skylark, of prophecy and the “unacknowledged legislators of the world.”",
   pages: [
     {
       title: "The Second Generation",

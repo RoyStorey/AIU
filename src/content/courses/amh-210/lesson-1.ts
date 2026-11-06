@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "The Road to Disunion, 1848–1861",
   summary:
-    "How the question of slavery in the West destroyed the second party system and broke the Union: the Compromise of 1850 and the Fugitive Slave Act; Uncle Tom's Cabin; the Kansas-Nebraska Act, Bleeding Kansas, and the rise of the Republicans; the Dred Scott decision; Lincoln and Douglas; John Brown's raid; the election of 1860; and secession and Fort Sumter.",
+    "How the question of slavery in the West broke the Union: the Compromise of 1850 and the Fugitive Slave Act; Uncle Tom's Cabin; Bleeding Kansas and the rise of the Republicans; Dred Scott; Lincoln and Douglas; John Brown's raid; the election of 1860; and secession.",
   pages: [
     {
       title: "The Compromise of 1850",

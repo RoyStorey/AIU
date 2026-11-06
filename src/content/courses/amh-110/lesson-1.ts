@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Native North America and the Columbian Encounter, to 1600",
   summary:
-    "The peoples of North America before 1492; the Europe and Africa that sent ships across the Atlantic; Columbus and the Columbian Exchange of plants, animals, and diseases; the Spanish conquest of Mexico and Peru and the debate it provoked; Spanish, French, and English ventures in North America from Florida and New Mexico to Roanoke; and how historians have learned to see the encounter from both sides.",
+    "Native North America before 1492; Columbus and the exchange of plants, animals, and diseases that followed; the Spanish conquests of Mexico and Peru and the debate they provoked; and the first Spanish, French, and English ventures in North America, from Florida to Roanoke.",
   pages: [
     {
       title: "Native North America before 1492",

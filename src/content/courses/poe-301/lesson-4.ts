@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "W. B. Yeats: The Tower and the Gyre",
   summary:
-    "The greatest poet of the century's first half, who remade himself more than once: Yeats's Celtic twilight and “Innisfree,” his love poems to Maud Gonne, the Irish revolution in “Easter, 1916,” the apocalyptic vision of “The Second Coming,” and the great poems of age and art in The Tower—“Sailing to Byzantium” and “Among School Children.”",
+    "The century's greatest poet in English, who remade himself more than once: Yeats's Celtic twilight and “Innisfree,” his poems to Maud Gonne, “Easter, 1916,” “The Second Coming,” and the great poems of age and art, “Sailing to Byzantium” and “Among School Children.”",
   pages: [
     {
       title: "Yeats and Ireland",

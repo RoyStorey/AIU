@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Christina Rossetti and Gerard Manley Hopkins: Poets of Faith",
   summary:
-    "Two poets who answered the Victorian crisis of faith with devotion: the Pre-Raphaelite circle and Christina Rossetti's lyrics of renunciation, longing, and joy, and her strange masterpiece Goblin Market; and Gerard Manley Hopkins, Jesuit priest, whose “inscape” and “sprung rhythm” made a new music for praise in “The Windhover” and “Pied Beauty,” and for despair in the “terrible sonnets.”",
+    "Two poets who answered the Victorian crisis of faith with devotion: Christina Rossetti, poet of renunciation, longing, and joy, and of Goblin Market; and Gerard Manley Hopkins, whose “inscape” and “sprung rhythm” made new music for praise and for the “terrible sonnets.”",
   pages: [
     {
       title: "Two Poets of Faith",

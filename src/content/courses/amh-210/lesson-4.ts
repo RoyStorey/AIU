@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Reconstruction: The Second Founding, 1865–1870",
   summary:
-    "The struggle to define freedom and rebuild the Union: what freedpeople sought; Andrew Johnson's lenient Reconstruction and the Black Codes; the Freedmen's Bureau; Congress's Reconstruction, the Fourteenth Amendment, and the impeachment of Johnson; the biracial governments of the South and their achievements; land, labor, and the rise of sharecropping; families, churches, and schools; and the Fifteenth Amendment and the split it caused in the movement for women's rights.",
+    "The struggle to define freedom and rebuild the Union: what freedpeople sought; Johnson's lenient plan and the Black Codes; Congress's Reconstruction and the Fourteenth Amendment; the biracial governments of the South; land, labor, and sharecropping; and the Fifteenth Amendment.",
   pages: [
     {
       title: "What Freedom Meant",

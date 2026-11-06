@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "The Southwest: Desert Farmers and the Pueblo Revolt, to 1700",
   summary:
-    "The Hohokam canals, the great houses of Chaco, and the migrations from Mesa Verde; Coronado and the Spanish conquest; the Diné and Apache; and the Pueblo Revolt of 1680.",
+    "The farmers and builders of the desert: the Hohokam canals, the great houses and roads of Chaco Canyon, and the cliff dwellings of Mesa Verde and the migrations that followed; Coronado and Spanish New Mexico; the Diné and Apache; and the Pueblo Revolt of 1680, which drove the Spanish out.",
   pages: [
     {
       title: "Farmers of the Desert: The Hohokam",

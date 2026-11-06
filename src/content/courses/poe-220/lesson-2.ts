@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Homer's Odyssey: The Man of Many Turns",
   summary:
-    "The epic of homecoming: Odysseus's ten-year journey from Troy to Ithaca, told in flashback at the court of the Phaeacians; the Cyclops, Circe, and the land of the dead, where Achilles repudiates the glory he died for; Telemachus and Penelope in the besieged house; and the great recognitions—the dog Argos, the scar, the bow, and the bed.",
+    "The epic of homecoming: Odysseus's ten-year journey from Troy to Ithaca; the Cyclops, Circe, and the land of the dead; Telemachus and Penelope in the besieged house; and the great recognitions—the dog Argos, the scar, the bow, and the bed.",
   pages: [
     {
       title: "The Poem of Homecoming",

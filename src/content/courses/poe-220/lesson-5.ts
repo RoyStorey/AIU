@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Milton's Paradise Lost: Things Unattempted Yet",
   summary:
-    "The last great epic in the classical tradition: John Milton, revolutionary, pamphleteer, and blind poet, sets out to “justify the ways of God to men.” Satan in Hell and his magnificent speeches; the invocation to light; Adam and Eve in Eden; the Fall in Book 9, where Milton claims a subject “more heroic” than Homer's or Virgil's; and the ending, as the first humans walk out, hand in hand, into the world.",
+    "The last great classical epic: blind Milton sets out to “justify the ways of God to men.” Satan and his magnificent speeches; the invocation to light; Adam and Eve in Eden; the Fall in Book 9; and the ending, as the first humans walk out, hand in hand, into the world.",
   pages: [
     {
       title: "Milton: Poet and Revolutionary",

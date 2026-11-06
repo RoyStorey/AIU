@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Arnold, Eliot, and After: Reading in the Modern Age",
   summary:
-    "The modern argument about poetry: Matthew Arnold's hope that poetry would replace religion, and his “touchstones”; T. S. Eliot's doctrine of impersonality; I. A. Richards's experiments in practical criticism and William Empson's ambiguities; the New Criticism of Brooks, Ransom, and Wimsatt, and MacLeish's “A poem should not mean / But be”; the theories that challenged them, from structuralism to reader-response and feminist criticism; modern defenses of poetry; and your own poetics.",
+    "The modern argument about poetry: Arnold's hope that poetry would replace religion; Eliot's impersonality; Richards, Empson, and the New Criticism; MacLeish's “A poem should not mean / But be”; the theories that challenged them; modern defenses of poetry; and your own poetics.",
   pages: [
     {
       title: "Arnold: The Criticism of Life",

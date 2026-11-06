@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Slavery, Abolition, and Expansion, 1820–1848",
   summary:
-    "The making of the Cotton Kingdom and the domestic slave trade; life and resistance under slavery; Nat Turner's revolt and the proslavery argument; the abolitionists, Black and white, and the violence they met; Texas, Oregon, and Manifest Destiny; the war with Mexico; and the Wilmot Proviso, which made the question of slavery in the West the question that would break the Union.",
+    "The Cotton Kingdom and the domestic slave trade; life and resistance under slavery; Nat Turner and the proslavery argument; the abolitionists and the violence they met; Texas, Oregon, and the war with Mexico; and the Wilmot Proviso, which raised the question that would break the Union.",
   pages: [
     {
       title: "The Cotton Kingdom",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "New England: Covenant, Dissent, and War, 1620–1692",
   summary:
-    "The Puritan colonies of New England: the Pilgrims of Plymouth and their Wampanoag allies; John Winthrop's Massachusetts Bay and its covenanted towns; the dissenters Roger Williams and Anne Hutchinson; the Pequot War and King Philip's War, the bloodiest conflict in colonial New England; family, community, and the Puritan economy; and the crisis of the 1680s and 1690s that ended in the witch trials at Salem.",
+    "The Puritan colonies: the Pilgrims and their Wampanoag allies, Winthrop's Massachusetts Bay, and the dissenters Roger Williams and Anne Hutchinson; the Pequot War and King Philip's War; family and faith in the covenanted towns; and the crisis that ended at Salem.",
   pages: [
     {
       title: "Puritans and Pilgrims",

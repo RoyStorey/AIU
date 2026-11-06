@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Horace and Longinus: Craft and the Sublime",
   summary:
-    "Two Roman-era answers to the question of what makes poetry great: Horace's Ars Poetica, the witty verse letter that taught Europe for two thousand years about unity, decorum, craft, and the double aim of poetry “to teach and delight”; and the treatise On the Sublime, which located greatness instead in the “echo of a great soul,” the power to transport the reader out of herself—and which preserved Sappho's greatest poem.",
+    "Two answers to what makes poetry great: Horace's Ars Poetica, which taught Europe unity, decorum, craft, and poetry's aim “to teach and delight”; and Longinus's On the Sublime, which found greatness in “the echo of a great soul” and preserved Sappho's greatest poem.",
   pages: [
     {
       title: "Horace's Art of Poetry",

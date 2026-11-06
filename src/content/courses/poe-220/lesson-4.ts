@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Dante's Divine Comedy: The Journey of the Soul",
   summary:
-    "The epic becomes a journey through the afterlife: Dante Alighieri, exiled Florentine and lover of Beatrice, guided by Virgil through Hell and Purgatory and by Beatrice into Paradise; Francesca and Ulysses, the architecture of sin and the mountain of love, the moment Virgil vanishes, and the final vision of “the Love that moves the sun and the other stars.”",
+    "The epic as a journey through the afterlife: Dante, led by Virgil through Hell and Purgatory and by Beatrice into Paradise; Francesca and Ulysses, the mountain of love, and the final vision of “the Love that moves the sun and the other stars.”",
   pages: [
     {
       title: "Dante and the Comedy",

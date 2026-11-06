@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Polycarp, the Martyrs, and Papias: Memory and Witness in Asia",
   summary:
-    "Polycarp of Smyrna, his letter, and the first quarrel over Easter; the account of his martyrdom; why Rome persecuted Christians; and Papias's traditions about the Gospels.",
+    "Polycarp of Smyrna, his letter, and the first quarrel over the date of Easter; the account of his death in the stadium, the earliest of its kind; why Rome persecuted Christians, from Pliny's letter to Trajan; and Papias's traditions about the Gospels.",
   pages: [
     {
       title: "Polycarp of Smyrna",

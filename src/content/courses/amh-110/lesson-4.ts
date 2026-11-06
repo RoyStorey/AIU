@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Rival Empires and New Colonies, 1608–1740",
   summary:
-    "North America as a continent of competing empires and Native powers: New France and its Native alliances; Dutch New Netherland and its conquest as New York; William Penn's Quaker experiment in Pennsylvania; Carolina, the colony of a colony, and its trade in Native slaves; the Pueblo Revolt of 1680 in Spanish New Mexico; Georgia and the imperial frontier; and the wars that set the empires against one another.",
+    "A continent of rival empires and Native powers: New France and its alliances; New Netherland and its conquest as New York; Penn's Quaker Pennsylvania; Carolina and its trade in Native slaves; the Pueblo Revolt; Georgia; and the wars that set the empires against one another.",
   pages: [
     {
       title: "New France: An Empire of Alliances",

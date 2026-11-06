@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "The Overthrow of Reconstruction and the Memory of the War",
   summary:
-    "How Reconstruction was destroyed and how the war was remembered: the Ku Klux Klan and the federal response; the North's retreat amid scandal and depression; the violent 'redemption' of the Southern states; the Supreme Court's narrowing of the Reconstruction amendments; the disputed election of 1876; what Reconstruction left behind; and the long struggle over memory, from the Lost Cause and the Dunning School to Du Bois, Foner, and the monuments.",
+    "How Reconstruction was destroyed: the Ku Klux Klan, the North's retreat, the violent “redemption” of the South, the Supreme Court, and the election of 1876; what Reconstruction left behind; and the struggle over the war's memory, from the Lost Cause to Du Bois and the monuments.",
   pages: [
     {
       title: "Terror: The Ku Klux Klan",

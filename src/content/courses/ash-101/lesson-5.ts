@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Mongols, Ming, and Manchus, 1206–1800",
   summary:
-    "The Mongol conquest and the Yuan dynasty; the Ming founder and the autocratic state he built; Zheng He's voyages and the Ming world order; the silver, commerce, and culture of the late Ming; the Jesuits, the fall of the Ming, and the Manchu conquest; the High Qing empire of Kangxi, Yongzheng, and Qianlong; and the Macartney embassy and the debate over China's place in the world on the eve of the modern age.",
+    "The Mongol conquest and the Yuan; the autocratic Ming state, Zheng He's voyages, and the silver and culture of the late Ming; the Jesuits and the Manchu conquest; the High Qing of Kangxi and Qianlong; and the Macartney embassy and China's place in the world.",
   pages: [
     {
       title: "The Mongol Conquest and the Yuan Dynasty",

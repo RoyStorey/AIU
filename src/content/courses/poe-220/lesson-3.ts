@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Virgil's Aeneid: Arms and the Man",
   summary:
-    "The Roman epic that rewrote Homer for an empire: Virgil and the age of Augustus; Aeneas, the Trojan refugee bound by pietas to found a new Troy in Italy; the fall of Troy, the tragedy of Dido, the descent to the underworld, and the war in Latium that ends with the killing of Turnus; and the long debate over whether the poem celebrates Rome or mourns what Rome cost.",
+    "The Roman epic that rewrote Homer for an empire: Virgil and Augustus; Aeneas, bound by pietas to found a new Troy; the fall of Troy, the tragedy of Dido, the underworld, and the killing of Turnus; and the debate over whether the poem celebrates Rome or mourns its cost.",
   pages: [
     {
       title: "Virgil and Augustus",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The Age of the Philosophers, 770–221 BC",
   summary:
-    "The breakdown of Zhou order in the Spring and Autumn and Warring States periods; Confucius and the Analects; Mozi's challenge and Mencius's defense of human goodness; the Daoist alternative of Laozi and Zhuangzi; Xunzi, Shang Yang, and Han Fei on human nature, law, and power; strategy and cosmology; and how modern scholars, aided by newly excavated manuscripts, have rethought the 'Hundred Schools.'",
+    "The Warring States and the Hundred Schools: Confucius and the Analects; Mozi and Mencius; the Daoism of Laozi and Zhuangzi; Xunzi, Shang Yang, and Han Fei on human nature, law, and power; and how newly excavated manuscripts have changed what we know.",
   pages: [
     {
       title: "A World of Warring States",

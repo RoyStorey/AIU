@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Independence, 1775–1776",
   summary:
-    "From the first shots at Lexington to the Declaration of Independence: how a war fought for the rights of Englishmen became a war for independence; the Second Continental Congress and the Continental Army; Lord Dunmore's offer of freedom to enslaved Virginians; Thomas Paine's Common Sense; the decision for independence; and a close reading of the Declaration and its long afterlife.",
+    "How a war for the rights of Englishmen became a war for independence: Lexington and Concord, the Continental Congress and Army, Lord Dunmore's offer of freedom to the enslaved, Paine's Common Sense, and a close reading of the Declaration and its long afterlife.",
   pages: [
     {
       title: "Lexington and Concord, April 1775",

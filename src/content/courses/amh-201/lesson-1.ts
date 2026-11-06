@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Launching the Republic, 1789–1801",
   summary:
-    "The Federalist decade: Washington's new government and its precedents; Hamilton's financial program and the constitutional quarrel over the Bank; the rise of the first parties; the French Revolution, the Whiskey Rebellion, the war for the Ohio country, and the Jay Treaty; Washington's Farewell; John Adams, the Quasi-War, and the Alien and Sedition Acts; and the election of 1800, which Jefferson called a revolution.",
+    "The Federalist decade: Washington's government and its precedents; Hamilton's financial program and the fight over the Bank; the first parties; the Whiskey Rebellion and the Jay Treaty; Adams, the Quasi-War, and the Alien and Sedition Acts; and the election Jefferson called a revolution.",
   pages: [
     {
       title: "A New Government",

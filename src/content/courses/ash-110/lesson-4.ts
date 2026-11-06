@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Ashikaga, Warring States, and the Unifiers, 1333–1600",
   summary:
-    "Go-Daigo's failed restoration and the age of the two courts; the Ashikaga shōguns and the culture of Muromachi—Noh, Zen, ink painting, gardens, and tea; the Ōnin War and the Warring States, when 'the low overthrew the high'; the coming of the Portuguese, guns, and Christianity; and the three unifiers, Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu, who brought a century of war to an end at Sekigahara.",
+    "The Ashikaga shōguns and the culture of Noh, Zen, ink painting, and tea; the Ōnin War and the century of the Warring States; the coming of the Portuguese, guns, and Christianity; and the three unifiers—Nobunaga, Hideyoshi, and Ieyasu—who ended the wars at Sekigahara.",
   pages: [
     {
       title: "Go-Daigo, the Ashikaga, and the Two Courts",

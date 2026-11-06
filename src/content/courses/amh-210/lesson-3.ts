@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Emancipation, 1861–1865",
   summary:
-    "How a war for the Union became a war for freedom: the enslaved who fled to Union lines and forced the question; Lincoln's path from compensated emancipation and colonization to the Emancipation Proclamation; the 180,000 Black soldiers who fought for the Union and for their own freedom; the debate over who freed the slaves; the Thirteenth Amendment; and the meanings of freedom, from Gettysburg to the Second Inaugural.",
+    "How a war for the Union became a war for freedom: the enslaved who fled to Union lines; Lincoln's road to the Emancipation Proclamation; the 180,000 Black soldiers; the debate over who freed the slaves; the Thirteenth Amendment; and freedom's meaning from Gettysburg to the Second Inaugural.",
   pages: [
     {
       title: "Contrabands: The Enslaved Force the Question",

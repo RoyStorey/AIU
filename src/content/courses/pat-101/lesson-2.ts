@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Clement of Rome: Order, Concord, and the Apostles' Successors",
   summary:
-    "The church of Rome and its letter to Corinth: jealousy and the deaths of Peter and Paul, order in creation and the church, the claim of apostolic succession, and the oldest Christian sermon.",
+    "The church of Rome writes to a divided Corinth: jealousy and the deaths of Peter and Paul, the harmony of creation, and the first claim of apostolic succession, with the long argument over what it means; a prayer for the empire; and 2 Clement, the oldest Christian sermon.",
   pages: [
     {
       title: "The Church in Rome",

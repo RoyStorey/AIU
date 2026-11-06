@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "The Romantic Revolution: Feeling, Imagination, and the Poet",
   summary:
-    "How the Romantics turned the theory of poetry from the mirror to the lamp: Wordsworth's Preface to Lyrical Ballads, with its “real language of men,” its “spontaneous overflow of powerful feelings,” and its poet as “a man speaking to men”; Coleridge's imagination, “willing suspension of disbelief,” and organic form; Shelley's Defence of Poetry and its “unacknowledged legislators”; and Hazlitt and Keats on the poet who has no self.",
+    "How the Romantics turned poetry's theory from the mirror to the lamp: Wordsworth's “spontaneous overflow of powerful feelings” and “real language of men”; Coleridge on imagination and the “willing suspension of disbelief”; Shelley's Defence of Poetry; and Keats's poet who has no self.",
   pages: [
     {
       title: "From Mirror to Lamp",

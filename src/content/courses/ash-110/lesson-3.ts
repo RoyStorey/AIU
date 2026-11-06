@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "The Rise of the Warrior: Kamakura Japan, 1180–1333",
   summary:
-    "The Genpei War between the Taira and the Minamoto; Minamoto no Yoritomo and the founding of the Kamakura shogunate; the Hōjō regents, the Jōkyū War, and warrior law; the Mongol invasions of 1274 and 1281; The Tale of the Heike and An Account of My Hut; the new Buddhism of Hōnen, Shinran, Nichiren, and Zen; and the fall of Kamakura.",
+    "The Genpei War and the founding of the Kamakura shogunate; the Hōjō regents and warrior law; the Mongol invasions of 1274 and 1281; The Tale of the Heike; the new Buddhism of Hōnen, Shinran, Nichiren, and Zen; and the fall of Kamakura.",
   pages: [
     {
       title: "The Genpei War",

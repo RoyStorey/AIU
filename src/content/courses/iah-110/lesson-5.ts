@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "The Northwest Coast, the Plateau, and the North",
   summary:
-    "The salmon-and-cedar world of the Northwest Coast and the potlatch; the earthquake of 1700 remembered in oral tradition; Celilo Falls and the Plateau; the Inuit and the Norse; and Native nations today.",
+    "The salmon-and-cedar world of the Northwest Coast, the potlatch, and the totem pole; the earthquake of 1700 remembered in oral tradition; Celilo Falls and the Plateau treaties; the Inuit, their ancestors, and the Norse; the northern forests; and Native nations today.",
   pages: [
     {
       title: "Salmon and Cedar: The Northwest Coast",

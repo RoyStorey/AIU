@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Hardy, Housman, and the Poets of the Great War",
   summary:
-    "Poetry at the turn of the century and in the trenches: Thomas Hardy's stoic, ironic lyrics, from “The Darkling Thrush” to the elegies for his wife; A. E. Housman's Shropshire Lad; and the poets of the First World War, from Rupert Brooke's idealism to the bitter witness of Siegfried Sassoon and Wilfred Owen—“My subject is War, and the pity of War”—and the quieter genius of Isaac Rosenberg and Edward Thomas.",
+    "Poetry at the turn of the century and in the trenches: Hardy's ironic lyrics and elegies; Housman's Shropshire Lad; and the poets of the First World War, from Brooke's idealism to the witness of Sassoon and Owen—“My subject is War, and the pity of War.”",
   pages: [
     {
       title: "Thomas Hardy: From Novels to Poems",

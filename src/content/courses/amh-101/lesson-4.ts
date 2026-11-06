@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "The War for Independence, 1776–1783",
   summary:
-    "Eight years of war: the near-disaster of 1776 and the victories at Trenton and Princeton; Saratoga and the French alliance; the soldiers, militia, women, and civilians who sustained the struggle; the civil war between patriots and loyalists and the British campaign in the South; Yorktown and the Treaty of Paris; and the war's meaning for loyalists, the enslaved, Native nations, and women.",
+    "Eight years of war, from the near-disaster of 1776 to Saratoga, the French alliance, the civil war with the loyalists, and Yorktown; the soldiers, women, and civilians who sustained it; and what the war meant for loyalists, the enslaved, and Native nations.",
   pages: [
     {
       title: "The Campaign of 1776: Defeat and Recovery",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The Imperial Crisis, 1763–1774",
   summary:
-    "Eleven years from the Sugar Act to the First Continental Congress: Britain's attempts to tax and govern its colonies, and the colonists' escalating resistance through petitions, boycotts, crowds, and committees; the constitutional argument over representation and sovereignty; the Boston Massacre and the Boston Tea Party; and the Coercive Acts that united the colonies against Parliament.",
+    "From the Sugar Act to the First Continental Congress: Britain's efforts to tax and govern its colonies, and the colonists' escalating resistance; the argument over representation; the Boston Massacre and the Tea Party; and the Coercive Acts that united the colonies.",
   pages: [
     {
       title: "Grenville's Program: Sugar and Stamps, 1763–1765",

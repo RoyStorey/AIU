@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "The Ancient Quarrel: Plato and Aristotle",
   summary:
-    "Where the argument about poetry begins: Plato's Ion, in which the poet is a “light and winged and holy thing” possessed by the Muse, and his Republic, which banishes the poets from the ideal city as imitators “thrice removed from the truth”; and Aristotle's Poetics, the first work of literary theory, which answers Plato with a defense of imitation, a definition of tragedy and catharsis, and the claim that poetry is “more philosophical” than history.",
+    "Where the argument about poetry begins: Plato's Ion, with the poet as a “light and winged and holy thing,” and his Republic, which banishes the poets; and Aristotle's Poetics, with its defense of imitation, its theory of tragedy and catharsis, and poetry “more philosophical” than history.",
   pages: [
     {
       title: "What Is Poetry For?",

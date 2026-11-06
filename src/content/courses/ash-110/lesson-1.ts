@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Islands, Kami, and the Making of a State, to 794",
   summary:
-    "The Japanese islands and their first peoples, from the Jōmon hunters to the Yayoi rice farmers and the builders of the great keyhole tombs; Queen Himiko in the Chinese chronicles; the arrival of Buddhism and the age of Prince Shōtoku; the Taika reforms and the Chinese-style state of laws; Nara, its Great Buddha, and its poets; and how the Kojiki and Nihon shoki made a sacred history for the imperial house.",
+    "The Jōmon and Yayoi peoples and the great keyhole tombs; Queen Himiko in the Chinese chronicles; the coming of Buddhism and Prince Shōtoku; the Taika reforms and the Chinese-style state; Nara and its Great Buddha; and the sacred history of the Kojiki and Nihon shoki.",
   pages: [
     {
       title: "The Islands and Their First Peoples",

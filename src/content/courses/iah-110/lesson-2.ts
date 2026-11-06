@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The Eastern Woodlands: Cahokia, the Mississippians, and the League of Peace, 800–1600",
   summary:
-    "Cahokia and the Mississippian world; de Soto's invasion and the new nations of the South; the Haudenosaunee League and its clan mothers; the Algonquian peoples; and the first encounters with Europeans on the Atlantic shore.",
+    "Cahokia, the greatest town north of Mexico, and the Mississippian world; de Soto's invasion and the nations that rose from the wreck of the South; the Haudenosaunee League, the Peacemaker, and the clan mothers; the Algonquian peoples; and the first encounters with Europeans.",
   pages: [
     {
       title: "Cahokia: The Great Town",

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "The Fathers, the First Christians, and the Didache",
   summary:
-    "What Patristics is and who counts as a Father; how the Apostolic Fathers were collected; the world of the first Christians; and the Didache, a lost church manual found in 1873.",
+    "What Patristics is, and who counts as a Father of the Church; how scholars gathered the writings called the Apostolic Fathers; the world of the first Christians in the Roman Empire; and the Didache, a manual of church life lost for a thousand years and found in 1873.",
   pages: [
     {
       title: "The Fathers of the Church",

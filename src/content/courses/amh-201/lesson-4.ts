@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Jacksonian Democracy and Indian Removal, 1824–1844",
   summary:
-    "The age of Andrew Jackson: the expansion of white male suffrage and the rise of mass parties; the 'corrupt bargain' of 1824 and the campaign of 1828; Jackson himself and the spoils system; the removal of the Cherokees and other Native nations; the nullification crisis; the Bank War, the rise of the Whigs, and the Panic of 1837; the log-cabin campaign of 1840; and the long debate over what 'Jacksonian democracy' meant and whom it excluded.",
+    "The age of Andrew Jackson: the rise of mass parties and white male democracy; the spoils system; the removal of the Cherokees and other Native nations; nullification; the Bank War and the Panic of 1837; and the debate over what “Jacksonian democracy” meant and whom it excluded.",
   pages: [
     {
       title: "The Rise of Democratic Politics",

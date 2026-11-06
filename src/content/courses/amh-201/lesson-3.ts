@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "The Market Revolution and the Age of Reform, 1815–1848",
   summary:
-    "How Americans' lives were transformed between the War of 1812 and the Mexican War: canals, steamboats, railroads, and the telegraph; the market revolution and the first factories; immigration, cities, class, and the middle-class family; the Second Great Awakening; the crusades for temperance, asylums, schools, and utopia; the first women's rights movement; and Tocqueville's portrait of a democratic society.",
+    "How Americans' lives were transformed after 1815: canals, railroads, and the telegraph; the market revolution and the first factories; immigration, class, and the middle-class family; the Second Great Awakening and the crusades for reform; and the first women's rights movement.",
   pages: [
     {
       title: "The Transportation Revolution",

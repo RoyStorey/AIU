@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "The Tokugawa Peace, 1600–1853",
   summary:
-    "The Tokugawa settlement of shōgun, daimyō, and emperor; the status order of samurai, villagers, and townspeople; the suppression of Christianity and the managed foreign relations long misnamed 'the closed country'; cities, merchants, and the floating world of kabuki and the woodblock print; Bashō and the art of haiku; Confucian, National, and Dutch learning; and the strains of the late Tokugawa order on the eve of Commodore Perry's arrival.",
+    "The Tokugawa order of shōgun, daimyō, and emperor; samurai, villagers, and townspeople; the ban on Christianity and the so-called closed country; cities, kabuki, and the woodblock print; Bashō and haiku; Confucian, National, and Dutch learning; and the strains before Perry arrived.",
   pages: [
     {
       title: "The Tokugawa Settlement",
