@@ -192,6 +192,88 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "PAT 101": {
+    1: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Perhaps seven or eight thousand Christians in AD 100, and some two hundred thousand by 200.",
+        note: "These are Rodney Stark's estimates in The Rise of Christianity (1996), projected from an assumed growth rate rather than counted. Other scholars give different figures; the lesson presents them as a guess.",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "The Didache dates from the late first or early second century.",
+        note: "Most scholars place it between about 70 and 120, but some put parts of it as early as the 50s and others well into the second century. As a composite document, its layers may have different dates.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The second-century shrine under St. Peter's Basilica marks the grave of Peter.",
+        note: "The excavations of the 1940s found the shrine (probably the “trophy” Gaius mentions around 200) above a poor grave. Whether the grave, or the bones later associated with it, were Peter's is debated. The lesson says the question is still open.",
+      },
+      {
+        page: 2, kind: "disputed",
+        claim: "1 Clement was written around AD 96.",
+        note: "The traditional date rests partly on reading the letter's “sudden and repeated misfortunes” as a persecution under Domitian, for which the evidence is weak. Laurence Welborn and others allow a range from about 80 to 140.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Paul reached “the limits of the West,” perhaps Spain.",
+        note: "1 Clement 5.7 does not name a place. Spain is a common reading, in light of Romans 15:24; others think a writer in Rome meant Rome itself. The lesson gives both.",
+      },
+    ],
+    3: [
+      {
+        page: 1, kind: "disputed",
+        claim: "Ignatius died around 110, under Trajan.",
+        note: "The date comes from Eusebius, who had no firm evidence. Most scholars place the letters between about 105 and 135; Timothy Barnes argued for the 140s.",
+      },
+      {
+        page: 2, kind: "disputed",
+        claim: "The seven letters of the middle recension are genuine.",
+        note: "This is the consensus established by Zahn and Lightfoot. Robert Joly, Josep Rius-Camps, and Reinhard Hübner have argued that the middle recension is a later forgery or reworking; few scholars have been persuaded.",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "disputed",
+        claim: "Polycarp knew the apostle John.",
+        note: "Irenaeus, who heard Polycarp as a boy, says so. Some scholars think the John in question was “John the Elder,” whom Papias distinguishes from the apostle.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "When Polycarp was stabbed, “a dove and a great quantity of blood” came out.",
+        note: "The dove is missing from Eusebius's version of the text, and many scholars think it is a later addition or a corruption of the Greek. The lesson says so.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "Polycarp died on February 22 or 23, 155 or 156.",
+        note: "This date is worked out from the proconsul's name and the account's own dating. Eusebius placed the martyrdom around 167, and a few scholars follow him. Candida Moss has argued that the account as we have it may be as late as the third century.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "Papias: Mark was Peter's interpreter, and Matthew collected the oracles in Hebrew.",
+        note: "These are the earliest traditions about the Gospels, but their reliability is debated. Our Matthew was written in Greek and depends on Mark, so Papias's remark may refer to a different collection or be mistaken.",
+      },
+    ],
+    5: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "The Epistle of Barnabas was written in Alexandria, before about 135.",
+        note: "The date rests on reading chapter 16 as a reference to Hadrian's plans for Jerusalem; the place on its allegorical method and early popularity in Alexandria. Neither is certain.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Hermas was a freedman who had been sold to a woman named Rhoda.",
+        note: "This is what the Shepherd says, but whether its opening is autobiography or literary invention is debated, and many scholars think the book was composed over a long period, perhaps by more than one author.",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "The Muratorian Fragment is a Roman list of the late second century.",
+        note: "This has been the usual view. Albert Sundberg and Geoffrey Hahneman argued that it is a fourth-century list from the East. The lesson presents both.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
