@@ -1,5 +1,4 @@
 import type { CourseContent } from "@/lib/schema";
-import { aal101 } from "./aal-101";
 import { editorial } from "./editorial";
 import { amh101 } from "./amh-101";
 import { amh110 } from "./amh-110";
@@ -7,11 +6,8 @@ import { amh201 } from "./amh-201";
 import { amh210 } from "./amh-210";
 import { ash101 } from "./ash-101";
 import { ash110 } from "./ash-110";
-import { bib101 } from "./bib-101";
 import { iah110 } from "./iah-110";
 import { euh301 } from "./euh-301";
-import { lat101 } from "./lat-101";
-import { lin101 } from "./lin-101";
 import { meh101 } from "./meh-101";
 import { pat101 } from "./pat-101";
 import { poe101 } from "./poe-101";
@@ -24,18 +20,14 @@ import { poe310 } from "./poe-310";
 import { poe401 } from "./poe-401";
 
 const written: Record<string, CourseContent> = {
-  "AAL 101": aal101,
   "AMH 101": amh101,
   "AMH 110": amh110,
   "AMH 201": amh201,
   "AMH 210": amh210,
   "ASH 101": ash101,
   "ASH 110": ash110,
-  "BIB 101": bib101,
   "IAH 110": iah110,
   "EUH 301": euh301,
-  "LAT 101": lat101,
-  "LIN 101": lin101,
   "MEH 101": meh101,
   "PAT 101": pat101,
   "POE 101": poe101,
@@ -47,6 +39,14 @@ const written: Record<string, CourseContent> = {
   "POE 310": poe310,
   "POE 401": poe401,
 };
+
+/**
+ * Courses once published in a shorter form and taken down to be rewritten to
+ * the full standard. On every boot their stored lessons are cleared, so they
+ * show as in preparation. Remove a course from this list when its new version
+ * is added to `written`.
+ */
+export const withdrawnCourses = new Set(["AAL 101", "BIB 101", "LAT 101", "LIN 101"]);
 
 /** Joins each lesson to the editors' notes on it. */
 function withEditorial(code: string, course: CourseContent): CourseContent {

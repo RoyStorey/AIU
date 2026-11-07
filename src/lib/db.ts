@@ -4,7 +4,7 @@ import { mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { catalogue } from "@/content/catalogue";
 import { capstones } from "@/content/capstones";
-import { authoredCourses } from "@/content/courses";
+import { authoredCourses, withdrawnCourses } from "@/content/courses";
 import { seedDemo } from "@/content/demo";
 import { Capstone, CourseContent } from "@/lib/schema";
 
@@ -267,6 +267,10 @@ function seed(db: Database.Database) {
       status = CASE WHEN excluded.content IS NOT NULL THEN 'ready' ELSE courses.status END
   `);
 
+  const withdraw = db.prepare(`
+    UPDATE courses SET content = NULL, status = 'outline', error = NULL WHERE code = ? AND origin = 'seed'
+  `);
+
   db.exec("BEGIN");
   try {
     catalogue.forEach((subject, s) => {
@@ -284,6 +288,7 @@ function seed(db: Database.Database) {
         concentration.courses.forEach((course, position) => {
           const authored = authoredCourses[course.code];
           if (authored) checkAuthored(course.code, authored);
+          if (!authored && withdrawnCourses.has(course.code)) withdraw.run(course.code);
           upsertCourse.run(
             slugify(course.code), id, course.code, course.title, course.stage,
             position, course.summary, JSON.stringify(course.texts),
