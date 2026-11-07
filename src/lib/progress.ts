@@ -87,7 +87,7 @@ export function enrollments(userId: number): Enrollment[] {
       lessonsDone: courses.reduce((sum, c) => sum + c.completed, 0),
       coursesDone,
       complete: courses.length > 0 && coursesDone === courses.length,
-      next: courses.find((c) => !c.done) ?? null,
+      next: courses.find((c) => !c.done && c.lessons > 0) ?? courses.find((c) => !c.done) ?? null,
     };
   });
 }

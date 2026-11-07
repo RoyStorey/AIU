@@ -5,11 +5,11 @@ import { prepareCourse } from "@/app/actions";
 import { CourseHeader } from "@/components/CourseHeader";
 import { Submit } from "@/components/Forms";
 import { Markdown } from "@/components/Markdown";
-import { Preparing } from "@/components/Preparing";
-import { currentUser } from "@/lib/auth";
+import { Preparing, Quill } from "@/components/Preparing";
+import { currentUser, isAdmin } from "@/lib/auth";
 import { Obtain } from "@/components/Obtain";
 import { bookKey, parseText, sourcesFor } from "@/lib/books";
-import { getCourse } from "@/lib/catalogue";
+import { getCourse, isOpen, listCourses } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { lessonScores } from "@/lib/progress";
 import { toRoman, type PlannedLesson } from "@/lib/schema";
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return { title: course ? `${course.code} ${course.title}` : "Not found" };
 }
 
-function Outline({ course, signedIn }: { course: NonNullable<ReturnType<typeof getCourse>>; signedIn: boolean }) {
+function Outline({ course, admin }: { course: NonNullable<ReturnType<typeof getCourse>>; admin: boolean }) {
   if (course.status === "drafting") {
     return (
       <Preparing title="This course is being prepared">
@@ -33,34 +33,47 @@ function Outline({ course, signedIn }: { course: NonNullable<ReturnType<typeof g
       </Preparing>
     );
   }
+  const elsewhere = listCourses(course.concentration_id).filter((c) => c.id !== course.id && isOpen(c));
   return (
     <div className="program-layout">
-      <div className="measure">
-        <h2 style={{ fontSize: "1.85rem", marginBottom: "1rem" }}>Core Texts</h2>
-        <CoreTexts texts={course.texts} />
+      <div>
+        <section className="in-preparation" aria-labelledby="in-prep-title">
+          <Quill />
+          <p className="eyebrow">In preparation</p>
+          <h2 id="in-prep-title">This course is being written</h2>
+          <p>
+            The faculty is writing its lectures, source readings, and knowledge checks. It will open here when it is
+            finished, held to the standard of the rest of the program: five lessons of about two hours each.
+          </p>
+          <p className="muted">Until then, the core texts below are the best way to begin.</p>
+          {admin && forgeAvailable() && (
+            <form action={prepareCourse.bind(null, course.id)} className="in-preparation-admin">
+              {course.status === "failed" && <p className="muted">The forge was interrupted: {course.error}</p>}
+              <Submit pending="Requesting…">{course.status === "failed" ? "Try the forge again" : "Draft it with the forge"}</Submit>
+              <p className="muted"><small>Shown to administrators only.</small></p>
+            </form>
+          )}
+        </section>
+        <h2 style={{ fontSize: "1.85rem", margin: "3rem 0 1rem" }}>Core Texts</h2>
+        <div className="measure"><CoreTexts texts={course.texts} /></div>
       </div>
       <aside className="aside">
         <div className="aside-block">
-          {course.status === "failed" && (
-            <>
-              <h3>Preparation was interrupted</h3>
-              <p className="muted">{course.error}</p>
-            </>
-          )}
-          {course.status !== "failed" && <h3>This course is in outline</h3>}
-          <p>
-            Its lectures, readings, recordings, reference shelf, and knowledge checks are prepared the first time a
-            student opens it.
-          </p>
-          {!forgeAvailable() ? (
-            <p className="muted">Preparing courses requires the forge to be configured with an Anthropic API key.</p>
-          ) : signedIn ? (
-            <form action={prepareCourse.bind(null, course.id)}>
-              <Submit pending="Requesting…">{course.status === "failed" ? "Try again" : "Prepare this course"}</Submit>
-            </form>
+          <h3>Open now in {course.concentration.name}</h3>
+          {elsewhere.length ? (
+            <ul className="open-now">
+              {elsewhere.map((c) => (
+                <li key={c.id}>
+                  <Link href={`/courses/${c.id}`}><span className="code">{c.code}</span> {c.title}</Link>
+                </li>
+              ))}
+            </ul>
           ) : (
-            <Link className="button" href={`/signup?next=/courses/${course.id}`}>Matriculate to begin</Link>
+            <p className="muted">The first courses of this program are still being written.</p>
           )}
+          <p style={{ marginTop: "1rem" }}>
+            <Link href={`/faculties/${course.subject.slug}/${course.concentration.slug}`}>The whole program →</Link>
+          </p>
         </div>
       </aside>
     </div>
@@ -139,7 +152,7 @@ export default async function CoursePage({ params }: Params) {
     return (
       <div className="wrap">
         <CourseHeader course={course} active={null} />
-        <Outline course={course} signedIn={!!user} />
+        <Outline course={course} admin={isAdmin(user)} />
       </div>
     );
   }

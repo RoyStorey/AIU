@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { listConcentrations, listSubjects } from "@/lib/catalogue";
+import { availability, listConcentrations, listSubjects } from "@/lib/catalogue";
 import { toRoman } from "@/lib/schema";
 
 export const metadata: Metadata = { title: "The Faculties" };
@@ -34,7 +34,7 @@ export default function Faculties() {
                 <h3>{c.name}</h3>
                 <p>{c.description}</p>
                 <div className="card-foot">
-                  <span>{c.status === "drafting" ? "Being drafted" : `${c.courses} courses`}</span>
+                  <span>{c.status === "drafting" ? "Being drafted" : availability(c)}</span>
                   <span>View program →</span>
                 </div>
               </Link>

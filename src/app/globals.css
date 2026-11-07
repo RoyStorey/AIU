@@ -1150,3 +1150,24 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
   .np-progress-line span, .prose > .is-narrating { transition: none; }
 }
 @media print { .np-bar, .np-sheet, .np-scrim, .np-from, .listen-row { display: none !important; } }
+
+/* Courses still being written: an unhurried notice rather than an error. */
+.mark.in-prep { color: var(--muted); font-style: italic; display: inline-flex; align-items: center; gap: 0.35rem; }
+.mark-quill { width: 1.05em; height: 1.05em; flex: none; color: var(--accent); opacity: 0.75; }
+.course-row.is-preparing h3 { color: var(--ink-soft); }
+.course-row.is-preparing p { color: var(--muted); }
+.course-row.is-preparing:hover h3 { color: var(--accent); }
+.in-preparation {
+  text-align: center; padding: 3rem 1.5rem 2.5rem; border: 1px solid var(--rule);
+  background: var(--paper-raised); max-width: 44rem;
+}
+.in-preparation .quill { width: 2.75rem; height: 2.75rem; color: var(--accent); margin-bottom: 0.75rem; animation: none; }
+.in-preparation .eyebrow { margin-bottom: 0.35rem; }
+.in-preparation h2 { font-size: 1.9rem; margin-bottom: 0.9rem; }
+.in-preparation p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto 0.85rem; }
+.in-preparation p.muted { color: var(--muted); }
+.in-preparation-admin { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.open-now { list-style: none; padding: 0; margin: 0.5rem 0 0; }
+.open-now li { padding: 0.4rem 0; border-bottom: 1px solid var(--rule); }
+.open-now li:last-child { border-bottom: 0; }
+.open-now .code { font-variant-caps: all-small-caps; letter-spacing: 0.08em; color: var(--muted); margin-right: 0.35rem; }

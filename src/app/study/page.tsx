@@ -79,6 +79,7 @@ export default async function Study() {
                   <p>
                     Next course: <Link href={`/courses/${next.id}`}>{next.code} {next.title}</Link>
                     {next.completed > 0 && <span className="muted"> — {next.completed} of {next.lessons + next.planned} lessons complete</span>}
+                    {next.lessons === 0 && <span className="muted"> — in preparation</span>}
                   </p>
                 ) : null}
                 <form action={withdrawFrom.bind(null, concentration.id)}>

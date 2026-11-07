@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ProposeForm } from "@/components/Forms";
 import { currentUser } from "@/lib/auth";
-import { getSubject, listConcentrations } from "@/lib/catalogue";
+import { availability, getSubject, listConcentrations } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 
 type Params = { params: Promise<{ subject: string }> };
@@ -48,7 +48,7 @@ export default async function SubjectPage({ params }: Params) {
               <p>{c.description}</p>
               <div className="card-foot">
                 <span>
-                  {c.status === "drafting" ? "Being drafted" : c.status === "failed" ? "Drafting interrupted" : `${c.courses} courses`}
+                  {c.status === "drafting" ? "Being drafted" : c.status === "failed" ? "Drafting interrupted" : availability(c)}
                 </span>
                 <span>View program →</span>
               </div>

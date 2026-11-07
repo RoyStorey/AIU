@@ -9,7 +9,8 @@ import { capstoneFor, mastersOf } from "@/lib/capstone";
 import { Preparing } from "@/components/Preparing";
 import { AutoRefresh } from "@/components/AutoRefresh";
 import { currentUser } from "@/lib/auth";
-import { getConcentration, getSubject } from "@/lib/catalogue";
+import { getConcentration, getSubject, isOpen } from "@/lib/catalogue";
+import { Quill } from "@/components/Preparing";
 import { forgeAvailable } from "@/lib/forge";
 import { studentsOf } from "@/lib/people";
 import { continuationStatus, isEnrolled, programStanding, standing, type CourseStanding } from "@/lib/progress";
@@ -26,7 +27,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 function Standing({ course, enrolled }: { course: CourseStanding; enrolled: boolean }) {
   const total = course.lessons + course.planned;
   if (course.status === "drafting") return <span className="mark progress">Being prepared</span>;
-  if (!enrolled) return <span className="mark pending">{total ? `${total} lessons` : "Outline"}</span>;
+  if (!isOpen(course)) return <span className="mark in-prep"><Quill className="mark-quill" />In preparation</span>;
+  if (!enrolled) {
+    return <span className="mark pending">{course.planned ? `${course.lessons} of ${total} lessons open` : `${total} lessons`}</span>;
+  }
   if (course.done) return <span className="mark done">Completed</span>;
   if (course.completed > 0) return <span className="mark progress">{course.completed} of {total} lessons</span>;
   return <span className="mark pending">Not begun</span>;
@@ -44,7 +48,7 @@ export default async function ProgramPage({ params }: Params) {
   const stages = [...new Set(courses.map((c) => c.stage))].sort((a, b) => a - b);
   const done = courses.filter((c) => c.done).length;
   const complete = enrolled && courses.length > 0 && done === courses.length;
-  const next = courses.find((c) => !c.done);
+  const next = courses.find((c) => !c.done && isOpen(c)) ?? courses.find((c) => !c.done);
   const continuation = continuationStatus(concentration.id);
   const coursesDrafting = courses.some((c) => c.status === "drafting") && continuation?.status !== "drafting";
   const base = `/faculties/${subject.slug}/${concentration.slug}`;
@@ -89,7 +93,7 @@ export default async function ProgramPage({ params }: Params) {
                   <h2>{stageName(stage)}</h2>
                 </div>
                 {courses.filter((c) => c.stage === stage).map((course) => (
-                  <Link key={course.id} href={`/courses/${course.id}`} className="course-row">
+                  <Link key={course.id} href={`/courses/${course.id}`} className={isOpen(course) || course.status === "drafting" ? "course-row" : "course-row is-preparing"}>
                     <span className="code">{course.code}</span>
                     <div>
                       <h3>{course.title}</h3>

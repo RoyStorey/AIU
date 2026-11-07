@@ -76,11 +76,29 @@ export function getSubject(slug: string): Subject | null {
   return (row as unknown as Subject) ?? null;
 }
 
-export function listConcentrations(subjectSlug: string): (Concentration & { courses: number })[] {
+/** A concentration with how many courses it has, and how many of them are open to study. */
+export type ConcentrationSummary = Concentration & { courses: number; open: number };
+
+export function listConcentrations(subjectSlug: string): ConcentrationSummary[] {
   return db.prepare(`
-    SELECT c.*, (SELECT COUNT(*) FROM courses k WHERE k.concentration_id = c.id) AS courses
+    SELECT c.*,
+      (SELECT COUNT(*) FROM courses k WHERE k.concentration_id = c.id) AS courses,
+      (SELECT COUNT(*) FROM courses k WHERE k.concentration_id = c.id
+        AND COALESCE(json_array_length(k.content, '$.lessons'), 0) > 0) AS open
     FROM concentrations c WHERE c.subject_slug = ? ORDER BY c.position, c.id
-  `).all(subjectSlug) as unknown as (Concentration & { courses: number })[];
+  `).all(subjectSlug) as unknown as ConcentrationSummary[];
+}
+
+/** How a program's courses stand: "7 courses", "3 of 7 courses open", or "In preparation". */
+export function availability(c: { courses: number; open: number }): string {
+  if (c.courses > 0 && c.open === 0) return "In preparation";
+  if (c.open < c.courses) return `${c.open} of ${c.courses} courses open`;
+  return `${c.courses} courses`;
+}
+
+/** A course is open once at least one of its lessons is written. */
+export function isOpen(course: { lessons: number }): boolean {
+  return course.lessons > 0;
 }
 
 export function getConcentration(subjectSlug: string, slug: string): Concentration | null {
