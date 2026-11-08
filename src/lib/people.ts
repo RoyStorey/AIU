@@ -30,8 +30,8 @@ export function canView(student: Student, viewer: User | null): boolean {
   return student.visibility === "public" || viewer?.id === student.id;
 }
 
-export function updateProfile(userId: number, bio: string, visibility: "public" | "private") {
-  db.prepare("UPDATE users SET bio = ?, visibility = ? WHERE id = ?").run(bio, visibility, userId);
+export function updateProfile(userId: number, name: string, bio: string, visibility: "public" | "private") {
+  db.prepare("UPDATE users SET name = ?, bio = ?, visibility = ? WHERE id = ?").run(name, bio, visibility, userId);
 }
 
 /** Faculty may answer and settle correction reports. They are named in AIU_FACULTY_EMAILS; administrators count too. */

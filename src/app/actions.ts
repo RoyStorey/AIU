@@ -3,8 +3,11 @@
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
-import { currentUser, endSession, hashPassword, isAdmin, requireUser, startSession, verifyPassword } from "@/lib/auth";
-import { deleteAccounts as removeAccounts } from "@/lib/admin";
+import { checkPassword, currentUser, endOtherSessions, endSession, hashPassword, isAdmin, requireUser, setPassword, startSession, verifyPassword } from "@/lib/auth";
+import {
+  clearBio, deleteAccounts as removeAccounts, mayManage, removeAnyPost, resetCourse, setVisibility,
+  signOutEverywhere, temporaryPassword, updateAccount, withdrawStudent,
+} from "@/lib/admin";
 import { getConcentrationById, getCourse, getSubject, search } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { PASSING, enroll, recordLesson, standing, withdraw } from "@/lib/progress";
@@ -212,12 +215,26 @@ export async function submitEssay(_: FormState, form: FormData): Promise<FormSta
 
 export async function updateProfile(_: FormState, form: FormData): Promise<FormState> {
   const user = await requireUser("/study");
+  const name = text(form, "name");
   const bio = text(form, "bio");
+  if (!name) return { error: "Please give your name." };
+  if (name.length > 80) return { error: "Please keep your name under 80 characters." };
   if (bio.length > 1200) return { error: "Please keep your introduction under 1,200 characters." };
-  storeProfile(user.id, bio, form.get("visibility") === "private" ? "private" : "public");
-  revalidatePath(`/students/${user.id}`);
-  revalidatePath("/study");
+  storeProfile(user.id, name, bio, form.get("visibility") === "private" ? "private" : "public");
+  revalidatePath("/", "layout");
   return { notice: "Your profile has been saved." };
+}
+
+export async function changePassword(_: FormState, form: FormData): Promise<FormState> {
+  const user = await requireUser("/study");
+  const current = String(form.get("current") ?? "");
+  const next = String(form.get("password") ?? "");
+  if (!checkPassword(user.id, current)) return { error: "Your current password is not correct." };
+  if (next.length < 8) return { error: "Your new password must be at least eight characters." };
+  if (next !== String(form.get("confirm") ?? "")) return { error: "The two new passwords do not match." };
+  setPassword(user.id, next);
+  await endOtherSessions(user.id, true);
+  return { notice: "Your password has been changed. Any other devices have been signed out.", nonce: Date.now() };
 }
 
 // ——— Comments and corrections ———
@@ -362,4 +379,80 @@ export async function deleteAccounts(_: FormState, form: FormData): Promise<Form
     notice: `Deleted ${removed} ${removed === 1 ? "account" : "accounts"}.${skipped ? ` ${skipped} could not be deleted (your own account and administrators are protected).` : ""}`,
     nonce: Date.now(),
   };
+}
+
+/** The administrator making a change, and whether they may change this account. */
+async function managing(id: number) {
+  const by = await requireUser("/admin");
+  return isAdmin(by) && mayManage(by, id) ? by : null;
+}
+
+const accountPath = (id: number) => `/admin/accounts/${id}`;
+
+export async function adminUpdateAccount(id: number, _: FormState, form: FormData): Promise<FormState> {
+  if (!(await managing(id))) return { error: "You may not change this account." };
+  const error = updateAccount(id, text(form, "name"), text(form, "email").toLowerCase());
+  if (error) return { error };
+  revalidatePath(accountPath(id));
+  revalidatePath("/admin");
+  return { notice: "Saved." };
+}
+
+export async function adminResetPassword(id: number, _: FormState, form: FormData): Promise<FormState> {
+  if (!(await managing(id))) return { error: "You may not change this account." };
+  const chosen = String(form.get("password") ?? "").trim();
+  if (chosen && chosen.length < 8) return { error: "A password must be at least eight characters." };
+  const password = chosen || temporaryPassword();
+  setPassword(id, password);
+  signOutEverywhere(id);
+  revalidatePath(accountPath(id));
+  return {
+    notice: `The new password is ${password}. Give it to the student privately; they have been signed out everywhere and can change it on their Account page.`,
+    nonce: Date.now(),
+  };
+}
+
+export async function adminSignOut(id: number) {
+  if (!(await managing(id))) return;
+  signOutEverywhere(id);
+  revalidatePath(accountPath(id));
+}
+
+export async function adminSetVisibility(id: number, visibility: "public" | "private") {
+  if (!(await managing(id))) return;
+  setVisibility(id, visibility);
+  revalidatePath(accountPath(id));
+}
+
+export async function adminClearBio(id: number) {
+  if (!(await managing(id))) return;
+  clearBio(id);
+  revalidatePath(accountPath(id));
+}
+
+export async function adminWithdraw(id: number, concentrationId: number) {
+  if (!(await managing(id))) return;
+  withdrawStudent(id, concentrationId);
+  revalidatePath(accountPath(id));
+}
+
+export async function adminResetCourse(id: number, courseId: string) {
+  if (!(await managing(id))) return;
+  resetCourse(id, courseId);
+  revalidatePath(accountPath(id));
+}
+
+export async function adminDeleteAccount(id: number) {
+  const by = await managing(id);
+  if (!by) return;
+  removeAccounts([id], by);
+  revalidatePath("/admin");
+  redirect("/admin");
+}
+
+export async function adminDeletePost(id: number) {
+  const by = await requireUser("/admin/commons");
+  if (!isAdmin(by)) return;
+  removeAnyPost(id);
+  revalidatePath("/admin/commons");
 }

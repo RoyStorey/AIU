@@ -1191,6 +1191,11 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
 .dash { padding-bottom: 4rem; }
 .dash-head { padding: clamp(2.5rem, 6vw, 4rem) 0 1.75rem; }
 .dash-head h1 { font-size: clamp(2.3rem, 5.5vw, 3.4rem); margin-top: 0.35rem; }
+.dash-continue { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.75rem; margin: 0.9rem 0 0; font-size: 1.08rem; }
+.dash-continue a { font-style: italic; }
+.dash-continue a::after { content: " →"; font-style: normal; }
+.dash-continue .muted { font-size: 0.97rem; }
+.dash-continue-label { font-variant-caps: all-small-caps; letter-spacing: 0.1em; color: var(--gold); }
 .dash-resume {
   display: flex; align-items: center; justify-content: space-between; gap: 1.5rem 2.5rem; flex-wrap: wrap;
   padding: 1.75rem 2rem; background: var(--paper-raised); border: 1px solid var(--rule);
@@ -1314,3 +1319,24 @@ button.pace-row:hover { border-color: var(--rule-strong); }
 .account-programs li { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 0.85rem 0; border-bottom: 1px solid var(--rule); }
 .account-programs form { margin: 0; }
 .account-programs .link-button { font-size: 0.95rem; color: var(--muted); }
+
+/* ——— Administration: one account, and the Commons ——— */
+.admin-h { font-size: 1.35rem; margin: 0 0 0.75rem; }
+.admin-account { display: grid; grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr)); gap: 2.25rem 3rem; margin: 1rem 0 4rem; }
+.admin-account section { min-width: 0; }
+.admin-account h2 { font-size: 1.45rem; margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule-strong); }
+.admin-account form { margin: 0; display: inline; }
+.admin-account .field + .field { margin-top: 0.25rem; }
+.admin-account section > form:not(:has(.field)) { display: inline-block; }
+.admin-account .account-programs { border-top: 0; }
+.admin-bio { margin: 0.5rem 0 0.75rem; padding-left: 1rem; border-left: 2px solid var(--rule-strong); color: var(--ink-soft); font-style: italic; }
+.admin-password { font-variant-numeric: lining-nums; }
+.admin-danger { grid-column: 1 / -1; padding: 1.25rem 1.5rem; border: 1px solid color-mix(in srgb, var(--danger) 35%, var(--rule)); }
+.admin-danger h2 { border-bottom: 0; padding-bottom: 0; color: var(--danger); }
+.admin-posts { list-style: none; margin: 2rem 0 4rem; padding: 0; border-top: 1px solid var(--rule-strong); max-width: 52rem; }
+.admin-posts li { padding: 1rem 0; border-bottom: 1px solid var(--rule); }
+.admin-post-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.admin-post-head form { margin: 0; }
+.admin-post-title { margin: 0.25rem 0 0.35rem; }
+.admin-post-body { margin: 0; color: var(--ink-soft); font-size: 0.98rem; white-space: pre-line; }
+.account-programs .link-button { white-space: nowrap; }

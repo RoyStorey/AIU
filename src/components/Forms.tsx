@@ -3,7 +3,7 @@
 import { useActionState, useState } from "react";
 import { useFormStatus } from "react-dom";
 import {
-  inquire, proposeConcentration, replyToThread, reportCorrection, saveNote, signIn, signUp,
+  changePassword, inquire, proposeConcentration, replyToThread, reportCorrection, saveNote, signIn, signUp,
   startThread, submitCapstone, submitEssay, updateProfile, type FormState,
 } from "@/app/actions";
 
@@ -137,11 +137,15 @@ export function EssayForm({ courseId, lessonIndex, draft, minWords, revising }: 
   );
 }
 
-export function ProfileForm({ bio, visibility }: { bio: string; visibility: "public" | "private" }) {
+export function ProfileForm({ name, bio, visibility }: { name: string; bio: string; visibility: "public" | "private" }) {
   const [state, action] = useActionState(updateProfile, undefined);
   return (
     <form action={action}>
       <ErrorNote state={state} />
+      <div className="field">
+        <label htmlFor="profile-name">Name</label>
+        <input id="profile-name" name="name" type="text" required maxLength={80} autoComplete="name" defaultValue={name} />
+      </div>
       <div className="field">
         <label htmlFor="bio">A few words about yourself <span className="muted">(shown on your profile)</span></label>
         <textarea id="bio" name="bio" rows={4} maxLength={1200} defaultValue={bio}
@@ -153,6 +157,28 @@ export function ProfileForm({ bio, visibility }: { bio: string; visibility: "pub
         <label><input type="radio" name="visibility" value="private" defaultChecked={visibility === "private"} /> Only you</label>
       </fieldset>
       <Submit pending="Saving…">Save profile</Submit>
+    </form>
+  );
+}
+
+export function PasswordForm() {
+  const [state, action] = useActionState(changePassword, undefined);
+  return (
+    <form action={action} key={state?.nonce}>
+      <ErrorNote state={state} />
+      <div className="field">
+        <label htmlFor="pw-current">Current password</label>
+        <input id="pw-current" name="current" type="password" required autoComplete="current-password" />
+      </div>
+      <div className="field">
+        <label htmlFor="pw-new">New password <span className="muted">(at least eight characters)</span></label>
+        <input id="pw-new" name="password" type="password" required minLength={8} autoComplete="new-password" />
+      </div>
+      <div className="field">
+        <label htmlFor="pw-confirm">New password again</label>
+        <input id="pw-confirm" name="confirm" type="password" required minLength={8} autoComplete="new-password" />
+      </div>
+      <Submit pending="Changing…">Change password</Submit>
     </form>
   );
 }

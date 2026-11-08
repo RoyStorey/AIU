@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { signOut, withdrawFrom } from "@/app/actions";
-import { ProfileForm } from "@/components/Forms";
+import { PasswordForm, ProfileForm } from "@/components/Forms";
 import { ThemePicker } from "@/components/ThemePicker";
 import { requireUser } from "@/lib/auth";
 import { getStudent } from "@/lib/people";
@@ -41,7 +41,15 @@ export default async function Account() {
           <h2>Profile</h2>
           <span className="eyebrow"><Link href={`/students/${user.id}`}>View it</Link></span>
         </div>
-        <div className="measure"><ProfileForm bio={profile.bio} visibility={profile.visibility} /></div>
+        <div className="measure"><ProfileForm name={user.name} bio={profile.bio} visibility={profile.visibility} /></div>
+      </section>
+
+      <section className="section" id="password">
+        <div className="section-head">
+          <h2>Password</h2>
+          <span className="eyebrow">Signed in as {user.email}</span>
+        </div>
+        <div className="measure"><PasswordForm /></div>
       </section>
 
       <section className="section" id="programs">

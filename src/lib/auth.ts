@@ -60,6 +60,23 @@ export async function endSession() {
   jar.delete(COOKIE);
 }
 
+/** Signs a user out everywhere except, if given, the session in use now. */
+export async function endOtherSessions(userId: number, keepCurrent: boolean) {
+  const token = keepCurrent ? (await cookies()).get(COOKIE)?.value ?? "" : "";
+  db.prepare("DELETE FROM sessions WHERE user_id = ? AND token != ?").run(userId, token);
+}
+
+/** Sets a new password for a user. */
+export function setPassword(userId: number, password: string) {
+  db.prepare("UPDATE users SET password_hash = ? WHERE id = ?").run(hashPassword(password), userId);
+}
+
+/** Whether a password is the user's current one. */
+export function checkPassword(userId: number, password: string): boolean {
+  const row = db.prepare("SELECT password_hash FROM users WHERE id = ?").get(userId) as { password_hash: string } | undefined;
+  return !!row && verifyPassword(password, row.password_hash);
+}
+
 export const currentUser = cache(async (): Promise<User | null> => {
   const token = (await cookies()).get(COOKIE)?.value;
   if (!token) return null;

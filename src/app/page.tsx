@@ -133,29 +133,19 @@ function Dashboard({ user }: { user: User }) {
       <header className="dash-head">
         <p className="eyebrow">{today}</p>
         <h1>{begunEver(user) ? "Welcome back" : "Welcome"}, {first}.</h1>
+        {d.resume ? (
+          <p className="dash-continue">
+            <span className="dash-continue-label">Continue reading</span>
+            <Link href={d.resume.href}>{d.resume.pageTitle}</Link>
+            <span className="muted">{d.resume.code} {d.resume.title} · Lesson {d.resume.lesson}, page {d.resume.page} of {d.resume.pages}</span>
+          </p>
+        ) : (
+          <p className="dash-continue">
+            <span className="muted">Declare a concentration and begin a course; your place will be kept here.</span>{" "}
+            <Link href="/faculties">Browse the faculties →</Link>
+          </p>
+        )}
       </header>
-
-      {d.resume ? (
-        <section className="dash-resume" aria-labelledby="resume-title">
-          <div>
-            <span className="eyebrow">Pick up where you left off</span>
-            <h2 id="resume-title">{d.resume.pageTitle}</h2>
-            <p className="muted">
-              {d.resume.code} {d.resume.title} · Lesson {d.resume.lesson}, {d.resume.lessonTitle} · Page {d.resume.page} of {d.resume.pages}
-            </p>
-          </div>
-          <Link className="button" href={d.resume.href}>Continue reading</Link>
-        </section>
-      ) : (
-        <section className="dash-resume" aria-labelledby="resume-title">
-          <div>
-            <span className="eyebrow">Welcome to Cornerstone</span>
-            <h2 id="resume-title">Choose a course and begin</h2>
-            <p className="muted">Your reading, progress, and plans will gather here.</p>
-          </div>
-          <Link className="button" href="/faculties">Browse the faculties</Link>
-        </section>
-      )}
 
       {begun && (
         <dl className="dash-stats">
@@ -189,9 +179,7 @@ function Dashboard({ user }: { user: User }) {
               {d.assignments.map((a) => (
                 <li key={a.href}>
                   <Link href={a.href}>
-                    <span className={`upnext-kind kind-${a.kind}`}>
-                      {a.kind === "lesson" ? "Lesson" : a.kind === "exercise" ? "Writing" : "Capstone"}
-                    </span>
+                    <span className={`upnext-kind kind-${a.kind}`}>{a.kind === "lesson" ? "Lesson" : "Capstone"}</span>
                     <span className="upnext-title">{a.title}</span>
                     <span className="upnext-detail">{a.detail}</span>
                   </Link>

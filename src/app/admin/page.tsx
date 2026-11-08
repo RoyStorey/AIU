@@ -2,7 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { AccountsTable, type AccountRow } from "@/components/AccountsTable";
-import { accounts, daysSince } from "@/lib/admin";
+import { AdminNav } from "@/components/AdminForms";
+import { accounts, daysSince, siteStats } from "@/lib/admin";
 import { currentUser, isAdmin } from "@/lib/auth";
 
 export const metadata: Metadata = { title: "Administration" };
@@ -47,6 +48,7 @@ export default async function Admin({ searchParams }: Search) {
 
   const count = (days: number) => all.filter((a) => a.idleDays >= days).length;
   const neverStudied = all.filter((a) => a.lessons === 0 && a.posts === 0 && a.declared === 0 && a.capstones === 0).length;
+  const site = siteStats();
 
   return (
     <div className="wrap">
@@ -54,11 +56,23 @@ export default async function Admin({ searchParams }: Search) {
         <p className="eyebrow">Administration</p>
         <h1>Accounts</h1>
         <p className="lede">
-          Every account, with when it was last active and what it has done. Select accounts no longer in use and
-          delete them. “Last active” is the latest of signing in, opening a page, and anything written or completed.
+          Every account, with when it was last active and what it has done. Open an account to change its name or
+          email, reset its password, sign it out, or manage its programs and progress.
         </p>
       </header>
+      <AdminNav active="accounts" />
 
+      <h2 className="admin-h">The academy</h2>
+      <dl className="admin-stats">
+        <div><dt>Lessons completed</dt><dd>{site.lessons}</dd></div>
+        <div><dt>In the last 30 days</dt><dd>{site.lessons30}</dd></div>
+        <div><dt>Essays submitted</dt><dd>{site.essays}</dd></div>
+        <div><dt>Courses open</dt><dd>{site.openCourses} <span className="muted" style={{ fontSize: "1rem" }}>of {site.allCourses}</span></dd></div>
+        <div><dt>Posts, 30 days</dt><dd>{site.posts30}</dd></div>
+        <div><dt>Open reports</dt><dd>{site.openReports > 0 ? <Link href="/corrections">{site.openReports}</Link> : 0}</dd></div>
+      </dl>
+
+      <h2 className="admin-h">Students</h2>
       <dl className="admin-stats">
         <div><dt>Accounts</dt><dd>{all.length}</dd></div>
         <div><dt>Active in 30 days</dt><dd>{all.length - count(30)}</dd></div>

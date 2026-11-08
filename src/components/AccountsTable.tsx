@@ -103,7 +103,7 @@ export function AccountsTable({ rows }: { rows: AccountRow[] }) {
                     />
                   </td>
                   <th scope="row">
-                    <Link href={`/students/${r.id}`}>{r.name}</Link>
+                    <Link href={r.you ? "/study" : `/admin/accounts/${r.id}`}>{r.name}</Link>
                     {r.you && <span className="flag">you</span>}
                     {r.admin && !r.you && <span className="flag">admin</span>}
                     {r.demo && <span className="demo-tag">sample</span>}

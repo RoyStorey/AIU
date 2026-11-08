@@ -43,7 +43,7 @@ export type ActiveCourse = {
 /** Each pace's plan for the active courses: lessons set on study days, and each course's finishing day. */
 export type Plans = Record<PaceId, { sessions: Session[]; finish: (string | null)[] }>;
 
-export type Assignment = { kind: "lesson" | "exercise" | "capstone"; href: string; title: string; detail: string };
+export type Assignment = { kind: "lesson" | "capstone"; href: string; title: string; detail: string };
 
 export type Stats = { lessons: number; minutes: number; coursesDone: number; weeks: number };
 
@@ -77,12 +77,22 @@ function weeksInARow(userId: number): number {
   return n;
 }
 
+/**
+ * Everything on a student's dashboard. Plans, reading, and what comes next
+ * are drawn only from the concentrations the student has declared, so
+ * browsing other courses leaves no trace here; the totals count all their work.
+ */
 export function dashboard(userId: number): Dashboard {
   const pace = preferredPace(userId);
+  const declared = new Set((db.prepare("SELECT concentration_id AS id FROM enrollments WHERE user_id = ?")
+    .all(userId) as { id: number }[]).map((r) => r.id));
 
   const resumes: Resume[] = [];
-  for (const v of recentVisits(userId, 4)) {
-    const lesson = getCourse(v.course_id)?.content?.lessons[v.lesson_index];
+  for (const v of recentVisits(userId, 12)) {
+    if (resumes.length >= 4) break;
+    const course = getCourse(v.course_id);
+    if (!course || !declared.has(course.concentration_id)) continue;
+    const lesson = course.content?.lessons[v.lesson_index];
     const page = lesson?.pages[v.page_index];
     if (!lesson || !page) continue;
     resumes.push({
@@ -100,12 +110,8 @@ export function dashboard(userId: number): Dashboard {
     ) GROUP BY course_id ORDER BY at DESC
   `).all(userId, userId) as { course_id: string }[]).map((r) => r.course_id);
 
-  const written = new Set((db.prepare("SELECT course_id, lesson_index FROM essays WHERE user_id = ?")
-    .all(userId) as { course_id: string; lesson_index: number }[]).map((e) => `${e.course_id}:${e.lesson_index}`));
-
   const stats: Stats = { lessons: 0, minutes: 0, coursesDone: 0, weeks: weeksInARow(userId) };
   const active: ActiveCourse[] = [];
-  const exercises: Assignment[] = [];
 
   for (const id of courseIds) {
     const course = getCourse(id);
@@ -121,18 +127,7 @@ export function dashboard(userId: number): Dashboard {
     stats.minutes += minutes.reduce((sum, m, i) => sum + (done[i] ? m : 0), 0);
     if (completed === content.lessons.length && planned === 0) stats.coursesDone++;
 
-    content.lessons.forEach((lesson, i) => {
-      if (done[i] && lesson.reflection && !written.has(`${id}:${i}`)) {
-        exercises.push({
-          kind: "exercise",
-          href: `/courses/${id}/lessons/${i + 1}/exercises`,
-          title: `Written exercise: ${lesson.title}`,
-          detail: `${course.code}, Lesson ${i + 1}`,
-        });
-      }
-    });
-
-    if (completed < content.lessons.length) {
+    if (completed < content.lessons.length && declared.has(course.concentration_id)) {
       const nextIndex = done.indexOf(false);
       const averageMinutes = minutes.reduce((a, b) => a + b, 0) / minutes.length;
       active.push({
@@ -152,7 +147,7 @@ export function dashboard(userId: number): Dashboard {
   }));
 
   const capstones: Assignment[] = standings(userId)
-    .filter((s) => s.level === "expert")
+    .filter((s) => s.level === "expert" && s.declared)
     .map((s) => ({
       kind: "capstone",
       href: `/faculties/${s.concentration.subject_slug}/${s.concentration.slug}/capstone`,
@@ -168,7 +163,7 @@ export function dashboard(userId: number): Dashboard {
     resume: resumes[0] ?? null,
     recent: resumes.slice(1),
     active,
-    assignments: [...lessons, ...exercises.slice(0, 4), ...capstones].slice(0, 8),
+    assignments: [...lessons, ...capstones].slice(0, 8),
     stats,
     pace,
   };
