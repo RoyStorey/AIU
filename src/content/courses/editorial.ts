@@ -356,6 +356,78 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "DRA 101": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "Tragedy began with “those who led the dithyramb.”",
+        note: "This is Aristotle's account (Poetics 4), written some two centuries after the first tragedies. Many scholars accept a link with Dionysiac choral song; others doubt that Aristotle had good evidence, and the lesson presents it as his view rather than settled fact.",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "Whether women attended the theater.",
+        note: "The ancient evidence is thin and ambiguous, and scholars remain divided. Simon Goldhill, Jeffrey Henderson, and others have argued opposite cases; the lesson leaves the question open.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Aeschylus was killed by a tortoise dropped by an eagle.",
+        note: "The story appears in late sources and is almost certainly a legend. The epitaph mentioning Marathon is better attested, though whether Aeschylus wrote it himself is uncertain.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "The Eumenides comments on the reforms of Ephialtes.",
+        note: "That the play's founding of the Areopagus as a homicide court alludes to the reforms of 462 is widely accepted; whether it supports or warns against them is not. The lesson gives both readings.",
+      },
+    ],
+    3: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Sophocles was elected general because the Athenians admired his Antigone.",
+        note: "The claim comes from an ancient summary attached to the play and may be an inference from the dates rather than a record. That he served as general in 441–440 is better attested.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "The closing lines of Oedipus the King.",
+        note: "Several editors think the final choral lines (1524–1530) are a later addition; others defend them. The lesson notes that their authenticity is disputed.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "Antigone's speech preferring a brother to a husband or child.",
+        note: "Lines 904–920 closely echo Herodotus 3.119. Some scholars, following Goethe's wish, have suspected an interpolation; most editors now keep them. The lesson presents both views.",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Euripides was born on the day of Salamis and wrote in a cave on Salamis.",
+        note: "The birth date is a later tidying of the three tragedians into a single story. The cave tradition is ancient, and a cave identified by Yannis Lolos in 1997 yielded a sherd bearing part of his name; its date and significance are debated.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Medea's monologue, “I understand the evils I am about to do.”",
+        note: "Some modern editors (notably Reeve and Diggle, followed by Kovacs) delete part or all of lines 1056–1080 as interpolated; others defend them. The lines were quoted as Euripides's in antiquity, as the lesson says.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "The Trojan Women as a response to Melos.",
+        note: "Euripides probably composed the play before the fall of Melos was known, since plays were chosen months before the festival. The lesson says the connection is one the audience would have drawn, not necessarily one he intended.",
+      },
+    ],
+    5: [
+      {
+        page: 2, kind: "disputed",
+        claim: "The meaning of catharsis.",
+        note: "There is no consensus. Purgation (Bernays), purification or moral refinement (Lessing and many since), and intellectual clarification (Golden) all have defenders, and a minority regard the phrase as a later insertion. The lesson sets out the main views without choosing.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Hamartia means an error rather than a flaw of character.",
+        note: "Most scholars now favor “error,” especially an error of fact, but some argue that Aristotle's word can include moral failings. The lesson gives the majority view and notes the older reading.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
