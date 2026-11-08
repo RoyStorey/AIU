@@ -21,10 +21,8 @@
   --band-muted: #b9c4da;
   --band-gold: #e0c171;
 
-  /* One book face throughout; its optical sizes give headings their own finer cut. Garamond only for Greek. */
-  --display: var(--font-book), var(--font-serif), Georgia, serif;
-  --caslon: var(--font-book), var(--font-serif), Georgia, serif;
-  --serif: var(--font-book), var(--font-serif), Georgia, serif;
+  --display: var(--font-display), "Cormorant Garamond", Garamond, serif;
+  --serif: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
 
   --measure: 40rem;
   --page: 72rem;
@@ -66,9 +64,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 1.125rem;
-  line-height: 1.65;
-  font-optical-sizing: auto;
+  font-size: 1.1875rem;
+  line-height: 1.6;
   overflow-wrap: break-word;
   font-variant-numeric: oldstyle-nums proportional-nums;
   -webkit-font-smoothing: antialiased;
@@ -88,9 +85,9 @@ a:hover { color: var(--accent); text-decoration-color: currentColor; }
 
 h1, h2, h3, h4 {
   font-family: var(--display);
-  font-weight: 400;
-  line-height: 1.15;
-  letter-spacing: -0.012em;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.005em;
   margin: 0;
   text-wrap: balance;
 }
@@ -1259,7 +1256,7 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
 button.pace-row { cursor: pointer; transition: border-color 0.15s ease, background 0.15s ease; }
 button.pace-row:hover { border-color: var(--rule-strong); }
 .paces li.is-chosen .pace-row { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 6%, transparent); }
-.pace-name { font-family: var(--caslon); font-size: 1.05rem; }
+.pace-name { font-family: var(--serif); font-size: 1.05rem; }
 .paces li.is-chosen .pace-name::after { content: " · your pace"; font-variant-caps: all-small-caps; letter-spacing: 0.08em; color: var(--accent); font-size: 0.9rem; }
 .pace-finish { font-variant-numeric: lining-nums; color: var(--ink-soft); }
 .pace-rhythm { grid-column: 1 / -1; font-size: 0.9rem; color: var(--muted); }

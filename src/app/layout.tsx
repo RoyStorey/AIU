@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { EB_Garamond, Source_Serif_4 } from "next/font/google";
+import { Cormorant_Garamond, EB_Garamond } from "next/font/google";
 import { Crest } from "@/components/Crest";
 import { cookies } from "next/headers";
 import { currentUser, isAdmin } from "@/lib/auth";
@@ -9,15 +9,13 @@ import { signOut } from "@/app/actions";
 import { NarrationProvider } from "@/components/narration/NarrationProvider";
 import "./globals.css";
 
-/** Source Serif: a book face with optical sizes, so headings take a finer, display cut on their own. */
-const book = Source_Serif_4({
+const display = Cormorant_Garamond({
   subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
-  axes: ["opsz"],
-  variable: "--font-book",
+  variable: "--font-display",
 });
 
-/** Kept for Greek and other characters the book face does not carry. */
 const serif = EB_Garamond({
   subsets: ["latin", "latin-ext", "greek"],
   style: ["normal", "italic"],
@@ -35,7 +33,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value);
 
   return (
-    <html lang="en" className={`${book.variable} ${serif.variable}`} data-theme={theme?.id}>
+    <html lang="en" className={`${display.variable} ${serif.variable}`} data-theme={theme?.id}>
       <head>
         <style>{themeStylesheet}</style>
       </head>
