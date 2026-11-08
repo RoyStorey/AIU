@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { Corrections } from "@/components/Corrections";
-import { LessonShell, StepList, lessonHref } from "@/components/LessonShell";
+import { LessonResources, LessonShell, StepList, lessonHref } from "@/components/LessonShell";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { lessonScores } from "@/lib/progress";
@@ -57,6 +57,7 @@ export default async function LessonOverview({ params }: Params) {
           </Link>
         </div>
       </section>
+      <section className="measure"><LessonResources lesson={lesson} /></section>
       <Corrections
         courseId={course.id} concentrationId={course.concentration.id} concentration={course.concentration.name}
         lessonIndex={index} lesson={lesson} user={user} back={lessonHref(course.id, index)}

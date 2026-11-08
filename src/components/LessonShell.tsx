@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Citation } from "@/components/Citation";
 import { resourceSources } from "@/lib/books";
+import { LessonDrawer } from "@/components/LessonDrawer";
 import { Media } from "@/components/Media";
 import type { CourseWithContent } from "@/lib/catalogue";
 import type { Lesson } from "@/lib/schema";
@@ -64,6 +65,65 @@ export function StepList({ courseId, index, lesson, current, large }: {
   );
 }
 
+/** A lesson's assigned readings and recordings, with a note on how they relate to its timing. */
+export function LessonResources({ lesson }: { lesson: Lesson }) {
+  const sources = resourceSources(lesson.readings);
+  if (!lesson.readings.length && !lesson.media.length) return null;
+  return (
+    <div className="lesson-resources">
+      {lesson.readings.length > 0 && (
+        <>
+          <h3 className="side-head">Assigned Reading</h3>
+          <ul className="citations">
+            {lesson.readings.map((r, i) => <Citation key={i} resource={r} source={sources[i]} />)}
+          </ul>
+        </>
+      )}
+      {lesson.media.length > 0 && (
+        <>
+          <h3 className="side-head">Listening &amp; Viewing</h3>
+          <div className="media-list">
+            {lesson.media.map((m, i) => <Media key={i} resource={m} />)}
+          </div>
+        </>
+      )}
+      <p className="muted side-note">Readings and recordings are supplementary; times shown cover the lesson itself.</p>
+    </div>
+  );
+}
+
+/**
+ * The slim bar above a lesson page: the contents button (with the number of
+ * readings and recordings it holds) and a marker for each page, the current
+ * one filled and those before it touched with gold.
+ */
+function LessonBar({ course, index, lesson, step }: { course: CourseWithContent; index: number; lesson: Lesson; step: Step }) {
+  const steps = lessonSteps(course.id, index, lesson);
+  const here = steps.findIndex((s) => sameStep(step, s.step));
+  const extras = lesson.readings.length + lesson.media.length;
+  return (
+    <div className="lesson-bar">
+      <LessonDrawer title={lesson.title} label="Contents" count={extras}>
+        <h3 className="side-head">In This Lesson</h3>
+        <StepList courseId={course.id} index={index} lesson={lesson} current={step} />
+        <LessonResources lesson={lesson} />
+      </LessonDrawer>
+      <ol className="lesson-pips" aria-label="Pages of this lesson">
+        {steps.map((s, i) => (
+          <li key={s.key}>
+            <Link href={s.href} title={`${s.label} · ${formatMinutes(s.minutes)}`}
+              aria-current={i === here ? "page" : undefined}
+              className={i < here ? "is-before" : s.step.kind === "exercises" ? "is-check" : undefined}>
+              <span className="visually-hidden">{s.label}</span>
+              <span aria-hidden="true">{s.numeral}</span>
+            </Link>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
 export function LessonShell({ course, index, step, completed, children }: {
   course: CourseWithContent;
   index: number;
@@ -75,7 +135,6 @@ export function LessonShell({ course, index, step, completed, children }: {
   const lesson = lessons[index];
   const of = (lessons.length + forthcoming.length);
   const { subject, concentration } = course;
-  const sources = resourceSources(lesson.readings);
 
   return (
     <div className="wrap">
@@ -94,49 +153,22 @@ export function LessonShell({ course, index, step, completed, children }: {
         <Link href={`/courses/${course.id}/library`}>Reference Shelf</Link>
       </nav>
 
-      <header className="lesson-head measure">
-        <p className="eyebrow">
-          {step.kind === "overview" ? (
-            <>Lesson {(index + 1)} of {of}</>
-          ) : (
-            <Link href={lessonHref(course.id, index)}>Lesson {(index + 1)} of {of}</Link>
-          )}
-          <span className="muted"> · about {formatMinutes(lessonMinutes(lesson))}</span>
-          {completed && <span className="mark done" style={{ marginLeft: "1rem" }}>Completed</span>}
-        </p>
-        <h1>{lesson.title}</h1>
-        {step.kind === "overview" && <p className="lede">{lesson.summary}</p>}
-      </header>
-
-      <div className="lesson-layout">
-        <article>{children}</article>
-        <aside className="lesson-aside">
-          {step.kind !== "overview" && (
-            <>
-              <h3 className="side-head">In This Lesson</h3>
-              <StepList courseId={course.id} index={index} lesson={lesson} current={step} />
-            </>
-          )}
-          {lesson.readings.length > 0 && (
-            <>
-              <h3 className="side-head">Assigned Reading</h3>
-              <ul className="citations">
-                {lesson.readings.map((r, i) => <Citation key={i} resource={r} source={sources[i]} />)}
-              </ul>
-            </>
-          )}
-          {lesson.media.length > 0 && (
-            <>
-              <h3 className="side-head">Listening &amp; Viewing</h3>
-              <div className="media-list">
-                {lesson.media.map((m, i) => <Media key={i} resource={m} />)}
-              </div>
-            </>
-          )}
-          <p className="muted side-note">
-            Readings and recordings are supplementary; times shown cover the lesson itself.
+      <div className="lesson-column">
+        <header className="lesson-head">
+          <p className="eyebrow">
+            {step.kind === "overview" ? (
+              <>Lesson {(index + 1)} of {of}</>
+            ) : (
+              <Link href={lessonHref(course.id, index)}>Lesson {(index + 1)} of {of}</Link>
+            )}
+            <span className="muted"> · about {formatMinutes(lessonMinutes(lesson))}</span>
+            {completed && <span className="mark done" style={{ marginLeft: "1rem" }}>Completed</span>}
           </p>
-        </aside>
+          <h1>{lesson.title}</h1>
+          {step.kind === "overview" && <p className="lede">{lesson.summary}</p>}
+        </header>
+        {step.kind !== "overview" && <LessonBar course={course} index={index} lesson={lesson} step={step} />}
+        <article>{children}</article>
       </div>
     </div>
   );
