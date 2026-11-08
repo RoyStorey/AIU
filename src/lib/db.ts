@@ -18,7 +18,8 @@ const SCHEMA = `
     bio           TEXT NOT NULL DEFAULT '',
     visibility    TEXT NOT NULL DEFAULT 'public',
     demo          INTEGER NOT NULL DEFAULT 0,
-    last_seen_at  TEXT
+    last_seen_at  TEXT,
+    pace          TEXT NOT NULL DEFAULT 'steady'
   );
 
   CREATE TABLE IF NOT EXISTS sessions (
@@ -194,6 +195,9 @@ const MIGRATIONS: Record<number, string> = {
   2: `
     ALTER TABLE users ADD COLUMN last_seen_at TEXT;
   `,
+  3: `
+    ALTER TABLE users ADD COLUMN pace TEXT NOT NULL DEFAULT 'steady';
+  `,
 };
 
 export function slugify(text: string): string {
@@ -207,7 +211,7 @@ export function slugify(text: string): string {
 }
 
 /** Stamped into the file's user_version, so Cornerstone only ever opens databases it made. */
-const SCHEMA_VERSION = 3;
+const SCHEMA_VERSION = 4;
 
 function open(): Database.Database {
   const file = resolve(process.env.AIU_DATABASE ?? "data/university.db");

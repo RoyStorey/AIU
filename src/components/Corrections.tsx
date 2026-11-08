@@ -8,7 +8,6 @@ import { KINDS, STATUSES, correctionsFor, type Correction } from "@/lib/correcti
 import { forgeAvailable } from "@/lib/forge";
 import { isFaculty } from "@/lib/people";
 import { levelIn } from "@/lib/progress";
-import { toRoman } from "@/lib/roman";
 import type { Caveat, Lesson } from "@/lib/schema";
 
 const CAVEAT_LABEL: Record<Caveat["kind"], string> = {
@@ -26,7 +25,7 @@ const VERDICT: Record<NonNullable<Correction["review"]>["verdict"], string> = {
 const when = (t: string) =>
   new Date(t.replace(" ", "T") + "Z").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 
-const pageLabel = (lesson: Lesson, page: number) => `Page ${toRoman(page + 1).toLowerCase()}: ${lesson.pages[page]?.title ?? ""}`;
+const pageLabel = (lesson: Lesson, page: number) => `Page ${(page + 1)}: ${lesson.pages[page]?.title ?? ""}`;
 
 /**
  * A lesson's Comments & Corrections: the editors' own notes on claims that are

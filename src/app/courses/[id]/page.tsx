@@ -6,13 +6,15 @@ import { CourseHeader } from "@/components/CourseHeader";
 import { Submit } from "@/components/Forms";
 import { Markdown } from "@/components/Markdown";
 import { Preparing, Quill } from "@/components/Preparing";
+import { PacePanel } from "@/components/PacePanel";
+import { preferredPace } from "@/lib/dashboard";
 import { currentUser, isAdmin } from "@/lib/auth";
 import { Obtain } from "@/components/Obtain";
 import { bookKey, parseText, sourcesFor } from "@/lib/books";
 import { getCourse, isOpen, listCourses } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 import { lessonScores } from "@/lib/progress";
-import { toRoman, type PlannedLesson } from "@/lib/schema";
+import type { PlannedLesson } from "@/lib/schema";
 import { formatMinutes, lessonMinutes, plannedMinutes } from "@/lib/timing";
 
 type Params = { params: Promise<{ id: string }> };
@@ -183,7 +185,7 @@ export default async function CoursePage({ params }: Params) {
             {content.lessons.map((lesson, i) => (
               <li key={i}>
                 <Link href={`/courses/${course.id}/lessons/${i + 1}`}>
-                  <span className="numeral">{toRoman(i + 1)}</span>
+                  <span className="numeral">{(i + 1)}</span>
                   <div>
                     <h3>{lesson.title}</h3>
                     <p>{lesson.summary}</p>
@@ -195,7 +197,7 @@ export default async function CoursePage({ params }: Params) {
               </li>
             ))}
             {forthcoming.map((lesson, i) => (
-              <Planned key={i} lesson={lesson} numeral={toRoman(content.lessons.length + i + 1)} />
+              <Planned key={i} lesson={lesson} numeral={String(content.lessons.length + i + 1)} />
             ))}
           </ol>
         </div>
@@ -229,8 +231,15 @@ export default async function CoursePage({ params }: Params) {
                 </Link>
               )}
             </div>
-            {!user && <p className="muted" style={{ marginTop: "1rem" }}><Link href={`/signup?next=/courses/${course.id}`}>Matriculate</Link> to record your progress.</p>}
+            {!user && <p className="muted" style={{ marginTop: "1rem" }}><Link href={`/signup?next=/courses/${course.id}`}>Enroll</Link> to record your progress.</p>}
           </div>
+          <PacePanel
+            remaining={content.lessons.length - [...scores.keys()].filter((i) => i < content.lessons.length).length}
+            averageMinutes={content.lessons.reduce((sum, l) => sum + lessonMinutes(l), 0) / content.lessons.length}
+            chosen={user ? preferredPace(user.id).id : null}
+            path={`/courses/${course.id}`}
+            partial={forthcoming.length > 0}
+          />
           <div className="aside-block">
             <h3>Core Texts</h3>
             <ul className="core-texts">

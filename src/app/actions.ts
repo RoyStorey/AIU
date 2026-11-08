@@ -16,6 +16,8 @@ import {
   settleCorrection as settle, withdrawCorrection as unfile, type Kind, type Status,
 } from "@/lib/corrections";
 import { saveNote as storeNote } from "@/lib/notes";
+import { savePace } from "@/lib/dashboard";
+import type { PaceId } from "@/lib/pace";
 import { isFaculty, updateProfile as storeProfile } from "@/lib/people";
 import { choiceOrder } from "@/lib/shuffle";
 import {
@@ -32,9 +34,9 @@ export type FormState = { error?: string; notice?: string; nonce?: number } | un
 const text = (form: FormData, key: string) => String(form.get(key) ?? "").trim();
 
 /** Only same-site paths may be used as a post-sign-in destination. */
-const safeNext = (next: string) => (next.startsWith("/") && !next.startsWith("//") ? next : "/study");
+const safeNext = (next: string) => (next.startsWith("/") && !next.startsWith("//") ? next : "/");
 
-// ——— Matriculation ———
+// ——— Enrollment ———
 
 export async function signUp(_: FormState, form: FormData): Promise<FormState> {
   const name = text(form, "name");
@@ -44,7 +46,7 @@ export async function signUp(_: FormState, form: FormData): Promise<FormState> {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return { error: "Please give a valid email address." };
   if (password.length < 8) return { error: "Your password must be at least eight characters." };
   if (db.prepare("SELECT 1 FROM users WHERE email = ?").get(email)) {
-    return { error: "A student with that email has already matriculated. Please sign in." };
+    return { error: "A student with that email has already enrolled. Please sign in." };
   }
   const { id } = db.prepare("INSERT INTO users (name, email, password_hash) VALUES (?, ?, ?) RETURNING id")
     .get(name, email, hashPassword(password)) as { id: number };
@@ -83,10 +85,8 @@ export async function inquire(_: FormState, form: FormData): Promise<FormState> 
   }
   if (best?.kind === "course") redirect(`/courses/${best.course.id}`);
 
-  if (!forgeAvailable()) {
-    return {
-      error: `Cornerstone does not yet teach “${query}”, and new programs can only be drafted once the forge is configured with an Anthropic API key.`,
-    };
+  if (!forgeAvailable() || !isAdmin(await currentUser())) {
+    return { error: `Cornerstone does not yet teach “${query}.” Browse the departments to see what is offered.` };
   }
   redirect(`/inquiries/${startInquiry(query)}`);
 }
@@ -114,7 +114,8 @@ export async function proposeConcentration(_: FormState, form: FormData): Promis
   const note = text(form, "note");
   const subject = getSubject(subjectSlug);
   if (!subject) return { error: "That faculty does not exist." };
-  await requireUser(`/faculties/${subjectSlug}`);
+  const user = await requireUser(`/faculties/${subjectSlug}`);
+  if (!isAdmin(user)) return { error: "New concentrations are added by the faculty." };
   if (name.length < 3) return { error: "Please name the concentration you would like to study." };
   if (!forgeAvailable()) return { error: "New concentrations can be drafted once the forge is configured with an Anthropic API key." };
   redirect(`/faculties/${subjectSlug}/${beginConcentration(subjectSlug, name, note)}`);
@@ -123,23 +124,33 @@ export async function proposeConcentration(_: FormState, form: FormData): Promis
 export async function retryProposal(concentrationId: number) {
   const c = getConcentrationById(concentrationId);
   if (!c) return;
-  await requireUser();
+  if (!isAdmin(await requireUser())) return;
   const slug = retryConcentration(concentrationId);
   redirect(`/faculties/${c.subject_slug}/${slug ?? c.slug}`);
 }
 
 export async function continueStudies(concentrationId: number) {
-  await requireUser();
+  if (!isAdmin(await requireUser())) return;
   const c = getConcentrationById(concentrationId);
   if (!c || !forgeAvailable()) return;
   beginContinuation(concentrationId);
   revalidatePath(`/faculties/${c.subject_slug}/${c.slug}`);
 }
 
+// ——— Study pace ———
+
+/** Records the pace a student prefers; it shapes the projections on the dashboard and course pages. */
+export async function choosePace(pace: PaceId, path: string) {
+  const user = await requireUser(path);
+  savePace(user.id, pace);
+  revalidatePath(path);
+  revalidatePath("/");
+}
+
 // ——— Courses and lessons ———
 
 export async function prepareCourse(courseId: string) {
-  await requireUser(`/courses/${courseId}`);
+  if (!isAdmin(await requireUser(`/courses/${courseId}`))) return;
   if (!forgeAvailable()) return;
   beginCourse(courseId);
   revalidatePath(`/courses/${courseId}`);

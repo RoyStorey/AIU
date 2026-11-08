@@ -3,7 +3,6 @@ import { Citation } from "@/components/Citation";
 import { resourceSources } from "@/lib/books";
 import { Media } from "@/components/Media";
 import type { CourseWithContent } from "@/lib/catalogue";
-import { toRoman } from "@/lib/roman";
 import type { Lesson } from "@/lib/schema";
 import { checkMinutes, exerciseMinutes, formatMinutes, lessonMinutes, pageMinutes } from "@/lib/timing";
 
@@ -22,7 +21,7 @@ export function lessonSteps(courseId: string, index: number, lesson: Lesson) {
       key: `page-${p}`,
       step: { kind: "page", page: p } as Step,
       label: page.title,
-      numeral: toRoman(p + 1).toLowerCase(),
+      numeral: (p + 1),
       minutes: pageMinutes(page),
       href: lessonHref(courseId, index, { kind: "page", page: p }),
     })),
@@ -74,7 +73,7 @@ export function LessonShell({ course, index, step, completed, children }: {
 }) {
   const { lessons, forthcoming = [] } = course.content!;
   const lesson = lessons[index];
-  const of = toRoman(lessons.length + forthcoming.length);
+  const of = (lessons.length + forthcoming.length);
   const { subject, concentration } = course;
   const sources = resourceSources(lesson.readings);
 
@@ -98,9 +97,9 @@ export function LessonShell({ course, index, step, completed, children }: {
       <header className="lesson-head measure">
         <p className="eyebrow">
           {step.kind === "overview" ? (
-            <>Lesson {toRoman(index + 1)} of {of}</>
+            <>Lesson {(index + 1)} of {of}</>
           ) : (
-            <Link href={lessonHref(course.id, index)}>Lesson {toRoman(index + 1)} of {of}</Link>
+            <Link href={lessonHref(course.id, index)}>Lesson {(index + 1)} of {of}</Link>
           )}
           <span className="muted"> · about {formatMinutes(lessonMinutes(lesson))}</span>
           {completed && <span className="mark done" style={{ marginLeft: "1rem" }}>Completed</span>}

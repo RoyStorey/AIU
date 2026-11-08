@@ -100,7 +100,7 @@ export function WrittenExercise({ prompt, minutes, courseId, lessonIndex, user }
 
       {!user ? (
         <p className="muted">
-          <Link href={`/login?next=${here}`}>Sign in</Link> or <Link href={`/signup?next=${here}`}>matriculate</Link> to
+          <Link href={`/login?next=${here}`}>Sign in</Link> or <Link href={`/signup?next=${here}`}>enroll</Link> to
           submit your response and receive a tutor&apos;s report.
         </p>
       ) : !forgeAvailable() ? (

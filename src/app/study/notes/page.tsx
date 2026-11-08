@@ -4,7 +4,6 @@ import { Markdown } from "@/components/Markdown";
 import { requireUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { commonplaceBook } from "@/lib/notes";
-import { toRoman } from "@/lib/roman";
 
 export const metadata: Metadata = { title: "Commonplace Book" };
 
@@ -37,7 +36,7 @@ export default async function Notes() {
                   <article key={`${n.lesson_index}-${n.page_index}`} className="commonplace">
                     <p className="eyebrow">
                       <Link href={`/courses/${course.id}/lessons/${n.lesson_index + 1}/${n.page_index + 1}`}>
-                        Lesson {toRoman(n.lesson_index + 1)} · {page?.title ?? `Page ${n.page_index + 1}`}
+                        Lesson {(n.lesson_index + 1)} · {page?.title ?? `Page ${n.page_index + 1}`}
                       </Link>
                     </p>
                     <Markdown>{n.body}</Markdown>

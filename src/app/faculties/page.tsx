@@ -1,9 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { availability, listConcentrations, listSubjects } from "@/lib/catalogue";
-import { toRoman } from "@/lib/schema";
 
-export const metadata: Metadata = { title: "The Faculties" };
+export const metadata: Metadata = { title: "The Departments" };
 
 export default function Faculties() {
   const subjects = listSubjects();
@@ -11,7 +10,7 @@ export default function Faculties() {
     <div className="wrap">
       <header className="page-head">
         <p className="eyebrow">The Catalogue</p>
-        <h1>The Faculties</h1>
+        <h1>The Departments</h1>
         <p className="lede">
           Each faculty offers several concentrations, and each concentration is a complete program of study—from
           foundational courses to an advanced seminar.
@@ -22,10 +21,10 @@ export default function Faculties() {
         <section key={s.slug} className="section" style={{ paddingTop: i === 0 ? 0 : undefined }}>
           <div className="section-head">
             <h2>
-              <span className="accent" style={{ fontSize: "0.7em", marginRight: "0.75rem" }}>{toRoman(i + 1)}</span>
+              <span className="accent" style={{ fontSize: "0.7em", marginRight: "0.75rem" }}>{(i + 1)}</span>
               <Link href={`/faculties/${s.slug}`} style={{ textDecoration: "none" }}>{s.name}</Link>
             </h2>
-            <Link href={`/faculties/${s.slug}`} className="eyebrow">Enter the faculty →</Link>
+            <Link href={`/faculties/${s.slug}`} className="eyebrow">Enter the department →</Link>
           </div>
           <div className="grid">
             {listConcentrations(s.slug).map((c) => (

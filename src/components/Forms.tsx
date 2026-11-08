@@ -62,7 +62,7 @@ export function SignUpForm({ next }: { next?: string }) {
         <input id="password" name="password" type="password" required minLength={8} autoComplete="new-password" />
         <span className="hint">At least eight characters.</span>
       </div>
-      <Submit pending="Enrolling…">Matriculate</Submit>
+      <Submit pending="Enrolling…">Enroll</Submit>
     </form>
   );
 }

@@ -16,7 +16,7 @@ type Params = { params: Promise<{ subject: string; concentration: string }> };
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const p = await params;
   const c = getConcentration(p.subject, p.concentration);
-  return { title: c ? `Common Room · ${c.name}` : "Not found" };
+  return { title: c ? `Commons · ${c.name}` : "Not found" };
 }
 
 const when = (t: string) =>
@@ -41,7 +41,7 @@ export default async function CommonRoom({ params }: Params) {
   return (
     <div className="wrap">
       <ConcentrationHeader subject={subject} concentration={concentration} active="common-room"
-        title="The Common Room" lede={`Where the students of ${concentration.name} meet: to ask questions, read together, and see the work of those who have mastered it.`} />
+        title="The Commons" lede={`Where the students of ${concentration.name} meet: to ask questions, read together, and see the work of those who have mastered it.`} />
 
       <div className="program-layout">
         <div>

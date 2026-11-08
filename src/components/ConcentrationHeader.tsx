@@ -20,7 +20,7 @@ export function ConcentrationHeader({ subject, concentration, active, title, led
     <>
       <header className="page-head" style={{ paddingBottom: "1.5rem" }}>
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link href="/faculties">Faculties</Link>
+          <Link href="/faculties">Departments</Link>
           <span aria-hidden="true">/</span>
           <Link href={`/faculties/${subject.slug}`}>{subject.name}</Link>
           {active !== "program" && (
@@ -39,7 +39,7 @@ export function ConcentrationHeader({ subject, concentration, active, title, led
           {tab("program", base, "Program")}
           {tab("capstone", `${base}/capstone`, "Capstone")}
           {tab("students", `${base}/students`, "Students")}
-          {tab("common-room", `${base}/common-room`, "Common Room")}
+          {tab("common-room", `${base}/common-room`, "Commons")}
         </nav>
       )}
     </>

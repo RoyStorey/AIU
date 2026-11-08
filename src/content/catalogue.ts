@@ -208,8 +208,8 @@ export const catalogue: SeedSubject[] = [
     name: "Classics",
     description:
       "The languages, literature, history, and thought of ancient Greece and Rome—the foundation on which the whole Western curriculum was built.",
-    epigraph: "Graecia capta ferum victorem cepit et artes intulit agresti Latio.",
-    attribution: "Horace, Epistles II.1 — “Captive Greece took captive her fierce conqueror, and brought the arts to rustic Latium.”",
+    epigraph: "To read the Latin and Greek authors in their original is a sublime luxury.",
+    attribution: "Thomas Jefferson, letter to Joseph Priestley, 1800",
     concentrations: [
       {
         name: "Latin Language and Literature",
@@ -346,8 +346,8 @@ export const catalogue: SeedSubject[] = [
     name: "History",
     description:
       "The disciplined study of the human past through its sources. Students learn not only what happened, but how historians know it and argue about it.",
-    epigraph: "Historia vero testis temporum, lux veritatis, vita memoriae, magistra vitae.",
-    attribution: "Cicero, De Oratore II.36 — “History is the witness of the times, the light of truth, the life of memory, the teacher of life.”",
+    epigraph: "Fellow-citizens, we cannot escape history.",
+    attribution: "Abraham Lincoln, Annual Message to Congress, December 1, 1862",
     concentrations: [
       {
         name: "European History",
@@ -549,8 +549,8 @@ export const catalogue: SeedSubject[] = [
     name: "Theology",
     description:
       "The study of God and of the human response to God: the Scriptures, the doctrines of the Church, its history, its saints, and the great questions of faith and reason.",
-    epigraph: "Fides quaerens intellectum.",
-    attribution: "Anselm of Canterbury, Proslogion — “Faith seeking understanding.”",
+    epigraph: "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
+    attribution: "Abraham Lincoln, Second Inaugural Address, March 4, 1865",
     concentrations: [
       {
         name: "Biblical Studies",
@@ -709,8 +709,8 @@ export const catalogue: SeedSubject[] = [
     name: "Linguistics",
     description:
       "The scientific study of human language: its sounds, its structures, its meanings, its histories, and its place in society and the mind.",
-    epigraph: "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.",
-    attribution: "Ludwig Wittgenstein, Tractatus 5.6 — “The limits of my language mean the limits of my world.”",
+    epigraph: "Language is fossil poetry.",
+    attribution: "Ralph Waldo Emerson, “The Poet,” 1844",
     concentrations: [
       {
         name: "General Linguistics",

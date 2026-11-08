@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ProposeForm } from "@/components/Forms";
-import { currentUser } from "@/lib/auth";
+import { currentUser, isAdmin } from "@/lib/auth";
 import { availability, getSubject, listConcentrations } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
 
@@ -10,7 +10,7 @@ type Params = { params: Promise<{ subject: string }> };
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const subject = getSubject((await params).subject);
-  return { title: subject ? `Faculty of ${subject.name}` : "Not found" };
+  return { title: subject ? `Department of ${subject.name}` : "Not found" };
 }
 
 export default async function SubjectPage({ params }: Params) {
@@ -18,14 +18,15 @@ export default async function SubjectPage({ params }: Params) {
   if (!subject) notFound();
   const concentrations = listConcentrations(subject.slug);
   const user = await currentUser();
+  const admin = isAdmin(user);
 
   return (
     <div className="wrap">
       <header className="page-head">
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link href="/faculties">Faculties</Link>
+          <Link href="/faculties">Departments</Link>
         </nav>
-        <h1>Faculty of {subject.name}</h1>
+        <h1>Department of {subject.name}</h1>
         <p className="lede">{subject.description}</p>
         {subject.epigraph && (
           <blockquote className="epigraph">
@@ -57,12 +58,13 @@ export default async function SubjectPage({ params }: Params) {
         </div>
       </section>
 
+      {admin && (
       <section className="section" id="propose">
         <div className="program-layout">
           <div className="measure">
             <h2 style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>Propose a Concentration</h2>
             <p className="muted">
-              If the program you want is not listed, propose it. The faculty will draft a complete program of
+              Visible to administrators only. Name a program, and the forge will draft a complete program of
               study—foundations through seminar—with courses built on real texts, lectures, and recordings.
             </p>
             {!forgeAvailable() ? (
@@ -70,17 +72,13 @@ export default async function SubjectPage({ params }: Params) {
                 <h3>The forge is not yet lit</h3>
                 <p>Drafting new programs requires an Anthropic API key. Set <em>ANTHROPIC_API_KEY</em> in the server’s environment and restart.</p>
               </div>
-            ) : user ? (
-              <ProposeForm subject={subject.slug} subjectName={subject.name} />
             ) : (
-              <p>
-                <Link href={`/login?next=/faculties/${subject.slug}%23propose`}>Sign in</Link> or{" "}
-                <Link href={`/signup?next=/faculties/${subject.slug}%23propose`}>matriculate</Link> to propose a concentration.
-              </p>
+              <ProposeForm subject={subject.slug} subjectName={subject.name} />
             )}
           </div>
         </div>
       </section>
+      )}
     </div>
   );
 }

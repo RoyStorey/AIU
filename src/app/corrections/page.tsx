@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { currentUser } from "@/lib/auth";
 import { KINDS, openCorrections } from "@/lib/corrections";
 import { isFaculty } from "@/lib/people";
-import { toRoman } from "@/lib/roman";
 
 export const metadata: Metadata = { title: "Open Corrections" };
 
@@ -29,7 +28,7 @@ export default async function OpenCorrections() {
           {open.map((r) => (
             <li key={r.id}>
               <Link className="thread-title" href={`/courses/${r.course_id}/lessons/${r.lesson_index + 1}#report-${r.id}`}>
-                {r.code}, Lesson {toRoman(r.lesson_index + 1)}{r.page_index !== null && `, page ${toRoman(r.page_index + 1).toLowerCase()}`}
+                {r.code}, Lesson {(r.lesson_index + 1)}{r.page_index !== null && `, page ${(r.page_index + 1)}`}
               </Link>
               <p className="byline"><span className={`flag flag-${r.kind}`}>{KINDS[r.kind]}</span> <span className="muted">from {r.user_name}</span></p>
               <p>{r.body}</p>

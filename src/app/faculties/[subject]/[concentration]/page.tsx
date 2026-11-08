@@ -8,13 +8,13 @@ import { Seal, StudentName } from "@/components/Standing";
 import { capstoneFor, mastersOf } from "@/lib/capstone";
 import { Preparing } from "@/components/Preparing";
 import { AutoRefresh } from "@/components/AutoRefresh";
-import { currentUser } from "@/lib/auth";
+import { currentUser, isAdmin } from "@/lib/auth";
 import { getConcentration, getSubject, isOpen } from "@/lib/catalogue";
 import { Quill } from "@/components/Preparing";
 import { forgeAvailable } from "@/lib/forge";
 import { studentsOf } from "@/lib/people";
 import { continuationStatus, isEnrolled, programStanding, standing, type CourseStanding } from "@/lib/progress";
-import { stageName, toRoman } from "@/lib/schema";
+import { stageName } from "@/lib/schema";
 
 type Params = { params: Promise<{ subject: string; concentration: string }> };
 
@@ -43,6 +43,7 @@ export default async function ProgramPage({ params }: Params) {
   if (!subject || !concentration) notFound();
 
   const user = await currentUser();
+  const admin = isAdmin(user);
   const enrolled = user ? isEnrolled(user.id, concentration.id) : false;
   const courses = programStanding(user?.id ?? null, concentration.id);
   const stages = [...new Set(courses.map((c) => c.stage))].sort((a, b) => a - b);
@@ -77,7 +78,7 @@ export default async function ProgramPage({ params }: Params) {
         <div className="notice">
           <h3>The draft was interrupted</h3>
           <p className="muted">{concentration.error}</p>
-          {user && forgeAvailable() && (
+          {admin && forgeAvailable() && (
             <form action={retryProposal.bind(null, concentration.id)}>
               <Submit>Ask the faculty again</Submit>
             </form>
@@ -89,7 +90,7 @@ export default async function ProgramPage({ params }: Params) {
             {stages.map((stage) => (
               <section key={stage} className="stage">
                 <div className="stage-head">
-                  <span className="numeral">{toRoman(stage)}</span>
+                  <span className="numeral">{(stage)}</span>
                   <h2>{stageName(stage)}</h2>
                 </div>
                 {courses.filter((c) => c.stage === stage).map((course) => (
@@ -130,7 +131,7 @@ export default async function ProgramPage({ params }: Params) {
                   </form>
                 ) : (
                   <Link className="button" href={`/signup?next=/faculties/${subject.slug}/${concentration.slug}`}>
-                    Matriculate to declare
+                    Enroll to declare
                   </Link>
                 )}
               </div>
@@ -147,7 +148,7 @@ export default async function ProgramPage({ params }: Params) {
               </div>
             )}
 
-            {complete && continuation?.status !== "drafting" && (
+            {complete && admin && continuation?.status !== "drafting" && (
               <div className="aside-block">
                 <h3>Program complete</h3>
                 <p>
@@ -177,7 +178,7 @@ export default async function ProgramPage({ params }: Params) {
 
             {ready && (
               <div className="aside-block">
-                <span className="eyebrow">The common room</span>
+                <span className="eyebrow">The Commons</span>
                 <p style={{ marginTop: "0.25rem" }}>
                   <Link href={`${base}/students`}>{memberCount} {memberCount === 1 ? "student is" : "students are"} studying {concentration.name}</Link>
                   {masters.length > 0 && <>; {masters.length} {masters.length === 1 ? "is a Master" : "are Masters"}</>}.
@@ -192,7 +193,7 @@ export default async function ProgramPage({ params }: Params) {
                     ))}
                   </ul>
                 )}
-                <p><Link href={`${base}/common-room`}>Visit the common room →</Link></p>
+                <p><Link href={`${base}/common-room`}>Visit the Commons →</Link></p>
               </div>
             )}
 

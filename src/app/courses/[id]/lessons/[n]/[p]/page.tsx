@@ -9,7 +9,6 @@ import { isNarrated } from "@/lib/narration/store";
 import { currentUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { lessonScores, recordVisit } from "@/lib/progress";
-import { toRoman } from "@/lib/roman";
 import { formatMinutes, pageMinutes } from "@/lib/timing";
 
 type Params = { params: Promise<{ id: string; n: string; p: string }> };
@@ -44,7 +43,7 @@ export default async function LessonPage({ params }: Params) {
     <LessonShell course={course} index={index} step={{ kind: "page", page: pageIndex }} completed={completed}>
       <header className="page-title">
         <p className="eyebrow">
-          Page {toRoman(pageIndex + 1).toLowerCase()} of {toRoman(lesson.pages.length).toLowerCase()} · {formatMinutes(pageMinutes(page))}
+          Page {(pageIndex + 1)} of {(lesson.pages.length)} · {formatMinutes(pageMinutes(page))}
         </p>
         <h2>{page.title}</h2>
         {isNarrated(course.code) && <ListenButton courseId={course.id} lesson={index + 1} page={pageIndex + 1} />}

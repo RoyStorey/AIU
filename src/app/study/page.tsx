@@ -8,7 +8,6 @@ import { ThemePicker } from "@/components/ThemePicker";
 import { requireUser } from "@/lib/auth";
 import { getStudent } from "@/lib/people";
 import { enrollments, recentVisits, standing } from "@/lib/progress";
-import { toRoman } from "@/lib/roman";
 import { DEFAULT_THEME, THEME_COOKIE, findTheme } from "@/lib/themes";
 
 export const metadata: Metadata = { title: "My Studies" };
@@ -41,7 +40,7 @@ export default async function Study() {
             {visits.map((v) => (
               <li key={v.course_id}>
                 <Link href={`/courses/${v.course_id}/lessons/${v.lesson_index + 1}/${v.page_index + 1}`}>
-                  {v.code} {v.title} <span className="muted">· Lesson {toRoman(v.lesson_index + 1)}, page {toRoman(v.page_index + 1).toLowerCase()}</span>
+                  {v.code} {v.title} <span className="muted">· Lesson {(v.lesson_index + 1)}, page {(v.page_index + 1)}</span>
                 </Link>
               </li>
             ))}
@@ -52,7 +51,7 @@ export default async function Study() {
       {programs.length === 0 ? (
         <div className="notice measure">
           <h3>You have not yet declared a concentration</h3>
-          <p>Visit the <Link href="/faculties">Faculties</Link> to choose a program of study, or return to the <Link href="/">front page</Link> and tell us what you would like to learn.</p>
+          <p>Visit the <Link href="/faculties">Departments</Link> to choose a program of study.</p>
         </div>
       ) : (
         programs.map(({ concentration, courses, coursesDone, lessonsDone, complete, next }) => {
@@ -61,7 +60,7 @@ export default async function Study() {
           return (
             <section key={concentration.id} className="study-program">
               <div>
-                <span className="eyebrow">Faculty of {concentration.subject_name}</span>
+                <span className="eyebrow">Department of {concentration.subject_name}</span>
                 <h2><Link href={path}>{concentration.name}</Link></h2>
                 {mine && mine.level !== "student" && (
                   <p>

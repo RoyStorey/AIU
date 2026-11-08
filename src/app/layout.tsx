@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Cormorant_Garamond, EB_Garamond } from "next/font/google";
+import { EB_Garamond, Libre_Caslon_Display, Libre_Caslon_Text } from "next/font/google";
 import { Crest } from "@/components/Crest";
 import { cookies } from "next/headers";
 import { currentUser, isAdmin } from "@/lib/auth";
@@ -9,13 +9,21 @@ import { signOut } from "@/app/actions";
 import { NarrationProvider } from "@/components/narration/NarrationProvider";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
+/** Caslon: the face in which the Declaration of Independence was first printed. */
+const display = Libre_Caslon_Display({
   subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
+  weight: "400",
   variable: "--font-display",
 });
 
+const caslon = Libre_Caslon_Text({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-caslon",
+});
+
+/** Kept for Greek and other characters Caslon does not carry. */
 const serif = EB_Garamond({
   subsets: ["latin", "latin-ext", "greek"],
   style: ["normal", "italic"],
@@ -25,7 +33,7 @@ const serif = EB_Garamond({
 export const metadata: Metadata = {
   title: { default: "Cornerstone", template: "%s · Cornerstone" },
   description:
-    "An academy of the humanities, with programs of study in Literature, Classics, History, Theology, and Linguistics.",
+    "An American academy of the humanities, with programs of study in Literature, Classics, History, Theology, and Linguistics.",
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
@@ -33,7 +41,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value);
 
   return (
-    <html lang="en" className={`${display.variable} ${serif.variable}`} data-theme={theme?.id}>
+    <html lang="en" className={`${display.variable} ${caslon.variable} ${serif.variable}`} data-theme={theme?.id}>
       <head>
         <style>{themeStylesheet}</style>
       </head>
@@ -44,15 +52,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <Crest className="brand-mark" />
               <span className="brand-name">
                 Cornerstone
-                <span>Founded MMXXVI</span>
+                <span>Est. 2026</span>
               </span>
             </Link>
             <nav className="nav" aria-label="Primary">
-              <Link href="/faculties">Faculties</Link>
+              <Link href="/faculties">Departments</Link>
               {user ? (
                 <>
                   {isAdmin(user) && <Link href="/admin" className="nav-optional">Admin</Link>}
-                  <Link href="/study" className="nav-strong">My Studies</Link>
+                  <Link href="/study" className="nav-optional">My Studies</Link>
+                  <Link href="/" className="nav-strong">Dashboard</Link>
                   <form action={signOut} className="nav-optional">
                     <button type="submit">Sign out</button>
                   </form>
@@ -60,7 +69,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               ) : (
                 <>
                   <Link href="/login" className="nav-optional">Sign in</Link>
-                  <Link href="/signup" className="nav-strong">Matriculate</Link>
+                  <Link href="/signup" className="nav-strong">Enroll</Link>
                 </>
               )}
             </nav>
@@ -76,7 +85,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <div className="wrap">
             <div className="colophon-inner">
               <p><em>Cornerstone.</em> No degree is conferred; the learning is real.</p>
-              <p className="gold-motto">Tolle, lege.</p>
+              <p className="gold-motto">“I cannot live without books.” <span>Thomas Jefferson</span></p>
             </div>
           </div>
         </footer>

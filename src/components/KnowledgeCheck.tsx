@@ -3,7 +3,6 @@
 import { useState, useTransition } from "react";
 import Link from "next/link";
 import { submitKnowledgeCheck } from "@/app/actions";
-import { toRoman } from "@/lib/roman";
 
 type Result = Awaited<ReturnType<typeof submitKnowledgeCheck>>;
 
@@ -46,7 +45,7 @@ export function KnowledgeCheck({
       {questions.map((q, qi) => (
         <fieldset key={qi} className="question">
           <legend>
-            <span className="numeral">{toRoman(qi + 1).toLowerCase()}.</span>
+            <span className="numeral">{(qi + 1)}.</span>
             <span>{q.prompt}</span>
           </legend>
           <div className="choices">
@@ -87,7 +86,7 @@ export function KnowledgeCheck({
             <p>
               {result.signedIn
                 ? "This lesson is recorded as complete."
-                : <>You passed. <Link href={`/signup?next=/courses/${courseId}/lessons/${lessonIndex + 1}/exercises`}>Matriculate</Link> to have your progress recorded.</>}
+                : <>You passed. <Link href={`/signup?next=/courses/${courseId}/lessons/${lessonIndex + 1}/exercises`}>Enroll</Link> to have your progress recorded.</>}
             </p>
           ) : (
             <p>A lesson is complete at {passingPercent}% or better. Review the lecture and readings, then try again.</p>

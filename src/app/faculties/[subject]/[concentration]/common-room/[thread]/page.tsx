@@ -25,7 +25,7 @@ async function load(params: Params["params"]) {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const found = await load(params);
-  return { title: found ? `${found.opening.title} · Common Room` : "Not found" };
+  return { title: found ? `${found.opening.title} · Commons` : "Not found" };
 }
 
 const when = (t: string) =>
@@ -65,7 +65,7 @@ export default async function ThreadPage({ params }: Params) {
   return (
     <div className="wrap">
       <ConcentrationHeader subject={subject} concentration={concentration} active="common-room" title={opening.title}
-        lede={`A thread in the ${concentration.name} common room · ${replies.length} ${replies.length === 1 ? "reply" : "replies"}`} />
+        lede={`A thread in the ${concentration.name} Commons · ${replies.length} ${replies.length === 1 ? "reply" : "replies"}`} />
       <div className="measure thread" style={{ maxWidth: "46rem" }}>
         {renderPost(opening, true)}
         {replies.map((r) => renderPost(r))}
@@ -74,7 +74,7 @@ export default async function ThreadPage({ params }: Params) {
             <p className="muted"><Link href={`/login?next=${back}`}>Sign in</Link> to reply.</p>
           )}
         </section>
-        <p><Link href={`/faculties/${subject.slug}/${concentration.slug}/common-room`}>← Back to the common room</Link></p>
+        <p><Link href={`/faculties/${subject.slug}/${concentration.slug}/common-room`}>← Back to the Commons</Link></p>
       </div>
     </div>
   );

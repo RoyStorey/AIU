@@ -8,7 +8,6 @@ import { clock } from "@/components/narration/device";
 
 const RATES = [0.8, 1, 1.2, 1.35, 1.5, 1.75, 2];
 const SAMPLE = "In April 1775, British regulars marched out of Boston toward Concord. By nightfall the colonies were at war.";
-const roman = (n: number) => ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][n] ?? String(n);
 
 function Icon({ name }: { name: "play" | "pause" | "back" | "fwd" | "prev" | "next" | "up" | "close" }) {
   const paths: Record<string, React.ReactNode> = {
@@ -69,7 +68,7 @@ export function NarrationBar() {
         <div className="np-sheet" role="dialog" aria-label="Listening options" ref={sheetRef}>
           <div className="np-sheet-head">
             <div>
-              <p className="eyebrow">{m.course.code} · Lesson {roman(m.lesson.number)} · Page {roman(m.page.number).toLowerCase()} of {roman(m.lesson.pages).toLowerCase()}</p>
+              <p className="eyebrow">{m.course.code} · Lesson {(m.lesson.number)} · Page {(m.page.number)} of {(m.lesson.pages)}</p>
               <p className="np-sheet-title">{m.page.title}</p>
             </div>
             <button type="button" className="np-icon" onClick={() => n.openSheet(false)} aria-label="Close options"><Icon name="close" /></button>
@@ -138,7 +137,7 @@ export function NarrationBar() {
             {pageEnded && m.next
               ? <>End of this page. <button type="button" className="btn-link" onClick={() => n.page(1)}>Next page →</button></>
               : notice ?? (waiting && playing ? (mode === "studio" ? "Preparing the narration…" : "Starting…")
-                : finished ? "Finished." : `Lesson ${roman(m.lesson.number)}, page ${roman(m.page.number).toLowerCase()} of ${roman(m.lesson.pages).toLowerCase()} · ${voiceName}${settings.rate !== 1 ? ` · ${rateLabel}` : ""}`)}
+                : finished ? "Finished." : `Lesson ${(m.lesson.number)}, page ${(m.page.number)} of ${(m.lesson.pages)} · ${voiceName}${settings.rate !== 1 ? ` · ${rateLabel}` : ""}`)}
           </p>
         </div>
         <Skip seconds={-15} />
