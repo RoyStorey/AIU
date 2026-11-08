@@ -428,6 +428,73 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "DRA 110": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The “upstart Crow” pamphlet was written by Robert Greene.",
+        note: "Greene's Groatsworth of Wit was published after Greene's death by Henry Chettle, and some scholars have argued that Chettle wrote all or part of it. The lesson calls it “attributed” to Greene.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "John Shakespeare may have been a secret Catholic.",
+        note: "The case rests on a “spiritual testament” found in the eighteenth century (and since lost) and on his recusancy listing, which the record itself attributes to fear of debt. Scholars remain divided; the lesson says the evidence is uncertain.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Shakespeare played the Ghost in Hamlet and old Adam in As You Like It.",
+        note: "Both are traditions first recorded long after his death (by Nicholas Rowe in 1709 and by an eighteenth-century anecdote, respectively). They are plausible but unproven, and the lesson presents them as tradition.",
+      },
+    ],
+    2: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "The Dream was written for an aristocratic wedding.",
+        note: "A long-standing conjecture with several candidate weddings and no direct evidence. The 1600 quarto says it was acted publicly by the Lord Chamberlain's Men, as the lesson notes.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Titania's speech reflects the wet summers of the mid-1590s.",
+        note: "The harvests of 1594–1597 were indeed disastrous, and many editors make the connection, but it is an inference from the speech rather than a documented allusion.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Antonio's love for Sebastian as romantic love.",
+        note: "Some critics read it as erotic, others as the intense male friendship idealized in Renaissance writing. The lesson reports that many modern readers and directors take the first view, without settling the question.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Elizabeth said, “I am Richard II, know ye not that?”",
+        note: "The remark comes from a later account of William Lambarde's audience with the queen in August 1601, first printed in the eighteenth century. It is widely cited but not contemporary, as the lesson indicates.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Falstaff was renamed because the Cobham family objected to “Oldcastle.”",
+        note: "The original name is secure; the reason for the change is inferred from seventeenth-century reports and the epilogue to Part 2. Most scholars accept the Cobham explanation, but it is not directly documented.",
+      },
+    ],
+    5: [
+      {
+        page: 2, kind: "disputed",
+        claim: "The Act 5 Chorus refers to the Earl of Essex.",
+        note: "Most scholars read “the general of our gracious empress” as Essex in 1599. A minority have proposed Lord Mountjoy, who took over in Ireland in 1600, which would date the passage later.",
+      },
+      {
+        page: 4, kind: "corrected",
+        claim: "The casualty figures for Agincourt.",
+        note: "The play follows Holinshed's figure of twenty-five English commoners killed. Modern historians put English losses in the hundreds, still far fewer than the French. The lesson notes that the figures are part of the legend.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "John Wilkes Booth shouted “Sic semper tyrannis.”",
+        note: "Witnesses at Ford's Theatre gave differing accounts of what he cried, and some heard nothing in Latin. Booth's own diary claims the words. The lesson says “according to some witnesses.”",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
