@@ -68,8 +68,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 1.1875rem;
-  line-height: 1.6;
+  font-size: var(--body-size, 1.1875rem);
+  line-height: var(--body-leading, 1.6);
   overflow-wrap: break-word;
   font-variant-numeric: oldstyle-nums proportional-nums;
   -webkit-font-smoothing: antialiased;
@@ -1371,3 +1371,32 @@ button.pace-row:hover { border-color: var(--rule-strong); }
 .theme-select select { width: 100%; }
 .theme-select .theme-description { display: block; margin: 0.5rem 0 0; }
 @media (max-width: 30rem) { .theme-select { grid-template-columns: 1fr; } }
+
+/* ——— Typefaces a student may choose (Account → Appearance) ———
+   Each sets the reading face and, where it suits, the headings; sizes are tuned
+   so every face reads at about the same apparent size as Garamond. */
+:root[data-font="crimson"] {
+  --serif: var(--font-crimson), var(--font-serif), Georgia, serif;
+  --display: var(--font-crimson), var(--font-display), Georgia, serif;
+  --body-size: 1.1875rem;
+}
+:root[data-font="literata"] {
+  --serif: var(--font-literata), var(--font-serif), Georgia, serif;
+  --display: var(--font-literata), var(--font-display), Georgia, serif;
+  --body-size: 1.03rem; --body-leading: 1.7;
+}
+:root[data-font="spectral"] {
+  --serif: var(--font-spectral), var(--font-serif), Georgia, serif;
+  --display: var(--font-spectral), var(--font-display), Georgia, serif;
+  --body-size: 1.06rem; --body-leading: 1.7;
+}
+:root[data-font="sans"] {
+  --serif: var(--font-sans), system-ui, sans-serif;
+  --body-size: 1.06rem; --body-leading: 1.65;
+}
+:root[data-font="literata"] h1, :root[data-font="literata"] h2,
+:root[data-font="spectral"] h1, :root[data-font="spectral"] h2 { font-weight: 400; letter-spacing: -0.01em; }
+:root[data-font="sans"] .nav a, :root[data-font="sans"] .nav button { letter-spacing: 0.08em; }
+.typeface-select { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.typeface-select select { width: 100%; }
+.typeface-sample { margin: 0.75rem 0 0.25rem; font-size: 1.15rem; font-style: italic; color: var(--ink-soft); }

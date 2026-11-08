@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Cormorant_Garamond, EB_Garamond } from "next/font/google";
+import { Cormorant_Garamond, Crimson_Pro, EB_Garamond, Literata, Source_Sans_3, Spectral } from "next/font/google";
 import { Crest } from "@/components/Crest";
 import { cookies } from "next/headers";
 import { currentUser, isAdmin } from "@/lib/auth";
 import { THEME_COOKIE, findTheme, themeStylesheet } from "@/lib/themes";
+import { FONT_COOKIE, findTypeface } from "@/lib/typefaces";
 import { MainNav } from "@/components/MainNav";
 import { NarrationProvider } from "@/components/narration/NarrationProvider";
 import "./globals.css";
@@ -22,6 +23,13 @@ const serif = EB_Garamond({
   variable: "--font-serif",
 });
 
+// The optional typefaces are not preloaded: a browser fetches one only when a student chooses it.
+const crimson = Crimson_Pro({ subsets: ["latin", "latin-ext"], style: ["normal", "italic"], variable: "--font-crimson", preload: false });
+const literata = Literata({ subsets: ["latin", "latin-ext"], style: ["normal", "italic"], axes: ["opsz"], variable: "--font-literata", preload: false });
+const spectral = Spectral({ subsets: ["latin", "latin-ext"], weight: ["300", "400", "500", "600"], style: ["normal", "italic"], variable: "--font-spectral", preload: false });
+const sans = Source_Sans_3({ subsets: ["latin", "latin-ext"], style: ["normal", "italic"], variable: "--font-sans", preload: false });
+const optional = [crimson, literata, spectral, sans].map((f) => f.variable).join(" ");
+
 export const metadata: Metadata = {
   title: { default: "Cornerstone", template: "%s · Cornerstone" },
   description:
@@ -30,10 +38,12 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const user = await currentUser();
-  const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value);
+  const jar = await cookies();
+  const theme = findTheme(jar.get(THEME_COOKIE)?.value);
+  const font = findTypeface(jar.get(FONT_COOKIE)?.value);
 
   return (
-    <html lang="en" className={`${display.variable} ${serif.variable}`} data-theme={theme?.id}>
+    <html lang="en" className={`${display.variable} ${serif.variable} ${optional}`} data-theme={theme?.id} data-font={font?.id}>
       <head>
         <style>{themeStylesheet}</style>
       </head>
