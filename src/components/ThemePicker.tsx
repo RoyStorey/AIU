@@ -14,13 +14,19 @@ const OPTIONS: Option[] = [
 
 const GROUPS: { tone: Tone; label: string }[] = [
   { tone: "light", label: "Light" },
-  { tone: "dusk", label: "Dusk — mid-dark, easier on the eyes than full night" },
+  { tone: "soft", label: "Soft — muted, gentler than white" },
+  { tone: "dusk", label: "Dusk — mid-dark, easier than full night" },
   { tone: "dark", label: "Dark" },
 ];
 
-/** Applies a palette at once and remembers it in a cookie, so every page renders in it. */
+/**
+ * A palette chooser: one dropdown, grouped by tone, with a small preview of the
+ * chosen palette. The palette applies at once and is remembered in a cookie,
+ * so every page renders in it.
+ */
 export function ThemePicker({ current }: { current: string }) {
   const [active, setActive] = useState(current);
+  const chosen = OPTIONS.find((o) => o.id === active) ?? OPTIONS[0];
 
   function choose(id: string) {
     setActive(id);
@@ -34,34 +40,26 @@ export function ThemePicker({ current }: { current: string }) {
     }
   }
 
+  const { swatch } = chosen;
   return (
-    <div role="radiogroup" aria-label="Color theme">
-      {GROUPS.map(({ tone, label }) => (
-        <div key={tone} className="theme-group">
-          <h3 className="theme-group-label">{label}</h3>
-          <div className="themes">
-            {OPTIONS.filter((o) => o.tone === tone).map(({ id, name, description, swatch }) => (
-              <button
-                key={id}
-                type="button"
-                role="radio"
-                aria-checked={active === id}
-                className={`theme-option${active === id ? " active" : ""}`}
-                onClick={() => choose(id)}
-              >
-                <span className="theme-swatch" style={{ background: swatch.paper }} aria-hidden="true">
-                  <span className="theme-swatch-title" style={{ color: swatch.ink }}>Aa</span>
-                  <span className="theme-swatch-accent" style={{ background: swatch.accent }} />
-                  <span className="theme-swatch-gold" style={{ background: swatch.gold }} />
-                  <span className="theme-swatch-band" style={{ background: swatch.band, borderTopColor: swatch.gold }} />
-                </span>
-                <span className="theme-name">{name}</span>
-                <span className="theme-description">{description}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      ))}
+    <div className="theme-select">
+      <span className="theme-swatch" style={{ background: swatch.paper }} aria-hidden="true">
+        <span className="theme-swatch-title" style={{ color: swatch.ink }}>Aa</span>
+        <span className="theme-swatch-accent" style={{ background: swatch.accent }} />
+        <span className="theme-swatch-gold" style={{ background: swatch.gold }} />
+        <span className="theme-swatch-band" style={{ background: swatch.band, borderTopColor: swatch.gold }} />
+      </span>
+      <div className="field">
+        <label htmlFor="theme">Palette</label>
+        <select id="theme" value={active} onChange={(e) => choose(e.target.value)}>
+          {GROUPS.map(({ tone, label }) => (
+            <optgroup key={tone} label={label}>
+              {OPTIONS.filter((o) => o.tone === tone).map((o) => <option key={o.id} value={o.id}>{o.name}</option>)}
+            </optgroup>
+          ))}
+        </select>
+        <p className="theme-description">{chosen.description} Remembered on this device.</p>
+      </div>
     </div>
   );
 }

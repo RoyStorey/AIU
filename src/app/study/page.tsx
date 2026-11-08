@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { signOut, withdrawFrom } from "@/app/actions";
-import { PasswordForm, ProfileForm } from "@/components/Forms";
+import { ConfirmButton, PasswordForm, ProfileForm } from "@/components/Forms";
 import { ThemePicker } from "@/components/ThemePicker";
 import { requireUser } from "@/lib/auth";
 import { getStudent } from "@/lib/people";
@@ -12,9 +12,8 @@ import { DEFAULT_THEME, THEME_COOKIE, findTheme } from "@/lib/themes";
 export const metadata: Metadata = { title: "Account" };
 
 /**
- * The student's account: profile, appearance, and the programs they have
- * declared. Progress and plans live on the dashboard; this page is for
- * settings only.
+ * The student's account: profile, password, declared programs, and palette.
+ * Progress and plans live on the dashboard; this page is for settings only.
  */
 export default async function Account() {
   const user = await requireUser("/study");
@@ -22,77 +21,65 @@ export default async function Account() {
   const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value)?.id ?? DEFAULT_THEME.id;
   const since = new Date(user.created_at.replace(" ", "T") + "Z").toLocaleDateString("en-US", { month: "long", year: "numeric" });
   const profile = getStudent(user.id)!;
-  const declared = (at: string) => new Date(at.replace(" ", "T") + "Z").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 
   return (
-    <div className="wrap">
-      <header className="page-head">
-        <p className="eyebrow">Student since {since}</p>
-        <h1>Account</h1>
-        <p className="lede">Your profile, the look of the site, and the programs you have declared. Your progress and plans are on your <Link href="/">dashboard</Link>.</p>
+    <div className="wrap account">
+      <header className="account-head">
+        <div>
+          <p className="eyebrow">Student since {since} · {user.email}</p>
+          <h1>Account</h1>
+        </div>
         <p className="study-links">
-          <Link href={`/students/${user.id}`}>Your public profile</Link>
-          <Link href="/study/notes">Your commonplace book</Link>
+          <Link href="/">Dashboard</Link>
+          <Link href={`/students/${user.id}`}>Public profile</Link>
+          <Link href="/study/notes">Commonplace book</Link>
         </p>
       </header>
 
-      <section className="section" style={{ paddingTop: 0 }} id="profile">
-        <div className="section-head">
-          <h2>Profile</h2>
-          <span className="eyebrow"><Link href={`/students/${user.id}`}>View it</Link></span>
-        </div>
-        <div className="measure"><ProfileForm name={user.name} bio={profile.bio} visibility={profile.visibility} /></div>
-      </section>
+      <div className="account-grid">
+        <section aria-labelledby="profile-head" id="profile">
+          <h2 id="profile-head">Profile</h2>
+          <ProfileForm name={user.name} bio={profile.bio} visibility={profile.visibility} />
+        </section>
 
-      <section className="section" id="password">
-        <div className="section-head">
-          <h2>Password</h2>
-          <span className="eyebrow">Signed in as {user.email}</span>
-        </div>
-        <div className="measure"><PasswordForm /></div>
-      </section>
+        <section aria-labelledby="password-head" id="password">
+          <h2 id="password-head">Password</h2>
+          <PasswordForm />
+        </section>
 
-      <section className="section" id="programs">
-        <div className="section-head">
-          <h2>Declared programs</h2>
-          <span className="eyebrow"><Link href="/faculties">Declare another →</Link></span>
-        </div>
-        {programs.length === 0 ? (
-          <p className="muted measure">You have not declared a concentration. Visit the <Link href="/faculties">Faculties</Link> to choose one.</p>
-        ) : (
-          <ul className="account-programs">
-            {programs.map(({ concentration, declared_at }) => (
-              <li key={concentration.id}>
-                <div>
-                  <Link href={`/faculties/${concentration.subject_slug}/${concentration.slug}`}>{concentration.name}</Link>
-                  <span className="muted"> · Faculty of {concentration.subject_name} · declared {declared(declared_at)}</span>
-                </div>
-                <form action={withdrawFrom.bind(null, concentration.id)}>
-                  <button type="submit" className="link-button">Withdraw</button>
-                </form>
-              </li>
-            ))}
-          </ul>
-        )}
-        <p className="muted measure" style={{ fontSize: "0.95rem", marginTop: "1rem" }}>
-          Withdrawing removes a program from your dashboard. Lessons you have completed stay on your record.
-        </p>
-      </section>
+        <section aria-labelledby="programs-head" id="programs">
+          <h2 id="programs-head">Declared programs</h2>
+          {programs.length === 0 ? (
+            <p className="muted">None yet. <Link href="/faculties">Visit the Faculties →</Link></p>
+          ) : (
+            <ul className="account-programs">
+              {programs.map(({ concentration }) => (
+                <li key={concentration.id}>
+                  <div>
+                    <Link href={`/faculties/${concentration.subject_slug}/${concentration.slug}`}>{concentration.name}</Link>
+                    <span className="muted"> · {concentration.subject_name}</span>
+                  </div>
+                  <ConfirmButton
+                    action={withdrawFrom.bind(null, concentration.id)}
+                    label="Withdraw"
+                    question={`Withdraw from ${concentration.name}? It will leave your dashboard. The lessons you have completed stay on your record, and you can declare it again at any time.`}
+                  />
+                </li>
+              ))}
+            </ul>
+          )}
+          <p className="account-note"><Link href="/faculties">Declare another →</Link></p>
+        </section>
 
-      <section className="section">
-        <div className="section-head">
-          <h2>Appearance</h2>
-          <span className="eyebrow">Eighteen house palettes</span>
-        </div>
-        <p className="muted measure">Choose a palette to see the whole site in it. Your choice is remembered on this device.</p>
-        <ThemePicker current={theme} />
-      </section>
+        <section aria-labelledby="appearance-head">
+          <h2 id="appearance-head">Appearance</h2>
+          <ThemePicker current={theme} />
+        </section>
+      </div>
 
-      <section className="section">
-        <form action={signOut}>
-          <button type="submit" className="button quiet">Sign out</button>
-        </form>
-      </section>
+      <form action={signOut} className="account-signout">
+        <button type="submit" className="link-button">Sign out</button>
+      </form>
     </div>
   );
 }

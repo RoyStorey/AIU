@@ -147,4 +147,4 @@ src/
 
 ## Appearance
 
-My Studies has an **Appearance** section with nine house palettes: Navy & Gold (the default, which follows the device's light or dark setting), Oxford Stone, Forest & Brass, Claret & Slate, Venetian Teal & Bronze, Ivory & Oxblood, Graphite & Silver, Midnight Library, and Reading Room. The choice is stored in a cookie and applies to every page. Palettes are defined in `src/lib/themes.ts`; the default lives in `:root` in `src/app/globals.css`.
+The Account page has an **Appearance** dropdown of house palettes in four tones: **Light** (Navy & Gold, the default, which follows the device's light or dark setting, and seven more), **Soft** (muted mid-light papers gentler than white: Linen & Ink, Dove Grey, Sage Mist, Sandstone, Evening Lavender), **Dusk** (mid-dark), and **Dark**. The choice is stored in a cookie and applies to every page. Palettes are defined in `src/lib/themes.ts`; the default lives in `:root` in `src/app/globals.css`. A separate set of five course colors (`--cat-1` to `--cat-5`), deeper on light papers and lighter on dark, keeps the study calendar's courses distinct in every palette.

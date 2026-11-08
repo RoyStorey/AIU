@@ -24,6 +24,9 @@
   --display: var(--font-display), "Cormorant Garamond", Garamond, serif;
   --serif: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
 
+  /* Five distinct hues for telling courses apart (the study calendar), whatever the theme's accent. */
+  --cat-1: #2f5d9e; --cat-2: #b07a1f; --cat-3: #2f7d5b; --cat-4: #a8433a; --cat-5: #6d4f9c;
+
   --measure: 40rem;
   --page: 72rem;
   --gutter: clamp(1rem, 4vw, 2.5rem);
@@ -31,6 +34,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --cat-1: #8fb4ec; --cat-2: #e2b665; --cat-3: #8fd1ac; --cat-4: #ef9a8d; --cat-5: #c1a5ea;
     --paper: #0a1322;
     --paper-raised: #101c31;
     --paper-sunk: #070e1a;
@@ -181,7 +185,7 @@ img, svg { display: block; max-width: 100%; }
   cursor: pointer;
 }
 .nav a:hover, .nav button:hover { color: var(--accent); }
-.nav .nav-strong { color: var(--accent); }
+.nav a[aria-current="page"] { color: var(--accent); box-shadow: 0 1px 0 var(--gold); }
 
 @media (max-width: 40rem) {
   .brand-name { font-size: 1.05rem; }
@@ -1298,11 +1302,11 @@ button.pace-row:hover { border-color: var(--rule-strong); }
 .cal-day.is-finish { box-shadow: inset 0 0 0 1.5px var(--gold); background: color-mix(in srgb, var(--gold) 9%, var(--paper)); }
 .cal-day.is-finish::after { content: "✓"; position: absolute; top: 0.2rem; right: 0.35rem; font-size: 0.75rem; color: var(--gold); }
 .cal-dots { display: flex; gap: 3px; flex-wrap: wrap; }
-.cal-dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); flex: none; }
-.cal-dot.c1 { background: var(--gold); }
-.cal-dot.c2 { background: var(--success); }
-.cal-dot.c3 { background: var(--danger); }
-.cal-dot.c4 { background: color-mix(in srgb, var(--ink) 55%, var(--paper)); }
+.cal-dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--cat-1); flex: none; }
+.cal-dot.c1 { background: var(--cat-2); }
+.cal-dot.c2 { background: var(--cat-3); }
+.cal-dot.c3 { background: var(--cat-4); }
+.cal-dot.c4 { background: var(--cat-5); }
 .cal-legend { list-style: none; margin: 1.1rem 0 0; padding: 0.9rem 0 0; border-top: 1px solid var(--rule); }
 .cal-legend li { display: grid; grid-template-columns: 0.9rem 1fr; gap: 0 0.6rem; align-items: baseline; padding: 0.3rem 0; }
 .cal-legend .cal-dot { transform: translateY(-1px); }
@@ -1337,3 +1341,33 @@ button.pace-row:hover { border-color: var(--rule-strong); }
 .admin-post-title { margin: 0.25rem 0 0.35rem; }
 .admin-post-body { margin: 0; color: var(--ink-soft); font-size: 0.98rem; white-space: pre-line; }
 .account-programs .link-button { white-space: nowrap; }
+
+/* ——— Content still being written: present, but quietly set back ——— */
+.course-row.is-preparing,
+.card.is-preparing,
+.syllabus .planned > summary { opacity: 0.55; filter: grayscale(0.6); transition: opacity 0.2s ease, filter 0.2s ease; }
+.course-row.is-preparing:hover,
+.card.is-preparing:hover,
+.syllabus .planned > summary:hover,
+.syllabus .planned[open] > summary { opacity: 0.9; filter: none; }
+.card.is-preparing { background: transparent; border-style: dashed; }
+.course-row.is-preparing .mark.in-prep { opacity: 1; }
+
+/* ——— Account: two compact columns ——— */
+.account { padding-bottom: 3rem; }
+.account-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0.5rem 2rem; padding: clamp(2.25rem, 5vw, 3.25rem) 0 1.25rem; border-bottom: 1px solid var(--rule-strong); }
+.account-head h1 { font-size: clamp(2.2rem, 5vw, 3rem); margin-top: 0.3rem; }
+.account-head .study-links { margin: 0; }
+.account-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem 3.5rem; margin-top: 2rem; }
+@media (max-width: 52rem) { .account-grid { grid-template-columns: 1fr; gap: 2.25rem; } }
+.account-grid h2 { font-size: 1.5rem; margin-bottom: 0.9rem; }
+.account-grid .field { margin-bottom: 0.9rem; }
+.account-grid textarea { min-height: 5.5rem; }
+.account-note { margin: 0.75rem 0 0; font-size: 0.97rem; }
+.account-signout { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.account-signout .link-button { color: var(--muted); font-size: 0.97rem; }
+.theme-select { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 1.25rem; align-items: start; }
+.theme-select .theme-swatch { height: 6rem; margin: 0; }
+.theme-select select { width: 100%; }
+.theme-select .theme-description { display: block; margin: 0.5rem 0 0; }
+@media (max-width: 30rem) { .theme-select { grid-template-columns: 1fr; } }

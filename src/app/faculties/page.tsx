@@ -28,7 +28,7 @@ export default function Faculties() {
           </div>
           <div className="grid">
             {listConcentrations(s.slug).map((c) => (
-              <Link key={c.id} href={`/faculties/${s.slug}/${c.slug}`} className="card">
+              <Link key={c.id} href={`/faculties/${s.slug}/${c.slug}`} className={c.courses > 0 && c.open === 0 ? "card is-preparing" : "card"}>
                 <span className="eyebrow">{s.name}</span>
                 <h3>{c.name}</h3>
                 <p>{c.description}</p>

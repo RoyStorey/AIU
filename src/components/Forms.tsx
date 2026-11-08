@@ -330,3 +330,17 @@ export function ReplyForm({ threadId, back }: { threadId: number; back: string }
     </form>
   );
 }
+
+/** A small form button that asks before doing something that cannot be undone. */
+export function ConfirmButton({ action, label, question, className = "link-button" }: {
+  action: () => Promise<void>;
+  label: string;
+  question: string;
+  className?: string;
+}) {
+  return (
+    <form action={action} onSubmit={(e) => { if (!window.confirm(question)) e.preventDefault(); }}>
+      <button type="submit" className={className}>{label}</button>
+    </form>
+  );
+}

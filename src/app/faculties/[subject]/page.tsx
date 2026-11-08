@@ -43,7 +43,7 @@ export default async function SubjectPage({ params }: Params) {
         </div>
         <div className="grid">
           {concentrations.map((c) => (
-            <Link key={c.id} href={`/faculties/${subject.slug}/${c.slug}`} className="card">
+            <Link key={c.id} href={`/faculties/${subject.slug}/${c.slug}`} className={c.courses > 0 && c.open === 0 ? "card is-preparing" : "card"}>
               <span className="eyebrow">{c.origin === "seed" ? "Concentration" : "Proposed by a student"}</span>
               <h3>{c.name}</h3>
               <p>{c.description}</p>

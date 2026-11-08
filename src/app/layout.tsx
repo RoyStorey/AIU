@@ -5,7 +5,7 @@ import { Crest } from "@/components/Crest";
 import { cookies } from "next/headers";
 import { currentUser, isAdmin } from "@/lib/auth";
 import { THEME_COOKIE, findTheme, themeStylesheet } from "@/lib/themes";
-import { signOut } from "@/app/actions";
+import { MainNav } from "@/components/MainNav";
 import { NarrationProvider } from "@/components/narration/NarrationProvider";
 import "./globals.css";
 
@@ -47,24 +47,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 <span>Est. 2026</span>
               </span>
             </Link>
-            <nav className="nav" aria-label="Primary">
-              <Link href="/faculties">Faculties</Link>
-              {user ? (
-                <>
-                  {isAdmin(user) && <Link href="/admin" className="nav-optional">Admin</Link>}
-                  <Link href="/" className="nav-strong">Dashboard</Link>
-                  <Link href="/study" className="nav-optional">Account</Link>
-                  <form action={signOut} className="nav-optional">
-                    <button type="submit">Sign out</button>
-                  </form>
-                </>
-              ) : (
-                <>
-                  <Link href="/login" className="nav-optional">Sign in</Link>
-                  <Link href="/signup" className="nav-strong">Enroll</Link>
-                </>
-              )}
-            </nav>
+            <MainNav signedIn={!!user} admin={isAdmin(user)} />
           </div>
           <div className="wrap"><hr className="rule-double" /></div>
         </header>

@@ -15,8 +15,8 @@ type Tokens = {
   band: string; "band-ink": string; "band-muted": string; "band-gold": string;
 };
 
-/** light; dusk = mid-dark, softer than full night; dark = deep night. */
-export type Tone = "light" | "dusk" | "dark";
+/** light; soft = muted mid-light paper, gentler than white; dusk = mid-dark, softer than full night; dark = deep night. */
+export type Tone = "light" | "soft" | "dusk" | "dark";
 
 export type Theme = { id: string; name: string; description: string; scheme: "light" | "dark"; tone?: Tone; tokens: Tokens };
 
@@ -115,6 +115,31 @@ export const THEMES: Theme[] = [
     },
   },
   {
+    id: "linen", name: "Linen & Ink", scheme: "light", tone: "soft",
+    description: "Warm linen with dusty navy; no bright white anywhere.",
+    tokens: { paper: "#e9e4d9", "paper-raised": "#efebe2", "paper-sunk": "#e0d9cb", ink: "#2c2a26", "ink-soft": "#4b4740", muted: "#736d63", rule: "#d6cebf", "rule-strong": "#b6ac9b", accent: "#3b4d6b", "accent-soft": "#556786", gold: "#93743a", success: "#3d6a50", danger: "#963b31", band: "#3a3f4a", "band-ink": "#efebe2", "band-muted": "#c2bfb7", "band-gold": "#d6b86f" },
+  },
+  {
+    id: "dove", name: "Dove Grey", scheme: "light", tone: "soft",
+    description: "Cool, quiet grey with slate blue.",
+    tokens: { paper: "#e4e6e8", "paper-raised": "#eceef0", "paper-sunk": "#d9dde0", ink: "#24282d", "ink-soft": "#434950", muted: "#6b737c", rule: "#cdd2d6", "rule-strong": "#aab1b8", accent: "#36567a", "accent-soft": "#4f6f91", gold: "#927641", success: "#3c6a52", danger: "#963d34", band: "#323942", "band-ink": "#eceef0", "band-muted": "#b6bdc5", "band-gold": "#d2b676" },
+  },
+  {
+    id: "sage-mist", name: "Sage Mist", scheme: "light", tone: "soft",
+    description: "Pale sage and fern green, like morning in a garden.",
+    tokens: { paper: "#e3e8df", "paper-raised": "#ebefe7", "paper-sunk": "#d9dfd4", ink: "#252b25", "ink-soft": "#444e44", muted: "#6c766a", rule: "#ccd4c7", "rule-strong": "#a8b2a3", accent: "#3a5f4b", "accent-soft": "#527764", gold: "#90763f", success: "#3a6a4c", danger: "#953c33", band: "#31403a", "band-ink": "#ebefe7", "band-muted": "#b6c2b9", "band-gold": "#d1b571" },
+  },
+  {
+    id: "sandstone", name: "Sandstone", scheme: "light", tone: "soft",
+    description: "Warm sand with terracotta, like an old courthouse in the sun.",
+    tokens: { paper: "#ebe2d4", "paper-raised": "#f1e9dd", "paper-sunk": "#e1d6c4", ink: "#2e2822", "ink-soft": "#4f463e", muted: "#7a6f62", rule: "#d8cab5", "rule-strong": "#b9a890", accent: "#7a4a2e", "accent-soft": "#93603f", gold: "#97762f", success: "#3f6a4b", danger: "#9a3a2e", band: "#3f3128", "band-ink": "#f1e9dd", "band-muted": "#c9bcab", "band-gold": "#d9b46a" },
+  },
+  {
+    id: "lavender", name: "Evening Lavender", scheme: "light", tone: "soft",
+    description: "Lavender-grey with deep violet ink.",
+    tokens: { paper: "#e6e3eb", "paper-raised": "#eeebf1", "paper-sunk": "#dcd8e3", ink: "#28252e", "ink-soft": "#47434f", muted: "#716c7d", rule: "#d1ccda", "rule-strong": "#aea8bb", accent: "#4a4373", "accent-soft": "#625b8b", gold: "#937544", success: "#3c6a52", danger: "#963b36", band: "#34304a", "band-ink": "#eeebf1", "band-muted": "#bfbacb", "band-gold": "#d4b878" },
+  },
+  {
     id: "slate-dusk", name: "Slate Dusk", scheme: "dark", tone: "dusk",
     description: "Blue-grey evening slate, sky-blue links, soft gold.",
     tokens: { paper: "#2c3340", "paper-raised": "#343c4b", "paper-sunk": "#252b36", ink: "#eef1f5", "ink-soft": "#cfd6e0", muted: "#a3adbb", rule: "#3e4757", "rule-strong": "#586377", accent: "#9fc0ea", "accent-soft": "#bcd3f0", gold: "#dcbc7a", success: "#a6dbb5", danger: "#f2a99c", band: "#222833", "band-ink": "#eef1f5", "band-muted": "#a3adbb", "band-gold": "#dcbc7a" },
@@ -171,7 +196,14 @@ export const DEFAULT_THEME = {
 
 export const findTheme = (id: string | undefined) => THEMES.find((t) => t.id === id);
 
+/** Hues for telling courses apart, deeper on light paper and lighter on dark. */
+const CATEGORIES = {
+  light: ["#2f5d9e", "#b07a1f", "#2f7d5b", "#a8433a", "#6d4f9c"],
+  dark: ["#8fb4ec", "#e2b665", "#8fd1ac", "#ef9a8d", "#c1a5ea"],
+};
+
 export const themeStylesheet = THEMES.map(({ id, scheme, tokens }) => {
   const vars = Object.entries(tokens).map(([k, v]) => `--${k}:${v}`).join(";");
-  return `:root[data-theme="${id}"]{${vars};color-scheme:${scheme}}`;
+  const cats = CATEGORIES[scheme].map((c, i) => `--cat-${i + 1}:${c}`).join(";");
+  return `:root[data-theme="${id}"]{${vars};${cats};color-scheme:${scheme}}`;
 }).join("\n");
