@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: "Sign in" };
 
 export default async function Login({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
   const { next } = await searchParams;
-  if (await currentUser()) redirect(next ?? "/");
+  if (await currentUser()) redirect(next ?? "/dashboard");
   return (
     <div className="wrap">
       <div className="auth">

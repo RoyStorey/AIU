@@ -7,12 +7,12 @@ import { signOut } from "@/app/actions";
 /**
  * The site's main navigation. Only the section the reader is in takes the
  * accent color: Faculties for the catalogue and its courses, Dashboard for the
- * front page, Account for settings and notes, Admin for administration.
+ * student's own page, Account for settings and notes, Admin for administration.
  */
 export function MainNav({ signedIn, admin }: { signedIn: boolean; admin: boolean }) {
   const path = usePathname() ?? "/";
   const section =
-    path === "/" ? "dashboard"
+    path.startsWith("/dashboard") ? "dashboard"
     : path.startsWith("/admin") ? "admin"
     : path.startsWith("/study") ? "account"
     : path.startsWith("/faculties") || path.startsWith("/courses") || path.startsWith("/capstones") ? "faculties"
@@ -27,7 +27,7 @@ export function MainNav({ signedIn, admin }: { signedIn: boolean; admin: boolean
       {signedIn ? (
         <>
           {admin && <Link href="/admin" className="nav-optional" aria-current={current("admin")}>Admin</Link>}
-          <Link href="/" className="nav-strong" aria-current={current("dashboard")}>Dashboard</Link>
+          <Link href="/dashboard" className="nav-strong" aria-current={current("dashboard")}>Dashboard</Link>
           <Link href="/study" className="nav-optional" aria-current={current("account")}>Account</Link>
           <form action={signOut} className="nav-optional">
             <button type="submit">Sign out</button>

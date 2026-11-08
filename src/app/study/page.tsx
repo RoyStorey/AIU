@@ -30,7 +30,7 @@ export default async function Account() {
           <h1>Account</h1>
         </div>
         <p className="study-links">
-          <Link href="/">Dashboard</Link>
+          <Link href="/dashboard">Dashboard</Link>
           <Link href={`/students/${user.id}`}>Public profile</Link>
           <Link href="/study/notes">Commonplace book</Link>
         </p>

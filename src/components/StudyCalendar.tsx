@@ -56,7 +56,7 @@ export function StudyCalendar({ courses, plans, chosen }: { courses: CourseInfo[
 
   const choose = (id: PaceId) => {
     setPace(id);
-    startTransition(() => { void choosePace(id, "/"); });
+    startTransition(() => { void choosePace(id, "/dashboard"); });
   };
 
   return (

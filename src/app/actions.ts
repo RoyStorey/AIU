@@ -37,7 +37,7 @@ export type FormState = { error?: string; notice?: string; nonce?: number } | un
 const text = (form: FormData, key: string) => String(form.get(key) ?? "").trim();
 
 /** Only same-site paths may be used as a post-sign-in destination. */
-const safeNext = (next: string) => (next.startsWith("/") && !next.startsWith("//") ? next : "/");
+const safeNext = (next: string) => (next.startsWith("/") && !next.startsWith("//") ? next : "/dashboard");
 
 // ——— Enrollment ———
 
@@ -109,7 +109,7 @@ export async function withdrawFrom(concentrationId: number) {
   const user = await requireUser();
   withdraw(user.id, concentrationId);
   revalidatePath("/study");
-  revalidatePath("/");
+  revalidatePath("/dashboard");
 }
 
 export async function proposeConcentration(_: FormState, form: FormData): Promise<FormState> {
@@ -148,7 +148,7 @@ export async function choosePace(pace: PaceId, path: string) {
   const user = await requireUser(path);
   savePace(user.id, pace);
   revalidatePath(path);
-  revalidatePath("/");
+  revalidatePath("/dashboard");
 }
 
 // ——— Courses and lessons ———
