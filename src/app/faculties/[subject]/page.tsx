@@ -10,7 +10,7 @@ type Params = { params: Promise<{ subject: string }> };
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const subject = getSubject((await params).subject);
-  return { title: subject ? `Department of ${subject.name}` : "Not found" };
+  return { title: subject ? `Faculty of ${subject.name}` : "Not found" };
 }
 
 export default async function SubjectPage({ params }: Params) {
@@ -24,9 +24,9 @@ export default async function SubjectPage({ params }: Params) {
     <div className="wrap">
       <header className="page-head">
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link href="/faculties">Departments</Link>
+          <Link href="/faculties">Faculties</Link>
         </nav>
-        <h1>Department of {subject.name}</h1>
+        <h1>Faculty of {subject.name}</h1>
         <p className="lede">{subject.description}</p>
         {subject.epigraph && (
           <blockquote className="epigraph">

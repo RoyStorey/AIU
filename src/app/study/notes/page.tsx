@@ -15,7 +15,7 @@ export default async function Notes() {
   return (
     <div className="wrap">
       <header className="page-head">
-        <nav className="crumbs" aria-label="Breadcrumb"><Link href="/study">My Studies</Link></nav>
+        <nav className="crumbs" aria-label="Breadcrumb"><Link href="/">Dashboard</Link></nav>
         <h1>Commonplace Book</h1>
         <p className="lede">
           Your notes from every lesson page, gathered in course order: the lines worth keeping, the questions, the

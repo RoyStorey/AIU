@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { EB_Garamond, Libre_Caslon_Display, Libre_Caslon_Text } from "next/font/google";
+import { EB_Garamond, Source_Serif_4 } from "next/font/google";
 import { Crest } from "@/components/Crest";
 import { cookies } from "next/headers";
 import { currentUser, isAdmin } from "@/lib/auth";
@@ -9,21 +9,15 @@ import { signOut } from "@/app/actions";
 import { NarrationProvider } from "@/components/narration/NarrationProvider";
 import "./globals.css";
 
-/** Caslon: the face in which the Declaration of Independence was first printed. */
-const display = Libre_Caslon_Display({
+/** Source Serif: a book face with optical sizes, so headings take a finer, display cut on their own. */
+const book = Source_Serif_4({
   subsets: ["latin", "latin-ext"],
-  weight: "400",
-  variable: "--font-display",
-});
-
-const caslon = Libre_Caslon_Text({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "700"],
   style: ["normal", "italic"],
-  variable: "--font-caslon",
+  axes: ["opsz"],
+  variable: "--font-book",
 });
 
-/** Kept for Greek and other characters Caslon does not carry. */
+/** Kept for Greek and other characters the book face does not carry. */
 const serif = EB_Garamond({
   subsets: ["latin", "latin-ext", "greek"],
   style: ["normal", "italic"],
@@ -41,7 +35,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const theme = findTheme((await cookies()).get(THEME_COOKIE)?.value);
 
   return (
-    <html lang="en" className={`${display.variable} ${caslon.variable} ${serif.variable}`} data-theme={theme?.id}>
+    <html lang="en" className={`${book.variable} ${serif.variable}`} data-theme={theme?.id}>
       <head>
         <style>{themeStylesheet}</style>
       </head>
@@ -56,12 +50,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               </span>
             </Link>
             <nav className="nav" aria-label="Primary">
-              <Link href="/faculties">Departments</Link>
+              <Link href="/faculties">Faculties</Link>
               {user ? (
                 <>
                   {isAdmin(user) && <Link href="/admin" className="nav-optional">Admin</Link>}
-                  <Link href="/study" className="nav-optional">My Studies</Link>
                   <Link href="/" className="nav-strong">Dashboard</Link>
+                  <Link href="/study" className="nav-optional">Account</Link>
                   <form action={signOut} className="nav-optional">
                     <button type="submit">Sign out</button>
                   </form>

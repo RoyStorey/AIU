@@ -149,7 +149,7 @@ export function ProfileForm({ bio, visibility }: { bio: string; visibility: "pub
       </div>
       <fieldset className="field radio-row">
         <legend>Who may see your profile</legend>
-        <label><input type="radio" name="visibility" value="public" defaultChecked={visibility === "public"} /> Everyone: your standing, capstones, and common-room posts</label>
+        <label><input type="radio" name="visibility" value="public" defaultChecked={visibility === "public"} /> Everyone: your standing, capstones, and posts in the Commons</label>
         <label><input type="radio" name="visibility" value="private" defaultChecked={visibility === "private"} /> Only you</label>
       </fieldset>
       <Submit pending="Saving…">Save profile</Submit>

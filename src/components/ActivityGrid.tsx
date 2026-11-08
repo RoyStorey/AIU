@@ -3,7 +3,7 @@
  * for more done that day (lessons completed, essays, capstones, posts, and
  * reports). Hover a cell for its count.
  */
-export function ActivityGrid({ counts, weeks = 26 }: { counts: Map<string, number>; weeks?: number }) {
+export function ActivityGrid({ counts, weeks = 26, fluid = false }: { counts: Map<string, number>; weeks?: number; fluid?: boolean }) {
   const cell = 11;
   const step = cell + 3;
   const today = new Date();
@@ -31,9 +31,9 @@ export function ActivityGrid({ counts, weeks = 26 }: { counts: Map<string, numbe
   const days = [...counts.values()].filter((n) => n > 0).length;
 
   return (
-    <figure className="activity">
+    <figure className={fluid ? "activity activity-fluid" : "activity"}>
       <div className="activity-scroll">
-        <svg viewBox={`0 0 ${weeks * step} ${7 * step + 16}`} width={weeks * step} height={7 * step + 16} role="img"
+        <svg viewBox={`0 0 ${weeks * step} ${7 * step + 16}`} width={fluid ? undefined : weeks * step} height={fluid ? undefined : 7 * step + 16} role="img"
           aria-label={`${total} activities on ${days} days in the last ${weeks} weeks`}>
           {months.map((m) => <text key={m.x} x={m.x} y={10} className="activity-month">{m.label}</text>)}
           {cells.map((c) => (

@@ -21,10 +21,10 @@
   --band-muted: #b9c4da;
   --band-gold: #e0c171;
 
-  /* Caslon, the face of the Declaration of Independence; Garamond only for characters Caslon lacks. */
-  --display: var(--font-display), var(--font-caslon), var(--font-serif), Georgia, serif;
-  --caslon: var(--font-caslon), var(--font-serif), Georgia, serif;
-  --serif: var(--font-caslon), var(--font-serif), Georgia, serif;
+  /* One book face throughout; its optical sizes give headings their own finer cut. Garamond only for Greek. */
+  --display: var(--font-book), var(--font-serif), Georgia, serif;
+  --caslon: var(--font-book), var(--font-serif), Georgia, serif;
+  --serif: var(--font-book), var(--font-serif), Georgia, serif;
 
   --measure: 40rem;
   --page: 72rem;
@@ -66,8 +66,9 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 1.0625rem;
-  line-height: 1.7;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  font-optical-sizing: auto;
   overflow-wrap: break-word;
   font-variant-numeric: oldstyle-nums proportional-nums;
   -webkit-font-smoothing: antialiased;
@@ -88,14 +89,12 @@ a:hover { color: var(--accent); text-decoration-color: currentColor; }
 h1, h2, h3, h4 {
   font-family: var(--display);
   font-weight: 400;
-  line-height: 1.12;
-  letter-spacing: -0.005em;
+  line-height: 1.15;
+  letter-spacing: -0.012em;
   margin: 0;
   text-wrap: balance;
 }
 
-/* The display cut is drawn for large sizes; smaller headings use the text cut. */
-h3, h4 { font-family: var(--caslon); }
 
 p { margin: 0 0 1em; text-wrap: pretty; }
 
@@ -767,6 +766,10 @@ code { font-size: 0.9em; background: var(--paper-sunk); padding: 0.05em 0.3em; b
 .activity { margin: 0; }
 .activity-scroll { overflow-x: auto; padding-bottom: 0.25rem; }
 .activity svg { display: block; }
+.activity-fluid svg { width: 100%; height: auto; min-width: 40rem; }
+/* On narrow screens the grid scrolls; open it on the most recent months. */
+.activity-fluid .activity-scroll { direction: rtl; }
+.activity-fluid .activity-scroll svg { direction: ltr; }
 .activity-month { font-size: 9px; fill: var(--muted); font-family: var(--serif); }
 .activity-cell { fill: var(--rule); }
 .activity-cell.l1 { fill: color-mix(in srgb, var(--accent) 28%, var(--paper)); }
@@ -1209,7 +1212,7 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
   .dash-stats > div:nth-child(n+3) { border-top: 1px solid var(--rule); }
   .dash-resume { padding: 1.4rem 1.25rem; }
 }
-.dash-grid { display: grid; grid-template-columns: minmax(0, 1fr) 22rem; gap: 3rem; margin-top: 2.75rem; }
+.dash-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 3rem; margin-top: 2.75rem; align-items: start; }
 @media (max-width: 56rem) { .dash-grid { grid-template-columns: 1fr; gap: 2.25rem; } }
 .dash-h { font-size: 1.7rem; margin-bottom: 0.9rem; }
 .dash-h3 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
@@ -1227,16 +1230,15 @@ html[data-listening="on"] .margin-panel { bottom: calc(var(--player-h) + env(saf
 @media (max-width: 40rem) { .upnext a { grid-template-columns: 1fr; } .upnext-kind { grid-row: auto; } }
 .dash-recent { list-style: none; margin: 0; padding: 0; }
 .dash-recent li { padding: 0.35rem 0; }
-.dash-card { padding: 1.4rem 1.5rem 1.25rem; border: 1px solid var(--rule); background: var(--paper-raised); margin-bottom: 1.5rem; }
-.dash-card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
-.dash-card .dash-h { font-size: 1.4rem; margin-bottom: 0.35rem; }
-.dash-pace-note { font-size: 0.95rem; margin-bottom: 0.75rem; }
-.dash-courses, .dash-programs { list-style: none; margin: 0; padding: 0; }
-.dash-courses li, .dash-programs li { padding: 0.85rem 0; border-top: 1px solid var(--rule); }
-.dash-courses .meter, .dash-programs .meter { margin: 0.5rem 0 0.4rem; }
-.dash-courses p, .dash-programs p { margin: 0; font-size: 0.95rem; }
-.dash-courses strong { color: var(--ink); font-weight: 400; }
-.dash-hours { font-style: italic; }
+.dash-section { margin-top: 3.5rem; }
+.dash-section .section-head { margin-bottom: 1.1rem; }
+.dash-section .dash-h { margin-bottom: 0; }
+.dash-programs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.25rem; }
+.dash-programs li { padding: 1.25rem 1.4rem 1.1rem; border: 1px solid var(--rule); background: var(--paper-raised); }
+.dash-programs h3 { font-size: 1.35rem; margin: 0.25rem 0 0.5rem; }
+.dash-programs h3 a { text-decoration: none; }
+.dash-programs .meter { margin: 0.6rem 0 0.45rem; }
+.dash-programs p { margin: 0 0 0.25rem; font-size: 0.95rem; }
 .dash-links { display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 1rem 0 0; font-size: 0.95rem; }
 
 /* ——— Study pace ——— */
@@ -1257,3 +1259,58 @@ button.pace-row:hover { border-color: var(--rule-strong); }
 .pace-finish { font-variant-numeric: lining-nums; color: var(--ink-soft); }
 .pace-rhythm { grid-column: 1 / -1; font-size: 0.9rem; color: var(--muted); }
 .pace-foot { font-size: 0.88rem; margin: 0.75rem 0 0; }
+
+/* ——— The study calendar ——— */
+.cal { padding: 1.5rem 1.6rem 1.25rem; border: 1px solid var(--rule); background: var(--paper-raised); }
+.cal-top { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem 1rem; flex-wrap: wrap; }
+.cal-top .dash-h { margin: 0; }
+.cal-paces { display: inline-flex; border: 1px solid var(--rule-strong); border-radius: 999px; padding: 2px; }
+.cal-paces button {
+  font: inherit; font-size: 0.92rem; padding: 0.25rem 0.85rem; border: 0; border-radius: 999px;
+  background: transparent; color: var(--ink-soft); cursor: pointer; transition: background 0.15s ease, color 0.15s ease;
+}
+.cal-paces button:hover { color: var(--accent); }
+.cal-paces button.is-on { background: var(--accent); color: var(--paper); }
+.cal-rhythm { font-size: 0.97rem; margin: 0.7rem 0 1rem; }
+.cal-rhythm strong { color: var(--ink); font-weight: 600; }
+.cal-month { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; }
+.cal-month h3 { font-size: 1.2rem; }
+.cal-nav {
+  width: 2rem; height: 2rem; border: 1px solid var(--rule); border-radius: 50%; background: transparent;
+  color: var(--ink-soft); font-size: 1.15rem; line-height: 1; cursor: pointer;
+}
+.cal-nav:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.cal-nav:disabled { opacity: 0.35; cursor: default; }
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+.cal-wd { text-align: center; font-size: 0.78rem; color: var(--muted); letter-spacing: 0.08em; padding: 0.2rem 0 0.35rem; }
+.cal-day {
+  position: relative; aspect-ratio: 1 / 0.82; border-radius: 6px; padding: 0.3rem 0.4rem;
+  display: flex; flex-direction: column; justify-content: space-between; background: var(--paper);
+  font-variant-numeric: lining-nums;
+}
+.cal-day.is-empty { background: transparent; }
+.cal-day.is-past { opacity: 0.45; }
+.cal-num { font-size: 0.85rem; color: var(--ink-soft); }
+.cal-day.is-today { box-shadow: inset 0 0 0 1.5px var(--accent); }
+.cal-day.is-today .cal-num { color: var(--accent); font-weight: 600; }
+.cal-day.is-finish { box-shadow: inset 0 0 0 1.5px var(--gold); background: color-mix(in srgb, var(--gold) 9%, var(--paper)); }
+.cal-day.is-finish::after { content: "✓"; position: absolute; top: 0.2rem; right: 0.35rem; font-size: 0.75rem; color: var(--gold); }
+.cal-dots { display: flex; gap: 3px; flex-wrap: wrap; }
+.cal-dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); flex: none; }
+.cal-dot.c1 { background: var(--gold); }
+.cal-dot.c2 { background: var(--success); }
+.cal-dot.c3 { background: var(--danger); }
+.cal-dot.c4 { background: color-mix(in srgb, var(--ink) 55%, var(--paper)); }
+.cal-legend { list-style: none; margin: 1.1rem 0 0; padding: 0.9rem 0 0; border-top: 1px solid var(--rule); }
+.cal-legend li { display: grid; grid-template-columns: 0.9rem 1fr; gap: 0 0.6rem; align-items: baseline; padding: 0.3rem 0; }
+.cal-legend .cal-dot { transform: translateY(-1px); }
+.cal-legend .muted { grid-column: 2; font-size: 0.92rem; }
+.cal-legend strong { color: var(--ink); font-weight: 600; }
+.cal-empty p { margin: 0.5rem 0 0; }
+@media (max-width: 40rem) { .cal { padding: 1.2rem 1rem 1rem; } .cal-day { padding: 0.2rem 0.25rem; } .cal-num { font-size: 0.78rem; } .cal-dot { width: 0.4rem; height: 0.4rem; } }
+
+/* ——— Account ——— */
+.account-programs { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule-strong); max-width: 48rem; }
+.account-programs li { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 0.85rem 0; border-bottom: 1px solid var(--rule); }
+.account-programs form { margin: 0; }
+.account-programs .link-button { font-size: 0.95rem; color: var(--muted); }

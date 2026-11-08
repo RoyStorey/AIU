@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: "Enroll" };
 
 export default async function SignUp({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
   const { next } = await searchParams;
-  if (await currentUser()) redirect(next ?? "/study");
+  if (await currentUser()) redirect(next ?? "/");
   return (
     <div className="wrap">
       <div className="auth">

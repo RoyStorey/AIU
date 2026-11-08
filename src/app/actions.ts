@@ -86,7 +86,7 @@ export async function inquire(_: FormState, form: FormData): Promise<FormState> 
   if (best?.kind === "course") redirect(`/courses/${best.course.id}`);
 
   if (!forgeAvailable() || !isAdmin(await currentUser())) {
-    return { error: `Cornerstone does not yet teach “${query}.” Browse the departments to see what is offered.` };
+    return { error: `Cornerstone does not yet teach “${query}.” Browse the faculties to see what is offered.` };
   }
   redirect(`/inquiries/${startInquiry(query)}`);
 }
@@ -106,6 +106,7 @@ export async function withdrawFrom(concentrationId: number) {
   const user = await requireUser();
   withdraw(user.id, concentrationId);
   revalidatePath("/study");
+  revalidatePath("/");
 }
 
 export async function proposeConcentration(_: FormState, form: FormData): Promise<FormState> {

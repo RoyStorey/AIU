@@ -89,7 +89,7 @@ export default async function StudentProfile({ params }: Params) {
             </p>
             {faculties.map((faculty) => (
               <div key={faculty} className="rose-faculty">
-                <h3 className="side-head">Department of {faculty}</h3>
+                <h3 className="side-head">Faculty of {faculty}</h3>
                 <ul className="roses">
                   {list.filter((s) => s.concentration.subject_name === faculty).map((s) => (
                     <li key={s.concentration.id} className={`rose-card level-${s.level}`}>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { availability, listConcentrations, listSubjects } from "@/lib/catalogue";
 
-export const metadata: Metadata = { title: "The Departments" };
+export const metadata: Metadata = { title: "The Faculties" };
 
 export default function Faculties() {
   const subjects = listSubjects();
@@ -10,7 +10,7 @@ export default function Faculties() {
     <div className="wrap">
       <header className="page-head">
         <p className="eyebrow">The Catalogue</p>
-        <h1>The Departments</h1>
+        <h1>The Faculties</h1>
         <p className="lede">
           Each faculty offers several concentrations, and each concentration is a complete program of study—from
           foundational courses to an advanced seminar.
@@ -24,7 +24,7 @@ export default function Faculties() {
               <span className="accent" style={{ fontSize: "0.7em", marginRight: "0.75rem" }}>{(i + 1)}</span>
               <Link href={`/faculties/${s.slug}`} style={{ textDecoration: "none" }}>{s.name}</Link>
             </h2>
-            <Link href={`/faculties/${s.slug}`} className="eyebrow">Enter the department →</Link>
+            <Link href={`/faculties/${s.slug}`} className="eyebrow">Enter the faculty →</Link>
           </div>
           <div className="grid">
             {listConcentrations(s.slug).map((c) => (

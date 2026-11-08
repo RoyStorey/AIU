@@ -2,7 +2,7 @@ import "server-only";
 import { db } from "@/lib/db";
 import { getCourse } from "@/lib/catalogue";
 import { activityByDay, lessonScores, recentVisits, standings } from "@/lib/progress";
-import { finishDate, findPace, type Pace, type PaceId } from "@/lib/pace";
+import { PACES, findPace, schedule, type Pace, type PaceId, type Session } from "@/lib/pace";
 import { lessonMinutes } from "@/lib/timing";
 
 // ——— A student's chosen pace ———
@@ -38,8 +38,10 @@ export type ActiveCourse = {
   planned: number;
   next: { index: number; title: string; minutes: number } | null;
   averageMinutes: number;
-  finish: Date | null;
 };
+
+/** Each pace's plan for the active courses: lessons set on study days, and each course's finishing day. */
+export type Plans = Record<PaceId, { sessions: Session[]; finish: (string | null)[] }>;
 
 export type Assignment = { kind: "lesson" | "exercise" | "capstone"; href: string; title: string; detail: string };
 
@@ -52,6 +54,7 @@ export type Dashboard = {
   assignments: Assignment[];
   stats: Stats;
   pace: Pace;
+  plans: Plans;
 };
 
 /** Monday of the week containing `day` (YYYY-MM-DD), as YYYY-MM-DD. */
@@ -137,7 +140,6 @@ export function dashboard(userId: number): Dashboard {
         completed, open: content.lessons.length, planned,
         next: { index: nextIndex, title: content.lessons[nextIndex].title, minutes: minutes[nextIndex] },
         averageMinutes,
-        finish: finishDate(content.lessons.length - completed, pace),
       });
     }
   }
@@ -158,7 +160,11 @@ export function dashboard(userId: number): Dashboard {
       detail: "Every course complete; the capstone makes you a Master",
     }));
 
+  const queue = active.map((c) => ({ remaining: c.open - c.completed, nextLesson: c.next!.index + 1 }));
+  const plans = Object.fromEntries(PACES.map((p) => [p.id, schedule(queue, p)])) as Plans;
+
   return {
+    plans,
     resume: resumes[0] ?? null,
     recent: resumes.slice(1),
     active,

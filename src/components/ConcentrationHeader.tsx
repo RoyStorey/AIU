@@ -20,7 +20,7 @@ export function ConcentrationHeader({ subject, concentration, active, title, led
     <>
       <header className="page-head" style={{ paddingBottom: "1.5rem" }}>
         <nav className="crumbs" aria-label="Breadcrumb">
-          <Link href="/faculties">Departments</Link>
+          <Link href="/faculties">Faculties</Link>
           <span aria-hidden="true">/</span>
           <Link href={`/faculties/${subject.slug}`}>{subject.name}</Link>
           {active !== "program" && (

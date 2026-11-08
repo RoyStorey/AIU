@@ -3,10 +3,10 @@ import { Crest } from "@/components/Crest";
 import { Seal } from "@/components/Standing";
 import { currentUser, type User } from "@/lib/auth";
 import { isOpen, listCourses, listConcentrations, listSubjects } from "@/lib/catalogue";
+import { ActivityGrid } from "@/components/ActivityGrid";
+import { StudyCalendar } from "@/components/StudyCalendar";
 import { dashboard } from "@/lib/dashboard";
-import { formatDay, hoursPerWeek } from "@/lib/pace";
-import { standings } from "@/lib/progress";
-import { formatMinutes } from "@/lib/timing";
+import { activityByDay, standings } from "@/lib/progress";
 
 export default async function Home() {
   const user = await currentUser();
@@ -15,12 +15,12 @@ export default async function Home() {
 
 // ——— For visitors ———
 
-/** A handful of open first courses, one from each department that has one. */
+/** A handful of open first courses, one from each faculty that has one. */
 function firstCourses() {
   return listSubjects().flatMap((s) => {
     for (const c of listConcentrations(s.slug)) {
       const first = listCourses(c.id).find((k) => k.stage === 1 && isOpen(k));
-      if (first) return [{ ...first, department: s.name }];
+      if (first) return [{ ...first, faculty: s.name }];
     }
     return [];
   });
@@ -46,13 +46,13 @@ function Welcome() {
         </blockquote>
         <p className="hero-actions">
           <Link className="button" href="/signup">Enroll</Link>
-          <Link className="button quiet" href="/faculties">Browse the departments</Link>
+          <Link className="button quiet" href="/faculties">Browse the faculties</Link>
         </p>
       </section>
 
       <section className="wrap section">
         <div className="section-head">
-          <h2>The Departments</h2>
+          <h2>The Faculties</h2>
           <Link href="/faculties" className="eyebrow">The full catalog →</Link>
         </div>
         <ul className="faculties">
@@ -76,7 +76,7 @@ function Welcome() {
           <div className="grid">
             {starts.map((c) => (
               <Link key={c.id} href={`/courses/${c.id}`} className="card">
-                <span className="eyebrow">{c.department} · {c.code}</span>
+                <span className="eyebrow">{c.faculty} · {c.code}</span>
                 <h3>{c.title}</h3>
                 <p>{c.summary}</p>
                 <div className="card-foot"><span>{c.lessons} lessons</span><span>Open the course →</span></div>
@@ -94,7 +94,7 @@ function Welcome() {
           <div className="step">
             <span className="numeral">1</span>
             <h3>Choose a concentration</h3>
-            <p>Pick a department, then a program within it: Poetry, American History, Patristics, the Indigenous Americas. No prerequisites.</p>
+            <p>Pick a faculty, then a program within it: Poetry, American History, Patristics, the Indigenous Americas. No prerequisites.</p>
           </div>
           <div className="step">
             <span className="numeral">2</span>
@@ -114,7 +114,7 @@ function Welcome() {
 
 // ——— For students ———
 
-/** Whether the student has done anything yet, so the greeting can say "welcome back." */
+/** Whether the student joined before today, so the greeting can say "welcome back." */
 function begunEver(user: User): boolean {
   return user.created_at < new Date(Date.now() - 86_400_000).toISOString().replace("T", " ");
 }
@@ -122,6 +122,7 @@ function begunEver(user: User): boolean {
 function Dashboard({ user }: { user: User }) {
   const d = dashboard(user.id);
   const programs = standings(user.id).filter((s) => s.declared || s.lessonsDone > 0);
+  const activity = activityByDay(user.id, 52 * 7);
   const first = user.name.split(/\s+/)[0];
   const today = new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
   const hours = Math.round(d.stats.minutes / 6) / 10;
@@ -150,9 +151,9 @@ function Dashboard({ user }: { user: User }) {
           <div>
             <span className="eyebrow">Welcome to Cornerstone</span>
             <h2 id="resume-title">Choose a course and begin</h2>
-            <p className="muted">Your reading, progress, and next steps will gather here.</p>
+            <p className="muted">Your reading, progress, and plans will gather here.</p>
           </div>
-          <Link className="button" href="/faculties">Browse the departments</Link>
+          <Link className="button" href="/faculties">Browse the faculties</Link>
         </section>
       )}
 
@@ -166,6 +167,21 @@ function Dashboard({ user }: { user: User }) {
       )}
 
       <div className="dash-grid">
+        <div>
+          {d.active.length > 0 ? (
+            <StudyCalendar
+              courses={d.active.map((c) => ({ id: c.id, code: c.code, title: c.title, completed: c.completed, open: c.open }))}
+              plans={d.plans}
+              chosen={d.pace.id}
+            />
+          ) : (
+            <section className="cal cal-empty">
+              <h2 className="dash-h">Study calendar</h2>
+              <p className="muted">Begin a course and your lessons will be set out here, at the pace you choose.</p>
+            </section>
+          )}
+        </div>
+
         <section aria-labelledby="next-head">
           <h2 id="next-head" className="dash-h">Up next</h2>
           {d.assignments.length ? (
@@ -185,7 +201,6 @@ function Dashboard({ user }: { user: User }) {
           ) : (
             <p className="muted">Nothing waiting. <Link href="/faculties">Find a course to begin →</Link></p>
           )}
-
           {d.recent.length > 0 && (
             <>
               <h3 className="dash-h3">Also reading</h3>
@@ -200,61 +215,56 @@ function Dashboard({ user }: { user: User }) {
             </>
           )}
         </section>
-
-        <aside>
-          {d.active.length > 0 && (
-            <section className="dash-card" aria-labelledby="pace-head">
-              <div className="dash-card-head">
-                <h2 id="pace-head" className="dash-h">Your pace</h2>
-                <span className="eyebrow">{d.pace.name}</span>
-              </div>
-              <p className="muted dash-pace-note">{d.pace.rhythm}. Change it on any course page.</p>
-              <ul className="dash-courses">
-                {d.active.map((c) => (
-                  <li key={c.id}>
-                    <Link href={`/courses/${c.id}`}>{c.code} {c.title}</Link>
-                    <div className="meter"><span style={{ width: `${(c.completed / c.open) * 100}%` }} /></div>
-                    <p className="muted">
-                      {c.completed} of {c.open} lessons{c.finish && <> · finish around <strong>{formatDay(c.finish)}</strong></>}
-                    </p>
-                    <p className="muted dash-hours">
-                      {c.next && <>Next lesson {formatMinutes(c.next.minutes)} · </>}{hoursPerWeek(d.pace, c.averageMinutes)} a week
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          <section className="dash-card" aria-labelledby="programs-head">
-            <div className="dash-card-head">
-              <h2 id="programs-head" className="dash-h">Your programs</h2>
-              <Link href="/study" className="eyebrow">Manage →</Link>
-            </div>
-            {programs.length ? (
-              <ul className="dash-programs">
-                {programs.map((s) => {
-                  const path = `/faculties/${s.concentration.subject_slug}/${s.concentration.slug}`;
-                  return (
-                    <li key={s.concentration.id}>
-                      <Link href={path}>{s.concentration.name}</Link>
-                      {s.level !== "student" && <> <Seal level={s.level} concentration={s.concentration.name} /></>}
-                      <div className="meter"><span style={{ width: `${s.core.length ? (s.coreDone / s.core.length) * 100 : 0}%` }} /></div>
-                      <p className="muted">{s.coreDone} of {s.core.length} courses · {s.lessonsDone} {s.lessonsDone === 1 ? "lesson" : "lessons"}</p>
-                    </li>
-                  );
-                })}
-              </ul>
-            ) : (
-              <p className="muted">You have not declared a concentration yet. <Link href="/faculties">See the programs →</Link></p>
-            )}
-            <p className="dash-links">
-              <Link href="/study/notes">Commonplace book</Link>
-              <Link href={`/students/${user.id}`}>Public profile</Link>
-            </p>
-          </section>
-        </aside>
       </div>
+
+      <section className="dash-section" aria-labelledby="activity-head">
+        <div className="section-head">
+          <h2 id="activity-head" className="dash-h">Your study</h2>
+          <span className="eyebrow">The past year</span>
+        </div>
+        <ActivityGrid counts={activity} weeks={52} fluid />
+      </section>
+
+      <section className="dash-section" aria-labelledby="programs-head">
+        <div className="section-head">
+          <h2 id="programs-head" className="dash-h">Your programs</h2>
+          <span className="eyebrow"><Link href="/faculties">Declare another →</Link></span>
+        </div>
+        {programs.length ? (
+          <ul className="dash-programs">
+            {programs.map((s) => {
+              const path = `/faculties/${s.concentration.subject_slug}/${s.concentration.slug}`;
+              const next = s.courses.find((c) => !c.done && c.lessons > 0);
+              return (
+                <li key={s.concentration.id}>
+                  <span className="eyebrow">Faculty of {s.concentration.subject_name}</span>
+                  <h3><Link href={path}>{s.concentration.name}</Link></h3>
+                  {s.level !== "student" && (
+                    <p><Seal level={s.level} concentration={s.concentration.name}
+                      href={s.mastery ? `/capstones/${s.mastery.capstoneId}` : `${path}/capstone`} /></p>
+                  )}
+                  <div className="meter"><span style={{ width: `${s.core.length ? (s.coreDone / s.core.length) * 100 : 0}%` }} /></div>
+                  <p className="muted">
+                    {s.coreDone} of {s.core.length} courses · {s.lessonsDone} {s.lessonsDone === 1 ? "lesson" : "lessons"}
+                  </p>
+                  {s.level === "expert" ? (
+                    <p><Link href={`${path}/capstone`}>Take the capstone →</Link></p>
+                  ) : next ? (
+                    <p>Next: <Link href={`/courses/${next.id}`}>{next.code} {next.title}</Link></p>
+                  ) : null}
+                </li>
+              );
+            })}
+          </ul>
+        ) : (
+          <p className="muted">You have not declared a concentration yet. <Link href="/faculties">See the programs →</Link></p>
+        )}
+        <p className="dash-links">
+          <Link href="/study/notes">Your commonplace book</Link>
+          <Link href={`/students/${user.id}`}>Your public profile</Link>
+          <Link href="/study">Account and settings</Link>
+        </p>
+      </section>
     </div>
   );
 }
