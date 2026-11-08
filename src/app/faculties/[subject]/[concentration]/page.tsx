@@ -32,7 +32,7 @@ function Standing({ course, enrolled }: { course: CourseStanding; enrolled: bool
     return <span className="mark pending">{course.planned ? `${course.lessons} of ${total} lessons open` : `${total} lessons`}</span>;
   }
   if (course.done) return <span className="mark done">Completed</span>;
-  if (course.completed > 0) return <span className="mark progress">{course.completed} of {total} lessons</span>;
+  if (course.begun) return <span className="mark progress">{course.completed} of {total} lessons</span>;
   return <span className="mark pending">Not begun</span>;
 }
 

@@ -36,13 +36,20 @@ export function recordLesson(userId: number, courseId: string, lesson: number, s
   `).run(userId, courseId, lesson, score);
 }
 
-export type CourseStanding = Course & { completed: number; done: boolean };
+/** `begun` is true once the student has opened any page of the course, even before finishing a lesson. */
+export type CourseStanding = Course & { completed: number; done: boolean; begun: boolean };
 
 /** Every course in a program with the student's standing in each. */
 export function programStanding(userId: number | null, concentrationId: number): CourseStanding[] {
   const courses = listCourses(concentrationId);
   const counts = new Map<string, number>();
+  const opened = new Set<string>();
   if (userId !== null) {
+    const visited = db.prepare(`
+      SELECT v.course_id FROM visits v JOIN courses c ON c.id = v.course_id
+      WHERE v.user_id = ? AND c.concentration_id = ?
+    `).all(userId, concentrationId) as { course_id: string }[];
+    for (const v of visited) opened.add(v.course_id);
     const rows = db.prepare(`
       SELECT p.course_id, COUNT(*) AS n FROM lesson_progress p
       JOIN courses c ON c.id = p.course_id
@@ -54,7 +61,7 @@ export function programStanding(userId: number | null, concentrationId: number):
   return courses.map((course) => {
     const completed = Math.min(counts.get(course.id) ?? 0, course.lessons);
     const done = course.lessons > 0 && course.planned === 0 && completed >= course.lessons;
-    return { ...course, completed, done };
+    return { ...course, completed, done, begun: completed > 0 || opened.has(course.id) };
   });
 }
 

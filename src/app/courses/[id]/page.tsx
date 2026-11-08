@@ -13,7 +13,7 @@ import { Obtain } from "@/components/Obtain";
 import { bookKey, parseText, sourcesFor } from "@/lib/books";
 import { getCourse, isOpen, listCourses } from "@/lib/catalogue";
 import { forgeAvailable } from "@/lib/forge";
-import { lessonScores } from "@/lib/progress";
+import { lastVisit, lessonScores } from "@/lib/progress";
 import type { PlannedLesson } from "@/lib/schema";
 import { formatMinutes, lessonMinutes, plannedMinutes } from "@/lib/timing";
 
@@ -162,6 +162,9 @@ export default async function CoursePage({ params }: Params) {
   const { content } = course;
   const textSources = sourcesFor(course.texts.map(parseText));
   const scores = user ? lessonScores(user.id, course.id) : new Map<number, number>();
+  const visit = user ? lastVisit(user.id, course.id) : null;
+  /** The lesson the student is partway through: where they last read, if they have not completed it. */
+  const reading = visit && !scores.has(visit.lesson_index) ? visit.lesson_index : -1;
   const next = content.lessons.findIndex((_, i) => !scores.has(i));
   const forthcoming = content.forthcoming ?? [];
   const total = content.lessons.length + forthcoming.length;
@@ -190,8 +193,8 @@ export default async function CoursePage({ params }: Params) {
                     <h3>{lesson.title}</h3>
                     <p>{lesson.summary}</p>
                   </div>
-                  <span className={`mark ${scores.has(i) ? "done" : "pending"}`}>
-                    {scores.has(i) ? "Completed" : formatMinutes(lessonMinutes(lesson))}
+                  <span className={`mark ${scores.has(i) ? "done" : i === reading ? "progress" : "pending"}`}>
+                    {scores.has(i) ? "Completed" : i === reading ? "In progress" : formatMinutes(lessonMinutes(lesson))}
                   </span>
                 </Link>
               </li>
@@ -226,8 +229,10 @@ export default async function CoursePage({ params }: Params) {
                   {forthcoming.length ? "Written lessons completed" : "Course completed"}
                 </p>
               ) : (
-                <Link className="button" href={`/courses/${course.id}/lessons/${next + 1}`}>
-                  {scores.size === 0 ? "Begin the first lesson" : "Continue"}
+                <Link className="button" href={reading >= 0
+                  ? `/courses/${course.id}/lessons/${reading + 1}/${visit!.page_index + 1}`
+                  : `/courses/${course.id}/lessons/${next + 1}`}>
+                  {scores.size === 0 && reading < 0 ? "Begin the first lesson" : "Continue"}
                 </Link>
               )}
             </div>
