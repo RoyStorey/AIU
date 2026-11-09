@@ -978,6 +978,53 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "BRL 101": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The date of Beowulf's composition.",
+        note: "Scholars place it anywhere from the early eighth to the early eleventh century; metrical evidence now persuades many of an early date, but the question is open.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Alcuin's letter asking 'What has Ingeld to do with Christ?' was addressed to a particular bishop.",
+        note: "It was long thought to be addressed to Hygebald of Lindisfarne; Donald Bullough argued for Unwona of Leicester. The lesson names no recipient.",
+      },
+    ],
+    2: [
+      {
+        page: 6, kind: "uncertain",
+        claim: "The Sutton Hoo ship burial is the grave of Rædwald.",
+        note: "The identification rests on the coin dating of c. 625 and Bede's account of Rædwald; it is widely accepted but not proven.",
+      },
+    ],
+    3: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Pearl, Cleanness, Patience, and Sir Gawain are by one poet.",
+        note: "Common authorship is inferred from dialect, style, and the single manuscript; it is widely accepted but cannot be proved.",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The 1380 Cecily Champain release concerned rape.",
+        note: "The Latin raptus is ambiguous; documents found in 2022 suggest a labor-law dispute. The lesson reports both readings.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "Adam Pinkhurst copied the Hengwrt and Ellesmere manuscripts.",
+        note: "Linne Mooney's 2004 identification was challenged by Lawrence Warner and others in 2018.",
+      },
+    ],
+    5: [
+      {
+        page: 6, kind: "disputed",
+        claim: "The Prioress's Tale expresses Chaucer's own views.",
+        note: "Some critics read the tale as a portrait of the Prioress's limited piety; others see no distance between poet and tale. The lesson presents the debate and the tale's real harm.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
