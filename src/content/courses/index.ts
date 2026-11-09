@@ -12,6 +12,7 @@ import { ash110 } from "./ash-110";
 import { iah101 } from "./iah-101";
 import { iah110 } from "./iah-110";
 import { brl101 } from "./brl-101";
+import { brl110 } from "./brl-110";
 import { dra101 } from "./dra-101";
 import { dra110 } from "./dra-110";
 import { euh101 } from "./euh-101";
@@ -44,6 +45,7 @@ const written: Record<string, CourseContent> = {
   "IAH 101": iah101,
   "IAH 110": iah110,
   "BRL 101": brl101,
+  "BRL 110": brl110,
   "DRA 101": dra101,
   "DRA 110": dra110,
   "EUH 101": euh101,

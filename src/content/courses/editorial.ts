@@ -1025,6 +1025,53 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "BRL 110": {
+    1: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "More said on the scaffold that he died 'the king's good servant, but God's first.'",
+        note: "The words come from a contemporary Paris newsletter account; the scaffold jests come from his early biographers. They are widely accepted but not verbatim records.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Most of the King James New Testament follows Tyndale's wording.",
+        note: "Estimates of the share vary with method; a common figure is around 80 percent or more.",
+      },
+    ],
+    2: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "The dying Sidney gave his water to a soldier, saying 'Thy necessity is yet greater than mine.'",
+        note: "The story comes only from Fulke Greville's Life, written decades later as part of Sidney's legend.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Ralegh wrote 'The Nymph's Reply to the Shepherd.'",
+        note: "The poem was first printed anonymously; the attribution to Ralegh comes later.",
+      },
+    ],
+    3: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "One of Spenser's children died when Kilcolman was burned in 1598.",
+        note: "The claim rests on Ben Jonson's later remark to Drummond; no contemporary record confirms it.",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Donne signed a letter 'John Donne, Anne Donne, Un-done.'",
+        note: "The story is told by Izaak Walton and is probably apocryphal.",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Satan is the hero of Paradise Lost.",
+        note: "Blake and Shelley read Satan as a heroic rebel; Lewis and Fish read him as self-deceived or as a trap for the reader. The lesson presents the debate.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
