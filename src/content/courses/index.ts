@@ -18,6 +18,7 @@ import { euh110 } from "./euh-110";
 import { euh301 } from "./euh-301";
 import { mdh101 } from "./mdh-101";
 import { meh101 } from "./meh-101";
+import { meh110 } from "./meh-110";
 import { pat101 } from "./pat-101";
 import { poe101 } from "./poe-101";
 import { poe110 } from "./poe-110";
@@ -47,6 +48,7 @@ const written: Record<string, CourseContent> = {
   "EUH 301": euh301,
   "MDH 101": mdh101,
   "MEH 101": meh101,
+  "MEH 110": meh110,
   "PAT 101": pat101,
   "POE 101": poe101,
   "POE 110": poe110,

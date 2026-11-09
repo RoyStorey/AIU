@@ -859,6 +859,63 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "MEH 110": {
+    1: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Writing developed from clay tokens pressed into envelopes.",
+        note: "Schmandt-Besserat's token theory is influential for number signs, but many scholars doubt that writing simply evolved from tokens; the lesson notes the criticism.",
+      },
+    ],
+    2: [
+      {
+        page: 2, kind: "disputed",
+        claim: "Enheduanna composed the hymns attributed to her.",
+        note: "The surviving copies date four or five centuries after her lifetime, and attribution to famous figures was common; scholars disagree whether she wrote them.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Drought caused the collapse of the Akkadian empire.",
+        note: "Weiss's evidence for a drought around 2200 BC is widely accepted, but its timing relative to Akkad's fall and its causal role are debated.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "Sargon reigned from about 2334 BC.",
+        note: "Mesopotamian dates before about 1400 BC depend on which chronology is used; the course follows the middle chronology, which may be off by decades.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Hammurabi's laws were a law code applied by judges.",
+        note: "Court records almost never cite the laws; many scholars see them as model verdicts and royal propaganda. The lesson presents the debate.",
+      },
+    ],
+    4: [
+      {
+        page: 3, kind: "disputed",
+        claim: "David and Solomon ruled a powerful united kingdom in the tenth century BC.",
+        note: "The Tel Dan stele attests a 'House of David,' but archaeologists such as Finkelstein argue for a modest highland polity; the extent of the kingdom remains contested.",
+      },
+      {
+        page: 2, kind: "uncertain",
+        claim: "The Assyrians deported some 4.5 million people.",
+        note: "Oded's estimate rests on the Assyrian kings' own figures, which may be inflated.",
+      },
+    ],
+    5: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The Hanging Gardens stood in Babylon.",
+        note: "No Babylonian text mentions them; Stephanie Dalley argues they were Sennacherib's gardens at Nineveh, and some doubt they existed. The lesson presents the possibilities.",
+      },
+      {
+        page: 4, kind: "corrected",
+        claim: "The Cyrus Cylinder is the first charter of human rights.",
+        note: "The cylinder is a Babylonian-style royal inscription; popular 'translations' adding declarations of religious freedom and the abolition of slavery are false. The lesson explains the correct reading.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
