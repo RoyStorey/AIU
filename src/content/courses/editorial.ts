@@ -735,6 +735,73 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "AFH 110": {
+    1: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "About 12.5 million Africans were embarked and 10.7 million survived the crossing.",
+        note: "These are the Trans-Atlantic Slave Trade Database's estimates, built from records of some 36,000 voyages and statistical imputation for missing ones. They are the best available figures but remain estimates, and deaths before embarkation are not included.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Christopher Columbus may have sailed with Azambuja to build Elmina in 1482.",
+        note: "Columbus later claimed to have visited Mina, but no record places him on the 1482 expedition; the lesson flags it as uncertain.",
+      },
+    ],
+    2: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Njinga sat on a servant's back during her audience with the Portuguese governor in 1622.",
+        note: "The story comes from Cavazzi, who wrote decades later and knew Njinga only in old age; it may be embellished. The lesson presents it as a tradition.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "The Stono rebels of 1739 were Kongolese Catholic soldiers.",
+        note: "This is John Thornton's influential interpretation of the contemporary account's reference to 'Angola'; it is widely accepted but rests on inference rather than direct evidence about the individual rebels.",
+      },
+    ],
+    3: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "West Africa imported between 283,000 and 394,000 guns a year at the peak of the trade.",
+        note: "The figures are Joseph Inikori's estimates; other scholars consider them too high. The lesson notes the disagreement.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "Agaja conquered Ouidah in order to stop the slave trade.",
+        note: "Akinjogbin argued this; Robin Law and most historians since argue that Agaja sought to control the trade, not end it. The lesson presents both positions.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Captives circled the Tree of Forgetting at Ouidah.",
+        note: "This and other stations on the Route des Esclaves reflect modern memorial tradition rather than documented practice; the lesson says so.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "disputed",
+        claim: "Olaudah Equiano was born in Igboland and kidnapped as a child.",
+        note: "Vincent Carretta found a 1759 baptismal record and a 1773 muster roll listing his birthplace as Carolina; Paul Lovejoy and others defend his African birth. The question is unresolved.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "A quarter or more of captives in the Angolan interior died before reaching the coast.",
+        note: "Joseph Miller's estimate rests on scanty evidence; other historians offer lower figures.",
+      },
+    ],
+    5: [
+      {
+        page: 1, kind: "disputed",
+        claim: "By 1850 sub-Saharan Africa's population was perhaps half what it would have been without the slave trades.",
+        note: "Patrick Manning's simulation depends on assumptions about African fertility and mortality that cannot be verified; some historians argue the demographic impact was smaller.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "Millions of captives passed through the House of Slaves on Gorée.",
+        note: "Historians estimate that Gorée shipped tens of thousands rather than millions, and that the house was a merchant residence of the 1770s or later. The lesson presents the site as a place of memory and notes the dispute.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
