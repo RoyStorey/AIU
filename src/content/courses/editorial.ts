@@ -673,6 +673,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "AFH 101": {
+    1: [
+      {
+        page: 4, kind: "disputed",
+        claim: "Cheikh Anta Diop argued that the ancient Egyptians were Black Africans.",
+        note: "The question of ancient Egyptian identity remains contested and politically charged. Most Egyptologists see the population as indigenous to northeast Africa and varied, and regard modern racial categories as poorly suited to it; the lesson presents Diop's argument as part of that debate.",
+      },
+    ],
+    2: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Aksum is the resting place of the Ark of the Covenant.",
+        note: "This is Ethiopian Orthodox tradition; the object kept at Aksum is shown to no one but its guardian, and its identity cannot be examined. The lesson reports the belief, not a historical finding.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "The Solomonic kings descended from Solomon and the Queen of Sheba.",
+        note: "The genealogy comes from the Kebra Nagast, compiled in the fourteenth century in support of the new dynasty; historians treat it as political and religious legend.",
+      },
+    ],
+    3: [
+      {
+        page: 5, kind: "disputed",
+        claim: "The Almoravids conquered Ghana in 1076.",
+        note: "Conrad and Fisher (1982–1983) argued there is no reliable contemporary evidence for a conquest; others still accept some Almoravid military pressure. The lesson presents both positions.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Sundiata proclaimed a charter at Kurukan Fuga around 1236.",
+        note: "The assembly and its charter are known from oral tradition, written down in the twentieth century; the charter text produced in 1998 and recognized by UNESCO in 2009 is a modern reconstruction, and its antiquity cannot be confirmed.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Abu Bakr II's ships may have reached the Americas.",
+        note: "The only source is al-Umari's report of Mansa Musa's account. There is no archaeological or other evidence for a landing in the Americas, and most historians reject the idea.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Mansa Musa was the richest man who ever lived.",
+        note: "A popular modern claim that cannot be measured; the lesson treats it as legend and relies on the contemporary reports of his gifts in Cairo.",
+      },
+    ],
+    5: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "The Benin earthworks total some ten thousand miles.",
+        note: "The figure is Patrick Darling's estimate from partial surveys; the full extent has not been mapped, and published figures vary.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Kilwa coins were found on the Wessel Islands off northern Australia.",
+        note: "The coins were found in 1944, but how and when they arrived is unknown; they may have been carried long after they were minted, by later traders or ships.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "Kongo was founded around 1390 by Lukeni lua Nimi.",
+        note: "The date and founder come from traditions recorded by Portuguese and Kongolese writers in the sixteenth and seventeenth centuries; the date is an estimate.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
