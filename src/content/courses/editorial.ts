@@ -616,6 +616,63 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "MDH 101": {
+    1: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Constantine saw a cross in the sky before the Milvian Bridge.",
+        note: "The vision is reported only by Eusebius, decades later, from Constantine's own account; Lactantius, writing earlier, mentions only a dream. Whether anything was seen, and what, cannot be known; the lesson gives both versions.",
+      },
+      {
+        page: 2, kind: "uncertain",
+        claim: "Diocletian answered that he preferred to grow cabbages.",
+        note: "The story comes from the fourth-century Epitome de Caesaribus and may be embellished; it is widely repeated but not contemporary.",
+      },
+    ],
+    2: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Clovis was baptized around 496.",
+        note: "Gregory of Tours implies a date around 496; many historians now prefer 508, after the victory at Vouillé, on the evidence of a letter of Avitus of Vienne. The lesson notes the uncertainty.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "The Justinianic Plague killed a quarter or more of the Mediterranean population.",
+        note: "Older estimates ranged from a quarter to a half. Some recent studies (for example Mordechai and Eisenberg, 2019) argue that its demographic impact has been overstated; others defend high mortality. The lesson notes the debate.",
+      },
+    ],
+    3: [
+      {
+        page: 6, kind: "uncertain",
+        claim: "Leo III removed the icon of Christ from the Chalke Gate.",
+        note: "The story is reported by later iconophile sources, and some historians doubt it, or doubt that Leo III was as committed an iconoclast as his son. The lesson says “according to later sources.”",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The reliability of the early Muslim sources for Muhammad's life.",
+        note: "Revisionist scholars (Crone and Cook, Wansbrough) questioned the late biographical and hadith traditions; most historians now use them critically, giving greatest weight to the Qur'an. The lesson presents the debate.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Charlemagne had 4,500 Saxons beheaded at Verden.",
+        note: "The figure comes from the Royal Frankish Annals. A few historians have suggested a scribal error (decollabat, “beheaded,” for delocabat, “relocated”), but most accept the massacre.",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Alfred burned the cakes.",
+        note: "The story first appears in a life of St. Neot written about a century after Alfred's death and is almost certainly legend, as the lesson says.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "Fears of the end of the world around the year 1000.",
+        note: "Historians disagree: many dismiss the “terrors of the year 1000” as a later myth, while Richard Landes and others argue that apocalyptic expectation was real and widespread. The lesson presents both.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
