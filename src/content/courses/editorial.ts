@@ -1196,6 +1196,63 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "AAL 101": {
+    1: [
+      {
+        page: 2, kind: "disputed",
+        claim: "Particular spirituals such as 'Follow the Drinking Gourd' carried coded escape instructions.",
+        note: "Douglass attests to double meanings in general, but most claims about specific coded songs appear only in the twentieth century; 'Follow the Drinking Gourd' was first published in 1928.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Lucy Terry Prince argued before the Vermont Supreme Court and addressed the trustees of Williams College.",
+        note: "Both stories were recorded long after her death and their details are uncertain, as the lesson notes.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "Equiano was born in Igboland, in present-day Nigeria.",
+        note: "A 1759 baptismal record and a 1773 muster roll give South Carolina; Vincent Carretta and Paul Lovejoy disagree on what they mean.",
+      },
+    ],
+    2: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "Douglass told a young man, 'Agitate! Agitate! Agitate!'",
+        note: "The advice is attributed to him in later recollection; no contemporary record of the exchange survives.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "Douglass said his first wife was the color of his mother and his second the color of his father.",
+        note: "The remark is reported secondhand and may be apocryphal.",
+      },
+    ],
+    3: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Dr. Norcom fathered eleven enslaved children.",
+        note: "The figure is Jacobs's own ('to my knowledge'); it has not been confirmed from records.",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Georgia offered $1,000 for Walker dead and $10,000 alive.",
+        note: "The figures come from contemporary reports and later accounts; no Georgia statute naming such a bounty has been found.",
+      },
+      {
+        page: 2, kind: "disputed",
+        claim: "Sojourner Truth asked, 'Ain't I a woman?' at Akron in 1851.",
+        note: "The refrain appears in Frances Gage's 1863 account but not in Marius Robinson's 1851 report; Nell Irvin Painter judges Robinson's closer to the speech.",
+      },
+    ],
+    5: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "Du Bois's son might have lived had a white doctor been willing to treat him.",
+        note: "This was Du Bois's belief; the medical circumstances of the child's diphtheria are not documented in detail.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {

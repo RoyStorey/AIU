@@ -1,5 +1,6 @@
 import type { CourseContent } from "@/lib/schema";
 import { editorial } from "./editorial";
+import { aal101 } from "./aal-101";
 import { afh101 } from "./afh-101";
 import { afh110 } from "./afh-110";
 import { amh101 } from "./amh-101";
@@ -35,6 +36,7 @@ import { poe310 } from "./poe-310";
 import { poe401 } from "./poe-401";
 
 const written: Record<string, CourseContent> = {
+  "AAL 101": aal101,
   "AFH 101": afh101,
   "AFH 110": afh110,
   "AMH 101": amh101,
@@ -76,7 +78,7 @@ const written: Record<string, CourseContent> = {
  * show as in preparation. Remove a course from this list when its new version
  * is added to `written`.
  */
-export const withdrawnCourses = new Set(["AAL 101", "BIB 101", "LAT 101", "LIN 101"]);
+export const withdrawnCourses = new Set(["BIB 101", "LAT 101", "LIN 101"]);
 
 /** Joins each lesson to the editors' notes on it. */
 function withEditorial(code: string, course: CourseContent): CourseContent {
