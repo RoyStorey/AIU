@@ -526,6 +526,51 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "EUH 101": {
+    1: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Petrarch climbed Mont Ventoux in April 1336.",
+        note: "The letter is dated 1336, but many scholars think Petrarch wrote or reworked it years later, perhaps in the early 1350s, as a literary and allegorical composition. Whether the climb happened as described is uncertain.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Luther posted the Ninety-Five Theses on the door of the Castle Church.",
+        note: "The story rests on Melanchthon's account after Luther's death. Erwin Iserloh (1961) argued that it never happened; a note by Georg Rörer, found in 2006, supports a posting. The letter to Archbishop Albrecht dated October 31, 1517, is certain.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Luther said “Here I stand; I can do no other.”",
+        note: "The words appear in the earliest printed versions of his speech at Worms but not in the transcripts made at the time. The lesson quotes the transcript and notes the doubt.",
+      },
+      {
+        page: 2, kind: "disputed",
+        claim: "The date of Luther's “tower experience.”",
+        note: "Luther's own 1545 account points to 1518–1519; many scholars place his breakthrough around 1513–1515, and others see a gradual development rather than a single moment.",
+      },
+    ],
+    4: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "More died “the king's good servant, but God's first.”",
+        note: "The words come from a newsletter report of his execution, the Paris News Letter of 1535, not from a verbatim record. They are widely accepted but cannot be verified.",
+      },
+    ],
+    5: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "Henry IV said “Paris is well worth a Mass.”",
+        note: "The remark is not recorded by any contemporary and is almost certainly apocryphal, as the lesson says.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "The Peace of Westphalia created the modern system of sovereign states.",
+        note: "A long-standing textbook view, now criticized by historians such as Andreas Osiander and Peter Wilson, who note that the treaties did not define sovereignty and that the Holy Roman Empire survived until 1806. The lesson presents both.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
