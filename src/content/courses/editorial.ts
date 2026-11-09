@@ -916,6 +916,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "MDH 110": {
+    1: [
+      {
+        page: 3, kind: "disputed",
+        claim: "A 'feudal revolution' transformed society around the year 1000.",
+        note: "Duby, Bois, and Poly argued for a sudden change; Barthélemy and others see gradual evolution and an artifact of changing sources. The lesson presents the debate.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "Europe's population rose from perhaps 35–40 million to 70–80 million between 1000 and 1300.",
+        note: "Medieval population figures are estimates built on scattered evidence such as Domesday Book; the trend is secure, the numbers are not.",
+      },
+    ],
+    2: [
+      {
+        page: 3, kind: "disputed",
+        claim: "The crusaders killed tens of thousands in Jerusalem in 1099.",
+        note: "Later Muslim sources give 70,000; Benjamin Kedar's study suggests thousands rather than tens of thousands. The massacre itself is not in doubt.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "The legate at Béziers said, 'Kill them all; God will know his own.'",
+        note: "The words are reported only by Caesarius of Heisterbach, writing years later and not present; historians doubt they were spoken, though the massacre occurred.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "The Cathars formed an organized dualist counter-church.",
+        note: "Pegg and Moore argue the 'Cathar Church' was largely constructed by inquisitors; Taylor, Biller, and others defend its reality. The lesson presents both views.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Francis received the stigmata on La Verna in 1224.",
+        note: "The stigmata are reported by Francis's companions and early biographers; the lesson reports the tradition without adjudicating it.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "disputed",
+        claim: "The letters of Abelard and Héloïse are authentic.",
+        note: "They survive in later copies; Benton once questioned them, and Mews's attribution of the anonymous love letters is debated. Most scholars accept the main correspondence as substantially authentic.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "The Condemnation of 1277 marked the birth of modern science.",
+        note: "Pierre Duhem's thesis is now regarded as exaggerated, though it drew attention to real fourteenth-century advances in natural philosophy.",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "corrected",
+        claim: "Henry II said, 'Will no one rid me of this turbulent priest?'",
+        note: "The familiar line is a later invention; contemporary accounts report a different outburst, which the lesson quotes.",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "Magna Carta guaranteed trial by jury and due process.",
+        note: "These readings come largely from seventeenth-century lawyers such as Coke; in 1215 clause 39 protected free men's right to judgment by peers or the law of the land.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
