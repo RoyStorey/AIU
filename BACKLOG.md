@@ -4,7 +4,7 @@ Ideas agreed on but not yet scheduled, kept here so they are not lost.
 
 ## Next up
 
-1. Finish American History: AMH 301 (lessons 4–5; lessons 1–3 drafted), AMH 310, AMH 401.
+1. Finish American History: AMH 310, AMH 401.
 2. "Notify me when it opens" for courses in preparation, shown on the Study page.
 3. Nightly backup of the database.
 4. Images for IAH 110 and PAT 101 (Wikimedia Commons was unreachable when they were written).

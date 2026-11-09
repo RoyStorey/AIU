@@ -495,6 +495,37 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "AMH 301": {
+    4: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "McKinley said he would “uplift and civilize and Christianize” the Filipinos.",
+        note: "The words come from a recollection by the Methodist James Rusling, published in 1903, four years after the meeting and after McKinley's death. Historians disagree about how reliable it is; the lesson says it is uncertain whether he said them.",
+      },
+      {
+        page: 2, kind: "uncertain",
+        claim: "Some 200,000 or more Filipino civilians died in the Philippine–American War.",
+        note: "No reliable count exists. Estimates of civilian deaths from violence, famine, and disease, including a cholera epidemic, range from about 200,000 to over 700,000, depending on method and on which years and regions are included.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "The dead of the Tulsa massacre of 1921.",
+        note: "The official count at the time was 36. A 2001 Oklahoma commission estimated between 75 and 300, and excavations for mass graves continue. The lesson gives the range.",
+      },
+    ],
+    5: [
+      {
+        page: 5, kind: "corrected",
+        claim: "The “switch in time that saved nine.”",
+        note: "Justice Roberts voted to uphold the minimum-wage law in conference in December 1936, before the court-packing plan was announced in February 1937. The lesson notes this; the quip implies a cause that the timing does not support.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Between about 400,000 and a million people of Mexican descent were “repatriated.”",
+        note: "Older estimates centered on 400,000 to 500,000; Francisco Balderrama and Raymond Rodríguez, in Decade of Betrayal (1995; rev. 2006), argued for up to a million. Many were U.S. citizens. The lesson gives the range.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
