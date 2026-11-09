@@ -1139,6 +1139,63 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "AML 110": {
+    1: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Whitman said, 'I was simmering, simmering, simmering; Emerson brought me to a boil.'",
+        note: "The remark is reported secondhand by J. T. Trowbridge, decades later; its exact wording is not certain.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Thoreau said Harvard taught all the branches of learning 'but none of the roots.'",
+        note: "The quip is attributed to him in later anecdote, not in his own writings.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Emerson asked Thoreau in jail, 'Why are you here?' and Thoreau replied, 'Why are you not here?'",
+        note: "The exchange first appears in print long after both men's deaths and is almost certainly apocryphal, as the lesson says.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Thoreau's aunt Maria paid his poll tax.",
+        note: "Family tradition names her; the payer was veiled and other relatives have been suggested.",
+      },
+    ],
+    3: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "Emerson cut the dedication to Franklin Pierce out of his copy of Our Old Home.",
+        note: "The story is told in later reminiscence; no copy survives to confirm it.",
+      },
+    ],
+    4: [
+      {
+        page: 1, kind: "corrected",
+        claim: "Melville lived among the Typee for four months.",
+        note: "Melville's own figure in Typee; records of his ship and later scholarship put the stay at about four weeks, as the lesson states.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "The British edition's omission of the Epilogue confused reviewers about the narrator's survival.",
+        note: "Some reviews complained of this explicitly; how much the omission shaped the poor British reception is debated.",
+      },
+    ],
+    5: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "Lincoln greeted Stowe as 'the little woman who wrote the book that made this great war.'",
+        note: "The words come from Stowe family tradition, first printed decades later; most historians treat them as apocryphal.",
+      },
+      {
+        page: 1, kind: "disputed",
+        claim: "Elizabeth Melville's family considered helping her leave him in 1867.",
+        note: "The evidence is a few letters discovered in the 1970s; what lay behind the plan, and how serious it was, remain disputed.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
