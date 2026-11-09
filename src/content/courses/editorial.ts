@@ -571,6 +571,51 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "EUH 110": {
+    1: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Louis XIV said “L'État, c'est moi.”",
+        note: "The phrase is not recorded by any contemporary and is almost certainly apocryphal, as the lesson says.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Galileo muttered “And yet it moves.”",
+        note: "The words first appear in print in 1757, more than a century after the trial, though a Spanish painting of about 1643 may allude to them. They are almost certainly legend.",
+      },
+    ],
+    2: [
+      {
+        page: 6, kind: "uncertain",
+        claim: "The dead of the Terror and the Vendée.",
+        note: "Some 17,000 official death sentences are documented; estimates of total deaths in the Terror, including prisons and summary killings, run from about 35,000 to 50,000. Estimates for the Vendée war range from about 120,000 to over 200,000.",
+      },
+    ],
+    4: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "Grey said, “The lamps are going out all over Europe.”",
+        note: "The remark comes from Grey's memoirs (1925), recalling a conversation on the eve of war; it is reliable as his own recollection but was not recorded at the time.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "The war killed some nine to ten million soldiers and six or seven million civilians.",
+        note: "Military deaths are fairly well documented; civilian deaths, especially from hunger, disease, and the Armenian genocide, are much less certain, and estimates vary widely.",
+      },
+    ],
+    5: [
+      {
+        page: 4, kind: "uncertain",
+        claim: "Five to seven million died in the Soviet famine of 1932–1933, three and a half to five million in Ukraine.",
+        note: "Demographic estimates differ by method; most recent scholarship falls within these ranges. Whether the Ukrainian famine was genocide is debated among historians, though many governments recognize it as such.",
+      },
+      {
+        page: 7, kind: "corrected",
+        claim: "Höss's figure of three million dead at Auschwitz.",
+        note: "Höss's 1946 affidavit greatly overstated the number. Franciszek Piper's research for the Auschwitz Museum established the figure of about 1.1 million, which the lesson gives; the source exercise asks students to consider the discrepancy.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
