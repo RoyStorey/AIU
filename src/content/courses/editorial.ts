@@ -1072,6 +1072,73 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "AML 101": {
+    1: [
+      {
+        page: 4, kind: "disputed",
+        claim: "The Wampanoag may have come to the 1621 harvest uninvited, after hearing the colonists' guns.",
+        note: "The only firsthand source, Edward Winslow's letter in Mourt's Relation, says Massasoit arrived with some ninety men; whether they were invited is not stated and remains debated.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Squanto escaped from Spain or was freed by Spanish friars.",
+        note: "The friars story rests on a later account by Ferdinando Gorges and others; how he left Spain is not documented.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Winthrop delivered 'A Model of Christian Charity' aboard the Arbella.",
+        note: "The manuscript's note says it was written 'on board the Arbella', but scholars such as Hugh Dawson have argued it was delivered in Southampton before sailing; the occasion is unknown.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Rowlandson's narrative was shaped or edited by Puritan ministers, perhaps Increase Mather.",
+        note: "Mather is widely believed to have written the preface ('Per Amicum'), but the extent of any editing of the narrative itself is a matter of scholarly argument.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Giles Corey's last words were 'More weight.'",
+        note: "The words come from later tradition, first recorded by Robert Calef; there is no direct record of the pressing.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Increase Mather had Calef's More Wonders of the Invisible World burned in Harvard Yard.",
+        note: "The burning is reported by tradition, not by contemporary record.",
+      },
+    ],
+    4: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "James Davenport threw his own breeches onto the New London bonfire.",
+        note: "The detail appears in hostile contemporary reports and later retellings; accounts differ.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Edwards delivered 'Sinners' quietly, his eyes fixed on the bell rope.",
+        note: "The description of his manner comes from later recollections, not from witnesses at Enfield.",
+      },
+    ],
+    5: [
+      {
+        page: 4, kind: "disputed",
+        claim: "Common Sense sold 120,000 copies in three months and perhaps 150,000 or more in a year.",
+        note: "These are Paine's own figures; Trish Loughran and other scholars argue the real numbers were far lower, though it was still the best-selling pamphlet of the Revolution.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Paine gave his profits from Common Sense to buy mittens for the Continental Army.",
+        note: "Paine said he directed his share to the troops; how much reached them is unclear.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Franklin changed Jefferson's 'sacred and undeniable' to 'self-evident.'",
+        note: "The change appears on the rough draft, but whose hand made it has been debated; it is traditionally credited to Franklin.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
