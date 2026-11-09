@@ -802,6 +802,63 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "IAH 101": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The Americas held about 54 million people in 1492.",
+        note: "Denevan's figure is a widely cited synthesis; estimates range from under 10 million to over 100 million, and most scholars today accept something between about 40 and 70 million.",
+      },
+      {
+        page: 2, kind: "disputed",
+        claim: "Human footprints at White Sands date to 21,000–23,000 years ago.",
+        note: "The dates were challenged after their 2021 publication; further dating published in 2023 supported them, but some archaeologists remain unconvinced.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The Olmec were the 'mother culture' of Mesoamerica.",
+        note: "Some archaeologists see the Olmec as one of several contemporary 'sister cultures'; the lesson presents both views.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "The Maya lowlands held seven to eleven million people in the Late Classic.",
+        note: "The PACUNAM estimate depends on assumptions about how many structures were occupied at once and how many people lived in each; other scholars propose lower figures.",
+      },
+    ],
+    3: [
+      {
+        page: 4, kind: "uncertain",
+        claim: "Tenochtitlan was founded in 1325 where an eagle perched on a cactus.",
+        note: "The date and the story come from Mexica traditions recorded after the conquest; the date is traditional, and the eagle is a founding legend.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "Moctezuma believed Cortés was the returning god Quetzalcoatl.",
+        note: "No source from the time of the conquest says so; Townsend and Restall argue the story was created afterward. The lesson presents the debate.",
+      },
+    ],
+    4: [
+      {
+        page: 4, kind: "disputed",
+        claim: "80,400 captives were sacrificed at the rededication of the Templo Mayor in 1487.",
+        note: "The figure comes from Diego Durán, writing a century later; most historians consider it impossible. Estimates of annual sacrifices vary widely.",
+      },
+    ],
+    5: [
+      {
+        page: 4, kind: "uncertain",
+        claim: "Pachacuti came to power after defeating the Chanka in 1438.",
+        note: "The date comes from Cabello Balboa's chronology, adopted by John Rowe; radiocarbon dates from Machu Picchu suggest Inca expansion may have begun earlier.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "Some khipus may have recorded language as well as numbers.",
+        note: "Hyland's study of the Collata khipus is suggestive but not a decipherment; whether khipus encoded language remains unresolved.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
