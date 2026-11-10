@@ -1439,6 +1439,58 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "GRK 102": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "In John 20:17, μή μου ἅπτου means “stop clinging to me.”",
+        note: "Many scholars read the present imperative this way; others think the aspectual contrast is weaker here and keep “do not touch me.”",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "Caesar wrote ἦλθον, εἶδον, ἐνίκησα to a friend named Amantius.",
+        note: "This is Plutarch's report; Suetonius says the words were displayed at Caesar's triumph, and the recipient is not certain.",
+      },
+    ],
+    2: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "Socrates was convicted by about 280 votes to 220.",
+        note: "The figure is inferred from Apology 36a and the usual jury size of 501; neither number is stated exactly.",
+      },
+    ],
+    3: [
+      {
+        page: 4, kind: "disputed",
+        claim: "ἀλήθεια means “un-concealment.”",
+        note: "The etymology from ἀ- + λήθ- is sound, but how much it reveals about Greek ideas of truth, as Heidegger argued, is contested.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "disputed",
+        claim: "τετέλεσται was written on receipts to mean “paid in full.”",
+        note: "The claim is popular in preaching; the papyrus evidence for this exact use is thin.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "The Iliad was composed in the late eighth or early seventh century BCE.",
+        note: "Dates proposed for the poem's fixed form range from the eighth to the sixth century; its oral tradition is older.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "Archimedes cried εὕρηκα after discovering displacement in the bath.",
+        note: "The story is told by Vitruvius, writing in Latin about two centuries later, and may be embellished.",
+      },
+    ],
+    5: [
+      {
+        page: 6, kind: "disputed",
+        claim: "Socrates's last words mean that death is a cure for life.",
+        note: "This is one ancient and modern reading; others take the words as simple piety, a joke, or a reference to a friend's recovery.",
+      },
+    ],
+  },
   "LAT 101": {
     1: [
       {
