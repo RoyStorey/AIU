@@ -1253,6 +1253,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "WLT 101": {
+    1: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "George Smith was so excited by the flood tablet that he began to undress.",
+        note: "The story comes from a colleague's recollection published years later; it may be embellished.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "Sîn-lēqi-unninni composed the Standard Babylonian version.",
+        note: "The attribution comes from a later Assyrian catalogue of authors; his exact role, and his date, are uncertain.",
+      },
+    ],
+    2: [
+      {
+        page: 3, kind: "disputed",
+        claim: "The author of Ecclesiastes may have known the Gilgamesh tradition.",
+        note: "The parallel with Siduri's advice is close, but direct influence cannot be proved; both may draw on common wisdom.",
+      },
+    ],
+    3: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The Iliad and Odyssey were composed around 750–675 BCE.",
+        note: "Dates proposed by scholars range from the late eighth to the mid-sixth century BCE, and some doubt that a single poet composed either.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "Hisarlik is Homer's Troy, the Hittite Wilusa.",
+        note: "The identification is widely accepted but not certain, and whether a Trojan War like Homer's took place remains unknown.",
+      },
+    ],
+    4: [
+      {
+        page: 4, kind: "disputed",
+        claim: "Penelope sets the contest of the bow knowing, or suspecting, who the beggar is.",
+        note: "Some critics, such as John Winkler, think she suspects; others read her as unaware until the test of the bed. The poem does not say.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "The Odyssey originally ended at Book 23, line 296.",
+        note: "Two Alexandrian scholars said so; many modern scholars defend the authenticity of the ending.",
+      },
+    ],
+    5: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "The Gita was composed between about 200 BCE and 200 CE.",
+        note: "Dates proposed range from the fifth century BCE to the second century CE; whether it was inserted into the epic or grew within it is debated.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Humboldt called the Gita perhaps the only true philosophical poem in any language.",
+        note: "The remark is widely quoted in several forms; its original wording is not secure.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "Oppenheimer thought of 'Now I am become Death, the destroyer of worlds' at the Trinity test.",
+        note: "He said so in a 1965 interview, twenty years later; earlier accounts mention the verse about a thousand suns.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
