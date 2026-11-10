@@ -412,7 +412,7 @@ In a paragraph, using at least three of these sources, answer: How did Elizabeth
   ],
   media: [
     { kind: "website", title: "Luminarium: Anthology of English Literature (Renaissance)", publisher: "ed. Anniina Jokinen", url: "https://www.luminarium.org/renlit/" },
-    { kind: "website", title: "The Elizabeth I portraits", publisher: "National Portrait Gallery, London", url: "https://www.npg.org.uk/collections" },
+    { kind: "website", title: "National Portrait Gallery Collections", publisher: "National Portrait Gallery, London", url: "https://www.npg.org.uk/collections", note: "Search for the portraits of Elizabeth I." },
   ],
   questions: [
     {

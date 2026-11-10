@@ -357,7 +357,7 @@ In a paragraph, using at least three of these sources and at least one earlier w
   ],
   media: [
     { kind: "website", title: "W. E. B. Du Bois Papers", publisher: "University of Massachusetts Amherst Libraries", url: "https://credo.library.umass.edu/" },
-    { kind: "website", title: "The Crisis (digitized issues)", publisher: "Modernist Journals Project", url: "https://modjourn.org/" },
+    { kind: "website", title: "Modernist Journals Project", publisher: "Modernist Journals Project", url: "https://modjourn.org/", note: "Includes digitized early issues of The Crisis." },
   ],
   questions: [
     {

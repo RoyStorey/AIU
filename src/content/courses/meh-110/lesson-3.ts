@@ -313,7 +313,7 @@ In a paragraph, using at least three of these sources, answer: How did the kings
     { kind: "book", title: "The Amarna Letters", author: "ed. and trans. William L. Moran", publisher: "Johns Hopkins University Press", year: "1992", note: "Read EA 1–4, 19, 286–290." },
   ],
   media: [
-    { kind: "website", title: "Law Code of Hammurabi", publisher: "Musée du Louvre, Collections", url: "https://collections.louvre.fr/" },
+    { kind: "website", title: "Louvre Collections", publisher: "Musée du Louvre, Collections", url: "https://collections.louvre.fr/", note: "Search for the Code of Hammurabi stele (Sb 8)." },
     { kind: "website", title: "Hattusha: the Hittite Capital", publisher: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/377/" },
   ],
   questions: [

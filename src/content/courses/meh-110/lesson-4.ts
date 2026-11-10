@@ -318,7 +318,7 @@ In a paragraph, using at least three of these sources, answer: How did the Assyr
   ],
   media: [
     { kind: "website", title: "State Archives of Assyria Online", publisher: "University of Helsinki and Open Richly Annotated Cuneiform Corpus", url: "https://oracc.museum.upenn.edu/saao/" },
-    { kind: "website", title: "Assyrian lion hunt reliefs and Lachish reliefs", publisher: "British Museum, Collection Online", url: "https://www.britishmuseum.org/collection" },
+    { kind: "website", title: "British Museum Collection Online", publisher: "British Museum, Collection Online", url: "https://www.britishmuseum.org/collection", note: "Search for the Lachish reliefs and the lion hunt of Ashurbanipal, both from Nineveh." },
   ],
   questions: [
     {

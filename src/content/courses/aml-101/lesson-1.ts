@@ -326,7 +326,7 @@ In a paragraph, using at least three of these sources, answer: How did the Pilgr
   ],
   media: [
     { kind: "website", title: "Plimoth Patuxet Museums", publisher: "Plimoth Patuxet", url: "https://plimoth.org/", note: "Living history of the English village and the Wampanoag Homesite." },
-    { kind: "website", title: "Mayflower Compact and Of Plymouth Plantation (texts)", publisher: "Avalon Project, Yale Law School", url: "https://avalon.law.yale.edu/17th_century/mayflower.asp" },
+    { kind: "website", title: "The Mayflower Compact (text)", publisher: "Avalon Project, Yale Law School", url: "https://avalon.law.yale.edu/17th_century/mayflower.asp" },
   ],
   questions: [
     {

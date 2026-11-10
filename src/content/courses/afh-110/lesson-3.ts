@@ -333,7 +333,7 @@ In a paragraph, using at least three of these sources, answer: How did African s
   ],
   media: [
     { kind: "website", title: "Asante Traditional Buildings", publisher: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/35/" },
-    { kind: "website", title: "Slave Voyages: Introductory Maps", publisher: "Emory University and partners", url: "https://www.slavevoyages.org/" },
+    { kind: "website", title: "SlaveVoyages", publisher: "Emory University and partners", url: "https://www.slavevoyages.org/" },
   ],
   questions: [
     {

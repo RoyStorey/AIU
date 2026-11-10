@@ -48,7 +48,7 @@ Throughout, we read the sources—Herodotus and the Periplus, Ezana's inscriptio
         { kind: "book", title: "The Swahili: Reconstructing the History and Language of an African Society, 800–1500", author: "Derek Nurse and Thomas Spear", publisher: "University of Pennsylvania Press", year: "1985" },
         { kind: "book", title: "Aksum: An African Civilisation of Late Antiquity", author: "Stuart Munro-Hay", publisher: "Edinburgh University Press", year: "1991" },
         { kind: "book", title: "Great Zimbabwe", author: "Peter Garlake", publisher: "Thames & Hudson", year: "1973" },
-        { kind: "website", title: "Heilbrunn Timeline of Art History: Africa", publisher: "The Metropolitan Museum of Art", url: "https://www.metmuseum.org/toah/" },
+        { kind: "website", title: "Heilbrunn Timeline of Art History", publisher: "The Metropolitan Museum of Art", url: "https://www.metmuseum.org/toah/", note: "Browse its essays on African art and history." },
       ],
     },
   ],

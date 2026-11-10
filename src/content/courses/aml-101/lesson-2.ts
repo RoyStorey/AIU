@@ -400,7 +400,7 @@ In a paragraph, using at least three of these sources, answer: How did Puritan w
   ],
   media: [
     { kind: "website", title: "A Model of Christian Charity (text)", publisher: "Winthrop Society", url: "https://www.winthropsociety.com/doc_charity.php" },
-    { kind: "website", title: "The Examination of Mrs. Anne Hutchinson (text)", publisher: "Digital History, University of Houston", url: "https://www.digitalhistory.uh.edu/" },
+    { kind: "website", title: "Digital History", publisher: "Digital History, University of Houston", url: "https://www.digitalhistory.uh.edu/", note: "Search its primary sources for the 1637 examination of Anne Hutchinson." },
   ],
   questions: [
     {

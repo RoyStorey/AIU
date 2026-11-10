@@ -357,7 +357,7 @@ In a paragraph, using at least three of these sources, answer: How does Douglass
   ],
   readings: [
     { kind: "edition", title: "Narrative of the Life of Frederick Douglass, an American Slave", author: "Frederick Douglass", publisher: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/23", note: "Read the whole Narrative, including the prefaces and the appendix." },
-    { kind: "website", title: "What to the Slave Is the Fourth of July?", publisher: "Teaching American History", url: "https://teachingamericanhistory.org/" },
+    { kind: "website", title: "Teaching American History", publisher: "Teaching American History", url: "https://teachingamericanhistory.org/", note: "Search for Douglass, “What to the Slave Is the Fourth of July?” (1852)." },
     { kind: "book", title: "Frederick Douglass: Prophet of Freedom", author: "David W. Blight", publisher: "Simon & Schuster", year: "2018", note: "Read chapters 1–7." },
   ],
   media: [
