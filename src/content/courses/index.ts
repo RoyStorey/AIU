@@ -14,6 +14,7 @@ import { ash101 } from "./ash-101";
 import { ash110 } from "./ash-110";
 import { iah101 } from "./iah-101";
 import { iah110 } from "./iah-110";
+import { lat101 } from "./lat-101";
 import { brl101 } from "./brl-101";
 import { brl110 } from "./brl-110";
 import { dra101 } from "./dra-101";
@@ -52,6 +53,7 @@ const written: Record<string, CourseContent> = {
   "ASH 110": ash110,
   "IAH 101": iah101,
   "IAH 110": iah110,
+  "LAT 101": lat101,
   "BRL 101": brl101,
   "BRL 110": brl110,
   "DRA 101": dra101,
@@ -82,7 +84,7 @@ const written: Record<string, CourseContent> = {
  * show as in preparation. Remove a course from this list when its new version
  * is added to `written`.
  */
-export const withdrawnCourses = new Set(["BIB 101", "LAT 101", "LIN 101"]);
+export const withdrawnCourses = new Set(["BIB 101", "LIN 101"]);
 
 /** Joins each lesson to the editors' notes on it. */
 function withEditorial(code: string, course: CourseContent): CourseContent {

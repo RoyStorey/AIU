@@ -1377,6 +1377,44 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "LAT 101": {
+    1: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Classical Latin r was trilled or flapped.",
+        note: "The ancient descriptions point to a tongue-tip trill, but the exact sound cannot be recovered with certainty.",
+      },
+    ],
+    4: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "Tom Brown adapted Martial 1.32 when threatened with expulsion by Dr. John Fell.",
+        note: "The story is traditional and told in several versions; it is not documented at the time it is said to have happened.",
+      },
+    ],
+    5: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Caesar reported his victory at Zela with the words Vēnī, vīdī, vīcī.",
+        note: "Plutarch says Caesar wrote the words to a friend, Amantius; Suetonius says they were displayed at his Pontic triumph. Whether they were also sent to the Senate is not certain.",
+      },
+      {
+        page: 1, kind: "uncertain",
+        claim: "Cicero announced the conspirators' execution with the single word Vīxērunt.",
+        note: "The report comes from Plutarch's Life of Cicero, written a century and a half later.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "Lesbia was Clodia Metelli.",
+        note: "Apuleius says Lesbia's real name was Clodia; identifying her with Clodia Metelli, rather than one of her sisters, is the usual view but is not proved.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Marvell's 'To His Coy Mistress' drew on Catullus 5.",
+        note: "The poem belongs to the carpe diem tradition Catullus helped shape; a direct debt to poem 5 is a critical inference.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
