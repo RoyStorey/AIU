@@ -1608,6 +1608,33 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "ANH 101": {
+    1: [
+      { page: 3, kind: "disputed", claim: "The later Greeks explained their dialects by a Dorian invasion after the Trojan War.", note: "Archaeology has found no clear trace of a single invading people; many scholars see the Dorian story as a later myth of origins, though some still argue for movements of population at the end of the Bronze Age." },
+      { page: 4, kind: "uncertain", claim: "The woman buried at Lefkandi may have been a wife, a slave, or a sacrifice.", note: "The excavators noted that her hands and feet may have been bound and a knife lay by her head, which suggested sacrifice to some; the evidence is not conclusive." },
+    ],
+    2: [
+      { page: 1, kind: "disputed", claim: "The hoplite phalanx may have caused a political revolution.", note: "The \"hoplite revolution\" thesis is contested: some historians date the full phalanx later and doubt that it drove political change, while others defend a link between hoplite service and broader citizenship." },
+      { page: 3, kind: "uncertain", claim: "Lycurgus founded the Spartan constitution, as recorded in the Great Rhetra.", note: "Ancient writers disagreed about when Lycurgus lived, and many modern historians doubt that he existed; the Rhetra's text and date are also debated." },
+      { page: 5, kind: "uncertain", claim: "Draco's laws were proverbially harsh.", note: "The tradition of their severity comes largely from later writers; only his homicide law survives, in a copy of 409/8 BCE, and it is not notably savage." },
+      { page: 6, kind: "disputed", claim: "Harmodius and Aristogeiton were honored as the liberators of Athens.", note: "Herodotus and Thucydides both insist that the killing of Hipparchus was a private quarrel and did not end the tyranny, which fell in 510 with Spartan help; the popular tradition differed." },
+    ],
+    3: [
+      { page: 4, kind: "corrected", claim: "Xerxes's army numbered 1,700,000 infantry.", note: "This is Herodotus's figure, which no modern historian accepts; estimates for the land army usually range from under one hundred thousand to around two or three hundred thousand." },
+      { page: 6, kind: "disputed", claim: "The Themistocles Decree records the evacuation of Athens.", note: "The inscription found at Troezen was cut in the third century BCE; scholars disagree whether it preserves the substance of a genuine decree of 480 or is a later reconstruction." },
+    ],
+    4: [
+      { page: 1, kind: "disputed", claim: "Athens and Persia made the Peace of Callias around 449 BCE.", note: "Thucydides does not mention it, and the fourth-century historian Theopompus called it a forgery; historians remain divided on whether a formal peace was made." },
+      { page: 1, kind: "uncertain", claim: "The Coinage Decree imposed Athenian coins, weights, and measures on the allies.", note: "Its date is disputed, between the 440s and the 410s, and depends partly on how letter forms in inscriptions are dated." },
+      { page: 5, kind: "disputed", claim: "The Greeks swore an Oath of Plataea not to rebuild the temples destroyed by Persia.", note: "The oath survives only in fourth-century versions, and the clause about temples is absent from the inscribed text at Acharnae; its authenticity is debated." },
+      { page: 7, kind: "disputed", claim: "De Ste. Croix argued that the Athenian empire was popular with the allied common people.", note: "The thesis has been widely discussed and partly rejected; others have argued that the evidence shows widespread resentment of Athenian rule." },
+    ],
+    5: [
+      { page: 2, kind: "disputed", claim: "DNA from a Kerameikos mass grave has suggested that the plague was typhoid.", note: "The 2006 study was criticized on methodological grounds, and the identification of the disease remains unresolved." },
+      { page: 2, kind: "uncertain", claim: "More than a thousand Mytileneans judged most responsible were executed.", note: "This is the figure in our manuscripts of Thucydides (3.50); some scholars think it is a copyist's error for a much smaller number, perhaps thirty." },
+      { page: 7, kind: "uncertain", claim: "Socrates was tried before a jury of 501 citizens.", note: "The number is inferred from usual Athenian practice and Plato's account of the vote; it is not stated in the sources." },
+    ],
+  },
   "LAT 101": {
     1: [
       {
