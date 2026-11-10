@@ -21,6 +21,7 @@ import { lat102 } from "./lat-102";
 import { brl101 } from "./brl-101";
 import { brl110 } from "./brl-110";
 import { clt101 } from "./clt-101";
+import { clt110 } from "./clt-110";
 import { dra101 } from "./dra-101";
 import { dra110 } from "./dra-110";
 import { euh101 } from "./euh-101";
@@ -64,6 +65,7 @@ const written: Record<string, CourseContent> = {
   "BRL 101": brl101,
   "BRL 110": brl110,
   "CLT 101": clt101,
+  "CLT 110": clt110,
   "DRA 101": dra101,
   "DRA 110": dra110,
   "EUH 101": euh101,

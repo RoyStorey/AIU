@@ -411,6 +411,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "CLT 110": {
+    1: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Thespis performed the first tragedy around 534 BCE.",
+        note: "The date and the story of Thespis come from late sources; the origins of tragedy are obscure.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "The Dionysia's ceremonies made it a festival of civic ideology.",
+        note: "Simon Goldhill's influential view; other scholars give the ceremonies less weight or stress the festival's religious character.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "Some women probably attended the theater.",
+        note: "The evidence is indirect and ambiguous; scholars remain divided.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Aeschylus was killed by a tortoise dropped by an eagle.",
+        note: "A late and fanciful story, reported in the ancient Life; the epitaph's authorship is also uncertain.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "Prometheus Bound is by Aeschylus.",
+        note: "Its authorship has been doubted since the nineteenth century on grounds of style, meter, theology, and staging.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Ajax's deception speech is meant to deceive.",
+        note: "Scholars disagree whether Ajax lies, changes his mind, or speaks a truth only he understands.",
+      },
+      {
+        page: 5, kind: "disputed",
+        claim: "The Philoctetes reflects the case of Alcibiades.",
+        note: "A suggestion made by some scholars; others warn against reading the play as political allegory.",
+      },
+    ],
+    4: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "In the lost first Hippolytus, Phaedra declared her love directly.",
+        note: "The plot of the lost play is reconstructed from fragments and later reports.",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Socrates stood up in the theater during the Clouds.",
+        note: "The story is told by Aelian, centuries later.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "The Frogs was given a second performance because of its parabasis.",
+        note: "The report comes from an ancient hypothesis citing Dicaearchus; details are uncertain.",
+      },
+    ],
+  },
   "DRA 101": {
     1: [
       {
