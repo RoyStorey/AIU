@@ -1635,6 +1635,43 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 7, kind: "uncertain", claim: "Socrates was tried before a jury of 501 citizens.", note: "The number is inferred from usual Athenian practice and Plato's account of the vote; it is not stated in the sources." },
     ],
   },
+  "ANH 110": {
+    1: [
+      { page: 1, kind: "disputed", claim: "The Roman tradition about the kings and the early Republic preserves a core of genuine memory.", note: "Historians are divided: some, like T. J. Cornell, accept the structural outline; others regard most of the early narrative as later reconstruction." },
+      { page: 2, kind: "uncertain", claim: "Genetic studies since 2021 support local Italian origins for the Etruscans.", note: "The ancient debate between Lydian and native origins has not been entirely closed, though recent ancient-DNA work points to continuity with earlier Italian populations." },
+      { page: 4, kind: "disputed", claim: "Carandini's Palatine walls date to the mid-eighth century BCE.", note: "Both the dating and Carandini's view that they mark a deliberate founding by a historical Romulus are contested." },
+      { page: 5, kind: "uncertain", claim: "Servius Tullius may be the Etruscan Mastarna.", note: "The identification rests on the emperor Claudius's report of Etruscan authors and the François Tomb paintings; it cannot be confirmed." },
+      { page: 6, kind: "uncertain", claim: "The monarchy fell in 509 BCE after the rape of Lucretia.", note: "The date of about 509 is broadly accepted, but the story of Lucretia is shaped by literary patterns and cannot be verified." },
+      { page: 7, kind: "disputed", claim: "Porsenna may actually have captured Rome.", note: "The suggestion rests on brief remarks in Tacitus and Pliny; others read them differently." },
+    ],
+    2: [
+      { page: 2, kind: "disputed", claim: "Fergus Millar argued that the Republic had important democratic features.", note: "His view has been widely debated; many historians still regard the Republic as essentially oligarchic." },
+      { page: 4, kind: "uncertain", claim: "The Twelve Tables are quoted by table and law number.", note: "The original text is lost; modern editions reconstruct it from later quotations, and the numbering of the fragments varies between editions." },
+      { page: 4, kind: "disputed", claim: "Table 3.6 allowed creditors to cut a debtor into pieces.", note: "Ancient and modern interpreters disagree whether it refers to the debtor's body or his property; Gellius knew of no case of it being carried out." },
+      { page: 5, kind: "disputed", claim: "Military tribunes with consular power often replaced the consuls between 444 and 367 BCE.", note: "Whether the reason was military need or the political struggle between the orders is debated." },
+    ],
+    3: [
+      { page: 1, kind: "uncertain", claim: "The Gauls sacked Rome around 390 BCE.", note: "Greek chronology suggests 387/6, and archaeological evidence for destruction is limited." },
+      { page: 3, kind: "uncertain", claim: "Regulus returned to Carthage to be tortured to death, keeping his oath.", note: "The story is first attested well after the event and may be patriotic invention." },
+      { page: 4, kind: "disputed", claim: "Hannibal crossed the Alps by a particular pass, possibly the Col de la Traversette.", note: "The route has been argued since antiquity; the 2016 evidence from animal dung has been questioned." },
+      { page: 4, kind: "uncertain", claim: "Roman losses at Cannae.", note: "Polybius gives about 70,000 and Livy about 48,000; neither figure can be confirmed." },
+      { page: 7, kind: "corrected", claim: "The Romans sowed the ground of Carthage with salt.", note: "No ancient source says so; the story is a modern invention." },
+    ],
+    4: [
+      { page: 1, kind: "disputed", claim: "The small farmers of Italy were displaced by slave-run estates.", note: "This is the view of Appian and Plutarch; field surveys and the census figures have led many historians to doubt a general collapse of the peasantry." },
+      { page: 4, kind: "disputed", claim: "Marius transformed the army into a professional force.", note: "Many historians now see his recruitment of the poor as one step in a longer process, and doubt that the cohort and the eagle were his innovations." },
+      { page: 5, kind: "disputed", claim: "The Italian allies fought the Social War to gain Roman citizenship.", note: "The ancient sources say so; some modern scholars argue that some rebels sought independence." },
+      { page: 5, kind: "uncertain", claim: "Mithridates's massacre of 88 BCE killed 80,000 or more.", note: "The ancient figures (80,000 to 150,000) are probably exaggerated." },
+      { page: 6, kind: "uncertain", claim: "Sulla's proscriptions claimed about 4,700 victims.", note: "The ancient figures vary, and the number is uncertain." },
+    ],
+    5: [
+      { page: 2, kind: "uncertain", claim: "Caesar killed a million Gauls and enslaved another million.", note: "These figures go back to Caesar's own reports and are probably exaggerated." },
+      { page: 4, kind: "uncertain", claim: "Caesar said \"The die is cast\" at the Rubicon.", note: "The words are reported by Suetonius and Plutarch, in Latin and Greek versions; Caesar's own account does not mention the river." },
+      { page: 4, kind: "disputed", claim: "Books of the library of Alexandria may have burned during Caesar's Alexandrian War.", note: "Ancient accounts differ about what burned, and the library continued to exist afterward." },
+      { page: 5, kind: "disputed", claim: "Antony's offer of a diadem at the Lupercalia.", note: "Historians disagree whether it was a test of opinion, a staged refusal, or an attempt to embarrass Caesar." },
+      { page: 6, kind: "corrected", claim: "Caesar's last words were \"Et tu, Brute?\"", note: "The Latin phrase comes from Shakespeare; Suetonius says Caesar said nothing, though some reported the Greek \"You too, child?\"" },
+    ],
+  },
   "LAT 101": {
     1: [
       {
