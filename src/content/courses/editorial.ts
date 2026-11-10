@@ -1706,6 +1706,33 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 7, kind: "disputed", claim: "Socrates's last words meant that death is a cure for life.", note: "This is one ancient and modern reading; others take the words as thanks for the healing of his friends or as a simple vow." },
     ],
   },
+  "APH 110": {
+    1: [
+      { page: 1, kind: "disputed", claim: "Plato's Seventh Letter describes how he came to believe that philosophers must rule.", note: "The letter's authenticity has long been debated; many scholars accept it, others regard it as the work of a later follower." },
+      { page: 2, kind: "uncertain", claim: "The opening words of the Republic were found among Plato's papers written out in many orders.", note: "The anecdote is reported by later writers and cannot be confirmed." },
+      { page: 2, kind: "uncertain", claim: "The dramatic date of the conversation.", note: "Details in the dialogue point to different years, and no single date fits them all." },
+      { page: 7, kind: "disputed", claim: "Book 1 may once have been a separate dialogue, the Thrasymachus.", note: "There is no direct evidence, and many scholars now think Book 1 was written as the opening of the Republic." },
+    ],
+    2: [
+      { page: 2, kind: "uncertain", claim: "The story of Gyges and his ring.", note: "Herodotus tells a different story of Gyges's rise; Plato's text speaks of an ancestor of Gyges, and the legend's origins are unknown." },
+      { page: 7, kind: "disputed", claim: "The noble lie is a piece of political propaganda.", note: "Interpreters disagree whether it is deceptive manipulation, as Popper argued, or a founding myth meant to convey a truth." },
+    ],
+    3: [
+      { page: 2, kind: "disputed", claim: "The just city is a rigid class system.", note: "Critics such as Popper read it this way; defenders stress that classes are assigned by ability, not birth." },
+      { page: 4, kind: "disputed", claim: "Socrates's account of psychic justice answers Glaucon's challenge.", note: "Since Sachs (1963), many have argued that it changes the subject from ordinary justice to inner harmony; others defend the argument." },
+      { page: 5, kind: "disputed", claim: "Plato's proposals about women guardians.", note: "Scholars disagree whether they reflect concern for women or only the efficient use of talent for the state." },
+      { page: 6, kind: "disputed", claim: "Defective children are to be hidden \"in a secret and unknown place.\"", note: "Many scholars read this as infanticide; others think it means placing them in the lower classes." },
+    ],
+    4: [
+      { page: 3, kind: "uncertain", claim: "Plato gave a public lecture On the Good that baffled its audience.", note: "The story comes from Aristoxenus, writing a generation later, and its details are uncertain." },
+      { page: 4, kind: "uncertain", claim: "The Academy bore the inscription \"Let no one ignorant of geometry enter.\"", note: "It is first reported many centuries after Plato and may be legendary." },
+      { page: 4, kind: "disputed", claim: "The third segment of the line concerns special mathematical objects.", note: "Aristotle reports that Plato held a doctrine of mathematical intermediates, but whether the Republic implies it is debated." },
+    ],
+    5: [
+      { page: 1, kind: "uncertain", claim: "The nuptial number of Book 8.", note: "The passage is notoriously obscure, and no proposed solution has won general agreement." },
+      { page: 7, kind: "disputed", claim: "The Republic is deeply ironic, as Strauss and Bloom argued.", note: "Many scholars reject this reading and take the ideal city as a serious, if idealized, proposal." },
+    ],
+  },
   "LAT 101": {
     1: [
       {

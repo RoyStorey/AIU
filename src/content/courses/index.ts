@@ -6,6 +6,7 @@ import { afh110 } from "./afh-110";
 import { anh101 } from "./anh-101";
 import { anh110 } from "./anh-110";
 import { aph101 } from "./aph-101";
+import { aph110 } from "./aph-110";
 import { amh101 } from "./amh-101";
 import { amh110 } from "./amh-110";
 import { amh201 } from "./amh-201";
@@ -53,6 +54,7 @@ const written: Record<string, CourseContent> = {
   "ANH 101": anh101,
   "ANH 110": anh110,
   "APH 101": aph101,
+  "APH 110": aph110,
   "AMH 101": amh101,
   "AMH 110": amh110,
   "AMH 201": amh201,
