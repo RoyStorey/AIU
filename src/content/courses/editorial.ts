@@ -1672,6 +1672,40 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 6, kind: "corrected", claim: "Caesar's last words were \"Et tu, Brute?\"", note: "The Latin phrase comes from Shakespeare; Suetonius says Caesar said nothing, though some reported the Greek \"You too, child?\"" },
     ],
   },
+  "APH 101": {
+    1: [
+      { page: 1, kind: "uncertain", claim: "Thales predicted the solar eclipse of 585 BCE.", note: "Herodotus reports it, but historians doubt that the astronomy of the time allowed such a prediction for a particular place." },
+      { page: 3, kind: "uncertain", claim: "Thales discovered several geometrical theorems and measured the pyramids by their shadows.", note: "These attributions come from much later writers and cannot be confirmed." },
+      { page: 5, kind: "uncertain", claim: "Anaximenes compared the soul, which is air, to the air that holds the cosmos together.", note: "Fragment B2 may preserve his words, but many scholars think its wording is later." },
+      { page: 7, kind: "corrected", claim: "Pythagoras discovered the Pythagorean theorem.", note: "The relationship was known in Babylonia long before, and there is no early evidence that Pythagoras proved or stated it." },
+      { page: 7, kind: "uncertain", claim: "Hippasus was drowned for revealing the incommensurability of the diagonal.", note: "The story is late and almost certainly legendary." },
+    ],
+    2: [
+      { page: 1, kind: "uncertain", claim: "Heraclitus died after burying himself in a cow-shed.", note: "Like many ancient biographical anecdotes, the story was probably invented from his own sayings." },
+      { page: 3, kind: "disputed", claim: "Fragment B12 is Heraclitus's own version of the river saying.", note: "Most scholars think so, but some defend B91 or B49a, and the interpretation of flux depends on the choice." },
+      { page: 5, kind: "uncertain", claim: "Parmenides and Zeno visited Athens and met the young Socrates.", note: "The meeting is described only by Plato and may be a literary invention." },
+      { page: 5, kind: "disputed", claim: "The Velia inscriptions show Parmenides was honored as the founder of a medical school.", note: "The inscriptions are of the Roman period, and their meaning is debated." },
+    ],
+    3: [
+      { page: 1, kind: "uncertain", claim: "Empedocles leaped into Etna.", note: "The story is a legend; Diogenes Laertius records several other accounts of his death." },
+      { page: 1, kind: "disputed", claim: "Empedocles wrote two poems, On Nature and Purifications.", note: "The Strasbourg papyrus has led some scholars to argue that there was a single poem." },
+      { page: 3, kind: "uncertain", claim: "Anaxagoras was prosecuted for impiety at Athens.", note: "The ancient accounts of the trial disagree in date and outcome, and some scholars doubt it took place." },
+      { page: 5, kind: "uncertain", claim: "The ethical fragments of Democritus.", note: "Many come from later anthologies, and the authenticity of some is doubted." },
+      { page: 6, kind: "uncertain", claim: "Protagoras's book on the gods was burned and he was prosecuted.", note: "The story is late; Plato's Meno implies he died with his reputation intact." },
+      { page: 7, kind: "disputed", claim: "The Sisyphus fragment was written by Critias.", note: "Ancient sources attribute it to Critias or to Euripides, and modern scholars are divided." },
+    ],
+    4: [
+      { page: 1, kind: "disputed", claim: "Plato's early dialogues are our best guide to the historical Socrates.", note: "This view, defended by Vlastos and others, is rejected by scholars who regard all the dialogues as Plato's literary creations." },
+      { page: 2, kind: "corrected", claim: "Socrates said \"I know that I know nothing.\"", note: "Plato's Socrates says rather that he does not think he knows what he does not know (Apology 21d); the slogan is a later simplification." },
+    ],
+    5: [
+      { page: 1, kind: "uncertain", claim: "Plato's Apology records what Socrates said at his trial.", note: "Plato was present, but the speech is a literary work, and Xenophon's version differs." },
+      { page: 3, kind: "uncertain", claim: "Socrates was convicted by about 280 votes to 221.", note: "The figures are inferred from Apology 36a and the usual jury size of 501, which the sources do not state." },
+      { page: 5, kind: "disputed", claim: "The Crito and the Apology can be reconciled on obedience to law.", note: "Scholars disagree whether the two dialogues are consistent, and whether the speech of the Laws expresses Socrates's own view." },
+      { page: 7, kind: "disputed", claim: "Plato's account of a calm death from hemlock is medically accurate.", note: "Some argue that poison hemlock produces the ascending paralysis Plato describes; others think he idealized the death." },
+      { page: 7, kind: "disputed", claim: "Socrates's last words meant that death is a cure for life.", note: "This is one ancient and modern reading; others take the words as thanks for the healing of his friends or as a simple vow." },
+    ],
+  },
   "LAT 101": {
     1: [
       {
