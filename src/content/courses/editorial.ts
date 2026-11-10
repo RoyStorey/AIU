@@ -1415,6 +1415,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "LAT 102": {
+    1: [
+      {
+        page: 7, kind: "disputed",
+        claim: "Ovid, Metamorphoses 1.2: nam vōs mūtāstis et illās.",
+        note: "Most manuscripts read illās; many modern editors print illa, which makes the line refer to the poet's own change of genre.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "uncertain",
+        claim: "Combatants greeted Claudius with Avē, imperātor, moritūrī tē salūtant.",
+        note: "Suetonius reports it for the mock sea battle of 52 CE only; there is no good evidence that it was a regular gladiatorial formula.",
+      },
+      {
+        page: 2, kind: "uncertain",
+        claim: "Brennus said Vae victīs! at the ransom of Rome.",
+        note: "The story is told by Livy more than three centuries after the event, and the Gallic sack of Rome is wrapped in legend.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "Archimedes told the soldier who killed him not to disturb his circles.",
+        note: "The familiar Latin wording is later; Valerius Maximus and Plutarch give different versions of the scene.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Virgil asked on his deathbed that the Aeneid be burned.",
+        note: "The story comes from the ancient biography attributed to Donatus and from Pliny the Elder; it may be embroidered.",
+      },
+    ],
+    3: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "Of 368,000 Helvetii who set out, 110,000 returned home.",
+        note: "These are Caesar's own figures, said to come from captured records; modern historians treat them with caution.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Catullus 70 adapts an epigram of Callimachus.",
+        note: "The resemblance to Callimachus's epigram on lovers' oaths is widely accepted, but the debt is inferred, not stated.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "Cicero delivered the First Catilinarian on November 8, 63 BCE.",
+        note: "The date is the one usually given; some scholars place the speech on November 7.",
+      },
+    ],
+    4: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Caveat emptor is a maxim of Roman law.",
+        note: "The phrase is a later legal maxim, not found in the classical jurists, though it uses the jussive as they did.",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Cato ended every speech with Carthāgō dēlenda est.",
+        note: "Plutarch and Pliny report the substance of the saying; the familiar Latin wordings are early modern formulations.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
