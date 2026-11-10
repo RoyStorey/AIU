@@ -356,6 +356,61 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "CLT 101": {
+    1: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The poems were written down between about 750 and 650 BCE.",
+        note: "This is the majority view; some scholars place the fixing of the text in sixth-century Athens.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Hittite Wilusa is Homer's Ilios, and Ahhiyawa is Achaea.",
+        note: "The identifications are widely accepted but not proved, and the historicity of a Trojan War remains contested.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Schliemann's accounts of finding “Priam's Treasure” and the “Mask of Agamemnon.”",
+        note: "Some scholars have questioned the circumstances of both finds; both objects are older than any date for the war.",
+      },
+    ],
+    3: [
+      {
+        page: 3, kind: "disputed",
+        claim: "Cleopatra in Phoenix's story deliberately mirrors Patroclus's name.",
+        note: "The connection is argued by Gregory Nagy and others; it is an interpretation, not a fact stated in the poem.",
+      },
+      {
+        page: 4, kind: "disputed",
+        claim: "Book 10, the Doloneia, is a later insertion.",
+        note: "Ancient commentators and many modern scholars think so; others defend it as part of the original design.",
+      },
+    ],
+    4: [
+      {
+        page: 5, kind: "uncertain",
+        claim: "The Lefkandi burial shows early Iron Age human sacrifice.",
+        note: "Whether the woman buried there was sacrificed is debated.",
+      },
+    ],
+    5: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The poet of the Odyssey knew the Iliad.",
+        note: "Monro's law can be explained either by deliberate avoidance or by independent development within one tradition.",
+      },
+      {
+        page: 2, kind: "uncertain",
+        claim: "Demodocus's first song tells of a quarrel between Odysseus and Achilles.",
+        note: "The episode is otherwise unknown; it may reflect a lost tradition or a deliberate variation on the Iliad's quarrel.",
+      },
+      {
+        page: 6, kind: "corrected",
+        claim: "Keats's “stout Cortez … upon a peak in Darien.”",
+        note: "It was Vasco Núñez de Balboa, not Cortés, who first saw the Pacific from Darien, in 1513; the lesson notes Keats's error.",
+      },
+    ],
+  },
   "DRA 101": {
     1: [
       {
