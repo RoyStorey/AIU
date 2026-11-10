@@ -259,6 +259,10 @@ Jackson's reputation has risen and fallen with these interpretations. For most o
 
 How should we judge the age of Jackson? The expansion of white male suffrage and the creation of mass parties were genuine democratic achievements, and they shaped American politics permanently. The Jacksonians' suspicion of concentrated economic power and their defense of the "humble members of society" spoke to real grievances. Yet the same movement presided over the expulsion of the Native nations of the Southeast, defended slavery, and defined democracy as the privilege of white men. These were not contradictions of Jacksonian democracy so much as parts of it. As Tocqueville saw, the democracy of the age was real, and it was built on exclusion.
 
+## The Second Party System
+
+The age of Jackson also produced a durable two-party system. Jackson's opponents, uniting National Republicans, Anti-Masons, and others, formed the **Whig Party** in **1834**, named after the English party that had resisted royal power, to oppose "King Andrew." The Whigs, led by **Henry Clay** and **Daniel Webster**, favored a national bank, protective tariffs, and federal support for roads and canals, the "American System"; they drew strength from businessmen, evangelical reformers, and commercial farmers. The Democrats championed limited government, states' rights, and the common man, and drew support from small farmers, urban workers, and immigrants. The two parties competed fiercely and nearly evenly across the nation until the slavery question split the Whigs in the 1850s. Turnout soared: about eighty percent of eligible voters cast ballots in **1840**, when the Whigs won the presidency with **William Henry Harrison** and the slogan "Tippecanoe and Tyler too," the first modern campaign.
+
 > **Pause and consider.** Which interpretation of Jacksonian democracy—frontier, class, ethnocultural, market, or racial—seems most persuasive to you? What does each leave out?`,
     },
     {

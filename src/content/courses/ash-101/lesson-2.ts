@@ -217,6 +217,8 @@ The idea has been influential and much criticized, and recent historians, such a
 
 The Warring States ended with the triumph of Qin, guided by Legalist principles. But the ideas of the Hundred Schools did not die. The next dynasty, the Han, would make Confucianism the official teaching of the state while governing with institutions inherited from Qin, and would read Daoist and yin-yang ideas into the Confucian classics. Every later period of Chinese thought returned to these texts, sometimes to revive a neglected tradition—as the Mohists were revived by reformers around 1900, who found in them a native Chinese logic and science— and Chinese political argument, for two thousand years, was conducted largely in the vocabulary that the thinkers of the Warring States created.
 
+Recent finds of bamboo-slip manuscripts continue to change our picture of early Chinese thought.
+
 > **Pause and consider.** If the "schools" are partly the invention of later librarians, is it still useful to speak of Confucianism, Daoism, and Legalism? What would be lost if we stopped?`,
     },
     {

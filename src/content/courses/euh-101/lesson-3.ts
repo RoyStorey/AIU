@@ -267,6 +267,8 @@ Luther's influence reached America through the Lutheran churches founded by Germ
 
 Historians and biographers have painted very different portraits of Luther. For Protestants, he was a hero of faith who rediscovered the Gospel. For many Catholics, he was a rebel who destroyed the unity of Christendom. In the twentieth century, the psychologist **Erik Erikson**, in *Young Man Luther* (1958), interpreted his spiritual crisis in terms of his relationship with his harsh father. More recently, **Lyndal Roper**, in *Martin Luther: Renegade and Prophet* (2016), emphasized his physicality, his anger, his earthy humor, and his deep contradictions. And Catholic and Lutheran theologians, in a remarkable **Joint Declaration on the Doctrine of Justification** (1999), agreed that the two churches now share "a common understanding of our justification by God's grace through faith in Christ," and that the mutual condemnations of the sixteenth century on this issue no longer apply. In October 2016, at the opening of the five-hundredth anniversary year, Pope Francis traveled to Lund, in Sweden, to join Lutherans in commemorating it—something unthinkable to either side in the sixteenth century.
 
+Luther's translation of the Bible also shaped the German language itself, helping to establish a common written standard across many dialects.
+
 > **Pause and consider.** Luther meant to reform the church and instead divided it. Should historians judge historical figures by their intentions, or by their consequences?`,
     },
     {

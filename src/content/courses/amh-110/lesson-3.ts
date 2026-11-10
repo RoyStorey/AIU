@@ -247,6 +247,14 @@ The Puritans' legacy must also be measured by what it cost others. In 1620 the N
 
 By the early eighteenth century, New England was becoming more like the rest of English America: more commercial, more connected to the empire, more anglicized. Its churches remained Congregational, but they were increasingly divided between those who welcomed the revivals of the Great Awakening and those who opposed them. Its merchants grew rich in the Atlantic trade. Its sons and grandsons would lead the resistance to Britain in the 1760s and 1770s, drawing, as you saw in AMH 101, on a political culture of town meetings, written charters, and covenanted communities that the Puritans had built.
 
+## The Half-Way Covenant
+
+By the second generation, New England's churches faced a crisis. Membership required a public account of conversion, and many children of the founders, though baptized and respectable, could not testify to such an experience. Could their own children be baptized? In **1662**, a synod of ministers adopted the **Half-Way Covenant**, which allowed the baptized but unconverted to have their children baptized, though not to take communion or vote in church affairs. Critics saw it as a sign of declension, a falling away from the founders' zeal; defenders saw it as a way of keeping the community within the church.
+
+## The Dominion of New England
+
+In **1686**, King James II abolished the separate governments of the New England colonies and joined them, with New York and New Jersey, into the **Dominion of New England** under Governor **Sir Edmund Andros**, who ruled without an elected assembly. When news of the Glorious Revolution reached Boston in **1689**, the townspeople rose, jailed Andros, and restored their old government. The episode taught New Englanders to see their liberties as English liberties, threatened by royal power, a lesson they would remember in the 1760s.
+
 > **Pause and consider.** Van Engen argues that Winthrop's "city upon a hill" became famous only long after it was written. Why might later Americans have wanted to find the nation's origins in Puritan New England rather than in Virginia?`,
     },
     {

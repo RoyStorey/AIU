@@ -33,6 +33,10 @@ Historians have come to see "absolutism" as something of a myth. No early modern
 
 One of the forces driving the growth of the state was war. In the sixteenth and seventeenth centuries, European warfare was transformed by what historians call the **military revolution**: gunpowder weapons, new fortifications, drill, and above all the vast growth in the size of armies. The French army grew from perhaps 25,000 men in the 1550s to more than 300,000 by the 1690s. Armies of this size required taxes, loans, administrators, supply systems, and barracks on an unprecedented scale. The needs of war drove the growth of the state; and the state, once built, made larger wars possible. The sociologist Charles Tilly summed it up: "War made the state, and the state made war." The rulers who could raise the most money, from the most taxpayers, with the least resistance, won; those who could not, like the kings of Poland, lost their states altogether.
 
+The century after Westphalia would be dominated by the struggle to contain the ambitions of Louis XIV's France.
+
+The new standing armies, paid and drilled by the state, would change both war and government.
+
 > **Pause and consider.** Hobbes argued that people give up their freedom to a sovereign out of fear. Is fear a sufficient foundation for government? What does his argument leave out?`,
     },
     {
@@ -249,6 +253,8 @@ The connections between the Atlantic economy and European prosperity have been m
 ## Rivalry
 
 The Dutch golden age did not last. England, envious of Dutch commercial supremacy, passed the **Navigation Acts** (from 1651), which required that goods imported into England be carried in English ships, and fought three wars against the Dutch between 1652 and 1674. In 1664, an English fleet seized New Amsterdam, which was renamed **New York** after the king's brother, the duke of York, later James II. The French invaded the Netherlands in 1672, and the Dutch survived only by opening the dikes and flooding the land. Exhausted by war against France, the Dutch Republic declined in the eighteenth century, while Britain and France fought for supremacy in Europe and the world.
+
+By the 1670s, however, the Dutch were losing ground to England and France, and the age of Amsterdam's dominance was ending.
 
 > **Pause and consider.** The Dutch Republic was tolerant at home and a slave-trading empire abroad. How should we judge a society that was both?`,
     },

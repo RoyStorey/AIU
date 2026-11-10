@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "The Middle Passage: Captives, Ships, and Olaudah Equiano",
   summary:
-    "The journey from capture to the coast; Olaudah Equiano and the debate over his birthplace; the slave ship and the Brooks diagram; the crossing and its mortality; resistance at sea and the Zong massacre; arrival, sale, and seasoning in the Americas; and the economics of the trade, from the triangular trade to Eric Williams.",
+    "The journey from capture to the coast; Equiano and the debate over his birthplace; the slave ship and the Brooks diagram; the crossing and its mortality; resistance at sea and the Zong massacre; arrival, sale, and seasoning in the Americas; and the economics of the trade and Eric Williams.",
   pages: [
     {
       title: "From Capture to the Coast",
@@ -151,6 +151,14 @@ The Middle Passage was a profound psychological trauma. Captives had been torn f
 
 Yet most captives survived the crossing, and they carried with them their memories, beliefs, skills, and cultures. In the Americas, they would build new lives and communities, under the brutal conditions of slavery. The Middle Passage was not, as some historians once suggested, a total break that erased African culture; it was a terrible ordeal that Africans survived, carrying their cultures with them.
 
+## Counting the dead
+
+The Trans-Atlantic Slave Trade Database records that, of some **12.5 million** people embarked on slave ships between 1501 and 1866, about **10.7 million** survived to disembark in the Americas: roughly one in seven died at sea. Mortality fell over time, from perhaps twenty percent on early voyages to around ten percent in the nineteenth century, as captains learned that dead captives earned nothing; but voyages hit by epidemics or delayed by calms could lose a third or more of those aboard. These figures do not count the many who died between capture and the coast, or in the first years after arrival.
+
+## Testimony from the ships
+
+Most of what we know of the crossing comes from the records and memoirs of those who ran the trade, and from a small number of survivors. The former slave-ship surgeon **Alexander Falconbridge**, in *An Account of the Slave Trade on the Coast of Africa* (1788), described the stench and heat of the holds and the floors "covered with blood and mucus." The former captain **John Newton**, who later wrote the hymn "Amazing Grace," published *Thoughts upon the African Slave Trade* (1788), confessing his part in it.
+
 > **Pause and consider.** Shipmates who survived the crossing often regarded one another as kin. What does this tell us about how the enslaved responded to the Middle Passage?`,
     },
     {
@@ -225,6 +233,14 @@ Most enslaved Africans in the Americas worked on plantations producing **sugar**
 
 In the Americas, people from many different African societies were thrown together, and they created new communities, cultures, and identities. They developed creole languages, such as the patois of Jamaica, Haitian Creole, and the Gullah of the Carolina Sea Islands; new religions, combining African and Christian elements; new forms of music and dance. They resisted slavery in many ways, from slowing work and breaking tools to running away and armed revolt. But that is the subject of other courses. Our concern here is with Africa, and with how the trade shaped it.
 
+## The domestic trade
+
+Arrival in the Americas was often not the end of the captives' journeys. In Brazil, newly arrived Africans were marched inland to the gold mines of **Minas Gerais** in the eighteenth century, and to the coffee plantations of the Paraíba valley in the nineteenth. In the Caribbean, many were reshipped from the great entrepôts, such as Kingston, Jamaica, to the Spanish colonies. In the United States, after the closing of the legal Atlantic trade in **1808**, a vast internal slave trade moved roughly a million enslaved people from the Upper South to the cotton lands of the Deep South, breaking up families once again.
+
+## Remembering the arrivals
+
+The places of arrival are now sites of memory: the **Cais do Valongo** in Rio de Janeiro, where perhaps a million enslaved Africans landed, rediscovered in 2011 and inscribed as a World Heritage Site in 2017; and the docks of Charleston, where the International African American Museum opened in 2023.
+
 > **Pause and consider.** Less than 4 percent of the Africans carried across the Atlantic went to mainland North America, yet the enslaved population of the United States grew to four million. How do you explain the difference between the United States and the Caribbean?`,
     },
     {
@@ -258,6 +274,10 @@ Similar research has traced the links between slavery and universities such as *
 ## The cost to Africa
 
 The economics of the trade, seen from Europe and the Americas, was a matter of profits and losses. Seen from Africa, it was a matter of lives. In the next lesson, we will examine the impact of the trade on Africa itself, and the arguments of historians who have tried to measure it.
+
+## Insurance and finance
+
+The trade was also a business of credit and insurance. Merchants in London, Liverpool, Nantes, and Lisbon raised capital from partners and banks, insured ships and captives with underwriters, and paid for African goods on long-term credit. The *Zong* case of 1783 was, at bottom, an insurance claim. The financial techniques refined in the slave trade were part of the broader growth of European commercial capitalism.
 
 > **Pause and consider.** Eric Williams argued that Britain abolished the slave trade for economic, not moral, reasons. Drescher argued the opposite. Which argument do you find more persuasive, and why?`,
     },

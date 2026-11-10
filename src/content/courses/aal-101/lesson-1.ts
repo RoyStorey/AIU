@@ -227,6 +227,8 @@ One of Wheatley's poems speaks of another Black artist: "**To S. M., a Young Afr
 
 Whatever her limitations, Wheatley founded a tradition. She was the first African American to publish a book, the first to win international fame as a writer, and the first to show, in print, that a Black woman could master the highest literary forms of her time. Every Black writer who followed wrote, in a sense, in her shadow, and against the doubts that she had been forced to answer. Later Black women poets, from Frances Harper to Gwendolyn Brooks and Lucille Clifton, have claimed her as a foremother, the ancestor of a whole literature.
 
+Wheatley's book, in its first American edition of 1786, was reprinted after her death with the attestation still in place, as if her authorship still needed defending.
+
 > **Pause and consider.** Jefferson called Wheatley's poems "below the dignity of criticism." Why do you think he felt the need to dismiss them at all?`,
     },
     {
@@ -300,6 +302,10 @@ The oral tradition offered another resource: a voice that came from the communit
 ## Signifyin(g)
 
 Henry Louis Gates Jr. gave a name to the distinctive way Black writers responded to the texts of others: "**Signifyin(g)**," a term drawn from African American vernacular, where "signifying" means a form of verbal play—teasing, indirection, repetition with a difference. The trickster figure of the **Signifying Monkey**, from Black folklore, outwits the lion by playing with language. In *The Signifying Monkey* (1988), Gates argued that Black writers constantly "signify" upon the texts that came before them—repeating, revising, and parodying them—both the white texts that excluded them and the Black texts that came before. The tradition is thus in constant dialogue with itself. Equiano revises Gronniosaw's talking book; Douglass revises Equiano; Jacobs revises Douglass; and Du Bois gathers them all.
+
+## Reading the narratives today
+
+Modern readers of the slave narratives must hold two things together. They are testimony, and they are art. Their authors told the truth about slavery, as the documents increasingly confirm; and they shaped that truth with the tools of rhetoric, choosing scenes, arranging them, and addressing readers whose sympathy they needed. To read them only as evidence misses their craft; to read them only as literature risks forgetting what they cost.
 
 > **Pause and consider.** The slave narratives were often framed by white prefaces vouching for their truth. What does it mean for a writer's story to need someone else's authentication?`,
     },

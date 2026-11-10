@@ -77,6 +77,10 @@ In **September 1836**, Emerson published, anonymously, a small book of ninety-fi
 
 The demand for "**an original relation to the universe**"—to see for oneself, not through the eyes of the past—is the keynote of all Emerson's work.
 
+Emerson's first book was published anonymously, but its authorship was an open secret in Boston, and its critics, like its admirers, knew exactly whose voice they were reading. It was the beginning of a public career that would last almost fifty years.
+
+In *Nature*, the grieving young widower and former minister found his own voice for the first time.
+
 > **Pause and consider.** Emerson thought "in order to be a good minister it was necessary to leave the ministry." What might he have meant?`,
     },
     {

@@ -219,6 +219,14 @@ As the Thirteenth Amendment moved through Congress, the Confederacy, desperate f
 
 The destruction of slavery in the United States was part of a larger story. Britain had abolished slavery in its colonies in 1834–38, France in 1848, and the Netherlands in 1863; Russia had emancipated its serfs in 1861. After the American Civil War, slavery survived in the Americas only in Spanish Cuba and Puerto Rico and in Brazil, which would abolish it last, in 1888. The United States was unusual in one respect: it was the only society in which the end of slavery came through a massive civil war. And it emancipated by far the largest enslaved population in the Americas, some four million people, without compensation to their owners—the largest confiscation of private property in American history.
 
+## Lincoln's role
+
+Lincoln made the amendment's passage a personal cause. After his reelection in **November 1864**, he urged the lame-duck House to act at once rather than wait for the new Congress. He and his allies, including Secretary of State **William Seward**, lobbied wavering Democrats with promises of patronage and favors, a campaign dramatized in Steven Spielberg's film *Lincoln* (2012). On **January 31, 1865**, the House approved the amendment by 119 to 56, just two votes more than the two-thirds required, as spectators in the galleries, including many Black Washingtonians, cheered and wept. Lincoln signed the resolution the next day, although a president's signature is not required for constitutional amendments.
+
+## Ratification
+
+The amendment was ratified by the required three-quarters of the states on **December 6, 1865**, eight months after Lincoln's death, when Georgia approved it. Some states ratified it much later: Mississippi did not formally ratify until **1995**, and did not file its ratification with the federal government until **2013**. With its ratification, slavery, which had existed in North America for nearly 250 years, became unconstitutional everywhere in the United States, and some four million people were legally free.
+
 > **Pause and consider.** Why was a constitutional amendment necessary after the Emancipation Proclamation? What did the exception clause make possible?`,
     },
     {

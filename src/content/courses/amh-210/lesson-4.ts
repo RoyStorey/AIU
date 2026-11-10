@@ -239,6 +239,16 @@ Freedpeople also created benevolent societies, burial societies, fraternal order
 
 Much of the history of Reconstruction has been written from the top down: from the perspective of Congress, the president, and state governments. Since the 1970s, historians have increasingly written it from the bottom up, from the perspective of freedpeople themselves. Leon Litwack's *Been in the Storm So Long* (1979) and Steven Hahn's *A Nation Under Our Feet* (2003) showed how freedpeople understood and acted on their freedom, and how their aspirations—for family, land, education, autonomy, and political power—shaped the course of Reconstruction. In this view, Reconstruction was not something done to the freedpeople but a struggle in which they were central participants.
 
+## Searching for kin
+
+One of the first acts of freedom was to search for family members separated by sale. In the years after the war, freedpeople placed thousands of "**Information Wanted**" advertisements in Black newspapers, such as the *Christian Recorder*, seeking husbands, wives, children, and parents lost decades earlier. "I wish to inquire for my children," one typical notice began, listing names, the place where they were last seen, and the master who had sold them. Some families were reunited after twenty or thirty years; many never were. Historians at Villanova University have collected and digitized these advertisements in a project called "**Last Seen**."
+
+## Marriage
+
+Freedpeople also rushed to legalize their marriages, which slavery had denied legal standing. In some counties, the Freedmen's Bureau recorded hundreds of marriages in a single day.
+
+These institutions, built in a few years after emancipation, sustained Black communities through the long decades of Jim Crow.
+
 > **Pause and consider.** Why might the institutions freedpeople built during Reconstruction—families, churches, schools—have proved more durable than their political rights?`,
     },
     {

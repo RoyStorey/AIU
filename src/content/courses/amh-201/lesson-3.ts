@@ -265,6 +265,10 @@ Tocqueville visited America at the height of the age of Jackson, and his book is
 
 *Democracy in America* has been read by every generation since, and quoted by politicians of every persuasion. Conservatives cite Tocqueville on associations and religion, and his warnings against centralized government; liberals cite him on equality and the dangers of individualism; critics of American culture cite him on conformity and materialism. Scholars have noted that he saw some things clearly and missed others: he underestimated the importance of the market revolution and of sectional conflict. But his central question—how a society devoted to equality can preserve liberty—remains alive.
 
+## Tocqueville's method
+
+Tocqueville and his companion **Gustave de Beaumont** traveled for nine months in **1831–1832**, from New York and New England to the Great Lakes, Philadelphia, Baltimore, Ohio, Tennessee, and New Orleans, interviewing presidents and prisoners, lawyers and farmers. Tocqueville kept detailed notebooks, and read widely in American law and history. The first volume of *Democracy in America* appeared in **1835**, the second in **1840**. Beaumont published a novel, *Marie, or Slavery in the United States* (1835), about the tragedy of a woman of mixed race, which shows that both men saw race as America's deepest problem. Tocqueville's book has been quoted by American politicians of every party, often inaccurately, ever since.
+
 > **Pause and consider.** Tocqueville praised Americans' associations and feared their individualism. Do you see both tendencies in the movements of this lesson?`,
     },
     {

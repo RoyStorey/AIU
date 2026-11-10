@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Mali and Songhay: Sundiata, Mansa Musa, and Timbuktu",
   summary:
-    "The Lion King of the Mande: Sundiata's epic, preserved by griots for seven centuries; the empire of Mali at its height; Mansa Musa's pilgrimage, which flooded Cairo with gold; Timbuktu and its scholars and manuscripts; Ibn Battuta's mixed impressions of Mali; and the Songhay empire of Sunni Ali and Askia Muhammad, broken by Moroccan guns in 1591.",
+    "Sundiata's epic, kept by griots for seven centuries; Mali at its height; Mansa Musa's pilgrimage, which flooded Cairo with gold; Timbuktu and its scholars and manuscripts; Ibn Battuta's mixed view of Mali; and Songhay under Sunni Ali and Askia Muhammad, broken in 1591.",
   pages: [
     {
       title: "Sundiata and the Founding of Mali",
@@ -74,6 +74,8 @@ But they are not therefore useless. As Jan Vansina showed, oral traditions can b
 The epic of Sundiata remains a living part of West African culture. It is performed by griots, taught in schools, and celebrated in music, literature, and film. The national anthem of Mali refers to the glory of the ancient empire. Sundiata is a national hero in Mali, Guinea, Senegal, Gambia, and other countries. And through the diaspora, he has become a figure of African heritage around the world. Many have noted parallels between his story and that of the Disney film *The Lion King* (1994)—the lion prince, the exile, the usurping relative, the return—though the film's makers cited *Hamlet* as their inspiration.
 
 In the twentieth century, writers and musicians gave the epic new forms. The Guinean novelist Camara Laye retold it in *The Guardian of the Word* (1978); the great Malian kora players, such as Toumani Diabaté, have recorded music drawn from it; and the Senegalese poet and president Léopold Sédar Senghor invoked the Mande heritage in his poetry. The epic remains a source of pride and identity across West Africa.
+
+Many griot families today still trace their descent from the bards of Sundiata's court.
 
 > **Pause and consider.** The Kurukan Fuga Charter is a modern reconstruction of an oral tradition. Should historians treat it as evidence of thirteenth-century Mali, of modern West African identity, or both?`,
     },
@@ -184,6 +186,8 @@ In the seventeenth century, Timbuktu scholars wrote two great chronicles of the 
 ## Learning beyond Timbuktu
 
 Timbuktu was not unique. Other cities of the Sahel, such as **Jenne**, **Walata**, Gao, and later Kano and Katsina, had their own scholars and libraries. Networks of scholars connected West Africa with the great centers of learning in Fez, Cairo, and Mecca. West African scholars wrote in Arabic and corresponded with scholars across the Islamic world; North African and Egyptian scholars wrote legal opinions for West African rulers. This world of learning is one of the great achievements of African civilization, and its manuscripts are only beginning to be studied.
+
+Timbuktu's manuscripts are now being digitized, so that scholars worldwide can read them.
 
 > **Pause and consider.** In 2012, a librarian smuggled hundreds of thousands of manuscripts out of Timbuktu to save them. What do these manuscripts reveal about Africa's past, and why were they worth risking lives for?`,
     },

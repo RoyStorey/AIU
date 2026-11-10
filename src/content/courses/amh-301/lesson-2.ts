@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The West, Immigration, Cities, and Jim Crow, 1865–1910",
   summary:
-    "Four transformations of the late nineteenth century: the conquest of the trans-Mississippi West and the dispossession of its Native nations; the policy of assimilation; the settlement of the West by farmers, ranchers, and miners; the 'new immigration' and the rise of the industrial city; and the construction of Jim Crow in the South, with the responses of Ida B. Wells, Booker T. Washington, and W. E. B. Du Bois.",
+    "The conquest of the trans-Mississippi West and the dispossession of its Native nations; the policy of assimilation; farmers, ranchers, and miners; the new immigration and the industrial city; and the making of Jim Crow, with the answers of Ida B. Wells, Booker T. Washington, and Du Bois.",
   pages: [
     {
       title: "The Last Wars for the West",
@@ -145,6 +145,8 @@ How did immigrants experience America? In 1951 the historian **Oscar Handlin**, 
 
 Immigrants created a dense web of institutions: churches and synagogues, foreign-language newspapers, mutual-aid societies, savings and loan associations, social clubs, theaters, and political organizations. In New York's Lower East Side, Yiddish theater and newspapers flourished; the *Jewish Daily Forward* had a circulation of over 200,000. Their children, educated in public schools, became bilingual and bicultural, often in conflict with their parents. Immigrants also reshaped American religion: by 1900 the Roman Catholic Church was the largest single denomination in the country, and Jewish and Orthodox Christian congregations multiplied. Immigrant workers were central to the labor movement, and immigrant radicals—German socialists, Italian and Jewish anarchists—gave it a militant edge that alarmed native-born Americans and fed nativist fears.
 
+Immigrants also built churches, synagogues, newspapers, and mutual aid societies that eased the passage into American life.
+
 > **Pause and consider.** Why did Chinese immigrants face exclusion while European immigrants, despite hostility, were admitted?`,
     },
     {
@@ -242,6 +244,10 @@ Historians have long debated Washington and Du Bois. Washington's defenders argu
 ## The Great Migration begins
 
 Many Black Southerners answered Jim Crow in another way: they left. A trickle of migration to Northern cities before 1910 became a flood during the First World War, when Northern factories needed workers. The **Great Migration**, which you will study in Lesson IV, would transform American cities and politics.
+
+## William Monroe Trotter
+
+Washington's fiercest early critic was not Du Bois but **William Monroe Trotter** (1872–1934), a Harvard-educated Bostonian, the first Black member of Phi Beta Kappa at Harvard, who founded the weekly *Guardian* in **1901** to attack the "Tuskegee Machine." In **July 1903**, Trotter and his allies heckled Washington at a Boston church, provoking a scuffle that ended in Trotter's arrest and a month in jail; the "Boston Riot" pushed Du Bois toward open opposition. Trotter later confronted President Woodrow Wilson in the White House in **1914** over the segregation of federal offices, and Wilson ordered him out.
 
 > **Pause and consider.** Was Washington's strategy a realistic adaptation to terrible circumstances, or a surrender? How might Ida B. Wells have answered?`,
     },

@@ -117,6 +117,10 @@ Asante's ties to the north brought Muslims to Kumasi. Muslim traders and scholar
 
 When Britain abolished the slave trade in 1807, the Asantehene Osei Bonsu was puzzled. As Bowdich's colleague **Joseph Dupuis** reported, the king asked why the British, who had bought slaves for so long, now refused to do so. "If they think it bad now," he reportedly asked, "why did they think it good before?" The question is a powerful reminder of how the end of the trade looked from the African side.
 
+## The Golden Stool
+
+At the center of Asante political life was the **Golden Stool** (*Sika Dwa Kofi*), which, according to tradition, the priest **Okomfo Anokye** called down from the sky around **1701** to rest on the knees of the first great king, **Osei Tutu**. It was believed to contain the soul of the Asante nation; no one, not even the king, was permitted to sit on it. When the British governor demanded to sit on it in **1900**, the Asante rose in the **War of the Golden Stool**, led by the queen mother **Yaa Asantewaa**. The stool was hidden and never surrendered.
+
 > **Pause and consider.** Ivor Wilks called Asante's great roads the sinews of the state. How did roads, gold, and bureaucracy help Asante govern a vast territory?`,
     },
     {

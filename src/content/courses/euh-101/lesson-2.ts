@@ -39,6 +39,8 @@ The Sack of Rome was a catastrophe for Italian culture and a shock to all of Eur
 
 The disasters of the Italian Wars forced Italian thinkers to ask why their sophisticated, wealthy, cultured states had been so easily overwhelmed by "barbarians" from beyond the Alps. Guicciardini answered with history: a detailed, skeptical, psychologically acute account of the wars, which showed how the selfish calculations and miscalculations of rulers had led to ruin. His friend Machiavelli answered with a new science of politics. Both men had served Florence, both had watched its leaders fail, and both wrote in the conviction that the old maxims of statecraft had been tested by events and found wanting. Their answers would shape European political thought for centuries, long after the crisis that provoked them had passed.
 
+The wars lasted, with interruptions, until the Peace of Cateau-Cambrésis in 1559, which left Spain dominant in Italy for a century and a half.
+
 > **Pause and consider.** The Italian states were the richest and most cultivated in Europe, and they were overrun. What does that suggest about the relationship between culture and power?`,
     },
     {
@@ -74,6 +76,8 @@ The Medici gave him small commissions, but never the political office he longed 
 ## A man of the republic
 
 It is important to remember that the author of *The Prince*, the most famous handbook for princes ever written, was a lifelong republican, who had served a republic for fourteen years, had been tortured by a prince's government, and wrote at even greater length in praise of republics. How to reconcile *The Prince* with his republicanism is the central puzzle of Machiavelli's thought, and it has been answered in many ways. Before turning to those answers, we must look at what *The Prince* actually says—which is both more and less shocking than its reputation suggests.
+
+Machiavelli's reputation darkened quickly after his death: within decades, "Machiavel" had become an English byword for a scheming villain, as in Shakespeare's plays, though modern scholars have recovered the republican patriot behind the legend.
 
 > **Pause and consider.** In his letter to Vettori, Machiavelli changes into "the garments of court and palace" to read the ancients. What does that ritual tell you about how he understood the study of history?`,
     },
@@ -190,6 +194,8 @@ Printing also created new problems for authorities. Books could spread heresy, s
 ## Print and the Renaissance
 
 Printing transformed the Renaissance. Humanist scholars became editors, working with printers to produce critical editions of classical and Christian texts. The works of Petrarch, Ficino, Pico, and Valla circulated across Europe. Printed engravings spread the designs of Italian artists north of the Alps. And a new kind of figure emerged: the scholar who could address all of Europe through the press. The greatest of these was a Dutch priest named Erasmus.
+
+By 1500, some twenty million copies of books had been printed in Europe, an astonishing change in fifty years.
 
 > **Pause and consider.** Eisenstein called printing an "agent of change." Is there a modern technology you would compare it to? What would the comparison reveal, and what would it hide?`,
     },

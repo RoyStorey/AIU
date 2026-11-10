@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Frederick Douglass: Narrative of a Life",
   summary:
-    "Douglass's childhood in slavery on Maryland's Eastern Shore; his escape and his first speech at Nantucket; the Narrative of 1845 and its abolitionist frame; the blood-stained gate and the songs of the slave; learning to read as the pathway to freedom; the battle with Covey; the withheld escape; and Douglass's later life, from the Fourth of July oration to the White House.",
+    "Douglass's boyhood in Maryland slavery and his escape; the Nantucket speech; the Narrative and its abolitionist frame; the blood-stained gate and the songs; literacy as the pathway to freedom; the fight with Covey; the withheld escape; and his later life, from Rochester to Cedar Hill.",
   pages: [
     {
       title: "Frederick Bailey of Talbot County",
@@ -264,6 +264,8 @@ He accuses the slaveholding church of hypocrisy, citing Jesus's denunciation of 
 ## Two Christianities
 
 The distinction between the "Christianity of Christ" and the "slaveholding religion" of America is one of the most important ideas in African American religious thought. It enabled Black Christians to embrace the faith while rejecting its use to justify slavery, and to claim that they, not their masters, were the true Christians. The idea runs from the spirituals through Douglass to Martin Luther King Jr.'s "Letter from Birmingham Jail" (1963), which criticized the white church's failure to oppose segregation.
+
+Douglass signs the appendix hoping his little book may hasten "the glad day of deliverance to the millions of my brethren in bonds," and pledging himself anew to the cause.
 
 > **Pause and consider.** Douglass refuses to tell how he escaped. How does his silence change our relationship to the narrative, and to him as its author?`,
     },

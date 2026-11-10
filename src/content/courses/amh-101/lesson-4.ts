@@ -143,6 +143,14 @@ Cornwallis pursued Greene across North Carolina in a race to the Dan River on th
 
 The southern strategy failed for the same reason the British could not win in the North. Military victories did not produce political control. Loyalists who rose when the British army was near were left exposed to patriot retaliation when it moved on, and soon learned caution. British and loyalist brutality drove neutrals into the patriot camp. And the more the British relied on freeing enslaved people to weaken the rebels, the more they alienated the white southerners they hoped to win back. The British could win battles; they could not govern the country.
 
+## The war's toll in the South
+
+The southern war was the most brutal of the Revolution. Both sides burned homes, seized livestock, and killed prisoners. After **Banastre Tarleton**'s British Legion cut down surrendering Continental soldiers at the **Waxhaws** in **May 1780**, patriots spoke of "Tarleton's quarter," meaning no quarter at all. At **Kings Mountain**, in **October 1780**, backcountry militia surrounded and destroyed a Loyalist force under Major **Patrick Ferguson**, the only British soldier in the battle, and hanged several prisoners afterward. The violence drove many neutral families to the patriot side and weakened British hopes that Loyalists would rise to support them.
+
+## Native nations and the southern war
+
+The war in the South also engulfed the **Cherokee**, who attacked frontier settlements in **1776** in the hope of driving back settlers, and suffered devastating retaliatory campaigns that burned dozens of their towns. Many Cherokee fought on with the British for the rest of the war. For Native peoples of the Southeast, the Revolution was the beginning of a long struggle against the expanding United States.
+
 > **Pause and consider.** The British southern strategy depended on loyalist support. Why did the war in the South end up reducing, rather than increasing, the number of active loyalists?`,
     },
     {

@@ -275,6 +275,10 @@ Why should a modern reader study *Beowulf*? It is the oldest long poem in Englis
 
 Whatever its date, the poem was copied around 1000 by scribes who evidently thought it worth the cost of parchment and labor. Someone in late Anglo-Saxon England valued it, and that, too, is part of its history.
 
+Whatever its date, *Beowulf* survived by a hair: one copy, singed in the Cotton fire of 1731, now in the British Library.
+
+The best preparation is simple: read it aloud, slowly, in a good translation, and let the alliteration carry you.
+
 > **Pause and consider.** Does it matter whether *Beowulf* was composed in the eighth century or the eleventh? How would your reading of the poem change?`,
     },
     {

@@ -251,6 +251,10 @@ Historians have long debated the meaning of these years. **Henry Adams**, the gr
 
 Gordon Wood's *Empire of Liberty* (2009) portrayed the period as the time when the United States became a democratic, commercial, and evangelical society, far from what either Hamilton or Jefferson had intended. Others emphasize the expansion of slavery and the dispossession of Native peoples: the "empire of liberty," as Jefferson called it, was also an empire of slavery, built on Native land. Both were true. By 1824 the United States was larger, richer, more democratic, and more confident than in 1801—and more deeply divided over slavery than its founders had ever imagined.
 
+## The Missouri Crisis
+
+The "Era of Good Feelings" was shaken in **1819–1821** by the first great sectional crisis over slavery. When Missouri applied for admission as a slave state, Representative **James Tallmadge** of New York proposed to forbid the further introduction of slaves there and to free the children of those already enslaved. The debate divided Congress along sectional lines. The **Missouri Compromise** of **1820** admitted Missouri as a slave state and Maine as a free one, and banned slavery in the rest of the Louisiana Purchase north of **36°30′**. The aged Jefferson called the crisis "a fire bell in the night," which "awakened and filled me with terror. I considered it at once as the knell of the Union," he wrote.
+
 > **Pause and consider.** The Monroe Doctrine was, in 1823, mostly a bluff. Why did it become so important later?`,
     },
     {

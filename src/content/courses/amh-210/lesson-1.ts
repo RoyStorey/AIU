@@ -45,6 +45,10 @@ The historian **David Potter**, in *The Impending Crisis, 1848–1861* (1976), c
 
 The debates of 1850 were the last great act of Clay, Webster, and Calhoun. Calhoun died in March 1850, Clay in June 1852, Webster in October 1852. With them went the generation that had preserved the Union through compromise since 1820. The men who would succeed them—Douglas, Seward, Jefferson Davis, and, soon, Abraham Lincoln—faced a question that was growing harder to compromise.
 
+Within four years, the Kansas-Nebraska Act would shatter the truce and with it the old party system.
+
+Few Americans in 1850 imagined that the compromise would be the last great bargain the Union could make over slavery.
+
 > **Pause and consider.** Potter called the Compromise of 1850 an "armistice." What is the difference between an armistice and a settlement, and why does it matter here?`,
     },
     {

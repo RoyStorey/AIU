@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "William Bradford and Of Plymouth Plantation",
   summary:
-    "The Separatists' road from Scrooby to Leiden to the Mayflower; the Mayflower Compact and the first winter; Squanto, Massasoit, and the harvest of 1621; Bradford's plain style and providential history; the maypole at Merrymount; the Pequot War and the burning at Mystic; and the strange history of Bradford's lost manuscript.",
+    "The Separatists' road from Scrooby to Leiden to the Mayflower; the Compact and the first winter; Squanto, Massasoit, and the harvest of 1621; Bradford's plain style and providential history; Merrymount; the Pequot War and Mystic; and the strange history of Bradford's lost manuscript.",
   pages: [
     {
       title: "What Is Early American Literature?",
@@ -231,6 +231,10 @@ Modern historians have offered a more complex picture. The Pilgrims came to Amer
 
 Yet Bradford's history endures, because it is a work of great integrity and power. It tells the story of a small group of people who, for the sake of their faith, endured exile, a terrible voyage, and a catastrophic winter, and built a community in a land that was new to them, if not to its original inhabitants. It records their suffering, their faith, their failures, and their crimes, in a plain and honest style. It is the founding text of a tradition of American writing that sees the nation's history as a story of mission, trial, and moral judgment. As Bradford wrote of the founders: "Thus out of small beginnings greater things have been produced by His hand that made all things of nothing, … and as one small candle may light a thousand, so the light here kindled hath shone unto many, yea in some sort to our whole nation."
 
+## Reading Bradford now
+
+Bradford wrote for his own descendants and for the godly who would come after them, and he expected them to read his history as a record of God's dealings with a people. Modern readers come to it with other questions: about the Wampanoag, whose world the Pilgrims entered; about the women of the colony, who appear in it only rarely; and about the sources of the colonists' survival, which owed as much to Native knowledge and to luck as to providence. The book rewards both kinds of reading. Its plainness lets the facts speak, and its silences are themselves evidence.
+
 > **Pause and consider.** Bradford's manuscript was lost for eighty years and found in a bishop's library in London. What does its history suggest about how a nation's memory is preserved and shaped?`,
     },
     {
@@ -260,6 +264,12 @@ The first book printed in English North America was ***The Whole Booke of Psalme
 ## Looking ahead
 
 In the next lesson, we turn to the much larger Puritan colony of **Massachusetts Bay**, founded in 1630 under the leadership of **John Winthrop**, whose sermon on the "city upon a hill" has echoed through American history, and to **Anne Bradstreet**, the first published poet of English America.
+
+## Thomas Morton
+
+Not every early voice was Puritan. **Thomas Morton**, the lawyer and trader who set up the maypole at Merrymount, published his own account of New England, ***New English Canaan*** (1637), in which he praised the land and its Native inhabitants, mocked the Separatists of Plymouth as hypocrites, and called Myles Standish "Captain Shrimp." Morton portrayed the Native peoples as more humane than the Pilgrims who expelled him. His book, written in exile in England, is a satirical counter-history to Bradford's, and a reminder that the founding of New England was contested from the start, even among the English.
+
+Morton's book was suppressed for a time in England, and it was little read for two centuries; Hawthorne later made Merrymount the subject of a story, "The May-Pole of Merry Mount" (1836).
 
 > **Pause and consider.** Roger Williams wrote, "Thy brother Indian is by birth as good." How did his views challenge those of Bradford and the other Puritan leaders?`,
     },

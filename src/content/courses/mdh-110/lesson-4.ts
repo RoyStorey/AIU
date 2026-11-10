@@ -37,6 +37,10 @@ Abelard set out for Rome to appeal, but fell ill, and was taken in by **Peter th
 
 Abelard is also remembered for one of the most remarkable autobiographies of the Middle Ages, the ***Historia calamitatum*** ("**The Story of My Misfortunes**"), written around **1132** in the form of a letter of consolation to a friend. In it, he recounts his career, his quarrels, his triumphs, and his disasters—above all, his love affair with Héloïse, to which we turn on the next page. It is frank, self-dramatizing, sometimes self-critical, and vivid, and it has been read as a landmark in the history of self-reflection.
 
+## Heloise
+
+Abelard's story cannot be told without **Heloise** (c. 1100–1164), the brilliant young woman, niece of the canon Fulbert, whom Abelard was hired to tutor in Paris around **1115**. They became lovers; she bore a son, whom they named **Astrolabe**; and after a secret marriage, Fulbert's men castrated Abelard in revenge. Both entered religious life. Years later, Heloise, now abbess of the Paraclete, wrote Abelard letters of extraordinary passion and intelligence, arguing that she would rather be his mistress than an empress's wife. Their correspondence, whose authenticity scholars have debated, is one of the most famous in literature.
+
 > **Pause and consider.** Abelard wrote, "By doubting we come to inquiry; through inquiry we perceive the truth." Bernard accused him of leaving nothing to faith. Were they arguing about method, or about something deeper?`,
     },
     {

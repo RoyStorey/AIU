@@ -246,6 +246,10 @@ The poet seems to present his characters as **virtuous pagans**, who lived befor
 
 Why would a Christian poet in Anglo-Saxon England compose a long poem celebrating pagan heroes? Perhaps because the Anglo-Saxon aristocracy, though Christian, still valued the heroic ideals of their ancestors, and still traced their descent from pagan kings—the royal genealogies of Anglo-Saxon kingdoms went back to Woden. A famous letter of **Alcuin**, the English scholar at Charlemagne's court, written in **797** to an English bishop, rebuked monks for listening to heroic songs at their meals: "**What has Ingeld to do with Christ?**" he asked. "The house is narrow; it cannot hold both." Ingeld is a character mentioned in *Beowulf*. Alcuin's complaint shows that monks, as well as warriors, loved such stories. *Beowulf* may be the work of a poet who believed, unlike Alcuin, that the house was wide enough for both.
 
+## Treasure and the hall
+
+Gold in *Beowulf* is never merely wealth. The lord's gift of rings, swords, and horses binds his men to him and measures their worth; a hall without treasure-giving is a hall without loyalty. That is why the poem dwells so lovingly on the cups and torques that pass from hand to hand, and why the dragon's hoard, buried and useless, is so ominous: treasure removed from circulation is a sign of a world falling apart.
+
 > **Pause and consider.** Alcuin asked, "What has Ingeld to do with Christ?" How might the *Beowulf* poet answer him?`,
     },
     {

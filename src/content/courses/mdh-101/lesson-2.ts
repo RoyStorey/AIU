@@ -63,6 +63,8 @@ Strikingly, the *Consolation* does not mention Christ, the Bible, or the church,
 
 Theodoric died in 526, a few years after Boethius, and his kingdom did not long survive him. Within a decade, the armies of the eastern emperor Justinian invaded Italy, beginning a war of reconquest that would last twenty years and leave Italy devastated.
 
+Boethius's translations of Aristotle's logic were, for six centuries, nearly all of Aristotle that Latin readers could study.
+
 > **Pause and consider.** Boethius, a Christian, wrote his last book without mentioning Christ, finding consolation in philosophy. What does that suggest about the relationship between classical philosophy and Christian faith in his world?`,
     },
     {
@@ -168,6 +170,8 @@ The greatest scholar of Visigothic Spain was **Isidore**, bishop of **Seville** 
 ## The end of an age
 
 By 600, the Mediterranean world had changed profoundly from the world of Constantine. The western empire was gone, replaced by Christian kingdoms; Justinian's attempt to restore it had succeeded only partially and at a ruinous cost. Plague and climate disaster had reduced the population. Cities had shrunk. In the East, the empire was increasingly Greek in language and culture, and historians from this point often call it the **Byzantine Empire**, after the old name of its capital—though its people always called themselves Romans. And in Arabia, a merchant named Muhammad was about to begin preaching a new faith.
+
+The sixth century thus ended with the western Mediterranean divided into Gothic, Frankish, Lombard, and Byzantine worlds.
 
 > **Pause and consider.** Justinian's reconquest of Italy succeeded and devastated the country it reconquered. Was it worth it?`,
     },

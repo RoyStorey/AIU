@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Forest, Coast, and Plateau: Ife, Benin, Kilwa, and Great Zimbabwe",
   summary:
-    "The bronzes of Igbo-Ukwu and the naturalistic heads of Ife; the walled city and brass plaques of Benin, and their looting in 1897; the Swahili city-states and their Indian Ocean world, where Ibn Battuta admired Kilwa; Great Zimbabwe, and the long colonial denial that Africans built it; and Kongo on the eve of the Atlantic age.",
+    "The bronzes of Igbo-Ukwu and the heads of Ife; the walled city and brass plaques of Benin, and their looting in 1897; the Swahili city-states and their Indian Ocean world; Great Zimbabwe and the colonial denial that Africans built it; and Kongo on the eve of the Atlantic age.",
   pages: [
     {
       title: "Igbo-Ukwu and Ife",
@@ -181,6 +181,14 @@ Around **1450**, Great Zimbabwe declined and was gradually abandoned. The reason
 
 The people of Great Zimbabwe were the ancestors of the **Shona**, the majority people of modern Zimbabwe. Their descendants never forgot the site, which remained a sacred place for rituals and the veneration of ancestors.
 
+## Living at Great Zimbabwe
+
+Archaeology has revealed much about daily life at the site. Its people lived in round houses of **daga** (a hard clay-and-gravel plaster) inside and around the stone enclosures, with polished floors, built-in benches, and storage bins. They kept cattle, which were a measure of wealth and status, and grew sorghum and millet. Craftsmen worked gold, copper, and iron, and spun cotton into cloth. Finds of Chinese celadon and Persian pottery, Syrian glass, and a coin from Kilwa show how far the city's trade reached, by way of the Swahili ports. At its height in the fourteenth century, the city may have held some ten to eighteen thousand people, though estimates vary widely.
+
+## Who lived in the Great Enclosure?
+
+The purpose of the Great Enclosure is debated. Some archaeologists think it was the royal residence; others, that it was a place of initiation or ritual, perhaps for young women; others suggest it was the residence of the king's wives. Its conical tower, solid throughout, has no known practical use, and may have symbolized a granary, the king's generosity, or male power.
+
 > **Pause and consider.** Great Zimbabwe was far inland, yet Chinese porcelain and a Kilwa coin were found there. What does this tell us about the reach of the Indian Ocean trade?`,
     },
     {
@@ -212,6 +220,10 @@ For African nationalists, by contrast, Great Zimbabwe became a powerful symbol o
 The Great Zimbabwe controversy shows how the past can be distorted to serve the interests of the present. For decades, European colonizers refused to believe what the evidence clearly showed, because it threatened their justification for ruling Africa. The same pattern appears again and again in African history: the denial that Africans made the Ife heads, the Benin Bronzes, the Swahili towns, the Igbo-Ukwu bronzes, Jenne-jeno, or the civilization of Egypt. Undoing these distortions has been one of the central tasks of African history and archaeology since the mid-twentieth century.
 
 It also shows the importance of careful, honest scholarship. Randall-MacIver and Caton-Thompson, working with scientific methods and following the evidence where it led, established the truth against intense pressure. As the Bible says, "And ye shall know the truth, and the truth shall make you free" (John 8:32). The truth about Great Zimbabwe was a small part of the freedom that the people of Zimbabwe won.
+
+## The archaeologists' evidence
+
+The case for African builders rests on many kinds of evidence: the style of the walls, which belongs to a regional tradition found at hundreds of smaller sites across Zimbabwe and Mozambique; radiocarbon dates from the 1950s onward; the pottery, tools, and ornaments found on the site, which are those of Shona-speaking farmers; and the continuity of oral traditions and practices among the Shona. The question, in short, was never really open among scholars after the 1930s. It was kept alive for political reasons, which is why the controversy matters as a case study in how history can be bent to serve power.
 
 > **Pause and consider.** The Rhodesian government told archaeologists, in effect, that they could not say Black people built Great Zimbabwe. What does this episode teach about the relationship between history and political power?`,
     },

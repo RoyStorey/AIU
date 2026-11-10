@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Assyria: The First World Empire",
   summary:
-    "The rise of Assyria and the palaces of Nimrud; Tiglath-pileser III and the machinery of empire, from provinces to mass deportation; Israel and Judah between the empires; Sennacherib's siege of Jerusalem in 701 BC; Ashurbanipal and the library of Nineveh; life, women, and scholarship at the Assyrian court; and the sudden fall of Nineveh in 612 BC.",
+    "The rise of Assyria and the palaces of Nimrud; Tiglath-pileser III and the machinery of empire, from provinces to mass deportation; Israel and Judah between empires; Sennacherib's siege of Jerusalem; Ashurbanipal and his library; life at the Assyrian court; and the fall of Nineveh in 612 BC.",
   pages: [
     {
       title: "The Rise of Assyria",
@@ -34,6 +34,10 @@ Nimrud survived for nearly three thousand years, only to be deliberately destroy
 ## Sources
 
 The Neo-Assyrian empire is one of the best-documented states of the ancient world. Its kings left long **annals**, inscribed on stone and clay, recording their campaigns year by year, in which they boasted of their victories and their punishment of enemies. Thousands of **letters** and administrative documents survive from the royal archives, including letters to and from the king, his officials, his scholars, and his family. The **reliefs** in the palaces illustrate warfare, hunting, and court life in vivid detail. And the **Hebrew Bible** preserves the experience of one of the peoples the Assyrians conquered. Together, these sources allow historians to study Assyria from both sides: the view of the conqueror and the view of the conquered.
+
+## The Assyrian heartland
+
+Assyria's core lay along the upper Tigris, in a triangle of cities: **Ashur**, the old religious capital; **Nineveh**, across the river from modern Mosul; and **Arbela** (modern Erbil). Unlike southern Mesopotamia, the region received enough rain for farming without irrigation, but it lay open to raiders from the mountains and steppe. Assyrian kings justified their wars as the god Ashur's command to extend his order to the ends of the earth, and the army, more than any other institution, made the state.
 
 > **Pause and consider.** The Assyrian king fought in the name of the god Ashur, whose rule was meant to extend over the whole world. How might such an ideology shape the way an empire treats those who resist it?`,
     },
@@ -214,6 +218,8 @@ The Assyrian kings were great builders of **gardens**. Sennacherib built at Nine
 ## Ordinary life
 
 Beneath the court, the great majority of the empire's people were farmers, herders, craftsmen, and laborers, who paid taxes, served in the army, and worked on the king's building projects. Their lives are glimpsed in legal documents: contracts for the sale of land, houses, and slaves; loans; marriage contracts; and lawsuits. Many were deportees, settled far from their homelands. The empire brought them security and, in some periods, prosperity, but at the cost of heavy taxation, forced labor, and the constant demands of war.
+
+Court letters even record the anxieties of kings about illness and omens, giving us a rare glimpse of royal private life.
 
 > **Pause and consider.** Esarhaddon placed a substitute king on his throne to absorb the evil foretold by an omen. What does this ritual reveal about Assyrian beliefs about kingship and fate?`,
     },

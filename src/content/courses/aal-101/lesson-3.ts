@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Harriet Jacobs: Incidents in the Life of a Slave Girl",
   summary:
-    "Harriet Jacobs's girlhood in Edenton and the persecution of Dr. Flint; 'far more terrible for women'; her choice of Mr. Sands and her plea to the reader; seven years in the 'loophole of retreat'; escape, the North, and the bill of sale; the making of Incidents with Amy Post and Lydia Maria Child; Jean Fagan Yellin's recovery of its authorship; and other women's narratives, from Mary Prince to Harriet Wilson.",
+    "Harriet Jacobs's girlhood in Edenton and Dr. Flint's persecution; her choice of Mr. Sands and her plea to the reader; seven years in the garret; escape and the bill of sale; the making of Incidents and its recovery by Jean Fagan Yellin; and other women's narratives, from Mary Prince to Harriet Wilson.",
   pages: [
     {
       title: "A Girlhood in Edenton",
@@ -209,6 +209,8 @@ The history of *Incidents* raises important questions about how texts by margina
 
 It is illuminating to read *Incidents* alongside Douglass's *Narrative*. Douglass presents himself as a solitary hero, who frees himself through his own will and intelligence, by learning to read and by fighting Covey. His story is a story of individual self-making, in which family ties are broken by slavery and community matters little. Jacobs presents herself as a member of a family and a community, whose survival depends on the help of others—her grandmother, her uncle, her brother, sympathetic white women, friends in the North—and whose overriding motive is not her own freedom but her **children's**. Her resistance takes the form not of physical combat but of concealment, calculation, and endurance. The two books together give a fuller picture of slavery, and of resistance, than either alone.
 
+The first edition of *Incidents* carried no portrait of its author and no name but the pseudonym. Jacobs's authorship was an open secret among abolitionists, but she never publicly claimed the book under her own name.
+
 > **Pause and consider.** *Incidents* was long doubted because it seemed too skillful to be Jacobs's own. What does this history reveal about how readers judged the writing of formerly enslaved people?`,
     },
     {
@@ -245,6 +247,8 @@ Jacobs also indicts the **North**. She describes Northern men who went South and
 
 *Incidents* has become a foundational text for the study of **Black women's** experience, for **Black feminist** thought, and for the history of sexuality and slavery. It shows that the sexual exploitation of enslaved women was not an occasional abuse but a structural feature of slavery, and that enslaved women resisted it in many ways. It also shows the importance of **networks of women**—Jacobs's grandmother, her aunt, the white woman who hid her, Amy Post, Cornelia Willis—in surviving and resisting. The scholar **Saidiya Hartman**, in *Scenes of Subjection* (1997), drew on Jacobs to explore how slavery constrained even the "choices" of enslaved women, such as Jacobs's choice of Sawyer.
 
+Jacobs also reminds her readers that they, too, are implicated in slavery's sexual economy, since the laws of their nation protected the masters. Her appeal to women is an appeal to their consciences as citizens as well as mothers.
+
 > **Pause and consider.** Jacobs used the conventions of the sentimental novel to reach her readers. How does she both use and subvert those conventions?`,
     },
     {
@@ -280,6 +284,10 @@ Another remarkable narrative is ***Behind the Scenes; or, Thirty Years a Slave, 
 ## A tradition of women
 
 Together, these narratives constitute a tradition of Black women's writing that Jacobs's *Incidents* exemplifies: a tradition concerned with the body, sexuality, motherhood, family, and the networks of women, as well as with freedom. It anticipates the work of later Black women writers—Zora Neale Hurston, Gwendolyn Brooks, Toni Morrison, Alice Walker—who would explore these themes in fiction. Toni Morrison's ***Beloved*** (1987), based on the story of **Margaret Garner**, who killed her daughter in 1856 rather than see her returned to slavery, is in many ways the heir of *Incidents*.
+
+## Reading them together
+
+These narratives are very different in form. Prince's was dictated; Truth's was written down by another; Wilson's is a novel; Keckley's is a memoir of public life. Yet all of them insist that a Black woman's experience could not be told by anyone else, and that slavery, and the racism that outlived it, struck women in ways that men's narratives left out. Read together, they form one of the richest bodies of testimony in American literature, much of it recovered only in the last fifty years.
 
 > **Pause and consider.** Mary Prince wrote, "To be free is very sweet." How do the women's narratives in this lesson define freedom differently from Douglass?`,
     },

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "From the Maya Collapse to the Aztec Empire",
   summary:
-    "The collapse of the Classic Maya cities and the debate over drought and war; Chichen Itza, Mayapán, and the northern Maya; Tula and the Toltec ideal; the Mexica migration and the founding of Tenochtitlan; the Triple Alliance and its tribute empire; Nezahualcoyotl, poet-king of Texcoco; and Moctezuma II on the eve of 1519.",
+    "The collapse of the Classic Maya cities and the debate over drought and war; Chichen Itza, Mayapán, and the northern Maya; Tula and the Toltec ideal; the Mexica migration and Tenochtitlan; the Triple Alliance and its tribute empire; Nezahualcoyotl of Texcoco; and Moctezuma II in 1519.",
   pages: [
     {
       title: "The Classic Maya Collapse",
@@ -116,6 +116,10 @@ The Aztecs also went to Tula to dig up Toltec sculptures and objects, which they
 ## Myth and history
 
 The Toltecs present a classic problem in Mesoamerican history: the relationship between myth and history. The Aztec accounts of Tollan were written down after the Spanish conquest, centuries after Tula's fall, and they served the Aztecs' own purposes, legitimizing their rule by connecting it to a glorious past. Archaeology shows that the real Tula was a powerful city, but smaller and less splendid than the paradise of legend. Some scholars have argued that "Tollan" was not a single place but an idea, a name for any great city—Teotihuacan, Cholula, and Chichen Itza were all sometimes called Tollan. The Toltecs, in this sense, were both a real people and a myth that later peoples used to understand their own place in history.
+
+## Tula's sculpture
+
+Tula's most famous monuments are the four colossal **Atlantean** figures, nearly five meters tall, that stand on top of Pyramid B, the Temple of Tlahuizcalpantecuhtli (the Morning Star). Carved from basalt in sections, they represent warriors wearing butterfly-shaped breastplates and feathered headdresses, holding spear-throwers and incense bags. They once supported the temple's roof. Around the pyramid, friezes show processions of jaguars, coyotes, and eagles devouring human hearts. The style, with its emphasis on warriors and sacrifice, reappears at Chichen Itza, a resemblance that has fueled long debate about the relations between the two cities.
 
 > **Pause and consider.** For the Aztecs, "Toltec" came to mean "artist." Why might a people trace their arts and their legitimacy to an earlier civilization? Can you think of parallels in European history?`,
     },
@@ -266,6 +270,10 @@ Many historians now doubt this story. The historians **Camilla Townsend**, in an
 ## The world on the eve of conquest
 
 In **1519**, when Hernán Cortés landed on the Gulf Coast of Mexico with some five hundred soldiers, the Aztec empire was at the height of its power. It was one of the largest and most sophisticated states in the world, ruling millions of people from a capital of extraordinary size and beauty. Two years later, Tenochtitlan lay in ruins, its people devastated by war and smallpox, and the empire had fallen to a small band of Spaniards and their tens of thousands of Native allies. How this happened is the subject of another course. In the next lesson, we will visit Tenochtitlan at its height, as the Spaniards saw it in 1519, and study the society and religion of the Aztecs.
+
+## The Mexica on the eve
+
+By **1519**, the Triple Alliance ruled some five to six million people, in a tribute empire of thirty-eight provinces that stretched from the Gulf Coast to the Pacific, though there were unconquered enclaves within it, most importantly **Tlaxcala**, the bitter enemy of Tenochtitlan, whose warriors would prove crucial to the Spanish conquest. The empire was powerful but not unified: its subject peoples paid tribute under threat of force and resented the demands for captives and goods. Moctezuma's attempts to centralize power in his own person, and to strengthen the distinction between nobles and commoners, deepened those resentments. When the Spaniards arrived, they found allies waiting.
 
 > **Pause and consider.** Townsend and Restall argue that the story of Cortés as Quetzalcoatl was created after the conquest. Why might such a story have been attractive to Spaniards, and to Native writers?`,
     },

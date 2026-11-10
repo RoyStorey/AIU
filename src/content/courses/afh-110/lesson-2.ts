@@ -121,6 +121,10 @@ Njinga's career illustrates many of the themes of this course: the power of Afri
 
 Within her own kingdom, Njinga was an energetic administrator. She resettled refugees, organized markets, controlled the routes along which captives and goods traveled between the interior and the coast, and welcomed runaways from Portuguese territory, who swelled the population of Matamba. She appointed women to high office, including her sisters, who served as advisers and commanders. In her last years, with the Capuchins' help, she built churches, encouraged Christian marriage, and tried to suppress practices the missionaries condemned. Matamba under Njinga was not merely a war camp but a functioning state, strong enough to outlive her by two centuries.
 
+Njinga's portraits and legends remain powerful in Angola today, where she is honored as a national heroine and a symbol of resistance to Portuguese rule.
+
+Her long reign, nearly four decades, made her one of the most formidable rulers of seventeenth-century Africa, and one of the best documented, since both Portuguese and Capuchin observers wrote about her at length.
+
 > **Pause and consider.** Njinga is celebrated in Angola as a hero of resistance, yet she was also a slave trader. How should we remember historical figures whose lives combine resistance and complicity?`,
     },
     {
@@ -160,6 +164,8 @@ During Garcia II's reign, the coastal province of **Soyo**, ruled by a prince wi
 Kongolese Christianity reached well beyond Kongo. Kongolese nobles studied in Lisbon, and some entered religious orders. Kongolese and Angolan Christians formed confraternities in Lisbon, Salvador, and Rio de Janeiro. And Kongolese captives carried their faith into slavery, where, in Brazil and elsewhere, they sometimes found that they knew their prayers better than their masters expected.
 
 The historian **Cécile Fromont** has shown, in *The Art of Conversion* (2014), how Kongolese art, regalia, and ceremony fused Christian and Kongolese forms into a single visual language of power.
+
+Kongo's Christian kings corresponded with popes for more than a century.
 
 > **Pause and consider.** Thornton argues that Kongolese Christianity was a genuine form of the faith. What evidence supports this view? How might a Capuchin missionary have seen it differently?`,
     },

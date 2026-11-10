@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Franklin, Paine, and the Literature of the Republic",
   summary:
-    "Benjamin Franklin, from Silence Dogood to Poor Richard and the Autobiography's project of moral perfection; Thomas Paine's Common Sense and The American Crisis; the Declaration of Independence as literature, with its deleted passage on slavery; Crèvecoeur's 'new man'; Phillis Wheatley; and the Puritan inheritance in the new republic.",
+    "Franklin from Silence Dogood to Poor Richard and the Autobiography's project of moral perfection; Paine's Common Sense and The American Crisis; the Declaration as literature, with its deleted passage on slavery; Crèvecoeur's new man; Wheatley; and the Puritan legacy in the new republic.",
   pages: [
     {
       title: "Benjamin Franklin: The Printer",
@@ -128,6 +128,8 @@ Franklin tells a parable about the limits of perfection. A man bought an ax from
 Franklin's project has attracted fierce criticism. The English novelist **D. H. Lawrence**, in *Studies in Classic American Literature* (1923), mocked Franklin as "the pattern American," who had reduced the soul to a set of rules and "made himself a list of virtues, which he trotted inside like a grey nag in a paddock." Lawrence wrote his own list of virtues in reply. The German sociologist **Max Weber**, in *The Protestant Ethic and the Spirit of Capitalism* (1905), quoted Franklin's *Advice to a Young Tradesman* ("Remember that time is money") as the purest expression of the "spirit of capitalism," which he traced to the secularization of the Puritan ethic of work. Mark Twain joked that Franklin's maxims had made life miserable for generations of boys.
 
 Defenders of Franklin reply that his project was more modest, and more humane, than his critics allow: not a reduction of the soul to rules, but a practical discipline for a busy man, offered with a self-deprecating smile.
+
+Franklin himself never published the "little book" separately; it survives only through his own description of it.
 
 > **Pause and consider.** Franklin admits that if he overcame pride he "should probably be proud of my humility." Is the project of moral perfection self-defeating?`,
     },

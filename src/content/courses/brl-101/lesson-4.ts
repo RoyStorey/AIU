@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Chaucer's England and the General Prologue",
   summary:
-    "Geoffrey Chaucer's life as courtier, diplomat, and customs official; England after the Black Death and the Peasants' Revolt; the sound of Chaucer's English and the invention of the pentameter couplet; the dream poems and Troilus and Criseyde; the pilgrims of the General Prologue, from the Knight to the Pardoner; and the frame of the Canterbury pilgrimage.",
+    "Chaucer's life as courtier, diplomat, and customs official; England after the Black Death and the Peasants' Revolt; the sound of his English and the pentameter couplet; the dream poems and Troilus and Criseyde; the pilgrims of the General Prologue; and the frame of the Canterbury pilgrimage.",
   pages: [
     {
       title: "The Life of Geoffrey Chaucer",
@@ -125,6 +125,10 @@ Chaucer's English was rich in words borrowed from **French**, which had entered 
 ## How to read Chaucer
 
 This course reads Chaucer in the original Middle English, with a glossary. Reading him in modern translation loses much of his wit, music, and subtlety. The best way to learn is to read aloud, slowly, following a guide to pronunciation, and to listen to recordings by scholars who have reconstructed the sound of his English. After a few hours, the language begins to feel familiar, and the voice of the poet comes through, ironic, humane, and amused. As the poet **John Dryden** wrote in **1700**, introducing his own modernized versions of some of the tales: "**Here is God's plenty.**"
+
+## Hearing Chaucer
+
+The best way to learn Chaucer's English is to hear it. Final *-e* was often pronounced, so *sweete* has two syllables; vowels were "continental," so *shoures* sounds roughly like "shoo-res"; and the *k* in *knyght* and the *gh* in *droghte* were sounded. Recordings by scholars and actors, many available through Harvard's Chaucer website, let students hear the music of the verse. Within a few weeks of practice, most readers can follow the General Prologue aloud, with a glossary at hand.
 
 > **Pause and consider.** The opening sentence of the General Prologue moves from rain and roots to the human longing for pilgrimage. What does this movement suggest about the relationship between nature and the spirit?`,
     },

@@ -98,6 +98,10 @@ At the same time, a new class of professional writers was emerging in London, wh
 
 The image of the Elizabethan age as a golden age of national confidence and literary glory was largely created by later generations, and by the propaganda of the age itself. In reality, the period was also one of great anxiety: about the succession, since the queen had no heir; about religious conflict, Catholic plots, and the threat of invasion; about poverty, plague, and rebellion in Ireland. The great writers of the age expressed these anxieties as well as its confidence. Spenser's *Faerie Queene*, as we will see, is both a celebration of Elizabeth and a deeply troubled poem.
 
+## The court as audience
+
+Elizabethan poetry was written, above all, for a small world: the court, the Inns of Court where young lawyers trained, and the great households of aristocratic patrons. Poems circulated in manuscript among friends and rivals before, if ever, they reached print; a sonnet might be a love poem, a bid for patronage, and a political message at once. To be known as a poet was, for a gentleman, a mark of grace rather than a profession; Sidney published none of his poetry in his lifetime. Reading these poems well means remembering that their first readers knew the people and the stakes behind them.
+
 > **Pause and consider.** Elizabeth's courtiers addressed her in the language of Petrarchan love. How might political ambition and erotic desire become confused in such a culture?`,
     },
     {
@@ -346,6 +350,12 @@ Most of the poets we have studied were men, and the women of their poems—Stell
 ## The legacy
 
 The poets of the English Renaissance created the forms and the language of English lyric poetry for centuries: the sonnet, in both its Petrarchan and English forms; blank verse; the pastoral; the song; and the conventions of love poetry, which later poets would imitate, transform, and rebel against. They made English a language capable of the highest poetry.
+
+## Print and the sonnet craze
+
+In the 1590s, after the posthumous publication of Sidney's *Astrophil and Stella* in **1591**, English poets produced a flood of sonnet sequences: Samuel Daniel's *Delia* (1592), Michael Drayton's *Idea's Mirror* (1594), Spenser's *Amoretti* (1595), and many more. Shakespeare's *Sonnets*, written mostly in the 1590s, were published in **1609**. The craze was short-lived; by the early seventeenth century, poets such as Donne and Jonson were turning to other forms, and the Petrarchan sonnet became a target of parody, as in Shakespeare's own "My mistress' eyes are nothing like the sun." The vogue nonetheless left English with one of its great inheritances: a form that poets from Milton and Wordsworth to the present have continued to remake.
+
+The lyric was also a performance art. Many Elizabethan poems were set to music by composers such as **John Dowland**, whose *First Book of Songs* (1597) was one of the best-selling music books of the age, and **Thomas Campion**, who was both poet and composer. To hear these songs sung is to understand why the poets thought of verse as music.
 
 > **Pause and consider.** Renaissance poets valued imitation over originality. Is originality overrated? What can be gained by transforming a familiar form?`,
     },

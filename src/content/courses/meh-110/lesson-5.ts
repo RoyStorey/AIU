@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Babylon and Persia: From Nebuchadnezzar to Alexander",
   summary:
-    "Nebuchadnezzar's Babylon and its Ishtar Gate; the destruction of Jerusalem and the Babylonian exile; Nabonidus, the antiquarian king; Cyrus the Great and the Cyrus Cylinder; Darius and the organization of the Persian empire; Persia and the Greeks; and Alexander's conquest, which ended the ancient Near East as an independent world.",
+    "Nebuchadnezzar's Babylon and its Ishtar Gate; the destruction of Jerusalem and the Babylonian exile; Nabonidus, the antiquarian king; Cyrus the Great and his cylinder; Darius and the Persian empire; Persia and the Greeks; and Alexander's conquest, the end of the ancient Near East as its own world.",
   pages: [
     {
       title: "Nebuchadnezzar's Babylon",
@@ -214,6 +214,8 @@ The Persians saw things differently. For them, the Greeks were a minor people on
 ## Xenophon and the Ten Thousand
 
 In **401 BC**, a Persian prince, **Cyrus the Younger**, rebelled against his brother, Artaxerxes II, and hired some ten thousand Greek mercenaries to help him seize the throne. At the battle of **Cunaxa**, near Babylon, Cyrus was killed. The Greek mercenaries, stranded deep in the Persian empire, their generals treacherously murdered, elected new leaders, among them the Athenian **Xenophon**, and fought their way north through the mountains of Kurdistan and Armenia to the Black Sea. When they finally saw the sea, they cried, "**Thalatta! Thalatta!**"—"The sea! The sea!" Xenophon's account, the ***Anabasis***, became a classic, and it suggested to Greeks that the Persian empire was weaker than it appeared. It was in this march, as we saw, that Xenophon passed the ruins of Nineveh.
+
+The Persians themselves left no narrative of the wars; their side survives only in Greek accounts.
 
 > **Pause and consider.** For the Greeks, the Persian Wars were the triumph of freedom over despotism; for the Persians, a minor frontier affair. How does the history of an event change with the point of view?`,
     },

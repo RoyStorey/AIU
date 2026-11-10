@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Milton and Paradise Lost",
   summary:
-    "John Milton's life from Lycidas to Areopagitica, the regicide, and blindness; the epic ambition and the blank verse of Paradise Lost; Satan in Hell and the debate over his heroism; Eden, Adam, and Eve; the Fall in Book IX; the war in Heaven, the Son, and the fortunate fall; and the expulsion and the poem's legacy, from Blake to Philip Pullman.",
+    "Milton from Lycidas to Areopagitica, the regicide, and blindness; the epic ambition and blank verse of Paradise Lost; Satan in Hell and the debate over his heroism; Eden, Adam, and Eve; the Fall; the war in Heaven and the fortunate fall; and the expulsion and the poem's legacy.",
   pages: [
     {
       title: "Milton's Life: Poet and Revolutionary",
@@ -279,6 +279,8 @@ This is the paradox of the ***felix culpa***, the "**fortunate fall**": the idea
 
 Michael teaches Adam that he must now live by faith and obedience, patience and love, and promises him that, though he must leave the earthly paradise, he will possess "**a paradise within thee, happier far**." The poem's ultimate vision is not of an external paradise to be regained, but of an inner one, achieved through virtue and faith. For Milton, defeated in his hopes for a godly republic, this inner paradise may have been the only one left.
 
+Milton's theology of the Fall drew on Augustine, but the poem's tenderness toward Adam and Eve in their repentance is its own.
+
 > **Pause and consider.** Adam wonders whether to repent of his sin or rejoice in the good it will produce. Is the idea of a "fortunate fall" a satisfying answer to the problem of evil?`,
     },
     {
@@ -316,6 +318,10 @@ The English novelist **Philip Pullman**'s trilogy ***His Dark Materials*** (1995
 This course has followed English literature from the humanism of More to the epic of Milton, through an age of religious revolution, courtly splendor, and civil war. We have read More's *Utopia*, with its dream of a perfect commonwealth and its author's fatal choice; the sonnets of Wyatt, Sidney, and Spenser, who brought the Petrarchan tradition into English; Spenser's allegory of holiness; the metaphysical wit of Donne, the devotion of Herbert, the classical grace of Jonson, and the ambiguous politics of Marvell; and Milton's great epic of the Fall, written in the defeat of his political hopes. These writers made English a language of the highest literature, and they bequeathed to later generations the forms—the sonnet, blank verse, the epic, the lyric—and the questions—of freedom and authority, faith and doubt, love and mortality—with which English poetry has wrestled ever since.
 
 The next stage of the British Literature concentration turns to the age of the novel and the Romantic poets.
+
+## Milton's last poems
+
+*Paradise Lost* was not Milton's last word. In **1671**, he published ***Paradise Regained***, a brief epic in four books on Christ's temptation in the wilderness, in which the Son defeats Satan not by force but by patient refusal; and ***Samson Agonistes***, a tragedy on the Greek model about the blind and captive Samson, "eyeless in Gaza at the mill with slaves," who destroys the temple of the Philistines and himself. Many readers have seen in Samson a portrait of the blind poet himself, defeated with the cause he served, waiting for a last act of witness. Milton died in **November 1674**, shortly after the second edition of *Paradise Lost*, now in twelve books, appeared.
 
 > **Pause and consider.** "The world was all before them, where to choose." Is the ending of *Paradise Lost* tragic, hopeful, or both?`,
     },

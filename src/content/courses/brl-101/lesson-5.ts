@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "The Canterbury Tales: Knight, Miller, Wife, Pardoner, and Parson",
   summary:
-    "The Knight's Tale and its philosophy of order; the Miller's and Reeve's fabliaux and the art of 'quiting'; the Wife of Bath's assault on authority and her tale of what women most desire; the Pardoner's confession and his tale of three rioters who find Death; the Prioress's troubling tale and the Nun's Priest's mock-epic; and the Parson, the Retraction, and Chaucer's long legacy.",
+    "The Knight's Tale and its philosophy of order; the Miller's and Reeve's fabliaux and the art of quiting; the Wife of Bath against authority; the Pardoner and the three rioters who find Death; the Prioress and the Nun's Priest; and the Parson, the Retraction, and Chaucer's legacy.",
   pages: [
     {
       title: "The Knight's Tale",
@@ -37,6 +37,10 @@ Some readers find the tale's philosophy consoling; others find Theseus's attempt
 
 The tale suits its teller. The Knight values order, hierarchy, courtesy, and the restraint of violence by ceremony. His tale presents an ideal of aristocratic chivalry, in which even rivalry in love is conducted according to rules. When he finishes, all the pilgrims, "and namely the gentils everichon," agree that it is "a noble storie, / And worthy for to drawen to memorie." The Host is delighted and calls on the **Monk**, next in rank, to tell a tale to "quite" (match or repay) the Knight's. But the order the Knight has established is about to be shattered.
 
+## Boethius and the Knight
+
+Theseus's great speech on the "First Mover" draws directly on Boethius's *Consolation of Philosophy*, which Chaucer had translated into English prose as *Boece*. Boethius taught that the apparent chaos of fortune is governed by a providence beyond human sight, and that the wise accept what they cannot change. The Knight's Tale dramatizes that teaching and tests it: two young men are destroyed by a love neither chose, and Theseus urges the survivors to "make a virtue of necessity." Whether that is wisdom or resignation is one of the tale's open questions. The phrase "to make a virtue of necessity," incidentally, became proverbial in English partly through Chaucer.
+
 > **Pause and consider.** Theseus urges Palamon and Emelye "to maken vertu of necessitee." Is this wisdom, resignation, or a way of justifying the power of rulers?`,
     },
     {
@@ -68,6 +72,8 @@ The **Reeve**, Oswald, is offended, because he was once a **carpenter**, and he 
 ## Quiting
 
 The exchange between the Miller and the Reeve introduces one of the central dynamics of *The Canterbury Tales*: "**quiting**," or repaying. The tales are not only stories; they are moves in a social drama, in which the pilgrims respond to and attack each other. The Friar and the Summoner, who hate each other's professions, tell tales mocking each other. The tales reveal their tellers, and the frame turns the collection into a kind of conversation among the different estates and voices of society.
+
+The Miller's Tale is one of the funniest stories in English, and Chaucer's apology for it, warning squeamish readers to "turn over the leaf," only sharpens the joke.
 
 > **Pause and consider.** The Miller tells his tale to "quite" the Knight's. How does a bawdy fabliau answer a philosophical romance? What does each genre see that the other cannot?`,
     },

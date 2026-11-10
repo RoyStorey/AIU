@@ -37,6 +37,12 @@ The men who formed the new government had known each other for years, many since
 
 Historians have often emphasized that Washington's greatest contribution as president was his character. Having surrendered his command to Congress in 1783, he was trusted, as almost no one else was, not to make himself a king. He was not a brilliant thinker, but he had excellent judgment, was willing to listen to advisers who disagreed, and was intensely conscious of his reputation. In a new republic whose institutions had no history, the trust that Washington commanded gave the government a legitimacy it could not yet have earned on its own.
 
+## The first cabinet
+
+Washington's first cabinet was small: **Thomas Jefferson** as secretary of state, **Alexander Hamilton** at the Treasury, **Henry Knox** at War, and **Edmund Randolph** as attorney general. The Constitution did not mention a cabinet; Washington created it by asking his department heads for written opinions and, from **1793**, meeting with them together. He also established the custom that a president should serve no more than two terms, a precedent that held until Franklin Roosevelt and was written into the Constitution by the Twenty-second Amendment in **1951**.
+
+Washington's every act, he knew, would set a precedent: "I walk on untrodden ground," he wrote in 1790.
+
 > **Pause and consider.** Why did seemingly trivial questions, such as the president's title, arouse such strong feelings in 1789?`,
     },
     {
@@ -262,6 +268,10 @@ Recent historians have asked who was excluded from the politics of the 1790s. Th
 ## A republic in the making
 
 What, then, did the 1790s accomplish? The Constitution became a working government. The national government established its credit and its authority to enforce its laws. Washington established the precedents of the presidency, including the limit of two terms. The first parties emerged, and, for the first time, power passed peacefully from one to the other. These were not small things. The world of the 1790s was littered with failed republics. The American one survived.
+
+## The Bill of Rights
+
+One of the first acts of the new government was to keep a promise made during ratification. In **1789**, **James Madison**, who had once thought a bill of rights unnecessary, steered a set of amendments through the House; ten of the twelve sent to the states were ratified by **December 1791**. They guaranteed freedom of religion, speech, press, and assembly; the right to bear arms; protection against unreasonable searches; the rights of the accused; and trial by jury; and reserved to the states and the people the powers not delegated to the federal government. The Bill of Rights quieted Antifederalist fears and became, over time, the foundation of American civil liberties, though for more than a century it limited only the federal government, not the states.
 
 > **Pause and consider.** Hamilton and Jefferson have been used as symbols by every generation of Americans. Which of their visions seems to you to have prevailed in the long run—and is the opposition between them a true one?`,
     },

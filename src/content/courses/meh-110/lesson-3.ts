@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Hammurabi, the Great Powers, and the Bronze Age Collapse",
   summary:
-    "The Amorite kingdoms, the palace of Mari, and the merchants of Kanesh; Hammurabi and his famous laws; Babylonian divination, mathematics, and the creation epic; the Hittites and the sack of Babylon; the Amarna letters and the club of great kings; Kadesh and the first peace treaty; and the collapse of the Bronze Age world around 1177 BC.",
+    "The Amorite kingdoms, the palace of Mari, and the merchants of Kanesh; Hammurabi and his laws; Babylonian divination, mathematics, and the creation epic; the Hittites and the sack of Babylon; the Amarna letters and the great kings; Kadesh and the first peace treaty; and the collapse around 1177 BC.",
   pages: [
     {
       title: "Amorite Kings, Mari, and the Merchants of Kanesh",
@@ -32,6 +32,10 @@ The women of Assur played a central role in this trade. They wove the textiles t
 ## The world of the Amorites
 
 The Old Babylonian period was a time of political fragmentation but also of economic and cultural vitality. Private enterprise flourished alongside the palaces and temples. Many of the great works of Mesopotamian literature, including the Old Babylonian *Gilgamesh* and *Atrahasis*, were composed or written down in this period, and the scribal schools copied the Sumerian classics. It was in this world that one Amorite king of Babylon rose to unite Mesopotamia once again.
+
+## The letters of Mari
+
+The **Mari archive**, found by French archaeologists under **André Parrot** in the **1930s**, contains some twenty thousand clay tablets, most of them letters to and from King **Zimri-Lim** (reigned c. 1775–1761 BCE). They show the daily business of an Amorite kingdom: diplomatic reports from envoys at foreign courts, complaints from provincial governors, requests from the king's wives and daughters married off to allied rulers, and reports of **prophets** who claimed to bring messages from the gods, a phenomenon that has fascinated scholars of the Hebrew prophets. One letter reports that Hammurabi himself was being courted by ten or fifteen kings, while others had twenty: "There is no king who is strong on his own." The archive ends when Hammurabi conquered and destroyed Mari around **1761 BCE**.
 
 > **Pause and consider.** The Kanesh archives reveal partnerships, credit, investment funds, and women running family businesses nearly four thousand years ago. How do they challenge assumptions about "primitive" ancient economies?`,
     },
@@ -178,6 +182,10 @@ The Hittites were once credited with inventing **iron** working and keeping it a
 ## The Kassites
 
 In Babylonia, the **Kassites** maintained Babylonian traditions and promoted Babylonian literature and scholarship. Many classic texts, including the Standard Babylonian *Gilgamesh*, were edited and standardized in the Kassite period. The Kassites introduced the horse and chariot on a large scale, and a new kind of monument, the ***kudurru***, a carved boundary stone recording a royal grant of land, decorated with the symbols of the gods who guaranteed it. The Kassite kings were members of the "club" of great powers that dominated the Near East in the fourteenth century BC, and their letters to the pharaohs of Egypt are among the most famous documents of the age, which we will read on the next page.
+
+## The Hittite archives
+
+The Hittite capital, **Hattusa**, near the modern Turkish village of Boğazkale, yielded some thirty thousand tablet fragments after excavations began in **1906**. Many are written in Hittite, but others are in Akkadian, the diplomatic language of the age, and in several other Anatolian languages. They include treaties, laws, prayers, and historical texts, among them the oldest known Indo-European literature.
 
 > **Pause and consider.** Hrozný deciphered Hittite from a single sentence about eating bread and drinking water. What does his method reveal about how languages, and their histories, are connected?`,
     },

@@ -35,6 +35,8 @@ The treaty created the **League of Nations**, Wilson's dream, an international o
 
 For a few years in the mid-1920s, it seemed that the peace might hold. The **Dawes Plan** (1924), negotiated by the American banker Charles Dawes, reduced Germany's reparation payments and arranged American loans to Germany. At **Locarno** (1925), Germany accepted its western borders, and was admitted to the League. In 1928, sixty nations signed the **Kellogg–Briand Pact**, renouncing war as an instrument of national policy. But the prosperity of the late 1920s rested on American loans, and when the American stock market crashed in October 1929, the whole structure collapsed. Within four years, the democracies of Germany, Austria, and much of eastern Europe would give way to dictatorships, and the hopes of Locarno would seem a cruel illusion.
 
+Keynes, who left the conference in protest, warned in *The Economic Consequences of the Peace* that the reparations would ruin Germany and destabilize Europe.
+
 > **Pause and consider.** Keynes warned that a vindictive peace would bring vengeance. Was the Second World War caused by Versailles, or by what came after?`,
     },
     {
@@ -100,6 +102,8 @@ Fascism inspired imitators across Europe in the 1920s and 1930s: in Germany, the
 ## Ethiopia
 
 In **1935**, seeking glory and revenge for Adwa, Mussolini invaded **Ethiopia**, one of the last independent African states. The Italian army used poison gas and aerial bombing against Ethiopian soldiers and civilians. Emperor **Haile Selassie** appealed to the League of Nations in Geneva in June 1936, warning: "It is us today. It will be you tomorrow." The League imposed limited sanctions, which did not include oil, and then lifted them. Ethiopia was conquered. The League's failure destroyed its credibility. The invasion also drew Mussolini closer to Hitler, and in 1936 the two dictators formed the **Rome–Berlin Axis**. African Americans, who saw Ethiopia as a symbol of Black independence, organized to support it, and some volunteered to fight.
+
+Mussolini's regime became a model, and a warning, for dictators across Europe in the 1920s and 1930s.
 
 > **Pause and consider.** Mussolini wrote that for Fascism "the State is absolute, individuals and groups relative." What would such a state require of its citizens?`,
     },

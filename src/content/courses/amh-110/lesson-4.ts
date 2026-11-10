@@ -242,6 +242,12 @@ A fourth approach, increasingly common, sets the British colonies in the context
 
 What united the colonies? In 1740, not much. They had no common government, and each was more closely connected to London than to its neighbors. They quarreled over boundaries, trade, and the conduct of wars. As you saw in AMH 101, Andrew Burnaby could write in 1760 that fire and water were not more heterogeneous than the different colonies. Yet they shared a language, a Protestant faith in most of its varieties, an inheritance of English law and representative institutions, and a pride in British liberty. And they shared, increasingly, the experience of being colonists: subjects of a distant government that, after 1763, would try to govern them more closely. That shared experience would, in a remarkably short time, make many of them Americans.
 
+## Albion's Seed
+
+The historian **David Hackett Fischer**, in *Albion's Seed: Four British Folkways in America* (1989), argued that four waves of migrants from different regions of Britain shaped four distinct regional cultures in America: Puritans from East Anglia in New England; Cavaliers and indentured servants from the south and west of England in Virginia; Quakers from the North Midlands in the Delaware valley; and Scots-Irish and northern English borderers in the backcountry. Each brought its own speech, building styles, religious practices, family customs, and ideas of liberty. Critics have argued that Fischer underplayed the influence of Africans, Native Americans, Germans, and the Dutch, and overstated the persistence of British traditions; but his book remains a provocative account of why colonial regions differed so much.
+
+Whatever their differences, by 1750 the colonies shared a language, a legal tradition, and a growing trade with one another.
+
 > **Pause and consider.** Which of these four approaches—regions, folkways, labor, or continent—seems most illuminating to you, and why? What does each leave out?`,
     },
     {

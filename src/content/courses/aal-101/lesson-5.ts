@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "W. E. B. Du Bois and The Souls of Black Folk",
   summary:
-    "Du Bois's path from Great Barrington to Fisk, Harvard, and Berlin; The Philadelphia Negro and the Atlanta studies; double consciousness and the veil; the critique of Booker T. Washington; the Black Belt, Alexander Crummell, and the death of his son; 'Of the Coming of John'; the Sorrow Songs; and Du Bois's long afterlife, from the Niagara Movement and The Crisis to Ghana.",
+    "Du Bois's road from Great Barrington to Fisk, Harvard, and Berlin; the Philadelphia and Atlanta studies; double consciousness and the veil; the critique of Washington; the Black Belt, Crummell, and the death of his son; the Sorrow Songs; and his long life, from The Crisis to Ghana.",
   pages: [
     {
       title: "The Making of a Scholar",
@@ -34,6 +34,10 @@ From **1897 to 1910**, Du Bois taught at **Atlanta University**, where he organi
 ## Sam Hose
 
 In **April 1899**, an event shook that faith. A Black farm laborer named **Sam Hose**, accused of killing his employer and assaulting his wife, was lynched by a mob of some two thousand people near Newnan, Georgia; he was tortured, mutilated, and burned alive, and pieces of his body were sold as souvenirs. Du Bois wrote a careful letter about the case and set out to deliver it to the *Atlanta Constitution*. On the way, he learned that Hose's knuckles were on display in a butcher's shop on the street he was walking. He turned back. "One could not be a calm, cool, and detached scientist while Negroes were lynched, murdered, and starved," he wrote. He began to turn from pure scholarship to writing that would move hearts as well as minds.
+
+## The young editor
+
+Even as a boy, Du Bois wrote for the public. At fifteen, he became the Great Barrington correspondent of the *New York Globe*, a Black newspaper edited by T. Thomas Fortune, sending reports on the town's small Black community and urging its members to attend meetings and educate their children. At Fisk, he edited the student newspaper, the *Fisk Herald*. The habit of addressing a public, and of arguing for his people in print, began long before *The Souls of Black Folk*. So did his formality: classmates remembered a reserved, elegant young man with a cane and gloves, who seemed older than his years and who already spoke of his life as a mission.
 
 > **Pause and consider.** Du Bois believed at first that "the cure" for prejudice "was knowledge." What did the lynching of Sam Hose teach him about the limits of knowledge?`,
     },
@@ -168,6 +172,8 @@ Chapter 9, "**Of the Sons of Master and Man**," analyzes the relations between B
 
 Chapter 2, "**Of the Dawn of Freedom**," is a history of the **Freedmen's Bureau** (1865–1872), the federal agency established at the end of the Civil War to aid the formerly enslaved. Du Bois praised its achievements, especially in founding schools, and lamented its failures, above all its failure to give the freedpeople land—the "forty acres and a mule" they had hoped for. Against the prevailing view of the time, shaped by Southern historians, which portrayed Reconstruction as a disaster of corruption and Black misrule, Du Bois insisted on its achievements. He would develop this argument in his monumental ***Black Reconstruction in America*** (**1935**), now recognized as a pioneering work that transformed the history of the period.
 
+The Black Belt chapters remain among the most vivid accounts of the rural South at the turn of the century, and the region's poverty they describe lasted well into the twentieth.
+
 > **Pause and consider.** "How many heartfuls of sorrow shall balance a bushel of wheat?" How does Du Bois measure progress differently from the statistics he also uses?`,
     },
     {
@@ -251,6 +257,10 @@ That same year, at the invitation of **Kwame Nkrumah**, now president of indepen
 ## Legacy
 
 Du Bois's influence is immense. As a sociologist, he pioneered empirical study of Black communities. As a historian, he transformed the understanding of Reconstruction. As an editor, he nurtured the Harlem Renaissance. As an activist, he helped found the NAACP and the Pan-African movement. And as a writer, in *The Souls of Black Folk*, he gave enduring names to the experience of race in America—the **color line**, the **veil**, **double consciousness**—that are still used today, not only by scholars of African American life, but by writers on colonialism, immigration, and identity around the world. The Martinican psychiatrist **Frantz Fanon**, in *Black Skin, White Masks* (1952), explored a similar experience of seeing oneself through the eyes of the colonizer.
+
+## The scholar's late work
+
+Du Bois never stopped writing. In his eighties, he published a trilogy of novels, *The Black Flame* (1957–1961), following a Black family from Reconstruction to the 1950s, and he worked on his *Autobiography*, published posthumously in 1968. His *Dusk of Dawn* (1940), subtitled "An Essay Toward an Autobiography of a Race Concept," reflected on how his own life had been shaped by the idea of race, which he described as more a matter of shared experience and oppression than of biology.
 
 > **Pause and consider.** Du Bois died on the eve of the March on Washington, after moving to Ghana. What does his long journey suggest about the hopes and disappointments of his century?`,
     },

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Henry David Thoreau: Walden and Civil Disobedience",
   summary:
-    "Thoreau's Concord life and friendship with Emerson; the experiment at Walden Pond; 'Economy' and the lives of quiet desperation; living deliberately; the pond, the seasons, and the thawing bank; a night in jail and 'Resistance to Civil Government'; John Brown; and Thoreau's long afterlife, from Gandhi and King to the environmental movement and its critics.",
+    "Thoreau's Concord life and friendship with Emerson; the experiment at Walden Pond; Economy and quiet desperation; living deliberately; the pond, the seasons, and the thawing bank; a night in jail and Civil Disobedience; John Brown; and his afterlife, from Gandhi and King to his critics.",
   pages: [
     {
       title: "A Concord Life",
@@ -42,6 +42,10 @@ In **April 1844**, Thoreau and a friend, cooking a chowder of fish on the shore 
 ## The pencil maker
 
 Thoreau worked, at intervals, in the family **pencil** business, and made real improvements to it. He developed a method of grinding graphite more finely and mixing it with clay, and his pencils became among the best made in America. After proving that he could make a perfect pencil, he is said to have declared that he would never make another, since he would not do again what he had done once. In fact, he continued to help with the business, which later shifted to supplying fine graphite for electrotyping, for the rest of his life. He also supported himself as a **surveyor**, laying out property lines for his Concord neighbors, a job that paid well and kept him outdoors.
+
+## Surveyor and naturalist
+
+Thoreau's work as a **surveyor**, which he took up seriously in the late 1840s, gave him an intimate knowledge of every field, wood, and swamp around Concord. He surveyed more than 150 properties, and his maps, many of which survive in the Concord Free Public Library, are precise and handsome. The work also troubled him: he was measuring land so that his neighbors could buy, sell, and cut it. His journal records, with regret, how often the lines he ran marked woods that would soon be cleared, and how strange it felt to measure, for a fee, the places he loved best.
 
 > **Pause and consider.** Thoreau claimed to have "traveled a good deal in Concord." What does it mean to travel deeply in one place?`,
     },
@@ -278,6 +282,12 @@ Thoreau has always had detractors. The poet and critic **James Russell Lowell**,
 ## Legacy
 
 Thoreau's reputation grew slowly after his death. Today he is regarded as one of the founders of the **environmental movement**. **John Muir**, the founder of the Sierra Club, revered him; the naturalist **Aldo Leopold** and the biologist **Rachel Carson** drew on his work. Walden Pond is now a state reservation, visited by some half a million people a year, and a replica of his cabin stands near the parking lot. His political essays inspired Gandhi and King. His prose, at once plain and richly figurative, has influenced writers from **Robert Frost** and **E. B. White** to **Annie Dillard**, whose *Pilgrim at Tinker Creek* (1974) is in many ways a twentieth-century *Walden*.
+
+## The Maine Woods and Cape Cod
+
+Thoreau's travel essays were collected after his death in ***Excursions*** (1863), ***The Maine Woods*** (1864), and ***Cape Cod*** (1865). The Maine book records his growing respect for the Penobscot guide **Joe Polis**, who led him through the wilderness in 1857, and from whom he tried to learn the Native names of plants and places. *Cape Cod* opens with a shipwreck of Irish immigrants on the beach at Cohasset, and describes the sea, without sentiment, as "a wilderness reaching round the globe, wilder than a Bengal jungle." Both books show a Thoreau less concerned with self-culture than with the hard otherness of nature.
+
+Thoreau was buried in the family plot in Sleepy Hollow, under a small stone that reads simply "Henry," near Emerson and Hawthorne.
 
 > **Pause and consider.** Emerson called Thoreau "the captain of a huckleberry-party" rather than an engineer for all America. Was this a fair criticism, or did it miss what Thoreau achieved?`,
     },

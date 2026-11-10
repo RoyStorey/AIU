@@ -33,6 +33,10 @@ Not every Enlightenment was so hostile to religion. In Scotland, the Netherlands
 
 One of the most brilliant centers of the Enlightenment was **Scotland**, especially Edinburgh and Glasgow, a small, poor country that produced, within a few decades, an astonishing number of great thinkers. **David Hume** (1711–1776), the greatest philosopher of the age writing in English, argued that all knowledge comes from experience, and that we cannot prove by reason even that the sun will rise tomorrow; he was a skeptic about miracles and about religion, but also about the power of reason itself: "Reason is, and ought only to be, the slave of the passions." **Adam Smith** (1723–1790), professor of moral philosophy at Glasgow, founded modern economics. Others pioneered the study of history, society, geology, and medicine. Their ideas had a powerful influence on the American founders, many of whom were educated by Scottish teachers.
 
+## The salons and the public
+
+The Enlightenment was not only a set of books but a culture of conversation. In Paris, **salons** hosted by women such as **Madame Geoffrin** and **Julie de Lespinasse** brought philosophes, aristocrats, and foreign visitors together to discuss ideas. Coffeehouses, reading societies, Masonic lodges, and newspapers spread those ideas further, creating what the philosopher **Jürgen Habermas** called a "public sphere" of private people debating public questions.
+
 > **Pause and consider.** Kant defined enlightenment as having the courage to use one's own understanding. Is that courage still needed? What forms of "immaturity" might he identify today?`,
     },
     {
@@ -60,6 +64,10 @@ His ***Social Contract*** (1762) begins with a famous sentence: "**Man is born f
 Rousseau's idea of popular sovereignty inspired the French revolutionaries, and his phrase "forced to be free" has haunted political thought ever since. Was he a prophet of democracy or of totalitarianism? Both readings have been argued.
 
 Rousseau's novel *Julie* (1761) was the bestseller of the century, and his educational treatise ***Émile*** (1762), which argued that children should be allowed to develop naturally rather than being drilled in rules, influenced education for generations. His *Confessions*, published after his death, were a pioneering work of autobiography, in which he laid bare his inner life with a frankness that shocked and fascinated readers.
+
+## Their quarrels
+
+The three were not allies. Voltaire mocked Rousseau's *Discourse on Inequality* (1755), writing to him that reading it made one "wish to walk on all fours"; Rousseau, in turn, broke with the philosophes, and his *Letter to d'Alembert* (1758) attacked their plan for a theater in Geneva. Montesquieu, older and more cautious, died in **1755**. Their disagreements show that the Enlightenment was a debate, not a creed: between reason and feeling, reform and revolution, civilization and its critics.
 
 > **Pause and consider.** Rousseau said that a citizen who refuses to obey the general will may be "forced to be free." Is this a contradiction, or does it make sense?`,
     },
@@ -122,6 +130,14 @@ By the **Treaty of Paris** (1763), France ceded Canada and all its territory eas
 The Seven Years' War had momentous consequences. It left both Britain and France deeply in debt. Britain, seeking to make its American colonists pay a share of the cost of defending them, imposed new taxes—the Sugar Act (1764), the Stamp Act (1765), the Townshend duties (1767)—which the colonists resisted as taxation without representation. With France no longer a threat on their borders, the colonists felt less need for British protection. The road led to the **American Revolution** of 1775–1783.
 
 France, eager for revenge, supported the American rebels with money, arms, and, from 1778, its army and navy, which made possible the decisive American victory at Yorktown in 1781. But the war added enormously to the French royal debt. By 1788, servicing the debt consumed about half of the French government's revenue, and the crown was on the edge of bankruptcy. The American Revolution, financed by France, would help bring on the French Revolution.
+
+## Partitioning Poland
+
+The most cynical act of the enlightened despots was the **partition of Poland**. In **1772**, Russia, Prussia, and Austria each seized large parts of the Polish-Lithuanian Commonwealth, once one of the largest states in Europe. After Poland adopted a reforming constitution in **May 1791**, the first written constitution in Europe, Russia and Prussia took more land in **1793**, and in **1795**, after the failed uprising led by **Tadeusz Kościuszko**, a veteran of the American Revolution, the three powers divided what remained. Poland disappeared from the map of Europe until **1918**. Catherine the Great, Frederick the Great, and Joseph II, admired correspondents of Voltaire and Diderot, carried out the partitions in the language of order and necessity.
+
+## Enlightenment and empire
+
+The wars of the century were also wars for empire. Britain's victory in the Seven Years' War gave it Canada and dominance in India, and the debts it incurred led directly to the taxes that provoked the American Revolution.
 
 > **Pause and consider.** The Seven Years' War won Britain an empire and set in motion the American and French Revolutions. How can a victory lead to such unexpected consequences?`,
     },

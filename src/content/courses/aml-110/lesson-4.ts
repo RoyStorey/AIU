@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Herman Melville and Moby-Dick",
   summary:
-    "Melville's fall from New York privilege to the forecastle; the voyage of the Acushnet and the valley of Typee; the friendship with Hawthorne and 'Hawthorne and His Mosses'; Moby-Dick from 'Call me Ishmael' through Father Mapple's sermon, Ahab's quarter-deck oath, cetology, and the whiteness of the whale, to the three-day chase and the epilogue.",
+    "Melville's fall from New York privilege to the forecastle; the Acushnet and the valley of Typee; Hawthorne and His Mosses; Moby-Dick from Call me Ishmael through Father Mapple, the quarter-deck, cetology, and the whiteness of the whale to the three-day chase and the epilogue.",
   pages: [
     {
       title: "From Manhattan to the Forecastle",
@@ -34,6 +34,12 @@ The *Lucy Ann* was a miserable ship, with a sick captain and a mutinous crew. At
 ## The education of the sea
 
 Melville later wrote, in *Moby-Dick*, that "**a whale-ship was my Yale College and my Harvard**." Unlike Emerson, Thoreau, and Hawthorne, he never attended college. His education came from the sea, from the forecastle, from the men of every race and nation he worked beside, and from the books he devoured after he returned. He saw the world from below, as a common laborer, and the experience gave his work a democratic sympathy, a sense of the brutality of power, and a knowledge of the wider world that none of his New England contemporaries could match.
+
+## The Pacific world
+
+The Pacific Melville saw in the early 1840s was being transformed. American and British whalers, traders, and missionaries were arriving in growing numbers; France annexed the Marquesas in 1842 and made Tahiti a protectorate the same year; Hawaii's kingdom was negotiating with the Western powers to keep its independence. Epidemics brought by foreigners were devastating island populations. Melville witnessed this collision of worlds as a common sailor and a deserter, from below rather than from the deck of a warship, and it shaped his lifelong suspicion of what he called "civilization" and its missionaries.
+
+Many whalemen deserted in the Pacific, as Melville did; the hard life and long voyages made desertion common, and captains often recruited islanders to replace them.
 
 > **Pause and consider.** Melville wrote that "a whale-ship was my Yale College and my Harvard." What kinds of knowledge does a forecastle teach that a college does not?`,
     },
@@ -68,6 +74,8 @@ In **1849**, Melville bought a large-print edition of **Shakespeare**, and read 
 ## The lecture of the world
 
 Melville's reading in these years was enormous and eclectic. He read philosophy (Plato, Spinoza, Kant, through Coleridge), theology (the Bible, Calvin, Pierre Bayle's skeptical *Dictionary*), science (Darwin's *Voyage of the Beagle*), and the vast literature of whaling. He went to Europe in **late 1849** to sell *White-Jacket* to a London publisher, and returned with books. Like Emerson, he believed that the writer must think for himself; unlike Emerson, he was drawn to the dark questions—evil, suffering, the silence of God—which Emerson's optimism seemed to him to evade. His surviving copies of Emerson's essays are full of pencil marks, some admiring and some impatient, especially beside Emerson's more serene claims about evil and the goodness of the universe. After hearing him lecture in 1849, he wrote to a friend: "I love all men who *dive*. Any fish can swim near the surface, but it takes a great whale to go down stairs five miles or more." Yet he found in Emerson "a gaping flaw": the insinuation that, had he been present at the creation, he "might have offered some valuable suggestions."
+
+Melville's earliest books were also his most profitable. He would never again earn from his writing what *Typee* and *Omoo* had brought him, and their success shaped what his publishers and readers expected of him.
 
 > **Pause and consider.** Melville said he wished to "write those sort of books which are said to 'fail.'" What might a writer gain by aiming at failure?`,
     },

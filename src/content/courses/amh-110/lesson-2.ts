@@ -243,6 +243,14 @@ The great planters thought of themselves as patriarchs, ruling over their househ
 
 By 1705, the Chesapeake had become what it would remain until the Civil War: a society whose wealth and whose politics rested on slavery. The founding generation of Virginia's leaders—Washington, Jefferson, Madison, Mason—grew up in this world. They would proclaim the rights of man while holding hundreds of people in bondage, and some of them would be troubled by the contradiction. Morgan's question remains: was this hypocrisy, or was their freedom, in some sense, built upon others' slavery? Each of the historians on this page offers a different answer, and none has settled the question.
 
+## Bacon's Rebellion
+
+The turning point in the Chesapeake came in **1676**, when **Nathaniel Bacon**, a young, well-connected newcomer to Virginia, led a rebellion of frontier farmers, servants, and some enslaved people against Governor **William Berkeley**, whom they accused of protecting his friends' trade with Native peoples and failing to defend the frontier. Bacon's followers attacked friendly and hostile Native communities alike, and then turned on Berkeley, burning **Jamestown** in **September 1676**. Bacon died of dysentery a month later, and the rebellion collapsed; Berkeley hanged twenty-three rebels. Historians such as **Edmund Morgan** have argued that the rebellion frightened Virginia's planters into replacing unruly white servants with enslaved Africans, and into drawing a sharper line between Black and white, so that poor whites would identify with the planters rather than with the enslaved.
+
+The Chesapeake's planter elite, born of tobacco and slavery, would supply the Revolution with many of its leaders, Washington, Jefferson, and Madison among them.
+
+The questions Morgan raised about freedom and slavery in Virginia remain central to how Americans understand their origins.
+
 > **Pause and consider.** Morgan wrote that aristocrats "could more safely preach equality in a slave society than in a free one." What did he mean? Is his argument persuasive?`,
     },
     {

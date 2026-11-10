@@ -109,6 +109,8 @@ The Easter question was finally settled, at least in principle, by the **Council
 
 The dispute also reflects the slow separation of Christianity from Judaism. The Quartodecimans kept their Pascha on the same day as the Jewish Passover, and their practice tied the Christian feast to the Jewish calendar. The Roman practice, which prevailed, separated the two. At Nicaea, according to a letter attributed to the emperor Constantine, the bishops decided to have "nothing in common with the hostile mob of the Jews"—a sign of how, by the fourth century, the boundary between the two religions was being drawn in hostile terms. A sermon on the Pascha by **Melito**, bishop of Sardis in Asia around 170, a Quartodeciman, contains one of the earliest and harshest Christian accusations that the Jews had killed God: "God has been murdered; the King of Israel has been put to death by an Israelite hand." Melito's sermon is a powerful poem of the Passion, and also a document in the history of Christian anti-Judaism.
 
+The Easter question would trouble the church for centuries more, and it still divides Eastern and Western Christians today.
+
 > **Pause and consider.** Polycarp and Anicetus agreed to differ about Easter; Victor tried to impose uniformity. Which approach better serves the unity of a church? Where should the line between essential and non-essential be drawn?`,
     },
     {

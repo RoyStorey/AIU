@@ -65,6 +65,14 @@ The journey from the interior to the coast could take months, and many died on t
 
 British North Americans participated in the slave trade not only as buyers but as carriers. Merchants in **Rhode Island**, especially Newport and Bristol, organized the majority of the slaving voyages launched from the mainland colonies, carrying rum distilled from West Indian molasses to Africa to exchange for captives. The so-called **triangular trade**—manufactured goods from Britain to Africa, captives from Africa to the Americas, plantation produce from the Americas to Britain—is a useful simplification, though many voyages did not follow such neat routes. The point is that the whole Atlantic economy, including the economies of New England and the Middle Colonies, which sold food, timber, and horses to the sugar islands, was bound up with the slave trade and the plantation system.
 
+## The Middle Passage in numbers
+
+The **Trans-Atlantic Slave Trade Database** (SlaveVoyages), compiled by historians led by **David Eltis** and **David Richardson** from the records of more than 36,000 voyages, estimates that about **12.5 million** Africans were embarked on slave ships between 1501 and 1866, of whom about **10.7 million** survived the crossing. Brazil received nearly half of them; the British and French Caribbean together received perhaps a third; Spanish America about a tenth. Mainland North America received some **388,000**, under four percent of the total. Yet because enslaved populations in North America grew by natural increase, unlike those of the Caribbean and Brazil, where brutal sugar work and disease meant that deaths exceeded births, the United States had nearly four million enslaved people by **1860**, by then the largest enslaved population in the Americas, larger even than Brazil's.
+
+Behind every number in the database is a person with a name, a family, and a home, most of whose stories are lost; the numbers are a beginning, not an end.
+
+The SlaveVoyages database is freely available online, and anyone can search its voyages by ship, port, or year.
+
 > **Pause and consider.** The United States imported far fewer Africans than Jamaica, yet ended with ten times as many enslaved people. What does this tell you about the differences between slave societies?`,
     },
     {
@@ -205,6 +213,12 @@ African influences shaped American culture in countless ways. The banjo descends
 ## Resistance
 
 Enslaved people resisted their bondage in many ways. Most resistance was everyday: working slowly, feigning illness, breaking tools, taking food, and defending customary rights, such as time off on Sundays or the right to tend a garden. Many ran away, sometimes for a few days to visit family or escape punishment, sometimes permanently. Colonial newspapers carried thousands of advertisements for runaways, which describe their skills, scars, clothing, and languages and are now among the richest sources for their lives. Some escaped to form **maroon** communities in swamps and mountains, such as the Great Dismal Swamp on the border of Virginia and North Carolina. And a few rose in open revolt, as at New York in 1712 and at Stono in 1739—uprisings that were crushed with terrible violence, but that kept masters in constant fear.
+
+## The Stono Rebellion
+
+The largest slave revolt in colonial North America broke out in **September 1739** near the **Stono River**, south of Charleston, South Carolina. A group of enslaved men, many of them from **Kongo**, some perhaps Catholic and with military experience, seized guns from a store, killed some twenty whites, and marched south toward Spanish **Florida**, where the Spanish governor had promised freedom to fugitives from the English colonies, beating drums and shouting "Liberty." The militia caught up with them, and some forty-four rebels were killed in the fighting and executions that followed. South Carolina responded with the **Negro Act** of **1740**, which tightened control over the enslaved, forbade them to grow their own food, assemble, earn money, or learn to read, and remained in force until the Civil War. The rebellion shows that African traditions, including military ones, shaped resistance as well as culture.
+
+Africans in North America, in short, did not simply endure slavery; they built cultures, families, and faiths within it.
 
 > **Pause and consider.** Why might evangelical Christianity have appealed to enslaved people in the late eighteenth century, when Anglicanism largely had not?`,
     },

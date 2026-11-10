@@ -31,6 +31,8 @@ The government founded by Takauji is called the **Ashikaga** or **Muromachi shog
 
 The war of the two courts was ended by the third Ashikaga shōgun, **Ashikaga Yoshimitsu**. In 1392, he persuaded the Southern emperor to return to Kyoto and hand over the regalia, on the promise that the throne would henceforth alternate between the two lines. The promise was not kept; the Northern line kept the throne, and the present imperial family descends from it. Yet in the late nineteenth century, the Meiji government, under the influence of the loyalist ideology that had helped bring it to power, declared that the **Southern Court** had been the legitimate one—because it had held the true regalia, and because its emperors had been the heirs of Go-Daigo, the would-be restorer of imperial rule. In 1911, a controversy over school textbooks that treated the two courts as equal led to the official adoption of the Southern Court's legitimacy, a decision that historians still find puzzling, since it implied that the reigning emperors descended from illegitimate ones.
 
+The split between the two courts lasted nearly sixty years, until 1392.
+
 > **Pause and consider.** Go-Daigo tried to restore direct imperial rule and failed within three years. Why might a project of "restoration"—returning to an idealized past—be especially hard to carry out?`,
     },
     {

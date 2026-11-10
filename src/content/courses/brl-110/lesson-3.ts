@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "The Faerie Queene, Book I: The Legend of Holiness",
   summary:
-    "Spenser's plan to fashion a gentleman in virtuous discipline; the Spenserian stanza and the art of allegory; the Redcrosse Knight, Una, and the monster Error; Archimago, Duessa, and the House of Pride; Orgoglio's dungeon and Arthur's rescue; the Cave of Despair and the House of Holiness; the dragon fight; and the poem's entanglement with Elizabeth, Protestantism, and Ireland.",
+    "Spenser's plan to fashion a gentleman; the Spenserian stanza and allegory; Redcrosse, Una, and Error; Archimago, Duessa, and the House of Pride; Orgoglio's dungeon and Arthur's rescue; Despair and the House of Holiness; the dragon fight; and the poem's ties to Elizabeth and Ireland.",
   pages: [
     {
       title: "The Plan of the Poem",
@@ -86,6 +86,8 @@ The separation of Redcrosse and Una is the central event of the first part of Bo
 Una's adventures are some of the most moving in the poem. Alone in the forest, she is threatened by a **lion**, which, instead of attacking her, is overcome by her beauty and innocence, kisses her feet, and becomes her protector—an image of the natural nobility that recognizes truth. Later, she is protected by a band of **satyrs**, wild creatures of the woods, who try to worship her, and by a noble young knight raised among them, **Satyrane**. Una represents truth that, even when abandoned, cannot be destroyed, and that is recognized even by the natural world.
 
 The lion's fate shows how vulnerable truth is without its champion. When Una later falls in with the lawless Saracen **Sansloy** ("without law"), the lion attacks him and is killed, and Sansloy carries Una off. Natural goodness, however noble, cannot protect truth by itself. Una is rescued from Sansloy only by the satyrs, who hear her cries in the forest.
+
+Error's vomit of books and papers is a pointed image: for a Protestant poet, false doctrine spreads above all through print.
 
 > **Pause and consider.** Error vomits "books and papers." What does it mean that error, in Spenser's allegory, takes the form of writing?`,
     },
@@ -294,6 +296,10 @@ Spenser has been called "**the poets' poet**," a phrase coined by **Charles Lamb
 ## Reading Spenser today
 
 Modern readers often find Spenser difficult, because of his length, his archaic language, his allegory, and his politics. Yet *The Faerie Queene* rewards patient reading with an imaginative world of extraordinary richness and beauty, a profound exploration of moral and spiritual life, and a poetry of incomparable music. And its complicity in the violence of colonialism, which modern scholars such as **Stephen Greenblatt** and **Andrew Hadfield** have examined, raises important questions about the relationship between great art and injustice—questions that the poem's own concern with truth and appearance, justice and mercy, makes impossible to ignore. Irish voices of the age answered too: Irish-language poets such as **Fear Flatha Ó Gnímh** mourned the destruction of the Gaelic world that Spenser's policies sought to bring about.
+
+Spenser left *The Faerie Queene* unfinished: six of a planned twelve books, and the fragmentary "Mutability Cantos," published in 1609.
+
+Its six books remain one of the longest poems in English, and one of the most influential on later poets.
 
 > **Pause and consider.** Spenser described the starving Irish with pity and recommended the policy that starved them. How should we read a great poem written by a man complicit in colonial violence?`,
     },

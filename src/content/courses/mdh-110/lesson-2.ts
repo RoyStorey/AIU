@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "The Crusades",
   summary:
-    "Urban II's appeal at Clermont; the massacres of the Rhineland Jews; the First Crusade and the capture of Jerusalem in 1099; the crusader states and the Muslim response; Saladin, Hattin, and Richard the Lionheart; the sack of Constantinople and the crusades against heretics and pagans; and the long debate over what the crusades meant.",
+    "Urban II's appeal at Clermont; the massacres of the Rhineland Jews; the First Crusade and the fall of Jerusalem in 1099; the crusader states and the Muslim response; Saladin, Hattin, and Richard the Lionheart; the sack of Constantinople and crusades against heretics; and what the crusades meant.",
   pages: [
     {
       title: "Clermont, 1095",
@@ -36,6 +36,8 @@ The British historian **Jonathan Riley-Smith** (1938–2016), in studies such as
 ## The papacy and the crusade
 
 For Urban II, the crusade also served the interests of the papacy. It demonstrated the pope's leadership of Christendom—at a time when he was still contesting the Investiture Controversy with Henry IV, who supported an antipope. It promised to channel the violence of the knights, which the Peace of God had sought to restrain, against external enemies. And it might heal the schism with the Church of Constantinople, by bringing aid to the Eastern Christians. In fact, as we will see, the crusades would ultimately deepen the divide between Latin and Greek Christians.
+
+Urban's call was answered far beyond what he expected, by knights and by crowds of ordinary people.
 
 > **Pause and consider.** Riley-Smith showed that crusading was enormously expensive and that most crusaders returned home poorer. What does this suggest about their motives?`,
     },

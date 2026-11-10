@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Tenochtitlan: Life and Faith in the Aztec World",
   summary:
-    "The island city the Spaniards compared to an enchantment; the Templo Mayor and its rediscovery in 1978; the gods and the myth of the Five Suns; the evidence and debate over human sacrifice; nobles, commoners, merchants, and warriors; women, family, and schooling; and Sahagún's Florentine Codex, our great window onto the Aztec world.",
+    "The island city the Spaniards compared to an enchantment; the Templo Mayor and its rediscovery in 1978; the gods and the myth of the Five Suns; the debate over human sacrifice; nobles, commoners, merchants, and warriors; women, family, and schooling; and Sahagún's Florentine Codex.",
   pages: [
     {
       title: "The City the Spaniards Saw",
@@ -78,6 +78,10 @@ In **2015**, archaeologists working on a site behind the Metropolitan Cathedral 
 ## The museum
 
 Today, the ruins of the Templo Mayor are an archaeological zone in the heart of Mexico City, next to the cathedral and the National Palace, and the **Museo del Templo Mayor**, opened in 1987, displays the objects found there. The site is a powerful symbol of Mexico's indigenous heritage, buried under, but never entirely erased by, the colonial city. As Matos Moctezuma wrote, the Templo Mayor was the center of the Aztec universe: the place where the sky, the earth, and the underworld met.
+
+## The Templo Mayor today
+
+Excavations around the Templo Mayor continue under Mexico City's National Institute of Anthropology and History. In **2006**, archaeologists found a huge stone monolith of the earth goddess **Tlaltecuhtli**, the largest Aztec sculpture yet discovered, and since **2015** they have uncovered parts of the **huey tzompantli**, the great skull rack described by the Spanish, with towers built of human skulls.
 
 > **Pause and consider.** The Templo Mayor was found by accident in 1978, buried under the colonial city. What does the image of the Aztec temple beneath the Spanish cathedral suggest about Mexican history and identity?`,
     },

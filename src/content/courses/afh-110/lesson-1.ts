@@ -155,6 +155,10 @@ A similar role was played, farther north, by the **Cape Verde Islands**, off the
 
 The Atlantic islands—Madeira, the Canaries, Cape Verde, São Tomé—were laboratories in which the institutions of the Atlantic world were first tried out: the plantation, the creole society, the trade in enslaved Africans to work for European owners. When Columbus sailed to the Americas in 1492, he stopped first in the Canaries, and on his second voyage, in 1493, he brought sugar cane from there to Hispaniola. The plantation complex was ready to cross the ocean.
 
+## From São Tomé to the Americas
+
+The techniques worked out on São Tomé crossed the Atlantic almost intact. Portuguese planters carried them to **Brazil**, where by the **1580s** the northeastern captaincies of Pernambuco and Bahia had become the world's leading sugar producers; from Brazil, the Dutch carried them to the Caribbean in the 1640s, and from there the English and French adopted them in Barbados, Jamaica, and Saint-Domingue. Each step brought the same package: the mill and boiling house, the gang of enslaved workers, the absentee owner, and the endless demand for new captives from Africa.
+
 > **Pause and consider.** Philip Curtin argued that the plantation complex was developed in the Atlantic islands before it crossed to the Americas. Why was São Tomé so important to that story?`,
     },
     {
@@ -230,6 +234,12 @@ Farther south, in the region of Sierra Leone and the Rivers of Guinea, the peopl
 ## A world of intermediaries
 
 The Upper Guinea coast shows how the Atlantic trade created new kinds of people and communities: brokers, interpreters, and traders of mixed descent and culture, who lived between worlds. The historian **George Brooks** called them "Eurafricans." They were essential to the trade, and they shaped it to their own interests. Their story is a reminder that the Atlantic world was not simply divided between Europeans and Africans, but full of people who crossed boundaries.
+
+## Creole languages
+
+The Luso-African communities of Upper Guinea and the Cape Verde Islands gave rise to new languages. **Kriolu** (Cape Verdean Creole) and **Kriol** (Guinea-Bissau Creole), based on Portuguese vocabulary with grammar shaped by West African languages such as Wolof and Mandinka, became the everyday speech of traders, sailors, and their families, and are still spoken by millions today. Their history is a history of the encounter itself: of African and Portuguese people who, for reasons of trade and kinship, had to find a common tongue. Similar creole languages arose along the coasts of the Atlantic world, from Sierra Leone's Krio to the creoles of the Caribbean.
+
+These intermediaries were essential to the trade, and their descendants shaped the societies of the coast for centuries.
 
 > **Pause and consider.** The lançados "threw themselves" among Africans and adopted African ways. What does their story reveal about the nature of the early Atlantic world? Who was "Portuguese"?`,
     },

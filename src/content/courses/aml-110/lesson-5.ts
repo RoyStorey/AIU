@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "Melville After the Whale and the Shape of the Renaissance",
   summary:
-    "Pierre and the collapse of Melville's reputation; 'Bartleby, the Scrivener' and 'I would prefer not to'; 'Benito Cereno' and the blindness of Amasa Delano; the customs-house years and the poems; Billy Budd and Captain Vere; the Melville revival; and the voices beyond Matthiessen's canon, from Douglass and Stowe to Whitman and Dickinson.",
+    "Pierre and the collapse of Melville's reputation; Bartleby and I would prefer not to; Benito Cereno and Delano's blindness; the customs years and the poems; Billy Budd and Captain Vere; the Melville revival; and the voices beyond Matthiessen's canon, from Douglass to Dickinson.",
   pages: [
     {
       title: "Pierre and the Turn to the Magazines",
@@ -244,6 +244,8 @@ Melville's reputation is now international. *Moby-Dick* has been translated into
 ## The scholarly edition
 
 The modern study of Melville rests on the scholarly edition of his works published by **Northwestern University Press** and the **Newberry Library** from 1968 to 2017, in fifteen volumes, which established reliable texts from his manuscripts and first editions. Scholars have also recovered his reading: the project **Melville's Marginalia Online** records the books he owned and the marks he made in them, allowing readers to see how *Moby-Dick* grew out of Shakespeare, Milton, the Bible, and the whaling books he annotated.
+
+The revival continues: Melville's letters, journals, and marginalia are still being found and edited.
 
 > **Pause and consider.** Melville's reputation revived only after World War I. Why might certain books need a later age to be understood?`,
     },

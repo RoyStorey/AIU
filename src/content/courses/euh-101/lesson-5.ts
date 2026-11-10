@@ -37,6 +37,10 @@ The failure of Regensburg strengthened the hand of those, like **Carafa**, who b
 
 The Catholic Reformation thus had two faces: a movement of genuine spiritual renewal, charity, and reform, and a movement of repression and control. Both would shape the church for centuries.
 
+The historian **John O'Malley** proposed a third name, "**Early Modern Catholicism**," to include both reform and repression, and the missions and new orders that neither older label captured.
+
+Each name, in short, tells part of the truth about the Catholic Church in the sixteenth century, and neither tells all of it.
+
 > **Pause and consider.** Should we call it the Catholic Reformation, the Counter-Reformation, or Early Modern Catholicism? What does each name assume?`,
     },
     {

@@ -31,6 +31,14 @@ In **1830**, revolution broke out again in France. The restored Bourbon king **C
 
 The early nineteenth century was also the age of **Romanticism**, a movement in literature, art, and music that reacted against the Enlightenment's emphasis on reason, order, and universal principles. The Romantics exalted emotion, imagination, individuality, nature, the sublime, the mysterious, the medieval, and the folk traditions of particular peoples. The poets **Wordsworth**, **Coleridge**, **Byron**, **Shelley**, and **Keats** in England; **Goethe** and the brothers **Grimm**, who collected German folktales, in Germany; and **Victor Hugo** in France; the painters **Caspar David Friedrich**, **J. M. W. Turner**, and **Eugène Delacroix**, whose *Liberty Leading the People* (1830) celebrated the July Revolution; and the composers **Beethoven**, **Schubert**, **Chopin**, and **Berlioz**: all in different ways expressed the Romantic spirit. Romanticism had no single politics—there were conservative and revolutionary Romantics—but its celebration of the unique spirit of each people fed the growing force of nationalism.
 
+## Metternich
+
+The architect of the post-Napoleonic order was the Austrian foreign minister, later chancellor, **Klemens von Metternich** (1773–1859). A Rhineland aristocrat who had seen the French Revolution drive his family from its lands, he believed that liberalism and nationalism were diseases that would destroy the multinational Habsburg empire and the peace of Europe. He organized the **Carlsbad Decrees** of **1819**, which imposed censorship and surveillance on German universities after a student assassinated the conservative playwright August von Kotzebue. For more than thirty years, the age was called the "Age of Metternich," until the revolution of March 1848 drove him into exile in England.
+
+## The Holy Alliance
+
+Tsar **Alexander I** proposed a **Holy Alliance** of Christian monarchs in **1815**, pledging to rule according to Christian principles. Most rulers signed it without taking it seriously; the British foreign secretary Castlereagh called it "a piece of sublime mysticism and nonsense." But it became a byword for the alliance of throne and altar against revolution.
+
 > **Pause and consider.** The Vienna settlement preserved peace among the great powers for a century, but by repressing liberal and national movements. Was the price worth paying?`,
     },
     {
@@ -180,6 +188,10 @@ The historian A. J. P. Taylor famously said that 1848 was "the turning point at 
 ## The Forty-Eighters
 
 Thousands of defeated revolutionaries fled abroad, many to the **United States**. These "**Forty-Eighters**" included **Carl Schurz**, a young German revolutionary who became a Union general, a senator from Missouri, and secretary of the interior; and many other German radicals who settled in Missouri, Texas, Wisconsin, and Ohio, became fierce opponents of slavery, joined the new Republican Party, and fought for the Union in the Civil War. German immigrants in St. Louis helped keep Missouri in the Union in 1861.
+
+## Women in 1848
+
+Women took part in the revolutions in many ways: on the barricades, in clubs and newspapers, and in demands of their own. In Paris, **Jeanne Deroin** tried to stand for the National Assembly in 1849, though women could not vote.
 
 > **Pause and consider.** Taylor called 1848 "the turning point at which modern history failed to turn." Why did the revolutions fail, and did they fail completely?`,
     },

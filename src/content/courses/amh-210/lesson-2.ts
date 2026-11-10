@@ -212,6 +212,10 @@ Class resentment grew. The Confederate conscription law exempted one white man o
 
 Slavery, the Confederacy's foundation, became one of its greatest weaknesses. The Confederacy depended on enslaved labor to grow food and build fortifications. But as Union armies approached, hundreds of thousands of enslaved people fled to Union lines, depriving the Confederacy of their labor and adding to the Union's strength. Those who remained worked less, defied overseers, and waited. Masters who fled before Union armies took the people they enslaved with them, "refugeeing" them to Texas and the interior. The institution the Confederacy had been founded to protect was disintegrating from within, as you will see in Lesson III.
 
+## Bread riots
+
+Hardship on the Confederate home front erupted into violence. On **April 2, 1863**, several hundred women, many of them wives of soldiers and workers at the Richmond arsenal, marched through the Confederate capital demanding bread, then broke into shops and seized food and goods. Jefferson Davis himself climbed onto a cart to address them and threatened to have the militia fire. Similar riots broke out in Atlanta, Mobile, and other Southern towns.
+
 > **Pause and consider.** Why did the Confederacy, founded on states' rights, become a more centralized state than the Union it had left?`,
     },
     {
@@ -291,6 +295,10 @@ Since the 1960s, historians have increasingly emphasized the role of African Ame
 Whatever its causes, the Union victory decided several great questions. The Union was preserved; secession was discredited as a constitutional doctrine. Slavery was destroyed, and four million people were freed. The federal government emerged stronger than ever, with a national currency, banking system, and income tax, and a commitment—soon tested—to protect the rights of citizens. The North's free-labor economy would dominate the nation, and the South, devastated, would remain poor for generations. Americans' sense of their nation changed too: before the war, many spoke of "the United States" in the plural; after it, increasingly, in the singular.
 
 But the war left other questions unanswered. What would freedom mean for the freedpeople? On what terms would the South return to the Union? Who would govern it? Those were the questions of Reconstruction.
+
+## The war's toll
+
+The Civil War was the deadliest war in American history. For more than a century, historians accepted a figure of about **620,000** military deaths; in **2011**, the demographic historian **J. David Hacker**, using census data, estimated that the true number was closer to **750,000**, perhaps more. Two-thirds of the soldiers who died were killed by disease rather than battle. Roughly one in four Southern white men of military age died. Hundreds of thousands more were maimed. The historian **Drew Gilpin Faust**, in *This Republic of Suffering* (2008), showed how the scale of death transformed American ideas of dying, mourning, and the nation's responsibility to its dead, giving rise to national cemeteries and the first systematic efforts to identify and bury soldiers.
 
 > **Pause and consider.** McPherson argues that the war's outcome was contingent. Choose one moment when it might have gone the other way, and explain what might have followed.`,
     },

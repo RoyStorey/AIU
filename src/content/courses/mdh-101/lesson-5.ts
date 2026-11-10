@@ -149,6 +149,8 @@ Bloch argued that the invasions created a "first feudal age," in which the old C
 
 By the end of the tenth century, the invasions were ending. The Vikings settled down in Normandy, England, Ireland, and Russia, and their homelands were converting to Christianity and forming kingdoms. The Magyars, defeated at the Lechfeld, settled in Hungary and converted. The Saracens were driven from Fraxinetum in 972, after the capture of the abbot of Cluny roused the nobles of Provence to act. Europe survived its siege, and the peoples who had attacked it were becoming part of Christian Europe. The new Europe that emerged was very different from Charlemagne's: more fragmented, more local, dominated by lords and castles, but also more expansive, as the converted peoples of the north and east joined Latin Christendom.
 
+Europe's recovery after about 950 owed much to the end of these raids and the new security they made possible.
+
 > **Pause and consider.** Bloch argued that the invasions transformed European society by making defense local. Can external threats reshape a society's internal structure? What modern parallels can you think of?`,
     },
     {

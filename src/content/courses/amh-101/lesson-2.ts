@@ -193,6 +193,10 @@ But the friends of America were a minority in Parliament, and even they would no
 
 The British government also misread the colonists. Ministers believed that resistance was the work of a few agitators in Boston, that most colonists were loyal, that the other colonies would not support Massachusetts, and that a show of firmness would end the crisis. Each of these assumptions proved wrong. Lord North, an amiable and able financial manager, was not a war leader, and he would later confess to the king that he had never been suited to the task. But in 1774 he, the king, and the great majority of Parliament agreed: Massachusetts must submit. "Blows must decide," George III wrote that November.
 
+## The empire's view of itself
+
+To the British governing class, the empire was a single body with Parliament at its head. The idea of "**virtual representation**," set out by the Treasury official Thomas Whately in 1765, held that members of Parliament represented the whole empire, not just their constituents; colonists were no less represented than the many English towns that elected no members at all. Americans found the argument absurd. The gap between these two understandings of representation lay at the heart of the crisis.
+
 > **Pause and consider.** If almost every British politician, even the colonists' friends, insisted on Parliament's sovereignty, was there any compromise that could have saved the empire in 1774? What would it have required of each side?`,
     },
     {

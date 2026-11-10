@@ -258,6 +258,14 @@ In 1789, the United States was a fragile republic of four million people, clingi
 
 It was also a nation built on the dispossession of Native peoples, from the Ohio country to the Trail of Tears; on the enslavement of millions of African Americans, whose labor produced its most valuable export; and on the conquest of half of Mexico. And it was divided as never before. The expansion that had seemed to promise the republic's future—Jefferson's "empire of liberty"—had raised the question of whether that empire would be slave or free. Within thirteen years of the Treaty of Guadalupe Hidalgo, that question would lead to civil war.
 
+## The Compromise ahead
+
+The Wilmot Proviso never passed the Senate, but it was introduced again and again, and its principle, no slavery in the territories, became the founding idea of the **Free Soil Party** in **1848** and of the **Republican Party** in **1854**. The question it raised could not be compromised forever. The **Compromise of 1850**, which we study in AMH 210, postponed the reckoning for a decade.
+
+## The historians' frame
+
+Where should the "early republic" end? Some historians close it in 1815, with the end of the War of 1812; others in 1828, with Jackson's election; this course ends it in 1848, when the war with Mexico and the Wilmot Proviso put the future of slavery in the West at the center of national politics. The choice of an ending is itself an interpretation. To end in 1848 is to read the whole period as the story of a republic whose growth sharpened the very contradiction that would break it apart.
+
 > **Pause and consider.** Emerson predicted that Mexico would "poison us." In what sense was he right?`,
     },
     {

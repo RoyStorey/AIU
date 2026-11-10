@@ -69,6 +69,10 @@ In **750**, the Umayyads were overthrown by a new dynasty, the **Abbasids**, who
 
 The Arab advance into Europe was stopped in the West and the East in the early eighth century. In the East, Constantinople withstood the great siege of 717–718. In the West, Arab raiders crossed the Pyrenees into Gaul, and in **732** (or 733), near **Tours** and Poitiers, the Frankish leader **Charles Martel** defeated a raiding army and killed its commander. The battle has been celebrated as the event that saved Christian Europe. Modern historians see it as one of several defeats that, together with the internal problems of the caliphate and the difficulty of campaigning so far from its center, put an end to Arab expansion in Western Europe. Muslims would rule much of Spain for centuries, but not Gaul. Muslim Spain, **al-Andalus**, would become one of the most brilliant societies of medieval Europe, where Muslims, Christians, and Jews lived side by side, sometimes in harmony and sometimes in conflict, and where scholars translated and preserved the learning of the ancient world.
 
+Within a century of Muhammad's death, the caliphate reached from Spain to Central Asia.
+
+Arabic soon became the language of government, scholarship, and, gradually, of most of the conquered peoples themselves.
+
 > **Pause and consider.** The Arab conquests were astonishingly fast, yet conversion of the conquered peoples took centuries. What does that tell us about the nature of the early Islamic empire?`,
     },
     {

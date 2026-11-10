@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson2: Lesson = {
   title: "Aksum, Nubia, and Christian Ethiopia",
   summary:
-    "One of the four great kingdoms of the third-century world: Aksum, with its Red Sea port, gold coins, and towering stelae; King Ezana's conversion to Christianity; the Muslims who found refuge with the Negus; the Christian kingdoms of Nubia and their painted cathedral; Lalibela's churches cut from the rock; and the Solomonic kings of the Kebra Nagast.",
+    "Aksum, one of the great kingdoms of the third-century world, with its Red Sea port, gold coins, and towering stelae; Ezana's conversion; the Muslims sheltered by the Negus; Christian Nubia and its painted cathedral; Lalibela's rock-cut churches; and the Solomonic kings.",
   pages: [
     {
       title: "Aksum: A Trading Empire",
@@ -70,6 +70,8 @@ Aksum remained a sacred city long after it ceased to be a political capital. Acc
 ## Rediscovering Aksum
 
 Modern study of Aksum began with a German expedition in 1906, led by the scholar **Enno Littmann**, which surveyed and photographed the stelae and copied the inscriptions. Large-scale excavation began in the 1950s and 1970s, under the Ethiopian Institute of Archaeology and the British Institute in Eastern Africa, led by Neville Chittick, and continued in the 1990s under David Phillipson of Cambridge, alongside Ethiopian archaeologists. Their work revealed the stelae fields, the tombs, the elite residences, and the workshops, and established a chronology for the kingdom. Much remains to be done: most of ancient Aksum lies unexcavated beneath the modern town and its fields, and local farmers still turn up coins and pottery when they plow. Like many African heritage sites, Aksum faces threats from development, looting, and, in recent years, war: in 2020, during the conflict in Tigray, a massacre of civilians was reported in the town itself.
+
+The fallen great stele, broken where it lies, remains the largest single block of stone ancient people are known to have tried to raise.
 
 > **Pause and consider.** The obelisk of Aksum was taken to Rome as a trophy of conquest and returned after sixty-eight years. What does its story tell us about the politics of the past?`,
     },
@@ -208,6 +210,10 @@ Despite their achievements, the Zagwe kings were remembered by later Ethiopian t
 ## "I shall not be believed"
 
 The first European to describe Lalibela was a Portuguese priest, **Francisco Álvares**, who accompanied a Portuguese embassy to the Ethiopian court in 1520 and stayed six years. He visited Lalibela, described each church in detail, and then gave up: "I weary of writing more about these buildings, because it seems to me that I shall not be believed if I write more … I swear by God, in whose power I am, that all I have written is the truth." Lalibela is the most famous group of rock-hewn churches in Ethiopia, but it is not the only one. In the region of Tigray, there are more than a hundred rock-cut churches, some of them carved into the faces of sheer cliffs, such as **Abuna Yemata Guh**, reached only by climbing a vertical rock face, with paintings preserved by the dry mountain air. And near Lalibela stands **Yemrehanna Krestos**, a church built of alternating layers of wood and stone, in the Aksumite style, inside a great cave.
+
+## Pilgrims and priests
+
+Lalibela remains a living holy place. Its churches are still used for worship by the Ethiopian Orthodox Church, and at the feast of **Genna** (Christmas, celebrated in January) and **Timkat** (Epiphany), tens of thousands of pilgrims in white robes fill the trenches and courtyards around them, while priests chant in **Ge'ez**, the ancient liturgical language of Aksum. The site was among the first inscribed on UNESCO's World Heritage List, in **1978**.
 
 > **Pause and consider.** The churches of Lalibela were carved down into the rock as a "New Jerusalem." What does this suggest about how Ethiopian Christians understood their place in the Christian world?`,
     },

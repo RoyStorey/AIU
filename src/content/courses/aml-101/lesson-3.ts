@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Captivity and Witchcraft: Rowlandson and Salem",
   summary:
-    "King Philip's War, the deadliest war in American history in proportion to population; Mary Rowlandson's captivity and her narrative of the 'removes'; the captivity narrative as an American genre; the Salem witch trials of 1692, spectral evidence, and the Mathers; the apologies that followed; and Arthur Miller's Crucible.",
+    "King Philip's War, the deadliest war in American history in proportion to population; Mary Rowlandson's captivity and the twenty removes; the captivity narrative as a genre; the Salem trials of 1692, spectral evidence, and the Mathers; the apologies that followed; and Miller's Crucible.",
   pages: [
     {
       title: "King Philip's War",
@@ -36,6 +36,12 @@ For the English colonists, the war was a terrible trial, which their ministers i
 ## Mary Rowlandson's town
 
 Lancaster, the town that will open our next text, was typical of the frontier settlements that bore the brunt of the war. Founded in the 1650s on land purchased from the Nashaway, it lay on the western edge of English settlement, some thirty miles from Boston, with perhaps fifty families scattered across farms. Such towns had few defenses beyond a handful of fortified "garrison houses," into which families crowded when an attack threatened. When the war came, many of them were abandoned; Lancaster itself was deserted after the attack of February 1676 and not resettled for several years.
+
+## The praying towns
+
+The fate of the **praying Indians** during the war shows how little Christian conversion protected Native people. In the autumn of 1675, Massachusetts forcibly removed some five hundred Christian Natives from their towns to **Deer Island** in Boston Harbor, where they spent the winter with little food or shelter; many died. John Eliot, who had translated the entire Bible into the Massachusett language in **1663**, the first Bible printed in America, protested in vain. After the war, only four of the fourteen praying towns survived.
+
+The war also drove many surviving Native people of southern New England into servitude in English households, a history long forgotten.
 
 > **Pause and consider.** Jill Lepore argues that writing about King Philip's War helped the English define themselves against the "savage" Indians. How might writing about a war shape identity?`,
     },
@@ -147,6 +153,8 @@ Why did the Salem witch trials happen? Historians have proposed many explanation
 
 The preliminary examinations, held before the magistrates **John Hathorne** and **Jonathan Corwin**, were public spectacles, held in the crowded meetinghouse. The magistrates did not inquire whether the accused were guilty; they asked why they were tormenting the children. "Sarah Good, what evil spirit have you familiarity with?" Hathorne demanded. "None," Good answered. "Have you made no contract with the devil?" "No." "Why do you hurt these children?" "I do not hurt them. I scorn it." As she spoke, the afflicted girls fell into fits, and the magistrates took their sufferings as proof. The surviving transcripts, preserved and now available online, allow us to hear the voices of the accused, often defiant, sometimes bewildered, as they faced a procedure in which every denial counted against them.
 
+The surviving court records, depositions, and petitions, now transcribed online, make Salem one of the most fully documented events in colonial history.
+
 > **Pause and consider.** Those who confessed to witchcraft at Salem were spared; those who maintained their innocence were hanged. What does this reveal about how the trials worked?`,
     },
     {
@@ -201,7 +209,7 @@ The trials haunted the imagination of **Nathaniel Hawthorne** (1804–1864), who
 
 The most famous literary treatment of Salem is **Arthur Miller**'s play ***The Crucible***, first performed in **January 1953**. Miller wrote it during the "**Red Scare**" of the early 1950s, when Senator **Joseph McCarthy** and the **House Un-American Activities Committee** (HUAC) were investigating alleged communists in the government, the film industry, and other institutions. People were called to testify, pressured to "name names" of other suspected communists, and blacklisted if they refused. Miller saw a parallel between these investigations and the Salem trials: in both, accusations were based on fear, guilt was assumed, the only way to save oneself was to confess and accuse others, and those who refused to name names were punished.
 
-*The Crucible* tells the story of **John Proctor**, a farmer, and his wife, **Elizabeth**, who are caught up in the trials. Miller altered the historical facts considerably: he made Abigail Williams, who was actually eleven, into a seventeen-year-old who had had an affair with Proctor (who was actually sixty), and who accuses Elizabeth out of jealousy. At the climax, Proctor, who has been condemned, is offered his life if he will sign a confession. He signs, but then refuses to let his confession be posted on the church door, and tears it up. "Because it is my name! Because I cannot have another in my life! … How may I live without my name? I have given you my soul; leave me my name!" He goes to his death.
+*The Crucible* tells the story of **John Proctor**, a farmer, and his wife, **Elizabeth**, who are caught up in the trials. Miller altered the historical facts considerably: he made Abigail Williams, who was actually eleven, into a seventeen-year-old who had had an affair with Proctor (who was actually sixty), and who accuses Elizabeth out of jealousy. At the climax, Proctor, who has been condemned, is offered his life if he will sign a confession. He signs, but then refuses to let his confession be posted on the church door, and tears it up. "Because it is my name!" he cries: he has given the court his soul, but he will not give it his name, the honor by which his neighbors and his sons will remember him. He goes to his death, and Elizabeth, who could save him by pleading, refuses to take his goodness from him.
 
 In **1956**, Miller himself was called before HUAC, and refused to name names. He was convicted of contempt of Congress, though the conviction was later overturned. *The Crucible* has become one of the most performed American plays, and has been adapted into films, including one in **1996** with a screenplay by Miller, starring Daniel Day-Lewis and Winona Ryder.
 

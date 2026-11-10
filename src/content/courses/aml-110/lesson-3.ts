@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Nathaniel Hawthorne and The Scarlet Letter",
   summary:
-    "Hawthorne's Salem inheritance and his solitary apprenticeship; 'Young Goodman Brown' and 'The Minister's Black Veil'; Poe's review and the art of the tale; 'The Custom-House' and the theory of romance; The Scarlet Letter's scaffold scenes, the forest, and the letter's changing meaning; and Hawthorne's later life and reputation.",
+    "Hawthorne's Salem inheritance and solitary apprenticeship; Young Goodman Brown and The Minister's Black Veil; Poe and the art of the tale; The Custom-House and the theory of romance; The Scarlet Letter's scaffolds, forest, and changing letter; and Hawthorne's later life and fame.",
   pages: [
     {
       title: "The Haunted Mind: Hawthorne's Life",
@@ -40,6 +40,10 @@ In **1846**, with the help of his Democratic political friends, Hawthorne was ap
 ## Darkness
 
 Hawthorne's contemporaries saw him as a gentle, shy, handsome man, of great reserve. His fiction, however, is preoccupied with sin, guilt, secrecy, and the isolation of the human heart. Melville would famously identify in him "a great power of blackness … that derives its force from its appeals to that Calvinistic sense of Innate Depravity and Original Sin, from whose visitations, in some shape or other, no deeply thinking mind is always and wholly free." Hawthorne himself was not a believing Calvinist; but he inherited the Puritan sense of the dark recesses of the soul, and made it the subject of his art.
+
+## The notebooks
+
+Hawthorne kept **notebooks** throughout his life, recording ideas for stories, observations of people and places, and fragments of dialogue. Many of his tales began there as a single sentence: a note about a man who nourishes a snake in his stomach for years, for instance, became the story "Egotism; or, The Bosom Serpent" (1843); others recorded faces, conversations, and odd incidents he saw on his walks, which he later worked into his fiction. Sophia Hawthorne edited and published selections after his death, softening his language; the full notebooks, published in the twentieth century, reveal a sharp-eyed, often ironic observer.
 
 > **Pause and consider.** Hawthorne imagined his Puritan ancestors scorning "a writer of story-books." How might a writer's sense of his ancestors shape his work?`,
     },
@@ -286,6 +290,8 @@ Hawthorne's last years were unhappy. He began several romances, about an elixir 
 Hawthorne was the first American writer of fiction to be treated as a classic in his own lifetime. In **1879**, **Henry James** published a short critical biography, *Hawthorne*, which praised him as the most valuable example of the American genius, while lamenting the thinness of the American society he had to work with. James listed the things absent from American life—"No sovereign, no court, no personal loyalty, no aristocracy, no church, no clergy, no army, … no Oxford, nor Eton, nor Harrow"—and concluded that it took "a great deal of history to produce a little literature."
 
 In the twentieth century, Hawthorne's reputation remained high, though the reasons for it changed. The **New Critics** of the 1940s and 1950s admired his ambiguity, irony, and symbolism. Later critics have explored his treatment of gender, his politics, and his relation to the Puritan past. And *The Scarlet Letter* has remained one of the most widely taught American novels, read by generations of high school students, adapted for film many times, and rewritten by later writers, notably **John Updike** in his "Scarlet Letter trilogy" of the 1970s–1990s.
+
+His funeral, on May 23, 1864, drew most of the literary world of New England to Concord.
 
 > **Pause and consider.** Henry James argued that it took "a great deal of history to produce a little literature." How does Hawthorne use the American past to compensate for what James saw as its thinness?`,
     },

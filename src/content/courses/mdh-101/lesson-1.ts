@@ -73,6 +73,8 @@ In 305, Diocletian did something no Roman emperor had ever done: he **abdicated*
 
 Diocletian's system of succession did not survive him. The sons of the emperors, passed over in favor of appointed Caesars, resented their exclusion, and the armies preferred hereditary succession. Within a year of his abdication, civil war broke out among the claimants. At one point in 308, no fewer than six men claimed the title of Augustus. Diocletian's reforms of government and taxation survived, and shaped the empire for centuries; his system of succession did not. Out of these wars, one man would emerge as sole ruler of the empire, and change its history forever.
 
+Diocletian's reforms shaped the empire for centuries: the Byzantine state that survived until 1453 was, in many ways, his creation. His vast palace at **Split**, on the Croatian coast, still forms the heart of the old city.
+
 > **Pause and consider.** Diocletian saved the empire by making it more centralized, more heavily taxed, and more autocratic. Was the price worth paying?`,
     },
     {
@@ -178,6 +180,8 @@ The Visigoths (western Goths), as the Goths settled in the Balkans came to be ca
 ## Crossing the Rhine
 
 Meanwhile, on the last day of **406** (or possibly 405), a great mass of Vandals, Alans, and Suebi crossed the frozen Rhine near Mainz and swept into Gaul, plundering as they went. Roman troops had been withdrawn from the Rhine to defend Italy. Within a few years, these groups had moved on into Spain. In Britain, the Roman army proclaimed its own emperor, who took most of the troops to Gaul. Around 410, Honorius is said to have told the cities of Britain to look to their own defense. Roman Britain was on its own. Within a generation, its towns were largely abandoned, its villas deserted, and its coinage gone; Angles, Saxons, and Jutes from across the North Sea began to settle in the east. Of all the western provinces, Britain experienced the most complete collapse of Roman life.
+
+The Gothic victory at Adrianople showed that the empire could no longer keep the peoples beyond its frontiers out by force alone.
 
 > **Pause and consider.** Ammianus describes the Romans' cruel treatment of the Gothic refugees at the Danube. How much of Rome's catastrophe was self-inflicted?`,
     },

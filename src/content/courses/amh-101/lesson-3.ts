@@ -107,6 +107,12 @@ Yet enslaved and free Black people did not all look to the British. At Lexington
 
 The outbreak of war also forced Native nations to choose. Most tried at first to remain neutral, and most eventually sided with the British, who, through the Proclamation of 1763, had tried to restrain settlement, and who could supply trade goods and arms. American settlers, by contrast, wanted Native land. In the summer of 1776, young Cherokee warriors led by Dragging Canoe attacked frontier settlements in the Carolinas and Virginia; militia from four states retaliated by destroying dozens of Cherokee towns. The war for independence would be, for Native peoples, a war for their homelands, which most of them would lose.
 
+## The road to Yorktown and beyond
+
+Dunmore's proclamation was only the first British offer of freedom. In **1779**, the British commander Sir **Henry Clinton** issued the **Philipsburg Proclamation**, promising freedom to any enslaved person who fled a patriot master to British lines. Tens of thousands did so over the course of the war, often at great risk; many died of smallpox and typhus in the crowded British camps. When the British evacuated **New York** in **1783**, General **Guy Carleton** refused American demands to return the formerly enslaved, and some three thousand Black Loyalists sailed away, their names recorded in the "**Book of Negroes**." Many settled in Nova Scotia; in **1792**, nearly twelve hundred of them, disappointed by poor land and broken promises, sailed to found **Freetown** in Sierra Leone. Their journey from Virginia plantations to West Africa is one of the most remarkable stories of the revolutionary era.
+
+For the enslaved, the Revolution's promise of liberty came, ironically, more often from the king's officers than from the patriots.
+
 > **Pause and consider.** Why did Dunmore's offer push some Virginia planters toward independence? What does this suggest about the different meanings "liberty" carried in 1775?`,
     },
     {

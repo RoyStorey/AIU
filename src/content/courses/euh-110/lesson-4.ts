@@ -35,6 +35,14 @@ Governments responded to the rise of socialism with social reform. In Germany, *
 
 For the European middle and upper classes, the years from about 1890 to 1914 were remembered, after the catastrophe that followed, as the **Belle Époque**, the "beautiful era": an age of peace, prosperity, progress, and confidence. Europeans traveled by railway and steamship, shopped in department stores, rode bicycles, watched the first films, and visited great world's fairs, such as the Paris Exposition of 1889, for which the Eiffel Tower was built. Europe stood at the height of its power, wealth, and self-confidence. It ruled most of the world.
 
+## Leisure and the masses
+
+The new mass society created new forms of leisure. Railways made seaside holidays possible for working families; professional football leagues, beginning with England's Football League in **1888**, drew huge crowds; the bicycle, the department store, the music hall, and, from the **1890s**, the cinema transformed everyday life. Newspapers such as Britain's *Daily Mail* (founded **1896**), selling for a halfpenny, reached a million readers by 1900. Universal elementary education, introduced in Britain in **1870** and France in the **1880s**, created a literate mass public for the first time.
+
+## The new imperialism
+
+The same decades saw the **New Imperialism**, as European powers seized most of Africa and much of Asia between 1880 and 1914, driven by competition for markets, raw materials, prestige, and strategic advantage, and justified by doctrines of racial superiority and the claim of a "civilizing mission" abroad.
+
 > **Pause and consider.** Bismarck introduced social insurance to undermine socialism. Can a reform be good if it is adopted for cynical reasons?`,
     },
     {
@@ -172,6 +180,10 @@ The question of responsibility for the war has been debated ever since. The Trea
 ## The war of illusions
 
 In August 1914, crowds cheered in Berlin, Paris, London, Vienna, and St. Petersburg. Socialists who had pledged to oppose war voted for war credits. Young men volunteered by the hundreds of thousands, expecting a short, heroic war that would be over by Christmas. Few imagined what was coming.
+
+The war that began in August 1914 was expected, by almost everyone, to be over by Christmas.
+
+Few of the statesmen who made the decisions of July 1914 imagined the war that actually followed.
 
 > **Pause and consider.** Fischer blamed Germany; Clark saw a Europe of sleepwalkers. What kind of evidence would decide between them?`,
     },

@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Africa's Deep Past: Origins, the Nile, and Kush",
   summary:
-    "How Africa's history came to be written, against those who said it had none; the continent where humanity began; the green Sahara and the invention of African farming; Egypt as an African civilization; the Nubian kingdom of Kush, whose pharaohs ruled Egypt and whose queens fought Rome; iron, the Bantu expansion, and Roman Africa.",
+    "How Africa's history came to be written, against those who said it had none; the continent where humanity began; the green Sahara and the first African farmers; Egypt as an African civilization; Kush, whose pharaohs ruled Egypt; iron, the Bantu expansion, and Roman Africa.",
   pages: [
     {
       title: "Writing Africa's History",
@@ -252,6 +252,8 @@ As we saw in another course, the **Vandals** conquered Roman North Africa in 429
 ## The camel
 
 That trade depended on a newcomer to Africa: the **camel**. The one-humped dromedary, domesticated in Arabia, appears to have spread into North Africa in the late Roman period, becoming common by the third and fourth centuries AD. Camels could carry heavy loads for weeks across the desert with little water, and transformed the Sahara from a barrier into a sea that could be crossed by caravans. The Berber peoples of the desert, such as the ancestors of the **Tuareg**, became the masters of the caravan routes. The stage was set for the rise of the great trading kingdoms of West Africa.
+
+North Africa's Roman cities, from Leptis Magna to Timgad, remain among the best-preserved Roman ruins anywhere.
 
 > **Pause and consider.** Tertullian, Perpetua, and Augustine were Africans. How does knowing this change the common picture of early Christianity as a European religion?`,
     },

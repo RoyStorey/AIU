@@ -35,6 +35,8 @@ The Rule also provided for children, called **oblates**, who were given to the m
 
 Benedict's Rule did not immediately become the rule of all Western monasteries, nor did Benedict found an order in the modern sense; each monastery was independent. Monte Cassino itself was destroyed by the Lombards around 577, and its monks fled to Rome. For two centuries, monasteries in Gaul, Britain, and Italy followed a variety of rules, often a "mixed rule" combining Benedict's with Columbanus's and others. Pope Gregory the Great praised Benedict's Rule for its "discretion," and Anglo-Saxon missionaries carried it to Germany. In the early ninth century, the Carolingian emperors, seeking uniformity, ordered all monasteries in their empire to follow it. From then on, for centuries, Western monasticism was essentially Benedictine. In 1964, Pope Paul VI named Benedict the patron saint of Europe.
 
+Benedict's Rule asked monks to live by a simple balance of prayer, reading, and manual labor, a pattern later summed up as *ora et labora*.
+
 > **Pause and consider.** Benedict called the monastery "a school of the Lord's service." What was it meant to teach? Why might moderation have made his Rule so durable?`,
     },
     {
@@ -184,6 +186,10 @@ Boniface's mission was also supported by Anglo-Saxon women. He corresponded with
 In his old age, Boniface returned to his first mission field, Frisia. On June 5, **754**, near **Dokkum**, he and some fifty companions were preparing for a confirmation service when they were attacked by a band of pagan robbers. According to Willibald, Boniface forbade his companions to resist, saying, "Do not return evil for evil." He held up a book over his head to protect himself as the robbers struck him down. The robbers, finding the chests the missionaries carried, expected treasure; they found only books, which they scattered in fury. A book said to be the one Boniface held, slashed by a sword, is preserved at Fulda.
 
 His body was carried up the Rhine and buried at Fulda, which became a place of pilgrimage. Boniface is called the "**Apostle of Germany**." His work joined the German church to Rome, reformed the Frankish church, and created a close alliance between the papacy, the Anglo-Saxon missionaries, and the Frankish rulers. That alliance would shape the history of Europe.
+
+## Boniface's letters
+
+Boniface left a large collection of **letters**, preserved by his followers, which reveal the practical problems of the mission: questions to the pope about whether priests who had been ordained by unworthy bishops were truly priests, requests to English friends for books (he asked the abbess Eadburga for a copy of the epistles of Peter written in letters of gold, to impress the pagans), and complaints about the corruption of the Frankish clergy.
 
 > **Pause and consider.** Boniface converted the pagans of Geismar by chopping down their sacred oak. What does this method reveal about how missionaries understood conversion?`,
     },

@@ -39,6 +39,8 @@ The Reformation spread to other Swiss cities—Bern, Basel, St. Gall—but the r
 
 Zwingli's successor in Zurich, **Heinrich Bullinger** (1504–1575), led the Zurich church for forty-four years, corresponded with reformers all over Europe, and helped make the Swiss Reformed tradition an international movement. In 1549, Bullinger and Calvin reached an agreement on the Lord's Supper, the *Consensus Tigurinus*, which united the Zurich and Geneva churches.
 
+Zwingli's Zurich became a model for the Reformed churches of Switzerland and beyond.
+
 > **Pause and consider.** Luther and Zwingli agreed on fourteen of fifteen articles at Marburg and still parted. Why might a single doctrine matter so much?`,
     },
     {

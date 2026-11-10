@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson5: Lesson = {
   title: "The Toll and the Ending: Africa, Abolition, and Memory",
   summary:
-    "Measuring the trade's demographic toll; Walter Rodney and the economics of underdevelopment; the growth of slavery within Africa and the Muslim reformers who resisted the trade; African voices against it, from Cugoano to Abdul Kader Kan; abolition and the illegal trade; legitimate commerce; and memory and reparations today.",
+    "Measuring the trade's demographic toll; Walter Rodney and underdevelopment; slavery's growth within Africa and the Muslim reformers who resisted the trade; African voices against it, from Cugoano to Abdul Kader Kan; abolition and the illegal trade; legitimate commerce; and memory today.",
   pages: [
     {
       title: "Counting the Cost",
@@ -72,6 +72,14 @@ The Nigerian historian **Joseph Inikori** has developed a related argument. He e
 ## The debate continues
 
 The debate over the slave trade's impact on Africa is not merely academic. It bears on questions of responsibility, reparations, and development policy today. It also bears on how Africans understand their own history. Rodney's great contribution was to insist that Africa's poverty had historical causes, which could be understood and changed—that it was not a natural condition. Whatever one thinks of his specific arguments, that insistence changed the way the world thought about Africa.
+
+## Rodney's life
+
+Walter Rodney was born in **Georgetown, British Guiana**, in **1942**, and studied at the University of the West Indies and at the School of Oriental and African Studies in London, where he wrote his doctoral thesis on the Upper Guinea coast. He taught at the University of Dar es Salaam in Tanzania, where *How Europe Underdeveloped Africa* was written and published in **1972**, amid the hopes of African socialism under Julius Nyerere. Barred from teaching in Jamaica in 1968, which provoked riots in Kingston, he returned to Guyana, where he helped found the Working People's Alliance in opposition to the government of Forbes Burnham. On **June 13, 1980**, he was killed by a bomb hidden in a walkie-talkie; a commission of inquiry in 2016 found that the state had been involved in his death. He was thirty-eight.
+
+## What Rodney meant
+
+Rodney's central claim was that Africa's poverty was not a starting point but a result: that Africa had been developing on its own terms until the slave trade and colonialism drained its people and resources and bent its economies to European needs. "Underdevelopment," in his sense, was something done to Africa, not something Africa had failed to escape.
 
 > **Pause and consider.** Rodney argued that Africa was not undeveloped but underdeveloped by Europe. What is the difference? How would Thornton respond?`,
     },
@@ -212,6 +220,12 @@ By the mid-nineteenth century, the Atlantic slave trade had transformed Africa. 
 ## The diaspora returns
 
 The nineteenth century also saw the beginning of a movement in the opposite direction. Freed people from the Americas returned to Africa: to Sierra Leone; to **Liberia**, founded in **1822** by the American Colonization Society as a colony for free Black Americans, which became independent in 1847; to Lagos and Ouidah, where Afro-Brazilian returnees settled. Black intellectuals in the Americas and Africa, such as **Edward Wilmot Blyden** and **Martin Delany**, began to articulate ideas of African unity and pride that would develop into **Pan-Africanism**, one of the great political movements of the twentieth century.
+
+## The scramble begins
+
+By the **1870s**, the shift to legitimate commerce had drawn European traders, missionaries, and consuls ever deeper into African affairs, and European governments were increasingly ready to intervene to protect them. The British occupied Lagos in **1861**, and the French expanded inland from Senegal. Then, in a few years after **1880**, came the "**Scramble for Africa**": the partition of almost the entire continent among the European powers, formalized at the **Berlin Conference** of **1884–1885**. By **1914**, only Ethiopia and Liberia remained independent. The era of the Atlantic trade had given way to the era of colonial rule, which is the subject of a later course.
+
+The transformation of the nineteenth century, in short, prepared the ground for the conquest that followed it.
 
 > **Pause and consider.** The fight against slavery became a justification for the European conquest of Africa. How could abolition, a humanitarian movement, become a tool of empire?`,
     },

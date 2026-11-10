@@ -145,6 +145,12 @@ Even before Shays's Rebellion, nationalists had been seeking a way to strengthen
 
 At first the call drew little response. Shays's Rebellion changed that. Frightened by the news from Massachusetts, states began to appoint delegates, and in February 1787 Congress endorsed the convention, for "the sole and express purpose of revising the Articles of Confederation." Washington, after much hesitation, agreed to attend, lending the meeting his immense prestige. The delegates who gathered in Philadelphia would do far more than revise the Articles.
 
+## Washington and the crisis
+
+George Washington, who had retired to Mount Vernon in **1783**, was shaken by Shays's Rebellion. "Without some alteration in our political creed," he wrote to James Madison in **November 1786**, "the superstructure we have been seven years raising at the expense of much blood and treasure, must fall." His willingness to attend the Philadelphia convention, and to lend it his immense prestige, was crucial to its success.
+
+Washington's letters of 1786 and 1787 show a man reluctant to return to public life, and alarmed enough to do it.
+
 > **Pause and consider.** The Regulators saw themselves as continuing the Revolution; their opponents saw them as threatening it. Which view seems more persuasive, and why might both sides have believed sincerely in their own?`,
     },
     {

@@ -37,6 +37,14 @@ The Paracas people also practiced **cranial modification**, binding the heads of
 
 Chavín and Paracas illustrate patterns that would recur in Andean history. Religious centers attracted pilgrims from great distances and spread their art and beliefs across wide regions. Textiles were among the most valued products of human labor. And the extremes of the Andean environment—the dry coast that preserves organic materials, the high mountains, the forests beyond—shaped every aspect of life. In the following centuries, a succession of regional cultures and states rose and fell, culminating in the empire of the Inca.
 
+## The Lanzón
+
+At the heart of the Old Temple at Chavín, in a cross-shaped gallery deep within the stone mass, stands the **Lanzón**, a granite monolith about 4.5 meters tall, carved in low relief with a figure that combines human and feline features: fangs, clawed hands and feet, and snakes for hair. It has stood in its dark chamber, never moved, since it was set there some three thousand years ago. Priests may have consulted it as an oracle. Above it, a small opening in the ceiling may have allowed a priest in the gallery above to speak, as if the god were answering.
+
+## Chavín's art
+
+Chavín art is complex and deliberately difficult to read. Its images, such as the **Raimondi Stela** and the **Tello Obelisk**, use a technique scholars call "contour rivalry": a single carving can be read in several ways at once, so that when turned upside down, a figure's headdress becomes a series of faces. The ambiguity may have been meant to reveal hidden truths to initiates and to bewilder the uninitiated. The style spread across Peru on textiles, pottery, and gold, as Chavín's influence peaked around **500 BCE**.
+
 > **Pause and consider.** John Rick argued that Chavín was designed to produce overwhelming experiences of sound, darkness, and altered perception. Why might religious power be built on such experiences?`,
     },
     {
@@ -228,6 +236,8 @@ A radiocarbon study published in **2021** by **Richard Burger** and colleagues, 
 ## Bingham
 
 Machu Picchu was brought to world attention in **1911** by the American explorer **Hiram Bingham** of Yale University, who was led to the site by local farmers, some of whom were living there. Bingham did not "discover" Machu Picchu, which was known to local people and had been visited by others before him, but his articles in *National Geographic* made it famous. Bingham took thousands of artifacts from the site to Yale. After a long dispute, Yale agreed to return them to Peru, and they were returned in **2011–2012**, a century after Bingham's expedition. Machu Picchu is today one of the most visited archaeological sites in the world, a UNESCO World Heritage Site, and Peru's national symbol, though mass tourism threatens its preservation.
+
+Machu Picchu was probably a royal estate of the emperor Pachacuti, built around 1450 and abandoned within a century.
 
 > **Pause and consider.** If khipus could be fully read, how might our understanding of the Inca change? Why has their decipherment proved so difficult?`,
     },

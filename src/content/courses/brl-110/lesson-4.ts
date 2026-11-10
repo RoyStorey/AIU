@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Donne, Herbert, Jonson, and Marvell: Poetry in an Age of Crisis",
   summary:
-    "John Donne's life from Catholic outsider to Dean of St Paul's; the Songs and Sonnets and the metaphysical conceit; the Holy Sonnets and Devotions; George Herbert's Temple; Ben Jonson and the classical plain style; Andrew Marvell between the Civil War and the garden; and the critics, from Dr Johnson to T. S. Eliot, who named and renamed the 'metaphysical poets.'",
+    "Donne from Catholic outsider to Dean of St Paul's; the Songs and Sonnets and the metaphysical conceit; the Holy Sonnets and Devotions; Herbert's Temple; Jonson and the classical plain style; Marvell between the Civil War and the garden; and the critics who named the metaphysical poets.",
   pages: [
     {
       title: "John Donne: A Life in Two Parts",
@@ -207,6 +207,10 @@ The meal is both the Eucharist, the sacrament of communion, and the heavenly ban
 
 Herbert's poetry was admired by Puritans and Anglicans alike in the seventeenth century, and many of his poems became hymns, such as "Let all the world in every corner sing" and "Teach me, my God and King." His influence extended to later poets as diverse as **Henry Vaughan**, who said that Herbert's poems had converted him, **Samuel Taylor Coleridge**, **Emily Dickinson**, **Gerard Manley Hopkins**, and **T. S. Eliot**, whose *Four Quartets* end at Little Gidding, the community of Herbert's friend Ferrar.
 
+## The Temple and the Church
+
+Herbert was a priest of the Church of England, and *The Temple* is shaped by its worship. Its first long poem, "The Church-porch," is a set of moral precepts for those about to enter; then come poems on the altar, the sacrifice, baptism, the Holy Communion, the church windows, the church floor, and the Christian year, from Good Friday and Easter to Whitsunday. The book's structure is a walk into a church and through its liturgy, and its poems are often prayers. Its readers included Puritans and Catholics alike: Richard Baxter loved it, and the Catholic poet Richard Crashaw named his own collection *Steps to the Temple* (1646) in its honor.
+
 > **Pause and consider.** In "The Collar," a single word, "Child," ends the speaker's rebellion. How does Herbert use form to enact the soul's surrender?`,
     },
     {
@@ -351,6 +355,12 @@ After Cromwell's death in **1658**, the republic collapsed, and in **1660**, the
 The poets of the age responded to these events in many ways. Herbert died before the war, but his poems were loved by both sides. The Cavalier poets celebrated loyalty to the king, and many suffered for it. Marvell moved between sides, writing poems that are among the most subtle reflections on the meaning of the revolution. Milton, as we will see in the final lesson, devoted the best years of his life to the cause of the revolution, and wrote his great epic in its defeat.
 
 The upheavals of the century also changed the way poets thought about the world. The new science of **Galileo**, **Kepler**, and **Francis Bacon**, and later the **Royal Society** (founded in **1660**), challenged traditional ideas of the cosmos and of knowledge. The religious conflicts of the age made the question of how to know religious truth urgent and painful, as Donne's "Show me, dear Christ, thy spouse" reveals. And the experience of civil war and revolution forced poets to confront the question of how to live in a world where all the old certainties—of church, king, and cosmos—had been "called in doubt."
+
+## Poets of the war
+
+The war divided poets as it divided families. **Richard Lovelace**, a Royalist imprisoned in 1642, wrote "To Althea, from Prison," with its famous lines "Stone walls do not a prison make, / Nor iron bars a cage," and "To Lucasta, Going to the Wars," which ends "I could not love thee, dear, so much, / Loved I not honour more." **Robert Herrick**, a Royalist country parson ejected from his living, published *Hesperides* (1648), full of songs, flowers, and Christian festivals that the Puritans had banned. On the other side stood Milton, who served the Republic as Secretary for Foreign Tongues, and Marvell, who worked beside him. The **Cavalier poets**, as the Royalists came to be called, made lightness and grace a form of loyalty; the Puritan poets made seriousness one. Both traditions shaped the poetry of the Restoration and after.
+
+For the poets, the crisis of the century was also a crisis of words: of who could speak for God, the king, and the people.
 
 > **Pause and consider.** Donne wrote in 1611 that "new philosophy calls all in doubt." How did the religious, political, and scientific upheavals of the seventeenth century shape its poetry?`,
     },

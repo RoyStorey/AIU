@@ -180,6 +180,8 @@ Bradstreet's poems to her husband are among the finest love poems of the century
 
 It ends with a wish that their love may last beyond death: "Then while we live, in love let's so persevere / That when we live no more, we may live ever." In other poems, written while her husband was away on colonial business, she addresses him with passionate longing, comparing herself to a deer longing for its mate, and to a fish without water. Married love, which the Puritans valued as a gift of God, is expressed with a warmth and frankness that challenge the stereotype of Puritan coldness.
 
+Bradstreet wrote her finest poems not for publication but for her family, and many survived only because her son Simon and other relatives copied them. Her domestic poems were included in the second edition of her work, published in Boston in **1678**, six years after her death.
+
 > **Pause and consider.** Bradstreet calls her book an "ill-formed offspring" and says critics will think her poems "stol'n." How does she use humility as a weapon?`,
     },
     {
@@ -337,6 +339,10 @@ The Puritan emphasis on self-examination, on keeping a record of one's inner lif
 ## Michael Wigglesworth
 
 Not all Puritan writing about the inner life was subtle. **Michael Wigglesworth**'s ***The Day of Doom*** (1662), a long poem describing the Last Judgment in jingling ballad meter, was the best-selling book in New England for a century; children memorized it. In one notorious passage, infants who died unbaptized plead for mercy, and Christ grants them "the easiest room in hell." Its popularity shows how vividly ordinary Puritans imagined judgment, and how much the inner anxiety of the diaries was shared.
+
+## Mary Rowlandson and Sarah Kemble Knight
+
+Two women's narratives frame the end of the Puritan century. Mary Rowlandson's account of her captivity, which we read in the next lesson, is a spiritual autobiography under extreme pressure. And in **1704–1705**, a Boston widow and businesswoman named **Sarah Kemble Knight** made a five-month journey on horseback from Boston to New York and back, and kept a lively, satirical journal of rough inns, bad food, and country bumpkins. Published only in 1825, it shows a worldly, humorous, secular voice emerging within the Puritan world.
 
 > **Pause and consider.** Samuel Sewall judged at Salem, apologized publicly, and wrote the first New England antislavery tract. What does his life suggest about the capacity of Puritan conscience for self-correction?`,
     },

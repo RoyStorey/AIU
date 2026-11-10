@@ -39,6 +39,10 @@ Throughout, we will see how English writers took up the forms and ideals of the 
 
 Humanism transformed English education. In **1509**, John Colet founded **St. Paul's School** in London, with a curriculum based on classical Latin and Greek authors, for which Erasmus wrote textbooks. Grammar schools across England adopted similar curricula, so that by the end of the century, boys like William Shakespeare, the son of a glover in Stratford, learned Latin grammar, read Ovid, Virgil, Cicero, and Terence, and practiced rhetoric by writing speeches and letters in imitation of classical models. The humanist schoolroom, with its drills in imitation and argument on both sides of a question, trained a generation of writers.
 
+The period this course covers, from about 1500 to 1670, saw English grow from a language few foreigners bothered to learn into one with a literature to rival Italy's and France's.
+
+Throughout, we will read the poems as their first readers did: aloud, slowly, and with attention to their sound.
+
 > **Pause and consider.** The humanists called the age before them a "middle age" of darkness. Having studied Beowulf, Gawain, and Chaucer, do you think they were right?`,
     },
     {
@@ -184,6 +188,10 @@ The word "**utopia**" entered English and many other languages, meaning an imagi
 ## Utopia and the New World
 
 *Utopia* was written in the first generation after Columbus, when Europeans were discovering, and conquering, the peoples of the Americas. Raphael is a companion of Vespucci, and Utopia lies somewhere beyond the known world. Reports of Native American societies without money or private property, such as those described in Vespucci's letters, may have inspired More's imagination. The book reflects both the excitement of discovery and the European habit of projecting its own hopes and fears onto distant peoples—a habit with consequences that the history courses examine.
+
+## Utopia's afterlife
+
+*Utopia* gave its name to a genre and to an idea. Francis Bacon's *New Atlantis* (1627) imagined an island ruled by scientists; Swift's *Gulliver's Travels* (1726) parodied the form; and in the nineteenth and twentieth centuries, novels from Edward Bellamy's *Looking Backward* (1888) to the dystopias of Huxley and Orwell continued the conversation More began, about whether a perfect society is possible, and what it would cost.
 
 > **Pause and consider.** More wishes "rather than expects" to see Utopian customs in Europe. Is *Utopia* a blueprint, a satire, or a mirror? What would each reading mean for how we use the book today?`,
     },

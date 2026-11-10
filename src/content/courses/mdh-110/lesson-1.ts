@@ -231,6 +231,10 @@ In the short term, the papacy emerged from the Investiture Contest greatly stren
 
 The Investiture Contest also had costs. In Germany, the long civil war weakened the monarchy and strengthened the princes, contributing to the fragmentation of Germany into hundreds of semi-independent states that lasted until the nineteenth century. In Italy, the conflict between popes and emperors would continue for two more centuries, dividing cities and families into rival factions, the **Guelfs** (supporters of the pope) and the **Ghibellines** (supporters of the emperor), whose feuds Dante would describe in the *Divine Comedy*.
 
+## Canon law
+
+One lasting result of the reform movement was the growth of **canon law**, the law of the church. Around **1140**, a teacher at Bologna named **Gratian** compiled the *Concordance of Discordant Canons*, known as the *Decretum*, which gathered and reconciled thousands of earlier rulings of councils, popes, and church fathers. It became the foundation of a legal system that governed marriage, wills, oaths, and the clergy throughout Latin Christendom, and its methods influenced the revival of Roman law in the universities.
+
 > **Pause and consider.** Tellenbach called the Investiture Contest a struggle over "right order in the world." What were the two visions of right order, and which one shaped the later history of Europe?`,
     },
     {

@@ -191,6 +191,10 @@ Caral and the other Norte Chico sites face serious threats from looting, the exp
 
 In Mesoamerica, the development of complex society came somewhat later. The first permanent farming villages appeared around 1800–1500 BC, and the first monumental centers, built by the people archaeologists call the **Olmec**, around 1400 BC, as we will see in the next lesson. In both regions, the path from the first domesticated plants to the first monumental centers took thousands of years.
 
+## Why Caral matters
+
+Caral changes the map of world history. The Andes join Mesopotamia, Egypt, the Indus valley, China, and Mesoamerica as one of the few places where cities and states arose independently, and Norte Chico's monuments are roughly contemporary with the pyramids of Giza. Yet it remains little known outside Peru, a sign of how long the Americas were left out of the story of civilization.
+
 > **Pause and consider.** Caral had pyramids and plazas but little evidence of warfare. What might hold a society together without force?`,
     },
     {
@@ -264,6 +268,10 @@ The Inca, as we will see, had no writing in the usual sense, but they recorded i
 ## Oral tradition
 
 Finally, the descendants of the ancient peoples of the Americas—the millions of Maya, Nahua, Quechua, Aymara, and other Native people living today—preserve languages, traditions, and knowledge that can illuminate the past. Archaeologists and historians increasingly work with Native communities, who have their own perspectives on the history of their ancestors, and their own claims to the sites and objects that archaeologists study.
+
+## A caution
+
+Every source on the ancient Americas comes with its own distortions: the Spanish chroniclers wrote as conquerors and missionaries; Native nobles writing after the conquest defended their families' privileges; archaeologists can recover only what survives in the ground. The historian's task is to read them against one another, and to admit what cannot be known.
 
 > **Pause and consider.** Diego de Landa burned the Maya books and also wrote one of the most important accounts of Maya culture. What does this paradox tell us about the sources for the ancient Americas?`,
     },

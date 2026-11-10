@@ -147,6 +147,8 @@ In 1550–51, at Valladolid, Las Casas debated the humanist scholar Juan Ginés 
 
 Las Casas's book had another career. Translated into Dutch, English, French, and German, and illustrated with lurid engravings, it became a staple of Protestant propaganda against Catholic Spain—part of what Spanish historians later called the **Black Legend** of uniquely Spanish cruelty. English colonists would cite Spanish cruelty to justify their own colonization as gentler and more Christian. Their actual record, as you will see in the lessons on Virginia and New England, did not bear out the claim. Tragically, Las Casas also at first recommended importing enslaved Africans to spare Native Americans; he later repented of this, recognizing that Africans' enslavement was just as unjust.
 
+The debate at Valladolid ended without a formal verdict, but it shaped Spain's laws and conscience for centuries.
+
 > **Pause and consider.** Why might the Spanish debate over the justice of conquest have been possible in a society so committed to that conquest? What did it change, and what did it fail to change?`,
     },
     {
@@ -240,6 +242,14 @@ Popular writers have also changed public understanding. Charles C. Mann's *1491*
 The encounter between the hemispheres was one of the great turning points in human history. It created a global economy, transformed the diets of every continent, set in motion the largest forced migration in history—the Atlantic slave trade—and devastated the peoples of the Americas. It also brought together peoples who had never imagined one another, and forced each to reconsider their understanding of the world. Europeans had to fit two unknown continents and their peoples into their maps, their theology, and their law. The French essayist **Michel de Montaigne**, reflecting on reports of Brazil in his essay "Of Cannibals" (1580), concluded that Europeans called "barbarous" whatever was not their own custom, and that the supposedly savage peoples of America had much to teach Europe. Few of his contemporaries agreed.
 
 As you read the rest of this course, keep both sides of the encounter in view. Ask, of each colony, not only what the colonists wanted and did, but what the Native peoples around them wanted and did, and how each side's choices shaped the other's. The English colonies you will study were small settlements on the edge of a continent of Native nations, and their history cannot be understood without them.
+
+## The Columbian Exchange
+
+The historian **Alfred Crosby**, in *The Columbian Exchange* (1972), gave a name to the vast transfer of plants, animals, and diseases between the hemispheres that followed 1492. From the Americas came maize, potatoes, tomatoes, cacao, tobacco, and chili peppers, which transformed diets from Ireland to China; from Europe, Africa, and Asia came wheat, sugar, coffee, horses, cattle, pigs, and sheep, which transformed American landscapes and Native ways of life. And from the Old World came smallpox, measles, and influenza, against which Native Americans had no immunity. The exchange reshaped the ecology and economy of the whole planet. Crosby later argued, in *Ecological Imperialism* (1986), that European colonists succeeded in temperate regions partly because their plants, animals, and germs came with them.
+
+How we name the events of 1492 and after, discovery, encounter, invasion, or conquest, shapes how we understand everything that followed.
+
+Historians today try to tell the story from many viewpoints at once, Native, European, and African, because no single one can capture it.
 
 > **Pause and consider.** Historians must often reconstruct Native perspectives from European sources. What kinds of evidence might help them do so, and what are the limits of each?`,
     },

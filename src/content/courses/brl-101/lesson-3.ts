@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Sir Gawain and the Green Knight",
   summary:
-    "The anonymous poet and the alliterative revival; the challenge of the beheading game at Camelot; the pentangle and Gawain's winter journey; the three hunts and three temptations at Hautdesert; the green girdle and the reckoning at the Green Chapel; Pearl and the poet's other works; and the Arthurian tradition from Geoffrey of Monmouth to Malory.",
+    "The anonymous poet and the alliterative revival; the beheading game at Camelot; the pentangle and Gawain's winter journey; the three hunts and three temptations at Hautdesert; the green girdle and the Green Chapel; Pearl and the poet's other works; and the Arthurian tradition to Malory.",
   pages: [
     {
       title: "The Poet and the Alliterative Revival",
@@ -46,6 +46,8 @@ The poem has **101 stanzas** and **2,530 lines**, divided in the manuscript into
 The poem begins not with Arthur but with the fall of **Troy**. According to medieval legend, after Troy fell, its survivors founded new kingdoms across Europe: **Aeneas** founded Rome, and his great-grandson, **Brutus**, founded **Britain**, which was named after him. This legend, made famous by **Geoffrey of Monmouth** in his *History of the Kings of Britain* (c. 1136), gave Britain a glorious ancestry. The poet tells us that among the kings of Britain, Arthur was the noblest, and that he will tell "an outstanding adventure" of Arthur's court, "as I heard it told in town."
 
 The opening places the story in a long history of the rise and fall of kingdoms, "where war and vengeance and wonder" have alternated with "bliss and blunder." Like *Beowulf*, *Sir Gawain* begins with the reminder that all human glory is fragile. The Round Table, at the height of its youth and joy, will one day fall, as Troy fell.
+
+The manuscript's four poems were bound with others in the collection of Sir Robert Cotton, which also preserved *Beowulf*.
 
 > **Pause and consider.** The poem begins with the fall of Troy and ends by echoing its first line. Why might a poem about a single adventure place itself within the whole history of kingdoms?`,
     },
@@ -242,6 +244,10 @@ The women of the poem—the lady, Morgan le Fay, Guinevere, and Mary—have attr
 ## The poet's art
 
 Whatever one concludes about its meaning, *Sir Gawain and the Green Knight* is a masterpiece of narrative art. Its structure is intricate and symmetrical: the two New Year's Days, the three hunts and three temptations, the three blows, the four fitts, the 101 stanzas, the last line echoing the first. Its descriptions—of the seasons, of armor, of the winter landscape, of the hunts—are among the finest in English poetry. Its dialogue is subtle and witty. And it combines the old native tradition of alliterative verse with the sophistication of French romance and the depth of Christian theology. It is, many critics believe, the greatest Arthurian romance in English, and one of the greatest poems of the Middle Ages.
+
+## The girdle afterward
+
+The poem ends with the knights of Camelot laughing and adopting the green baldric as a badge of honor, while Gawain wears it as a sign of his fault. Beneath the last line, a later hand added the motto of the **Order of the Garter**, *Hony soyt qui mal pence* ("shame on him who thinks evil of it"), perhaps linking the poem to that order's founding.
 
 > **Pause and consider.** The Green Knight says Gawain failed only "a little," "because he loved his life." Do you agree? What would perfect conduct have looked like?`,
     },

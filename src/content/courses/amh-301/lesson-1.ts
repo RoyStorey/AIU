@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson1: Lesson = {
   title: "Industrial America and the Labor Question, 1865–1900",
   summary:
-    "How the United States became the world's greatest industrial power, and at what cost: railroads, steel, oil, and electricity; Carnegie, Rockefeller, and Morgan; the ideas that justified and challenged the new order; the world of industrial workers; the Knights of Labor, Haymarket, the AFL, Homestead, and Pullman; and the politics of the Gilded Age.",
+    "How the United States became the world's greatest industrial power, and at what cost: railroads, steel, oil, and electricity; Carnegie, Rockefeller, and Morgan; the ideas that justified and challenged them; industrial workers and their unions; Haymarket, Homestead, and Pullman; and Gilded Age politics.",
   pages: [
     {
       title: "The Second Industrial Revolution",
@@ -252,6 +252,14 @@ The other great economic issue was **money**. During the Civil War, the federal 
 ## Regulation begins
 
 Despite its reputation for inaction, the Gilded Age saw the beginnings of federal regulation. The **Interstate Commerce Act** of 1887 and the **Sherman Antitrust Act** of 1890 were the first federal attempts to regulate business, however weakly enforced. States regulated railroads, inspected factories, and limited child labor. These measures were limited, but they established the principle that government had a responsibility to regulate the economy—a principle the Progressives would build on.
+
+## The assassination of Garfield
+
+The issue of patronage turned deadly in **July 1881**, when **Charles Guiteau**, a mentally unstable office-seeker who believed he deserved a consular post, shot President **James Garfield** at a Washington railroad station. Garfield lingered for eleven weeks, his doctors probing the wound with unsterilized fingers, before dying in **September**. His death shocked the nation into action. In **1883**, Congress passed the **Pendleton Civil Service Reform Act**, which required that some federal jobs be filled by competitive examination rather than political loyalty, and forbade the practice of forcing officeholders to contribute to party campaigns. Covering only about ten percent of federal jobs at first, the merit system expanded steadily over the following decades.
+
+## The Interstate Commerce Act
+
+In **1887**, responding to farmers' and merchants' anger at railroad rates, Congress created the **Interstate Commerce Commission**, the first federal regulatory agency, to ensure that railroad rates were "reasonable and just," though for years its powers were weak.
 
 > **Pause and consider.** Why did Gilded Age politics combine record voter turnout with relatively little national legislation?`,
     },

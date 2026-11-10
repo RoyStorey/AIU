@@ -35,6 +35,8 @@ By 1872, the first Klan had been largely broken. Political violence declined, an
 
 But the victory was temporary. Akerman was forced out of office at the end of 1871, in part because of his zeal against the Klan and against railroad interests. Prosecutions dwindled, and many convicted Klansmen were soon pardoned. The federal government's will to intervene in the South was weakening. And white Southerners would soon find new ways to accomplish what the Klan had begun—more openly, and with less risk of federal interference.
 
+The Klan's terror reshaped Southern politics for decades, even after the federal government broke its first incarnation.
+
 > **Pause and consider.** The federal government broke the first Klan in 1871–72. What does that suggest about why Reconstruction ultimately failed?`,
     },
     {
@@ -212,6 +214,12 @@ Some historians have argued that Reconstruction was doomed from the start, given
 ## The question of rights
 
 Reconstruction raised questions that remain at the center of American politics. What does citizenship mean? What is the federal government's responsibility to protect individuals against discrimination and violence by states and private actors? What is the relationship between political rights and economic power? Can a society that has been built on racial hierarchy become a genuine democracy? Every subsequent struggle for civil rights in the United States—by Black Americans, women, immigrants, and others—has drawn on the language and the amendments of Reconstruction.
+
+## Reconstruction and the courts
+
+The Supreme Court did much to narrow Reconstruction's achievements. In the ***Slaughter-House Cases*** (**1873**), it read the Fourteenth Amendment's protection of the "privileges or immunities" of citizens so narrowly as to make it nearly meaningless. In ***United States v. Cruikshank*** (**1876**), arising from the **Colfax Massacre** of 1873, in which white militias killed dozens of Black men in Louisiana, it ruled that the amendment restrained only the states, not private individuals, leaving the federal government almost powerless against racial violence. And in the ***Civil Rights Cases*** (**1883**), it struck down the Civil Rights Act of 1875, which had banned discrimination in public accommodations. These decisions prepared the way for ***Plessy v. Ferguson*** (1896).
+
+Reconstruction's legal legacy, in short, was ambiguous: its amendments endured, while the Court narrowed their reach for generations.
 
 > **Pause and consider.** Du Bois called Reconstruction a "splendid failure." What was splendid about it? Was its failure inevitable?`,
     },

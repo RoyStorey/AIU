@@ -279,6 +279,8 @@ In the twentieth century, **Perry Miller**'s biography *Jonathan Edwards* (1949)
 
 Modern readers must also reckon with a fact long passed over in accounts of Edwards: he owned enslaved people. In **1731**, he bought a fourteen-year-old African girl named **Venus** in Newport, Rhode Island, for eighty pounds, and the household later held others, including a man named **Titus** and a boy named **Joseph**. Edwards defended the right of a fellow minister to own slaves, though he criticized the slave trade from Africa, and he admitted Black men and women as full members of his Northampton church. His followers drew different conclusions: his son, **Jonathan Edwards Jr.**, and his disciple **Samuel Hopkins** became leading opponents of slavery in the 1770s and 1780s, using Edwards's own ethics of "true virtue" as disinterested benevolence to condemn it. The contradiction is part of Edwards's legacy, and part of the legacy of the Puritan world we are studying.
 
+Edwards's reputation has never been settled. To some he remains the preacher of terror; to others, as Marsden argues, the most profound mind of colonial America.
+
 > **Pause and consider.** Edwards was dismissed by his congregation and spent his final years at a frontier mission, where he wrote his greatest works. What does his career suggest about the relation between public failure and intellectual achievement?`,
     },
     {

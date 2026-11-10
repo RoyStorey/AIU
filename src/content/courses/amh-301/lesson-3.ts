@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson3: Lesson = {
   title: "Populists and Progressives, 1880–1920",
   summary:
-    "Two great reform movements that answered the industrial order: the farmers' revolt, the People's Party, and the battle of 1896; the Progressive impulse of muckrakers, settlement workers, and reformers; Theodore Roosevelt's Square Deal; the election of 1912 and Wilson's New Freedom; the winning of woman suffrage; and the limits of Progressivism, from Jim Crow to eugenics.",
+    "Two reform movements that answered the industrial order: the farmers' revolt, the People's Party, and the battle of 1896; the Progressives' muckrakers, settlements, and reforms; Roosevelt's Square Deal; 1912 and Wilson's New Freedom; woman suffrage; and the limits of Progressivism.",
   pages: [
     {
       title: "The Farmers' Revolt",
@@ -30,6 +30,14 @@ The historian **Lawrence Goodwyn**, in *The Populist Moment* (1978), argued that
 ## Toward a party
 
 At first, the Alliances tried to work through the existing parties, endorsing candidates who supported their demands. In 1890, Alliance-backed candidates won control of several state legislatures and elected dozens of congressmen. But Alliance leaders found that politicians elected with their support often abandoned their program once in office. In the South, the Democratic Party, the party of white supremacy, would not accept the subtreasury. In the West, Republicans were tied to Eastern business. By 1891 and 1892, many Alliance members concluded that they needed a party of their own. The decision was not easy. In the South, leaving the Democratic Party meant breaking with the party of white supremacy and of the Confederate dead, and risking social ostracism, economic retaliation, and violence. In the West, it meant breaking with the party of the Union. That so many farmers made the break is a measure of their desperation.
+
+## The crop-lien system
+
+In the South, farmers were trapped by the **crop-lien** system. With little cash and no access to banks, tenants and small owners obtained seed, tools, and food on credit from a local merchant, who took a lien on their future crop and charged interest that could exceed fifty percent a year. Merchants often insisted that farmers plant cotton, which could be sold for cash, rather than food crops. When cotton prices fell, as they did throughout the 1880s and 1890s, farmers ended the year still in debt, bound to the same merchant for the next season. The system kept millions of Black and white Southerners in poverty.
+
+## Railroads and elevators
+
+Western farmers faced similar grievances against the railroads, which charged high rates where they had no competition, and against the owners of grain elevators and warehouses, who could set prices for storage. Farmers also suffered from **deflation**: as the money supply failed to keep pace with production, prices fell, and debts contracted in dear dollars became harder to repay.
 
 > **Pause and consider.** Why did deflation hurt farmers so badly? Who benefited from it?`,
     },

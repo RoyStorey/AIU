@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Voices of Protest, from Walker's Appeal to the Nadir",
   summary:
-    "David Walker's Appeal and Maria Stewart's speeches; Sojourner Truth at Akron and the two versions of her speech; Frances Harper's poems and fiction; William Wells Brown's Clotel and the first Black novels; Booker T. Washington's Atlanta address; Ida B. Wells and Anna Julia Cooper against lynching and for Black women's voice; and the masks of Paul Laurence Dunbar and Charles Chesnutt.",
+    "David Walker's Appeal and Maria Stewart; the two versions of Sojourner Truth's Akron speech; Frances Harper; William Wells Brown and the first Black novels; Washington's Atlanta address; Ida B. Wells and Anna Julia Cooper; and the masks of Paul Laurence Dunbar and Charles Chesnutt.",
   pages: [
     {
       title: "David Walker's Appeal",
@@ -228,6 +228,8 @@ In **1901**, Washington published his autobiography, ***Up From Slavery***, one 
 
 Washington was a far more complicated figure than his public image suggested. While publicly accepting segregation, he secretly funded legal challenges to disfranchisement and segregation laws, and to the exclusion of Black people from juries. He built a vast political network, the "**Tuskegee Machine**," which controlled federal appointments of Black officials, the funding of Black schools by Northern philanthropists, and much of the Black press. He dined with President **Theodore Roosevelt** at the White House in **1901**, provoking a storm of racist outrage in the South. Critics then and since have debated whether he was a realist, doing the best he could in a time of terror, or an accommodationist who helped legitimize Jim Crow. His most powerful critic would be W. E. B. Du Bois, whom we will read in the next lesson.
 
+Washington's own autobiography, it should be remembered, was partly ghostwritten by a white journalist, Max Bennett Thrasher, and was carefully addressed to the white Northern philanthropists on whom Tuskegee depended. Its tone was itself a strategy.
+
 > **Pause and consider.** Washington said Black and white could be "as separate as the fingers, yet one as the hand." Was this a realistic strategy in 1895, or a dangerous concession?`,
     },
     {
@@ -265,6 +267,8 @@ She criticized Black male leaders who spoke for the race without consulting wome
 ## A long life
 
 Cooper's life spanned an extraordinary range of American history. In **1925**, at sixty-six, she received a doctorate from the **Sorbonne** in Paris, with a dissertation on French attitudes toward slavery during the French Revolution—only the fourth African American woman to earn a Ph.D. She died in Washington in **1964**, at the age of 105, the year of the Civil Rights Act. Her words "when and where I enter" provided the title for **Paula Giddings**'s history of Black women, *When and Where I Enter* (1984), and her portrait appeared, with a quotation from *A Voice from the South*, in the **United States passport** issued from 2016.
+
+Wells and Cooper, though very different in temperament, shared a conviction: that Black women had to speak for themselves, in public, on the gravest questions of the nation, and that no one else, Black men or white women, could do it for them.
 
 > **Pause and consider.** Cooper writes that when the Black woman enters, "the whole Negro race enters with me." What does she mean, and how does her claim answer both Black men and white women?`,
     },

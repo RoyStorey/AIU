@@ -129,6 +129,8 @@ West African Islam developed its own traditions, rooted in local culture. Muslim
 
 The spread of Islam had profound effects on West African societies. It brought literacy in Arabic, which made possible record-keeping, correspondence, and eventually the writing of history by West Africans themselves. It connected West Africa to the intellectual world of Islam, with its law, theology, science, and literature. It provided a basis for state-building, through the law, the scribes, and the legitimacy that Islam conferred on rulers. And it shaped architecture, dress, art, and daily life. The great mosques of the Sahel, built of mud brick with wooden beams projecting from their walls, would become some of the most distinctive buildings in the world. The beams serve both as decoration and as scaffolding for the annual replastering of the walls after the rainy season, a communal festival in which whole towns take part—as they still do today at the Great Mosque of Djenné, the largest mud-brick building in the world.
 
+Islam's spread was gradual and uneven, and for centuries most West Africans outside the towns kept their older faiths.
+
 > **Pause and consider.** In al-Bakri's story of Malal, the king converts after a prayer for rain is answered. What does this story suggest about why West African rulers adopted Islam?`,
     },
     {
@@ -198,6 +200,8 @@ In the late fourteenth century, after decades of civil war and attacks by a riva
 ## A connected world
 
 Kanem-Bornu shows how deeply the central Sudan was connected to North Africa and the Islamic world. Its rulers corresponded with the sultans of Egypt and Tunis; its scholars studied in Cairo; its pilgrims traveled to Mecca; its merchants traded across the Sahara. Its court ceremonies, in which the king sat behind a curtain and spoke to his subjects only through an intermediary, impressed visitors with the mystery and sanctity of kingship. A letter written in 1391 by the Bornu king **Uthman ibn Idris** to the Mamluk sultan of Egypt, complaining that Arab raiders had seized and sold free Muslims of Bornu as slaves, survives in an Egyptian chronicle, one of the earliest diplomatic letters from a sub-Saharan ruler.
+
+Bornu's rulers kept up a correspondence with the Ottoman sultans and the rulers of North Africa, and its scholars studied in Cairo and the holy cities, a reminder of how far the Sahel's horizons reached.
 
 > **Pause and consider.** Kanem exported slaves to pay for horses, and used horses to capture slaves. What does this cycle reveal about the costs of the trans-Saharan trade for the peoples of the Sahel?`,
     },

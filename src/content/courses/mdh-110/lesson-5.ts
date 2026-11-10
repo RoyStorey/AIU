@@ -35,6 +35,10 @@ The new style spread rapidly from the region around Paris, the royal domain of t
 
 Why did the Gothic style emerge when and where it did? Art historians have offered different explanations. Some emphasize technical developments in engineering. Others, such as **Erwin Panofsky** in *Gothic Architecture and Scholasticism* (1951), argued that Gothic architecture and scholastic philosophy shared a common "mental habit": the same passion for clarity, systematic organization, and the reconciliation of opposites that structured Aquinas's *Summa* also structured the Gothic cathedral. Others emphasize the political context: the growing power and prestige of the French monarchy, which Suger served, and of the bishops and towns that built the cathedrals. Most would agree that Gothic was an expression of the confidence, wealth, and ambition of the High Middle Ages.
 
+## Suger's writings
+
+Suger wrote two short treatises on his work, *On What Was Done Under His Administration* and *On the Consecration of the Church of Saint-Denis*, describing the new building, its stained glass, and its golden treasures. He justified the splendor in terms of the theology of light: the beauty of material things could lead the mind upward to God. Inscriptions he placed on the church's doors declared that the "dull mind rises to truth through material things," as the inscription puts it.
+
 > **Pause and consider.** Suger wrote that "the dull mind rises to truth through material things." Bernard of Clairvaux condemned the splendor of churches. Whose view of the relationship between beauty and holiness do you find more persuasive?`,
     },
     {
@@ -68,6 +72,8 @@ Builders competed to raise their vaults ever higher. The vaults of Notre-Dame of
 ## The meaning of the cathedral
 
 What did the cathedral mean to the people of the Middle Ages? It was the house of God, the seat of the bishop, and the center of the city's religious life. It was a place of pilgrimage, prayer, and the celebration of the liturgy. It was also an image of the **heavenly Jerusalem**, described in the Book of Revelation as a city of gold and precious stones, filled with the light of God: "And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it" (Revelation 21:23). Its sculptures and windows were, in a phrase attributed to Pope Gregory the Great, "the Bible of the poor," teaching the stories of the faith to those who could not read. And it was a symbol of the pride, wealth, and identity of the city that built it.
+
+Many cathedrals took generations, even centuries, to complete, and few were finished as first planned.
 
 > **Pause and consider.** The cathedrals took decades or centuries to build, and their builders rarely lived to see them finished. What does this tell us about the society that built them?`,
     },

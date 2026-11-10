@@ -281,6 +281,10 @@ The new research has changed our picture of the ancient Maya. They were not a sp
 
 But the forests that hid the Maya sites for centuries are now under threat from logging, farming, cattle ranching, drug trafficking, and looting. Lidar has also revealed the extent of looting, showing thousands of trenches dug into ancient structures by looters seeking objects to sell on the international antiquities market. Protecting the Maya heritage, and the forests that contain it, is an urgent task.
 
+Lidar has not replaced fieldwork: every feature it reveals must still be checked, dated, and excavated on the ground. But it has shown how much of the ancient Maya world still lies hidden under the forest.
+
+The surveys have also revealed the scale of Maya farming: terraces, raised fields, canals, and reservoirs that reshaped whole landscapes.
+
 > **Pause and consider.** Lidar suggests that the Maya lowlands held seven to eleven million people. How does this change our understanding of the Maya, and of the tropical forest as a home for civilization?`,
     },
     {

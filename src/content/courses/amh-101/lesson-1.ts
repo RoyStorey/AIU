@@ -107,6 +107,14 @@ Enlightenment ideas shaped colonial politics, too. Colonial lawyers and gentleme
 
 The Awakening and the Enlightenment pulled in different directions: one toward the heart and the experience of grace, the other toward reason and the experience of nature. Yet both encouraged colonists to question inherited authority, and both gave them a vocabulary for the claims of individual conscience and natural right that would echo through the coming crisis.
 
+## Franklin and the Enlightenment in practice
+
+No colonist embodied the American Enlightenment more fully than **Benjamin Franklin**. His experiments with electricity, published in London in **1751**, made him famous across Europe; his lightning rod was a practical triumph of the new science. In Philadelphia, he founded or helped found a subscription library, a fire company, a hospital, an academy that became the University of Pennsylvania, and the **American Philosophical Society** (1743), modeled on London's Royal Society. As deputy postmaster general for the colonies from **1753**, he improved the post roads and sped the mails, binding the colonies more closely together. Franklin's career showed how the ideals of reason, improvement, and public usefulness could shape colonial life, and it made him the natural spokesman for the colonies in London in the crisis to come.
+
+## Print and the public
+
+By **1750**, the colonies had some dozen newspapers, and by 1775, nearly forty. Almanacs, pamphlets, and sermons circulated widely. A colonial public was taking shape that could argue about politics in print.
+
 > **Pause and consider.** In what ways might a revival preacher and an Enlightenment philosopher both have weakened colonists' deference to authority?`,
     },
     {
@@ -182,6 +190,12 @@ In the South, the great Native powers were the **Cherokee**, in the mountains of
 ## Native strategies
 
 It is important to see this conflict from the perspective of the Native nations of the Ohio Valley. They did not want either empire to dominate them. They traded with both, accepted gifts from both, and sought to keep both at a distance. Their great fear was that a victory by either side would leave them at the mercy of the winner. As events would show, that fear was justified. When the French were driven from North America, the Native nations of the interior lost the ability to play one empire against another, and faced a British empire—and its land-hungry colonists—alone.
+
+## The Albany Plan
+
+In **June 1754**, as war with France loomed, delegates from seven colonies met with Iroquois leaders at **Albany**, New York, to secure the Confederacy's support. There, Franklin proposed the **Albany Plan of Union**: a "Grand Council" of delegates elected by the colonial assemblies, with a president-general appointed by the Crown, to manage Native relations, defense, and western lands. Franklin had already published, in his *Pennsylvania Gazette*, the famous cartoon of a snake cut into pieces, labeled with the colonies' initials, captioned "**Join, or Die**." The colonial assemblies rejected the plan, jealous of their own powers, and London ignored it. But it was the first serious proposal for colonial union, and its failure showed how far the colonies were from thinking of themselves as one people.
+
+The rivalry of France and Britain in North America would soon draw both empires, and their Native allies, into a war that spanned the globe.
 
 > **Pause and consider.** Why would the defeat of France be a disaster for Native peoples who had often fought against the French?`,
     },
