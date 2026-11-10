@@ -35,6 +35,7 @@ import { poe301 } from "./poe-301";
 import { poe310 } from "./poe-310";
 import { poe401 } from "./poe-401";
 import { wlt101 } from "./wlt-101";
+import { wlt110 } from "./wlt-110";
 
 const written: Record<string, CourseContent> = {
   "AAL 101": aal101,
@@ -72,6 +73,7 @@ const written: Record<string, CourseContent> = {
   "POE 310": poe310,
   "POE 401": poe401,
   "WLT 101": wlt101,
+  "WLT 110": wlt110,
 };
 
 /**

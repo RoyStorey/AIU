@@ -1315,6 +1315,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "WLT 110": {
+    1: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Beatrice was Bice Portinari, daughter of Folco Portinari.",
+        note: "The identification goes back to Boccaccio and is widely accepted, but Dante never names her family.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "Dante explained the poem's title and four senses in a letter to Cangrande della Scala.",
+        note: "The letter's authenticity, in whole or in part, has long been debated.",
+      },
+      {
+        page: 3, kind: "disputed",
+        claim: "The journey begins on the night before Good Friday, 1300.",
+        note: "Scholars disagree whether the poem follows the calendar date (March 25) or the 1300 Easter (April 8–10); Dantedì uses March 25.",
+      },
+    ],
+    2: [
+      {
+        page: 1, kind: "disputed",
+        claim: "The soul who made 'the great refusal' is Pope Celestine V.",
+        note: "Most commentators say so, but others have proposed Pontius Pilate or Esau; Dante does not name him.",
+      },
+      {
+        page: 3, kind: "uncertain",
+        claim: "Gianciotto Malatesta discovered Paolo and Francesca together and killed them around 1285.",
+        note: "The details come mainly from Boccaccio's later commentary; contemporary records are scant.",
+      },
+    ],
+    3: [
+      {
+        page: 2, kind: "disputed",
+        claim: "Brunetto Latini is punished among the sodomites.",
+        note: "There is no other evidence of Brunetto's sexuality; André Pézard and others have proposed different readings of his sin.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "Ugolino ate the bodies of his children.",
+        note: "The line “Then fasting had more power than grief” is ambiguous; many readers take it to mean only that hunger killed him.",
+      },
+    ],
+    4: [
+      {
+        page: 2, kind: "uncertain",
+        claim: "Pia was a Sienese lady killed by her husband in the Maremma.",
+        note: "Early commentators identify her as Pia de' Tolomei; her identity and story are not documented.",
+      },
+      {
+        page: 6, kind: "uncertain",
+        claim: "Matelda may be Countess Matilda of Tuscany.",
+        note: "Her identity is one of the poem's open questions; she may be a figure without a historical original.",
+      },
+    ],
+    5: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Cacciaguida was knighted by Conrad III and died on the Second Crusade.",
+        note: "These facts come from the poem itself; Cacciaguida is otherwise barely documented.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {
