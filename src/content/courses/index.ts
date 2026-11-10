@@ -12,6 +12,7 @@ import { aml101 } from "./aml-101";
 import { aml110 } from "./aml-110";
 import { ash101 } from "./ash-101";
 import { ash110 } from "./ash-110";
+import { grk101 } from "./grk-101";
 import { iah101 } from "./iah-101";
 import { iah110 } from "./iah-110";
 import { lat101 } from "./lat-101";
@@ -52,6 +53,7 @@ const written: Record<string, CourseContent> = {
   "AML 110": aml110,
   "ASH 101": ash101,
   "ASH 110": ash110,
+  "GRK 101": grk101,
   "IAH 101": iah101,
   "IAH 110": iah110,
   "LAT 101": lat101,

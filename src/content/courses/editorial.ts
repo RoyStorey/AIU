@@ -1377,6 +1377,68 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "GRK 101": {
+    1: [
+      {
+        page: 3, kind: "uncertain",
+        claim: "Classical Attic ζ was pronounced zd, and θ, φ, χ were aspirated stops.",
+        note: "These are the standard reconstructions (W. S. Allen, Vox Graeca), built from indirect evidence; details remain debated.",
+      },
+      {
+        page: 4, kind: "uncertain",
+        claim: "Aristophanes of Byzantium invented the accent marks around 200 BCE.",
+        note: "The attribution is traditional and widely repeated; the ancient evidence for it is late and thin.",
+      },
+      {
+        page: 5, kind: "uncertain",
+        claim: "The Greeks adopted the Phoenician script in the ninth or early eighth century BCE.",
+        note: "Where and when the alphabet was borrowed is disputed; proposed dates range from the eleventh to the eighth century.",
+      },
+      {
+        page: 7, kind: "uncertain",
+        claim: "The Thermopylae epitaph is by Simonides.",
+        note: "Herodotus quotes it without naming its author; the attribution to Simonides is later.",
+      },
+    ],
+    2: [
+      {
+        page: 6, kind: "uncertain",
+        claim: "Heraclitus said πάντα ῥεῖ.",
+        note: "The phrase is not among his surviving fragments; it is a later summary of views reported by Plato and others.",
+      },
+      {
+        page: 7, kind: "disputed",
+        claim: "John 1:3 ends with ὃ γέγονεν, “that has come into being.”",
+        note: "Ancient and modern editors divide over whether ὃ γέγονεν ends verse 3 or begins verse 4 (“What has come into being in him was life”).",
+      },
+    ],
+    3: [
+      {
+        page: 7, kind: "disputed",
+        claim: "Protagoras meant that each individual is the measure of things.",
+        note: "That is Plato's reading in the Theaetetus; others take ἄνθρωπος to mean humankind.",
+      },
+    ],
+    4: [
+      {
+        page: 7, kind: "uncertain",
+        claim: "Solon visited Croesus.",
+        note: "The meeting is told by Herodotus, but Solon's known dates make it chronologically very difficult; it is best read as a moral tale.",
+      },
+    ],
+    5: [
+      {
+        page: 6, kind: "uncertain",
+        claim: "A wax tablet with the first sentence of the Republic in many orders was found after Plato's death.",
+        note: "The story is reported by Dionysius of Halicarnassus and Diogenes Laertius, centuries later.",
+      },
+      {
+        page: 6, kind: "disputed",
+        claim: "The first word, κατέβην, anticipates the descent into the Cave.",
+        note: "The link is a long-standing reading, not something Plato states.",
+      },
+    ],
+  },
   "LAT 101": {
     1: [
       {
