@@ -1733,6 +1733,33 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 7, kind: "disputed", claim: "The Republic is deeply ironic, as Strauss and Bloom argued.", note: "Many scholars reject this reading and take the ideal city as a serious, if idealized, proposal." },
     ],
   },
+  "BIB 101": {
+    1: [
+      { page: 2, kind: "disputed", claim: "The Qumran community was a group of Essenes.", note: "This is the majority view, but some scholars argue for other identifications or doubt that the scrolls all came from the settlement." },
+      { page: 3, kind: "uncertain", claim: "Proverbs 22:17–24:22 adapts the Egyptian Instruction of Amenemope.", note: "Most scholars accept literary dependence, but its date and direction have been discussed." },
+      { page: 5, kind: "disputed", claim: "The Torah was compiled from the sources J, E, D, and P.", note: "The Documentary Hypothesis remains influential, but many scholars now reject a separate E or prefer models of blocks of tradition; traditional scholars defend Mosaic authorship." },
+    ],
+    2: [
+      { page: 5, kind: "disputed", claim: "The binding of Isaac rejects child sacrifice.", note: "This is one reading among several; the text itself does not say so explicitly." },
+    ],
+    3: [
+      { page: 2, kind: "disputed", claim: "The Exodus preserves a memory of some historical experience.", note: "There is no direct evidence for the Exodus; historians range from those who accept a historical core to those who regard it as a later founding story." },
+      { page: 2, kind: "uncertain", claim: "Ramesses II was the Pharaoh of the Exodus.", note: "The identification is traditional among modern readers but unproven; the Bible does not name the Pharaoh." },
+      { page: 3, kind: "uncertain", claim: "The location of Mount Sinai.", note: "The traditional site at Jebel Musa dates from the fourth century CE; many other sites have been proposed." },
+      { page: 7, kind: "disputed", claim: "The conquest happened as the book of Joshua describes.", note: "Archaeology does not support a swift conquest around 1200 BCE, and Judges presents a different picture; many scholars favor gradual emergence from within Canaan." },
+    ],
+    4: [
+      { page: 2, kind: "disputed", claim: "The extent of David's kingdom.", note: "Archaeologists disagree whether tenth-century Jerusalem was a small highland town or the center of a substantial state." },
+      { page: 2, kind: "uncertain", claim: "David killed Goliath.", note: "2 Samuel 21:19 credits Elhanan with killing Goliath, and the Greek text of 1 Samuel 17–18 is shorter, suggesting the story grew over time." },
+    ],
+    5: [
+      { page: 1, kind: "disputed", claim: "Isaiah 40–55 was written by an anonymous prophet of the exile.", note: "This is the consensus of critical scholarship; traditional interpreters attribute the whole book to Isaiah of Jerusalem." },
+      { page: 2, kind: "disputed", claim: "Persian policy encouraged the final codification of the Torah.", note: "The \"Persian authorization\" theory is debated, and the evidence for it is indirect." },
+      { page: 5, kind: "uncertain", claim: "Job's last words, \"I abhor myself, and repent in dust and ashes.\"", note: "The Hebrew of Job 42:6 is ambiguous and has been translated in several quite different ways." },
+      { page: 7, kind: "disputed", claim: "Daniel was completed around 165 BCE.", note: "This is the view of most critical scholars; traditional interpreters defend a sixth-century date." },
+      { page: 7, kind: "corrected", claim: "A Council of Jamnia closed the Hebrew canon around 90 CE.", note: "Most scholars now regard this as a myth; the rabbinic discussions at Yavneh concerned only the status of particular books." },
+    ],
+  },
   "LAT 101": {
     1: [
       {
