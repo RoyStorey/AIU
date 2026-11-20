@@ -162,6 +162,62 @@ The Benedictine life was a balanced rhythm of prayer, work, and reading, lived i
 > **Pause and consider.** Benedict instructs that guests be received "as Christ." What does this instruction reveal about his understanding of the monastery's relationship to the outside world?`,
     },
     {
+      title: "A Day in the Monastery",
+      body: `## The plan of St. Gall
+
+One of the most remarkable documents of the early Middle Ages is the **Plan of St. Gall**, a large drawing on five sheets of parchment sewn together, made around 820 at the monastery of Reichenau on Lake Constance and sent to the abbot of St. Gall in Switzerland. It shows an ideal Benedictine monastery: a great church at the center, with the **cloister** beside it, surrounded by the dormitory, refectory (dining hall), and storerooms; the abbot's house; a school; a guest house for nobles and another for pilgrims and the poor; an infirmary with its own kitchen, bathhouse, and herb garden; a house for the physician; a novitiate; workshops for shoemakers, saddlers, goldsmiths, and blacksmiths; a brewery, bakery, and mill; barns, stables, and pens for sheep, goats, cows, pigs, and horses; an orchard that doubled as the monks' cemetery; and a vegetable garden. The plan was never built as drawn, but it shows what a great monastery was meant to be: a self-sufficient city of prayer.
+
+## Children of the cloister
+
+Many monks entered the monastery as children. The Rule of St. Benedict (59) allows parents to offer a child to the monastery as an **oblate** ("one offered"), a practice going back to the story of Samuel, whom his mother Hannah dedicated to the Lord (1 Samuel 1). The child was raised and educated in the monastery and was expected to remain for life. Bede, the great Anglo-Saxon scholar, entered the monastery of Wearmouth at the age of seven and spent the rest of his life there. Child oblation provided monasteries with recruits and noble families with a respectable place for younger children. It was criticized in the twelfth century, and the new orders, such as the Cistercians, accepted only adults.
+
+## Silence and signs
+
+The Rule's emphasis on **silence** led monasteries to develop systems of **sign language** for communicating necessary information without speaking. Lists of signs survive from Cluny and other monasteries, with hundreds of signs for food, objects, people, and actions: for bread, the monk made a circle with his thumbs and fingers; for fish, he moved his hand like a fish's tail; for the abbot, he held two fingers to his head like horns, recalling the horns of Moses in medieval art.
+
+## The day
+
+A monk's day followed the hours of the Office and the seasons. In winter, the monks rose around 2 a.m. for Vigils, the long night office, and then had time for reading before Lauds at dawn. The morning was divided among the shorter hours, the community Mass, work, and reading. The one main meal came in the early afternoon in winter, and in summer there were two meals and a nap. After Vespers and a reading, the monks sang Compline and went to bed at dusk, sleeping in their clothes in a common dormitory, so as to be ready to rise for the night office. On fast days, the meal was delayed until after None.
+
+## The chapter
+
+Each morning, the monks gathered in the **chapter house**, so called because a chapter of the Rule was read there. The abbot or prior addressed the community, business was transacted, and monks confessed their faults publicly or were accused by others, receiving penances. This "chapter of faults" was a central element of monastic discipline.
+
+## The infirmary
+
+Benedict's command to care for the sick "as Christ himself" was realized in the **infirmary**, where sick and elderly monks were allowed meat, warmth, and rest. Monastic infirmaries, with their herb gardens and medical books, were among the few places in the early medieval West where medical knowledge was preserved and practiced. Hildegard of Bingen's medical works drew on this tradition.
+
+> **Pause and consider.** The Plan of St. Gall shows a monastery as a self-sufficient city. Why might Benedict have wanted his monks to have everything they needed within the walls?`,
+    },
+    {
+      title: "Monasteries, Land, and Wealth",
+      body: `## Great landowners
+
+Over the centuries, monasteries became some of the greatest **landowners** in Europe. Kings and nobles gave them land in return for prayers, burial, or the admission of their children. Smaller landowners gave plots or paid rents. A great abbey might own tens of thousands of acres scattered across many regions, worked by thousands of peasants, many of them unfree serfs bound to the land.
+
+## The monastic economy
+
+Monasteries were centers of **economic** activity. They managed estates, introduced improved methods of agriculture, drained marshes, cleared forests, built mills, and developed vineyards and breweries; the monks of Burgundy, for example, shaped the region's famous wine country, and some monastic breweries survive to this day. They kept records of their lands, rents, and dues in **cartularies** and **polyptychs**, which are among the most important sources for medieval economic history. The ninth-century polyptych of Abbot **Irminon** of Saint-Germain-des-Prés near Paris lists the abbey's estates and the names and obligations of thousands of peasant families.
+
+## Wealth and its dangers
+
+Wealth created problems. Monks vowed to personal **poverty**: the Rule forbids a monk to own anything, "not a book, nor tablets, nor a pen" (33). But the monastery as an institution could be very rich. Rich monasteries attracted the greed of lords who sought to control them, and the worldliness of abbots who lived like nobles. The cycle of **decline and reform** runs through monastic history: a monastery is founded in fervor and poverty; it attracts gifts and grows rich; it becomes lax; a reformer calls it back to the Rule, or founds a new, stricter community, which in turn grows rich. Cluny, founded to reform, was criticized for its wealth; the Cistercians, founded to return to simplicity, became, through their efficient agriculture, among the richest landowners in Europe.
+
+## The Cistercian paradox
+
+The **Cistercians**, whom we meet in Lesson III, illustrate this paradox clearly. They refused to accept rents, serfs, or tithes, and settled in remote, uncultivated places, working the land themselves with the help of **lay brothers** (*conversi*), men of peasant origin who took vows but were not choir monks. Their discipline, labor, and efficient farming, especially sheep farming for wool, made them wealthy. By the thirteenth century, critics accused them of greed. The English writer **Gerald of Wales** complained that they were good neighbors but bad landlords, swallowing up the lands around them.
+
+## Monasteries and the poor
+
+Monasteries were also the chief source of **charity** in the countryside. They distributed food at their gates, maintained hospitals and guest houses, and cared for the sick and the old. Many had a dedicated almoner, responsible for alms. When the monasteries of England were dissolved by Henry VIII in the 1530s, critics complained that the poor had lost their main source of relief.
+
+## Monks and the world
+
+The relationship between monasteries and the world was always complex. Monks fled the world, yet depended on it for land, gifts, and recruits. They prayed for the world, yet were drawn into its politics and economy. Abbots were often great lords, sitting in royal councils and raising soldiers for the king's army. This tension between withdrawal and engagement was never fully resolved, and it shaped the monasteries' history throughout the Middle Ages.
+
+> **Pause and consider.** The Rule forbids monks to own anything, yet monasteries became immensely rich. How can this paradox be explained? Is it a failure of the ideal or a consequence of it?`,
+    },
+    {
       title: "Cassiodorus and the Preservation of Learning",
       body: `## A Roman statesman
 
@@ -253,7 +309,7 @@ Cluny and other reformed monasteries supported the **Peace of God** and **Truce 
 
 ## Criticism
 
-By the twelfth century, Cluny's wealth and splendor provoked criticism. **Bernard of Clairvaux**, the great Cistercian abbot, attacked the Cluniacs in his *Apologia* (c. 1125) for their rich food, fine clothes, and lavish churches, filled with gold and fantastic sculptures of monsters, which, he said, distracted monks from prayer and robbed the poor: "The church's walls are aglow, but its poor are in need." The **Cistercians**, founded at Cîteaux in 1098, sought to return to the simplicity of Benedict's Rule, with plain churches, manual labor, and remote locations. We will meet them in Lesson III.
+By the twelfth century, Cluny's wealth and splendor provoked criticism. **Bernard of Clairvaux**, the great Cistercian abbot, attacked the Cluniacs in his *Apologia* (c. 1125) for their rich food, fine clothes, and lavish churches, filled with gold and fantastic sculptures of monsters, which, he said, distracted monks from prayer while the poor went hungry: the church's walls shone with gold, and its poor were left in need. The **Cistercians**, founded at Cîteaux in 1098, sought to return to the simplicity of Benedict's Rule, with plain churches, manual labor, and remote locations. We will meet them in Lesson III.
 
 ## Monasteries and society
 
