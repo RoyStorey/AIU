@@ -257,6 +257,38 @@ The long labor ends not in triumph but in prayer, confessing that our many words
 > **Pause and consider.** Augustine called the Spirit the "bond of love" between Father and Son. What is attractive about this idea? What might an Eastern theologian find troubling in it?`,
     },
     {
+      title: "Preaching the Trinity",
+      body: `## A bishop's pulpit
+
+*On the Trinity* was written for educated readers. But Augustine was first of all a pastor, preaching several times a week to a congregation in Hippo of dockworkers, farmers, merchants, slaves, and their families. How did he teach the Trinity to them? His **sermons** and his **Tractates on the Gospel of John**, preached to his people, show the same theology in simpler form.
+
+## Sermon 52
+
+A good example is **Sermon 52**, preached around 410 on the Gospel account of Jesus's baptism. Augustine begins with the scene we discussed in Lesson I: the Son in the water, the Spirit descending as a dove, the Father's voice from heaven. Here, he says, the Trinity is clearly shown, each person distinctly: the Son in his flesh, the Spirit in the dove, the Father in the voice.
+
+But this raises a difficulty, which Augustine expects his hearers to feel. The Catholic faith teaches that the three are inseparable and act inseparably. Yet at the baptism they appear separately. How can this be?
+
+Augustine answers that what appears separately are the created signs—the flesh, the dove, the voice—which the whole Trinity produced together, each sign manifesting one person. Then he offers his hearers an analogy from their own minds. When I say the word "memory," he tells them, I am naming memory; but to say the word I need my memory, my understanding, and my will together. All three produce the word "memory," yet the word names only one of them. So, too, the whole Trinity produces the voice, yet the voice signifies the Father.
+
+## Modesty
+
+Augustine is careful to tell his hearers that this is only an analogy, and an imperfect one. Their mind is not God; its three powers are not three persons. He offers it, he says, not as a proof, but so that they may see that what seems impossible in God is not impossible even in themselves: three things, distinct, yet working inseparably. He ends by urging them to believe what they cannot fully understand, and to purify their hearts so that they may one day see.
+
+## Tractates on John
+
+In his **Tractates on the Gospel of John** (c. 406–420), Augustine preached through the whole Gospel to his congregation. Many passages concern the relation of the Father and the Son: "I and my Father are one," "the Son can do nothing of himself," "my Father is greater than I." Augustine explained them with the same principles as in *On the Trinity*: texts about the "form of God" and the "form of a servant," and texts about the Son's origin from the Father. He constantly drew his hearers' attention from the words to the reality: "Lift up your hearts," he would say, using the words of the eucharistic liturgy.
+
+## Theology for all
+
+These sermons show that, for Augustine, the doctrine of the Trinity was not reserved for scholars. It was the faith of every baptized Christian, confessed in the creed, sung in the liturgy, and preached from the pulpit. Ordinary believers could not follow the intricate arguments of Books 5–7, but they could understand that the God they worshipped was one, that the Father, the Son, and the Spirit were each truly God, and that the life of faith was a journey toward seeing what they now believed. Augustine's preaching combined intellectual seriousness with pastoral warmth, and many readers find his sermons the best introduction to his thought.
+
+## A lesson for teachers
+
+Augustine's practice suggests a lesson for anyone who teaches the doctrine of the Trinity. Begin with Scripture and the experience of worship. Offer analogies, but explain their limits. Avoid both the arrogance that claims to explain the mystery and the despair that refuses to think about it. And remember that the purpose of the doctrine is not intellectual mastery but the love of God. As Augustine told his congregation in another sermon: "If you have understood, it is not God."
+
+> **Pause and consider.** How does Augustine adapt his theology for a popular audience in Sermon 52? What does he keep, and what does he simplify?`,
+    },
+    {
       title: "The Filioque and the Division of East and West",
       body: `## An addition to the creed
 
