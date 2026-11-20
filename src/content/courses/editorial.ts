@@ -1988,6 +1988,20 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 3, kind: "disputed", claim: "How much of There Is a God (2007) was Flew's own work.", note: "Critics questioned it; Flew stood by the conclusions. The lesson reports both." },
     ],
   },
+  "PHR 201": {
+    2: [
+      { page: 3, kind: "disputed", claim: "That the first way concerns essentially ordered series in the present, not a beginning in time.", note: "This is the standard Thomist reading, defended by Feser; some interpreters read Aquinas's argument differently. The lesson presents the Thomist reading and its critics." },
+    ],
+    3: [
+      { page: 10, kind: "disputed", claim: "Whether Big Bang cosmology shows that the universe began to exist.", note: "The Borde–Guth–Vilenkin theorem and the standard model point toward a past boundary; quantum gravity and alternative models leave the question open. The lesson gives both." },
+    ],
+    4: [
+      { page: 6, kind: "uncertain", claim: "How finely the physical constants are tuned.", note: "Estimates depend on contested assumptions about the range of possible values (the normalization problem). The lesson describes the examples as physicists' estimates." },
+    ],
+    5: [
+      { page: 6, kind: "disputed", claim: "That Plantinga's free will defense answered the logical problem of evil.", note: "This is the majority view, and Mackie conceded much of it; some philosophers still contest it. The lesson reports both." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
