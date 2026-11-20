@@ -195,6 +195,46 @@ The medieval Inquisition should be distinguished from the later **Spanish Inquis
 > **Pause and consider.** The records of the Inquisition at Montaillou became a priceless source for ordinary medieval lives. How should historians use sources produced by persecutors?`,
     },
     {
+      title: "Jews in Medieval Christendom",
+      body: `## Witnesses
+
+The crusades and the Fourth Lateran Council, as we have seen, marked a hardening of Christian attitudes toward **Jews** in medieval Europe. To understand this, we need to see the longer history of the Jewish communities of Christendom and the church's teaching about them.
+
+## Augustine's doctrine
+
+The church's official attitude to the Jews was shaped by **Augustine**. In *The City of God* (18.46), commenting on Psalm 59:11, "Slay them not, lest my people forget: scatter them by thy power," he argued that the Jews should not be killed or forcibly converted. Their dispersion among the nations, and their preservation of the Scriptures that prophesied Christ, made them **witnesses** to the truth of Christianity, even as they rejected it. They were to be preserved, but in a subordinate condition, as a sign of their error. This doctrine, sometimes called the "**witness doctrine**," protected Jews from extermination while justifying their subordination.
+
+## Papal protection
+
+Building on this doctrine, popes issued a bull of protection known by its opening words, ***Sicut Judaeis***, first by **Calixtus II** around 1120 and reissued by many later popes. It forbade Christians to force Jews to be baptized, to kill or injure them, to rob them, to disturb their festivals, or to desecrate their cemeteries. The popes, and many bishops and kings, protected Jews as a matter of law, though often to exploit them financially. In practice, protection depended on the will and power of local rulers.
+
+## Communities
+
+For much of the early and high Middle Ages, Jews lived in towns across Europe, especially in the Rhineland, northern France, England, Italy, and Spain, where the Jewish communities of al-Andalus and later Christian Spain produced a golden age of learning, poetry, and philosophy, including **Maimonides**, whom we met in SYS 101. Jewish scholars in northern France and Germany, such as **Rashi** of Troyes (1040–1105), wrote commentaries on the Bible and the Talmud that are still studied today. Jews were often merchants and, as Christian law increasingly barred Christians from lending money at interest, moneylenders, a role that made them useful to rulers and resented by debtors.
+
+## Deterioration
+
+From the late eleventh century, the situation of the Jews deteriorated. Historians point to several developments:
+
+- the **crusade massacres**, beginning in the Rhineland in 1096;
+- the **blood libel**: the accusation, first made at **Norwich** in England in 1144 after the death of a boy named William, that Jews ritually murdered Christian children. The accusation spread across Europe, leading to massacres. Popes, including **Innocent IV** in 1247, condemned it as false, but it persisted for centuries;
+- accusations of **host desecration**: that Jews stole and abused the consecrated host, a charge connected with the new emphasis on the Eucharist after Lateran IV;
+- the **Fourth Lateran Council**'s decree requiring distinctive dress, and other restrictions;
+- attacks on the **Talmud**: in 1240, a disputation in Paris put the Talmud on trial, and in 1242 some 24 cartloads of Talmud manuscripts were burned in Paris;
+- **expulsions**: Jews were expelled from England in **1290** by Edward I, from France in **1306** and again in 1394, and from Spain in **1492**, by Ferdinand and Isabella, an expulsion that ended one of the greatest Jewish communities in history;
+- during the **Black Death** of 1348–1349, which we study in Lesson V, Jews were accused of poisoning wells, and hundreds of communities in the Rhineland and elsewhere were massacred, despite Pope Clement VI's bulls declaring them innocent.
+
+## The persecuting society
+
+The historian **R. I. Moore**, in *The Formation of a Persecuting Society* (1987), argued that in the period from about 950 to 1250, Western Europe became a "persecuting society," systematically defining and persecuting outsiders—heretics, Jews, lepers, and others—as part of the growth of centralized church and state power. Others have qualified his thesis, but it has helped historians see the connections between the persecution of different groups in this period.
+
+## A painful legacy
+
+The medieval treatment of the Jews is a painful part of the history of the church. It shaped Christian attitudes that contributed, centuries later, to the catastrophe of the Holocaust. As we saw in BIB 110 and SYS 101, the Second Vatican Council's declaration *Nostra Aetate* (1965) rejected the charge that the Jewish people were responsible for the death of Christ, and many churches have since repented of the "teaching of contempt." Understanding its medieval history is part of that repentance.
+
+> **Pause and consider.** Augustine's "witness doctrine" protected Jews from being killed while justifying their subordination. How did this double message shape their medieval history?`,
+    },
+    {
       title: "Francis and Clare of Assisi",
       body: `## A merchant's son
 
