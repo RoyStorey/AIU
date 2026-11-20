@@ -46,7 +46,7 @@ The novels of the Renaissance were long neglected, and some have been rediscover
 
 **Jessie Redmon Fauset** (1882–1961) was, as we saw in Lesson I, the literary editor of *The Crisis* from 1919 to 1926, who discovered and published many young writers. She was also the most productive Black novelist of the 1920s, with four novels: *There Is Confusion* (1924), *Plum Bun* (1928), *The Chinaberry Tree* (1931), and *Comedy, American Style* (1933).
 
-Fauset was born in New Jersey and raised in Philadelphia, in a respectable but not wealthy family; her father was a minister of the African Methodist Episcopal Church. She graduated from Cornell University in 1905, probably the first Black woman to be elected to Phi Beta Kappa there, and later studied at the University of Pennsylvania and the Sorbonne. She taught French at Dunbar High School in Washington for many years before joining *The Crisis*. After leaving the magazine, she returned to teaching in New York, and married in 1929.
+Fauset was born in New Jersey and raised in Philadelphia, in a respectable but not wealthy family; her father was a minister of the African Methodist Episcopal Church. She graduated from Cornell University in 1905, and is often said to have been the first Black woman elected to Phi Beta Kappa there, and later studied at the University of Pennsylvania and the Sorbonne. She taught French at Dunbar High School in Washington for many years before joining *The Crisis*. After leaving the magazine, she returned to teaching in New York, and married in 1929.
 
 ## Why she wrote
 
@@ -183,9 +183,43 @@ Since the 1980s, critics such as **Deborah McDowell** have pointed to an undercu
 
 ## Larsen's silence
 
-After *Passing*, Larsen became the first Black woman to win a Guggenheim Fellowship (1930), and traveled to Spain and France to work on a third novel. But in 1930 she was accused of plagiarism: her short story "Sanctuary," published in *Forum*, closely resembled a story by the English writer Sheila Kaye-Smith. Larsen defended herself, and the magazine accepted her explanation, but the charge damaged her. Her marriage collapsed in a painful divorce in 1933. She never published again. She returned to nursing, working in New York hospitals for the rest of her life, and was largely forgotten. She died alone in her Brooklyn apartment in 1964.
+After *Passing*, Larsen became the first African American woman to win a Guggenheim Fellowship for creative writing (1930), and traveled to Spain and France to work on a third novel. But in 1930 she was accused of plagiarism: her short story "Sanctuary," published in *Forum*, closely resembled a story by the English writer Sheila Kaye-Smith. Larsen defended herself, and the magazine accepted her explanation, but the charge damaged her. Her marriage collapsed in a painful divorce in 1933. She never published again. She returned to nursing, working in New York hospitals for the rest of her life, and was largely forgotten. She died alone in her Brooklyn apartment in 1964.
 
 > **Pause and consider.** Who is the real subject of *Passing*: Clare or Irene? How does your answer affect your reading of the ending?`,
+    },
+    {
+      title: "Passing in History and Law",
+      body: `## The one-drop rule
+
+To understand why passing mattered so much to the novelists of the 1920s, we need to understand the legal and social system of racial classification in the United States. By the early twentieth century, most Southern states, and American custom generally, had adopted what came to be called the "**one-drop rule**": any person with any known African ancestry was legally and socially Black, regardless of appearance. In 1924, Virginia's **Racial Integrity Act** defined a white person as one with "no trace whatsoever of any blood other than Caucasian" (with an exception for a small fraction of American Indian ancestry, to protect elite families who claimed descent from Pocahontas), and forbade marriage between whites and anyone else.
+
+The Supreme Court, in **Plessy v. Ferguson** (1896), had upheld segregation in railway cars. Homer Plessy, the plaintiff, was seven-eighths white and could pass; his challenge was designed precisely to expose the absurdity of classifying a man who looked white as Black. The Court did not engage the question, leaving the states to define race as they wished.
+
+## Why people passed
+
+Under such a system, a person of mixed ancestry who could be taken for white faced a choice. Passing offered access to jobs, housing, education, travel, and safety denied to Black people. Some passed temporarily—to get a job, eat in a restaurant, or ride in a Pullman car—and returned home at night. Others crossed the line permanently, moving to a new city, cutting off family, and raising children who might never know their ancestry. The numbers are impossible to know; estimates by contemporaries ranged from a few thousand to tens of thousands a year. Historians such as **Allyson Hobbs**, in *A Chosen Exile* (2014), have emphasized the losses passing entailed: of family, community, and the self one had been.
+
+## Walter White's investigations
+
+Passing could also be a weapon. **Walter White** (1893–1955), a blond, blue-eyed man of mostly European ancestry who identified as Black, worked for the NAACP from 1918 and became its executive secretary in 1931. In the late 1910s and 1920s he investigated dozens of lynchings and race riots in the South, including the Elaine massacre of 1919, by passing as a white journalist or businessman. White men told him freely what they would never have told a Black investigator. His reports, and his book *Rope and Faggot: A Biography of Judge Lynch* (1929), were among the most important documents of the anti-lynching campaign.
+
+White was also a novelist of the Renaissance. *The Fire in the Flint* (1924) tells of a Black doctor who returns to his Georgia hometown and is lynched; *Flight* (1926) follows a light-skinned woman who passes for white and finally returns to her people. White was one of the bridges between the Renaissance's literature and its politics.
+
+## The Rhinelander case
+
+One real case haunts Larsen's *Passing*. In 1924, **Leonard Kip Rhinelander**, the son of a wealthy New York family, married **Alice Jones**, a working-class woman whose father was a man of color from the West Indies. Under pressure from his family, Rhinelander sued for annulment, claiming that Alice had deceived him by concealing her race. The trial, in 1925, was a national sensation. In the most notorious moment, Alice's lawyer had her partially undress before the jury, to show that her husband must have known her color from their intimacy. The jury found that Rhinelander had known she was not white, and refused the annulment.
+
+Larsen refers to the case directly in *Passing*: Irene, thinking about what would happen if Clare's husband discovered her secret, recalls the Rhinelander case. The allusion shows how close the novel's drama lay to the headlines of the day, and how dangerous the discovery of a woman's ancestry could be.
+
+## Passing in literature
+
+Passing was one of the great themes of Black American fiction from the nineteenth century onward: in William Wells Brown's *Clotel* (1853), Frances Harper's *Iola Leroy* (1892), Charles Chesnutt's *The House Behind the Cedars* (1900), and James Weldon Johnson's *The Autobiography of an Ex-Colored Man* (1912), whose narrator, after witnessing a lynching, decides to pass and live as a white man, and ends by saying that he has sold his birthright for a mess of pottage. The Renaissance novels of Fauset, White, and Larsen inherited this tradition and pushed it in new directions, especially by focusing on women and on the inner, psychological cost of passing.
+
+## What passing reveals
+
+Passing reveals the fiction at the heart of American racial classification. If race were a natural fact, visible to the eye, passing would be impossible. That it was common shows that race, as Americans defined it, was a social and legal construction, enforced by law, custom, and violence. The novelists of the Renaissance understood this, and used the figure of the passer to make their readers see it.
+
+> **Pause and consider.** How does the Rhinelander case illuminate the danger Clare faces in *Passing*? Why might Larsen have chosen to allude to it?`,
     },
     {
       title: "Fire!! and the Younger Rebels",
@@ -197,7 +231,7 @@ In the summer of 1926, a group of younger writers decided to publish a magazine 
 
 *Fire!!* appeared in November 1926. Its contents were deliberately provocative. Thurman's story "**Cordelia the Crude**" portrayed a young prostitute in Harlem. Hurston contributed the story "**Sweat**," about a washerwoman, Delia, abused by her husband, who tries to kill her with a rattlesnake and dies from its bite himself—now one of her most widely read stories—and a play, *Color Struck*, about prejudice against dark skin within the Black community. Hughes contributed poems, including "Elevator Boy." Nugent's "**Smoke, Lilies and Jade**," a stream-of-consciousness prose piece about a young artist's love for both a woman and a man, is often cited as the first published work by a Black American writer to depict same-sex desire openly.
 
-The editors announced their intention to "burn up a lot of the old, dead conventional Negro-white ideas of the past."
+As Hughes later recalled in *The Big Sea*, they hoped to "burn up a lot of the old, dead conventional Negro-white ideas of the past."
 
 ## The response
 
@@ -207,7 +241,7 @@ The response from the Black establishment was hostile. A reviewer in the *Baltim
 
 **Wallace Thurman** (1902–1934) was the brilliant, cynical, and self-destructive center of the younger group. Born in Salt Lake City, he came to Harlem in 1925 and worked as an editor and ghostwriter. He was very dark-skinned, and suffered from the prejudice of lighter-skinned Black people against dark skin—"colorism"—which became the subject of his first novel, ***The Blacker the Berry*** (1929). Its heroine, Emma Lou Morgan, is rejected by her family, her college classmates, and the men of Harlem because of her dark skin, until she learns to accept herself. The novel's title comes from a folk saying, "The blacker the berry, the sweeter the juice."
 
-Thurman's second novel, ***Infants of the Spring*** (1932), is a satire of the Renaissance itself. Set in a rooming house nicknamed "Niggerati Manor," after the group's in-joke, it portrays a group of young artists who drink, talk, and party, but produce little. In one scene, a gathering of writers modeled on the actual figures of the Renaissance holds a meeting at which they argue fruitlessly about the future of Black art. The novel expresses Thurman's disillusionment with a movement he felt had produced too much talk and too little genuine art, and had been corrupted by white patronage and racial self-consciousness. Thurman died of tuberculosis in 1934, at thirty-two.
+Thurman's second novel, ***Infants of the Spring*** (1932), is a satire of the Renaissance itself. Set in a rooming house named, in the novel, after the group's mocking nickname, it portrays a group of young artists who drink, talk, and party, but produce little. In one scene, a gathering of writers modeled on the actual figures of the Renaissance holds a meeting at which they argue fruitlessly about the future of Black art. The novel expresses Thurman's disillusionment with a movement he felt had produced too much talk and too little genuine art, and had been corrupted by white patronage and racial self-consciousness. Thurman died of tuberculosis in 1934, at thirty-two.
 
 ## Richard Bruce Nugent
 
@@ -218,6 +252,34 @@ Thurman's second novel, ***Infants of the Spring*** (1932), is a satire of the R
 The story of *Fire!!* points to an important dimension of the Renaissance that was long ignored: the presence of gay and lesbian writers and artists, and the queer culture of Harlem in the 1920s. Alain Locke, Countee Cullen, Wallace Thurman, Richard Bruce Nugent, and Claude McKay are among those whose sexuality scholars have explored, along with performers like the blues singers Ma Rainey, Gladys Bentley, and Bessie Smith. Harlem's drag balls drew thousands of spectators. Historians such as **George Chauncey**, in *Gay New York* (1994), have documented this world. Its existence complicates any picture of the Renaissance as simply a movement of racial uplift.
 
 > **Pause and consider.** Why might the younger writers have felt the need for a magazine of their own? What did they want to "burn up"?`,
+    },
+    {
+      title: "The Short Story",
+      body: `## A form for magazines
+
+Much of the best fiction of the Harlem Renaissance was written not in novels but in short stories. The magazines—*The Crisis*, *Opportunity*, *The Messenger*, and the little magazines of the avant-garde—needed stories, and their prize contests rewarded them. A story could be written quickly, published soon, and read by a large audience. Many writers of the period, including Hurston, Fisher, Hughes, and Dorothy West, did some of their finest work in the form.
+
+## Rudolph Fisher's "The City of Refuge"
+
+Rudolph Fisher's "**The City of Refuge**," published in *The Atlantic Monthly* in February 1925—one of the first stories by a Black writer to appear in that prestigious magazine—follows King Solomon Gillis, a migrant from North Carolina who has fled to Harlem after shooting a white man. Arriving at 135th Street, he is dazzled by the sight of Black people everywhere, and even a Black policeman directing traffic. Harlem seems to him a city of refuge, like the cities of refuge in the Old Testament where a man who had killed could find sanctuary. But a smooth-talking fellow Southerner exploits him, using him to sell drugs, and the story ends with his arrest by the same Black policeman he had admired. Fisher's story captures both the promise of Harlem for the migrant and its dangers, with sympathy and irony.
+
+## Eric Walrond's Tropic Death
+
+**Eric Walrond** (1898–1966), born in British Guiana and raised in Barbados and Panama, came to New York in 1918 and worked as a journalist, including for Garvey's *Negro World* and later for *Opportunity*. His collection ***Tropic Death*** (1926) contains ten stories set in the Caribbean and the Panama Canal Zone, where tens of thousands of West Indian laborers had worked and died building the canal. Written in a dense, impressionistic style full of Caribbean speech, the stories portray drought, hunger, disease, and the violence of colonial and American rule. Many end in death. *Tropic Death* is one of the most formally daring books of the period, and a reminder that the Renaissance was a movement of the whole Black diaspora, not only of Black Americans.
+
+## Dorothy West
+
+**Dorothy West** (1907–1998), from a prosperous Black family in Boston, came to New York at eighteen after her story "**The Typewriter**" won a prize in *Opportunity*'s 1926 contest. The story concerns a weary, middle-aged janitor who, while helping his daughter practice typing, pretends to be a businessman dictating letters, and comes to live in the fantasy, until it is taken from him. West became the youngest member of the Renaissance circle. In the 1930s she founded the magazine *Challenge* to revive its spirit. Her novel *The Living Is Easy* (1948) portrays Boston's Black middle class. She lived long enough to publish a second novel, *The Wedding* (1995), and to be celebrated as the last survivor of the Harlem Renaissance.
+
+## Hughes's stories
+
+Langston Hughes wrote stories throughout his career. His collection *The Ways of White Folks* (1934), written just after the Renaissance, contains bitter and witty stories about the relations between Black people and white patrons, employers, and lovers. Some, like "Slave on the Block," satirize white enthusiasts for Black culture who love the "primitive" but cannot see the people in front of them—a theme drawn from his own experience with Charlotte Osgood Mason.
+
+## Why the short story?
+
+The short story suited the Renaissance for several reasons. It could capture a single moment of revelation or crisis—the migrant's first day in Harlem, the janitor's lost dream. It drew on oral traditions of storytelling, as Hurston's stories did. It was open to experiment, as Walrond's were. And it reached readers through the magazines, which were the lifeblood of the movement. Reading the stories alongside the novels gives a fuller picture of the range of Renaissance fiction.
+
+> **Pause and consider.** Why might Fisher have titled his story "The City of Refuge"? How does the title's biblical meaning shape the irony of the ending?`,
     },
     {
       title: "Satire and Its Uses",
@@ -267,7 +329,7 @@ Satire played a special role in the Renaissance. It allowed writers to stand bac
 
 ## 2. Du Bois on Home to Harlem (1928)
 
-> *Home to Harlem*, on the whole, nauseates me, and after the dirtier parts of its filth I feel distinctly like taking a bath.
+> *Home to Harlem* … for the most part nauseates me, and after the dirtier parts of its filth I feel distinctly like taking a bath.
 >
 > — *The Crisis*, June 1928
 
@@ -287,7 +349,7 @@ Read the opening chapter, in which Irene recalls her meeting with Clare in the r
 
 ## 4. The editors of Fire!! (1926)
 
-The editors described their aim as to "burn up a lot of the old, dead conventional Negro-white ideas of the past."
+As Hughes recalled it, the group's aim was to "burn up a lot of the old, dead conventional Negro-white ideas of the past."
 
 **Questions**
 
