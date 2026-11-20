@@ -71,7 +71,7 @@ As we saw in SYS 101, Irenaeus understood salvation as **recapitulation**: the S
 
 Irenaeus also gave one of the earliest statements of the **rule of faith**, the summary of belief held by the churches:
 
-> The Church, though dispersed through our the whole world, even to the ends of the earth, has received from the apostles and their disciples this faith: in one God, the Father Almighty, Maker of heaven, and earth, and the sea, and all things that are in them; and in one Christ Jesus, the Son of God, who became incarnate for our salvation; and in the Holy Spirit, who proclaimed through the prophets the dispensations of God.
+> The Church, though dispersed throughout the whole world, even to the ends of the earth, has received from the apostles and their disciples this faith: in one God, the Father Almighty, Maker of heaven, and earth, and the sea, and all things that are in them; and in one Christ Jesus, the Son of God, who became incarnate for our salvation; and in the Holy Spirit, who proclaimed through the prophets the dispensations of God.
 >
 > — Irenaeus, *Against Heresies* 1.10.1, trans. A. Roberts and W. H. Rambaut (1868)
 
@@ -283,6 +283,34 @@ Athanasius at first used the word ***homoousios*** sparingly. But in the 350s, i
 In his *Letters to Serapion* (c. 359–361), Athanasius also defended the full divinity of the **Holy Spirit** against a group in Egypt, whom he called the "Tropici," who regarded the Spirit as a creature, a kind of angel. He argued that the Spirit sanctifies and deifies; a creature cannot do this. The Spirit is the Spirit of the Son, belonging to the one Godhead. The Trinity, he wrote, is not a "mixture" of creator and creature, but wholly divine.
 
 > **Pause and consider.** Athanasius argued that God would once have been "without his Word and Wisdom" if the Son had a beginning. Why is this argument powerful? Does it depend on identifying the Son with Word and Wisdom?`,
+    },
+    {
+      title: "Eusebius and Marcellus: The Middle and the Edges",
+      body: `## Not two sides
+
+The fourth-century controversy is often told as a struggle between two sides, Arians and Nicenes. In fact most bishops stood somewhere in between, and the defenders of Nicaea had to worry about errors on their own side as well as on the Arian side. Two figures show this: **Eusebius of Caesarea**, who stood in the middle, and **Marcellus of Ancyra**, a fierce ally of Athanasius whose teaching came to look like modalism.
+
+## Eusebius of Caesarea
+
+**Eusebius** (c. 260–339), bishop of Caesarea in Palestine, is best known as the first great historian of the church, the author of the *Ecclesiastical History*, from which we have quoted Papias and others in earlier courses. He was a devoted student of Origen, and his theology was Origenist: he held that the Son is eternally begotten, divine, and the image of the Father, but subordinate to him, a "second God." Before Nicaea, he had sympathized with Arius, and was provisionally excommunicated by a council at Antioch early in 325.
+
+At Nicaea, Eusebius signed the creed. Afterward he wrote a letter to his church in Caesarea explaining why. He interpreted *homoousios* cautiously: it meant, he said, that the Son is from the Father and not like the creatures, but not that the Father's substance was divided or changed. Many bishops seem to have signed Nicaea in this spirit: willing to reject Arius's extreme statements, but uneasy with *homoousios*, which they interpreted in a minimal sense. Eusebius also wrote a famous *Life of Constantine*, celebrating the emperor as God's chosen servant, which shaped the idea of a Christian empire.
+
+## Marcellus of Ancyra
+
+On the other side stood **Marcellus**, bishop of Ancyra (modern Ankara), a strong supporter of Nicaea and of Athanasius. Marcellus was so determined to defend the unity of God against Arian ideas of a "second God" that he went to the opposite extreme. He taught that before creation there was only the one God, with his Word existing within him as his reason, not as a distinct person. The Word "went forth" to create, and became "Son" only at the incarnation. At the end of time, according to 1 Corinthians 15:28 ("then shall the Son also himself be subject unto him … that God may be all in all"), the Son would hand back the kingdom, and the Word would return into God, so that God would again be simply one.
+
+## The danger of Marcellus
+
+To many Eastern bishops, Marcellus confirmed their worst fears about *homoousios*: that it led to Sabellianism, the denial of the Son's distinct, eternal existence. His teaching was condemned by several Eastern councils. Yet the bishop of Rome, Julius, and Athanasius continued to support him for many years, which made Eastern bishops suspicious of the whole Nicene party. Only later did Athanasius distance himself. The Council of Constantinople in 381 explicitly condemned the followers of Marcellus, and the creed associated with it included a phrase aimed at him: Christ's kingdom "**shall have no end**," from Luke 1:33.
+
+## Why it matters
+
+The cases of Eusebius and Marcellus show why the fourth-century controversy was so long and complex. The question was not simply whether the Son was divine, but how to affirm both the full divinity of the Son and his real, eternal distinction from the Father. Arians preserved the distinction by denying full divinity. Marcellus preserved full divinity by blurring the distinction. Most bishops wanted to avoid both errors but lacked the vocabulary to do so. They feared that *homoousios* meant Marcellus's position, and that rejecting it meant Arius's.
+
+The solution would come from the Cappadocians, who provided a vocabulary that affirmed both at once: one *ousia*, three *hypostases*. Their achievement, studied in Lesson III, was to show that the Nicene faith did not lead to Sabellianism, and so to win over the bishops of the middle, like those who had followed Eusebius.
+
+> **Pause and consider.** Why might Marcellus's teaching have made Eastern bishops more, not less, suspicious of the Nicene creed? What does this suggest about how allies can harm a cause?`,
     },
     {
       title: "After Nicaea: The Long Struggle",
