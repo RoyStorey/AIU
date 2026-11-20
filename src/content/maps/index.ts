@@ -12,4 +12,5 @@ export const MAPS: Record<string, () => Promise<{ default: MapSpec }>> = {
   "meh-101-roman-persian-war": () => import("./meh-101-roman-persian-war"),
   "euh-301-road-to-war": () => import("./euh-301-road-to-war"),
   "meh-101-arab-conquests": () => import("./meh-101-arab-conquests"),
+  "bib-110-journeys-of-paul": () => import("./bib-110-journeys-of-paul"),
 };

@@ -1860,6 +1860,35 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "BIB 110": {
+    1: [
+      { page: 2, kind: "disputed", claim: "P52 has often been dated to the first half of the second century.", note: "The date rests on handwriting alone. Some papyrologists (for example Brent Nongbri, 2005) argue that a range reaching to the late second century or beyond is more honest; the lesson gives both views." },
+      { page: 3, kind: "uncertain", claim: "The ossuary inscribed \"Joseph son of Caiaphas\" was probably the high priest's.", note: "Most archaeologists accept the identification, but the name was not unique and the reading of the inscription has been questioned; the lesson says \"probably.\"" },
+      { page: 4, kind: "uncertain", claim: "The excavators argued that the house beneath the octagonal church at Capernaum was venerated as Peter's.", note: "The early veneration of the house is well attested; whether it really was Peter's cannot be proved. The lesson attributes the identification to its excavators." },
+      { page: 4, kind: "uncertain", claim: "The Magdala stone is perhaps the earliest image of the menorah found in a synagogue.", note: "It is among the earliest; claims of priority depend on how other finds are dated. The lesson says \"perhaps.\"" },
+    ],
+    2: [
+      { page: 4, kind: "uncertain", claim: "Luke's census under Quirinius poses a historical difficulty.", note: "Josephus dates Quirinius's census to 6 CE, about a decade after Herod's death. Various harmonizations have been proposed; none is generally accepted. The lesson states the problem without resolving it." },
+      { page: 7, kind: "uncertain", claim: "Jesus died probably in 30 or 33.", note: "Both dates fit the governorship of Pilate and the astronomical calendar for a Passover Friday; scholars are divided between them." },
+      { page: 8, kind: "disputed", claim: "The date of the Gospel of Thomas.", note: "Proposals range from the mid-first to the mid-second century, and turn on whether Thomas depends on the Synoptic Gospels. The lesson presents both positions." },
+      { page: 9, kind: "disputed", claim: "A reconstructed core of Josephus's passage on Jesus.", note: "Nearly all scholars think the Greek text was expanded by Christian copyists; a few think the whole passage an interpolation, and others defend more of it. The source excerpt is a paraphrase of a commonly proposed core, and says so." },
+    ],
+    3: [
+      { page: 5, kind: "disputed", claim: "Galatians 2:1–10 describes the same meeting as Acts 15.", note: "This is the majority view. Others identify Galatians 2 with the famine visit of Acts 11:30, which would put Galatians before the council; the lesson mentions this alternative." },
+      { page: 7, kind: "uncertain", claim: "Peter and Paul died as martyrs in Rome under Nero.", note: "The tradition is early (1 Clement, Ignatius, and later writers), but no first-century source describes either death in detail. The lesson calls it tradition." },
+      { page: 8, kind: "disputed", claim: "The Birkat ha-Minim and the expulsion of Christians from the synagogue.", note: "Older scholarship saw a formal decree at Yavneh around 85–90; many historians now doubt both the early wording of the prayer and the rabbis' authority to impose it. The lesson presents the current doubt." },
+    ],
+    4: [
+      { page: 1, kind: "uncertain", claim: "The dates of Paul's life.", note: "Only Gallio's proconsulship (about 51–52) is fixed by outside evidence; the other dates depend on how the intervals in Galatians are counted and on Acts. All are given as approximate, and the map follows them." },
+      { page: 2, kind: "disputed", claim: "Philippians and Philemon were probably written from an imprisonment in Ephesus.", note: "An Ephesian imprisonment is not mentioned in Acts and is inferred from Paul's letters; others place these letters in Caesarea or Rome. The lesson says \"if, as many scholars think.\"" },
+      { page: 7, kind: "disputed", claim: "1 Corinthians 14:34–35 may be a later addition.", note: "The verses stand after 14:40 in some Western manuscripts, and some text critics (for example Gordon Fee) think them an interpolation; others defend them as Paul's. The lesson gives both views." },
+    ],
+    5: [
+      { page: 4, kind: "uncertain", claim: "Revelation was written at the end of Domitian's reign.", note: "This follows Irenaeus and is the majority view; a significant minority dates the book to about 68–69. The lesson mentions both." },
+      { page: 6, kind: "disputed", claim: "Was there a persecution under Domitian?", note: "Later Christian writers say so; many historians now think there was no systematic persecution, only local pressure. The lesson presents the doubt." },
+      { page: 7, kind: "disputed", claim: "The Muratorian fragment dates from the late second century in Rome.", note: "This is the traditional dating; Albert Sundberg and Geoffrey Hahneman argued for a fourth-century Eastern origin. The lesson notes the debate." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
