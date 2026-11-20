@@ -1942,7 +1942,7 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
   },
   "CHH 101": {
     1: [
-      { page: 7, kind: "disputed", claim: "Stark's estimates of Christian numbers (about 6 million by 300).", note: "These rest on an assumed growth rate and starting figure; other historians reach different numbers. The lesson presents them as a model, not a count." },
+      { page: 5, kind: "disputed", claim: "Stark's estimates of Christian numbers (about 6 million by 300).", note: "These rest on an assumed growth rate and starting figure; other historians reach different numbers. The lesson presents them as a model, not a count." },
     ],
     2: [
       { page: 8, kind: "disputed", claim: "How many Christians died in the persecutions.", note: "Estimates vary widely; most historians think hundreds before 250 and a few thousand in the Great Persecution, while some traditional figures are far higher. The lesson gives the range and the debate." },
