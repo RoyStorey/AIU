@@ -173,7 +173,7 @@ Many monks entered the monastery as children. The Rule of St. Benedict (59) allo
 
 ## Silence and signs
 
-The Rule's emphasis on **silence** led monasteries to develop systems of **sign language** for communicating necessary information without speaking. Lists of signs survive from Cluny and other monasteries, with hundreds of signs for food, objects, people, and actions: for bread, the monk made a circle with his thumbs and fingers; for fish, he moved his hand like a fish's tail; for the abbot, he held two fingers to his head like horns, recalling the horns of Moses in medieval art.
+The Rule's emphasis on **silence** led monasteries to develop systems of **sign language** for communicating necessary information without speaking. Lists of signs survive from Cluny and other monasteries, with hundreds of signs for food, objects, people, and actions: for bread, the monk made a circle with his thumbs and fingers; for fish, he moved his hand like a fish's tail.
 
 ## The day
 
