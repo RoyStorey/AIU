@@ -206,27 +206,27 @@ const map: MapSpec = {
   story: [
     {
       title: "Inside the Versailles borders", time: "1934-12-01", view: { center: [14.3, 51.3], zoom: 4.9 },
-      text: "At the start of 1935 the **Saar** was under the League of Nations, the **Rhineland** was closed to German troops, and **East Prussia** was cut off by the Polish Corridor. In January the Saar voted to return to Germany.",
+      text: "**Germany** is grey. Find what Versailles left it: the **Saar** under the League of Nations, the demilitarized **Rhineland** along the western border, and **East Prussia** cut off by the Polish Corridor. Press play: the Saar goes first, by vote, in January 1935.",
     },
     {
-      title: "The Rhineland, March 1936", time: "1936-02-01", view: { center: [7.8, 50.3], zoom: 6.4 },
-      text: "On 7 March 1936 German troops march into the demilitarized **Rhineland**. France, unwilling to act without Britain, does nothing.",
+      title: "The Rhineland, March 1936", time: "1936-02-01", until: "1936-06", view: { center: [7.8, 50.3], zoom: 6.4 },
+      text: "Watch the demilitarized zone along Germany's western border turn grey on 7 March 1936. It faces France, and France does nothing.",
     },
     {
       title: "Anschluss, March 1938", time: "1938-02-01", view: { center: [14.2, 48.4], zoom: 6.2 },
-      text: "German troops cross into **Austria** on 12 March 1938, and the next day it is annexed. Germany now surrounds western Czechoslovakia on three sides.",
+      text: "**Austria** turns grey in a day, 12–13 March 1938. Now look at Czechoslovakia: Germany surrounds its western half on three sides.",
     },
     {
       title: "Munich and the Sudetenland, 1938", time: "1938-09-01", view: { center: [16.2, 49.6], zoom: 5.8 },
-      text: "At **Munich**, on 29–30 September, Britain and France agree that the **Sudetenland** goes to Germany; Czechoslovakia is not invited. German troops occupy it in the first ten days of October.",
+      text: "The **Sudetenland** is the horseshoe of border land facing Germany and Austria, where Czechoslovakia's frontier defences stood. Watch it turn grey in early October, after **Munich**.",
     },
     {
       title: "Prague, March 1939", time: "1939-03-01", view: { center: [17.0, 50.6], zoom: 5.3 },
-      text: "On 15 March 1939 Germany occupies **Prague**, and Slovakia becomes a German satellite: for the first time Hitler seizes territory inhabited by non-Germans. On 31 March Britain guarantees **Poland**, his next target.",
+      text: "On 15 March 1939 the rest of the Czech lands turn grey, and **Slovakia** becomes a German satellite. Look at **Poland** now: Germany flanks it to the north, the west and the south.",
     },
     {
       title: "Poland, September 1939", time: "1939-08-20", view: { center: [19.0, 52.3], zoom: 5.4 },
-      text: "On 23 August Germany and the Soviet Union sign a pact of non-aggression. Nine days later, on 1 September, Germany invades **Poland** from Pomerania, East Prussia, Silesia and Slovakia.",
+      text: "Nine days after the Nazi–Soviet Pact, the arrows show the invasion of **Poland** on 1 September: from Pomerania, East Prussia, Silesia and Slovakia, the three sides you saw in March.",
     },
   ],
   sources: [

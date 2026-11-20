@@ -220,11 +220,11 @@ The Fifty Years' Peace between Rome and Persia did not last. War resumed in 572,
 
 Then, in 602, the Roman army on the Danube mutinied against Maurice, and a junior officer named **Phocas** led it to Constantinople. Maurice and his sons were executed. Khusrau declared himself the avenger of his benefactor and in 603 invaded the Roman empire. What followed was the longest and most destructive war ever fought between Rome and Persia—a war that the historian James Howard-Johnston has called "the last great war of antiquity." It lasted a quarter of a century, and by its end it had transformed the Middle East.
 
-![Interactive map of the war between Rome and Persia, 603–630](map:meh-101-roman-persian-war "The last great war of antiquity, 603–630. Step through the chapters as you read, or drag the timeline; click any army or marker for details.")
-
 ## The Persian conquest of the Roman East
 
 At first the Persians recovered the frontier fortresses, including the great fortress of Dara, which fell in 604 after a long siege. Rome was paralyzed by civil strife under Phocas, whose regime grew more brutal as it grew more insecure. In 610 Heraclius, son of the governor of Africa, sailed from Carthage, overthrew Phocas, and became emperor. But he inherited an empire in crisis, and the Persian armies, led by able generals such as **Shahrbaraz**, now drove deep into the Roman heartlands.
+
+![Interactive map of the Persian conquest of the Roman East, 602–621](map:meh-101-roman-persian-war#1-3 "The Persian conquest, 602–621. Press play to watch it unfold, or step through with Next; drag the timeline or click any army for details.")
 
 - **Antioch** fell to them in 610 or 611. In **613** they defeated Heraclius's attempt to retake it, in a battle near the city that cut the empire in two. Damascus fell the same year.
 - In **614** they besieged and captured **Jerusalem**. Many inhabitants were killed or carried off into captivity, churches were burned, and the most sacred relic in Christendom, the **True Cross**—believed to be the wood on which Christ was crucified—was taken to Ctesiphon. The shock to the Christian world was immense.
@@ -238,6 +238,8 @@ Meanwhile, in the Balkans, the Avars—a nomadic people of the Hungarian plain�
 ## Heraclius strikes back
 
 What happened next was one of the most remarkable reversals in military history. Heraclius, who had considered abandoning Constantinople for Carthage, instead stripped the churches of their gold and silver to pay his troops, and in **622** he took an army into the field himself—the first emperor in two centuries to lead his armies in person. Rather than attempting to recover the occupied provinces, he struck at the Persian heartland through Armenia and the Caucasus. His campaigns were presented as a holy war to avenge the sack of Jerusalem and recover the Cross. In 624 his army destroyed the great fire temple of **Adur Gushnasp** in Azerbaijan, one of the holiest sanctuaries of Zoroastrianism, a deliberate act of retaliation for Jerusalem.
+
+![Interactive map of Heraclius's counterattack and the peace, 622–630](map:meh-101-roman-persian-war#4-7 "Heraclius's counterattack and the peace, 622–630.")
 
 In **626** came the crisis. While Heraclius was far away in the Caucasus, the Avars, with their Slav subjects, besieged Constantinople from the European side, and a Persian army under Shahrbaraz waited on the Asian shore at Chalcedon to join them. The city's defense was led by the patriarch Sergius and the patrician Bonus, who paraded an icon of the Virgin along the walls. The Roman fleet destroyed the Slavs' boats in the Golden Horn, preventing the Persians from crossing, and the Avars withdrew. Constantinople's deliverance was credited to the Virgin, and the hymn sung in her honor, the *Akathistos*, has been associated with the siege ever since.
 

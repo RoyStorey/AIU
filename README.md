@@ -98,9 +98,15 @@ A page places one with an image line whose address is `map:` and the map's id:
 - They load only when a reader scrolls to them.
 - Narration passes over them, as it does over figures.
 
+A map whose chapters follow several sections is placed beside each one, showing only that section's chapters:
+`map:<id>#1-3`, then `map:<id>#4-7` further down. Chapter captions point at the map (what to find, follow or
+compare); they don't repeat the text.
+
 **Current maps**
-- **MEH 101**, Lesson I: the Roman–Persian war of 603–630.
-- **EUH 301**, Lesson IV: Germany's expansion, 1935–1939.
+- **MEH 101**, Lesson I, page 6: the Persian conquest (602–621) beside "The Persian conquest of the Roman East",
+  and Heraclius's counterattack (622–630) beside "Heraclius strikes back".
+- **EUH 301**, Lesson IV, page 6: the Saar and the Rhineland (1935–1936) before "The Rhineland", and the
+  annexations and the invasion of Poland (1938–1939) beside "Anschluss".
 
 To check every map, and that every `map:` line names one that exists:
 

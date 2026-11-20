@@ -267,7 +267,7 @@ On February 3, 1933, four days after becoming chancellor, Hitler explained his a
 
 The first steps were cautious. In October 1933 Germany left the Disarmament Conference and the League of Nations, and a plebiscite approved the decision with 95 percent. In January 1934 Germany signed a non-aggression pact with Poland, to general surprise. In January 1935 the Saarland, under League administration since 1920, voted by **90.7 percent** to return to Germany. In early March 1935 the regime revealed the existence of the Luftwaffe, and on March 16 Hitler announced the reintroduction of conscription and the creation of an army of 36 divisions—open violations of Versailles. Britain, France, and Italy protested at the Stresa Conference in April, but in June 1935 Britain itself signed the **Anglo-German Naval Agreement**, permitting Germany a navy of 35 percent of Britain's surface fleet—in effect accepting German rearmament.
 
-![Interactive map of Germany's expansion, 1935–1939](map:euh-301-road-to-war "Germany's expansion, 1935–1939, from the Saar to the invasion of Poland. Follow each step as you read; drag the timeline or click a territory for details.")
+![Interactive map of Germany breaking the Versailles settlement, 1935–1936](map:euh-301-road-to-war#1-2 "Breaking Versailles, 1935–1936: the Saar and the Rhineland. Press play, or step through with Next; drag the timeline or click a territory for details.")
 
 ## The Rhineland
 
@@ -282,6 +282,8 @@ On **November 5, 1937**, Hitler met the war minister Werner von Blomberg, the ar
 ## Anschluss
 
 The first target was Austria. In February 1938, Hitler summoned the Austrian chancellor Kurt Schuschnigg to Berchtesgaden and bullied him into appointing the Austrian Nazi Arthur Seyss-Inquart as interior minister. When Schuschnigg announced a plebiscite on Austrian independence, Hitler issued an ultimatum. On **March 12, 1938**, German troops crossed the border, welcomed by cheering crowds. The next day Austria was annexed to the Reich. A plebiscite in April approved the **Anschluss** with 99.7 percent.
+
+![Interactive map of Germany's annexations and the invasion of Poland, 1938–1939](map:euh-301-road-to-war#3-6 "From the Anschluss to the invasion of Poland, 1938–1939.")
 
 In Vienna, the annexation was accompanied by an outburst of popular antisemitic violence that exceeded anything yet seen in Germany: Jews were forced to scrub pavements with toothbrushes while crowds jeered, their homes and businesses were looted, and thousands were sent to Dachau. Adolf Eichmann established a "Central Office for Jewish Emigration" in Vienna that forced Jews to leave while stripping them of their property—a model later applied elsewhere.
 

@@ -1,7 +1,7 @@
 /**
  * Checks the interactive maps: every map in src/content/maps validates against the
  * atlas-map@1 format, its armies stay on land and its ships on water, and every `map:`
- * image in a lesson page names a map that exists.
+ * image in a lesson page names a map that exists (and, for map:<id>#a-b, chapters it has).
  *
  *   npm run maps:check
  *
@@ -39,10 +39,17 @@ async function main() {
   const used = new Set<string>();
   for await (const file of files("src/content/courses")) {
     const text = await readFile(file, "utf8");
-    for (const m of text.matchAll(/!\[[^\]]*\]\(map:([a-z0-9-]+)/g)) {
-      used.add(m[1]);
-      if (!MAPS[m[1]]) {
-        console.log(`\n✗ ${file}: map "${m[1]}" is not in src/content/maps/index.ts`);
+    for (const m of text.matchAll(/!\[[^\]]*\]\(map:([a-z0-9-]+)(?:#(\d+)-(\d+))?/g)) {
+      const [, id, a, b] = m;
+      used.add(id);
+      if (!MAPS[id]) {
+        console.log(`\n✗ ${file}: map "${id}" is not in src/content/maps/index.ts`);
+        failed = true;
+        continue;
+      }
+      const chapters = (await MAPS[id]()).default.story?.length ?? 0;
+      if (a && !(+a >= 1 && +a <= +b && +b <= chapters)) {
+        console.log(`\n✗ ${file}: map:${id}#${a}-${b} – the map has ${chapters} chapters`);
         failed = true;
       }
     }

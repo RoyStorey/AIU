@@ -184,31 +184,31 @@ const map: MapSpec = {
   story: [
     {
       title: "Two eyes of the world", time: "602-09", view: { center: [38, 37], zoom: 4.3 },
-      text: "In 602 the frontier between **Rome** and **Persia** ran through Armenia and upper Mesopotamia, where Khusrau II had ceded land to Maurice in 591. Maurice's murder that November gave Khusrau his cause for war.",
+      text: "**Rome** is purple, **Persia** green. Find their frontier: it runs through Armenia and upper Mesopotamia, moved east in Rome's favour by the treaty of 591. Press play to start the war.",
     },
     {
       title: "The Persian conquest, 603–614", time: "603-06", view: { center: [38, 35.5], zoom: 5 },
-      text: "Watch the Persians take the frontier fortresses, cross the Euphrates and take **Antioch**. In 613 they beat back Heraclius near Antioch and take Damascus; in 614 **Jerusalem** falls, and the True Cross is carried off.",
+      text: "Watch the green spread west: the frontier fortresses such as **Dara** first, then across the Euphrates to **Antioch** (610–611), **Damascus** (613) and **Jerusalem** (614).",
     },
     {
       title: "Egypt and the Bosporus, 615–621", time: "614-09", view: { center: [32, 35], zoom: 4.5 },
-      text: "A Persian army reaches **Chalcedon**, in sight of Constantinople, and between 619 and 621 Persia conquers **Egypt**. For the first time since the Achaemenid kings a thousand years before, a Persian king rules Syria, Palestine and Egypt.",
+      text: "Follow one army right across Anatolia to **Chalcedon**, opposite Constantinople (615), then watch **Egypt**, the capital's granary, turn green (619–621). Compare what Rome has left with the map in 602.",
     },
     {
       title: "Heraclius strikes back, 622–625", time: "622-03", view: { center: [41, 39], zoom: 4.8 },
-      text: "Rather than try to retake the lost provinces, **Heraclius** marches through Armenia toward the Persian heartland. In 624 he burns the fire temple of **Adur Gushnasp**.",
+      text: "Follow **Heraclius**: he sails to Pylae, then strikes east through Armenia, not south to the lost provinces. His target is Persia itself; in 624 he burns the fire temple of **Adur Gushnasp**.",
     },
     {
       title: "Constantinople besieged, 626", time: "626-05", until: "626-10", view: { center: [29, 41.1], zoom: 6.3 },
-      text: "With Heraclius far away in the Caucasus, the **Avars** attack the land walls while a Persian army waits on the Asian shore. The Roman fleet keeps them apart, and the siege fails.",
+      text: "Find Heraclius: he is far away in the Caucasus. The **Avars** reach the land walls and a Persian army waits at **Chalcedon**, but the Bosporus lies between them, and the Roman fleet holds it.",
     },
     {
       title: "Nineveh and the fall of Khusrau, 627–628", time: "626-10", view: { center: [44, 37.8], zoom: 5 },
-      text: "Allied with the **Western Turks**, Heraclius strikes south and wins at **Nineveh** in December 627. Two months later Khusrau is overthrown by his own nobles.",
+      text: "Watch the **Western Turks** join Heraclius in the Caucasus, then follow him south to **Nineveh** on the Tigris (December 627) and on toward Ctesiphon. In February 628 Khusrau is overthrown.",
     },
     {
       title: "Two exhausted empires, 628–630", time: "628-04", view: { center: [38, 36], zoom: 4.3 },
-      text: "Kavad II makes peace, the Persian armies leave the Roman East, and on 21 March 630 (the traditional date) Heraclius restores the Cross to **Jerusalem**. The old frontier is back, but both empires are drained.",
+      text: "Watch the green withdraw: by 630 the frontier is back almost where it was in 602. A quarter of a century of war, and the map looks the same; what changed was the strength of both empires.",
     },
   ],
   sources: [

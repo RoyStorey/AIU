@@ -15,13 +15,15 @@ function scheme(): "light" | "dark" {
 
 /**
  * An interactive map in a lesson page: the map, a timeline the reader can drag, and a few
- * chapters to step through. Written in a page as `![Alt text](map:<id> "Caption.")`.
+ * chapters to step through. Written in a page as `![Alt text](map:<id> "Caption.")`, or as
+ * `map:<id>#4-7` to show only some chapters beside the section they illustrate.
  *
  * The map's code (map-widget) and its data are fetched only when the reader scrolls near it,
  * and everything is torn down when the page changes.
  */
-export function HistoryMap({ id, alt, caption }: { id: string; alt: string; caption?: string }) {
+export function HistoryMap({ id, alt, caption, chapters }: { id: string; alt: string; caption?: string; chapters?: [number, number] }) {
   const frame = useRef<HTMLDivElement>(null);
+  const [first, last] = chapters ?? [];
   const [error, setError] = useState<string | null>(MAPS[id] ? null : `There is no map named “${id}”.`);
 
   useEffect(() => {
@@ -44,6 +46,7 @@ export function HistoryMap({ id, alt, caption }: { id: string; alt: string; capt
           theme: scheme(),
           label: alt,
           lazy: false,
+          chapters: first !== undefined && last !== undefined ? [first, last] : undefined,
           onReady: (err) => err && !cancelled && setError("The map could not be shown."),
         });
         themeWatch.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
@@ -62,7 +65,7 @@ export function HistoryMap({ id, alt, caption }: { id: string; alt: string; capt
       media.removeEventListener("change", follow);
       handle?.destroy();
     };
-  }, [id, alt]);
+  }, [id, alt, first, last]);
 
   return (
     <figure className="lesson-map">
