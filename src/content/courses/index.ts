@@ -11,6 +11,7 @@ import { aph110 } from "./aph-110";
 import { bib101 } from "./bib-101";
 import { bib110 } from "./bib-110";
 import { chh101 } from "./chh-101";
+import { chh110 } from "./chh-110";
 import { amh101 } from "./amh-101";
 import { amh110 } from "./amh-110";
 import { amh201 } from "./amh-201";
@@ -66,6 +67,7 @@ const written: Record<string, CourseContent> = {
   "BIB 101": bib101,
   "BIB 110": bib110,
   "CHH 101": chh101,
+  "CHH 110": chh110,
   "AMH 101": amh101,
   "AMH 110": amh110,
   "AMH 201": amh201,

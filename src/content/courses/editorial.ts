@@ -1954,6 +1954,21 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 3, kind: "disputed", claim: "What Constantine saw before the Milvian Bridge.", note: "Lactantius reports a dream; Eusebius, decades later, a vision in the sky. Historians variously accept the accounts, explain them naturally, or doubt them. The lesson sets out the evidence." },
     ],
   },
+  "CHH 110": {
+    1: [
+      { page: 2, kind: "disputed", claim: "Whether the end of Roman rule in the West was a \"fall\" or a \"transformation.\"", note: "Peter Brown and others stress continuity and transformation; Bryan Ward-Perkins stresses violence and material decline. The lesson gives both views." },
+    ],
+    4: [
+      { page: 4, kind: "disputed", claim: "The meaning and motives of the crusades.", note: "Runciman, Riley-Smith, and more recent historians judge the crusades very differently. The lesson presents the debate rather than a single verdict." },
+      { page: 5, kind: "disputed", claim: "Whether the Cathars formed an organized dualist church.", note: "R. I. Moore and others argue the organized Cathar church was largely constructed by its persecutors; most historians still accept a real dualist movement. The lesson gives both views." },
+    ],
+    5: [
+      { page: 4, kind: "uncertain", claim: "That Sciarra Colonna struck Boniface VIII at Anagni.", note: "The blow is reported by tradition and some chroniclers; it is not certain. The lesson presents it as tradition." },
+      { page: 7, kind: "uncertain", claim: "Who translated the Wycliffite Bible.", note: "Nicholas Hereford and John Purvey are traditionally credited; the work was collaborative and the attribution is not certain." },
+      { page: 9, kind: "disputed", claim: "How many Jews left Spain in 1492, and how many the Spanish Inquisition executed.", note: "Estimates vary widely; the lesson gives ranges rather than a single figure." },
+      { page: 10, kind: "uncertain", claim: "Leo X's saying, \"God has given us the papacy; let us enjoy it.\"", note: "It is reported by a later source and may not be authentic. The lesson says so." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
