@@ -163,13 +163,105 @@ The church of **Rome** acquired special prestige. It was the church of the capit
 
 A test came in the 190s over the date of **Easter**. Christians in Asia Minor, following what they said was the tradition of the apostle John, celebrated the Passover of Christ on the fourteenth day of the Jewish month of Nisan, whatever day of the week it fell on; they were called **Quartodecimans** ("fourteeners"). Rome and most other churches celebrated Easter on the Sunday following. Bishop **Victor** of Rome (189–199) demanded that the Asian churches conform, and threatened to excommunicate them. **Polycrates**, bishop of Ephesus, replied defiantly, citing the apostles Philip and John, Polycarp, and other great martyrs of Asia who had kept the fourteenth day: "I am not affrighted by terrifying words. For those greater than I have said, 'We ought to obey God rather than man.'"
 
-**Irenaeus** intervened, urging Victor to keep peace. He reminded him that when Polycarp visited Rome around 155, he and Bishop Anicetus had disagreed about the date of Easter but remained in communion, and Anicetus had even let Polycarp celebrate the Eucharist in his church. "The difference in the fast," Irenaeus wrote, "confirms our agreement in the faith." The dispute shows both Rome's growing assertiveness and the limits of its authority. The date of Easter was finally fixed for most of the church at the Council of Nicaea in 325.
+**Irenaeus** intervened, urging Victor to keep peace. He reminded him that when Polycarp visited Rome around 155, he and Bishop Anicetus had disagreed about the date of Easter but remained in communion, and Anicetus had even let Polycarp celebrate the Eucharist in his church. "The disagreement in regard to the fast," Irenaeus wrote, "confirms the agreement in the faith" (quoted in Eusebius, *Ecclesiastical History* 5.24.13). The dispute shows both Rome's growing assertiveness and the limits of its authority. The date of Easter was finally fixed for most of the church at the Council of Nicaea in 325.
 
 ## Councils
 
 Another means of unity emerged in the second and third centuries: **councils** of bishops. As we saw, the bishops of Asia met to condemn the New Prophecy, and bishops met to discuss the date of Easter. In the third century, councils became regular, especially in North Africa under Cyprian. Bishops of a region met to decide difficult questions, and communicated their decisions to other churches. This conciliar practice would culminate in the great ecumenical councils, beginning at Nicaea.
 
-> **Pause and consider.** Irenaeus wrote that the difference over Easter "confirms our agreement in the faith." What did he mean? How much diversity can a church tolerate?`,
+> **Pause and consider.** Irenaeus wrote that the disagreement over the fast "confirms the agreement in the faith." What did he mean? How much diversity can a church tolerate?`,
+    },
+    {
+      title: "The Rule of Faith and the Making of the Canon",
+      body: `## A measuring rod
+
+How could a Christian in the second century tell true teaching from false? The Gnostics, Marcion, and others all appealed to Scripture, and interpreted it in their own ways. Irenaeus compared the heretics to someone who takes a beautiful mosaic of a king, rearranges the stones into the image of a dog or a fox, and claims that this was the original design. The same stones—the words of Scripture—could form a different picture. What was needed was the original design.
+
+## The rule of faith
+
+Irenaeus and Tertullian answered with the **rule of faith** (Greek *kanōn tēs alētheias*, "rule of truth"; Latin *regula fidei*). As we saw in SYS 201, the rule of faith was a summary of the core beliefs held by all the apostolic churches: one God the Father, Creator of heaven and earth; one Christ Jesus, the Son of God, who became incarnate for our salvation, suffered under Pontius Pilate, rose, ascended, and will come again to judge; and the Holy Spirit, who spoke through the prophets. Tertullian gave several versions, slightly different in wording but identical in substance. The rule was not a fixed text but a recognizable shape of faith, closely related to the baptismal confession.
+
+The rule functioned as the "design" of the mosaic. It was the key for reading Scripture rightly. Anyone who read Scripture in a way that contradicted it—who said, for example, that the Creator was not the Father of Jesus—had rearranged the stones.
+
+## The Old Roman Creed
+
+The baptismal confession of the church of Rome, later called the **Old Roman Creed**, took shape in this period. It survives in a Greek version quoted by Marcellus of Ancyra around 340, and a Latin version commented on by Rufinus around 400, but its substance is much older. As we saw in SYS 101, it is the ancestor of the Apostles' Creed. Its structure—Father, Son, and Spirit, with the Son's story told in historical detail—reflects the rule of faith, and directly contradicts Gnostic and Marcionite teaching: the one God is "Father Almighty"; Christ was "born of the Holy Spirit and the Virgin Mary," "crucified under Pontius Pilate and buried"; and believers look for "the resurrection of the flesh."
+
+## The canon takes shape
+
+At the same time, the church was coming to recognize a collection of authoritative Christian writings. As we saw in BIB 110, by the end of the second century, the four Gospels, Acts, and thirteen letters of Paul were widely accepted; Irenaeus defended exactly four Gospels; the Muratorian fragment listed most of the New Testament. Other books—Hebrews, James, 2 Peter, Jude, 2 and 3 John, Revelation—remained disputed in some regions for two more centuries, while some writings later excluded, such as the *Shepherd of Hermas* and the *Didache*, were read in some churches.
+
+## Three pillars
+
+By the end of the second century, the church that would become orthodox had developed three interlocking means of preserving its identity: the **rule of faith** (and the creeds that grew from it), the **canon** of Scripture (Old Testament and apostolic writings), and the **episcopate** in apostolic succession. Each reinforced the others. The bishops taught the rule of faith and guarded the Scriptures; the Scriptures were read in the light of the rule; the rule was the faith handed down by the apostles to the bishops. Historians sometimes call this the emergence of "early catholic" Christianity. Whether one sees it as a faithful preservation of the apostolic faith or as the institutionalization of a once more charismatic movement, it gave the church a remarkable capacity to survive persecution, division, and the passage of time.
+
+> **Pause and consider.** Irenaeus compared heretical interpretation of Scripture to rearranging a mosaic of a king into a fox. What does this image suggest about the relation between Scripture and the rule of faith?`,
+    },
+    {
+      title: "Rome: A Church of Many Houses",
+      body: `## A divided capital
+
+The church of **Rome**, whose bishops Irenaeus listed and whose authority Victor asserted, was in the second century a remarkably diverse community. The German scholar **Peter Lampe**, in *From Paul to Valentinus: Christians at Rome in the First Two Centuries* (1987; English 2003), which students of PAT 101 met, reconstructed its social history from inscriptions, archaeology, and literary sources.
+
+## Fractionation
+
+Lampe argued that Roman Christianity was "**fractionated**": divided into many separate house churches, scattered across the city, especially in poorer immigrant districts such as Trastevere across the Tiber, and along the Appian Way. Each house church had its own leaders, and they were loosely connected. There may not have been a single bishop of the whole Roman church until the mid-second century; earlier, the church seems to have been led by a group of presbyters, among whom one, such as Clement, might write on behalf of all. The later list of bishops back to Peter, Lampe suggested, projected a later structure back onto an earlier, more collegial one. Many scholars accept the general picture, though the precise date at which a single bishop emerged in Rome remains debated.
+
+## Diversity
+
+This fragmented structure allowed great diversity. In the mid-second century, Rome was home to **Justin Martyr**'s school; to the Gnostic teacher **Valentinus** and his followers; to **Marcion**, before his expulsion; to the Christian prophet **Hermas**, whose visions, the *Shepherd*, we met in PAT 101; to Quartodecimans from Asia who celebrated Easter on their own date; and to Jewish Christians. Rome was a magnet for teachers from across the empire, and the Roman church only gradually established clear boundaries.
+
+## The catacombs
+
+The **catacombs** of Rome—underground burial galleries carved into the soft volcanic rock outside the city walls—are among the most famous monuments of early Christianity. Contrary to popular legend, they were not hiding places from persecution, but cemeteries, used by Christians (and also by Jews and pagans) because burial inside the city was forbidden and land outside was expensive. Around 200, Bishop Zephyrinus appointed the deacon **Callistus** to manage the church's cemetery on the Appian Way, now known as the **Catacomb of Callistus**, where several third-century bishops of Rome were buried. The catacombs contain some of the earliest Christian art: paintings of the Good Shepherd, Jonah and the whale, Daniel in the lions' den, the raising of Lazarus, and banquets, expressing hope in deliverance and resurrection.
+
+## Hippolytus and Callistus
+
+The tensions within the Roman church surfaced in the early third century in the bitter conflict between **Callistus**, who became bishop around 217, and the learned presbyter **Hippolytus**, whom we met in SYS 201. Hippolytus, in his *Refutation of All Heresies*, attacked Callistus as a former slave who had embezzled money from his master's bank, been sent to the mines of Sardinia, and risen to power through intrigue. He accused him of sympathy for modalism and of laxity in readmitting sinners, including allowing upper-class Christian women to live with lower-class men in unions not recognized by Roman law. Hippolytus set himself up as a rival bishop. The schism ended only when both men were exiled to the mines of Sardinia under the emperor Maximinus Thrax in 235, where, according to tradition, they were reconciled before their deaths.
+
+## A church of the poor and the rich
+
+The Roman church included rich and poor, free and slave, Greek-speakers and Latin-speakers. By the mid-third century, it was a large and wealthy institution. As we saw in Lesson I, Bishop Cornelius reported in 251 that it had 46 presbyters, 7 deacons, 7 subdeacons, 42 acolytes, 52 exorcists, readers, and doorkeepers, and supported more than 1,500 widows and persons in distress. From a scatter of house churches, Rome's Christians had become a great organization.
+
+> **Pause and consider.** Lampe argued that the list of early Roman bishops projected a later structure onto an earlier one. If he is right, does it matter for the authority of the bishop of Rome?`,
+    },
+    {
+      title: "Jews and Christians in the Second Century",
+      body: `## Two communities
+
+By the second century, as we saw in BIB 110, Christianity and Judaism were becoming separate communities, though the boundary was still porous in many places. The relationship between them was marked by argument, rivalry, and, tragically, the beginnings of Christian anti-Judaism.
+
+## Bar Kokhba
+
+The second Jewish revolt against Rome, led by **Simon bar Kosiba**, called **Bar Kokhba** ("son of the star," from Numbers 24:17), from 132 to 135, was a catastrophe for the Jews of Judea. The rebel leader was hailed as Messiah by the great rabbi Akiva. Justin Martyr reports that Bar Kokhba persecuted Jewish Christians who would not deny Jesus and join the revolt. After the revolt was crushed, Hadrian rebuilt Jerusalem as a pagan colony, **Aelia Capitolina**, and banned Jews from entering it. The Jewish-Christian church of Jerusalem was replaced by a Gentile one.
+
+## Justin's Dialogue
+
+**Justin Martyr**'s *Dialogue with Trypho* (c. 155–160) is the earliest surviving full-length Christian argument with Judaism. It presents a conversation, perhaps partly real, between Justin and a Jewish teacher named Trypho, held over two days in Ephesus. Justin argues that Jesus is the Messiah prophesied in the Scriptures, that the Mosaic law was given to the Jews because of their hardness of heart and is now fulfilled, and that Christians, not Jews, are the "true spiritual Israel." The tone is often respectful—Trypho is a learned and courteous partner, and the dialogue ends with mutual good wishes—but the argument claims the Jewish Scriptures for the church and denies their meaning to the Jews.
+
+## Melito of Sardis
+
+A darker note sounds in a sermon by **Melito**, bishop of Sardis in Asia Minor, *On the Pascha* (c. 160–170), a magnificent piece of rhetoric on the Passover and the passion of Christ, rediscovered in the twentieth century. In one passage, Melito accuses Israel of killing its God:
+
+> He who hung the earth is hanging; he who fixed the heavens has been fixed; he who fastened the universe has been fastened to a tree; the Sovereign has been insulted; the God has been murdered; the King of Israel has been put to death by an Israelite right hand.
+>
+> — Melito of Sardis, *On the Pascha* 96, after the translation of Stuart George Hall (1979)
+
+This is the earliest explicit charge of "**deicide**" against the Jewish people. Ironically, Sardis had a large and prosperous Jewish community—archaeologists have excavated its magnificent synagogue, one of the largest in the ancient world—and Melito's rhetoric may reflect Christian anxiety about Jewish strength in the city. The charge of deicide would be repeated through Christian history, with terrible consequences, until the Catholic Church formally rejected it at the Second Vatican Council in *Nostra Aetate* (1965), as we saw in BIB 110.
+
+## The Epistle of Barnabas
+
+The *Epistle of Barnabas* (c. 130), which students of PAT 101 read, went further than Justin, arguing that the Jews had never truly possessed the covenant, which had been broken at Sinai when Moses smashed the tablets, and that the Old Testament laws had always been meant spiritually, not literally. This view, though not adopted by the mainstream church, illustrates the extremes of early Christian anti-Jewish argument.
+
+## Continuing contact
+
+Yet relations were not only hostile. Jews and Christians continued to live side by side, to argue, and to learn from each other. Origen consulted Jewish scholars about the Hebrew text of the Bible. As we saw in BIB 110, some Christians in Antioch still attended synagogue in the late fourth century. Jewish and Christian interpretations of Scripture developed in conversation, sometimes in polemic, sometimes in borrowing.
+
+## A painful legacy
+
+The second century laid the foundations of a Christian theology that defined the church as the "new Israel," replacing the Jewish people, and that blamed the Jews for the death of Christ. This tradition, known as **supersessionism** or replacement theology, and the "teaching of contempt," as the French Jewish historian **Jules Isaac** called it in the twentieth century, contributed to centuries of Christian discrimination and violence against Jews. Since the Holocaust, many churches have repudiated it. Understanding its origins is part of an honest history of the church.
+
+> **Pause and consider.** Justin's *Dialogue* is courteous, while Melito's sermon is fiercely hostile. Why might the same period have produced both? What does this suggest about Jewish–Christian relations?`,
     },
     {
       title: "The Apologists",
