@@ -173,7 +173,7 @@ In 380, **Gregory of Nazianzus** preached five sermons in the small Anastasia ch
 
 The **first oration** (27) is a prelude, attacking the Eunomians, who argued about God in the marketplace like a game. Gregory insists that theology is not for everyone, at every time, before every audience:
 
-> Not to every one, my friends, does it belong to philosophize about God; not to every one; the subject is not so cheap and low. … It is permitted only to those who have been examined, and are past masters in meditation, and who have been previously purified in soul and body, or at the very least are being purified.
+> Not to every one, my friends, does it belong to philosophize about God; not to every one; the subject is not so cheap and low. … It is permitted only to those who have been examined, and are passed masters in meditation, and who have been previously purified in soul and body, or at the very least are being purified.
 >
 > — Gregory of Nazianzus, *Oration* 27.3, trans. C. G. Browne and J. E. Swallow (1894)
 
@@ -318,6 +318,38 @@ John of Damascus, a monk at the monastery of Mar Saba near Jerusalem, living und
 By the eighth century, the Eastern doctrine of the Trinity had reached its classic form. Later Byzantine theology would develop it further, especially in the fourteenth-century distinction between God's essence and energies by **Gregory Palamas**, which we study in Lesson V. Meanwhile, in the West, Augustine had developed a parallel and distinctive theology of the Trinity, to which we now turn.
 
 > **Pause and consider.** Gregory of Nazianzus refused to explain the difference between begetting and proceeding. Is this a failure of theology, or a mark of its integrity?`,
+    },
+    {
+      title: "The Trinity in the Liturgy",
+      body: `## Doctrine sung
+
+For the Cappadocians, as for all the Fathers, the doctrine of the Trinity was first of all a matter of **worship**. The fourth-century controversies were fought partly over liturgical practice—how to baptize, how to give glory—and their outcome was expressed above all in the church's prayers and hymns. To understand the doctrine as the ancient church held it, we must listen to its liturgy.
+
+## The Gloria Patri
+
+The short doxology known as the ***Gloria Patri***—"Glory be to the Father, and to the Son, and to the Holy Ghost; as it was in the beginning, is now, and ever shall be, world without end"—became, in the fourth and fifth centuries, a standard ending to the Psalms in Christian worship. Its first part, giving equal glory to the three, reflects Basil's defense of the doxology "with the Son, together with the Spirit." Its second part, "as it was in the beginning," was added in the West, and has been understood as an affirmation, against the Arians, that the Son and Spirit were glorified from the beginning, not raised to glory later. Sung at the end of every psalm, it turned the whole Psalter, prayed daily by monks and clergy, into Trinitarian praise.
+
+## The Trisagion
+
+The ***Trisagion*** ("Thrice-holy"), a hymn of the Eastern liturgy probably from the fifth century, sings: "Holy God, Holy Mighty, Holy Immortal, have mercy on us." Its threefold "holy" echoes the song of the seraphim in Isaiah 6:3. In the Byzantine tradition it is understood as addressed to the Trinity. (In Syria, a phrase added to it, "who was crucified for us," caused controversy, since it seemed to some to make the whole Trinity suffer; the debate is a reminder of how closely doctrine and liturgy were bound together.) It is still sung in every Orthodox Divine Liturgy.
+
+## The anaphora of Basil
+
+The great eucharistic prayer (**anaphora**) attributed to **Basil**, which may in its core go back to him, is still used in the Orthodox Church on certain feast days. Its structure is thoroughly Trinitarian. It addresses the Father as the source of all, gives thanks for creation and for the history of salvation, culminating in the sending of the Son, recalls the Last Supper and the death and resurrection of Christ, and then calls upon the Father to send the Holy Spirit upon the bread and wine and upon the people, to make the gifts the body and blood of Christ and to unite the communicants. This invocation of the Spirit, the **epiclesis**, became a defining feature of Eastern eucharistic prayers. The prayer embodies the order of salvation: from the Father, through the Son, in the Spirit, and back to the Father.
+
+## Baptism and the creed
+
+Baptism, as we saw in Lesson I, was administered with a threefold confession and a threefold immersion. In the fourth century, the creed, increasingly the Nicene Creed, was taught to catechumens during Lent in a ceremony called the "handing over of the creed" (*traditio symboli*), and recited by them before baptism (the *redditio symboli*). The creed was learned by heart, not read, partly to keep it secret from outsiders. Every new Christian thus received the doctrine of the Trinity as a summary of the faith into which he or she was being baptized.
+
+## Feasts
+
+The church's calendar also came to express the doctrine. In the East, the feast of **Pentecost** became the great feast of the Trinity and the Spirit; Rublev's icon of the Trinity, which we met in Lesson I, is the icon of the feast. In the West, a separate feast of **Trinity Sunday**, on the Sunday after Pentecost, spread in the Middle Ages and was made universal by Pope John XXII in 1334. Its preface in the Roman Missal is a compact statement of the doctrine.
+
+## The hymn of the church
+
+Much later, Christians of every tradition would continue to sing the Trinity: in Luther's "We all believe in one true God," in the English hymn "Holy, Holy, Holy! Lord God Almighty" by **Reginald Heber** (1826), with its line "God in three Persons, blessed Trinity," and in the "Doxology" of the English bishop **Thomas Ken** (1674), "Praise God from whom all blessings flow," sung in countless Protestant churches. The doctrine that the theologians labored to define has been, for most Christians, a doctrine sung.
+
+> **Pause and consider.** Why might the outcome of the fourth-century controversies have been expressed first in liturgy rather than in theology? What does the liturgy teach that a treatise cannot?`,
     },
     {
       title: "Working with the Sources",
