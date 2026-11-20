@@ -1889,6 +1889,20 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 7, kind: "disputed", claim: "The Muratorian fragment dates from the late second century in Rome.", note: "This is the traditional dating; Albert Sundberg and Geoffrey Hahneman argued for a fourth-century Eastern origin. The lesson notes the debate." },
     ],
   },
+  "PAT 110": {
+    1: [
+      { page: 1, kind: "uncertain", claim: "Wittgenstein called the Confessions perhaps the most serious book ever written.", note: "The remark is reported by his friend Maurice Drury, not found in Wittgenstein's own writings." },
+      { page: 2, kind: "uncertain", claim: "Monica's name may derive from a local Libyan deity.", note: "A suggestion based on a Numidian deity Mon attested in inscriptions; it cannot be proved. The lesson says \"may.\"" },
+      { page: 5, kind: "disputed", claim: "The Confessions may have grown out of Paulinus of Nola's request to Alypius.", note: "The correspondence is real; its connection with the writing of the Confessions is a scholarly hypothesis, presented as one explanation among several." },
+    ],
+    3: [
+      { page: 8, kind: "disputed", claim: "The \"books of the Platonists\" were treatises of Plotinus and perhaps Porphyry, in Victorinus's translation.", note: "Augustine does not name them. Scholars have argued for Plotinus alone, Porphyry alone, or both; the lesson gives the common view and notes the debate." },
+    ],
+    4: [
+      { page: 5, kind: "disputed", claim: "Courcelle proposed reading \"from a neighboring house\" as perhaps \"from the divine house.\"", note: "The reading rests on a manuscript variant (divina for vicina) that most editors reject. The lesson reports it as Courcelle's suggestion, not as the text." },
+      { page: 6, kind: "uncertain", claim: "Augustine was probably baptized in the octagonal baptistery beneath Milan's cathedral square.", note: "The baptistery of San Giovanni alle Fonti is usually dated to Ambrose's time, but its exact date, and so whether Augustine was baptized there, is not certain." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
