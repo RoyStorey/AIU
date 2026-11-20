@@ -11,4 +11,5 @@ import type { MapSpec } from "map-widget/spec";
 export const MAPS: Record<string, () => Promise<{ default: MapSpec }>> = {
   "meh-101-roman-persian-war": () => import("./meh-101-roman-persian-war"),
   "euh-301-road-to-war": () => import("./euh-301-road-to-war"),
+  "meh-101-arab-conquests": () => import("./meh-101-arab-conquests"),
 };

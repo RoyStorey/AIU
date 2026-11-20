@@ -1,5 +1,9 @@
 import type { CourseContent } from "@/lib/schema";
 import { lesson1 } from "./lesson-1";
+import { lesson2 } from "./lesson-2";
+import { lesson3 } from "./lesson-3";
+import { lesson4 } from "./lesson-4";
+import { lesson5 } from "./lesson-5";
 
 export const meh101: CourseContent = {
   overview: `In 600 the Middle East was divided between two ancient empires, Christian Rome and Zoroastrian Persia, with the Arab peoples between and beyond them. A century later, a single Islamic empire ruled from the Atlantic to Central Asia, the Persian empire had vanished, and Arabic was becoming the language of government, scripture, and learning from Spain to the borders of China. Over the following five centuries the caliphate of Baghdad presided over one of the great civilizations of world history—and then broke apart, until in 1258 the Mongols sacked Baghdad and put the last caliph to death.
@@ -15,81 +19,7 @@ The first lesson is written in full; the remaining four are planned in outline b
     "Trace the fragmentation of the caliphate and the impact of the Fatimids, the Seljuk Turks, the Crusades, and the Mongols.",
     "Interpret primary sources critically, attending to their authors, dates, audiences, and the distance between events and their telling.",
   ],
-  lessons: [lesson1],
-  forthcoming: [
-    {
-      title: "Muhammad and the First Community, c. 570–632",
-      summary:
-        "The life of the Prophet, the message of the Qur'an, the emigration to Medina, and the war with Mecca, read alongside the long scholarly argument over what the sources can tell us.",
-      pages: [
-        { title: "The Problem of the Sources", summary: "The Qur'an, the biography of Ibn Ishaq, and the hadith; the revisionist challenge of the 1970s and where the debate stands; what the earliest non-Muslim witnesses say.", minutes: 9 },
-        { title: "The Prophet in Mecca", summary: "Muhammad's early life and marriage to Khadija, the first revelation around 610, the themes of the early suras—one God, judgment, the duty to the poor—and the growing hostility of Quraysh.", minutes: 10 },
-        { title: "The Hijra and the Community at Medina", summary: "The emigration of 622, the agreement known as the Constitution of Medina, the idea of the umma, and relations with the Arab and Jewish tribes of Yathrib.", minutes: 10 },
-        { title: "War with Mecca and the Triumph of Islam", summary: "Badr, Uhud, and the Trench; the truce of Hudaybiya; the surrender of Mecca in 630; and the submission of the tribes of Arabia.", minutes: 9 },
-        { title: "The Message and the Messenger", summary: "The Qur'an as scripture, its prophets and its law, Abraham and the Ka'ba, the farewell pilgrimage, and the Prophet's death in 632.", minutes: 9 },
-        { title: "Working with the Sources", summary: "Early suras of the Qur'an, the Constitution of Medina, a passage of Ibn Ishaq, and the Doctrina Jacobi, a Greek text of 634 that mentions a prophet among the Arabs.", minutes: 25 },
-      ],
-      readings: [
-        { kind: "book", title: "The Life of Muhammad: A Translation of Ibn Ishaq's Sirat Rasul Allah", author: "A. Guillaume", publisher: "Oxford University Press", year: "1955" },
-        { kind: "book", title: "Muhammad and the Believers: At the Origins of Islam", author: "Fred M. Donner", publisher: "Harvard University Press", year: "2010" },
-        { kind: "book", title: "Muhammad", author: "Michael Cook", publisher: "Oxford University Press", year: "1983", note: "A brief, rigorous introduction that weighs the sources." },
-      ],
-    },
-    {
-      title: "Conquest and Caliphate, 632–750",
-      summary:
-        "The succession to the Prophet, the conquests that destroyed Persia and halved Rome, the civil wars that divided the community, and the Umayyad empire of Damascus.",
-      pages: [
-        { title: "Succession and the Wars of Apostasy", summary: "Abu Bakr and the meaning of khalifa, the wars that reunited Arabia, and the first raids into Syria and Iraq.", minutes: 9 },
-        { title: "The Great Conquests", summary: "Yarmuk, Qadisiyya, Ctesiphon, Nahavand, and Egypt; why the conquests succeeded; the garrison cities of Kufa, Basra, and Fustat.", minutes: 10 },
-        { title: "'Umar, 'Uthman, 'Ali, and the First Civil War", summary: "The register of pensions, the standard text of the Qur'an, the murder of 'Uthman, the battles of the Camel and Siffin, the Kharijites, and the roots of the Sunni–Shi'i divide.", minutes: 10 },
-        { title: "The Umayyad Empire", summary: "Mu'awiya and Damascus; Karbala and the second civil war; 'Abd al-Malik, the Dome of the Rock, Arabic coinage and administration; expansion to Spain and Central Asia.", minutes: 10 },
-        { title: "Conquerors and Conquered", summary: "Converts and clients, Christians, Jews, and Zoroastrians under Muslim rule, taxation and its grievances, and the Abbasid revolution of 747–750.", minutes: 9 },
-        { title: "Working with the Sources", summary: "A surrender treaty from the conquests, the Armenian chronicle attributed to Sebeos, the inscriptions of the Dome of the Rock, and John of Damascus on the new faith.", minutes: 25 },
-      ],
-      readings: [
-        { kind: "book", title: "The Great Arab Conquests: How the Spread of Islam Changed the World We Live In", author: "Hugh Kennedy", publisher: "Weidenfeld & Nicolson", year: "2007" },
-        { kind: "book", title: "In God's Path: The Arab Conquests and the Creation of an Islamic Empire", author: "Robert G. Hoyland", publisher: "Oxford University Press", year: "2015" },
-        { kind: "book", title: "'Abd al-Malik", author: "Chase F. Robinson", publisher: "Oneworld", year: "2005" },
-      ],
-    },
-    {
-      title: "The Abbasid Age: Baghdad and Classical Islam, 750–945",
-      summary:
-        "The caliphate of Baghdad at its height: a new capital, a translation movement that carried Greek science into Arabic, the making of Islamic law and the scholarly class, and the slow breakup of the empire.",
-      pages: [
-        { title: "The Round City", summary: "Al-Mansur's foundation of Baghdad in 762, the Persian inheritance of the Abbasid court, the Barmakids, and the reign of Harun al-Rashid.", minutes: 9 },
-        { title: "The Translation Movement", summary: "Paper, patronage, and the House of Wisdom; Hunayn ibn Ishaq and the translators; al-Kindi and al-Khwarizmi; why an empire wanted Greek learning.", minutes: 10 },
-        { title: "Law, Tradition, and the Scholars", summary: "The hadith and its critics, the founders of the schools of law, the Inquisition of al-Ma'mun and Ahmad ibn Hanbal's resistance, and the emergence of Sunni and Shi'i Islam.", minutes: 10 },
-        { title: "City, Trade, and Society", summary: "Commerce from the Indian Ocean to the Mediterranean, slavery and the Zanj revolt, the courtly culture of adab, and the writers al-Jahiz and Abu Nuwas.", minutes: 9 },
-        { title: "The Fragmenting Caliphate", summary: "Samarra and the Turkish soldiers, the anarchy of the 860s, the rise of provincial dynasties from Egypt to Khurasan, and the Buyid capture of Baghdad in 945.", minutes: 9 },
-        { title: "Working with the Sources", summary: "Al-Ya'qubi on the founding of Baghdad, Hunayn ibn Ishaq on hunting for Greek manuscripts, a letter of al-Jahiz, and traditions from al-Bukhari's collection.", minutes: 25 },
-      ],
-      readings: [
-        { kind: "book", title: "When Baghdad Ruled the Muslim World: The Rise and Fall of Islam's Greatest Dynasty", author: "Hugh Kennedy", publisher: "Da Capo Press", year: "2004", note: "Published in Britain as The Court of the Caliphs." },
-        { kind: "book", title: "Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early 'Abbasid Society", author: "Dimitri Gutas", publisher: "Routledge", year: "1998" },
-        { kind: "book", title: "The Formation of Islam: Religion and Society in the Near East, 600–1800", author: "Jonathan P. Berkey", publisher: "Cambridge University Press", year: "2003" },
-      ],
-    },
-    {
-      title: "Fatimids, Seljuks, Crusaders, and Mongols, 945–1258",
-      summary:
-        "The age of a divided caliphate: a rival Shi'i caliphate in Cairo, the Seljuk Turks and the Sunni revival, the Crusades seen from the Muslim side, and the Mongol sack of Baghdad.",
-      pages: [
-        { title: "A Shi'i Century", summary: "The Buyids in Baghdad and the Isma'ili Fatimids, who conquered Egypt, founded Cairo in 969, and claimed the caliphate for the house of 'Ali.", minutes: 10 },
-        { title: "The Seljuk Turks and the Sunni Revival", summary: "Tughril Beg in Baghdad, the sultanate, Nizam al-Mulk and the madrasa, al-Ghazali, and the victory at Manzikert that opened Anatolia to the Turks.", minutes: 10 },
-        { title: "The Crusades from the Other Side", summary: "The fall of Jerusalem in 1099, the slow Muslim response, Zengi and Nur al-Din, Saladin and the battle of Hattin, and life on a frontier of war and coexistence.", minutes: 10 },
-        { title: "The Mongol Storm", summary: "Chinggis Khan and the destruction of Khwarazm, Hülegü's campaign against the Assassins, the sack of Baghdad in 1258, and the Mamluk victory at 'Ayn Jalut.", minutes: 9 },
-        { title: "Epilogue: A Civilization Without a Caliph", summary: "What survived the caliphate: the Persian revival, the networks of scholars and Sufis, and the long argument over continuity and rupture in Middle Eastern history.", minutes: 8 },
-        { title: "Working with the Sources", summary: "Nizam al-Mulk's Book of Government, al-Ghazali's Deliverance from Error, Usama ibn Munqidh on the Franks, and Ibn al-Athir on the coming of the Mongols.", minutes: 25 },
-      ],
-      readings: [
-        { kind: "book", title: "The Crusades: Islamic Perspectives", author: "Carole Hillenbrand", publisher: "Edinburgh University Press", year: "1999" },
-        { kind: "book", title: "The Book of Contemplation: Islam and the Crusades", author: "Usama ibn Munqidh, trans. Paul M. Cobb", publisher: "Penguin Classics", year: "2008" },
-        { kind: "book", title: "The Mongols and the Islamic World: From Conquest to Conversion", author: "Peter Jackson", publisher: "Yale University Press", year: "2017" },
-      ],
-    },
-  ],
+  lessons: [lesson1, lesson2, lesson3, lesson4, lesson5],
   library: [
     {
       heading: "Primary Sources",

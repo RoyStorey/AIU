@@ -1868,6 +1868,30 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
         note: "Antioch had already fallen to the Persians in 610 or 611; the battle of 613 near the city was Heraclius's failed attempt to retake it (James Howard-Johnston, The Last Great War of Antiquity, 2021; Walter Kaegi, Heraclius, 2003). The lesson and its map have been corrected.",
       },
     ],
+    2: [
+      { page: 2, kind: "uncertain", claim: "Muhammad was born in the Year of the Elephant, about 570.", note: "The date comes from later tradition, which links the birth to Abraha's expedition against Mecca. Some historians think the expedition took place some years earlier; the lesson says the date is usually reckoned as about 570." },
+      { page: 2, kind: "uncertain", claim: "Khadija was forty when she married Muhammad.", note: "The traditional age sits uneasily with the several children she bore him; many historians think she was younger. The lesson notes the doubt." },
+      { page: 4, kind: "disputed", claim: "Between 600 and 900 men of the Qurayza were executed after the battle of the Trench.", note: "The figures rest on reports written more than a century later; some historians accept them, others think the scale exaggerated. The lesson presents both views." },
+      { page: 6, kind: "disputed", claim: "'A'isha was married at six or seven, and the marriage consummated at nine.", note: "This is the report of the hadith collections. Some modern Muslim scholars argue from other reports that she was older; ages in the early sources are often schematic. The lesson sets out the evidence and the debate." },
+    ],
+    3: [
+      { page: 2, kind: "uncertain", claim: "The battle of al-Qadisiyya.", note: "The Arabic sources date it variously to 636, 637, or 638; the lesson says most historians place it shortly after the Yarmuk." },
+      { page: 2, kind: "uncertain", claim: "Heraclius's farewell to Syria: \"Farewell, Syria, my fair province.\"", note: "Known only from later Arabic tradition; the lesson says \"whether or not he said it.\"" },
+      { page: 4, kind: "uncertain", claim: "'Uthman was killed while reading the Qur'an.", note: "A detail of the later tradition, which shaped the memory of his death; the lesson gives it as \"it is said.\"" },
+      { page: 7, kind: "uncertain", claim: "Some eighty Umayyads were killed at a banquet.", note: "The story appears in later sources with varying details and numbers; the massacre of the family is well attested, the banquet less so." },
+    ],
+    4: [
+      { page: 1, kind: "uncertain", claim: "The size of the Round City.", note: "The medieval sources give different figures and nothing survives above ground; the lesson gives about two kilometers as a probable figure." },
+      { page: 2, kind: "uncertain", claim: "Paper-making was learned from Chinese prisoners taken at Talas in 751.", note: "A story found in later sources and probably a legend; the lesson calls it so. Paper was certainly made in Samarkand soon after." },
+      { page: 2, kind: "uncertain", claim: "Al-Ma'mun's dream of Aristotle.", note: "Reported by Ibn al-Nadim in the tenth century; the lesson presents it as a story showing how the movement remembered itself." },
+      { page: 3, kind: "uncertain", claim: "Al-Ma'mun's astronomers measured the earth's circumference on the plain of Sinjar.", note: "The expedition is reported in several later accounts that differ in details and results; the lesson says \"it is said.\"" },
+    ],
+    5: [
+      { page: 7, kind: "uncertain", claim: "The caliph al-Musta'sim was rolled in a carpet and trampled by horses.", note: "A widely repeated account in Persian and Arabic sources; other sources describe his death differently." },
+      { page: 7, kind: "uncertain", claim: "The death toll in Baghdad in 1258.", note: "Hülegü's own claim of 200,000 and the higher figures of other sources cannot be checked; medieval figures for massacres are often inflated." },
+      { page: 3, kind: "uncertain", claim: "Nizam al-Mulk was murdered by an agent of the Nizari Isma'ilis.", note: "This is the traditional account; some historians have suspected that rivals at the Seljuk court were involved." },
+      { page: 2, kind: "uncertain", claim: "In Fatimid Cairo shops were left unlocked.", note: "Nasir-i Khusraw's description; he was a convert to the Fatimid cause, and the lesson notes that allowance must be made for his enthusiasm." },
+    ],
   },
   "EUH 301": {
     4: [
