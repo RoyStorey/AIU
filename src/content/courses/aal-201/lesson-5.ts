@@ -29,7 +29,7 @@ Boas gave Hurston what she called "the spy-glass of Anthropology." It allowed he
 
 ## A different stance
 
-Hurston stood apart from many of her contemporaries in her attitude toward race. She did not see Black life primarily through the lens of oppression and protest. She was interested in Black culture for its own sake: its language, humor, religion, music, and stories. In her later autobiography, *Dust Tracks on a Road* (1942), she wrote dismissively of what she called the "sobbing school of Negrohood," who believed that nature had somehow given them a dirty deal. Some readers admire this stance as a refusal to define Black life by white racism; others criticize it as a failure to confront the realities of Jim Crow. The debate began in her lifetime.
+Hurston stood apart from many of her contemporaries in her attitude toward race. She did not see Black life primarily through the lens of oppression and protest. She was interested in Black culture for its own sake: its language, humor, religion, music, and stories. In the essay "How It Feels to Be Colored Me" (1928), which we read on the next page, she declared that she did not belong to the "sobbing school of Negrohood," who held that nature had given them a dirty deal. Some readers admire this stance as a refusal to define Black life by white racism; others criticize it as a failure to confront the realities of Jim Crow. The debate began in her lifetime.
 
 > **Pause and consider.** How might growing up in an all-Black town have shaped Hurston's view of Black culture differently from writers who grew up as a minority in white communities?`,
     },
@@ -83,7 +83,7 @@ Her fieldwork was funded largely by **Charlotte Osgood Mason**, the white patron
 
 ## The Mule Bone quarrel
 
-During this period, Hurston and **Langston Hughes**, both supported by Mason, collaborated on a folk comedy, ***Mule Bone***, based on a tale Hurston had collected in Eatonville about a quarrel between two men over a turkey, settled in a church trial where the weapon, a mule's jawbone, becomes the subject of a comic legal argument. In 1930 they quarreled bitterly over the play's authorship, partly because Hughes wanted to give a share of the credit to his typist, Louise Thompson, and partly because of tensions involving Mason. Hurston tried to copyright and produce the play on her own. The friendship ended. *Mule Bone* was not performed until 1991, at Lincoln Center in New York.
+During this period, Hurston and **Langston Hughes**, both supported by Mason, collaborated on a folk comedy, ***Mule Bone***, based on a tale Hurston had collected in Eatonville about a quarrel between two men over a turkey, settled in a church trial where the weapon, a mule's jawbone, becomes the subject of a comic legal argument. In 1930 they quarreled bitterly over the play's authorship, partly because Hughes wanted to give a share of the credit to his typist, Louise Thompson, and partly because of tensions involving Mason. Hurston tried to copyright and produce the play on her own. The friendship ended. *Mule Bone* was not staged until 1991, when Lincoln Center Theater produced it in New York.
 
 ## Mules and Men
 
@@ -204,6 +204,36 @@ Later critics have reconsidered the quarrel. Some note that *Their Eyes* is not 
 > **Pause and consider.** Was Wright fair to Hurston? Does a novel by a Black writer in a segregated society have an obligation to address racism directly?`,
     },
     {
+      title: "Langston Hughes after the Renaissance",
+      body: `## The long career
+
+Of all the writers of the Renaissance, Langston Hughes had the longest and most varied career after it ended. Following him through the 1930s, 1940s, and 1950s shows how the movement's ideas changed and survived.
+
+## The radical 1930s
+
+The Depression radicalized Hughes. After his break with Charlotte Osgood Mason in 1930, he toured the South reading his poetry in Black colleges and churches, supported by a grant from the Rosenwald Fund. He took up the cause of the **Scottsboro Boys**, nine Black teenagers falsely accused of raping two white women in Alabama in 1931 and sentenced to death; he wrote poems and a play about the case, and visited them in prison. In 1932 he traveled to the Soviet Union with a group of Black Americans to make a film about American race relations, which was never made, and stayed for a year, traveling as far as Central Asia. He wrote radical poems, such as "Goodbye Christ" (1932), which attacked commercialized religion and later caused him great trouble, and "Let America Be America Again" (1936), which calls on America to live up to the dream it has never fulfilled for the poor and the oppressed of every color. He covered the Spanish Civil War for Black newspapers in 1937.
+
+## Simple
+
+In 1943, Hughes began writing a weekly column for the *Chicago Defender* featuring **Jesse B. Semple**, known as "Simple," a working-class Harlemite who discusses race, politics, women, and life with a more educated narrator in a neighborhood bar. The columns, collected in several books beginning with *Simple Speaks His Mind* (1950), were enormously popular. Simple's humor, shrewdness, and vernacular wisdom carry forward the folk voice Hughes had celebrated in the 1920s, in a new medium for a mass Black readership.
+
+## Montage of a Dream Deferred
+
+In 1951, Hughes published ***Montage of a Dream Deferred***, a book-length sequence of short poems about Harlem after the war, modeled on the new jazz of the 1940s, **bebop**, with its abrupt rhythms, broken phrases, and sudden shifts. The poems capture the voices of Harlem—children, students, workers, churchgoers—and their frustrated hopes. The sequence's most famous poem, "**Harlem**," asks a single question: what happens to a dream deferred? Does it dry up "like a raisin in the sun," or does it explode? The poem gave the playwright **Lorraine Hansberry** the title for *A Raisin in the Sun* (1959), and its final question was read by many as a warning of the urban uprisings of the 1960s.
+
+The book shows Hughes doing in the 1950s what he had done in the 1920s: listening to the music of Harlem and making it into poetry. The "dream deferred" is the dream of the New Negro, still unfulfilled thirty years later.
+
+## McCarthy
+
+In 1953, at the height of the anti-communist campaigns, Hughes was summoned before Senator **Joseph McCarthy**'s Permanent Subcommittee on Investigations, which questioned him about his radical writings of the 1930s. Hughes, who had never been a member of the Communist Party, testified that his views had changed, and was not cited for contempt. Some on the left felt he had compromised; Hughes felt he had survived. For years afterward, his readings were picketed by right-wing groups who cited "Goodbye Christ."
+
+## Elder
+
+In his last years, Hughes became an elder in his turn, encouraging younger writers, as Fauset and Locke had encouraged him. He edited anthologies of Black poetry and folklore, wrote histories for young readers, and promoted the work of writers such as Gwendolyn Brooks, Alice Walker, whose first published story he included in an anthology, and Amiri Baraka. He died in New York in May 1967. His career connected the Harlem Renaissance with the civil rights movement and the Black Arts Movement that followed.
+
+> **Pause and consider.** How does "Harlem" in *Montage of a Dream Deferred* look back on the hopes of the 1920s? What has happened to the dream of the New Negro?`,
+    },
+    {
       title: "How the Renaissance Ended",
       body: `## The crash
 
@@ -223,7 +253,7 @@ Mayor Fiorello La Guardia appointed a commission to investigate. Its report, wri
 
 ## Locke's retrospective
 
-In 1936, Alain Locke published an essay in *Opportunity* called "**Harlem: Dark Weather-Vane**," reflecting on the riot. He wrote that Harlem's "Renaissance" had not touched the economic realities of its people, and that the cultural movement had been too dependent on white patronage and too little concerned with the masses. The very man who had named the New Negro now acknowledged the limits of the movement. Many historians take this essay as an epitaph for the Renaissance.
+In 1936, Alain Locke published an essay in *Survey Graphic*—the magazine whose Harlem issue he had edited in 1925—called "**Harlem: Dark Weather-Vane**," reflecting on the riot. He wrote that Harlem's "Renaissance" had not touched the economic realities of its people, and that the cultural movement had been too dependent on white patronage and too little concerned with the masses. The very man who had named the New Negro now acknowledged the limits of the movement. Many historians take this essay as an epitaph for the Renaissance.
 
 ## Continuity
 
@@ -231,7 +261,7 @@ Yet the Renaissance did not simply end. Its writers continued to work: Hughes fo
 
 ## Was it a failure?
 
-As we saw in Lesson I, some historians have judged the Renaissance a failure: it did not win civil rights, did not change the economic conditions of Black Americans, and depended too much on white approval. Others reject this judgment as unfair. No cultural movement could have overcome the Depression or Jim Crow. What the Renaissance did was create a body of literature and art that changed the image of Black Americans, in their own eyes and the world's; built institutions; and established a tradition on which every later generation built. As the scholar **Arnold Rampersad** has noted, it would be strange to call a movement a failure that produced *Cane*, *The Weary Blues*, *Passing*, and *Their Eyes Were Watching God*.
+As we saw in Lesson I, some historians have judged the Renaissance a failure: it did not win civil rights, did not change the economic conditions of Black Americans, and depended too much on white approval. Others reject this judgment as unfair. No cultural movement could have overcome the Depression or Jim Crow. What the Renaissance did was create a body of literature and art that changed the image of Black Americans, in their own eyes and the world's; built institutions; and established a tradition on which every later generation built. It would be strange to call a movement a failure that produced *Cane*, *The Weary Blues*, *Passing*, and *Their Eyes Were Watching God*.
 
 > **Pause and consider.** Locke wrote in 1936 that the Renaissance had not touched the economic realities of Harlem. Is that a fair criterion for judging a cultural movement?`,
     },
@@ -247,7 +277,7 @@ In 1973, the novelist **Alice Walker**, who had discovered Hurston's work while 
 
 > Zora Neale Hurston / "A Genius of the South" / Novelist / Folklorist / Anthropologist / 1901–1960
 
-The birth year, ironically, was the one Hurston had claimed. "A genius of the South" is a phrase from Toomer's *Cane*. Walker told the story in an essay, "**In Search of Zora Neale Hurston**," published in *Ms.* magazine in March 1975. It sparked a revival. Robert Hemenway's biography, *Zora Neale Hurston: A Literary Biography* (1977), with a foreword by Walker, followed. *Their Eyes Were Watching God* was reissued in 1978 by the University of Illinois Press, and has since sold millions of copies. It is now required reading in schools and universities across the country.
+The birth year, ironically, was the one Hurston had claimed. Walker took the phrase "a genius of the South" from Toomer's *Cane*. Walker told the story in an essay, "**In Search of Zora Neale Hurston**," published in *Ms.* magazine in March 1975. It sparked a revival. Robert Hemenway's biography, *Zora Neale Hurston: A Literary Biography* (1977), with a foreword by Walker, followed. *Their Eyes Were Watching God* was reissued in 1978 by the University of Illinois Press, and has since sold millions of copies. It is now required reading in schools and universities across the country.
 
 ## The rediscovery of the Renaissance
 

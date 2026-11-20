@@ -1903,6 +1903,21 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 6, kind: "uncertain", claim: "Augustine was probably baptized in the octagonal baptistery beneath Milan's cathedral square.", note: "The baptistery of San Giovanni alle Fonti is usually dated to Ambrose's time, but its exact date, and so whether Augustine was baptized there, is not certain." },
     ],
   },
+  "AAL 201": {
+    1: [
+      { page: 4, kind: "disputed", claim: "The number killed at Elaine, Arkansas, in 1919.", note: "Contemporary and later estimates range from about two dozen to more than two hundred Black victims; no full count exists. The lesson gives the range." },
+      { page: 5, kind: "uncertain", claim: "The membership of Garvey's UNIA.", note: "Garvey claimed millions; historians generally think active membership was in the hundreds of thousands, with wider sympathy. The lesson gives both figures." },
+    ],
+    2: [
+      { page: 4, kind: "uncertain", claim: "Black newspapers called Hughes \"the poet lowrate of Harlem\" and a \"sewer dweller.\"", note: "Both phrases are reported in Rampersad's biography from reviews of 1927; exact headlines and dates vary slightly between accounts." },
+    ],
+    4: [
+      { page: 6, kind: "uncertain", claim: "How many people passed for white each year.", note: "Contemporary estimates ranged from a few thousand to tens of thousands a year; by its nature the practice left few records. The lesson says the numbers cannot be known." },
+    ],
+    5: [
+      { page: 1, kind: "corrected", claim: "Hurston was born in Eatonville in 1901 or 1903.", note: "She gave these dates herself; census records show she was born in Notasulga, Alabama, in 1891. The lesson gives the documented date and explains the discrepancy." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
