@@ -1,12 +1,14 @@
 import type { Element, Root } from "hast";
-import ReactMarkdown, { type Components } from "react-markdown";
+import ReactMarkdown, { defaultUrlTransform, type Components } from "react-markdown";
 import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
 import { Figure } from "@/components/Figure";
+import { HistoryMap } from "@/components/HistoryMap";
 
 /**
  * A paragraph holding nothing but an image is a figure:
- * `![alt text](url "Caption and credit.")` becomes an illustration with its caption.
+ * `![alt text](url "Caption and credit.")` becomes an illustration with its caption,
+ * and `![alt text](map:<id> "Caption.")` an interactive map from src/content/maps.
  */
 const components: Components = {
   p({ node, children, ...props }) {
@@ -14,6 +16,7 @@ const components: Components = {
     const only = kids.length === 1 && kids[0].type === "element" && kids[0].tagName === "img" ? (kids[0] as Element) : undefined;
     if (only) {
       const { src, alt, title } = only.properties as { src?: string; alt?: string; title?: string };
+      if (src?.startsWith("map:")) return <HistoryMap id={src.slice(4)} alt={alt ?? ""} caption={title} />;
       if (src) return <Figure src={src} alt={alt ?? ""} caption={title} />;
     }
     return <p {...props}>{children}</p>;
@@ -33,11 +36,14 @@ function rehypeBlockIds() {
   };
 }
 
+/** Links are made safe as usual; `map:` addresses name an interactive map and are kept. */
+const urlTransform = (url: string) => (url.startsWith("map:") ? url : defaultUrlTransform(url));
+
 /** Renders lecture Markdown. Line breaks are kept, so quoted verse keeps its lineation. */
 export function Markdown({ children, className = "prose" }: { children: string; className?: string }) {
   return (
     <div className={className}>
-      <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} rehypePlugins={[rehypeBlockIds]} components={components}>{children}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} rehypePlugins={[rehypeBlockIds]} components={components} urlTransform={urlTransform}>{children}</ReactMarkdown>
     </div>
   );
 }

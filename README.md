@@ -72,6 +72,42 @@ Lectures can be listened to as well as read: while cooking, on a commute, or wit
 
 Studio voices need the optional packages `onnxruntime-node` and `phonemizer` (installed by `npm install`; `npm install --omit=optional` leaves them out, and the site builds and runs without them, offering device voices and any narration already rendered) and `ffmpeg` for MP3 encoding (without it, narration is stored as larger WAV files). Rendered narration can also be made on one machine and copied to another: a server serves whatever is in `data/narration/` even without the engine installed. The Kokoro model is Apache-2.0 licensed; the phonemizer includes eSpeak NG, which is GPL-3.0.
 
+## Maps
+
+A lesson page can hold an **interactive map** that illustrates what the text describes:
+- territory changing hands;
+- armies and fleets moving;
+- dated events;
+- a timeline the reader can drag;
+- a few short chapters to step through.
+
+A page places one with an image line whose address is `map:` and the map's id:
+
+```markdown
+![Interactive map of the war between Rome and Persia, 603–630](map:meh-101-roman-persian-war "Caption shown under the map.")
+```
+
+**What the maps are**
+- Each map is written for the lesson it sits in. It uses the lesson's own names and dates, and it supplements the
+  text: the explaining, knowledge checks and exercises stay in the lesson.
+- Maps live in `src/content/maps/` (one file per map, listed in `index.ts`). They follow the `atlas-map@1` format
+  from the [map-widget](https://github.com/RoyStorey/map-widget) package; see `src/content/maps/README.md`.
+
+**How they behave on the page**
+- They take their colours and type from the house theme.
+- They load only when a reader scrolls to them.
+- Narration passes over them, as it does over figures.
+
+**Current maps**
+- **MEH 101**, Lesson I: the Roman–Persian war of 603–630.
+- **EUH 301**, Lesson IV: Germany's expansion, 1935–1939.
+
+To check every map, and that every `map:` line names one that exists:
+
+```bash
+npm run maps:check
+```
+
 ## Sample students
 
 A new installation includes three sample students so the community features can be seen at once: **Eleanor Marsh**, a Master of Poetry whose capstone, "'Thou Hast Thy Music Too': How Keats's Odes End," is a complete 4,500-word essay; **Thomas Adeyemi**, an Expert; and **Ruth Calloway**, midway through the program, with their threads in the Poetry common room and two correction reports. They are labeled "sample," cannot sign in, and are removed—with everything they wrote—by setting `AIU_DEMO=off`.

@@ -220,6 +220,8 @@ The Fifty Years' Peace between Rome and Persia did not last. War resumed in 572,
 
 Then, in 602, the Roman army on the Danube mutinied against Maurice, and a junior officer named **Phocas** led it to Constantinople. Maurice and his sons were executed. Khusrau declared himself the avenger of his benefactor and in 603 invaded the Roman empire. What followed was the longest and most destructive war ever fought between Rome and Persia—a war that the historian James Howard-Johnston has called "the last great war of antiquity." It lasted a quarter of a century, and by its end it had transformed the Middle East.
 
+![Interactive map of the war between Rome and Persia, 603–630](map:meh-101-roman-persian-war "The last great war of antiquity, 603–630. Step through the chapters as you read, or drag the timeline; click any army or marker for details.")
+
 ## The Persian conquest of the Roman East
 
 At first the Persians recovered the frontier fortresses, including the great fortress of Dara, which fell in 604 after a long siege. Rome was paralyzed by civil strife under Phocas, whose regime grew more brutal as it grew more insecure. In 610 Heraclius, son of the governor of Africa, sailed from Carthage, overthrew Phocas, and became emperor. But he inherited an empire in crisis, and the Persian armies, led by able generals such as **Shahrbaraz**, now drove deep into the Roman heartlands.

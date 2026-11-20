@@ -9,7 +9,7 @@ export function sourcePage(src: string): string | undefined {
 }
 
 /** Captions may set titles in *italics*; render just that much Markdown. */
-function emphasize(text: string) {
+export function emphasize(text: string) {
   return text.split(/(\*[^*]+\*)/).map((part, i) =>
     part.startsWith("*") && part.endsWith("*") && part.length > 2 ? <em key={i}>{part.slice(1, -1)}</em> : part);
 }
