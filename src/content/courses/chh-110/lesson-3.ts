@@ -100,7 +100,7 @@ Facing the collapse of his authority, Henry decided to seek absolution before Gr
 
 > There, on three successive days, standing before the castle gate, laying aside all royal insignia, barefooted and in coarse attire, he ceased not with many tears to beseech the apostolic help and comfort, until all who were present or who heard the story were so moved by pity and compassion that they pleaded his cause with prayers and tears.
 >
-> — Gregory VII to the German princes (1077), trans. in E. F. Henderson, *Select Historical Documents of the Middle Ages* (1892)
+> — Gregory VII to the German princes (1077), after the translation in E. F. Henderson, *Select Historical Documents of the Middle Ages* (1892)
 
 On 28 January 1077, Gregory absolved him.
 
@@ -276,6 +276,64 @@ The recovery of the complete works of **Aristotle** in the twelfth and thirteent
 The schools and universities raised in a new form the old question of **faith and reason**, which we met in SYS 101 and which PHR 101 studies in depth. Could reason, using Aristotle's logic, demonstrate the truths of faith? Where were its limits? The scholastic answer, at its best, was that faith and reason, both gifts of God, could not contradict each other, and that reason could illuminate, though not exhaust, the mysteries of faith.
 
 > **Pause and consider.** Abelard wrote that "by doubting we come to inquiry, and by inquiry we perceive the truth." Why might this principle have seemed dangerous to Bernard of Clairvaux?`,
+    },
+    {
+      title: "Matilda of Tuscany",
+      body: `## The pope's protector
+
+Among the most remarkable figures of the investiture conflict was a woman: **Matilda**, countess of Tuscany (1046–1115). Heiress to vast lands in northern and central Italy, including Tuscany, Modena, Reggio, Mantua, and Ferrara, she was one of the most powerful rulers in Italy, and for four decades the chief protector of the reform papacy.
+
+## A ruler in her own right
+
+Matilda's father, Boniface of Canossa, was murdered when she was a child; her mother, Beatrice, ruled the family lands and raised Matilda as a supporter of the reform. Matilda was educated, read Latin, and was said to know German, French, and Italian. After an unhappy first marriage to Godfrey the Hunchback, duke of Lower Lorraine, she ruled in her own right from 1076, after the deaths of her mother and husband. She led armies, held courts, issued charters, and founded and endowed churches and monasteries.
+
+## Canossa
+
+It was at Matilda's castle of **Canossa**, in the Apennine foothills, that Gregory VII stayed in January 1077 while Henry IV stood at the gate. Matilda, related to Henry, acted as an intermediary, together with Abbot Hugh of Cluny, Henry's godfather. A famous miniature in her biography, written by the monk **Donizo** around 1115, shows Henry kneeling before Matilda and Hugh, asking them to intercede for him.
+
+## War for the pope
+
+When the conflict between Henry and Gregory resumed, Matilda remained Gregory's loyal ally. For years she fought Henry's armies in Italy, defending the papacy's cause. When Gregory died in exile, she continued to support his successors, especially **Urban II**. In 1089, at the age of forty-three, she married the seventeen-year-old **Welf V** of Bavaria, a political alliance against Henry; the marriage was never consummated and was dissolved. In 1092, her forces defeated Henry's army at Canossa, a turning point in the war in Italy.
+
+## The Matildine lands
+
+Matilda bequeathed her lands to the papacy, a donation that later caused long disputes between popes and emperors over the "**Matildine lands**." Her support was crucial to the survival of the reform papacy in its most dangerous years. In 1633, Pope Urban VIII had her remains moved to **St. Peter's Basilica** in Rome, where she is one of the few women buried in the basilica; Bernini designed her tomb, which shows the scene at Canossa.
+
+## Women and power
+
+Matilda's career shows that women could exercise great power in medieval society, especially as heiresses and widows. Contemporary writers, both supporters and enemies, were fascinated by her. Supporters compared her to Deborah, the judge of Israel; enemies spread rumors about her relationship with Gregory VII, rumors that have no foundation. Her story is a reminder that the history of the medieval church was not only made by popes, bishops, and kings.
+
+> **Pause and consider.** Why might Matilda's support have been so important to the reform papacy? What does her career suggest about the possibilities for women in medieval politics?`,
+    },
+    {
+      title: "The Gothic Cathedral",
+      body: `## Abbot Suger
+
+In 1144, at the royal abbey of **Saint-Denis** near Paris, the burial place of the French kings, Abbot **Suger** (c. 1081–1151) dedicated a new choir that inaugurated a new style of architecture, later called **Gothic** (originally a term of contempt used by Renaissance writers, who associated it with the barbarian Goths). Suger's choir used **pointed arches**, **ribbed vaults**, and external supports that allowed thinner walls and large windows filled with **stained glass**, flooding the interior with colored light.
+
+## Theology of light
+
+Suger wrote an account of his work, explaining its meaning. He was influenced by the writings of **Pseudo-Dionysius**, whom medieval writers confused with Dionysius the Areopagite (Acts 17:34) and with St. Denis, the patron of Suger's abbey. Pseudo-Dionysius taught that God is light, and that all created things are lights that lead the soul upward toward the divine light. Suger believed that the beauty of the church, its gold, jewels, and colored light, could lift the mind from material things to spiritual ones. On the gilded doors of his church he inscribed verses: the dull mind rises to truth through material things, and, seeing this light, is resurrected from its former submersion.
+
+Suger's love of splendor contrasted sharply with **Bernard of Clairvaux**'s insistence on Cistercian simplicity. The two represented two views of the role of beauty in worship that would recur throughout Christian history.
+
+## The cathedral age
+
+Over the next century, Gothic cathedrals rose across northern France and spread throughout Europe: **Chartres**, rebuilt after a fire in 1194, with its incomparable stained glass; **Notre-Dame de Paris**, begun in 1163; **Reims**, the coronation church of French kings; **Amiens**, the tallest complete Gothic nave in France; and, in England, **Canterbury**, **Salisbury**, and **Wells**; in Germany, **Cologne**, begun in 1248 and completed only in 1880. Building a cathedral took decades, often more than a century, and required the labor of thousands of masons, carpenters, glaziers, and laborers, and the funding of bishops, chapters, kings, nobles, guilds, and ordinary townspeople.
+
+## Books for the illiterate
+
+The cathedrals were full of **images**: sculptures on the portals, stained glass in the windows, paintings on the walls. They depicted the stories of the Bible, the lives of the saints, the Last Judgment, the labors of the months and the signs of the zodiac, the liberal arts, and the virtues and vices. Gregory the Great had written that pictures are the books of the illiterate, and medieval writers often repeated the idea. The cathedral was a vast visual encyclopedia of Christian faith and knowledge, an image of the heavenly Jerusalem on earth.
+
+## Theology in stone
+
+The art historian **Erwin Panofsky**, in *Gothic Architecture and Scholasticism* (1951), argued that the Gothic cathedral and the scholastic *summa* shared a common mental habit: both sought to organize the whole of reality into a clear, articulated, and harmonious structure, in which every part has its place and the whole is visible in every part. Panofsky's thesis has been debated, but it captures something of the spirit of the age: the confidence that faith, reason, and beauty could be united.
+
+## The cathedral and the city
+
+The Gothic cathedral was also a civic building, the pride of its city. It was the bishop's church, but also the site of guild chapels, civic ceremonies, markets in its square, and the daily comings and goings of townspeople. In an age of growing cities, it expressed the wealth, ambition, and faith of urban Europe. Historians emphasize that the cathedrals were built by communities, and that the "cathedral crusade," as one historian called it, mobilized the energies of whole societies.
+
+> **Pause and consider.** Suger believed that beauty could lift the mind to God; Bernard believed it distracted from God. Which view do you find more persuasive? Can both be right?`,
     },
     {
       title: "Working with the Sources",
