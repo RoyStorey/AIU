@@ -53,7 +53,7 @@ The most brilliant and controversial master was **Peter Abelard** (1079–1142),
 
 ## Sic et Non
 
-Abelard's most influential work for method was ***Sic et Non*** ("Yes and No," c. 1120s), a collection of 158 questions on which the Church Fathers and the Bible appeared to give contradictory answers: "That faith should be supported by human reason, and the contrary"; "That God is one, and the contrary"; "That sin is pleasing to God, and the contrary." Abelard did not resolve the contradictions himself, but in his prologue he gave rules for resolving them: consider whether a text is authentic; whether the author later retracted it; whether words are used in different senses; whether the author was speaking in his own voice or reporting another's view. And he defended the value of questioning:
+Abelard's most influential work for method was ***Sic et Non*** ("Yes and No," c. 1120s), a collection of 158 questions on which the Church Fathers and the Bible appeared to give contradictory answers, beginning with "That faith should be supported by human reasons, and the contrary," and running through questions on God, Christ, the sacraments, sin, and marriage. Abelard did not resolve the contradictions himself, but in his prologue he gave rules for resolving them: consider whether a text is authentic; whether the author later retracted it; whether words are used in different senses; whether the author was speaking in his own voice or reporting another's view. And he defended the value of questioning:
 
 > For by doubting we come to inquiry; through inquiry we perceive the truth.
 >
@@ -129,7 +129,7 @@ Al-Ghazali has often been blamed for the decline of philosophy and science in th
       title: "Averroes: The Harmony of Law and Wisdom",
       body: `## The Commentator
 
-The philosophers' great defender against al-Ghazali was **Ibn Rushd**, known in the West as **Averroes** (1126–1198). Born in Córdoba into a family of judges, he served as chief judge (*qadi*) of Seville and Córdoba and as physician to the Almohad caliph. At the caliph's request, he wrote commentaries on nearly all of Aristotle's works—short, middle, and long—so thorough that Latin scholars called him simply "**the Commentator**," as they called Aristotle "the Philosopher." Dante placed him among the virtuous pagans in Limbo: "Averroes, who made the great Comment" (*Inferno* 4, Longfellow).
+The philosophers' great defender against al-Ghazali was **Ibn Rushd**, known in the West as **Averroes** (1126–1198). Born in Córdoba into a family of judges, he served as chief judge (*qadi*) of Seville and Córdoba and as physician to the Almohad caliph. At the caliph's request, he wrote commentaries on nearly all of Aristotle's works—short, middle, and long—so thorough that Latin scholars called him simply "**the Commentator**," as they called Aristotle "the Philosopher." Dante placed him among the virtuous pagans in Limbo: "Averroes, who the great Comment made" (*Inferno* 4, Longfellow).
 
 ## The Incoherence of the Incoherence
 
@@ -316,7 +316,7 @@ In 1270, Tempier condemned thirteen propositions. Then, on **7 March 1277**, at 
 - that philosophy is the only worthy occupation;
 - that "the sayings of the theologians are founded on fables."
 
-Two weeks later, the archbishop of Canterbury, **Robert Kilwardby**, issued a similar condemnation at Oxford.
+Eleven days later, the archbishop of Canterbury, **Robert Kilwardby**, issued a similar condemnation at Oxford.
 
 ## Consequences
 
