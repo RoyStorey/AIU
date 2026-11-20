@@ -226,7 +226,7 @@ Then, in 602, the Roman army on the Danube mutinied against Maurice, and a junio
 
 At first the Persians recovered the frontier fortresses, including the great fortress of Dara, which fell in 604 after a long siege. Rome was paralyzed by civil strife under Phocas, whose regime grew more brutal as it grew more insecure. In 610 Heraclius, son of the governor of Africa, sailed from Carthage, overthrew Phocas, and became emperor. But he inherited an empire in crisis, and the Persian armies, led by able generals such as **Shahrbaraz**, now drove deep into the Roman heartlands.
 
-- In **613** they defeated Heraclius near Antioch and took the city, cutting the empire in two. Damascus fell the same year.
+- **Antioch** fell to them in 610 or 611. In **613** they defeated Heraclius's attempt to retake it, in a battle near the city that cut the empire in two. Damascus fell the same year.
 - In **614** they besieged and captured **Jerusalem**. Many inhabitants were killed or carried off into captivity, churches were burned, and the most sacred relic in Christendom, the **True Cross**—believed to be the wood on which Christ was crucified—was taken to Ctesiphon. The shock to the Christian world was immense.
 - Between **619 and 621** they conquered **Egypt**, taking Alexandria and cutting off the grain supply of Constantinople.
 - Persian armies also overran much of Anatolia, reaching the Bosporus at Chalcedon, across the water from the capital.

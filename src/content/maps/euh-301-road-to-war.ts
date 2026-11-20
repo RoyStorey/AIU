@@ -94,6 +94,13 @@ const map: MapSpec = {
       changes: [{ side: "hungary", start: "1938-11-02", end: "1938-11-10", from: [19.0, 47.8] }],
     },
     {
+      // the First Vienna Award (2 November 1938) also gave Hungary the south of Ruthenia, with Uzhhorod and Mukachevo
+      name: "Southern Ruthenia",
+      area: [[22.1, 48.4], [22.2, 48.75], [22.55, 48.7], [22.95, 48.5], [23.0, 47.95]],
+      owner: "czech",
+      changes: [{ side: "hungary", start: "1938-11-02", end: "1938-11-10", from: [22.6, 48.2] }],
+    },
+    {
       name: "Carpathian Ruthenia",
       area: [[22.1, 48.4], [22.6, 49.05], [23.0, 48.95], [23.8, 48.6], [24.6, 48.0], [23.0, 47.95]],
       owner: "czech",
@@ -170,19 +177,22 @@ const map: MapSpec = {
     { from: [19.0, 50.3], to: "Kraków", label: "Toward Kraków", color: "#555b66", start: "1939-09-01", end: "1939-09-10" },
   ],
   events: [
-    { title: "The Saar votes to return", time: "1935-01-13", at: "Saarbrücken", kind: "treaty", side: "germany", text: "In a League-supervised plebiscite, 90.8 percent vote for reunion with Germany." },
-    { title: "Conscription announced", time: "1935-03-16", at: "Berlin", kind: "note", side: "germany", text: "Hitler announces an army of 36 divisions and reveals the Luftwaffe, in open breach of Versailles." },
-    { title: "The Rhineland remilitarized", time: "1936-03-07", at: "Cologne", kind: "note", side: "germany", until: "1936-05-01", text: "German troops march into the demilitarized zone. France, waiting for Britain, does nothing." },
+    { title: "The Saar votes to return", time: "1935-01-13", at: "Saarbrücken", kind: "treaty", side: "germany", text: "In a League-supervised plebiscite, 90.7 percent vote for reunion with Germany. The Saar returns on 1 March." },
+    { title: "The Luftwaffe revealed", time: "1935-03-09", at: "Berlin", kind: "note", side: "germany", text: "In the second week of March the regime makes public the air force that Versailles forbade." },
+    { title: "Conscription announced", time: "1935-03-16", at: "Berlin", kind: "note", side: "germany", text: "Hitler announces conscription and an army of 36 divisions, in open breach of Versailles." },
+    { title: "The Rhineland remilitarized", time: "1936-03-07", at: "Cologne", kind: "note", side: "germany", until: "1936-05-01", text: "German troops march into the demilitarized zone. France, unwilling to act without Britain, does nothing." },
     { title: "The Hossbach meeting", time: "1937-11-05", at: "Berlin", kind: "note", side: "germany", text: "Hitler tells his commanders that Austria and Czechoslovakia must be seized first." },
-    { title: "Anschluss", time: "1938-03-12", at: "Vienna", kind: "founding", side: "germany", until: "1938-05-01", text: "German troops cross into Austria; the next day it is annexed to the Reich." },
-    { title: "Munich Agreement", time: "1938-09-30", at: "Munich", kind: "treaty", side: "germany", text: "Britain, France and Italy agree that the Sudetenland goes to Germany. Czechoslovakia is not invited." },
+    { title: "Anschluss", time: "1938-03-12", at: "Vienna", kind: "founding", side: "germany", until: "1938-05-01", text: "German troops cross into Austria; the next day it is annexed to the Reich. A plebiscite in April approves with 99.7 percent." },
+    { title: "Munich Agreement", time: "1938-09-30", at: "Munich", kind: "treaty", side: "germany", text: "Chamberlain, Daladier, Mussolini and Hitler agree that the Sudetenland goes to Germany. Czechoslovakia is not invited." },
     { title: "The Sudetenland occupied", time: "1938-10-01", at: [14.0, 50.65], kind: "note", side: "germany", text: "German troops occupy the border regions over ten days." },
-    { title: "Prague occupied", time: "1939-03-15", at: "Prague", kind: "founding", side: "germany", until: "1939-05-01", text: "The Czech lands become the Protectorate of Bohemia and Moravia; Slovakia becomes a German satellite." },
+    { title: "Poland takes Teschen", time: "1938-10-02", at: "Teschen", kind: "note", side: "poland", text: "Poland occupies the Teschen (Zaolzie) district of Czechoslovakia." },
+    { title: "First Vienna Award", time: "1938-11-02", at: "Košice", kind: "treaty", side: "hungary", text: "Germany and Italy award southern Slovakia and southern Ruthenia to Hungary." },
+    { title: "Prague occupied", time: "1939-03-15", at: "Prague", kind: "founding", side: "germany", until: "1939-05-01", text: "The Czech lands become the Protectorate of Bohemia and Moravia; Slovakia, independent since the day before, becomes a German satellite, and Hungary takes the rest of Ruthenia." },
     { title: "Memel annexed", time: "1939-03-23", at: "Memel", kind: "note", side: "germany", text: "Lithuania is forced to give up the Memel territory." },
     { title: "Britain guarantees Poland", time: "1939-03-31", at: "Warsaw", kind: "treaty", side: "poland", text: "Chamberlain's government guarantees Poland's independence." },
-    { title: "Nazi–Soviet Pact", time: "1939-08-23", at: "Berlin", kind: "treaty", side: "germany", text: "Germany and the Soviet Union sign a pact of non-aggression (in Moscow), with a secret protocol dividing eastern Europe." },
+    { title: "Nazi–Soviet Pact", time: "1939-08-23", at: "Moscow", kind: "treaty", side: "germany", text: "In Moscow, Germany and the Soviet Union sign a pact of non-aggression, with a secret protocol dividing eastern Europe between them." },
     { title: "Germany invades Poland", time: "1939-09-01", at: "Westerplatte", kind: "battle", side: "germany", until: "1939-09-10", text: "German forces attack from Pomerania, East Prussia, Silesia and Slovakia." },
-    { title: "Britain and France declare war", time: "1939-09-03", at: "Warsaw", kind: "note", side: "poland", text: "Two days after the invasion, Poland's allies declare war on Germany." },
+    { title: "Britain and France declare war", time: "1939-09-03", at: "London", kind: "note", text: "Two days after the invasion, Poland's allies Britain and France declare war on Germany." },
   ],
   eras: [
     { name: "Breaking Versailles", start: "1935-01-01", end: "1937-12-31" },
@@ -198,11 +208,11 @@ const map: MapSpec = {
   story: [
     {
       title: "Inside the Versailles borders", time: "1934-12-01", view: { center: [14.3, 51.3], zoom: 4.9 },
-      text: "In 1935 the **Saar** was still under the League of Nations, the **Rhineland** was closed to German troops, and **East Prussia** was cut off by the Polish Corridor. In January the Saar voted to return to Germany.",
+      text: "At the start of 1935 the **Saar** was under the League of Nations, the **Rhineland** was closed to German troops, and **East Prussia** was cut off by the Polish Corridor. In January the Saar voted to return to Germany.",
     },
     {
       title: "The Rhineland, March 1936", time: "1936-02-01", view: { center: [7.8, 50.3], zoom: 6.4 },
-      text: "On 7 March 1936 German troops march into the demilitarized **Rhineland**. France and Britain protest but do nothing.",
+      text: "On 7 March 1936 German troops march into the demilitarized **Rhineland**. France, unwilling to act without Britain, does nothing.",
     },
     {
       title: "Anschluss, March 1938", time: "1938-02-01", view: { center: [14.2, 48.4], zoom: 6.2 },
@@ -210,15 +220,15 @@ const map: MapSpec = {
     },
     {
       title: "Munich and the Sudetenland, 1938", time: "1938-09-01", view: { center: [16.2, 49.6], zoom: 5.8 },
-      text: "At **Munich** Britain and France agree to hand the **Sudetenland** to Germany. In October Poland takes Teschen and Hungary takes southern Slovakia.",
+      text: "At **Munich** Britain and France agree to hand the **Sudetenland** to Germany. In October Poland takes Teschen, and in November the First Vienna Award gives Hungary southern Slovakia and southern Ruthenia.",
     },
     {
       title: "Prague and Memel, March 1939", time: "1939-03-01", view: { center: [18.0, 51.4], zoom: 5.1 },
-      text: "On 15 March 1939 Germany occupies **Prague**: for the first time Hitler seizes land where few Germans live. A week later Lithuania gives up **Memel**, and Britain guarantees **Poland**.",
+      text: "On 15 March 1939 Germany occupies **Prague**: for the first time Hitler seizes territory inhabited by non-Germans. A week later Lithuania gives up **Memel**, and on 31 March Britain guarantees **Poland**.",
     },
     {
       title: "Poland, September 1939", time: "1939-08-20", view: { center: [19.0, 52.3], zoom: 5.4 },
-      text: "After the Nazi–Soviet Pact, Germany attacks **Poland** on 1 September from three sides at once. On 3 September Britain and France declare war.",
+      text: "Nine days after the Nazi–Soviet Pact, Germany invades **Poland** on 1 September, from Pomerania, East Prussia, Silesia and Slovakia. On 3 September Britain and France declare war.",
     },
   ],
   sources: [

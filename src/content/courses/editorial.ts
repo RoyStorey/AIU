@@ -1860,6 +1860,29 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       },
     ],
   },
+  "MEH 101": {
+    1: [
+      {
+        page: 6, kind: "corrected",
+        claim: "In 613 the Persians defeated Heraclius near Antioch “and took the city.”",
+        note: "Antioch had already fallen to the Persians in 610 or 611; the battle of 613 near the city was Heraclius's failed attempt to retake it (James Howard-Johnston, The Last Great War of Antiquity, 2021; Walter Kaegi, Heraclius, 2003). The lesson and its map have been corrected.",
+      },
+    ],
+  },
+  "EUH 301": {
+    4: [
+      {
+        page: 6, kind: "corrected",
+        claim: "On March 16, 1935, Hitler “revealed the existence of the Luftwaffe.”",
+        note: "The Luftwaffe was made public about a week earlier, when Göring made it public in the second week of March 1935; March 16 was the announcement of conscription and a 36-division army. The lesson has been corrected.",
+      },
+      {
+        page: 6, kind: "corrected",
+        claim: "The Saar voted by 90.8 percent to return to Germany.",
+        note: "The official result of the plebiscite of January 13, 1935, was 90.73 percent for reunion with Germany, 8.87 percent for the status quo, and 0.4 percent for union with France. The lesson now gives 90.7 percent.",
+      },
+    ],
+  },
   "POE 401": {
     5: [
       {

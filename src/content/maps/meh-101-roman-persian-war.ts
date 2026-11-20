@@ -29,7 +29,7 @@ const map: MapSpec = {
       owner: "rome",
       changes: [
         { side: "persia", start: "604-01", end: "610-01", from: "Dara" },
-        { side: "rome", start: "629-01", end: "630-01", from: [38.0, 37.9] },
+        { side: "rome", start: "628-06", end: "629-06", from: [38.0, 37.9] },
       ],
     },
     {
@@ -42,12 +42,23 @@ const map: MapSpec = {
       ],
     },
     {
-      name: "Syria",
-      area: [[35.6, 36.9], [37.7, 37.7], [38.3, 36.9], [39.6, 36.0], [38.8, 34.6], [37.4, 33.1], [36.6, 32.6], [35.9, 33.3], [34.9, 33.1], [35.6, 34.6]],
+      // Antioch fell in 610 or 611
+      name: "Northern Syria",
+      area: [[35.6, 36.9], [37.7, 37.7], [38.3, 36.9], [39.6, 36.0], [39.2, 35.3], [35.85, 35.0]],
       owner: "rome",
       changes: [
-        { side: "persia", start: "610-06", end: "613-12", from: "Edessa" },
-        { side: "rome", start: "629-01", end: "630-01", from: [35.6, 36.9] },
+        { side: "persia", start: "610-08", end: "611-06", from: [38.6, 36.4] },
+        { side: "rome", start: "629-07", end: "630-01", from: [35.6, 36.9] },
+      ],
+    },
+    {
+      // Damascus fell in 613, after Heraclius's defeat near Antioch
+      name: "Southern Syria",
+      area: [[35.85, 35.0], [39.2, 35.3], [38.8, 34.6], [37.4, 33.1], [36.6, 32.6], [35.9, 33.3], [34.9, 33.1], [35.6, 34.6]],
+      owner: "rome",
+      changes: [
+        { side: "persia", start: "613-06", end: "613-12", from: [36.6, 35.2] },
+        { side: "rome", start: "629-07", end: "630-01", from: [36.6, 35.2] },
       ],
     },
     {
@@ -56,7 +67,7 @@ const map: MapSpec = {
       owner: "rome",
       changes: [
         { side: "persia", start: "614-02", end: "614-07", from: [35.9, 33.3] },
-        { side: "rome", start: "629-03", end: "630-03", from: [35.9, 33.3] },
+        { side: "rome", start: "629-07", end: "630-03", from: [35.9, 33.3] },
       ],
     },
     {
@@ -65,7 +76,7 @@ const map: MapSpec = {
       owner: "rome",
       changes: [
         { side: "persia", start: "619-01", end: "621-06", from: "Pelusium" },
-        { side: "rome", start: "629-06", end: "630-03", from: "Pelusium" },
+        { side: "rome", start: "629-07", end: "630-03", from: "Pelusium" },
       ],
     },
     {
@@ -94,7 +105,7 @@ const map: MapSpec = {
     {
       name: "Persian army of Shahrbaraz", side: "persia", kind: "army",
       path: [
-        { at: "Nisibis", time: "609-01" }, { at: "Edessa", time: "609-10" }, { at: [38.0, 36.5], time: "610-08" },
+        { at: [38.0, 36.5], time: "610-08" }, { at: "Antioch", time: "610-12" },
         { at: "Antioch", time: "613-05" }, { at: "Damascus", time: "613-09" }, { at: "Caesarea", time: "614-02" },
         { at: "Jerusalem", time: "614-04-15" }, { at: "Jerusalem", time: "614-06" }, { at: "Pelusium", time: "618-12" },
         { at: "Alexandria", time: "619-06" }, { at: [31.4, 26.2], time: "621-03" },
@@ -122,7 +133,7 @@ const map: MapSpec = {
         { at: [47.2, 40.6], time: "624-12" }, { at: [43.2, 38.6], time: "625-05" }, { at: "Sebasteia", time: "625-11" },
         { at: "Trebizond", time: "626-05" }, { at: "Tbilisi", time: "626-12" }, { at: "Tbilisi", time: "627-09" },
         { at: "Nineveh", time: "627-12-12" }, { at: "Dastagird", time: "628-01-20" }, { at: "Adur Gushnasp", time: "628-03-15" },
-        { at: "Theodosiopolis", time: "628-09" }, { at: "Constantinople", time: "629-09" }, { at: "Jerusalem", time: "630-03-21" },
+        { at: [36.43, 38.2], time: "629-07" }, { at: "Jerusalem", time: "630-03-21" },
       ],
     },
     {
@@ -139,12 +150,13 @@ const map: MapSpec = {
   ],
   events: [
     { title: "Maurice murdered", time: "602-11-27", at: "Constantinople", kind: "disaster", side: "rome", text: "Phocas kills the emperor Maurice and his sons. Khusrau II, whom Maurice had restored, declares war to avenge him." },
-    { title: "Dara falls", time: "604-06", at: "Dara", kind: "siege", side: "persia", text: "The great frontier fortress falls after a long siege." },
+    { title: "Dara falls", time: "604", at: "Dara", kind: "siege", side: "persia", text: "The great frontier fortress falls after a long siege." },
     { title: "Heraclius becomes emperor", time: "610-10-05", at: "Constantinople", kind: "note", side: "rome", text: "Sailing from Carthage, Heraclius overthrows Phocas and inherits an empire in crisis." },
-    { title: "Battle of Antioch", time: "613-05", at: "Antioch", kind: "battle", side: "persia", text: "Heraclius is defeated near Antioch, and the Roman East is cut in two." },
+    { title: "Antioch falls", time: "610-12", at: "Antioch", kind: "siege", side: "persia", text: "The great city of Roman Syria falls to the Persians (610 or 611)." },
+    { title: "Battle of Antioch", time: "613-05", at: "Antioch", kind: "battle", side: "persia", text: "Heraclius's attempt to retake Antioch is defeated near the city, and the Roman East is cut in two. Damascus falls the same year." },
     { title: "Jerusalem sacked", time: "614-05", at: "Jerusalem", kind: "siege", side: "persia", until: "614-09", text: "After a siege of some three weeks the city falls. The True Cross is carried off to Ctesiphon." },
     { title: "Persians at Chalcedon", time: "615-07", at: "Chalcedon", kind: "note", side: "persia", text: "A Persian army camps on the Asian shore of the Bosporus, across the water from Constantinople." },
-    { title: "Alexandria falls", time: "619-06", at: "Alexandria", kind: "siege", side: "persia", text: "Egypt, the granary of Constantinople, passes to Persia." },
+    { title: "Alexandria falls", time: "619", at: "Alexandria", kind: "siege", side: "persia", text: "Egypt, the granary of Constantinople, passes to Persia." },
     { title: "Heraclius takes the field", time: "622-04-05", at: "Constantinople", kind: "note", side: "rome", text: "The first emperor in two centuries to lead his army in person." },
     { title: "Adur Gushnasp destroyed", time: "624-07", at: "Adur Gushnasp", kind: "disaster", side: "rome", text: "Heraclius burns one of the holiest fire temples of Zoroastrianism, in revenge for Jerusalem." },
     { title: "Siege of Constantinople", time: "626-07-29", at: "Constantinople", kind: "siege", side: "avars", until: "626-08-10", text: "Avars and Slavs attack the land walls while Shahrbaraz waits at Chalcedon. The Roman fleet sinks the Slav boats, and the siege fails." },
@@ -172,11 +184,11 @@ const map: MapSpec = {
     },
     {
       title: "The Persian conquest, 603–614", time: "603-06", view: { center: [38, 35.5], zoom: 5 },
-      text: "Watch the Persians take the frontier fortresses, cross the Euphrates and sweep through **Syria** and **Palestine**. In 614 **Jerusalem** falls, and the True Cross is carried off.",
+      text: "Watch the Persians take the frontier fortresses, cross the Euphrates and take **Antioch**. In 613 they beat back Heraclius near Antioch and take Damascus; in 614 **Jerusalem** falls, and the True Cross is carried off.",
     },
     {
       title: "Egypt and the Bosporus, 615–621", time: "614-09", view: { center: [32, 35], zoom: 4.5 },
-      text: "A Persian army reaches **Chalcedon**, in sight of Constantinople, and between 619 and 621 Persia conquers **Egypt**. A Persian king now rules Syria, Palestine and Egypt, as none had since Darius.",
+      text: "A Persian army reaches **Chalcedon**, in sight of Constantinople, and between 619 and 621 Persia conquers **Egypt**. For the first time since the Achaemenid kings a thousand years before, a Persian king rules Syria, Palestine and Egypt.",
     },
     {
       title: "Heraclius strikes back, 622–625", time: "622-03", view: { center: [41, 39], zoom: 4.8 },
@@ -192,7 +204,7 @@ const map: MapSpec = {
     },
     {
       title: "Two exhausted empires, 628–630", time: "628-04", view: { center: [38, 36], zoom: 4.3 },
-      text: "Persia withdraws from the Roman East, and in March 630 Heraclius restores the Cross to **Jerusalem**. The old frontier is back, but both empires are drained.",
+      text: "Kavad II makes peace, the Persian armies leave the Roman East, and on 21 March 630 (the traditional date) Heraclius restores the Cross to **Jerusalem**. The old frontier is back, but both empires are drained.",
     },
   ],
   sources: [
