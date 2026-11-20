@@ -161,6 +161,39 @@ Chalcedon did not unite the church. Many Christians in Egypt, Syria, Armenia, an
 > **Pause and consider.** The Definition of Chalcedon describes Christ largely in negatives: without confusion, change, division, or separation. Why might the council have chosen to set boundaries rather than explain the union?`,
     },
     {
+      title: "Mary in Christian Doctrine",
+      body: `## The mother of the Lord
+
+Because Christian doctrine about Christ was worked out partly in debates about his birth, it also shaped Christian teaching about his mother, **Mary**. Marian doctrine is a good example of how Christology affects other doctrines, and of how Christian traditions diverge.
+
+## Theotokos
+
+As we have seen, the Council of Ephesus (431) affirmed that Mary is ***Theotokos***, "God-bearer" or "Mother of God." The title was, at root, a statement about Christ: that the one born of Mary is truly God, one person, not a man in whom God dwelt. It became the foundation of Mary's honor in Christian devotion. The Protestant Reformers, including Luther and Calvin, accepted the title in this Christological sense, though they rejected much of the devotion that had grown up around it.
+
+## The New Eve
+
+From the second century, writers such as **Justin Martyr** and **Irenaeus** contrasted Mary with Eve, as Paul had contrasted Christ with Adam. Eve, a virgin, listened to the serpent and brought disobedience and death; Mary, a virgin, listened to the angel and, by her obedience—"be it unto me according to thy word" (Luke 1:38)—became the means by which life came into the world. "The knot of Eve's disobedience was loosed by the obedience of Mary," wrote Irenaeus.
+
+## Perpetual virginity
+
+From early times, many Christians believed that Mary remained a virgin throughout her life, and that the "brothers and sisters" of Jesus mentioned in the Gospels (Mark 6:3) were either Joseph's children by a previous marriage, as the second-century *Protevangelium of James* suggested, or cousins, as **Jerome** argued. The **perpetual virginity** of Mary is taught by the Catholic and Orthodox churches, and was accepted by Luther, Calvin, and Zwingli. Many later Protestants have rejected it, reading the "brothers" of Jesus as Mary and Joseph's later children.
+
+## Catholic dogmas
+
+The Roman Catholic Church has defined two further dogmas about Mary in modern times:
+
+- The **Immaculate Conception**, defined by Pope **Pius IX** in 1854: that Mary, from the first moment of her conception, was preserved from all stain of original sin, by a singular grace in view of the merits of Christ. The doctrine had been debated in the Middle Ages; Aquinas and Bernard of Clairvaux had doubted it, while the Franciscan **Duns Scotus** defended it by arguing that Christ, the perfect Redeemer, could preserve his mother from sin rather than only cleanse her of it.
+- The **Assumption**, defined by Pope **Pius XII** in 1950: that Mary, at the end of her earthly life, was taken up body and soul into heavenly glory. The Orthodox churches celebrate her **Dormition** ("falling asleep") on the same day, 15 August, with a similar belief, but do not regard it as a defined dogma in the same way.
+
+These definitions were made by the pope speaking *ex cathedra*, and Protestants and Orthodox have objected both to their content, which they find unsupported by Scripture, and to the authority by which they were defined.
+
+## Devotion and its critics
+
+Marian devotion has been immensely important in Christian history, in prayer (the "Hail Mary," based on Luke 1:28 and 42), in art, in music, in pilgrimages to shrines such as Lourdes and Guadalupe, and in the lives of ordinary believers. Catholic and Orthodox theology distinguishes the **veneration** given to Mary and the saints (Greek *dulia*, and for Mary *hyperdulia*) from the **worship** (*latria*) due to God alone. Protestants have often criticized Marian devotion as obscuring the unique mediation of Christ (1 Timothy 2:5). In recent decades, ecumenical dialogues, such as the Anglican–Roman Catholic statement *Mary: Grace and Hope in Christ* (2005), have sought common ground, while some Protestants have rediscovered Mary as a model of faith and discipleship, and liberation theologians have emphasized her song, the **Magnificat**, in which God "hath put down the mighty from their seats, and exalted them of low degree" (Luke 1:52).
+
+> **Pause and consider.** The title *Theotokos* was first a statement about Christ. How can doctrines about Mary illuminate, or obscure, doctrines about Christ?`,
+    },
+    {
       title: "Modern Christology",
       body: `## New questions
 
@@ -246,7 +279,7 @@ Christ, being sinless, owed no death; by freely offering his life, he gave God s
 
 ## Abelard
 
-A generation later, **Peter Abelard** (1079–1142), the brilliant and controversial Parisian philosopher, proposed a different emphasis. In his commentary on Romans, Abelard argued that Christ's death reveals the depth of God's love, and that this revelation kindles love in us in return, transforming us. "Our redemption is that supreme love in us through Christ's passion, which not only frees us from slavery to sin but wins for us the true liberty of the sons of God." This view came to be called the **moral influence** or **exemplary** theory. Abelard's critics, especially **Bernard of Clairvaux**, accused him of reducing the cross to a mere example. Modern scholars note that Abelard also used other images of the atonement. His emphasis on love was revived by liberal theologians in the nineteenth century, for whom the moral influence model seemed more reasonable than satisfaction.
+A generation later, **Peter Abelard** (1079–1142), the brilliant and controversial Parisian philosopher, proposed a different emphasis. In his commentary on Romans, Abelard argued that Christ's death reveals the depth of God's love, and that this revelation kindles love in us in return, transforming us. Our redemption, he wrote, is the deeper love awakened in us by Christ's passion, which frees us from slavery to sin and wins for us the true liberty of the children of God. This view came to be called the **moral influence** or **exemplary** theory. Abelard's critics, especially **Bernard of Clairvaux**, accused him of reducing the cross to a mere example. Modern scholars note that Abelard also used other images of the atonement. His emphasis on love was revived by liberal theologians in the nineteenth century, for whom the moral influence model seemed more reasonable than satisfaction.
 
 ## Penal substitution
 
