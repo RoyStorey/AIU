@@ -211,6 +211,44 @@ What the New Testament shows, above all, is that early Christians **experienced*
 > **Pause and consider.** Why might the baptism of Jesus have been seen by early Christians as a revelation of the Trinity? What does the scene suggest about the relationship among the three?`,
     },
     {
+      title: "The Trinity in Early Worship",
+      body: `## Prayer before doctrine
+
+Long before theologians wrote treatises on the Trinity, Christians baptized, prayed, and sang in a threefold pattern. The earliest evidence for Christian worship outside the New Testament shows this pattern clearly.
+
+## Baptism
+
+The *Didache*, the church manual we met in BIB 110 and PAT 101, probably from the late first or early second century, instructs:
+
+> And concerning baptism, thus baptize ye: having first recited all these things, baptize in the name of the Father and of the Son and of the Holy Spirit in living water.
+>
+> — *Didache* 7, trans. J. B. Lightfoot (1891)
+
+Around 215, a church order known as the *Apostolic Tradition*, traditionally attributed to **Hippolytus** of Rome (though its authorship and date are now debated), describes baptism with three questions and three immersions. The candidate stands in the water, and the minister asks: "Do you believe in God the Father Almighty?" The candidate answers, "I believe," and is immersed. Then: "Do you believe in Christ Jesus, the Son of God, who was born of the Holy Spirit and the Virgin Mary, who was crucified under Pontius Pilate, and died, and rose again on the third day …?" "I believe," and a second immersion. Then: "Do you believe in the Holy Spirit, and the holy church, and the resurrection of the flesh?" "I believe," and a third. These three questions are the seed from which the Apostles' Creed grew. Every Christian entered the church by confessing the Father, the Son, and the Spirit.
+
+## The Eucharist
+
+**Justin Martyr**, around 150, describes how the presider at the Eucharist "gives praise and glory to the Father of the universe, through the name of the Son and of the Holy Spirit" (*First Apology* 65). Early eucharistic prayers followed this shape: thanksgiving to the Father for creation and redemption through the Son, and an invocation of the Spirit upon the gifts and the people. The structure of Christian prayer was Trinitarian before Christian doctrine was.
+
+## Doxologies
+
+Early Christians ended prayers with **doxologies** (from the Greek *doxa*, "glory"), giving glory to God. The *Martyrdom of Polycarp* (c. 155–160) records Polycarp's last prayer, ending: "I glorify Thee through the eternal and heavenly High-priest, Jesus Christ, Thy beloved Son, through whom with Him and the Holy Spirit be glory both now and for the ages to come." The form of the doxology would later become a matter of controversy. The older form, "Glory to the Father, **through** the Son, **in** the Holy Spirit," emphasized the order of salvation. **Basil of Caesarea**, in the fourth century, defended the use of another form, "Glory to the Father, **with** the Son, **together with** the Holy Spirit," which emphasized their equality. His treatise *On the Holy Spirit* (375) was written partly to defend this doxology, as we will see in Lesson III.
+
+## Hymns
+
+Some of the earliest Christian hymns outside the New Testament are Trinitarian. The ***Phos Hilaron*** ("Hail, gladdening light"), a Greek evening hymn probably from the third century and still sung at Vespers in the Orthodox Church and at Evensong in Anglican churches, praises Christ as the light of the Father and ends with praise of the Father, Son, and Holy Spirit. Basil quoted it in the fourth century as already ancient.
+
+## Pliny's witness
+
+The Roman governor **Pliny the Younger**, as we saw in BIB 110, reported to the emperor Trajan around 112 that Christians met before dawn and sang "a hymn to Christ, as to a god." The outsider's description confirms what the Christian sources show: Christ was worshipped.
+
+## Lex orandi, lex credendi
+
+The fifth-century writer **Prosper of Aquitaine** formulated a principle often summarized as *lex orandi, lex credendi*: the rule of prayer establishes the rule of belief. The church's worship came first, and its doctrine followed, as an attempt to understand and protect what it already did. When fourth-century theologians argued for the full divinity of the Son and the Spirit, one of their strongest arguments was that the church baptized in their names and worshipped them. If they were creatures, Christians had been committing idolatry from the beginning.
+
+> **Pause and consider.** Why might the form of a doxology—"through the Son, in the Spirit" or "with the Son, together with the Spirit"—become a matter of theological controversy? What does each form emphasize?`,
+    },
+    {
       title: "Economy and Theology",
       body: `## Two words
 
