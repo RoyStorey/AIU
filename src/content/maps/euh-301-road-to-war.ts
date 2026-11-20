@@ -3,9 +3,11 @@ import type { MapSpec } from "map-widget/spec";
 /**
  * EUH 301, Lesson IV, page 6: "Toward War, 1933–1939".
  * Germany's step-by-step dismantling of the Versailles settlement, from the Saar
- * plebiscite to the invasion of Poland. Borders are those of the period, drawn
- * approximately; the map stops on 3 September 1939 (the partition of Poland
- * belongs to Lesson V).
+ * plebiscite to the invasion of Poland, told as the page tells it: the markers and
+ * chapters cover only what the page discusses. Borders are those of the period, drawn
+ * approximately; other changes of the time (Teschen, the Vienna Award, Memel) are
+ * shown on the map but not narrated. The map stops in the first days of the
+ * invasion; the war and the partition of Poland belong to Lesson V.
  */
 
 // Shared border points, so neighbouring areas meet without gaps.
@@ -32,9 +34,9 @@ const rev = <T,>(a: T[]) => [...a].reverse();
 const map: MapSpec = {
   format: "atlas-map@1",
   title: "Toward War: Germany's Expansion, 1935–1939",
-  summary: "How Hitler dismantled the Versailles settlement step by step: the Saar, the Rhineland, Austria, the Sudetenland, Prague and Memel, and the invasion of Poland.",
+  summary: "How Hitler dismantled the Versailles settlement step by step: the Saar, the Rhineland, Austria, the Sudetenland and Prague, and the invasion of Poland.",
   start: "1934-12-01",
-  end: "1939-09-10",
+  end: "1939-09-06",
   detail: "region",
   playSeconds: 120,
   view: { center: [14.3, 51.3], zoom: 4.9 },
@@ -171,10 +173,10 @@ const map: MapSpec = {
     { name: "Army Group South (Slovakia)", side: "germany", kind: "army", path: [{ at: [19.9, 49.25], time: "1939-09-01" }, { at: [20.0, 49.65], time: "1939-09-04" }] },
   ],
   arrows: [
-    { from: [17.0, 53.6], to: [18.3, 53.3], label: "Into the Corridor", color: "#555b66", start: "1939-09-01", end: "1939-09-10" },
-    { from: [20.6, 53.3], to: "Warsaw", label: "Toward Warsaw", color: "#555b66", start: "1939-09-01", end: "1939-09-10" },
-    { from: [18.4, 50.8], to: "Łódź", label: "Toward Łódź", color: "#555b66", start: "1939-09-01", end: "1939-09-10" },
-    { from: [19.0, 50.3], to: "Kraków", label: "Toward Kraków", color: "#555b66", start: "1939-09-01", end: "1939-09-10" },
+    { from: [17.0, 53.6], to: [18.3, 53.3], label: "Into the Corridor", color: "#555b66", start: "1939-09-01", end: "1939-09-06" },
+    { from: [20.6, 53.3], to: "Warsaw", label: "Toward Warsaw", color: "#555b66", start: "1939-09-01", end: "1939-09-06" },
+    { from: [18.4, 50.8], to: "Łódź", label: "Toward Łódź", color: "#555b66", start: "1939-09-01", end: "1939-09-06" },
+    { from: [19.0, 50.3], to: "Kraków", label: "Toward Kraków", color: "#555b66", start: "1939-09-01", end: "1939-09-06" },
   ],
   events: [
     { title: "The Saar votes to return", time: "1935-01-13", at: "Saarbrücken", kind: "treaty", side: "germany", text: "In a League-supervised plebiscite, 90.7 percent vote for reunion with Germany. The Saar returns on 1 March." },
@@ -185,19 +187,15 @@ const map: MapSpec = {
     { title: "Anschluss", time: "1938-03-12", at: "Vienna", kind: "founding", side: "germany", until: "1938-05-01", text: "German troops cross into Austria; the next day it is annexed to the Reich. A plebiscite in April approves with 99.7 percent." },
     { title: "Munich Agreement", time: "1938-09-30", at: "Munich", kind: "treaty", side: "germany", text: "Chamberlain, Daladier, Mussolini and Hitler agree that the Sudetenland goes to Germany. Czechoslovakia is not invited." },
     { title: "The Sudetenland occupied", time: "1938-10-01", at: [14.0, 50.65], kind: "note", side: "germany", text: "German troops occupy the border regions over ten days." },
-    { title: "Poland takes Teschen", time: "1938-10-02", at: "Teschen", kind: "note", side: "poland", text: "Poland occupies the Teschen (Zaolzie) district of Czechoslovakia." },
-    { title: "First Vienna Award", time: "1938-11-02", at: "Košice", kind: "treaty", side: "hungary", text: "Germany and Italy award southern Slovakia and southern Ruthenia to Hungary." },
-    { title: "Prague occupied", time: "1939-03-15", at: "Prague", kind: "founding", side: "germany", until: "1939-05-01", text: "The Czech lands become the Protectorate of Bohemia and Moravia; Slovakia, independent since the day before, becomes a German satellite, and Hungary takes the rest of Ruthenia." },
-    { title: "Memel annexed", time: "1939-03-23", at: "Memel", kind: "note", side: "germany", text: "Lithuania is forced to give up the Memel territory." },
-    { title: "Britain guarantees Poland", time: "1939-03-31", at: "Warsaw", kind: "treaty", side: "poland", text: "Chamberlain's government guarantees Poland's independence." },
+    { title: "Prague occupied", time: "1939-03-15", at: "Prague", kind: "founding", side: "germany", until: "1939-05-01", text: "The Czech lands become the Protectorate of Bohemia and Moravia, and Slovakia a German satellite." },
+    { title: "Britain guarantees Poland", time: "1939-03-31", at: "Warsaw", kind: "treaty", side: "poland", text: "Chamberlain's government guarantees Poland's independence. Hitler now makes Danzig and the Corridor his grievance." },
     { title: "Nazi–Soviet Pact", time: "1939-08-23", at: "Moscow", kind: "treaty", side: "germany", text: "In Moscow, Germany and the Soviet Union sign a pact of non-aggression, with a secret protocol dividing eastern Europe between them." },
-    { title: "Germany invades Poland", time: "1939-09-01", at: "Westerplatte", kind: "battle", side: "germany", until: "1939-09-10", text: "German forces attack from Pomerania, East Prussia, Silesia and Slovakia." },
-    { title: "Britain and France declare war", time: "1939-09-03", at: "London", kind: "note", text: "Two days after the invasion, Poland's allies Britain and France declare war on Germany." },
+    { title: "Germany invades Poland", time: "1939-09-01", at: "Westerplatte", kind: "battle", side: "germany", until: "1939-09-06", text: "German forces attack from Pomerania, East Prussia, Silesia and Slovakia." },
   ],
   eras: [
     { name: "Breaking Versailles", start: "1935-01-01", end: "1937-12-31" },
     { name: "Annexations", start: "1938-03-01", end: "1939-03-31" },
-    { name: "War", start: "1939-09-01", end: "1939-09-10" },
+    { name: "War", start: "1939-09-01", end: "1939-09-06" },
   ],
   labels: [
     { text: "Polish Corridor", at: [18.0, 53.9], size: "small", end: "1939-09-01" },
@@ -220,15 +218,15 @@ const map: MapSpec = {
     },
     {
       title: "Munich and the Sudetenland, 1938", time: "1938-09-01", view: { center: [16.2, 49.6], zoom: 5.8 },
-      text: "At **Munich** Britain and France agree to hand the **Sudetenland** to Germany. In October Poland takes Teschen, and in November the First Vienna Award gives Hungary southern Slovakia and southern Ruthenia.",
+      text: "At **Munich**, on 29–30 September, Britain and France agree that the **Sudetenland** goes to Germany; Czechoslovakia is not invited. German troops occupy it in the first ten days of October.",
     },
     {
-      title: "Prague and Memel, March 1939", time: "1939-03-01", view: { center: [18.0, 51.4], zoom: 5.1 },
-      text: "On 15 March 1939 Germany occupies **Prague**: for the first time Hitler seizes territory inhabited by non-Germans. A week later Lithuania gives up **Memel**, and on 31 March Britain guarantees **Poland**.",
+      title: "Prague, March 1939", time: "1939-03-01", view: { center: [17.0, 50.6], zoom: 5.3 },
+      text: "On 15 March 1939 Germany occupies **Prague**, and Slovakia becomes a German satellite: for the first time Hitler seizes territory inhabited by non-Germans. On 31 March Britain guarantees **Poland**, his next target.",
     },
     {
       title: "Poland, September 1939", time: "1939-08-20", view: { center: [19.0, 52.3], zoom: 5.4 },
-      text: "Nine days after the Nazi–Soviet Pact, Germany invades **Poland** on 1 September, from Pomerania, East Prussia, Silesia and Slovakia. On 3 September Britain and France declare war.",
+      text: "On 23 August Germany and the Soviet Union sign a pact of non-aggression. Nine days later, on 1 September, Germany invades **Poland** from Pomerania, East Prussia, Silesia and Slovakia.",
     },
   ],
   sources: [

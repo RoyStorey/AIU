@@ -112,7 +112,7 @@ const map: MapSpec = {
       ],
     },
     {
-      name: "Persian army of Shahin", side: "persia", kind: "army",
+      name: "Persian army to Chalcedon", side: "persia", kind: "army",
       path: [
         { at: "Theodosiopolis", time: "614-10" }, { at: "Caesarea (Cappadocia)", time: "615-03" }, { at: "Chalcedon", time: "615-07" },
         { at: "Chalcedon", time: "615-10" }, { at: "Caesarea (Cappadocia)", time: "616-02" },
@@ -166,7 +166,7 @@ const map: MapSpec = {
   ],
   eras: [
     { name: "Persian offensive", start: "603-01", end: "621-12" },
-    { name: "Heraclius's counterattack", start: "622-04", end: "628-02" },
+    { name: "Counterattack", start: "622-04", end: "628-02" },
     { name: "Peace", start: "628-04", end: "630-06" },
   ],
   labels: [

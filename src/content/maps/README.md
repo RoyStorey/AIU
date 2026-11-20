@@ -10,6 +10,10 @@ Interactive maps for lesson pages, drawn by the [map-widget](https://github.com/
 2. **Write the map** as `src/content/maps/<course>-<topic>.ts`. Export a default `MapSpec` object in the
    `atlas-map@1` format. The full guide is `node_modules/map-widget/AGENTS.md`; the place names you can use are
    listed in `node_modules/map-widget/docs/places.md`. Keep to these rules:
+   - **Match the passage's scope.** The map covers the span of time and the events of the page or section it sits
+     in, and no more. If the passage covers five years, so does the map, not the whole war. Markers and chapters
+     narrate only what the lesson discusses. Anything else that changed at the time may appear as territory, so the
+     map stays correct, but don't narrate it.
    - **3–7 chapters**, each a caption of 1–3 sentences that points at what is on the map. The lesson does the
      explaining.
    - **No questions:** knowledge checks stay in the lesson's exercises.
