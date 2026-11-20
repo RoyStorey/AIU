@@ -4,7 +4,9 @@ import type { MapSpec } from "map-widget/spec";
  * MEH 101, Lesson I, page 6: "The Last Great War of Antiquity, 603–630".
  * Follows the page's own account: the Persian conquest of the Roman East, Heraclius's
  * counterattack through Armenia, the siege of Constantinople, Nineveh, and the peace.
- * Borders are approximate; the Balkan losses are shown only in outline.
+ * Borders are approximate; the Balkan losses are shown only in outline. Armies march
+ * overland between the attested places (npm run maps:check verifies they never cross
+ * water); the one sea crossing, Heraclius's voyage to Pylae in 622, is marked "by": "sea".
  */
 const map: MapSpec = {
   format: "atlas-map@1",
@@ -128,7 +130,9 @@ const map: MapSpec = {
     {
       name: "Heraclius", side: "rome", kind: "army",
       path: [
-        { at: "Constantinople", time: "622-04-05" }, { at: "Caesarea (Cappadocia)", time: "622-08" }, { at: "Constantinople", time: "623-03" },
+        { at: "Constantinople", time: "622-04-05" },
+        // shipped across to Pylae in Bithynia, then overland into Asia Minor
+        { at: [29.45, 40.67], time: "622-04-12", by: "sea" }, { at: "Caesarea (Cappadocia)", time: "622-08" }, { at: "Constantinople", time: "623-03" },
         { at: "Caesarea (Cappadocia)", time: "624-04" }, { at: "Dvin", time: "624-06" }, { at: "Adur Gushnasp", time: "624-07" },
         { at: [47.2, 40.6], time: "624-12" }, { at: [43.2, 38.6], time: "625-05" }, { at: "Sebasteia", time: "625-11" },
         { at: "Trebizond", time: "626-05" }, { at: "Tbilisi", time: "626-12" }, { at: "Tbilisi", time: "627-09" },

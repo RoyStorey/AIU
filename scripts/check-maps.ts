@@ -1,6 +1,7 @@
 /**
  * Checks the interactive maps: every map in src/content/maps validates against the
- * atlas-map@1 format, and every `map:` image in a lesson page names a map that exists.
+ * atlas-map@1 format, its armies stay on land and its ships on water, and every `map:`
+ * image in a lesson page names a map that exists.
  *
  *   npm run maps:check
  *
@@ -8,7 +9,7 @@
  */
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { formatIssues, validateMap } from "map-widget/spec";
+import { checkMapRoutes, formatIssues, validateMap } from "map-widget/spec";
 import { MAPS } from "@/content/maps";
 
 async function* files(dir: string): AsyncGenerator<string> {
@@ -25,6 +26,12 @@ async function main() {
   for (const [id, load] of Object.entries(MAPS)) {
     const spec = (await load()).default;
     const r = validateMap(spec);
+    if (r.ok) {
+      const routes = await checkMapRoutes(spec);
+      r.errors.push(...routes.errors);
+      r.warnings.push(...routes.warnings);
+      r.ok = r.errors.length === 0;
+    }
     console.log(`\n${id}\n${formatIssues(r)}`);
     if (!r.ok) failed = true;
   }
