@@ -57,7 +57,7 @@ The understanding of God shared by most Christian theologians from the early chu
 - **Simplicity**: God is not composed of parts—not of body and soul, nor of essence and existence, nor of substance and qualities. God's goodness, wisdom, and power are not different things in God but are identical with God's very being. This doctrine, which sounds abstract, expresses the conviction that God is not one being among others but the source of all being.
 - **Immutability**: God does not change. "For I am the Lord, I change not" (Malachi 3:6). Since God is perfect, any change would be either for the better (implying God was not perfect before) or for the worse.
 - **Impassibility**: God is not subject to passions or suffering inflicted from outside. God is not moved by creatures as they are moved by one another.
-- **Eternity**: God is not merely everlasting, lasting through all time, but timeless, outside time altogether. **Boethius**, in *The Consolation of Philosophy* (c. 524), defined eternity as "the complete, simultaneous, and perfect possession of unlimited life."
+- **Eternity**: God is not merely everlasting, lasting through all time, but timeless, outside time altogether. **Boethius**, in *The Consolation of Philosophy* (c. 524), defined eternity as "the complete, simultaneous and perfect possession of everlasting life."
 - **Omnipresence**: God is present everywhere, not by being spread out in space but by sustaining all things. "Whither shall I flee from thy presence?" (Psalm 139:7).
 - **Omniscience**: God knows all things, past, present, and future.
 - **Omnipotence**: God can do all things that are logically possible. God cannot make a square circle, or sin, not because of any lack of power, but because these are not "things" to be done.
@@ -186,7 +186,7 @@ The brothers' evil choice remains evil; they are responsible for it. But God has
 
 ## Calvin on providence
 
-**John Calvin** gave providence a central place. He rejected the idea that anything happens by chance, and taught that God governs all events, great and small, by his will. Yet Calvin saw this as a source of comfort, not fear. In the *Institutes* he wrote that ignorance of providence is "the ultimate of all miseries," and knowledge of it "the highest blessedness," for the believer knows that nothing can happen except by the will of a loving Father. The **Heidelberg Catechism** (1563) expresses this in its first question: "What is your only comfort in life and in death? That I am not my own, but belong … to my faithful Savior Jesus Christ … that without the will of my heavenly Father not a hair can fall from my head."
+**John Calvin** gave providence a central place. He rejected the idea that anything happens by chance, and taught that God governs all events, great and small, by his will. Yet Calvin saw this as a source of comfort, not fear. In the *Institutes* he wrote that "ignorance of Providence is the greatest of all miseries, and the knowledge of it the highest happiness" (1.17.11, trans. Beveridge), for the believer knows that nothing can happen except by the will of a loving Father. The **Heidelberg Catechism** (1563) expresses this in its first question: "What is your only comfort in life and in death? That I am not my own, but belong … to my faithful Savior Jesus Christ … that without the will of my heavenly Father not a hair can fall from my head."
 
 ## Foreknowledge and freedom
 
@@ -205,6 +205,41 @@ If God governs all things, why pray? Christian theologians have answered that pr
 Some Christian thinkers have seen God's providence at work in history as a whole. Augustine's *City of God* traced two "cities," of God and of the world, intertwined through history. Later writers sometimes identified God's providence with the success of particular nations or empires, a temptation that has led to grave abuses, from the crusades to colonial conquest to nationalist theology. Many modern theologians are cautious about reading God's purposes in the events of history, recalling Isaiah: "my thoughts are not your thoughts" (55:8).
 
 > **Pause and consider.** Joseph says, "Ye thought evil against me; but God meant it unto good." Does this mean that evil is part of God's plan? How might a theologian avoid that conclusion?`,
+    },
+    {
+      title: "Miracles",
+      body: `## Signs and wonders
+
+The Bible is full of **miracles**: the parting of the sea, the fall of manna in the wilderness, Elijah's fire from heaven, and, in the New Testament, Jesus's healings, exorcisms, feeding of the multitudes, calming of the storm, and raising of the dead, culminating in his own resurrection. The New Testament calls these events "signs" (*sēmeia*), "wonders" (*terata*), and "powers" (*dynameis*). They are not merely marvels; they point to the presence and power of God's kingdom.
+
+## What is a miracle?
+
+How should a miracle be defined? **Augustine** held that a miracle is not contrary to nature, but contrary to what we know of nature. The whole world is a miracle, he said, but we have grown used to it; God sometimes acts in unusual ways to awaken our wonder. Turning water into wine at Cana is no more wonderful than God's turning rain into wine every year through the vine, but it is less familiar.
+
+**Aquinas** defined a miracle more precisely as an event that exceeds the power of all created nature, and can be done by God alone. Later writers, after the rise of modern science, often defined a miracle as a "violation" or "suspension" of the laws of nature by God.
+
+## Hume's argument
+
+The most famous argument against belief in miracles was made by the Scottish philosopher **David Hume** in his essay "Of Miracles" (1748). Hume defined a miracle as "a violation of the laws of nature," and argued that, since the laws of nature are established by the uniform experience of humanity, the evidence against any miracle is as strong as evidence can be. No testimony could ever be strong enough to establish a miracle unless its falsehood would be more miraculous than the event it reports. Hume added that reports of miracles tend to come from "ignorant and barbarous nations," that people love to tell marvels, and that the miracles of rival religions cancel each other out.
+
+## Responses
+
+Christian philosophers have offered several responses.
+
+- Some argue that Hume's argument is circular: he assumes that the laws of nature have never been violated, which is the very question at issue.
+- Others, like **C. S. Lewis** in *Miracles* (1947), argue that whether one finds a miracle credible depends on one's prior beliefs about the world. If nature is all there is, miracles are impossible; if there is a God who made nature, there is no reason why he could not act in it in special ways.
+- Others argue that the laws of nature describe what happens when nature is left to itself, and that a miracle is not a violation of these laws but the introduction of a new cause—God's action—into the system, as a person who catches a falling apple does not violate the law of gravity.
+- Some theologians, especially in the liberal tradition since the nineteenth century, have reinterpreted the biblical miracles as symbolic stories or as natural events understood religiously, and have regarded the question of their historicity as secondary to their meaning.
+
+## Miracles and faith
+
+In the Gospels, Jesus refuses to perform miracles on demand as proof: "An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas" (Matthew 12:39). The miracles are not mainly evidence for outsiders but signs for those who have eyes to see, expressions of compassion, and anticipations of the kingdom in which the sick will be healed and death defeated. Most Christian traditions hold that miracles continue to occur, though rarely; the Catholic Church investigates reported miracles in the process of canonizing saints, and Pentecostal and charismatic Christians, now among the largest groups of Christians in the world, emphasize healing and other "signs and wonders" in their worship.
+
+## The central miracle
+
+For Christian theology, the central miracle is the **resurrection** of Jesus. Paul writes that "if Christ be not raised, your faith is vain" (1 Corinthians 15:17). All the other miracles are signs of the power that was revealed fully in Easter: the power of God the Creator to renew his creation and overcome death. The doctrine of creation and the doctrine of miracles are thus connected. The God who made the world out of nothing can also act within it, and will finally make it new.
+
+> **Pause and consider.** Augustine said the whole world is a miracle that we have grown used to. How does this view differ from the modern definition of a miracle as a "violation" of natural law?`,
     },
     {
       title: "The Problem of Evil",
