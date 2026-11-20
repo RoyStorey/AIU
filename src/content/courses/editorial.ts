@@ -1940,6 +1940,20 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 8, kind: "uncertain", claim: "Pope Leo III displayed the creed without the filioque on silver shields at St. Peter's.", note: "The story is reported in the Liber Pontificalis and later sources; the shields themselves do not survive. The lesson presents it as tradition." },
     ],
   },
+  "CHH 101": {
+    1: [
+      { page: 7, kind: "disputed", claim: "Stark's estimates of Christian numbers (about 6 million by 300).", note: "These rest on an assumed growth rate and starting figure; other historians reach different numbers. The lesson presents them as a model, not a count." },
+    ],
+    2: [
+      { page: 8, kind: "disputed", claim: "How many Christians died in the persecutions.", note: "Estimates vary widely; most historians think hundreds before 250 and a few thousand in the Great Persecution, while some traditional figures are far higher. The lesson gives the range and the debate." },
+    ],
+    3: [
+      { page: 7, kind: "disputed", claim: "Whether the Roman church had a single bishop before the mid-second century.", note: "Peter Lampe and others argue that leadership was collegial until then; others defend an earlier monepiscopate. The lesson gives both views." },
+    ],
+    5: [
+      { page: 3, kind: "disputed", claim: "What Constantine saw before the Milvian Bridge.", note: "Lactantius reports a dream; Eusebius, decades later, a vision in the sky. Historians variously accept the accounts, explain them naturally, or doubt them. The lesson sets out the evidence." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
