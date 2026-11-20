@@ -80,6 +80,39 @@ Whatever the metaphysics, Christian theology insists on the value of the **body*
 > **Pause and consider.** Tertullian said that "the flesh is the hinge of salvation." Why might the resurrection of the body be central to Christian hope, rather than the immortality of the soul alone?`,
     },
     {
+      title: "Male and Female",
+      body: `## Two accounts
+
+Genesis contains two accounts of the creation of humanity. In the first (Genesis 1:26–28), God creates humanity in his image, "male and female," together, and gives them both the blessing and the task of filling and caring for the earth. In the second (Genesis 2:18–25), God forms the man from the dust, declares that "it is not good that the man should be alone," and makes the woman from the man's side, as "an help meet for him." The man rejoices: "This is now bone of my bones, and flesh of my flesh." The chapter ends: "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
+
+## "Help meet"
+
+The phrase "help meet" (from which comes the English word "helpmate") translates the Hebrew *ezer kenegdo*, literally "a helper corresponding to him" or "a helper as his counterpart." Some readers took "helper" to imply subordination. Others point out that *ezer* is used elsewhere in the Hebrew Bible most often of God himself, as Israel's helper ("my help cometh from the Lord," Psalm 121:2), and therefore implies no inferiority. The woman is a partner who corresponds to the man, as none of the animals did.
+
+## The tradition
+
+For most of Christian history, theologians taught that men and women are equal before God in their capacity for salvation—"there is neither male nor female: for ye are all one in Christ Jesus" (Galatians 3:28)—while holding that women are subordinate to men in the household, the church, and society. Many cited Paul's instructions that wives submit to their husbands (Ephesians 5:22) and that women not teach or have authority over men (1 Timothy 2:12), as well as the order of creation in Genesis 2. Some, like Aquinas, following Aristotle, held that women were by nature weaker in reason. Yet the tradition also honored women as saints, martyrs, mystics, abbesses, and teachers, and venerated Mary, the mother of Jesus, above all other creatures.
+
+## Contemporary debate
+
+In the twentieth century, as women gained new roles in society, churches divided over the meaning of these texts.
+
+- **Complementarians** hold that men and women are equal in dignity but have distinct and complementary roles, ordained by God in creation: men are called to loving, servant leadership in the home and the church, and women to support and partnership. On this view, ordained pastoral leadership is reserved for men. The Catholic and Orthodox churches, and many evangelical Protestants, reserve the priesthood or the pastorate to men, though for differing reasons: the Catholic and Orthodox churches appeal especially to the example of Christ, who chose twelve men as apostles, and the tradition of the church.
+- **Egalitarians** hold that men and women are equal in dignity and in role, and that the passages restricting women reflect the cultural situation of the first century, or apply to particular problems in particular churches, rather than a permanent order. They point to the women leaders of the New Testament—Phoebe, Junia, Priscilla, the women prophets of Corinth—and to Galatians 3:28. Many Protestant churches have ordained women since the mid-twentieth century; the Church of England ordained its first women priests in 1994 and first women bishops in 2015.
+
+Both sides appeal to Scripture and tradition. The debate is among the most divisive in contemporary Christianity.
+
+## Marriage
+
+Christian theology has understood **marriage** as a covenant between a man and a woman, a lifelong union, ordained by God in creation, and in the New Testament a sign of the union between Christ and the church (Ephesians 5:31–32). Augustine named three "goods" of marriage: offspring, fidelity, and the sacramental bond. The Catholic and Orthodox churches regard marriage as a sacrament; Protestant churches regard it as a holy estate, though not a sacrament. In recent decades, many churches have also debated whether same-sex unions can be recognized; churches remain deeply divided, with most of the world's Christians belonging to churches that maintain the traditional definition, while some Protestant churches have changed their teaching and practice.
+
+## Celibacy
+
+Christianity also honored a form of life without marriage. Jesus spoke of those who "made themselves eunuchs for the kingdom of heaven's sake" (Matthew 19:12), and Paul wished that all were unmarried as he was, so as to serve the Lord without distraction (1 Corinthians 7:7, 32–35). From the early church onward, **celibacy** for the sake of the kingdom was esteemed, especially among monks and nuns, and from the Middle Ages it was required of clergy in the Western church. The Reformers rejected compulsory clerical celibacy, and many married—Luther himself married a former nun, Katharina von Bora, in 1525. The existence of celibacy as a Christian vocation, alongside marriage, expresses the conviction that human fulfillment lies finally in God, not in any earthly relationship.
+
+> **Pause and consider.** The Hebrew word translated "help meet" is used most often of God. How might this observation affect the reading of Genesis 2?`,
+    },
+    {
       title: "The Fall",
       body: `## A story of a garden
 
