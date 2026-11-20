@@ -40,6 +40,7 @@ import { meh101 } from "./meh-101";
 import { meh110 } from "./meh-110";
 import { pat101 } from "./pat-101";
 import { pat110 } from "./pat-110";
+import { sys101 } from "./sys-101";
 import { poe101 } from "./poe-101";
 import { poe110 } from "./poe-110";
 import { poe201 } from "./poe-201";
@@ -92,6 +93,7 @@ const written: Record<string, CourseContent> = {
   "MEH 110": meh110,
   "PAT 101": pat101,
   "PAT 110": pat110,
+  "SYS 101": sys101,
   "POE 101": poe101,
   "POE 110": poe110,
   "POE 201": poe201,

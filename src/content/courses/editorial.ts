@@ -1918,6 +1918,17 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 1, kind: "corrected", claim: "Hurston was born in Eatonville in 1901 or 1903.", note: "She gave these dates herself; census records show she was born in Notasulga, Alabama, in 1891. The lesson gives the documented date and explains the discrepancy." },
     ],
   },
+  "SYS 101": {
+    1: [
+      { page: 1, kind: "uncertain", claim: "Evagrius of Pontus: \"If you are a theologian, you will pray truly.\"", note: "The saying comes from the treatise On Prayer (chapter 61), long transmitted under the name of Nilus of Ancyra; most scholars now attribute it to Evagrius." },
+    ],
+    4: [
+      { page: 4, kind: "disputed", claim: "Whether Nestorius taught two persons in Christ.", note: "His opponents said so; since the rediscovery of his Bazaar of Heracleides in 1895, many historians think his views were closer to Chalcedon than was believed. The lesson presents both readings." },
+    ],
+    5: [
+      { page: 1, kind: "uncertain", claim: "Pentecostal and charismatic Christians number in the hundreds of millions.", note: "Estimates vary widely with definitions, from about 300 to over 600 million; the lesson gives no single figure." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
