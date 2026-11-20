@@ -11,7 +11,7 @@ export const lesson3: Lesson = {
 
 **Nathan Pinchback Toomer**, who later called himself **Jean Toomer**, was born in Washington, D.C., in 1894. His family's history crossed and recrossed the color line. His maternal grandfather, **P. B. S. Pinchback**, had been a Union officer and, during Reconstruction, the lieutenant governor of Louisiana, and briefly its acting governor in 1872–1873—the first person of African descent to serve as governor of a U.S. state. After Reconstruction ended, Pinchback moved to Washington, where he lived prosperously among the city's Black elite.
 
-Toomer's father, Nathan Toomer, a planter from Georgia, abandoned the family soon after his son's birth. Toomer grew up in his grandfather's household, partly in a white neighborhood of Washington and partly in New Rochelle, New York, attending white schools, and then in Washington's Black community, where he attended the elite Dunbar High School. His light skin and mixed ancestry—English, Dutch, French, Welsh, Jewish, German, and African, as he later listed it—made his racial identity, in the eyes of others, ambiguous.
+Toomer's father, Nathan Toomer, a planter from Georgia, abandoned the family soon after his son's birth. Toomer grew up in his grandfather's household, partly in a white neighborhood of Washington and partly in New Rochelle, New York, attending white schools, and then in Washington's Black community, where he attended the elite Dunbar High School. His light skin and mixed ancestry—French, Dutch, Welsh, Negro, German, Jewish, and Indian, as he listed it in a letter of 1922—made his racial identity, in the eyes of others, ambiguous.
 
 ## Wandering
 
@@ -83,7 +83,7 @@ The sketch sets the pattern for the Georgia section: a woman whose beauty and sp
 
 ## Becky
 
-"**Becky**" tells the story of a white woman who has two sons by a Black man. Both white and Black communities cast her out. They build her a cabin on a narrow strip of land between the road and the railroad, and they bring her food in secret, but they will not speak to her or acknowledge her. Her sons grow up and leave, cursing the town. One day, the chimney of the cabin falls in, and Becky, presumably, is buried beneath it. The narrator throws a Bible onto the rubble as he passes. The sketch is a stark portrait of the taboo against interracial relationships in the South, and the cruelty of both communities toward those who break it.
+"**Becky**" tells the story of a white woman who has two sons by a Black man. Both white and Black communities cast her out. They build her a cabin on a narrow strip of land between the road and the railroad, and they bring her food in secret, but they will not speak to her or acknowledge her. Her sons grow up and leave, cursing the town. One day, the chimney of the cabin falls in, and Becky, presumably, is buried beneath it. The narrator's companion, the preacher Barlo, throws his Bible onto the rubble as they pass. The sketch is a stark portrait of the taboo against interracial relationships in the South, and the cruelty of both communities toward those who break it.
 
 ## Fern
 
@@ -108,6 +108,34 @@ Throughout the Georgia section, songs appear: work songs, spirituals, fragments 
 Toomer saw Georgia as an outsider, a sophisticated Northerner from Washington, and his narrators often share this position. They are fascinated by the South but separated from it; they long to understand it but cannot. This position gives the Georgia section its peculiar intensity: it is a vision of the South seen with the heightened perception of someone who knows he does not belong, and who fears that what he sees will soon be gone.
 
 > **Pause and consider.** Are the women of the Georgia section real people or symbols? What is gained and lost by portraying them through the eyes of a fascinated male narrator?`,
+    },
+    {
+      title: "Esther, Barlo, and the Religion of the South",
+      body: `## A girl in a small town
+
+"**Esther**," one of the longest pieces in the Georgia section, follows a single life from childhood to middle age. Esther is the near-white daughter of the richest Black merchant in town, plain, shy, and sheltered. When she is nine, she sees **King Barlo**, a huge, very dark man, fall into a religious trance in the town square. Barlo, kneeling, tells a vision in the voice of a preacher: an African giant, standing on the coast, was bound by "little white-ant biddies" and carried across the sea, and his people's words were taken from them. The crowd is transfixed. Barlo leaves town, and is said to have gone to the North.
+
+## A fantasy and its end
+
+Esther grows up in her father's store, isolated from the life around her, and makes Barlo the hero of her fantasies. She dreams that he will return and that she will bear his child. When she is twenty-seven, Barlo comes back, prosperous and drunk. Esther, after long hesitation, goes at night to the house where he is carousing, and offers herself to him. The men and women there laugh at her. Barlo, coarse and indifferent, mocks her plainness. She leaves, and the sketch ends with an image of emptiness: there is no street, no town, only the blank air.
+
+## Reading Esther
+
+"Esther" is one of the most painful pieces in *Cane*. It portrays the cost of the class and color distinctions within the Black community—Esther's light skin and her father's wealth set her apart—and the suppression of a woman's desire by the respectable life she has been given. It also portrays the power and the limits of the folk religion that Barlo embodies. His vision in the square is genuine poetry, a myth of the Middle Passage that moves the whole town; but the man himself is no prophet. The spiritual energy of the folk, Toomer suggests, has no secure place to go.
+
+## Barlo's vision
+
+Barlo's vision is worth pausing on. It is one of the few places in *Cane* where the African past is directly invoked, and it does so in the idiom of the Black preacher: the trance, the call to the crowd, the image of a giant brought low. The "little white-ant biddies" who bind the giant are a striking image of the slave trade, in which a great people is overcome by a swarm of small, organized enemies. The vision connects the folk church of Georgia with the history of slavery and with Africa, as "Song of the Son" connects the folk songs with the enslaved ancestors.
+
+## Religion in Cane
+
+Religion pervades *Cane*: revival meetings, spirituals, preachers, prayers, and Bibles. Toomer, who was drawn to mysticism, saw in the religion of the Black South an expression of spiritual depth. But he also saw its distortions. In "Becky," the Bible is thrown onto a ruin; in "Kabnis," Father John declares that the white folks made the Bible lie, and the preacher Layman knows too much to speak. Religion in *Cane* is both a source of strength and a site of the South's contradictions.
+
+## Small portraits
+
+Between the longer pieces, Toomer placed short poems that compress the themes of the book. "**Georgia Dusk**" describes the sky at sunset over the sawmills and the cane, and calls on the singers of the evening to give their songs to the "dreams of the dusk." "**Portrait in Georgia**" is a six-line poem that describes a woman's body in images borrowed from a lynching—hair like a coiled rope, breath like the smoke of burning wood, body like the white ash of black flesh after flame. In a few words it fuses beauty and terror, desire and violence. Many readers find it the most disturbing poem in the book. It shows, in miniature, what "Blood-Burning Moon" shows at length: that in the South Toomer saw, beauty could not be separated from the history of violence.
+
+> **Pause and consider.** What does Barlo's vision in the square offer the town? Why does Toomer let the man himself prove so disappointing?`,
     },
     {
       title: "\"Song of the Son\" and \"Blood-Burning Moon\"",
@@ -158,11 +186,11 @@ The lynching itself is described briefly but with terrible clarity, through imag
 
 The second section of *Cane* moves to the city. Its first piece, "**Seventh Street**," a prose poem about the main street of Black Washington, sets a new tone:
 
-> Seventh Street is a bastard of Prohibition and the War. A crude-boned, soft-skinned wedge of nigger life breathing its loafer air, jazz songs and love, thrusting unconscious rhythms, black reddish blood into the white and whitewashed wood of Washington.
+> Seventh Street is a bastard of Prohibition and the War.
 >
 > — Jean Toomer, "Seventh Street," in *Cane* (1923)
 
-Toomer uses the racial slur here deliberately, as part of a portrait of a vital, raw street culture pushing against the respectable, segregated capital. The rhythm of the prose is jazz-like, fast and syncopated. The street is full of life, money from bootlegging, cars, and noise. It asks, in a repeated refrain, who set this flame in the "white and whitewashed wood of Washington"—and wonders whether God himself could answer.
+The sketch goes on to describe the street, in deliberately harsh language that includes a racial slur, as a raw wedge of Black life "thrusting unconscious rhythms, black reddish blood into the white and whitewashed wood of Washington." Toomer uses the ugly word on purpose, as the city's own contempt turned into a portrait of a vital street culture pushing against the respectable, segregated capital. The rhythm of the prose is jazz-like, fast and syncopated. The street is full of life, money from bootlegging, cars, and noise. In a repeated refrain, the sketch wonders who set this flame in the capital—and whether God himself could answer.
 
 ## Stories of alienation
 
@@ -234,7 +262,7 @@ Yet it is distinctive. Unlike the white modernists, Toomer found the source of s
 
 ## Reception
 
-*Cane* was received with enthusiasm by many critics. W. E. B. Du Bois and Alain Locke praised it; Locke wrote that Toomer was "a bright morning star of a new day of the race in literature." Younger writers were inspired. Langston Hughes later wrote that Toomer's book was a revelation. White critics in the little magazines admired its experimentalism. But the book did not sell, and Toomer did not follow it with another.
+*Cane* was received with enthusiasm by many critics. W. E. B. Du Bois and Alain Locke praised it; Locke wrote that Toomer was "a bright morning star of a new day of the race in literature." Younger writers were inspired. White critics in the little magazines admired its experimentalism. But the book did not sell, and Toomer did not follow it with another.
 
 ## "I am of no particular race"
 
@@ -257,6 +285,38 @@ Whatever Toomer's later views, *Cane* remains a profound work about Black life i
 *Cane* went out of print for decades. In 1967, the year of Toomer's death, it was reissued by University Place Press, with an introduction by Arna Bontemps, and in 1969 by Harper & Row, during the rise of Black studies programs and the Black Arts Movement. It was rediscovered by a new generation of readers and critics, including Alice Walker, who wrote that it had been one of the most important books in her life, and Darwin T. Turner, who edited Toomer's unpublished writings. Today it is regarded as a masterpiece of American literature, and is widely taught.
 
 > **Pause and consider.** Should Toomer's refusal to be called a Negro writer affect how we read *Cane*? Is it right to include him in a course on the Harlem Renaissance?`,
+    },
+    {
+      title: "Ways of Reading Cane",
+      body: `## Many approaches
+
+Because *Cane* is so unusual in form, and so rich in images, it has invited many different readings. Five approaches have been especially influential. Each illuminates part of the book; none exhausts it.
+
+## An elegy for the folk
+
+The first reading takes Toomer at his word: *Cane* is an elegy for the folk culture of the rural South, a "swan song" captured before it vanished. This reading emphasizes the Georgia section, the songs, and "Song of the Son." It explains the book's lyrical intensity and its sense of loss. Its weakness is that it can romanticize the South, treating its people as symbols of a vanishing spirit rather than as individuals living under oppression. Some critics have also argued that Toomer was wrong about the folk culture dying: the blues, gospel, and the Black church carried it into the cities and transformed it.
+
+## A modernist experiment
+
+The second reading places *Cane* alongside *The Waste Land* and *Winesburg, Ohio* as a work of American modernism. It emphasizes the fragmented form, the stream of consciousness, the mixing of genres, and the theme of spiritual crisis in the modern world. This reading shows Toomer's originality and his connections with the white avant-garde. Its weakness is that it can treat Black life as mere material for formal experiment, overlooking the book's specific history.
+
+## A history of terror
+
+The third reading, developed by Charles Scruggs and Lee VanDemarr in *Jean Toomer and the Terrors of American History* (1998), places the book in the context of racial violence in Georgia and Washington in the years around 1919, including the riots and lynchings of the Red Summer. It shows how much of *Cane*—"Blood-Burning Moon," "Portrait in Georgia," Layman's story in "Kabnis"—is haunted by real violence. This reading corrects the tendency to read the book as a pastoral idyll.
+
+## A book about women
+
+The fourth reading focuses on the women of *Cane*: Karintha, Becky, Carma, Fern, Esther, Louisa, Avey, Muriel, Bona, Carrie Kate. Feminist critics have explored how the women are portrayed—often as objects of male desire and projection, seldom as speaking subjects—and how their stories reveal the sexual exploitation of Black women under Jim Crow, the pressures of respectability, and the suppression of female desire. Some see Toomer as complicit in objectifying the women; others see him as exposing the forces that silence them.
+
+## A book about identity
+
+The fifth reading connects *Cane* with Toomer's own struggle over racial identity. It emphasizes the characters caught between categories—Becky's sons, Fern, Esther, Paul in "Bona and Paul," Kabnis—and reads the book as an exploration of the painful contradictions of the American color line. This reading draws on Toomer's letters and later writings, and on the long history of the "tragic mulatto" theme in American literature, which *Cane* both echoes and complicates.
+
+## Combining readings
+
+These readings are not exclusive. *Cane* is at once an elegy, a modernist experiment, a record of terror, a gallery of women, and an exploration of identity. Its greatness lies partly in the way it holds all these together, without resolving them. A good essay on *Cane* will usually draw on more than one approach, and will test each against the text.
+
+> **Pause and consider.** Which of these five readings seems to you most illuminating? Which piece of *Cane* would you choose to test it?`,
     },
     {
       title: "Working with the Sources",
@@ -317,7 +377,7 @@ In a paragraph, discuss how *Cane* moves between South and North, folk and moder
     { kind: "book", title: "When Harlem Was in Vogue", author: "David Levering Lewis", publisher: "Knopf; reissued by Penguin", year: "1981", note: "Read the pages on Toomer and Cane." },
   ],
   media: [
-    { kind: "edition", title: "Cane", author: "Jean Toomer", publisher: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/68240", note: "The 1923 text, in the public domain." },
+    { kind: "book", title: "Cane", author: "Jean Toomer", publisher: "Boni & Liveright", year: "1923", note: "The first edition, now in the public domain; facsimile and digital copies are widely available through libraries."  },
     { kind: "book", title: "The Wayward and the Seeking: A Collection of Writings by Jean Toomer", author: "ed. Darwin T. Turner", publisher: "Howard University Press", year: "1980", note: "Toomer's autobiographical writings, essays, and poems, including his account of Sparta." },
   ],
   questions: [
