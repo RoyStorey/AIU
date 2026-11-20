@@ -155,7 +155,7 @@ The first generation of Christianity was concentrated in the eastern Mediterrane
 
 ## The second and third centuries
 
-In the second century, the evidence widens. **Asia Minor** became one of the most Christian regions of the empire; when Pliny governed Bithynia around 112, he found Christians in "cities, villages, and the countryside." In **Gaul**, a Greek-speaking community at **Lyons** and Vienne suffered martyrdom in 177. In **North Africa**, the trial of the Scillitan martyrs at **Carthage** in 180 gives us the first dated Christian document in Latin; by the third century, Africa had dozens of bishops, and Cyprian of Carthage could gather about ninety at a council. In **Egypt**, the church of **Alexandria** emerged into the light in the late second century with its famous catechetical school, and Christian papyri show the faith spreading up the Nile.
+In the second century, the evidence widens. **Asia Minor** became one of the most Christian regions of the empire; when Pliny governed Bithynia around 112, he found that the "contagious superstition" had spread from the cities to the country villages. In **Gaul**, a Greek-speaking community at **Lyons** and Vienne suffered martyrdom in 177. In **North Africa**, the trial of the Scillitan martyrs at **Carthage** in 180 gives us the first dated Christian document in Latin; by the third century, Africa had dozens of bishops, and Cyprian of Carthage could gather about ninety at a council. In **Egypt**, the church of **Alexandria** emerged into the light in the late second century with its famous catechetical school, and Christian papyri show the faith spreading up the Nile.
 
 The faith also crossed the empire's eastern frontier. In **Mesopotamia**, Christianity flourished among speakers of Syriac, centered on **Edessa**, an independent kingdom until 214. At **Dura-Europos**, a Roman garrison town on the Euphrates destroyed by the Persians around 256, archaeologists in the 1930s found a house converted for Christian worship, with a baptistery painted with scenes of the Good Shepherd, the healing of the paralytic, and women at the tomb. It is the oldest identified church building in the world. Christianity also reached Persia, Armenia, and, by the fourth century, the Ethiopian kingdom of **Aksum**.
 
@@ -170,6 +170,80 @@ How many Christians were there? No census was taken, and estimates are necessari
 Growth was uneven. Christianity was strongest in Asia Minor, Syria, Egypt, North Africa, and the cities of the East, weaker in the Latin West and the countryside, and very weak in Britain and the northern frontier provinces. It was mainly urban until the fourth century, though Pliny's report shows that it was reaching villages in some regions by the early second century. Its language was Greek in the East and in Rome until the third century, Latin in Africa and later in Rome, Syriac in Mesopotamia, and Coptic in rural Egypt.
 
 > **Pause and consider.** Stark's model suggests steady growth without mass conversions. What kinds of evidence would support or challenge this picture?`,
+    },
+    {
+      title: "Beyond the Frontier",
+      body: `## Not only Roman
+
+It is easy to think of early Christianity as a Roman phenomenon, spreading along Roman roads to Roman cities. But from the beginning the faith also moved east and south, beyond the empire's borders, into lands where it would develop distinctive traditions that survive today. Church history written from Rome, or from Eusebius's Caesarea, has often neglected them.
+
+## Edessa and the Syriac church
+
+The kingdom of **Osrhoene**, with its capital at **Edessa** (modern Şanlıurfa in southeastern Turkey), lay between the Roman and Parthian empires. It became a center of Christianity in the **Syriac** language, a dialect of Aramaic close to the language Jesus spoke. Eusebius preserves a legend that King **Abgar V** of Edessa wrote to Jesus asking him to come and heal him, and that Jesus replied promising to send a disciple; after the resurrection, the apostle Thaddeus (Addai) came and converted the city. The correspondence is legendary, probably composed in the third century, but Edessa did have a Christian community by the late second century, and a church building was destroyed by a flood in 201, according to a local chronicle.
+
+Syriac Christianity produced a distinctive literature. **Tatian**, a Syrian student of Justin Martyr, composed the *Diatessaron*, a harmony of the four Gospels, around 170, which was the main Gospel text in Syriac churches for centuries. The *Odes of Solomon*, a collection of mystical Christian hymns, may come from the same world. In the fourth century, **Ephrem the Syrian** (c. 306–373) of Nisibis and Edessa wrote hymns and poetic theology of extraordinary beauty, and is honored as a Doctor of the Church.
+
+## Persia
+
+Further east, in the **Persian** empire of the Parthians and, from 224, the Sasanians, Christian communities grew among Jews, Syriac speakers, and deported Roman prisoners of war. By the early fourth century there were bishops in Persia; one attended the Council of Nicaea. When Constantine became a Christian, the Persian kings came to regard their Christian subjects as potential allies of Rome, and under **Shapur II** (r. 309–379), Persian Christians suffered severe persecution, with many thousands of martyrs. The church in Persia later became the **Church of the East**, which in the following centuries sent missionaries along the Silk Road to Central Asia and China.
+
+## Armenia
+
+In the kingdom of **Armenia**, between Rome and Persia, **Gregory the Illuminator** converted King **Tiridates III**, who made Christianity the official religion of the kingdom. The traditional date is 301; many historians prefer about 314. Either way, Armenia has a good claim to be the first state to adopt Christianity officially, before the Roman empire. In the early fifth century, the monk **Mesrop Mashtots** created an Armenian alphabet so that the Bible could be translated, laying the foundation of Armenian literature.
+
+## Ethiopia
+
+In the kingdom of **Aksum**, in what is now Ethiopia and Eritrea, the faith arrived through two young Syrian Christians, **Frumentius** and Aedesius, who, according to the historian Rufinus, were shipwrecked on the Red Sea coast and brought to the royal court. Frumentius became tutor to the young king **Ezana**, who became a Christian around 330–340; coins of Ezana's reign replace pagan symbols with the cross. **Athanasius** of Alexandria consecrated Frumentius as bishop of Aksum, beginning a link between the Ethiopian church and the church of Alexandria that lasted until 1959.
+
+## India
+
+The **Thomas Christians** of Kerala, in southwestern India, trace their origin to the apostle **Thomas**, who, according to tradition, landed on the Malabar coast in 52 and was martyred near Chennai in 72. The tradition cannot be proved, but trade routes between the Roman world and India were busy in the first century, and Christian communities in India are attested by the sixth century and probably earlier.
+
+## A faith of many cultures
+
+These communities show that Christianity was, from the start, a faith of many languages and cultures: Aramaic, Greek, Latin, Syriac, Coptic, Armenian, Ge'ez. The Roman, Latin-speaking church that later dominated the West was only one branch of a much larger tree.
+
+> **Pause and consider.** Why might church history written from the West have neglected the churches beyond the Roman frontier? What is lost when it does?`,
+    },
+    {
+      title: "Roads, Ships, and Letters",
+      body: `## The infrastructure of mission
+
+The spread of Christianity depended on the physical and social infrastructure of the Roman world. Christian writers themselves saw the hand of providence in it. **Origen**, writing in the third century, argued that God had prepared the world for the gospel by uniting the nations under Augustus, so that the apostles could travel freely:
+
+> For it would have been an obstacle to the spread of the doctrine of Jesus throughout the entire world if there had been many kingdoms. … Jesus was born, then, in the reign of Augustus, who reduced to uniformity, so to speak, the many kingdoms on earth.
+>
+> — Origen, *Against Celsus* 2.30, after the translation of F. Crombie (1872)
+
+## Roads
+
+The Roman road network, built for the army, eventually covered some 80,000 kilometers of paved highway, with milestones, bridges, and inns. A traveler on foot could cover about 30 kilometers a day; an official courier, changing horses, much more. Paul walked the Via Egnatia across Macedonia and the Appian Way into Rome. Roads carried soldiers, merchants, officials, and missionaries alike.
+
+## Sea lanes
+
+Travel by sea was faster and cheaper, though dangerous and seasonal: the Mediterranean was largely closed to shipping from November to March. As we saw in BIB 110, Paul's voyage to Rome ended in shipwreck late in the season. Grain ships from Alexandria to Rome, carrying hundreds of passengers, connected the great cities. The early church grew along the sea lanes, in the ports: Corinth, Ephesus, Alexandria, Carthage, Rome.
+
+## Language
+
+The spread of **Greek** as a common language across the eastern Mediterranean, and of **Latin** in the West, meant that a missionary could be understood in most cities. The New Testament was written in Greek, and the church of Rome itself used Greek in its worship until the third century. Only in the countryside, where local languages survived, did Christians need translators, which is why translations into Syriac, Coptic, Latin, and later Gothic, Armenian, and Ge'ez became so important.
+
+## Diaspora synagogues
+
+Jewish communities in nearly every city of the empire gave Christian missionaries a starting point: people who already worshipped one God, knew the Scriptures, expected a Messiah, and included Gentile sympathizers. As we saw, Paul's practice was to begin in the synagogue.
+
+## Letters and hospitality
+
+Christians also created their own networks. Churches wrote letters to one another: Paul's letters, 1 Clement, the letters of Ignatius and Polycarp, the letter of the churches of Lyons and Vienne to the churches of Asia. They received traveling teachers and believers with **hospitality**, as the *Didache* instructs, while testing them: a traveling prophet who stays more than two days, or asks for money, is a false prophet. Letters of recommendation allowed a traveling Christian to be received by a church in another city. By the second century, Christians had created what one historian has called an "empire-wide network," a sense of belonging to a single church spread across the world.
+
+## Books
+
+Christians were also early adopters of the **codex**, the book with pages, as we saw in BIB 110. Almost all early Christian manuscripts are codices, while pagan literature was still mostly copied on scrolls. The codex was cheaper, more compact, and easier to consult, and allowed several Gospels or letters to be bound together. Some historians think that Christian use of the codex helped make it the standard form of the book in late antiquity.
+
+## Providence or circumstance?
+
+Origen saw the Roman peace as providential preparation for the gospel. A secular historian would describe the same facts as circumstances that favored the spread of a new movement. Both agree that Christianity's growth cannot be understood apart from the roads, ships, languages, synagogues, and letters of the Roman world.
+
+> **Pause and consider.** Origen argued that the unity of the Roman empire was providential preparation for the gospel. How might a historian evaluate this claim?`,
     },
     {
       title: "Why Did Christianity Grow?",
@@ -235,7 +309,7 @@ Popular rumors accused Christians of terrible crimes. They were said to practice
 
 ## Atheism and hatred of humanity
 
-More serious was the charge of **atheism**. Christians refused to worship the gods of the city and the empire. To Romans, this was not a private matter of belief, but a public danger: the gods protected the community, and neglecting them might bring disaster. Tertullian complained that "if the Tiber rises to the walls, if the Nile does not rise to the fields, if the sky does not move or the earth does, if there is famine, if there is plague, the cry is at once, 'The Christians to the lion!'" (*Apology* 40). Christians also withdrew from much of civic life—festivals, theaters, games, sacrifices—which seemed to confirm Tacitus's charge of "hatred of the human race."
+More serious was the charge of **atheism**. Christians refused to worship the gods of the city and the empire. To Romans, this was not a private matter of belief, but a public danger: the gods protected the community, and neglecting them might bring disaster. Tertullian complained: "If the Tiber rises as high as the city walls, if the Nile does not send its waters up over the fields, if the heavens give no rain, if there is an earthquake, if there is famine or pestilence, straightway the cry is, 'Away with the Christians to the lion!'" (*Apology* 40, trans. S. Thelwall, 1869). Christians also withdrew from much of civic life—festivals, theaters, games, sacrifices—which seemed to confirm Tacitus's charge of "hatred of the human race."
 
 ## Celsus
 
@@ -280,7 +354,7 @@ The graffito captures what Paul called the "scandal" of the cross: "unto the Jew
 
 ## 3. Pliny, Letters 10.96 (c. 112)
 
-> For the contagion of this superstition has spread not only to the cities but also to the villages and farms.
+> For this contagious superstition is not confined to the cities only, but has spread its infection among the country villages.
 >
 > — Pliny, *Letters* 10.96, trans. William Melmoth, rev. F. C. T. Bosanquet
 
