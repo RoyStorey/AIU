@@ -1929,6 +1929,17 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 1, kind: "uncertain", claim: "Pentecostal and charismatic Christians number in the hundreds of millions.", note: "Estimates vary widely with definitions, from about 300 to over 600 million; the lesson gives no single figure." },
     ],
   },
+  "SYS 201": {
+    1: [
+      { page: 6, kind: "uncertain", claim: "The Apostolic Tradition attributed to Hippolytus, around 215.", note: "Its authorship, date, and place are now widely debated; many scholars think it a composite church order, parts of which may be later. The lesson notes the debate." },
+    ],
+    3: [
+      { page: 2, kind: "disputed", claim: "Letter 38 in Basil's collection.", note: "It was long attributed to Basil; many scholars now think Gregory of Nyssa wrote it. The lesson gives both attributions." },
+    ],
+    4: [
+      { page: 8, kind: "uncertain", claim: "Pope Leo III displayed the creed without the filioque on silver shields at St. Peter's.", note: "The story is reported in the Liber Pontificalis and later sources; the shields themselves do not survive. The lesson presents it as tradition." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
