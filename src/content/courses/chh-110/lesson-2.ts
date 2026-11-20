@@ -155,7 +155,7 @@ The alliance between the papacy and the Frankish kings transformed both. The pop
 
 Around this time, probably in the mid-eighth century, a document appeared that would play an extraordinary role in medieval history: the **Donation of Constantine**. It purported to be a decree of the emperor Constantine, who, healed of leprosy and baptized by Pope Sylvester I, gave the pope and his successors authority over Rome, Italy, and "all the provinces, places, and cities of the western regions," and the imperial insignia, before moving his own capital to Constantinople. The document was a **forgery**, probably produced in Rome to support the papacy's claims at the time of its alliance with the Franks, though its exact date and purpose are debated.
 
-The Donation was accepted as genuine for centuries, and was used by popes to support their claims to temporal power. Some medieval critics, such as the emperor Otto III, doubted it. Dante, in the *Inferno*, lamented it as the source of the church's corruption: "Ah, Constantine, of how much ill was mother, not your conversion, but that dowry which the first rich Father took from you!" In 1440, the Italian humanist **Lorenzo Valla** proved it a forgery by analyzing its language, which contained Latin words and expressions unknown in Constantine's time. Valla's work is a landmark in the history of historical criticism.
+The Donation was accepted as genuine for centuries, and was used by popes to support their claims to temporal power. Some medieval critics, such as the emperor Otto III, doubted it. Dante, in the *Inferno*, lamented it as the source of the church's corruption: "Ah, Constantine! of how much ill was mother, / Not thy conversion, but that marriage dower / Which the first wealthy Father took from thee!" (*Inferno* 19, trans. H. W. Longfellow, 1867). In 1440, the Italian humanist **Lorenzo Valla** proved it a forgery by analyzing its language, which contained Latin words and expressions unknown in Constantine's time. Valla's work is a landmark in the history of historical criticism.
 
 ## Forgery in the Middle Ages
 
@@ -167,7 +167,7 @@ The Donation of Constantine was not the only medieval forgery. In the ninth cent
       title: "Charlemagne",
       body: `## The greatest king
 
-**Charlemagne** ("Charles the Great," r. 768–814), the son of Pepin, was the most powerful ruler in Western Europe since the Roman emperors. Over a reign of forty-six years, he waged war almost every year, conquering the Lombard kingdom in Italy (774), the Saxons in northern Germany, the Avars in the Danube basin, and part of northern Spain. His empire stretched from the Pyrenees to the Elbe and from the North Sea to central Italy. His biographer, **Einhard**, described him as tall, strong, fond of hunting and swimming, devoted to the church, and eager to learn, though he never mastered writing: he kept tablets under his pillow to practice his letters, "but as he began these efforts so late in life, they met with little success."
+**Charlemagne** ("Charles the Great," r. 768–814), the son of Pepin, was the most powerful ruler in Western Europe since the Roman emperors. Over a reign of forty-six years, he waged war almost every year, conquering the Lombard kingdom in Italy (774), the Saxons in northern Germany, the Avars in the Danube basin, and part of northern Spain. His empire stretched from the Pyrenees to the Elbe and from the North Sea to central Italy. His biographer, **Einhard**, described him as tall, strong, fond of hunting and swimming, devoted to the church, and eager to learn, though he never mastered writing: he kept tablets under his pillow to practice his letters, but, as Einhard admits, he began too late in life to succeed.
 
 ## The Saxon wars
 
@@ -175,7 +175,7 @@ Charlemagne's wars against the **Saxons** (772–804) were long and brutal, and 
 
 ## Christmas Day, 800
 
-In 799, Pope **Leo III** was attacked by enemies in Rome, who tried to blind him and cut out his tongue. He escaped and fled to Charlemagne. Charlemagne came to Rome in late 800 to restore order. On **Christmas Day, 800**, as Charlemagne knelt in prayer at St. Peter's, Leo placed a crown on his head, and the people acclaimed him: "To Charles, the most pious Augustus, crowned by God, the great and peace-giving emperor, life and victory!"
+In 799, Pope **Leo III** was attacked by enemies in Rome, who tried to blind him and cut out his tongue. He escaped and fled to Charlemagne. Charlemagne came to Rome in late 800 to restore order. On **Christmas Day, 800**, as Charlemagne knelt in prayer at St. Peter's, Leo placed a crown on his head, and the people acclaimed him: "To Charles, the most pious Augustus, crowned by God, the great and peace-giving emperor of the Romans, life and victory!"
 
 The meaning of the coronation has been debated ever since. Einhard wrote that Charlemagne said he would not have entered the church that day had he known what the pope intended—perhaps modesty, perhaps displeasure that the pope had taken the initiative, perhaps concern about the reaction of Constantinople, where the empress **Irene** then ruled, and whom Westerners did not recognize as a legitimate emperor because she was a woman. The coronation revived the title of **emperor** in the West, three centuries after the last Western emperor was deposed, and established a precedent that emperors were crowned by popes, with immense consequences for the relationship between the two powers.
 
@@ -224,6 +224,62 @@ The Carolingian court was also a center of theological debate. As we saw, its th
 The Carolingian Renaissance did not survive the political collapse of the ninth and tenth centuries intact. But its schools, books, and script laid the foundation for the later revival of learning in the eleventh and twelfth centuries, and its ideal of a Christian society, unified in faith and worship under a Christian ruler, shaped medieval Europe.
 
 > **Pause and consider.** The *Admonitio generalis* complained that people "pray badly because of the incorrect books." Why might correct texts have seemed so important to Carolingian reformers?`,
+    },
+    {
+      title: "Proprietary Churches and the Parish",
+      body: `## The church in the countryside
+
+In the late Roman world, as we saw in CHH 101, Christianity was largely urban, and the bishop in his city was the center of church life. In the early Middle Ages, as Europe became overwhelmingly rural, the church had to reach people in villages and on estates far from any city. This was the origin of the **parish**: a local church with its own priest, serving the people of a defined area.
+
+## Proprietary churches
+
+Many rural churches were built not by bishops but by **landowners** on their own estates, for themselves, their families, and their peasants. In Germanic law, such a church, and its revenues, belonged to the lord who built it, like a mill or an oven. Historians call this the system of the ***Eigenkirche***, or "**proprietary church**," a term introduced by the German legal historian **Ulrich Stutz** in 1895. The lord chose the priest, often one of his own dependents, sometimes a serf, presented him to the bishop for ordination, and took a share of the church's income. Monasteries, too, were sometimes treated as the property of their founders' families.
+
+## Tithes
+
+Churches were supported by **tithes**: the payment of one tenth of the produce of the land, following the Old Testament (Leviticus 27:30). The Carolingian rulers made tithing compulsory throughout their empire. In principle, tithes were divided among the bishop, the clergy, the upkeep of the church, and the poor. In practice, lords who owned churches often took much of the tithe for themselves, and tithes became a form of property that could be bought, sold, and inherited.
+
+## Priests
+
+The quality of rural **priests** varied enormously. Many were poorly educated, knowing barely enough Latin to recite the Mass and baptize. As we saw, Boniface encountered priests who baptized "in the name of the fatherland and the daughter." Many were married or lived with women, though canon law increasingly forbade it. Carolingian bishops issued instructions, or **capitularies**, requiring their priests to know the creed, the Lord's Prayer, the rite of baptism, and the penitential, to preach on Sundays, and to teach their people the basics of the faith.
+
+## The parish system
+
+Over the ninth to twelfth centuries, the **parish system** took shape across Western Europe. The countryside was divided into parishes, each with its church, priest, cemetery, and tithe. The parish church became the center of village life: the place where people were baptized, married, and buried, where they heard Mass on Sundays and feast days, confessed their sins, and celebrated the cycle of the year. By the high Middle Ages, almost every person in Western Europe belonged to a parish.
+
+## The problem of lay control
+
+The proprietary church system meant that much of the church was under the control of **lay** lords, who appointed priests and abbots, and even bishops, for their own interests. Kings and emperors appointed bishops and invested them with their symbols of office. Church offices were sometimes bought and sold—the sin of **simony**, named after Simon Magus, who tried to buy the power of the Spirit (Acts 8:18–24). Many clergy were married, and church property was sometimes passed to their children. These conditions would provoke the great reform movement of the eleventh century, the subject of Lesson III.
+
+> **Pause and consider.** Why might a medieval lord have regarded a church on his estate as his property? What problems did this create for the church?`,
+    },
+    {
+      title: "The Papacy's Darkest Century",
+      body: `## After Charlemagne
+
+The alliance between the papacy and the Carolingian emperors did not protect the popes for long. As the Carolingian empire fragmented in the late ninth century, the papacy fell under the control of the feuding noble families of Rome. The period from about 880 to 1050 has been called the papacy's darkest age.
+
+## The Cadaver Synod
+
+The most notorious episode came in 897. Pope **Stephen VI**, an enemy of his predecessor **Formosus**, had Formosus's body exhumed, nine months after his death, dressed in papal vestments, and propped on a throne for a mock trial, known as the **Cadaver Synod**. A deacon answered for the corpse. The dead pope was found guilty of perjury and of having held office illegally; his acts were annulled, the fingers he had used for blessing were cut off, and his body was thrown into the Tiber. Within months, a popular uprising deposed Stephen, who was strangled in prison. Subsequent popes reversed and re-reversed the verdict.
+
+## The Theophylact family
+
+In the early tenth century, Rome and the papacy were dominated by the family of **Theophylact**, a Roman aristocrat, his wife **Theodora**, and their daughter **Marozia**. Marozia was said to have been the mistress of Pope **Sergius III**, and her son became Pope **John XI**; her grandson became Pope **John XII**. The tenth-century bishop and historian **Liutprand of Cremona**, a hostile witness, described this period with scandalous stories, and later historians, following the Protestant writers of the sixteenth century, called it the "**pornocracy**" or "rule of harlots." Modern historians treat Liutprand's accounts with caution, since he wrote as a partisan of the German emperor, but the domination of the papacy by Roman noble families is not in doubt.
+
+## John XII and Otto
+
+**John XII** became pope in 955, aged about eighteen. He crowned the German king **Otto I** emperor in 962, as we saw, but soon plotted against him. Otto returned to Rome in 963, held a synod that accused John of a catalogue of crimes—sacrilege, perjury, adultery, and toasting the devil with wine—and deposed him. John returned to Rome when Otto left, took revenge on his enemies, and died in 964, reportedly of a stroke while in bed with a married woman. Otto and his successors, the **Ottonian** emperors, intervened repeatedly in papal elections, appointing popes of their choice.
+
+## The imperial reform
+
+In the early eleventh century, three rival popes claimed office at once. In 1046, the German emperor **Henry III** came to Rome, held a synod at **Sutri** which deposed all three, and appointed a German bishop as pope. Henry, a devout reformer, appointed a series of German popes committed to reform. The most important was his cousin, **Leo IX** (1049–1054), who began the transformation of the papacy into the leader of a movement for the reform of the whole church. Ironically, it was imperial intervention that rescued the papacy, which would soon turn against imperial power.
+
+## Lessons of the dark century
+
+The papacy's darkest century shows the dangers of an institution captured by local power and family interests. It also shows the resilience of the institution: through the worst scandals, the papacy survived, and the idea of Rome as the see of Peter, the center of the church, remained. The reformers of the eleventh century would draw a lesson from this period: the church must be free from lay control. That conviction, as we will see in Lesson III, would lead to one of the great conflicts of the Middle Ages.
+
+> **Pause and consider.** It was a German emperor who rescued the papacy from the Roman nobility, and the papacy that later challenged the emperors. What does this irony suggest about the relationship between church and state?`,
     },
     {
       title: "Converting the North and East",
@@ -284,7 +340,7 @@ Alcuin wrote to Charlemagne's court that faith is a matter of the will, not of c
 
 ## 3. The coronation of Charlemagne (800)
 
-> To Charles, the most pious Augustus, crowned by God, the great and peace-giving emperor, life and victory!
+> To Charles, the most pious Augustus, crowned by God, the great and peace-giving emperor of the Romans, life and victory!
 >
 > — *Royal Frankish Annals*, year 801 (recording Christmas 800)
 
