@@ -23,7 +23,7 @@ The key text is the exchange between **Pliny**, governor of Bithynia, and the em
 
 > They are not to be sought out; if they are informed against, and the charge is proved, they are to be punished, with this restriction, however, that when the party denies himself to be a Christian, and shall give proof that he is not … by invoking our gods, let him (notwithstanding any former suspicion) be pardoned upon his repentance. Informations without the accuser's name subscribed must not be admitted in evidence against anyone.
 >
-> — Trajan to Pliny, *Letters* 10.97, trans. William Melmoth, rev. F. C. T. Bosanquet
+> — Trajan to Pliny, *Letters* 10.97, after the translation of William Melmoth, rev. F. C. T. Bosanquet
 
 This **rescript** set the pattern for over a century: Christians were not to be hunted down; anonymous accusations were to be ignored; but those accused and proved to be Christians who refused to sacrifice were to be executed. Tertullian later mocked its logic: if Christians are guilty, why not seek them out? If innocent, why punish them?
 
@@ -159,7 +159,7 @@ The narrator who completed the account tells the story of **Felicity**. Being ei
 
 ## The arena
 
-On the day of the games, the martyrs entered the amphitheater "as if to heaven, with joyful countenances." Perpetua went in singing a psalm. The men were set upon by a leopard, a bear, and a wild boar. The women were exposed, stripped and in nets, to a wild cow, until the crowd, horrified at seeing a young mother and a woman who had just given birth, demanded that they be clothed. Thrown by the cow, Perpetua rearranged her tunic to cover herself and pinned up her disheveled hair, "for it was not becoming for a martyr to suffer with dishevelled hair, lest she should appear to be mourning in her glory." Finally, the martyrs were killed by gladiators. When the inexperienced gladiator missed and struck Perpetua on the bone, "she herself guided the wavering right hand of the youthful gladiator to her throat."
+On the day of the games, the martyrs entered the amphitheater "as if to heaven, with joyful countenances." Perpetua went in singing a psalm. The men were set upon by a leopard, a bear, and a wild boar. The women were exposed, stripped and in nets, to a wild cow, until the crowd, horrified at seeing a young mother and a woman who had just given birth, demanded that they be clothed. Thrown by the cow, Perpetua rearranged her tunic to cover herself and pinned up her disheveled hair, "for it was not becoming for a martyr to suffer with dishevelled hair, lest she should appear to be mourning in her glory." Finally, the martyrs were killed by gladiators. When the inexperienced gladiator missed and struck Perpetua on the bone, she herself guided his trembling hand to her throat.
 
 ## Who wrote it?
 
@@ -170,6 +170,38 @@ The *Passion* has an editor, who wrote the introduction and conclusion and descr
 The *Passion* has fascinated modern scholars, especially for Perpetua's own voice: her relationships with her father and her son, her dreams, and her sense of herself. It shows a young woman who defied her father, the authority of Roman society, and the expectations of her sex, for the sake of her faith. Historians such as **Joyce Salisbury**, in *Perpetua's Passion* (1997), have explored how it illuminates the lives of women in Roman Africa and the appeal of Christianity to them.
 
 > **Pause and consider.** Perpetua compares herself to a water jar that cannot be called by any other name. What does this image say about her understanding of Christian identity?`,
+    },
+    {
+      title: "In the Courtroom: Justin and the Scillitans",
+      body: `## Court records
+
+Some of the most valuable evidence for persecution comes in the form of **court records** (*acta*): brief accounts of trials before Roman magistrates, in question-and-answer form, apparently based on official records or the notes of Christian observers. Unlike the more elaborate martyr stories, they are spare and matter-of-fact. Two of the earliest show how ordinary Roman justice dealt with Christians.
+
+## Justin before Rusticus
+
+**Justin Martyr**, the philosopher and apologist we met in SYS 201, taught in Rome in a room "above the baths of Myrtinus," where he received anyone who wished to learn. Around 165, he and six of his students were arrested and brought before **Junius Rusticus**, prefect of the city of Rome—a Stoic philosopher who had been a teacher of the emperor Marcus Aurelius. The *Acts of Justin* record their examination.
+
+Rusticus asked Justin what doctrines he professed. Justin replied that he had tried to learn all doctrines, and had settled on the true doctrines of the Christians. Rusticus asked where the Christians met; Justin answered that they met wherever they could, since the God of the Christians is not confined to one place. Rusticus asked each of the students whether he was a Christian. One, **Euelpistus**, a slave of the imperial household, said he had received Christianity from his parents. Another, **Hierax**, from Phrygia, said that his earthly parents were dead, but that "our true father is Christ, and our mother is faith in him." Finally Rusticus asked whether Justin believed that he would ascend to heaven if he were scourged and beheaded. Justin answered that he did not merely suppose it, but knew it with certainty. Rusticus ordered them to sacrifice; they refused, and were scourged and beheaded.
+
+The scene is striking: a Stoic philosopher judging a Christian philosopher. Two schools of thought met in a Roman court, and the one with power executed the other.
+
+## The Scillitan martyrs
+
+The ***Acts of the Scillitan Martyrs*** record the trial of twelve Christians—seven men and five women—from **Scilli**, an unidentified town in North Africa, before the proconsul **Saturninus** at Carthage on **17 July 180**. It is the earliest dated Christian document in Latin, and the earliest evidence for Christianity in Africa.
+
+The proconsul offered them the emperor's pardon if they would "return to their senses." Their spokesman, **Speratus**, replied that they had never done wrong, but had given thanks even when mistreated, because they honored their emperor. Saturninus replied that the Romans, too, were religious, and their religion was simple: they swore by the genius of the emperor and prayed for his welfare. Speratus answered: "I do not recognize the empire of this world; but rather I serve that God whom no man has seen nor can see. I have not committed theft; but if I buy anything I pay the tax; for I know my Lord, the King of kings and Emperor of all nations."
+
+Saturninus asked what they had in their box. Speratus replied: "Books, and letters of Paul, a just man"—an early witness to the Scriptures, perhaps the Gospels and Paul's letters, being carried in Latin. Saturninus offered them thirty days to reconsider; they refused. He read the sentence: since they had persisted in "the Christian rite" after being offered the chance to return to Roman custom, they were to be executed by the sword. Speratus said, "We give thanks to God." **Nartzalus** said, "Today we are martyrs in heaven. Thanks be to God."
+
+## What the records show
+
+These records illustrate many features of persecution. The magistrates were often not cruel men, but officials offering repeated opportunities to recant, puzzled by the Christians' obstinacy. The test was religious: swearing by the emperor's genius, sacrificing. The Christians insisted on their loyalty in everything else—paying taxes, praying for the emperor—while refusing worship to anyone but God. And the Christians came from many social levels: a philosopher, an imperial slave, African townspeople, women and men.
+
+## Prayer for the emperor
+
+The Scillitan martyrs' claim to honor the emperor reflects a consistent Christian position. Following Paul (Romans 13) and 1 Timothy 2:1–2, which urges prayers "for kings, and for all that are in authority," Christians prayed for the emperor in their worship. **Tertullian** wrote in his *Apology* (197) that Christians prayed for the emperors, asking "long life, secure dominion, a safe home, brave armies, a faithful senate, a virtuous people, the world at rest," but would not worship them. The distinction between honoring and worshipping the emperor was the crux of the conflict.
+
+> **Pause and consider.** Speratus said he paid his taxes but did not recognize the "empire of this world." How could Christians be loyal subjects and still refuse what Rome asked?`,
     },
     {
       title: "Decius and the Lapsed",
@@ -273,7 +305,7 @@ Should Christians seek martyrdom? Some did, deliberately provoking the authoriti
 
 ## How many martyrs?
 
-How many Christians died in the persecutions? Later Christian tradition imagined vast numbers. Historians estimate far fewer. Before 250, persecution was local and sporadic, and the total number of martyrs may have been in the hundreds. The Decian and Valerianic persecutions, and especially the Great Persecution under Diocletian, killed more, perhaps several thousand in total. The fourth-century church historian Eusebius gives detailed accounts of martyrs in Palestine during the Great Persecution, numbering about eighty over eight years in that province. Origen, writing around 248, said that "few" had died for the faith, "and these easily numbered."
+How many Christians died in the persecutions? Later Christian tradition imagined vast numbers. Historians estimate far fewer. Before 250, persecution was local and sporadic, and the total number of martyrs may have been in the hundreds. The Decian and Valerianic persecutions, and especially the Great Persecution under Diocletian, killed more, perhaps several thousand in total. The fourth-century church historian Eusebius gives detailed accounts of martyrs in Palestine during the Great Persecution, numbering fewer than a hundred over eight years in that province. Origen, writing around 248, said that "few" had died for the faith, "and these easily numbered."
 
 ## The myth of persecution?
 
