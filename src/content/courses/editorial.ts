@@ -1969,6 +1969,25 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 10, kind: "uncertain", claim: "Leo X's saying, \"God has given us the papacy; let us enjoy it.\"", note: "It is reported by a later source and may not be authentic. The lesson says so." },
     ],
   },
+  "PHR 101": {
+    1: [
+      { page: 5, kind: "corrected", claim: "That Tertullian said \"I believe because it is absurd.\"", note: "He never wrote credo quia absurdum. The lesson quotes what he did write, On the Flesh of Christ 5, and explains its context." },
+    ],
+    2: [
+      { page: 8, kind: "disputed", claim: "Whether any medieval thinker taught a \"double truth.\"", note: "Tempier charged the Paris masters with it; most historians think no one held it in the strict sense. The lesson gives both." },
+      { page: 8, kind: "disputed", claim: "Duhem's thesis that the condemnation of 1277 helped give birth to modern science.", note: "Most historians now judge it exaggerated. The lesson says so." },
+    ],
+    3: [
+      { page: 3, kind: "uncertain", claim: "That the saying \"how one goes to heaven, not how heaven goes\" came from Cardinal Baronius.", note: "Galileo attributes it to an unnamed eminent churchman; the identification with Baronius is traditional." },
+      { page: 8, kind: "disputed", claim: "What Pascal meant by \"vous abêtira.\"", note: "Readers disagree whether it means dulling the proud intellect or something more troubling. The lesson gives the likeliest reading and notes the dispute." },
+    ],
+    4: [
+      { page: 6, kind: "disputed", claim: "Whether Philo speaks for Hume, and how to read Part XII of the Dialogues.", note: "Scholars read the ending as sincere minimal deism, as irony, or as deliberately open. The lesson sets out all three." },
+    ],
+    5: [
+      { page: 3, kind: "disputed", claim: "How much of There Is a God (2007) was Flew's own work.", note: "Critics questioned it; Flew stood by the conclusions. The lesson reports both." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
