@@ -2120,6 +2120,29 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 13, kind: "disputed", claim: "\"Voiceprints\" as speaker identification.", note: "Mid-twentieth-century claims of fingerprint-like reliability are rejected by most phoneticians. The lesson says so." },
     ],
   },
+  "PHO 110": {
+    1: [
+      { page: 4, kind: "uncertain", claim: "Average female pitch has fallen in some countries.", note: "Reported for Australian women in the 1990s and elsewhere; the size and causes of the change are debated. The lesson states it cautiously." },
+    ],
+    2: [
+      { page: 11, kind: "uncertain", claim: "Children learn gendered formant patterns before puberty.", note: "Several studies report this; the size of the effect and its causes vary between studies." },
+      { page: 12, kind: "uncertain", claim: "The Northern Cities Shift is reversing among younger speakers.", note: "Reported for several cities; the extent of the reversal is still being studied." },
+    ],
+    3: [
+      { page: 10, kind: "uncertain", claim: "Seoul Korean stops are shifting from VOT to F0 as the main cue.", note: "Well documented for younger Seoul speakers; whether this amounts to tonogenesis is debated." },
+      { page: 11, kind: "disputed", claim: "Invariant cues, motor theory, and exemplar theory as answers to the lack of invariance.", note: "Each has supporters; the lesson presents them as competing views." },
+    ],
+    4: [
+      { page: 6, kind: "disputed", claim: "Languages transmit information at similar rates.", note: "Supported by Pellegrino et al. (2011) and later work, but the measures of information are debated. The lesson says so." },
+      { page: 8, kind: "disputed", claim: "Rhythm metrics such as %V, ΔC, and nPVI.", note: "Arvaniti and others have shown their sensitivity to materials and speakers. The lesson gives the criticism." },
+      { page: 10, kind: "uncertain", claim: "Cross-cultural recognition of vocal emotion.", note: "Recognition above chance is widely reported, with lower accuracy across cultures; the role of universals versus convention is debated." },
+    ],
+    5: [
+      { page: 3, kind: "disputed", claim: "The motor theory of speech perception.", note: "Contested by general auditory approaches; the lesson presents both and an intermediate view." },
+      { page: 4, kind: "uncertain", claim: "Cultural differences in the McGurk effect.", note: "Some studies report weaker effects among Japanese and Chinese listeners; others do not. The lesson calls the findings mixed." },
+      { page: 11, kind: "uncertain", claim: "Jelinek's remark about firing linguists.", note: "The remark is widely attributed to him in various wordings; he later said it was exaggerated. The lesson says \"often attributed.\"" },
+    ],
+  },
   "MEH 101": {
     1: [
       {
