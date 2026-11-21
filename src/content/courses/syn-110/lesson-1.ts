@@ -415,6 +415,49 @@ The study of meaning across cultures shows that languages differ not only in the
 > **Pause and consider.** Choose a word from your own language or culture that you think would be hard to translate. How would you explain it to an outsider?`,
     },
     {
+      title: "Lexical and Grammatical Meaning",
+      body: `## Two kinds of meaning
+
+Words such as *dog*, *run*, and *happy* carry **lexical** meaning: they name things, actions, and properties. But much meaning is carried by **grammatical** elements: endings, function words, and word order. Compare:
+
+- *The dog chased the cat.* / *The dogs chased the cat.* (number)
+- *The dog chases the cat.* / *The dog chased the cat.* (tense)
+- *A dog chased the cat.* / *The dog chased the cat.* (definiteness)
+- *The dog chased the cat.* / *The dog didn't chase the cat.* (negation)
+
+The plural *-s*, the past *-ed*, the articles *a* and *the*, and *not* carry meanings that are just as real as the meanings of *dog* and *cat*, but more abstract and more closely tied to the grammar.
+
+## Obligatory distinctions
+
+A crucial feature of grammatical meaning is that it is often **obligatory**. In English, every finite verb must be marked for tense: one cannot say *The dog chase the cat yesterday* in standard English, even though *yesterday* makes the time clear. Every count noun must be singular or plural. Speakers must make these distinctions whether or not they matter in context.
+
+Languages differ in which distinctions are obligatory. The linguist **Roman Jakobson**, in an essay on translation published in 1959, observed that languages differ essentially in what they **must** convey, not in what they **may** convey. Any language can express the time of an event, but English requires speakers to mark it on the verb, while Mandarin Chinese does not. Any language can express the source of a speaker's information, but in Turkish, Quechua, and many languages of the Amazon, as we saw in SYN 101, verbs must be marked with **evidentials**, indicating whether the speaker saw the event, heard about it, or inferred it.
+
+## Examples of grammatical meaning
+
+Grammatical meanings found in the world's languages include:
+
+- **number**: singular, plural, dual, and in some languages trial (three) and paucal (a few);
+- **gender** and **noun class**: masculine, feminine, neuter, or, in Bantu languages, a dozen or more classes;
+- **tense** and **aspect**: past, present, future; completed, ongoing, habitual;
+- **mood** and **modality**: statements, wishes, possibility, obligation;
+- **evidentiality**: the source of information;
+- **definiteness**: whether the hearer can identify the referent;
+- **politeness** and **honorifics**: in Japanese and Korean, verb forms vary with the social relation between speaker, hearer, and referent.
+
+We will study several of these in Lesson IV.
+
+## Thinking for speaking
+
+Do obligatory grammatical distinctions affect how speakers think? As we saw in LIN 110, the psychologist **Dan Slobin** proposed the idea of **thinking for speaking**: speakers of different languages must attend to different aspects of experience in order to speak, because their grammars require them to encode different distinctions. A speaker of Turkish must attend to how they know about an event; a speaker of English must attend to when it happened. Whether such habits of attention affect thought beyond speaking is a matter of continuing research.
+
+## Grammatical meaning and history
+
+As we saw in HIL 101, grammatical meanings often develop from lexical meanings through **grammaticalization**: the English future *will* from a verb meaning "want," the article *a* from the numeral "one." The study of grammatical meaning thus connects semantics with historical linguistics.
+
+> **Pause and consider.** What grammatical meanings must you express in every English sentence, whether or not you want to?`,
+    },
+    {
       title: "Meaning in the Brain",
       body: `## Measuring meaning
 
