@@ -2167,6 +2167,32 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 12, kind: "disputed", claim: "What neural language models show about learning syntax.", note: "An active debate; the lesson notes the difference in training data between models and children." },
     ],
   },
+  "SYN 110": {
+    1: [
+      { page: 5, kind: "disputed", claim: "Whether The present King of France is bald is false or neither true nor false.", note: "Russell and Strawson disagree; both views have modern defenders. The lesson presents both." },
+      { page: 10, kind: "disputed", claim: "Wierzbicka's semantic primes as universal.", note: "Supported by work on many languages but questioned by critics; the lesson gives both views." },
+    ],
+    2: [
+      { page: 7, kind: "disputed", claim: "Prototypes versus definitions.", note: "Fodor and others argue that prototypes cannot explain concept combination or sharp categories; the lesson gives the criticism." },
+      { page: 8, kind: "uncertain", claim: "Berlin and Kay's evolutionary sequence of color terms.", note: "Broadly supported by the World Color Survey, which also found more variation than the original theory allowed. The lesson says so." },
+      { page: 10, kind: "disputed", claim: "Whether frames of reference in language shape spatial thinking.", note: "Levinson's findings and Li and Gleitman's critique point in different directions; the lesson presents the debate." },
+    ],
+    3: [
+      { page: 3, kind: "disputed", claim: "The analytic–synthetic distinction.", note: "Challenged by Quine (1951) and still debated; the lesson presents both the challenge and linguists' continued use of the notion." },
+      { page: 9, kind: "disputed", claim: "The semantics of conditionals.", note: "Material, possible-worlds, and restrictor analyses all have defenders; the lesson presents them as alternatives." },
+    ],
+    4: [
+      { page: 4, kind: "disputed", claim: "Whether Mandarin is tenseless.", note: "Lin (2006) argues so; others posit covert tense. The lesson states Lin's view as an argument." },
+      { page: 7, kind: "uncertain", claim: "Effects of agentive language on blame (Fausey and Boroditsky, 2010).", note: "The finding is reported for English speakers in a particular task; its generality and the cross-linguistic memory differences are still being tested." },
+      { page: 13, kind: "uncertain", claim: "Mandarin vertical time and spatial priming.", note: "Boroditsky's 2001 result has had mixed replications; the lesson says so." },
+    ],
+    5: [
+      { page: 5, kind: "disputed", claim: "Whether scalar implicatures are defaults, contextual, or grammatical.", note: "Levinson, relevance theorists, and Chierchia, Fox, and Spector take different views. The lesson presents the debate." },
+      { page: 7, kind: "disputed", claim: "The universality of Brown and Levinson's politeness theory.", note: "Criticized by Matsumoto, Ide, and others; the lesson gives the criticism." },
+      { page: 8, kind: "uncertain", claim: "Metaphor framing effects (Thibodeau and Boroditsky, 2011).", note: "Later replications found smaller effects; the lesson says so." },
+      { page: 12, kind: "disputed", claim: "Whether language models understand or mean what they say.", note: "An open question; the lesson presents arguments on several sides." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
