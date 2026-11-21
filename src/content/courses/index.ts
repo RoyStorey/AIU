@@ -25,6 +25,7 @@ import { pho110 } from "./pho-110";
 import { syn101 } from "./syn-101";
 import { syn110 } from "./syn-110";
 import { soc101 } from "./soc-101";
+import { soc110 } from "./soc-110";
 import { amh101 } from "./amh-101";
 import { amh110 } from "./amh-110";
 import { amh201 } from "./amh-201";
@@ -94,6 +95,7 @@ const written: Record<string, CourseContent> = {
   "SYN 101": syn101,
   "SYN 110": syn110,
   "SOC 101": soc101,
+  "SOC 110": soc110,
   "AMH 101": amh101,
   "AMH 110": amh110,
   "AMH 201": amh201,

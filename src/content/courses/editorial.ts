@@ -2215,6 +2215,37 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 12, kind: "disputed", claim: "Translanguaging in the classroom.", note: "Advocates and critics disagree about its effects on minority-language maintenance; the lesson presents both views." },
     ],
   },
+  "SOC 110": {
+    1: [
+      { page: 5, kind: "uncertain", claim: "Later-settled colonies are non-rhotic and earlier ones rhotic.", note: "A common simplification; later contact, prestige, and migration complicate it. The lesson says so." },
+      { page: 6, kind: "uncertain", claim: "\"Every word has its own history.\"", note: "A slogan associated with Gilliéron's school; it is also attributed to others. The lesson presents it as associated with his school." },
+      { page: 11, kind: "disputed", claim: "The media have little effect on pronunciation.", note: "The mainstream view, qualified by studies such as Stuart-Smith and colleagues (2013) on Glasgow, which Lesson II presents." },
+    ],
+    2: [
+      { page: 2, kind: "uncertain", claim: "Wilfred Pickles was chosen as a wartime newsreader to foil German imitators.", note: "A widely repeated account; the lesson gives it as such." },
+      { page: 6, kind: "disputed", claim: "Estuary English as a distinct accent.", note: "Rosewarne's term is questioned by Wells and others; the lesson gives both views." },
+      { page: 7, kind: "disputed", claim: "Irish influence on Scouse.", note: "Often proposed but debated; the lesson says so." },
+      { page: 8, kind: "disputed", claim: "Whether Scots is a language or a dialect of English.", note: "A social and political question as much as a linguistic one; the lesson presents the considerations on both sides." },
+    ],
+    3: [
+      { page: 1, kind: "disputed", claim: "Fischer's four British folkways in American speech.", note: "Linguists regard some of Albion's Seed's claims about speech as oversimplified; the lesson says so." },
+      { page: 3, kind: "disputed", claim: "Dialect boundaries reflecting political differences.", note: "A hypothesis of Labov's that remains debated; the lesson presents it as such." },
+      { page: 4, kind: "uncertain", claim: "The Northern Cities Shift is reversing.", note: "Reported in Lansing, Syracuse, and elsewhere; still being studied. The lesson hedges accordingly." },
+    ],
+    4: [
+      { page: 1, kind: "uncertain", claim: "The map's classification of colonies.", note: "Settlement, plantation, and trade colonies overlap in practice, and markers give founding or arrival dates, not the spread of English inland." },
+      { page: 3, kind: "disputed", claim: "Schneider's Dynamic Model.", note: "Influential but criticized as fitting some countries better than others; the lesson presents the criticisms." },
+      { page: 5, kind: "disputed", claim: "New-dialect formation as deterministic.", note: "Trudgill's claim is contested by researchers who stress identity; the lesson gives both views." },
+      { page: 7, kind: "disputed", claim: "Bickerton's language bioprogram hypothesis.", note: "Highly controversial; most creolists favor multi-factor explanations. The lesson says so." },
+      { page: 8, kind: "disputed", claim: "Decreolization as the source of the creole continuum.", note: "Some scholars argue the continuum existed from early on; the lesson gives both views." },
+    ],
+    5: [
+      { page: 2, kind: "uncertain", claim: "The Cookie Monster study of habitual be.", note: "Reported by Green and Jackson from Jackson's research; a small study, presented as illustrative." },
+      { page: 3, kind: "disputed", claim: "The origins of African American English.", note: "Anglicist, Creolist, and Neo-Anglicist positions all have defenders; the lesson presents each and the common synthesis." },
+      { page: 4, kind: "uncertain", claim: "An African origin for okay.", note: "Proposed by some, but most scholars accept Allen Walker Read's account (oll korrect, 1839). The lesson gives Read's account." },
+      { page: 7, kind: "uncertain", claim: "Gains from Bridge readers and contrastive analysis.", note: "Reported from small studies (Simpkins and colleagues; Taylor 1989); the lesson presents them as reported results." },
+    ],
+  },
   "MEH 101": {
     1: [
       {

@@ -40,10 +40,6 @@ const map: MapSpec = {
     { title: "Lagos", time: "1861", at: [3.39, 6.45], kind: "note", side: "trade", until: "1901", text: "Britain annexes Lagos, a first step toward the colony of Nigeria, where English now links some five hundred languages." },
     { title: "The Thomasites", time: "1901", at: [120.98, 14.6], kind: "note", side: "trade", until: "1901", text: "American teachers arrive in Manila aboard the USAT Thomas to build English-medium schools in the Philippines." },
   ],
-  labels: [
-    { text: "Caribbean", at: [-72, 21.5], size: "small" },
-    { text: "India", at: [79, 21], size: "small" },
-  ],
   story: [
     {
       title: "Atlantic beginnings", time: "1600", until: "1660", view: { center: [-65, 28], zoom: 2.4 },
