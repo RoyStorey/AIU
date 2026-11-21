@@ -2048,6 +2048,28 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 3, kind: "disputed", claim: "Experimental evidence for linguistic relativity.", note: "Some findings (Russian blues) are robust; others (Mandarin vertical time, grammatical gender) have failed to replicate. The lesson notes which." },
     ],
   },
+  "HIL 101": {
+    1: [
+      { page: 11, kind: "disputed", claim: "Contact with Norse sped the loss of Old English inflections.", note: "Some scholars give contact a large role; others see the loss as the result of the weakening of unstressed vowels that began earlier. The lesson gives both views." },
+    ],
+    2: [
+      { page: 13, kind: "disputed", claim: "Lexical diffusion versus the regularity of sound change.", note: "Whether sound change spreads word by word or across the board is debated; many scholars, following Labov, think both kinds of change occur. The lesson presents the debate." },
+    ],
+    3: [
+      { page: 3, kind: "uncertain", claim: "Jerusalem artichoke from Italian girasole.", note: "This is the usual explanation, but it is not certain. The lesson says so." },
+      { page: 8, kind: "uncertain", claim: "Singular they has been used since at least the late fourteenth century.", note: "The earliest examples given by the Oxford English Dictionary date from about that time; how common the use was in Middle English is less clear." },
+    ],
+    4: [
+      { page: 5, kind: "uncertain", claim: "The verb form are came from Norse.", note: "Northern Old English already had forms in ar-, so Norse may have reinforced a native form rather than supplied it. The lesson says this is debated." },
+      { page: 10, kind: "disputed", claim: "The Celtic hypothesis about English syntax.", note: "Whether Brittonic Celtic shaped the English progressive and do-support is debated. The lesson gives the main objection." },
+      { page: 13, kind: "disputed", claim: "The origins of creoles, and whether African American English had a creole origin.", note: "Bickerton's bioprogram, substrate theories, and gradualist accounts all have supporters. The lesson presents them as competing views." },
+    ],
+    5: [
+      { page: 9, kind: "uncertain", claim: "The unity of Niger-Congo and Trans-New Guinea.", note: "Both are widely used groupings whose full unity has not been proven. The lesson uses Atlantic-Congo for the core and notes the doubt about Trans-New Guinea." },
+      { page: 11, kind: "disputed", claim: "Dates for Proto-Indo-European from computational studies.", note: "Gray and Atkinson (2003) and Bouckaert et al. (2012) favor about 8,000–9,500 years ago; Chang et al. (2015) about 6,500. Most linguists favor the later date. The lesson gives both." },
+      { page: 12, kind: "disputed", claim: "Dene–Yeniseian and Transeurasian.", note: "Both proposals have supporters and critics; neither is universally accepted. The lesson says so." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
