@@ -2017,6 +2017,18 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 8, kind: "uncertain", claim: "The saying distinguishing the greater and lesser jihad.", note: "Hadith scholars regard its chain of transmission as weak. The lesson says so." },
     ],
   },
+  "WRL 110": {
+    1: [
+      { page: 3, kind: "disputed", claim: "The historicity of the Exodus.", note: "Egyptian sources do not mention it; scholars range from those who see a historical core to those who see the Israelites as emerging within Canaan. The lesson gives both." },
+      { page: 4, kind: "disputed", claim: "When strict monotheism emerged in Israel.", note: "Many scholars see a gradual development completed around the exile; traditional belief holds it was revealed from the beginning. The lesson gives both." },
+    ],
+    4: [
+      { page: 6, kind: "disputed", claim: "The authorship of the Zohar.", note: "Most scholars, following Scholem, attribute it largely to Moses de León around 1280–1300; traditional kabbalists hold it is the ancient teaching of Simeon bar Yochai." },
+    ],
+    5: [
+      { page: 7, kind: "disputed", claim: "The causes of the Palestinian refugee exodus of 1948.", note: "Historians debate the relative weight of flight from war, encouragement by Arab leaders, and expulsion by Israeli forces; Benny Morris and others documented all three. The lesson presents the debate." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
