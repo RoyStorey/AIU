@@ -8,11 +8,10 @@ Ideas agreed on but not yet scheduled, kept here so they are not lost.
 2. "Notify me when it opens" for courses in preparation, shown on the Study page.
 3. Nightly backup of the database.
 4. Images for IAH 110 and PAT 101 (Wikimedia Commons was unreachable when they were written).
-5. Rewrite the withdrawn courses to the full standard: AAL 101, BIB 101, LAT 101, LIN 101.
-6. Admin "Change mark" control for capstones.
-7. Narrate every finished course (`AIU_NARRATION_COURSES=all`).
-8. Printable lessons (clean print or PDF layout).
-9. Expert review of IAH 110 (ideally a Native historian) and PAT 101.
+5. Admin "Change mark" control for capstones.
+6. Narrate every finished course (`AIU_NARRATION_COURSES=all`).
+7. Printable lessons (clean print or PDF layout).
+8. Expert review of IAH 110 (ideally a Native historian) and PAT 101.
 
 ## Learning
 
