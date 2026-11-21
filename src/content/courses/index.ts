@@ -19,6 +19,7 @@ import { wrl110 } from "./wrl-110";
 import { lin101 } from "./lin-101";
 import { lin110 } from "./lin-110";
 import { hil101 } from "./hil-101";
+import { hil110 } from "./hil-110";
 import { amh101 } from "./amh-101";
 import { amh110 } from "./amh-110";
 import { amh201 } from "./amh-201";
@@ -82,6 +83,7 @@ const written: Record<string, CourseContent> = {
   "LIN 101": lin101,
   "LIN 110": lin110,
   "HIL 101": hil101,
+  "HIL 110": hil110,
   "AMH 101": amh101,
   "AMH 110": amh110,
   "AMH 201": amh201,

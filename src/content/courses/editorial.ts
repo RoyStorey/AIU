@@ -2070,6 +2070,34 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 12, kind: "disputed", claim: "Dene–Yeniseian and Transeurasian.", note: "Both proposals have supporters and critics; neither is universally accepted. The lesson says so." },
     ],
   },
+  "HIL 110": {
+    1: [
+      { page: 9, kind: "uncertain", claim: "The name Tocharian.", note: "The name comes from an ancient people, the Tokharoi, who were probably not the speakers of these languages; it is kept by convention. The lesson says so." },
+      { page: 11, kind: "uncertain", claim: "Dates of the first records (Knossos, the Rigveda, Lepontic).", note: "The Knossos tablets are dated between about 1450 and 1375 BCE; the Rigveda's composition is usually placed about 1500–1200 BCE; the oldest Lepontic inscriptions may be of the seventh or sixth century BCE. The lesson and map give approximate dates." },
+      { page: 12, kind: "disputed", claim: "Italo-Celtic and Graeco-Armenian subgroups.", note: "Both have supporters and critics; Indo-Iranian and, for most scholars, Balto-Slavic are secure. The lesson marks the difference." },
+    ],
+    2: [
+      { page: 3, kind: "disputed", claim: "The glottalic theory.", note: "A minority of scholars accept it; most handbooks keep the traditional notation. The lesson presents both." },
+      { page: 12, kind: "uncertain", claim: "\"Eight\" as an old dual (\"two fours\") and \"nine\" as related to \"new.\"", note: "Both ideas are speculative and many scholars reject them. The lesson says so." },
+      { page: 13, kind: "disputed", claim: "That the wheel vocabulary dates Proto-Indo-European after about 4000–3500 BCE.", note: "Most linguists accept the argument; Renfrew and others argue the words could have spread or been coined later. The lesson gives both sides." },
+    ],
+    3: [
+      { page: 5, kind: "disputed", claim: "The feminine gender developed after Anatolian separated.", note: "Many scholars hold this; others think Anatolian lost an inherited feminine. The lesson presents it as the view of many, not all." },
+      { page: 10, kind: "disputed", claim: "The origin of the Hittite ḫi-conjugation.", note: "Jasanoff's account is one of several competing solutions. The lesson says so." },
+      { page: 12, kind: "disputed", claim: "Proto-Indo-European basic word order.", note: "Lehmann argued for verb-final order; others think order was freer. The lesson gives both." },
+    ],
+    4: [
+      { page: 8, kind: "uncertain", claim: "Easter and the goddess Ēostre.", note: "Bede is the only source for the goddess, and some scholars think he inferred her from the month name. The lesson says the question is debated." },
+      { page: 9, kind: "uncertain", claim: "Yama, Yima, Ymir, and Remus as reflexes of a PIE *Yemo.", note: "The first three are probably related, though the Norse form is not fully regular; the link with Remus is speculative. The lesson says so." },
+      { page: 10, kind: "disputed", claim: "Dumézil's three functions.", note: "Influential but much criticized as too flexible; the lesson gives Brough's test and other objections." },
+      { page: 11, kind: "disputed", claim: "Kléos áphthiton as an inherited formula.", note: "Defended by many, questioned by Finkelberg and others. The lesson presents the debate." },
+    ],
+    5: [
+      { page: 8, kind: "disputed", claim: "The Out of India theory.", note: "Most historical linguists reject it, for the reasons the lesson gives; the lesson also rejects the older image of a violent \"Aryan invasion\" and notes the political context." },
+      { page: 10, kind: "disputed", claim: "The location of the earliest (Indo-Anatolian) homeland.", note: "Recent genetic studies (Lazaridis et al., 2022 and 2025) propose West Asia or a Caucasus–Lower Volga population; these proposals are new and debated. The lesson presents them as such." },
+      { page: 12, kind: "uncertain", claim: "The outline of how the branches spread.", note: "Each step is a hypothesis; the routes of Greek, Armenian, Albanian, and Celtic, and the link between Corded Ware and particular branches, are uncertain. The lesson says so." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
