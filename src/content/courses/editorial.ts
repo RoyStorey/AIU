@@ -2037,6 +2037,17 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 10, kind: "disputed", claim: "Bickerton's language bioprogram hypothesis for creoles.", note: "Many creolists attribute creole features to substrate and lexifier languages and gradual development. The lesson gives both views." },
     ],
   },
+  "LIN 110": {
+    1: [
+      { page: 7, kind: "disputed", claim: "The \"thirty-million-word gap\" (Hart and Risley, 1995).", note: "Later studies counting overheard speech found much smaller differences; the size and meaning of the gap are debated. The lesson gives both." },
+    ],
+    3: [
+      { page: 6, kind: "disputed", claim: "Whether the Pirahã and Mundurukú findings show that exact number concepts depend on number words.", note: "The interpretation of these studies is debated. The lesson says so." },
+    ],
+    5: [
+      { page: 3, kind: "disputed", claim: "Experimental evidence for linguistic relativity.", note: "Some findings (Russian blues) are robust; others (Mandarin vertical time, grammatical gender) have failed to replicate. The lesson notes which." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
