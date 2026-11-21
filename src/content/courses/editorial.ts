@@ -2029,6 +2029,14 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 7, kind: "disputed", claim: "The causes of the Palestinian refugee exodus of 1948.", note: "Historians debate the relative weight of flight from war, encouragement by Arab leaders, and expulsion by Israeli forces; Benny Morris and others documented all three. The lesson presents the debate." },
     ],
   },
+  "LIN 101": {
+    1: [
+      { page: 11, kind: "disputed", claim: "Whether language is an innate instinct (Chomsky, Pinker) or learned by general cognitive abilities (Tomasello, Evans).", note: "This is one of the central open debates in linguistics; the lesson presents both sides and the Pirahã controversy." },
+    ],
+    4: [
+      { page: 10, kind: "disputed", claim: "Bickerton's language bioprogram hypothesis for creoles.", note: "Many creolists attribute creole features to substrate and lexifier languages and gradual development. The lesson gives both views." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
