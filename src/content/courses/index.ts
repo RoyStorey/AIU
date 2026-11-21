@@ -14,6 +14,7 @@ import { chh101 } from "./chh-101";
 import { chh110 } from "./chh-110";
 import { phr101 } from "./phr-101";
 import { phr201 } from "./phr-201";
+import { wrl101 } from "./wrl-101";
 import { amh101 } from "./amh-101";
 import { amh110 } from "./amh-110";
 import { amh201 } from "./amh-201";
@@ -72,6 +73,7 @@ const written: Record<string, CourseContent> = {
   "CHH 110": chh110,
   "PHR 101": phr101,
   "PHR 201": phr201,
+  "WRL 101": wrl101,
   "AMH 101": amh101,
   "AMH 110": amh110,
   "AMH 201": amh201,

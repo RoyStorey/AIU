@@ -2002,6 +2002,21 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 6, kind: "disputed", claim: "That Plantinga's free will defense answered the logical problem of evil.", note: "This is the majority view, and Mackie conceded much of it; some philosophers still contest it. The lesson reports both." },
     ],
   },
+  "WRL 101": {
+    1: [
+      { page: 1, kind: "uncertain", claim: "Global religious population shares.", note: "The figures are Pew Research Center estimates for 2010 (published 2015); other surveys differ, and the shares change over time." },
+    ],
+    2: [
+      { page: 1, kind: "disputed", claim: "Whether Vedic culture came from outside India.", note: "Most scholars associate the Vedas with Indo-Aryan speakers who entered India in the second millennium BC; some Indian scholars dispute this. The lesson gives both views." },
+    ],
+    3: [
+      { page: 1, kind: "disputed", claim: "The dates of the Buddha.", note: "The older chronology gives c. 563–483 BC; many scholars now prefer c. 480–400 BC. The lesson and its map give both." },
+    ],
+    4: [
+      { page: 2, kind: "disputed", claim: "The date of Zarathustra and the extent of Zoroastrian influence on Judaism.", note: "Estimates of his date range from about 1500 to 600 BC, and scholars disagree about how far later Jewish ideas drew on Persian ones." },
+      { page: 8, kind: "uncertain", claim: "The saying distinguishing the greater and lesser jihad.", note: "Hadith scholars regard its chain of transmission as weak. The lesson says so." },
+    ],
+  },
   "MEH 101": {
     1: [
       {

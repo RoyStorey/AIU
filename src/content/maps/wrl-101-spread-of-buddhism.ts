@@ -88,7 +88,7 @@ const map: MapSpec = {
       text: "From China the faith passes to **Korea** and then **Japan**; notice the arrow from **Nalanda** to **Lhasa**, where Tibet receives its Buddhism from India, not China. Then the red marker at **Xi'an**: the persecution of 845.",
     },
     {
-      title: "Southeast Asia and the end in India", time: "750", view: { center: [97, 17], zoom: 3.4 },
+      title: "Southeast Asia and the end in India", time: "750", view: { center: [101, 7], zoom: 3.1 },
       text: "Watch **Borobudur**, **Bagan**, and **Angkor** appear. Then the last marker, at **Nalanda** about 1200: by now Buddhism lives almost everywhere in Asia except the land where it began.",
     },
   ],
