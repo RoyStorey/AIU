@@ -466,6 +466,8 @@ a.card:hover h3 { color: var(--accent); }
 .lesson-map-error { margin: 0.4rem 0 0; font-size: 0.95rem; color: var(--danger); }
 .prose table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 1.02rem; }
 .prose th, .prose td { text-align: left; padding: 0.5rem 0.75rem 0.5rem 0; border-bottom: 1px solid var(--rule); }
+.prose pre { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.86rem; line-height: 1.35; overflow-x: auto; padding: 0.9rem 1rem; margin: 1.25rem 0; border: 1px solid var(--rule); border-radius: 6px; white-space: pre; background: var(--paper-sunk); }
+.prose pre code { font-family: inherit; font-size: inherit; font-style: normal; }
 .prose th { font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: 0.1em; color: var(--muted); border-bottom-color: var(--rule-strong); }
 .prose code { font-family: var(--serif); font-style: italic; }
 .prose strong { font-weight: 600; }
