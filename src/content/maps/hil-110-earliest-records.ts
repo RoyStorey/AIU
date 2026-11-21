@@ -48,7 +48,7 @@ const map: MapSpec = {
     { title: "Lithuanian", time: "1547", at: [20.51, 54.71], kind: "note", side: "slavic", until: "1600", text: "Martynas Mažvydas's catechism, printed at Königsberg: the first Lithuanian book." },
   ],
   labels: [
-    { text: "Anatolia", at: [33, 39.2], size: "small" },
+    { text: "Anatolia", at: [30.8, 38.2], size: "small" },
     { text: "Tarim Basin", at: [84, 39.5], size: "small" },
     { text: "Punjab", at: [73.5, 30], size: "small" },
   ],
@@ -62,8 +62,8 @@ const map: MapSpec = {
       text: "Find the **Rigveda** in the Punjab, then watch **Lepontic**, **Latin**, and **Old Persian** appear almost together, some five thousand kilometres apart.",
     },
     {
-      title: "Late antiquity", time: "1", until: "550", view: { center: [12, 50], zoom: 3.4 },
-      text: "Germanic appears on a Danish comb and in **Wulfila**'s Bible on the Danube; Irish on **Ogham** stones; and, at the far right edge, **Armenian**.",
+      title: "Late antiquity", time: "1", until: "550", view: { center: [17, 49], zoom: 3.0 },
+      text: "Germanic appears on a Danish comb and in **Wulfila**'s Bible on the Danube; Irish on **Ogham** stones; and, far to the southeast, **Armenian**.",
     },
     {
       title: "A surprise in Central Asia", time: "550", until: "800", view: { center: [80, 41], zoom: 3.6 },
