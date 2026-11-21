@@ -206,7 +206,7 @@ The Talmud is not only a book of laws and arguments; it is also full of stories 
 
 ## Beruriah
 
-**Beruriah**, the wife of **Rabbi Meir**, a leading sage of the second century, is the only woman in the Talmud whose legal opinions are cited with approval. In one story (*Berakhot* 10a), Rabbi Meir, troubled by neighbors who harassed him, prayed that they would die. Beruriah rebuked him: Psalm 104:35 says, "Let sins cease out of the earth," not sinners; pray instead that they repent, and then there will be no more wicked. He prayed for them, and they repented. Later tradition told darker stories about her; modern scholars have examined how the rabbis remembered a learned woman.
+**Beruriah**, the wife of **Rabbi Meir**, a leading sage of the second century, is the only woman in the Talmud whose legal opinions are cited with approval. In one story (*Berakhot* 10a), Rabbi Meir, troubled by neighbors who harassed him, prayed that they would die. Beruriah rebuked him: Psalm 104:35 can be read, "Let sins cease out of the earth," not "sinners"; pray instead that they repent, and then there will be no more wicked. He prayed for them, and they repented. Later tradition told darker stories about her; modern scholars have examined how the rabbis remembered a learned woman.
 
 ## The one who went astray
 
