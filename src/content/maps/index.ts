@@ -15,4 +15,5 @@ export const MAPS: Record<string, () => Promise<{ default: MapSpec }>> = {
   "bib-110-journeys-of-paul": () => import("./bib-110-journeys-of-paul"),
   "chh-101-spread-of-christianity": () => import("./chh-101-spread-of-christianity"),
   "wrl-101-spread-of-buddhism": () => import("./wrl-101-spread-of-buddhism"),
+  "hil-110-earliest-records": () => import("./hil-110-earliest-records"),
 };
