@@ -2143,6 +2143,30 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 11, kind: "uncertain", claim: "Jelinek's remark about firing linguists.", note: "The remark is widely attributed to him in various wordings; he later said it was exaggerated. The lesson says \"often attributed.\"" },
     ],
   },
+  "SYN 101": {
+    1: [
+      { page: 9, kind: "disputed", claim: "Whether Salishan and Tongan distinguish nouns from verbs.", note: "Most specialists now argue that a distinction exists, drawn differently than in English; the lesson presents the debate." },
+      { page: 13, kind: "disputed", claim: "The poverty-of-the-stimulus argument and Universal Grammar.", note: "Central to generative grammar and contested by usage-based and functionalist linguists; the lesson gives both views." },
+    ],
+    2: [
+      { page: 9, kind: "disputed", claim: "Everett's claim that Pirahã lacks recursive embedding.", note: "Disputed by Nevins, Pesetsky, and Rodrigues, among others; the lesson presents it as unresolved." },
+      { page: 15, kind: "uncertain", claim: "Counts of basic word orders.", note: "Figures follow Dryer's WALS chapter and change as more languages are documented; the lesson gives approximate numbers." },
+    ],
+    3: [
+      { page: 5, kind: "disputed", claim: "The head parameter versus Kayne's antisymmetry.", note: "Both are live proposals, and functional explanations exist as well; the lesson presents all three." },
+      { page: 9, kind: "disputed", claim: "Rich agreement as the cause of verb movement.", note: "A suggestive correlation with counterexamples; the lesson says its status is debated." },
+      { page: 12, kind: "disputed", claim: "Hale's nonconfigurationality proposal for Warlpiri.", note: "Others argue for hierarchical structure with movement or adjunction; the lesson gives both." },
+    ],
+    4: [
+      { page: 5, kind: "disputed", claim: "Whether island effects are grammatical or due to processing.", note: "Kluender, Hofmeister, and Sag argue for processing; Sprouse and colleagues argue against reducing islands to processing. The lesson presents the debate." },
+      { page: 13, kind: "disputed", claim: "Whether movement is real.", note: "Minimalism treats it as Internal Merge; LFG, HPSG, and Construction Grammar do without it. The lesson presents the alternatives." },
+    ],
+    5: [
+      { page: 8, kind: "disputed", claim: "The null-subject parameter as a cluster of properties.", note: "Chinese and Japanese null arguments and partial clusters complicate the picture; Newmeyer questions parameters generally. The lesson says so." },
+      { page: 11, kind: "disputed", claim: "Language universals.", note: "Evans and Levinson (2009) and their critics disagree about what counts as a universal; the lesson presents both sides." },
+      { page: 12, kind: "disputed", claim: "What neural language models show about learning syntax.", note: "An active debate; the lesson notes the difference in training data between models and children." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
