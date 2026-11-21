@@ -2098,6 +2098,28 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 12, kind: "uncertain", claim: "The outline of how the branches spread.", note: "Each step is a hypothesis; the routes of Greek, Armenian, Albanian, and Celtic, and the link between Corded Ware and particular branches, are uncertain. The lesson says so." },
     ],
   },
+  "PHO 101": {
+    1: [
+      { page: 2, kind: "uncertain", claim: "Dates of the Indian phonetic treatises.", note: "The Śikṣā and Prātiśākhya texts are hard to date; \"about the middle of the first millennium BCE\" is an approximation for the earliest of them." },
+      { page: 6, kind: "disputed", claim: "Whether the descended larynx evolved for speech, and whether Neanderthals could speak.", note: "Lieberman's view, the Kebara hyoid, and Fitch's macaque study point in different directions. The lesson presents the debate." },
+    ],
+    2: [
+      { page: 8, kind: "uncertain", claim: "What exactly the Ephraimites said in Judges 12:6.", note: "The usual reading is [s] for [ʃ], but scholars have proposed other dialect differences. The lesson says the details are debated." },
+    ],
+    3: [
+      { page: 2, kind: "disputed", claim: "Ejectives and altitude (Everett, 2013).", note: "The proposal has been strongly criticized on statistical and physical grounds. The lesson calls it controversial." },
+      { page: 5, kind: "uncertain", claim: "The role of hlonipha in spreading clicks, and whether clicks are very ancient.", note: "Both are hypotheses; the lesson presents them as such." },
+      { page: 12, kind: "uncertain", claim: "Inventory sizes of Rotokas, Pirahã, and !Xóõ.", note: "Counts depend on how complex sounds are analyzed; the lesson gives approximate figures. Atkinson's founder-effect proposal is disputed, as the lesson says." },
+    ],
+    4: [
+      { page: 3, kind: "uncertain", claim: "Daniel Jones as a model for Professor Higgins.", note: "Shaw names Henry Sweet in his preface; Jones is a suggested further model. The lesson says \"has been suggested.\"" },
+    ],
+    5: [
+      { page: 4, kind: "disputed", claim: "Rhythm classes (stress-timed, syllable-timed, mora-timed).", note: "Isochrony has not been confirmed by measurement; newer metrics treat rhythm as a continuum. The lesson presents both." },
+      { page: 8, kind: "disputed", claim: "The meaning of uptalk.", note: "Popular commentary treats it as uncertainty; research finds it often checks the listener's understanding. The lesson reports the research." },
+      { page: 13, kind: "disputed", claim: "\"Voiceprints\" as speaker identification.", note: "Mid-twentieth-century claims of fingerprint-like reliability are rejected by most phoneticians. The lesson says so." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
