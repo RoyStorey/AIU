@@ -235,7 +235,7 @@ The **Psalms** (*Tehillim*, "praises"), 150 poems traditionally associated with 
 
 ## Wisdom
 
-The **wisdom** books—**Proverbs**, **Job**, and **Ecclesiastes** (*Kohelet*)—reflect on how to live well in God's world, drawing on observation and experience rather than on the history of the covenant. Proverbs teaches that "the fear of the LORD is the beginning of knowledge" (Proverbs 1:7), and that diligence, honesty, and self-control lead to a good life. Ecclesiastes questions such confidence: "Vanity of vanities, all is vanity" (Ecclesiastes 1:2, JPS). The righteous and the wicked meet the same end; the best one can do is enjoy one's work and food and fear God.
+The **wisdom** books—**Proverbs**, **Job**, and **Ecclesiastes** (*Kohelet*)—reflect on how to live well in God's world, drawing on observation and experience rather than on the history of the covenant. Proverbs teaches that "the fear of the LORD is the beginning of knowledge" (Proverbs 1:7), and that diligence, honesty, and self-control lead to a good life. Ecclesiastes questions such confidence: "Vanity of vanities, saith Koheleth; vanity of vanities, all is vanity" (Ecclesiastes 1:2, JPS). The righteous and the wicked meet the same end; the best one can do is enjoy one's work and food and fear God.
 
 ## Job
 
