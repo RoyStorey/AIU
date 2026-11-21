@@ -467,7 +467,7 @@ Several themes have run through the course:
 
 ## Looking ahead
 
-**SOC 110**, Dialects of English, applies these concepts to the regional and social dialects of English around the world, from Appalachia to Singapore, and examines African American English in detail.
+**SOC 110**, Dialects of English, applies these concepts to the regional and social dialects of English around the world, from Appalachia to Singapore, and introduces African American English, which SOC 201 studies in depth.
 
 ## A closing thought
 
