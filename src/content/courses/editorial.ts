@@ -2193,6 +2193,28 @@ export const editorial: Record<string, Record<number, Caveat[]>> = {
       { page: 12, kind: "disputed", claim: "Whether language models understand or mean what they say.", note: "An open question; the lesson presents arguments on several sides." },
     ],
   },
+  "SOC 101": {
+    1: [
+      { page: 2, kind: "uncertain", claim: "The army-and-navy saying originated with Max Weinreich.", note: "Weinreich published it in 1945 and attributed it to an audience member at a lecture; it is usually credited to him. The lesson says he published it." },
+    ],
+    2: [
+      { page: 4, kind: "disputed", claim: "Trudgill's explanation of women's greater use of standard forms.", note: "Status-consciousness explanations have been challenged by network, market, and other accounts; the lesson notes the debate." },
+      { page: 6, kind: "uncertain", claim: "Centralization on Martha's Vineyard as a symbol of island identity.", note: "Labov's 1963 interpretation is classic; later restudies found the pattern had changed in later generations, so the findings describe the island at the time." },
+    ],
+    3: [
+      { page: 5, kind: "disputed", claim: "Lakoff's features of women's language.", note: "Based on intuition and observation; later empirical work, such as O'Barr and Atkins (1980), found mixed results. The lesson presents the tests." },
+      { page: 6, kind: "disputed", claim: "Dominance versus difference accounts of gender and talk.", note: "Both approaches have been criticized; the lesson presents the criticisms of each." },
+    ],
+    4: [
+      { page: 9, kind: "disputed", claim: "A cognitive advantage for bilinguals in executive function.", note: "Reported by Bialystok and colleagues but not consistently replicated (Paap and Greenberg 2013 and later studies). The lesson presents both sides." },
+    ],
+    5: [
+      { page: 8, kind: "corrected", claim: "Krauss estimated that half the world's languages were no longer learned by children.", note: "His 1992 estimate of languages already moribund was a range, roughly 20 to 50 percent; his often-quoted 90 percent figure referred to the coming century. Corrected in the draft." },
+      { page: 8, kind: "uncertain", claim: "Language knowledge and lower youth suicide rates in British Columbia First Nations.", note: "An association reported by Chandler, Lalonde, and Hallett; the causal relations are not established. The lesson says so." },
+      { page: 7, kind: "uncertain", claim: "English as the official language of the United States.", note: "Designated by a 2025 executive order; Congress has not enacted such a law, and the legal effect of the order is limited. The lesson states both." },
+      { page: 12, kind: "disputed", claim: "Translanguaging in the classroom.", note: "Advocates and critics disagree about its effects on minority-language maintenance; the lesson presents both views." },
+    ],
+  },
   "MEH 101": {
     1: [
       {
