@@ -3,7 +3,7 @@ import type { Lesson } from "@/lib/schema";
 export const lesson4: Lesson = {
   title: "Language in the Brain",
   summary:
-    "The discovery of language areas from phrenology to Broca; Wernicke and the classical model; the varieties of aphasia; lateralization and the split brain; imaging the working brain; the debate over a specialized language network; signing and bilingual brains; plasticity, genes, and recovery; reading, an invention the brain must learn; speech perception; stuttering; and language across the lifespan.",
+    "The discovery of language areas from phrenology to Broca; Wernicke and the classical model; the varieties of aphasia; lateralization and the split brain; imaging the working brain; the debate over a specialized language network; signing and bilingual brains; plasticity, genes, and recovery; reading, an invention the brain must learn; speech perception; prediction; stuttering; and language across the lifespan.",
   pages: [
     {
       title: "From Phrenology to Broca",
@@ -336,6 +336,30 @@ Some studies, notably by **Ellen Bialystok** and colleagues, reported that lifel
 For people with aphasia and dementia, the loss of language can be isolating and painful. Caregivers can help by speaking simply and patiently, using gestures and pictures, and giving time to respond. Familiar language—prayers, hymns, and songs learned in childhood—often remains accessible long after other language has faded, and many chaplains and families have found that singing a familiar hymn or reciting the Lord's Prayer can reach a person with advanced dementia when ordinary conversation cannot.
 
 > **Pause and consider.** Familiar prayers and songs often remain available to people with dementia. Why might these forms of language be especially durable?`,
+    },
+    {
+      title: "The Predicting Brain",
+      body: `## Ahead of the words
+
+Comprehension is not only a matter of reacting to words as they arrive. A growing body of evidence suggests that listeners and readers actively **predict** what is coming next, using their knowledge of language, the world, and the speaker. The N400, as we saw, is smaller for expected words than for unexpected ones, which suggests that the brain has, in some sense, anticipated the expected word.
+
+## The visual world paradigm
+
+A powerful method for studying prediction is the **visual world paradigm**, in which researchers track listeners' eye movements as they look at a scene while hearing a sentence. In a well-known study published in 1999, **Gerry Altmann** and **Yuki Kamide** showed people a scene containing a boy, a cake, and several toys, and played sentences such as *The boy will eat the cake* or *The boy will move the cake*. When listeners heard *eat*, their eyes moved toward the cake—the only edible object—before the word *cake* was spoken. When they heard *move*, they did not. Listeners used the meaning of the verb to anticipate its object.
+
+## Many sources of prediction
+
+Later studies showed that listeners predict on the basis of many kinds of information: grammatical gender (in languages where articles agree in gender with nouns, listeners look toward objects whose names match the article's gender); the identity of the speaker (a child's voice saying "I want to drink some wine" produces a stronger brain response than an adult's); and the wider discourse context. Prediction seems to be a pervasive feature of language processing.
+
+## Why predict?
+
+Prediction may help listeners keep up with the rapid pace of speech, resolve ambiguities, and fill in sounds masked by noise, as in phonemic restoration. Some researchers propose that prediction is a general principle of how the brain works, in perception, action, and thought: the brain constantly generates expectations and updates them in light of errors. On this view, language comprehension is one instance of a predictive mind.
+
+## Limits
+
+How much do listeners predict, and how specifically? Researchers debate whether listeners typically predict specific words or only general features of upcoming material, and whether prediction is necessary for comprehension or merely helpful when conditions allow it. Some large studies have found weaker evidence for specific word prediction than earlier studies suggested. The debate continues, but the broad picture of an active, anticipating listener is widely accepted.
+
+> **Pause and consider.** When someone pauses in mid-sentence, do you find yourself anticipating the next word? How often are you right?`,
     },
     {
       title: "Working with the Sources",
