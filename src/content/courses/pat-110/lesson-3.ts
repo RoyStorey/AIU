@@ -55,6 +55,8 @@ Augustine persuaded Monica to spend the night at a shrine near the harbor dedica
 
 The older Augustine sees in this, too, the working of providence. Monica had been praying that her son would not sail; God, he says, did not grant her what she asked at that moment, in order to grant what she was always asking—her son's salvation, which would come in Italy. "You did not do what she asked then, so that you might make me what she always asked" (5.8.15).
 
+![From Carthage to Rome and Milan](map:pat-110-augustine#2 "Watch Augustine sail secretly for Rome and move on to Milan, and Monica cross the sea after him.")
+
 ## Illness in Rome
 
 In Rome Augustine fell seriously ill with a fever, lodging in the house of a Manichee Hearer. He came close to death, and was not baptized. The older Augustine shudders to think what would have happened had he died then: "Where would I have gone, if I had departed then?" (5.9.16). He attributes his recovery to his mother's prayers, though she did not know he was ill.

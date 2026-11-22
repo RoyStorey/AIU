@@ -131,6 +131,8 @@ Augustine taught rhetoric in Thagaste and then for about eight years in Carthage
 
 At Easter 387, Augustine was baptized by Ambrose in Milan, together with Alypius and Adeodatus. On the way back to Africa, Monica died at **Ostia**, the port of Rome. Delayed by political turmoil, Augustine stayed in Rome for a year, then returned to Thagaste in 388, where he lived with friends in a kind of lay monastic community devoted to prayer and study. Adeodatus died there, probably around 389 or 390, aged about seventeen.
 
+![Augustine's journeys, 354–430](map:pat-110-augustine "Follow Augustine from Thagaste to Carthage, Rome, and Milan, and home again to Hippo; watch Monica follow him to Italy.")
+
 ## Priest and bishop (391–430)
 
 In 391, visiting the port city of **Hippo Regius** (modern Annaba in Algeria), Augustine was seized by the congregation and ordained priest against his will, a common practice at the time. He wept, Possidius says; the people thought he wept because he had not been made a bishop. He founded a monastery in the garden of the church. In 395 or 396 he became coadjutor bishop, and soon sole bishop, of Hippo. He held the office for thirty-five years.
