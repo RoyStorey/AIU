@@ -73,6 +73,8 @@ The Vikings went everywhere. Norwegians raided and settled in Scotland, the Orkn
 
 Swedish Vikings, known as **Rus**, traveled east, along the rivers of what are now Russia, Belarus, and Ukraine, trading furs, wax, and slaves for silver with the Islamic world and Byzantium. Hundreds of thousands of Arab silver coins have been found in Scandinavia. The Rus established themselves as rulers of the Slavic peoples around **Novgorod** and **Kyiv**, founding the state of **Kievan Rus**. The Arab traveler **Ibn Fadlan**, who met a group of Rus on the Volga in 922, left a vivid and disturbing description of their appearance, customs, and the funeral of a chieftain, burned in his ship with a sacrificed slave girl. Vikings attacked Constantinople, and later served the Byzantine emperors as their elite bodyguard, the **Varangian Guard**.
 
+![The Viking Age, 793–1021](map:mdh-101-vikings "Watch the raids and settlements spread from Scandinavia west to Ireland, Iceland, Greenland, and Vinland, and east along the rivers to Kyiv and Constantinople.")
+
 ## Raiders and traders
 
 Older histories portrayed the Vikings as savage barbarians, an image fixed by the monks whose monasteries they raided and who wrote our sources. Modern historians, drawing on archaeology and Scandinavian sources, emphasize that the Vikings were also traders, explorers, settlers, poets, and craftsmen, who founded towns, created a vast commercial network linking the Atlantic to the Caspian, and produced a rich literature in the Icelandic sagas and Norse poetry. Both images are true. The Vikings were among the most violent peoples of early medieval Europe, and among the most enterprising.
