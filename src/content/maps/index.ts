@@ -31,4 +31,5 @@ export const MAPS: Record<string, () => Promise<{ default: MapSpec }>> = {
   "anh-101-peloponnesian-war": () => import("./anh-101-peloponnesian-war"),
   "amh-201-indian-removal": () => import("./amh-201-indian-removal"),
   "pat-110-augustine": () => import("./pat-110-augustine"),
+  "ash-101-zheng-he": () => import("./ash-101-zheng-he"),
 };
