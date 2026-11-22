@@ -63,6 +63,8 @@ The chronicles describe the scene at Mainz: "The women there girded their loins 
 
 The massacres were condemned by many Christian churchmen and were contrary to the official teaching of the Church, which, following Augustine, held that Jews should not be killed or forcibly converted, but allowed to live as witnesses to the truth of Christian scripture. Several bishops, at Speyer, Worms, Mainz, and Cologne, tried to protect the Jews, though with mixed success; some were overwhelmed, and some, it was alleged, were bribed or wavered. The emperor Henry IV, on his return from Italy, permitted the Jews who had been forcibly baptized to return to Judaism, against the protests of the pope.
 
+![Clermont and the People's Crusade](map:mdh-110-first-crusade#1-2 "Find Clermont, then follow Peter the Hermit to Constantinople and Emicho's bands through the Rhineland.")
+
 ## The fate of the People's Crusade
 
 The People's Crusade itself ended in disaster. Some bands were destroyed in Hungary after they plundered the countryside. Peter the Hermit's main force reached **Constantinople** in August 1096. Alexios, alarmed by their disorder, ferried them across the Bosphorus into Asia Minor. There, in **October 1096**, at **Civetot**, near Nicaea, they were ambushed and massacred by the Turks. Peter, who was in Constantinople at the time, survived and joined the princes' army.
@@ -100,6 +102,8 @@ Then a poor pilgrim from southern France, **Peter Bartholomew**, announced that 
 After months of quarrels among the leaders, the crusaders marched south, and on **June 7, 1099**, some three years after setting out, reached **Jerusalem**. Their numbers had dwindled to perhaps twelve or thirteen thousand, of whom some 1,300 were knights. Jerusalem was held by the **Fatimids** of Egypt, who had retaken it from the Turks in 1098. The crusaders built siege towers, using timber from ships that had arrived at Jaffa, and held a barefoot procession around the walls, fasting and praying. On **July 15, 1099**, they broke into the city.
 
 What followed was a massacre. The anonymous author of the ***Gesta Francorum***, a Norman knight who took part, wrote: "Our men pursued them, killing and slaying them as far as the Temple of Solomon, where there was such slaughter that our men waded in blood up to their ankles." Other Latin chroniclers described similar scenes, sometimes with apparent satisfaction, sometimes echoing the language of the Book of Revelation. The Jews of the city, who had taken refuge in a synagogue, were burned in it, according to Muslim sources. The Muslim historian **Ibn al-Athir**, writing more than a century later, claimed that **seventy thousand** people were killed in the al-Aqsa Mosque alone.
+
+![The First Crusade, 1096–1099](map:mdh-110-first-crusade#3-5 "Watch the princes' armies converge on Constantinople, cross Anatolia to Antioch, and march south to Jerusalem.")
 
 ## How many died?
 
