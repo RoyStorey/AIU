@@ -58,7 +58,7 @@ const map: MapSpec = {
       text: "Watch **Gil Eanes** pass **Cape Bojador** and return. Ten years later, **Lançarote**'s caravels bring captives from Arguin to **Lagos**, and the ships push on to **Cape Verde** and **Sierra Leone**.",
     },
     {
-      title: "The Gold Coast", time: "1462", view: { center: [-7, 15], zoom: 3.5 },
+      title: "The Gold Coast", time: "1462", view: { center: [-4, 13], zoom: 3.5 },
       text: "Past the bulge of Africa: ships reach **São Tomé** and the **Gold Coast** in 1471, and in 1482 **Azambuja**'s fleet arrives to build **Elmina**.",
     },
   ],

@@ -243,6 +243,8 @@ Darius III fled east, but in **330 BC** he was murdered by one of his own satrap
 
 Alexander went on to campaign in Central Asia and India, reaching the Indus and beyond, until his army refused to go farther. He returned to **Babylon**, which he planned to make the capital of his empire. There, in **June 323 BC**, at the age of thirty-two, he died, perhaps of fever, in the palace of Nebuchadnezzar.
 
+![Alexander and the fall of Persia, 334–323 BCE](map:meh-110-alexander "Follow Alexander from the Hellespont to Issus, Tyre, Egypt, Gaugamela, and Persepolis, and watch Darius flee east.")
+
 ## The Hellenistic age
 
 After Alexander's death, his generals divided his empire. Most of the Near East came under the rule of the **Seleucid** dynasty, founded by his general **Seleucus**, while Egypt came under the **Ptolemies**. Greek became the language of government and high culture across the Near East, Greek cities were founded, and Greek and Near Eastern cultures mingled in what historians call the **Hellenistic** age. The independent history of the ancient Near East, which had begun with the cities of Sumer three thousand years before, came to an end.
