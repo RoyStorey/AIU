@@ -22,4 +22,7 @@ export const MAPS: Record<string, () => Promise<{ default: MapSpec }>> = {
   "amh-101-war-for-independence": () => import("./amh-101-war-for-independence"),
   "amh-210-civil-war": () => import("./amh-210-civil-war"),
   "mdh-110-first-crusade": () => import("./mdh-110-first-crusade"),
+  "afh-101-trans-saharan": () => import("./afh-101-trans-saharan"),
+  "afh-101-mansa-musa": () => import("./afh-101-mansa-musa"),
+  "afh-101-ibn-battuta": () => import("./afh-101-ibn-battuta"),
 };

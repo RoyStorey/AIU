@@ -147,6 +147,8 @@ Mansa Musa returned to Mali with scholars, jurists, and craftsmen recruited in E
 
 On his return journey, Mansa Musa visited **Gao**, the capital of the Songhay people, which had recently been brought under Mali's authority, and built a mosque there. He also brought **Timbuktu** firmly under Mali's control and encouraged its development as a center of trade and Islamic learning. Under Mali, Timbuktu grew from a seasonal camp of Tuareg herders into one of the great cities of the Islamic world, whose name would one day become, in European languages, a byword for the ends of the earth.
 
+![Mansa Musa's pilgrimage, 1324–1325](map:afh-101-mansa-musa "Follow the caravan across the Sahara to Cairo and Mecca, and home by Gao and Timbuktu.")
+
 ## Musa's legacy
 
 Mansa Musa has become a figure of legend, sometimes described as the richest man who ever lived. Such claims are impossible to measure; the wealth of a medieval ruler cannot be compared meaningfully with modern fortunes. What is clear is that he ruled a vast and wealthy empire, that he was a devout Muslim who promoted Islamic learning and architecture, and that his pilgrimage made Mali, and West Africa, known across the world as a land of gold and civilization. His reign marked the height of the empire of Mali. In the twentieth century, Mali and its neighbors would take Mansa Musa as a symbol of Africa's medieval greatness, and his image would appear on banknotes, stamps, and murals.
@@ -220,6 +222,8 @@ He admired their devotion to Islam: "They are careful to observe the hours of pr
 ## Bad qualities
 
 Ibn Battuta also criticized much. He was scandalized that female servants, slave women, and young girls went about naked in public, even in the presence of the mansa, and that women were not veiled. He was shocked by the freedom with which women associated with men who were not their relatives. He disapproved of the custom of pouring dust on one's head before the king, the recitations of the masked poets, which he considered pagan, and the eating of carrion, dogs, and donkeys. In Walata, he was appalled to find a scholar's wife talking with a male friend in her husband's presence; when he objected, the scholar told him: "The association of women with men is agreeable to us and a part of good conduct, to which no suspicion attaches."
+
+![Ibn Battuta's journey to Mali, 1352–1353](map:afh-101-ibn-battuta "Follow Ibn Battuta from Sijilmasa past Taghaza to Walata and the mansa's court, and home down the Niger.")
 
 ## Reading Ibn Battuta
 

@@ -29,6 +29,8 @@ In return, the lands south of the Sahara had **gold**, which the Mediterranean a
 
 Salt and gold were not the only goods. Caravans carried south copper, cloth, glass beads, horses, books, paper, and luxury goods from North Africa and the Mediterranean. They carried north ivory, kola nuts, leather, ostrich feathers, and **enslaved people**. The trans-Saharan **slave trade** was an important part of the commerce for more than a thousand years, carrying captives from the Sudan to North Africa and the Middle East, where they worked as domestic servants, concubines, soldiers, and laborers. Historians estimate that it carried millions of people across the desert between the seventh and the twentieth centuries, many of whom died on the crossing.
 
+![The caravan roads across the Sahara](map:afh-101-trans-saharan#1 "Watch the caravans on three roads across the desert, and find the salt mines of Taghaza.")
+
 ## Silent trade
 
 Ancient and medieval writers told a strange story about how gold was traded. The Greek historian **Herodotus**, in the fifth century BC, reported that the Carthaginians traded with a people beyond the Pillars of Hercules without ever meeting them: they laid out their goods on the beach and withdrew to their ships; the natives came and laid down gold beside the goods and withdrew; and the exchange went back and forth until both sides were satisfied, "with perfect honesty on both sides." Medieval Arab writers told similar stories about the gold trade of the Sudan, in which the gold miners never showed themselves to the merchants. Whether "**silent trade**" really happened, or was a legend that expressed the mystery surrounding the sources of African gold, historians debate. What is clear is that the people who controlled the gold fields guarded their secrets closely, and that the merchants and kings of the Sahel grew rich as middlemen.
@@ -60,6 +62,8 @@ Ghana's kings also commanded large armies; Arab writers reported that the king c
 In the early twentieth century, French colonial archaeologists, searching for the capital of ancient Ghana described by the Arab geographers, identified a site in southeastern Mauritania called **Koumbi Saleh**. Excavations, begun in 1914 and continued in the 1950s by French archaeologists and later by Mauritanian and other scholars, revealed the remains of a large town of stone houses, some of them two stories high, a large mosque, streets, and cemeteries, which may have held fifteen to twenty thousand people at its height in the tenth and eleventh centuries. It appears to correspond to the Muslim merchants' town described by al-Bakri. The king's town, which al-Bakri said lay six miles away and was built of wood and clay, has not been securely identified.
 
 The identification of Koumbi Saleh has been debated, and some archaeologists have argued that the capital of Ghana moved over time, or that the political center of the kingdom lay elsewhere. Excavations elsewhere in the region, such as at **Tegdaoust**, probably ancient Awdaghust, have added to our understanding of the urban centers of the Ghana period.
+
+![Ghana at the end of the western road](map:afh-101-trans-saharan#2 "Find Awdaghust on the desert's edge and the twin city at Koumbi Saleh.")
 
 ## A crossroads
 
@@ -146,6 +150,8 @@ Ibn Yasin's demands for strict observance—prayer, fasting, the payment of reli
 In the 1050s, the Almoravids, now a disciplined army of religious warriors, set out to impose their reform by force. In 1054–1055, they captured **Sijilmasa**, the great trading city at the northern end of the trans-Saharan routes, and **Awdaghust**, at the southern end, which was then under the authority of Ghana. Al-Bakri reported that the Almoravids sacked Awdaghust, killed many of its inhabitants, and "declared lawful everything they seized," justifying the violence on the grounds that the town recognized the authority of the non-Muslim king of Ghana.
 
 After Ibn Yasin's death in battle in 1059, the movement divided. One branch, under **Yusuf ibn Tashfin**, turned north, conquered Morocco, founded the city of **Marrakesh** around 1070, and then crossed into Spain. In 1086, at the battle of **Sagrajas**, the Almoravids crushed the army of Alfonso VI of Castile, who had captured Toledo the year before, and over the next two decades took control of Muslim Spain. Their empire, stretching from the Senegal River to the Ebro, was one of the great powers of the Mediterranean world. The other branch, under **Abu Bakr ibn Umar**, remained in the Sahara and turned south, toward the lands of Ghana.
+
+![The Almoravids](map:afh-101-trans-saharan#3 "Watch the Almoravids strike Sijilmasa and Awdaghust, then turn north to Marrakesh and Spain.")
 
 ## Did the Almoravids conquer Ghana?
 
