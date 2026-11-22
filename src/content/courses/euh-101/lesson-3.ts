@@ -59,6 +59,8 @@ His superior and confessor, **Johann von Staupitz**, vicar general of the August
 
 In 1510–1511, Luther traveled to **Rome** on business for his order. He climbed the Holy Stairs on his knees, saying a prayer on each step, in the hope of releasing his grandfather's soul from purgatory; at the top, he later recalled, he wondered whether it was true. He was shocked by the worldliness of the Roman clergy, who rushed through Masses. The memory, much embroidered in his later recollections, fed his growing conviction that Rome was corrupt.
 
+![Brother Martin, 1505–1511](map:euh-101-luther#1 "Find the storm at Stotternheim and the friary at Erfurt, then follow Luther over the Alps to Rome and back.")
+
 ## The righteousness of God
 
 Luther's spiritual crisis centered on a phrase from St. Paul's Epistle to the Romans: "**the righteousness of God**" (Romans 1:17). Luther had been taught to understand it as the righteousness by which God judges and punishes sinners: God is righteous, and demands that we be righteous too, and condemns those who are not. For a man who could never feel that he was righteous enough, this was a terrifying idea. "I did not love, yes, I hated the righteous God who punishes sinners," he later wrote.
@@ -149,6 +151,8 @@ The next day, the emperor gave his own answer, in a statement he had written him
 
 In May, the **Edict of Worms** declared Luther an outlaw. Anyone could kill him without penalty; his books were to be burned. But the edict was never fully enforced. Many princes and cities ignored it.
 
+![From the theses to Worms](map:euh-101-luther#2 "Follow Luther from Wittenberg to Augsburg, Leipzig, and Worms, and watch his carriage stopped on the road home.")
+
 ## Two consciences
 
 The scene at Worms is often presented as a confrontation between the modern individual conscience and medieval authority. That is not quite how Luther understood it. Luther did not claim that every individual could believe whatever he chose. His conscience, he said, was "captive to the Word of God": bound, not free. And Charles, too, was acting on conscience: on his sense of his duty, as emperor, to the faith of his ancestors and the unity of Christendom. Both men believed that the truth was one, and that they knew it. The tragedy of the Reformation was that sincere Christians, reading the same Scriptures, could not agree what it was.
@@ -212,6 +216,8 @@ Luther at first tried to mediate. In April 1525, in an *Admonition to Peace*, he
 By the time the pamphlet was published, the princes' armies had already crushed the revolt. Perhaps **100,000** peasants were killed. Luther's pamphlet appeared to many to justify the massacre, and he was bitterly criticized, even by his friends. He defended himself in an open letter, but did not retract.
 
 Luther's position followed from his theology. He distinguished sharply between the spiritual realm, in which Christians are free, and the worldly realm, in which God has ordained rulers to keep order with the sword. Christian freedom was freedom of the soul, not freedom from earthly obligations. The peasants, by using the Gospel to justify rebellion, had confused the two kingdoms and blasphemed the Gospel.
+
+![The Wartburg and after](map:euh-101-luther#3 "Find the Wartburg, the Peasants' War at Memmingen and Frankenhausen, the meeting with Zwingli at Marburg, and Eisleben.")
 
 ## The princes' Reformation
 
