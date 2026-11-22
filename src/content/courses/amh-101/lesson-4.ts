@@ -37,6 +37,8 @@ The Hessians whom Washington defeated at Trenton were not quite the mercenaries 
 
 The campaign of 1776 taught Washington the lesson that would guide him for the rest of the war. He could not defeat the British army in open battle, and he could not hold fixed positions against a power that commanded the sea. But he did not need to. As long as the Continental Army survived, the Revolution survived. Washington called it a "war of posts": avoiding general engagements, keeping the army in being, striking when the odds favored him, and wearing down the British will to continue. The British, for their part, had to do more than win battles. They had to restore royal government over a vast territory and a hostile population—something that, as they would learn, battles alone could not do.
 
+![The campaign of 1776](map:amh-101-war-for-independence#1 "Watch Howe drive Washington from Long Island across New Jersey, then Washington turn back across the Delaware.")
+
 ## Why did the British not win in 1776?
 
 Historians have long asked why Howe did not destroy Washington's army when he had the chance, on Long Island or in New Jersey. Part of the answer is caution: Howe remembered Bunker Hill and hesitated to attack fortified positions. Part is that the Howe brothers were also peace commissioners, authorized to offer pardons, and they hoped to win the colonists back by showing British strength while avoiding unnecessary bloodshed. They met with a committee of Congress—Franklin, John Adams, and Edward Rutledge—on Staten Island in September 1776, but could offer nothing except pardon on submission. The Americans declined. Howe's strategy of conciliation and restraint, so reasonable in theory, gave the Revolution time to recover.
@@ -56,6 +58,8 @@ But Howe had a plan of his own. He sailed with most of his army from New York to
 Burgoyne began well, capturing Fort Ticonderoga in July. But the farther south he marched, the worse things went. The wilderness between Lake Champlain and the Hudson slowed his army to a crawl, as Americans felled trees across the roads and destroyed bridges. His supply line stretched back to Canada. In August a detachment he sent to seize supplies at Bennington was destroyed by New England militia under John Stark. St. Leger's column was halted at Fort Stanwix and turned back, after a bloody battle at Oriskany in which Iroquois fought on both sides—the beginning of a civil war within the Confederacy. And the killing of a young woman named Jane McCrea by Native warriors attached to Burgoyne's army became a patriot rallying cry, bringing out thousands of militiamen.
 
 The American army in the north, commanded by General **Horatio Gates**, with **Benedict Arnold** as his most aggressive subordinate, grew to some 15,000 men. In two battles near **Saratoga**, at Freeman's Farm on September 19 and Bemis Heights on October 7, the Americans checked Burgoyne's advance and then broke his lines; Arnold, leading the decisive charge, was badly wounded in the leg. Surrounded, short of food, and outnumbered, Burgoyne surrendered his entire army of about 5,900 men on October 17, 1777.
+
+![Saratoga and Philadelphia, 1777](map:amh-101-war-for-independence#2 "Follow Burgoyne south from Canada while Howe sails away to Philadelphia.")
 
 ## Why Saratoga mattered
 
@@ -139,6 +143,8 @@ In December 1780, Washington sent his most trusted general, **Nathanael Greene**
 
 Cornwallis pursued Greene across North Carolina in a race to the Dan River on the Virginia border. Greene escaped, reinforced, and turned to fight at **Guilford Courthouse** in March 1781. The British held the field, but lost a quarter of their army. "Another such victory would ruin the British army," a member of Parliament remarked. Greene's summary of his campaign became famous: "We fight, get beat, rise, and fight again." While Cornwallis marched north into Virginia, Greene turned back into South Carolina and, losing battles but winning campaigns, steadily reduced the British-held territory to a narrow coastal strip around Charleston and Savannah.
 
+![The war in the South](map:amh-101-war-for-independence#3 "Follow Cornwallis from Charleston through the Carolinas, and Greene and Morgan as they wear him down.")
+
 ## Why the southern strategy failed
 
 The southern strategy failed for the same reason the British could not win in the North. Military victories did not produce political control. Loyalists who rose when the British army was near were left exposed to patriot retaliation when it moved on, and soon learned caution. British and loyalist brutality drove neutrals into the patriot camp. And the more the British relied on freeing enslaved people to weaken the rebels, the more they alienated the white southerners they hoped to win back. The British could win battles; they could not govern the country.
@@ -204,6 +210,8 @@ In the spring of 1781, Cornwallis abandoned the Carolinas and marched into Virgi
 Washington had been planning, with the French general the **Comte de Rochambeau**, whose army of about 5,000 men had arrived at Newport in 1780, to attack New York. Then, in August 1781, came word that a powerful French fleet under the **Comte de Grasse** was sailing from the Caribbean to the Chesapeake. Washington and Rochambeau saw their chance. Leaving a small force to deceive Clinton, they marched their armies some 450 miles south from the Hudson to Virginia.
 
 Everything depended on control of the sea. On September 5, 1781, de Grasse's fleet fought a British fleet under Admiral Thomas Graves off the mouth of the Chesapeake in the **Battle of the Capes**. The battle itself was indecisive, but Graves withdrew to New York to refit, leaving the French in command of the bay. Cornwallis was trapped.
+
+![The trap at Yorktown](map:amh-101-war-for-independence#4 "Watch the allied armies march south from the Hudson while de Grasse sails up from the Caribbean.")
 
 ## The siege
 

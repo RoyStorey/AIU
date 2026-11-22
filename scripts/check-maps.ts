@@ -39,8 +39,9 @@ async function main() {
   const used = new Set<string>();
   for await (const file of files("src/content/courses")) {
     const text = await readFile(file, "utf8");
-    for (const m of text.matchAll(/!\[[^\]]*\]\(map:([a-z0-9-]+)(?:#(\d+)-(\d+))?/g)) {
-      const [, id, a, b] = m;
+    for (const m of text.matchAll(/!\[[^\]]*\]\(map:([a-z0-9-]+)(?:#(\d+)(?:-(\d+))?)?/g)) {
+      const [, id, a, b0] = m;
+      const b = b0 ?? a;
       used.add(id);
       if (!MAPS[id]) {
         console.log(`\n✗ ${file}: map "${id}" is not in src/content/maps/index.ts`);
@@ -49,7 +50,7 @@ async function main() {
       }
       const chapters = (await MAPS[id]()).default.story?.length ?? 0;
       if (a && !(+a >= 1 && +a <= +b && +b <= chapters)) {
-        console.log(`\n✗ ${file}: map:${id}#${a}-${b} – the map has ${chapters} chapters`);
+        console.log(`\n✗ ${file}: map:${id}#${b0 ? `${a}-${b}` : a} – the map has ${chapters} chapters`);
         failed = true;
       }
     }

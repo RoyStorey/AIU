@@ -27,7 +27,7 @@ Interactive maps for lesson pages, drawn by the [map-widget](https://github.com/
    The alt text names the map for screen readers. The caption appears under it.
 
    When the map's chapters follow several sections of the page, don't put one long map at the top. Place it beside
-   each section, showing just that section's chapters, by adding `#first-last`:
+   each section, showing just that section's chapters, by adding `#first-last` (or `#n` for a single chapter):
    ```markdown
    ![Interactive map of the Persian conquest, 602–621](map:meh-101-roman-persian-war#1-3 "…")
    …

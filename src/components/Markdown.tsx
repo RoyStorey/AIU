@@ -18,10 +18,10 @@ const components: Components = {
     if (only) {
       const { src, alt, title } = only.properties as { src?: string; alt?: string; title?: string };
       if (src?.startsWith("map:")) {
-        // map:<id> or map:<id>#3-5 (only chapters 3 to 5, to sit beside one section)
+        // map:<id>, map:<id>#3-5 (only chapters 3 to 5, to sit beside one section), or map:<id>#3
         const [id, range] = src.slice(4).split("#");
-        const m = range?.match(/^(\d+)-(\d+)$/);
-        return <HistoryMap id={id} alt={alt ?? ""} caption={title} chapters={m ? [Number(m[1]), Number(m[2])] : undefined} />;
+        const m = range?.match(/^(\d+)(?:-(\d+))?$/);
+        return <HistoryMap id={id} alt={alt ?? ""} caption={title} chapters={m ? [Number(m[1]), Number(m[2] ?? m[1])] : undefined} />;
       }
       if (src) return <Figure src={src} alt={alt ?? ""} caption={title} />;
     }
