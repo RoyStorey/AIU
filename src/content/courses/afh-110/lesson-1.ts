@@ -37,6 +37,8 @@ The Portuguese came for gold, and they found it. But almost from the beginning, 
 
 The Portuguese did not invent slavery or the slave trade, both of which existed in Europe, in Africa, and throughout the Mediterranean and Islamic worlds. Enslaved Africans had been carried across the Sahara to North Africa and the Middle East for centuries, and slavery was widespread within Africa. What was new was the direct sea route, which would eventually connect Africa to the Americas and give rise to the largest forced migration in human history.
 
+![Portugal and the coast of Africa, 1415–1462](map:afh-110-portuguese-voyages#1-2 "Watch the ships creep down the coast from Ceuta and Madeira past Cape Bojador to Cape Verde and Sierra Leone.")
+
 ## The scale of what followed
 
 Between the early sixteenth century and the 1860s, some **12.5 million** Africans were embarked on ships bound for the Americas, according to the estimates of the **Trans-Atlantic Slave Trade Database**, compiled by historians from the records of some thirty-six thousand voyages. About **10.7 million** survived the crossing. Most were taken in the eighteenth century. This course examines how that trade began, how it worked, how African states and societies took part in it and were transformed by it, and what it meant for Africa and the world.
@@ -96,6 +98,8 @@ In **1482**, King **João II** of Portugal sent a fleet of ten caravels and two 
 On landing, Azambuja met the local ruler, whom the Portuguese called **Caramansa** (probably a title rather than a name, perhaps *Kwamena Ansa*). According to the Portuguese chroniclers, Azambuja, dressed in brocade, asked permission to build a fort. Caramansa, after some thought, gave a cautious reply: the Portuguese who had come before were poor and rough, and came and went; he would prefer that they continue to do so, because, as the chronicler **João de Barros** reported his words, friends who meet only occasionally remain better friends than neighbors who see each other every day. In the end, he agreed, perhaps under pressure. When the Portuguese workmen began to quarry a rock that the local people regarded as sacred, fighting broke out, and the Portuguese had to pay compensation.
 
 The fortress of **São Jorge da Mina**, later called **Elmina**, was completed within weeks. It was the first European building in sub-Saharan Africa, and it still stands, a massive white structure on a rocky point, now a UNESCO World Heritage Site. It was built to protect the gold trade against African attack and, above all, against rival Europeans, especially the Spanish, who had been trading on the coast. The Treaty of **Alcáçovas** (1479) had recognized Portugal's monopoly of the Guinea trade.
+
+![The Gold Coast and Elmina](map:afh-110-portuguese-voyages#3 "Follow the ships around the bulge of Africa to São Tomé and the Gold Coast, and Azambuja's fleet to Elmina.")
 
 ## The gold trade
 
