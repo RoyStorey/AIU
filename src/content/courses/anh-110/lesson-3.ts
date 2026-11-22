@@ -147,6 +147,8 @@ Hannibal drew up his army with his Spanish and Gallic infantry in the center, in
 
 Livy tells that Hannibal's cavalry commander, **Maharbal**, urged him to march on Rome at once: "In five days you will dine on the Capitol." When Hannibal hesitated, Maharbal said: "You know how to win a victory, Hannibal; you do not know how to use one" (22.51). Whether Hannibal could in fact have taken Rome, a walled city with a large population, without siege equipment, is doubtful.
 
+![Hannibal from Saguntum to Cannae](map:anh-110-hannibal#1-3 "Follow Hannibal from Spain over the Pyrenees, the Rhône, and the Alps, then to Trebia, Lake Trasimene, and Cannae.")
+
 > **Pause and consider.** After Trasimene, the praetor simply announced, "We have been defeated in a great battle." After Cannae, Rome refused to negotiate. What does Rome's response to disaster tell you about its society?`,
     },
     {
@@ -170,6 +172,8 @@ In **205 BCE**, Scipio was elected consul, and proposed to invade **Africa**, to
 In **202 BCE**, Hannibal and Scipio met at **Zama**, southwest of Carthage. Before the battle, according to Polybius and Livy, the two generals met in person, but could not agree. Hannibal opened with a charge of eighty elephants; Scipio had arranged his maniples in columns, with lanes between them, through which the elephants passed harmlessly, harassed by the light troops. The cavalry of Masinissa and of Scipio's lieutenant **Laelius** routed the Carthaginian cavalry, and then, in the decisive moment, returned to fall on the rear of Hannibal's veterans. Hannibal was defeated, for the first and only time in a major battle, and escaped to Carthage, where he advised his countrymen to make peace (Polybius 15.9–16).
 
 The peace of **201 BCE** ended Carthage's career as a great power. Carthage surrendered Spain, its fleet except for ten ships, and its elephants; agreed to pay an indemnity of **10,000 talents** over fifty years; and agreed not to make war outside Africa, and inside Africa only with Rome's permission. Masinissa became king of **Numidia**, a powerful neighbor watching Carthage on Rome's behalf. Scipio celebrated a triumph, and took the name **Africanus**.
+
+![From Cannae to Zama](map:anh-110-hannibal#4-5 "Watch the war spread to Sicily and Spain while Hannibal holds the south, then Scipio carry it to Africa.")
 
 ## Hannibal after the war
 
