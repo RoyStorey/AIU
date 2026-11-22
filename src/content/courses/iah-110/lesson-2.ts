@@ -93,6 +93,8 @@ In October, in what is now Alabama, he met **Tascalusa**, a chief of great heigh
 
 De Soto pressed on, crossing the Mississippi in 1541, and died of fever on its banks in 1542. His men sank his body in the river so that the Native people would not learn that the "Child of the Sun," as he had claimed to be, was mortal. The survivors, about half of those who had landed, built boats and escaped down the Mississippi to Mexico in 1543.
 
+![The de Soto expedition, 1539–1543](map:iah-110-de-soto "Follow the army from Tampa Bay through Cofitachequi, Coosa, and Mabila to the Mississippi, and the survivors' escape to Mexico.")
+
 ## The world they left
 
 When Europeans next traveled through much of the interior Southeast, more than a century later, the world de Soto described had changed beyond recognition. The great chiefdoms were gone. The mound centers were abandoned. Coosa had dissolved. In their place were new peoples: the confederacies that the English would call the **Creeks** (the Muscogee), the **Choctaws**, the **Chickasaws**, the **Cherokees**, and the **Catawbas**, built from the remnants of many older communities.

@@ -121,6 +121,8 @@ Coronado's men explored widely. A party under García López de Cárdenas became
 
 In 1541, led by a Plains Indian captive whom they called **the Turk**, who told them of a rich land called **Quivira**, Coronado marched east across the Plains—encountering bison-hunting peoples who lived in hide tents and used dogs to carry their loads—as far as central Kansas. Quivira proved to be a land of grass-house villages of the **Wichita** people. The Turk confessed that he had been asked by the people of Pecos Pueblo to lead the Spanish into the Plains and lose them there, so that they would die of hunger. The Spanish garroted him. In 1542, Coronado returned to Mexico in disgrace.
 
+![Coronado and the Pueblo world, 1539–1542](map:iah-110-coronado "Follow Esteban and Fray Marcos, then Coronado to Hawikku, the Grand Canyon, Tiguex, and Quivira.")
+
 ## Oñate and Acoma
 
 For half a century, the Spanish left the Pueblos alone. Then, in 1598, **Juan de Oñate**, a wealthy mining entrepreneur, led some five hundred colonists, with soldiers, Franciscan friars, and thousands of livestock, up the Rio Grande to found the colony of **New Mexico**. He summoned the leaders of the Pueblos and demanded that they swear obedience to the king of Spain and to the Christian God, ceremonies whose meaning they could hardly have understood.
