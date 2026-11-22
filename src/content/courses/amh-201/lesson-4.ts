@@ -147,6 +147,8 @@ When the deadline for removal passed in May 1838, only about 2,000 Cherokees had
 
 The other Southeastern nations suffered similar fates. The Choctaws were removed in 1831–33, in a winter journey that killed thousands; a Choctaw chief reportedly called it "a trail of tears and death." The Creeks, defrauded of their lands by speculators, were removed in 1836–37, many in chains after a brief uprising. The Chickasaws negotiated better terms but were removed in 1837. The **Seminoles** of Florida, joined by people of African descent who had escaped slavery, resisted in the **Second Seminole War** (1835–42), the longest and most expensive Indian war in American history; their leader Osceola was captured under a flag of truce. Some Seminoles were never removed. In the North, the Sauk and Fox under **Black Hawk**, who tried to return to their lands in Illinois in 1832, were massacred at the Bad Axe River. By the end of Jackson's presidency, his administration had negotiated about seventy removal treaties; by 1840 tens of thousands of Native people had been forced west of the Mississippi.
 
+![Indian Removal, 1830–1839](map:amh-201-indian-removal "Follow the Choctaws, Creeks, Chickasaws, and Cherokees west to Indian Territory, and find the Seminole war in Florida.")
+
 > **Pause and consider.** Jackson presented removal as benevolent. How did the Cherokees' own adoption of "civilization" complicate his argument?`,
     },
     {
