@@ -83,6 +83,8 @@ In **427 BCE**, civil war (**στάσις**) broke out in **Corcyra** between th
 
 Thucydides saw that the war had spread civil conflict throughout the Greek world, as each faction in each city could now call on Athens or Sparta for help, and that the result was a moral collapse in which even **language** lost its meaning.
 
+![The first years of the war](map:anh-101-peloponnesian-war#1 "Watch the war spread from Corcyra and Potidaea to Attica, the plague at Athens, and Mytilene.")
+
 ## Plataea
 
 In the same summer of 427, the small city of **Plataea**, Athens's oldest ally, which had fought beside the Athenians at Marathon, surrendered to the Spartans and Thebans after a two-year siege. Half of the garrison had already escaped over the siege walls on a dark and stormy night (3.20–24). The remaining defenders were put on trial before five Spartan judges, who asked each man a single question: had he done any good service to the Spartans and their allies in the present war? Each answered no, and each was put to death: some two hundred Plataeans and twenty-five Athenians. The city was razed (3.52–68). Thucydides notes that the Spartans acted to please the Thebans, whom they thought useful to them in the war. The Plataeans, in their speech, had appealed to their services in the Persian Wars and to the oaths sworn over the graves of the dead of 479; the appeal to the past, Thucydides suggests, counted for nothing against present interest. Mytilene and Plataea, told side by side, show both great powers learning the same hard lesson.
@@ -119,6 +121,8 @@ The Melians appeal to the Athenians' own **interest**: if they treat the weak ha
 
 The Melians refuse to surrender. The Athenians besiege the city. In the winter, Melos surrenders. "The Athenians put to death all the men of military age whom they took, and sold the women and children as slaves. They then colonized the place themselves, sending out five hundred settlers" (5.116).
 
+![From Pylos to Melos](map:anh-101-peloponnesian-war#2 "Find Pylos in the southwest, follow Brasidas north to Amphipolis, then find Melos in the Aegean.")
+
 ## Reading the Melian Dialogue
 
 The Melian Dialogue is the most famous statement of **political realism** in ancient literature: the view that relations between states are governed by power and interest, not by justice or morality. It has been quoted by statesmen and theorists for centuries, sometimes in approval, more often as a warning. What did Thucydides think? He does not comment. But he placed the dialogue immediately before his account of the **Sicilian Expedition**, in which Athens, swollen with confidence in its power, would meet its greatest disaster. Many readers have seen in this placement Thucydides's judgment: the city that told the Melians that hope is the refuge of the weak would soon stake everything on hope, and lose. The following year, Euripides produced the *Trojan Women*, a tragedy about the fate of a conquered city's women, which some readers have connected with the fate of Melos.
@@ -148,6 +152,8 @@ Just before the fleet sailed, a religious scandal shook Athens. One night, the *
 The expedition, now led by Nicias, besieged **Syracuse**. At first, it went well: the Athenians nearly completed a wall around the city. But in 414, on Alcibiades's advice, the Spartans sent a general, **Gylippus**, to organize the defense; he blocked the Athenian wall with a counter-wall. In 413, Athens sent a second great fleet under **Demosthenes**, the victor of Pylos. A night attack on the heights of **Epipolae**, above Syracuse, ended in confusion and disaster.
 
 Demosthenes urged a withdrawal while the fleet was still intact. Nicias hesitated. At last he agreed; but on the night they were to leave, there was an **eclipse of the moon** (August 27, 413 BCE). The soldiers, and Nicias himself, who was "too much given to divination and such things," took it as an omen, and the seers ordered them to wait "thrice nine days" (7.50). During the delay, the Syracusans blockaded the harbor. In a final battle in the Great Harbor, the Athenian fleet was destroyed.
+
+![The Sicilian Expedition](map:anh-101-peloponnesian-war#3 "Follow the great fleet from the Piraeus by Corcyra to Sicily, and the second fleet sent after it.")
 
 ## The retreat
 
@@ -194,6 +200,8 @@ In **406 BCE**, Athens won its last great victory, at the islands of **Arginusae
 ## Aegospotami
 
 In **405 BCE**, the Spartan admiral **Lysander**, funded by Cyrus, caught the Athenian fleet beached at **Aegospotami**, "Goat Rivers," on the Hellespont, while most of the crews were ashore foraging, and captured almost all of it, about 170 ships. He executed the Athenian prisoners, some three thousand men according to Plutarch (*Lysander* 13). Xenophon describes the news reaching Athens by night: "a cry of lamentation spread from the Piraeus up the Long Walls to the city, as one man told another; and that night no one slept" (*Hellenica* 2.2.3).
+
+![The fall of Athens](map:anh-101-peloponnesian-war#4 "Find Decelea in Attica, then follow Lysander to Aegospotami and back to the Piraeus.")
 
 ## Surrender
 
