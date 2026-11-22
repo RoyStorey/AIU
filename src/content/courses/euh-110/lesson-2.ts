@@ -241,6 +241,8 @@ From 1805 to 1812, Napoleon dominated Europe as no one had since Charlemagne. In
 
 In 1803, needing money and having lost Haiti, Napoleon sold the vast territory of **Louisiana** to the United States for $15 million, doubling the size of the young republic. "This accession of territory affirms forever the power of the United States," he remarked, "and I have just given England a maritime rival that sooner or later will lay low her pride."
 
+![Napoleon from Egypt to Jena](map:euh-110-napoleon#1-2 "Follow Bonaparte to Egypt and back to Paris, then across Europe to Austerlitz and Jena while Nelson rules the sea.")
+
 ## Nationalism and resistance
 
 Napoleon's conquests spread the principles of the Revolution—equality before the law, the abolition of feudalism, the Code—across Europe. But they also provoked resistance. In **Spain**, after Napoleon placed his brother Joseph on the throne in 1808, the Spanish people rose in a long and savage guerrilla war—the word ***guerrilla***, "little war," comes from it—supported by a British army under the duke of **Wellington**. The painter **Francisco Goya** recorded its atrocities in his etchings, ***The Disasters of War***, and in his painting ***The Third of May 1808***, which shows French soldiers executing Spanish civilians. In Germany, French occupation stirred a new **nationalism**, as writers such as the philosopher Johann Gottlieb Fichte, in his *Addresses to the German Nation* (1808), called on Germans to discover their national identity.
@@ -254,6 +256,8 @@ In **1812**, when Tsar Alexander I broke with the Continental System, Napoleon i
 Napoleon raised a new army, but in October 1813, at **Leipzig**, the "Battle of the Nations," the allied armies of Russia, Prussia, Austria, and Sweden defeated him. In 1814, the allies entered Paris. Napoleon abdicated and was exiled to the island of **Elba**, off the coast of Italy. The brother of Louis XVI was restored to the throne as Louis XVIII.
 
 In March 1815, Napoleon escaped from Elba and landed in France. The troops sent to arrest him went over to him, and he entered Paris in triumph, beginning the **Hundred Days**. On June 18, **1815**, at **Waterloo**, in Belgium, he was defeated by the British army under Wellington and the Prussian army under Marshal Blücher. Wellington called it "the nearest-run thing you ever saw in your life." Napoleon was exiled to the remote island of **St. Helena** in the South Atlantic, where he died in 1821, dictating memoirs that created the legend of a liberal emperor who had spread the Revolution's principles across Europe.
+
+![From Moscow to Waterloo](map:euh-110-napoleon#3-4 "Watch the Grande Armée march to Moscow and back, then Napoleon's last campaigns from Leipzig to Waterloo.")
 
 ## The verdict
 
