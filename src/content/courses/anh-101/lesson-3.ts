@@ -121,6 +121,8 @@ After the battle, the Persian fleet sailed around Cape Sounion toward Athens, ho
 
 The Spartans arrived the day after the battle, viewed the Persian dead, praised the Athenians, and went home.
 
+![The Ionian Revolt and Marathon](map:anh-101-persian-wars#1-2 "Follow the revolt to the burning of Sardis and its collapse at Lade, then the fleet of Datis across the islands to Marathon.")
+
 ## The meaning of Marathon
 
 Marathon became the founding legend of the Athenian democracy. For generations, the men who had fought there, the **Marathonomachai**, were honored as the heroes of the city, and the battle was celebrated in paintings, monuments, and speeches. Aeschylus, as you may remember from CLT 110, asked to be remembered on his epitaph only for having fought there. The victory showed that the new democracy, less than twenty years old, could defeat the army of the Great King, and it gave the Athenians a confidence that would shape their history for a century.
@@ -209,6 +211,8 @@ You may have read it in Greek in GRK 101.
 
 Meanwhile, at **Artemisium**, the Greek and Persian fleets fought three indecisive engagements over the same three days. A storm wrecked part of the Persian fleet off the coast of Euboea. When news came of the fall of Thermopylae, the Greek fleet withdrew south. The Athenian triremes, though inexperienced, had held their own against the Phoenician fleet, the best in the Persian navy, and gained confidence.
 
+![Xerxes's march, Thermopylae, and Artemisium](map:anh-101-persian-wars#3-4 "Watch Xerxes's army cross the Hellespont and march along the coast, then the stands at Thermopylae and Artemisium.")
+
 ## The meaning of Thermopylae
 
 Thermopylae was a **defeat**. The pass was lost, central Greece lay open, and the Persians marched on Athens. But it became, in Greek and later memory, one of the most famous battles in history, a symbol of **heroic sacrifice** for freedom, of the few against the many, of courage in the face of certain death. The image of the 300, combing their hair before battle and fighting to the last man, has inspired soldiers, poets, and filmmakers ever since.
@@ -256,6 +260,8 @@ In **479 BCE**, Mardonius reoccupied Athens and then withdrew to Boeotia, where 
 ## Mycale
 
 According to Herodotus, on the same day as Plataea, the Greek fleet attacked the remains of the Persian fleet at **Mycale**, on the coast of Asia Minor opposite Samos, burned the ships, and defeated the Persian army on land, with the help of the Ionian Greeks, who changed sides (9.90–106). The victory freed the Ionian cities from Persian rule, and marked the end of the Persian attempt to conquer Greece. The war now passed from defense to offense: in the following decades, the Greeks, led by Athens, carried the war into the Persian Empire.
+
+![Salamis, Plataea, and Mycale](map:anh-101-persian-wars#5-6 "Watch the fleets meet in the strait of Salamis, Xerxes march home, and the war end on both sides of the Aegean in 479.")
 
 ## Why the Persians lost
 
