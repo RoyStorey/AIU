@@ -85,6 +85,8 @@ On September 17, 1862, along Antietam Creek near Sharpsburg, Maryland, McClellan
 
 Antietam was a tactical draw but a strategic Union victory. Lee's invasion had been turned back. Britain and France, which had been considering mediation, drew back. And Lincoln, who had been waiting for a victory, used it to issue the preliminary Emancipation Proclamation. When McClellan again refused to pursue Lee, Lincoln removed him from command in November.
 
+![The East and the West, 1861–1862](map:amh-210-civil-war#1-2 "Watch the armies move between Washington and Richmond, then turn to the western rivers, Shiloh, and New Orleans.")
+
 ## Fredericksburg
 
 The year ended in disaster. In December 1862, McClellan's successor, Ambrose Burnside, attacked Lee's army entrenched on the heights behind **Fredericksburg**, Virginia. Wave after wave of Union soldiers charged up an open slope toward a stone wall at the base of Marye's Heights, where Confederate infantry cut them down. The Union lost about 12,600 men; the Confederates about 5,300. Watching the slaughter, Lee is said to have remarked, "It is well that war is so terrible, or we should grow too fond of it."
@@ -156,6 +158,8 @@ The three days at Gettysburg produced about 51,000 casualties, the largest battl
 On July 4, 1863, the day after Pickett's Charge, the Confederate fortress of **Vicksburg**, Mississippi, surrendered to Grant. Vicksburg, on high bluffs commanding the Mississippi, had resisted Union attacks for months. In the spring of 1863, Grant devised a daring plan. He marched his army down the west bank of the river, while Union gunboats ran past Vicksburg's batteries at night; crossed the river below the city; cut loose from his supply lines; marched inland, winning five battles in three weeks; and then turned west and besieged Vicksburg. After forty-seven days, with the city's soldiers and civilians starving and living in caves dug into the hillsides, the Confederate commander, John Pemberton, surrendered his army of about 30,000 men. Five days later, Port Hudson, Louisiana, the last Confederate stronghold on the river, surrendered.
 
 "The Father of Waters again goes unvexed to the sea," Lincoln wrote. The Confederacy was split in two, cut off from Texas, Arkansas, and Louisiana west of the river. Grant had proved himself the Union's best general.
+
+![The turning points of 1863](map:amh-210-civil-war#3 "Follow Lee north to Gettysburg and Grant around Vicksburg at the same time.")
 
 ## Chattanooga
 
@@ -243,6 +247,8 @@ Sherman then proposed a campaign that broke all the rules of war. Instead of pur
 In November 1864, Sherman's army of 62,000 men burned much of Atlanta and set out on the **March to the Sea**, cutting a swath of destruction some sixty miles wide. Soldiers and "bummers," foragers who roamed ahead of the army, seized food and livestock, tore up railroads, twisting the rails around trees into "Sherman's neckties," and burned barns, mills, and cotton gins. Thousands of enslaved people followed the army to freedom. On December 21, Sherman captured **Savannah** and offered it to Lincoln as a Christmas present. In the meantime, a Union army under George Thomas destroyed the Confederate Army of Tennessee at **Franklin** and **Nashville**.
 
 In early 1865 Sherman marched north through the Carolinas, his soldiers treating South Carolina, the cradle of secession, with special harshness; Columbia, its capital, burned in February, though who set the fires remains disputed. Historians have debated whether Sherman's campaigns constituted "total war," in the sense of indiscriminate war against civilians. Mark Neely and others have argued that Sherman's soldiers, though destructive of property, rarely killed civilians, and that the war remained far more restrained than the total wars of the twentieth century. But for those whose homes were burned and food taken, the distinction was thin.
+
+![The hard war, 1864–1865](map:amh-210-civil-war#4-5 "Watch Grant push south to Petersburg while Sherman takes Atlanta, marches to the sea, and turns north.")
 
 ## Appomattox
 
